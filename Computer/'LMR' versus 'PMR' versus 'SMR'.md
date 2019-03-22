@@ -1,4 +1,6 @@
-# LMR versus PMR versus SMR
+# 'LMR' versus 'PMR' versus 'SMR'
+
+### HDD (Hard Disk Drive)
 
 LMR(Longitudinal Magnetic Recording)
 
