@@ -1,3 +1,5 @@
+# LMR versus PMR versus SMR
+
 LMR(Longitudinal Magnetic Recording)
 
 PMR(Perpendicular Magnetic Recording) by Toshiba
