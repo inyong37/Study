@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # Author : Inyong Hwang
-# 2-3. Test
+# test
 
 import numpy as np
 import pickle
@@ -11,7 +11,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import os
 
-modelname = 'test_2'
+modelname = 'test'
+
+# https://drive.google.com/drive/folders/1_ZsX-pcucjUiLiKNRTdXYbaVVnGbyPUN?usp=sharing
 
 origin_dir = 'D:/dataset/KAGGLE/XRAY/PKL_64/'
 
