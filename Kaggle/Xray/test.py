@@ -139,9 +139,11 @@ if os.path.isdir('Output/' + str(modelname)):
 else:
     os.mkdir('Output/' + str(modelname))
 
+print('Model', modelname, 'Loss: ', eva[0], ', Accuracy: ', eva[1])
 plot_acc(fit)
 plot_loss(fit)
 csv_fit(fit)
 csv_eva(eva)
 model.save('Output/' + str(modelname) + '/model.h5')
 model.save_weights('Output/' + str(modelname) + '/weights.h5')
+print('Done!')
