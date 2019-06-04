@@ -5,10 +5,13 @@
 import numpy as np
 import pickle
 from keras.models import Model
-from keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout, SeparableConv2D, BatchNormalization
 from keras.optimizers import Adam
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+
+modelname = 'test_2'
 
 origin_dir = 'D:/dataset/KAGGLE/XRAY/PKL_64/'
 
@@ -38,11 +41,30 @@ def test_model():
     x = Conv2D(64, (3, 3), activation='relu', padding='same', name='Conv1_1')(i)
     x = Conv2D(64, (3, 3), activation='relu', padding='same', name='Conv1_2')(x)
     x = MaxPooling2D((2, 2), name='pool1')(x)
+
+    x = SeparableConv2D(128, (3, 3), activation='relu', padding='same', name='Conv2_1')(x)
+    x = SeparableConv2D(128, (3, 3), activation='relu', padding='same', name='Conv2_2')(x)
+    x = MaxPooling2D((2, 2), name='pool2')(x)
+
+    x = SeparableConv2D(256, (3, 3), activation='relu', padding='same', name='Conv3_1')(x)
+    x = BatchNormalization(name='bn1')(x)
+    x = SeparableConv2D(256, (3, 3), activation='relu', padding='same', name='Conv3_2')(x)
+    x = BatchNormalization(name='bn2')(x)
+    x = SeparableConv2D(256, (3, 3), activation='relu', padding='same', name='Conv3_3')(x)
+    x = MaxPooling2D((2, 2), name='pool3')(x)
+
+    x = SeparableConv2D(512, (3, 3), activation='relu', padding='same', name='Conv4_1')(x)
+    x = BatchNormalization(name='bn3')(x)
+    x = SeparableConv2D(512, (3, 3), activation='relu', padding='same', name='Conv4_2')(x)
+    x = BatchNormalization(name='bn4')(x)
+    x = SeparableConv2D(512, (3, 3), activation='relu', padding='same', name='Conv4_3')(x)
+    x = MaxPooling2D((2, 2), name='pool4')(x)
+
     x = Flatten(name='flatten')(x)
     # x = Dense(1024, activation='relu', name='fc1')(x)
     # x = Dropout(0.7, name='dropout1')(x)
     # x = Dense(512, activation='relu', name='fc2')(x)
-    # # x = Dropout(0.5, name='dropout2')(x)
+    # x = Dropout(0.5, name='dropout2')(x)
     y = Dense(2, activation='softmax', name='fc3')(x)
     model = Model(inputs=i, outputs=y)
     return model
@@ -52,9 +74,7 @@ model = test_model()
 model.summary()
 model.compile(loss='binary_crossentropy', metrics=['accuracy'], optimizer=Adam(lr=0.0001, decay=1e-5))
 fit = model.fit(x=train_image, y=train_label, epochs=100, batch_size=10, validation_data=(test_image, test_label), verbose=2)
-eva = model.evaluate(x=val_image, y=val_label, batch_size=10)
-
-modelname = 'test'
+eva = model.evaluate(x=val_image, y=val_label, batch_size=val_image.shape[0])
 
 
 def plot_loss(history):
@@ -66,7 +86,7 @@ def plot_loss(history):
     plt_loss.xlabel('Epoch')
     plt_loss.ylabel('Loss')
     plt_loss.legend(['Train', 'Test'], loc=0)
-    figure = 'OUTPUT/loss_' + str(modelname) + '.png'
+    figure = 'Output/' + str(modelname) + '/loss.png'
     plt_loss.savefig(figure, dpi=1080)
 
 
@@ -79,7 +99,7 @@ def plot_acc(history):
     plt_acc.xlabel('Epoch')
     plt_acc.ylabel('Accuracy')
     plt_acc.legend(['Train', 'Test'], loc=0)
-    figure = 'Output/accuracy_' + str(modelname) + '.png'
+    figure = 'Output/' + str(modelname) + '/accuracy.png'
     plt_acc.savefig(figure, dpi=1080)
 
 
@@ -97,7 +117,7 @@ def csv_fit(fit):
     train_result = np.array(train_result)
     train_result = train_result.reshape(train_result.shape[1], train_result.shape[0])
     train_result_file = pd.DataFrame(train_result)
-    train_result_file.to_csv('Output/csv_fit_' + str(modelname) + '.csv', header=train_result_label, index=False)
+    train_result_file.to_csv('Output/' + str(modelname) + '/csv_fit.csv', header=train_result_label, index=False)
 
 
 def csv_eva(eva):
@@ -109,12 +129,17 @@ def csv_eva(eva):
     test_result.append(test_acc)
     test_result = np.array(test_result)
     test_result_file = pd.DataFrame(test_result)
-    test_result_file.to_csv('Output/csv_eva_' + str(modelname) + '.csv', header=test_result_label, index=False)
+    test_result_file.to_csv('Output/' + str(modelname) + '/csv_eva.csv', header=test_result_label, index=False)
 
+
+if os.path.isdir('Output/' + str(modelname)):
+    pass
+else:
+    os.mkdir('Output/' + str(modelname))
 
 plot_acc(fit)
 plot_loss(fit)
 csv_fit(fit)
 csv_eva(eva)
-model.save('Output/models_ ' + str(modelname) + '.h5')
-model.save_weights('Output/weights_ ' + str(modelname) + '.h5')
+model.save('Output/' + str(modelname) + '/model.h5')
+model.save_weights('Output/' + str(modelname) + '/weights.h5')
