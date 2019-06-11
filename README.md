@@ -6,8 +6,8 @@
 ----------
 ### Book #1
 
-|Title|Category|CODE|URL|ETC|
-|-----|--------|----|---|---|
+|Title|Category|CODE|URL|ETC|DATE|
+|-----|--------|----|---|---|----|
 |밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP]()|
 |밑바닥부터 시작하는 딥러닝 2|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP]()|
 |코딩셰프의 3분 딥러닝, 케라스맛|Deep Learning & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP]()|
