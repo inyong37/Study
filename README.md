@@ -14,8 +14,7 @@
 |파이썬과 케라스로 배우는 강화학습|Reinforcement Learning & Keras|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/44136413)|
 |강화학습 첫걸음|Reinforcement Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/57617908)|
 |러닝 텐서플로|Deep Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/60506589)|
-|핸즈온 머신러닝|Machine Learning & Scikit-Learn & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/59878826)|
-
+|핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/59878826)|
 
 ----------
 ### Kaggle
