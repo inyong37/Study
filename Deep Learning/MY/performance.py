@@ -1,3 +1,7 @@
+# -*- coding:utf-8 -*-
+# Author: Inyong Hwang
+# Performance Module
+
 from keras import backend as k
 
 '''
@@ -7,6 +11,7 @@ k.clip(x=, min_value=, max_value=)
 k.round(x=)
 : Rounds x.
 '''
+
 '''
 # Table
 -----------------------------------------------------
@@ -18,6 +23,7 @@ k.round(x=)
 |          |Negative| False Negative|  True Negative|
 -----------------------------------------------------
 '''
+
 '''
 # Value
 True = True Positive + True Negative
@@ -44,6 +50,21 @@ F1 Score(F1 Measure)
 = (precision * recall) / (precision + recall)
 '''
 
+performance_table = '\
+-----------------------------------------------------\n\
+|                   |                          Real |\n\
+|                   ---------------------------------\n\
+|                   |      Positive |      Negative |\n\
+-----------------------------------------------------\n\
+|Prediction|Positive|  True Positive| False Positive|\n\
+|          |Negative| False Negative|  True Negative|\n\
+-----------------------------------------------------\n'
+
+
+def func_print():
+    print(performance_table)
+    return None
+
 
 def func_recall(y_target, y_pred):
     y_target = k.round(k.clip(y_target, 0, 1))
@@ -63,7 +84,7 @@ def func_precision(y_target, y_pred):
     return value
 
 
-def f1score(y_target, y_pred):
+def func_f1score(y_target, y_pred):
     _recall = func_recall(y_target, y_pred)
     _precision = func_precision(y_target, y_pred)
     value = (2 * _recall * _precision) / (_recall + _precision + k.epsilon())
