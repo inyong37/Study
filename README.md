@@ -27,6 +27,6 @@
 ### Kaggle
 |Title|URL|DATASET|
 |-----|---|-------|
-|TITANIC|||
+|TITANIC|[Competition](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)||
 |CELL|||
 |XRAY|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|
