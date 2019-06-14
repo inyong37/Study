@@ -6,52 +6,10 @@
 ----------
 ### Deep Learning
 #### TensorFlow
-- (ing...)
+- (ing......)
 
 #### Keras
-
-##### Optimizers
-
-- Parameters
-    - clipnorm=x: all parameter gradients clip to a maximum norm of x.
-    - clipvalue=x: all parameter gradients clip to a max value of x and min value of -x.
-     
-- SGD (Stochastic Gradient Descent)
- ```
- keras.optimizers.SGD(lr, momentum, decay, nesterov)
- ```
-    - Arguments
-        - lr: Learning rate, float >= 0.
-        - momentum: Parameter that accelerates SGD in the relevant direction and dampens oscillations, float >= 0.
-        - decay: Learning rate decay over each update, float >= 0.
-        - nesterov: Whether to apply Nesterov momentum, boolean.
-- RMSprop
-```
-keras.optimizers.RMSprop(lr, rho, epsilon, decay)
-```
-- Adagrad
-```
-keras.optimizers.Adagrad(lr, epsilon, decay)
-```
-- Adadelta
-```
-keras.optimizers.Adadelta(lr, rho, epsilon, decay=)
-```
-- Adam
-```
-keras.optimizers.Adam(lr, beta_1, beta_2, epsilon, decay, amsgrad)
-```
-- Adammax
-```
-keras.optimizers.Adamax(lr, beta_1, beta_2, epsilon, decay)
-```
-- Nadam
-
-```
-keras.optimizers.Nadam(lr, beta_1, beta_2, epsilon, schedule_decay)
-```
-         
-    
+- (ing......)
 
 #### Torch (PyTorch)
 - (ing...)
