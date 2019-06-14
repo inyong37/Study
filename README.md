@@ -27,28 +27,28 @@
         - nesterov: Whether to apply Nesterov momentum, boolean.
 - RMSprop
 ```
-keras.optimizers.RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
+keras.optimizers.RMSprop(lr, rho, epsilon, decay)
 ```
 - Adagrad
 ```
-keras.optimizers.Adagrad(lr=0.01, epsilon=None, decay=0.0)
+keras.optimizers.Adagrad(lr, epsilon, decay)
 ```
 - Adadelta
 ```
-keras.optimizers.Adadelta(lr=1.0, rho=0.95, epsilon=None, decay=0.0)
+keras.optimizers.Adadelta(lr, rho, epsilon, decay=)
 ```
 - Adam
 ```
-keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
+keras.optimizers.Adam(lr, beta_1, beta_2, epsilon, decay, amsgrad)
 ```
 - Adammax
 ```
-keras.optimizers.Adamax(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0)
+keras.optimizers.Adamax(lr, beta_1, beta_2, epsilon, decay)
 ```
 - Nadam
 
 ```
-keras.optimizers.Nadam(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, schedule_decay=0.004)
+keras.optimizers.Nadam(lr, beta_1, beta_2, epsilon, schedule_decay)
 ```
          
     
