@@ -4,16 +4,60 @@
 ###### Tensorflow 2017 Winter
 ###### Keras 2018 Spring
 ----------
-## Deep Learning
-### uo TensorFlow
+### Deep Learning
+#### TensorFlow
+- (ing...)
 
-### Keras
+#### Keras
 
-### Torch (PyTorch)
-(ing...)
+##### Optimizers
 
-### Caffe
-(ing...)
+- Parameters
+    - clipnorm=x: all parameter gradients clip to a maximum norm of x.
+    - clipvalue=x: all parameter gradients clip to a max value of x and min value of -x.
+     
+- SGD (Stochastic Gradient Descent)
+ ```
+ keras.optimizers.SGD(lr, momentum, decay, nesterov)
+ ```
+    - Arguments
+        - lr: Learning rate, float >= 0.
+        - momentum: Parameter that accelerates SGD in the relevant direction and dampens oscillations, float >= 0.
+        - decay: Learning rate decay over each update, float >= 0.
+        - nesterov: Whether to apply Nesterov momentum, boolean.
+- RMSprop
+```
+keras.optimizers.RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
+```
+- Adagrad
+```
+keras.optimizers.Adagrad(lr=0.01, epsilon=None, decay=0.0)
+```
+- Adadelta
+```
+keras.optimizers.Adadelta(lr=1.0, rho=0.95, epsilon=None, decay=0.0)
+```
+- Adam
+```
+keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
+```
+- Adammax
+```
+keras.optimizers.Adamax(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0)
+```
+- Nadam
+
+```
+keras.optimizers.Nadam(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, schedule_decay=0.004)
+```
+         
+    
+
+#### Torch (PyTorch)
+- (ing...)
+
+#### Caffe
+- (ing...)
 
 ----------
 ### Book #1
