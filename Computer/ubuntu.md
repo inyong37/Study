@@ -73,8 +73,7 @@ $ ctrl + x
 $ y
 $ chmod +x test.py
 ```
-Reference: https://www.youtube.com/watch?v=zwTnY-ZqNcM
-Reference: https://github.com/amroygaol/AR_Drone_Example_code
+Reference: https://www.youtube.com/watch?v=zwTnY-ZqNcM, https://github.com/amroygaol/AR_Drone_Example_code
 
 ## iii. Execute simulation and code
 ### Terminal 1
