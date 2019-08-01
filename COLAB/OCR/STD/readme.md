@@ -1,1 +1,0 @@
-# Study/COLAB/OCR/STD/
