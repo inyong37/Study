@@ -1,11 +1,26 @@
 # I. Study
-## i. Machine Learning
+## i. Machine Learning & Deep Learning
+밑바닥부터 시작하는 데이터과학
 
-## ii. Deep Learning
-### A. Tensorflow (January, 2017)
-### B. Keras (January, 2018)
-### C. Caffe (January, 2019)
-### D. PyTorch (July, 2019)
+밑바닥부터 시작하는 딥러닝
+
+인공지능, 머신러닝, 딥러닝 입문
+
+모두의 딥러닝
+
+파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
+
+러닝 텐서플로
+
+Deep Learning (Adaptive Computation and Machine Learning)
+
+Deep Learning with Python
+
+
+#### A. Tensorflow (January, 2017)
+#### B. Keras (January, 2018)
+#### C. Caffe (January, 2019)
+#### D. PyTorch (July, 2019)
 
 # II. Book
 ## i. Korean Books
@@ -28,6 +43,8 @@
 |Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition||[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|October 6, 2019|
 |Generative Adversarial Networks Cookbook: Over 100 recipes to build generative models using Python, TensorFlow, and Keras|||[AMAZON](https://www.amazon.com/gp/product/1789139902/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)|December 31, 2018|
 |Deep Learning with PyTorch: A practical approach to building neural network models using PyTorch|||[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|February 23, 2018|
+|Deep Learning (Adaptive Computation and Machine Learning)|||[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|November 18, 2016|
+|Deep Learning with Python 1st Edition|||[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|December 22, 2017|
 |Pattern Recognition and Machine Learning (Information Science and Statistics)|||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 |Introduction to Algorithms, 3rd Edition (The MIT Press) 3rd Edition|||[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|July 31, 2009|
 
