@@ -32,7 +32,6 @@
 |Deep Learning with PyTorch: A practical approach to building neural network models using PyTorch|||[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|February 23, 2018|
 |Deep Learning|[PDF](https://drive.google.com/open?id=1TiGx2WRewwhWd7rcTAoAv4vlFCOMc26I)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|November 18, 2016|
 |Deep Learning with Python|[PDF](https://drive.google.com/open?id=14JtNZVekXl3Z10olKujeIzaKIDYa-FIk)||[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|December 22, 2017|
-
 |Introduction to Algorithms (3rd Edition)|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)||[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|July 31, 2009|
 |Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 
