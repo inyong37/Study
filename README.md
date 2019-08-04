@@ -1,23 +1,5 @@
 # I. Study
 ## i. Machine Learning & Deep Learning
-
-밑바닥부터 시작하는 데이터과학
-
-밑바닥부터 시작하는 딥러닝
-
-인공지능, 머신러닝, 딥러닝 입문
-
-모두의 딥러닝
-
-파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
-
-러닝 텐서플로
-
-Deep Learning (Adaptive Computation and Machine Learning)
-
-Deep Learning with Python
-
-
 ##### A. Tensorflow (January, 2017) (Studying)
 ##### B. Keras (January, 2018) (Studying)
 ##### C. Caffe (January, 2019)
@@ -58,3 +40,20 @@ Deep Learning with Python
 |TITANIC|[Competition](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)||
 |CELL|||
 |XRAY|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|
+
+# IV. 
+밑바닥부터 시작하는 데이터과학
+
+밑바닥부터 시작하는 딥러닝
+
+인공지능, 머신러닝, 딥러닝 입문
+
+모두의 딥러닝
+
+파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
+
+러닝 텐서플로
+
+Deep Learning (Adaptive Computation and Machine Learning)
+
+Deep Learning with Python
