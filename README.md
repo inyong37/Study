@@ -1,24 +1,13 @@
-# Study
-###### Machine Learning (ML)
-###### Deep Learning (DL)
-###### Tensorflow 2017 Winter
-###### Keras 2018 Spring
-----------
-### Deep Learning
-#### TensorFlow
-- (ing......)
+# I. Study
+## i. Machine Learning
 
-#### Keras
-- (ing......)
+## ii. Deep Learning
+### A. Tensorflow (January, 2017)
+### B. Keras (January, 2018)
+### C. Caffe (January, 2019)
+### D. PyTorch (July, 2019)
 
-#### Torch (PyTorch)
-- (ing...)
-
-#### Caffe
-- (ing...)
-
-----------
-### Book #1
+# II. Korean Books
 |Title|Category|CODE|URL|ETC|DATE|
 |-----|--------|----|---|---|----|
 |밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|
@@ -29,7 +18,7 @@
 |러닝 텐서플로|Deep Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/60506589)|[ZIP]()|
 |핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|
 
-### Book #2
+# III. Books
 |Title|CODE|URL|URL|DATE|
 |-----|----|---|---|----|
 |ゼロから作る Deep Learning|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|
