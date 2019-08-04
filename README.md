@@ -1,5 +1,6 @@
 # I. Study
 ## i. Machine Learning & Deep Learning
+
 밑바닥부터 시작하는 데이터과학
 
 밑바닥부터 시작하는 딥러닝
@@ -17,10 +18,10 @@ Deep Learning (Adaptive Computation and Machine Learning)
 Deep Learning with Python
 
 
-#### A. Tensorflow (January, 2017) (Studying)
-#### B. Keras (January, 2018) (Studying)
-#### C. Caffe (January, 2019)
-#### D. PyTorch (July, 2019) (Studying)
+##### A. Tensorflow (January, 2017) (Studying)
+##### B. Keras (January, 2018) (Studying)
+##### C. Caffe (January, 2019)
+##### D. PyTorch (July, 2019) (Studying)
 
 # II. Book
 ## i. Korean Books
