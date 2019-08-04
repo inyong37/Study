@@ -41,6 +41,7 @@
 |CELL|||
 |XRAY|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|
 
+----------
 ###### 밑바닥부터 시작하는 데이터과학
 ###### 밑바닥부터 시작하는 딥러닝
 ###### 인공지능, 머신러닝, 딥러닝 입문
@@ -49,3 +50,13 @@
 ###### 러닝 텐서플로
 ###### Deep Learning (Adaptive Computation and Machine Learning)
 ###### Deep Learning with Python
+###### PYTORCH로 시작하는 딥러닝
+###### 실전 예제로 배우는 GAN
+----------
+###### 강화학습 첫걸음
+###### 파이썬과 케라스로 배우는 강화학습
+###### 코딩셰프의 3분 딥러닝 케라스맛
+###### 컴퓨터 비전과 딥러닝
+###### 밑바닥부터 시작하는 딥러닝 2
+###### 파이토치 첫걸음
+----------
