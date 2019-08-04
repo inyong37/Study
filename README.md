@@ -37,7 +37,8 @@
 |Hands-on Machine Learning with Scikit-Learn and TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)||
 |Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition||[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 |Generative Adversarial Networks Cookbook: Over 100 recipes to build generative models using Python, TensorFlow, and Keras|||[AMAZON](https://www.amazon.com/gp/product/1789139902/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)|December 31, 2018|
-|Deep Learning with PyTorch: A practical approach to building neural network models using PyTorch|||[Amazon](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|February 23, 2018|
+|Deep Learning with PyTorch: A practical approach to building neural network models using PyTorch|||[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|February 23, 2018|
+|Pattern Recognition and Machine Learning (Information Science and Statistics)|||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 
 ----------
 ### Kaggle
