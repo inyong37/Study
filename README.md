@@ -1,12 +1,12 @@
 # I. Study
 ## i. Machine Learning & Deep Learning
-##### A. Tensorflow (January, 2017) (Studying)
-##### B. Keras (January, 2018) (Studying)
-##### C. Caffe (January, 2019)
-##### D. PyTorch (July, 2019) (Studying)
+##### 1. Tensorflow (January, 2017) (Studying)
+##### 2. Keras (January, 2018) (Studying)
+##### 3. Caffe (January, 2019)
+##### 4. PyTorch (July, 2019) (Studying)
 
-# II. Book
-## i. Korean Books
+## ii. Book
+### A. Korean Books
 |Title|Category|CODE|URL|ETC|DATE|
 |-----|--------|----|---|---|----|
 |밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|
@@ -20,7 +20,7 @@
 |PyTorch로 시작하는 딥러닝|PyTorch||[YES24](http://www.yes24.com/Product/Goods/69335909)||-|
 |파이토치 첫걸음|PyTorch||[YES24](http://www.yes24.com/Product/Goods/72307730)||-|
 
-## ii. Original Books
+### B. Original Books
 |Title|CODE|URL|URL|DATE|
 |-----|----|---|---|----|
 |ゼロから作る Deep Learning|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|
@@ -34,12 +34,15 @@
 |Pattern Recognition and Machine Learning (Information Science and Statistics)|||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 |Introduction to Algorithms, 3rd Edition (The MIT Press) 3rd Edition|||[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|July 31, 2009|
 
-# III. Kaggle
+## iii. Kaggle
 |Title|URL|DATASET|
 |-----|---|-------|
 |TITANIC|[Competition](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)||
 |CELL|||
 |XRAY|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|
+
+## iv. COLAB
+[welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 
 ----------
 ###### 밑바닥부터 시작하는 데이터과학
