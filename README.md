@@ -52,7 +52,6 @@ Deep Learning with Python
 |Pattern Recognition and Machine Learning (Information Science and Statistics)|||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 |Introduction to Algorithms, 3rd Edition (The MIT Press) 3rd Edition|||[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|July 31, 2009|
 
-----------
 # III. Kaggle
 |Title|URL|DATASET|
 |-----|---|-------|
