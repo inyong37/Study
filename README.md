@@ -44,7 +44,6 @@
 ## iv. COLAB
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 
-## v. 소유한 
 ----------
 ###### 밑바닥부터 시작하는 데이터과학
 ###### 밑바닥부터 시작하는 딥러닝
