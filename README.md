@@ -33,6 +33,7 @@
 |Deep Learning with Python 1st Edition|||[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|December 22, 2017|
 |Pattern Recognition and Machine Learning (Information Science and Statistics)|||[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|April 6, 2011|
 |Introduction to Algorithms, 3rd Edition (The MIT Press) 3rd Edition|||[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|July 31, 2009|
+|PyTorchで学ぶニューラルネットワークと深層学習|[GITHUB](https://github.com/lucidfrontier45/PyTorch-Book)||[AMAZON.JP](https://www.amazon.co.jp/gp/product/B078WK5CPK)||
 
 ## iii. Kaggle
 |Title|URL|DATASET|
