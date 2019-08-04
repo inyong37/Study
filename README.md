@@ -18,7 +18,7 @@
 |핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|
 |실전 예제로 배우는 GAN|GAN & Keras||[YES24](http://www.yes24.com/Product/Goods/76640111)||-|
 |PyTorch로 시작하는 딥러닝|PyTorch||[YES24](http://www.yes24.com/Product/Goods/69335909)||-|
-|파이토치 첫걸음|PyTorch||[YES24](http://www.yes24.com/Product/Goods/72307730)||-|
+|파이토치 첫걸음|PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)||-|
 
 ### B. Original Books
 |Title|CODE|URL|URL|DATE|
