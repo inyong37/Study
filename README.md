@@ -34,6 +34,9 @@ Deep Learning with Python
 |강화학습 첫걸음|Reinforcement Learning & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|
 |러닝 텐서플로|Deep Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/60506589)|[ZIP]()|
 |핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|
+|실전 예제로 배우는 GAN|||[YES24](http://www.yes24.com/Product/Goods/76640111)||-|
+|PyTorch로 시작하는 딥러닝|||[YES24](http://www.yes24.com/Product/Goods/69335909)||-|
+|파이토치 첫걸음|||[YES24]9http://www.yes24.com/Product/Goods/72307730)||-|
 
 ## ii. Original Books
 |Title|CODE|URL|URL|DATE|
