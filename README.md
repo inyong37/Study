@@ -27,17 +27,17 @@
 
 ### A. Korean
 |Title|Category|CODE|URL|ETC|DATE|
-|-----|:------:|:--:|---|---|:--:|
-|밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|
-|밑바닥부터 시작하는 딥러닝 2|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|
-|코딩셰프의 3분 딥러닝, 케라스맛|Deep Learning & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|
-|파이썬과 케라스로 배우는 강화학습|Reinforcement Learning & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|
-|강화학습 첫걸음|Reinforcement Learning & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|
-|러닝 텐서플로|Deep Learning & TensorFlow|[GITHUB]()|[YES24](http://www.yes24.com/Product/Goods/60506589)|[ZIP]()|
-|핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|
+|-----|:------:|:--:|---|:-:|:--:|
+|밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
+|밑바닥부터 시작하는 딥러닝 2|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
+|코딩셰프의 3분 딥러닝, 케라스맛|Deep Learning & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
+|파이썬과 케라스로 배우는 강화학습|Reinforcement Learning & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
+|강화학습 첫걸음|Reinforcement Learning & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
+|러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
+|핸즈온 머신러닝|Machine Learning & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 |실전 예제로 배우는 GAN|GAN & Keras||[YES24](http://www.yes24.com/Product/Goods/76640111)||-|
 |PyTorch로 시작하는 딥러닝|PyTorch||[YES24](http://www.yes24.com/Product/Goods/69335909)||-|
-|파이토치 첫걸음|PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)||-|
+|파이토치 첫걸음|PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
 
 ## iii. Kaggle
 |Title|URL|DATASET|
