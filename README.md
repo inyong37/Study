@@ -40,11 +40,11 @@
 |파이토치 첫걸음|PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
 
 ## iii. Kaggle
-|Title|URL|DATASET|
-|-----|---|-------|
-|TITANIC|[Competition](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)||
-|CELL|||
-|XRAY|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|
+|Title|URL|DATASET|BYNAME|
+|:----|:-:|:-----:|-----:|
+|Titanic: Machine Learning from Disaster|[Competition](https://www.kaggle.com/c/titanic)|[Data](https://www.kaggle.com/c/titanic/data)|TITANIC|
+|Human Protein Atlas Image Classification|[Competition](https://www.kaggle.com/c/human-protein-atlas-image-classification)|[Data](https://www.kaggle.com/c/human-protein-atlas-image-classification/data)|PROTEIN|
+|Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
 
 ## iv. COLAB
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
