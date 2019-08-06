@@ -29,6 +29,7 @@
 ### C. Korean
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
+|Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
 |강화학습 첫걸음|Reinforcement Learning & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |밑바닥부터 시작하는 딥러닝|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
 |밑바닥부터 시작하는 딥러닝 2|Deep Learning & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
