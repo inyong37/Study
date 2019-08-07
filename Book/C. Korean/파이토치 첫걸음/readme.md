@@ -13,9 +13,19 @@ Chapter 2. 최대 우도 추정과 선형 모델 :heavy_check_mark:
 
 Chapter 3. 다층 퍼셉트론 :heavy_check_mark:
 
-Chapter 4. 이미지 처리와 합성곱 신경망 :heavy_check_mark:
+Chapter 4. 이미지 처리와 합성곱 신경망 :heavy_exclamation_mark:
 
-Chapter 5. 자연어 처리와 순환 신경망
+&nbsp; Chapter 4.2 CNN을 사용한 이미지 분류 :heavy_check_mark:
+
+&nbsp; Chapter 4.3 전이학습 :heavy_check_mark:
+
+&nbsp; Chapter 4.4 CNN 회귀 모델을 사용한 이미지 해상도 향상 :x: - BrokenPipeError
+
+&nbsp; Chapter 4.5 DCGAN을 사용한 이미지 생성 :heavy_check_mark:
+
+Chapter 5. 자연어 처리와 순환 신경망 :heavy_exclamation_mark:
+
+&nbsp; Chapter 5.3 RNN과 문장 분류 :x: - BrokenPipeError
 
 Chapter 6. 추천 시스템과 행렬 분해
 
