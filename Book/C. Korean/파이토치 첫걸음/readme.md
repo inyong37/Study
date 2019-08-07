@@ -13,7 +13,7 @@ Chapter 2. 최대 우도 추정과 선형 모델
 
 Chapter 3. 다층 퍼셉트론
 
-Chapter 4. 이미지 처리와 합성곱 신경망
+Chapter 4. 이미지 처리와 합성곱 신경망 :check:
 
 Chapter 5. 자연어 처리와 순환 신경망
 
