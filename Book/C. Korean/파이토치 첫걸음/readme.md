@@ -32,7 +32,7 @@ Chapter 5. 자연어 처리와 순환 신경망 :heavy_exclamation_mark:
 
 &nbsp; &nbsp; &nbsp; &nbsp; 5.4 RNN을 사용한 문장 생성 :construction:
 
-&nbsp; &nbsp; &nbsp; &nbsp; 5.5 인코더-디코더 모델을 사용한 기계 번역 :construction:
+&nbsp; &nbsp; &nbsp; &nbsp; 5.5 인코더-디코더 모델을 사용한 기계 번역 :x: - BrokenPipeError
 
 Chapter 6. 추천 시스템과 행렬 분해 :construction:
 
