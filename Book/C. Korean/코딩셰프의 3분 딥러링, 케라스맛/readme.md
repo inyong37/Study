@@ -9,9 +9,9 @@ September, 2018
 
 ### Content
 
-Chapter 0. 프롤로그
+Chapter 0. 프롤로그 :heavy_check_mark:
 
-Chapter 1. 케라스 시작하기
+Chapter 1. 케라스 시작하기 :heavy_check_mark:
 
 Chapter 2. 케라스로 구현하는 ANN(인공신경망) :heavy_check_mark:
 
