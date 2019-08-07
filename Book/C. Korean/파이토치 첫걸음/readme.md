@@ -5,15 +5,15 @@
 August, 2019
 
 ### Content
-Prologue. 개발환경 준비
+Prologue. 개발환경 준비 :heavy_check_mark:
 
-Chapter 1. 파이토치의 기본
+Chapter 1. 파이토치의 기본 :heavy_check_mark:
 
-Chapter 2. 최대 우도 추정과 선형 모델
+Chapter 2. 최대 우도 추정과 선형 모델 :heavy_check_mark:
 
-Chapter 3. 다층 퍼셉트론
+Chapter 3. 다층 퍼셉트론 :heavy_check_mark:
 
-Chapter 4. 이미지 처리와 합성곱 신경망 :check:
+Chapter 4. 이미지 처리와 합성곱 신경망 :heavy_check_mark:
 
 Chapter 5. 자연어 처리와 순환 신경망
 
