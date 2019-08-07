@@ -32,8 +32,16 @@ Chapter 5. 자연어 처리와 순환 신경망 :heavy_exclamation_mark:
 
 Chapter 6. 추천 시스템과 행렬 분해
 
-Chapter 7. 애플리케이션 적용
+Chapter 7. 애플리케이션 적용 :heavy_check_mark:
 
-Appendix A. 훈련 상태 가시화
+&nbsp; &nbsp; &nbsp; &nbsp; 7.1 모델 저장과 불러오기 :triangular_flag_on_post:
 
-Appendix B. 컬래버레터리로 파이토치 개발 환경 구축
+&nbsp; &nbsp; &nbsp; &nbsp; 7.2 플라스크를 사용한 웹 API화 :triangular_flag_on_post:
+
+&nbsp; &nbsp; &nbsp; &nbsp; 7.3 도커를 이용한 배포 :triangular_flag_on_post:
+
+&nbsp; &nbsp; &nbsp; &nbsp; 7.4 ONNX를 사용한 다른 프레임워크와의 연계 :triangular_flag_on_post:
+
+Appendix A. 훈련 상태 가시화 :heavy_check_mark:
+
+Appendix B. 컬래버레터리로 파이토치 개발 환경 구축 :heavy_check_mark:
