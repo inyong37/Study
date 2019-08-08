@@ -63,10 +63,14 @@ Natural Language Processing: NLP
 ### A. Book
 |TITLE|MATERIAL|URL|DATE|
 |:----|:------:|:-:|---:|
-|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
 |Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|
+|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
 |알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
+
+### B. Site
+#### a. [Hacker Rank](https://www.hackerrank.com/)
+#### b. [백준  알고리즘](https://www.acmicpc.net/)
 
 ----------
 ###### 밑바닥부터 시작하는 데이터과학
