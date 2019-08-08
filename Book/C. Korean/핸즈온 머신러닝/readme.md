@@ -26,7 +26,7 @@ Chapter 7. 앙상블 학습과 랜덤 포레스트
 
 Chapter 8. 차원 축소
 
-Part 2. 신경망과 딥러닝 :heavy_exclamation_mark:
+Part 2. 신경망과 딥러닝 :heavy_check_mark:
 
 Chapter 9장. 텐서플로 시작하기
 
