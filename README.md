@@ -6,9 +6,13 @@
 ##### 4. PyTorch (July, 2019) (Studying)
 ### Abbreviation
 Machine Learning: ML
+
 Deep Learning: DL
+
 Reinforcement Learning: RL
+
 Computer Vision: CV
+
 Natural Language Processing: NLP
 
 ## ii. Book
