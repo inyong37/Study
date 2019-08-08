@@ -8,22 +8,22 @@ October, 2018
 
 ### Content
 
-Chapter 1. 시작하기
+Chapter 1. 시작하기 :heavy_check_mark:
 
-Chapter 2. 이미지 분류
+Chapter 2. 이미지 분류 :heavy_check_mark:
 
-Chapter 3. 이미지 검색
+Chapter 3. 이미지 검색 :heavy_check_mark:
 
-Chapter 4. 객체 검출
+Chapter 4. 객체 검출 :heavy_check_mark:
 
-Chapter 5. 시맨틱 분할
+Chapter 5. 시맨틱 분할 :heavy_check_mark:
 
-Chapter 6. 유사도 학습
+Chapter 6. 유사도 학습 :construction:
 
-Chapter 7. 이미지 캡션 처리
+Chapter 7. 이미지 캡션 처리 :construction:
 
-Chapter 8. 생성 모델
+Chapter 8. 생성 모델 :construction:
 
-Chapter 9장. 동영상 분류
+Chapter 9장. 동영상 분류 :construction:
 
-Chapter 10. 배포
+Chapter 10. 배포 :heavy_check_mark:
