@@ -19,8 +19,8 @@ Natural Language Processing: NLP
 ### A. English
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
-|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|-|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
 |Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
+|Cracking the Coding Interview|-|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|
 |Deep Learning|[PDF](https://drive.google.com/open?id=1TiGx2WRewwhWd7rcTAoAv4vlFCOMc26I)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
 |Deep Learning with Python|[PDF](https://drive.google.com/open?id=14JtNZVekXl3Z10olKujeIzaKIDYa-FIk)|-|[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
 |Hands-on Machine Learning with Scikit-Learn and TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|-|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905538&s=books&sr=1-1)|-|
@@ -42,11 +42,11 @@ Natural Language Processing: NLP
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
 |강화학습 첫걸음|RL & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |밑바닥부터 시작하는 딥러닝|ML & DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
-|밑바닥부터 시작하는 딥러닝 2|DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
-|컴퓨터 비전과 딥러닝|Computer Vision|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
-|코딩셰프의 3분 딥러닝, 케라스맛|Deep Learning & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
-|파이썬과 케라스로 배우는 강화학습|Reinforcement Learning & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
-|파이토치 첫걸음|ML & DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
+|밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
+|컴퓨터 비전과 딥러닝|CV & TensorFlow & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
+|코딩셰프의 3분 딥러닝, 케라스맛|DL & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
+|파이썬과 케라스로 배우는 강화학습|RL & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
+|파이토치 첫걸음|DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
 |핸즈온 머신러닝|ML & DL & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 
@@ -85,3 +85,11 @@ Natural Language Processing: NLP
 |러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
 |실전 예제로 배우는 GAN|GAN & Keras|-|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|-|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
+
+## v. Algorithm
+### A. Book
+|Title|Material|URL|Date|
+|:----|:------:|:-:|---:|
+|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|2018|
+|코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
+|알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
