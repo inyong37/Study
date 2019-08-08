@@ -22,19 +22,19 @@ Chapter 4. 이미지 처리와 합성곱 신경망 :heavy_exclamation_mark:
 
 &nbsp; &nbsp; &nbsp; &nbsp; 4.3 전이학습 :heavy_check_mark:
 
-&nbsp; &nbsp; &nbsp; &nbsp; 4.4 CNN 회귀 모델을 사용한 이미지 해상도 향상 :x: - BrokenPipeError
+&nbsp; &nbsp; &nbsp; &nbsp; 4.4 CNN 회귀 모델을 사용한 이미지 해상도 향상 :construction: - BrokenPipeError/tensor dim
 
 &nbsp; &nbsp; &nbsp; &nbsp; 4.5 DCGAN을 사용한 이미지 생성 :heavy_check_mark:
 
 Chapter 5. 자연어 처리와 순환 신경망 :heavy_exclamation_mark:
 
-&nbsp; &nbsp; &nbsp; &nbsp; 5.3 RNN과 문장 분류 :construction:
+&nbsp; &nbsp; &nbsp; &nbsp; 5.3 RNN과 문장 분류 :construction: - BrokenPipeError/tensor dim
 
-&nbsp; &nbsp; &nbsp; &nbsp; 5.4 RNN을 사용한 문장 생성 :construction:
+&nbsp; &nbsp; &nbsp; &nbsp; 5.4 RNN을 사용한 문장 생성 :construction: - BrokenPipeError/tensor dim
 
-&nbsp; &nbsp; &nbsp; &nbsp; 5.5 인코더-디코더 모델을 사용한 기계 번역 :construction:
+&nbsp; &nbsp; &nbsp; &nbsp; 5.5 인코더-디코더 모델을 사용한 기계 번역 :construction: - BrokenPipeError/tensor dim
 
-Chapter 6. 추천 시스템과 행렬 분해 :construction:
+Chapter 6. 추천 시스템과 행렬 분해 :construction: - tensor size/dimenstion not matched
 
 Chapter 7. 애플리케이션 적용 :heavy_check_mark:
 
