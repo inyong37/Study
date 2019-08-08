@@ -59,6 +59,15 @@ Natural Language Processing: NLP
 ## iv. COLAB
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 
+## v. Algorithm
+### A. Book
+|TITLE|MATERIAL|URL|DATE|
+|:----|:------:|:-:|---:|
+|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
+|Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|
+|코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
+|알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
+
 ----------
 ###### 밑바닥부터 시작하는 데이터과학
 ###### 밑바닥부터 시작하는 딥러닝
@@ -84,12 +93,3 @@ Natural Language Processing: NLP
 |러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
 |실전 예제로 배우는 GAN|GAN & Keras|-|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|-|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
-
-## v. Algorithm
-### A. Book
-|Title|Material|URL|Date|
-|:----|:------:|:-:|---:|
-|Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
-|Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|
-|코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
-|알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
