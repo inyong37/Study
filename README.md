@@ -71,6 +71,7 @@ Natural Language Processing: NLP
 ### B. Site
 #### a. [Hacker Rank](https://www.hackerrank.com/)
 #### b. [백준  알고리즘](https://www.acmicpc.net/)
+#### c. [Samsung](https://swexpertacademy.com/main/main.do)
 
 ----------
 ###### 밑바닥부터 시작하는 데이터과학
