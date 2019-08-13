@@ -78,6 +78,8 @@ Natural Language Processing: NLP
 |Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
 
 ## iv. COLAB
+[Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
+
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 
 ## v. Algorithm
