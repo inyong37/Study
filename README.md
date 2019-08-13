@@ -25,17 +25,6 @@ Also about Computer Vision and Natural Language Processing.
 #### b. Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 #### c. 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
 
-### Abbreviation
-Machine Learning: ML
-
-Deep Learning: DL
-
-Reinforcement Learning: RL
-
-Computer Vision: CV
-
-Natural Language Processing: NLP
-
 ## ii. Book
 ### A. English
 |Title|MATERIAL|URL|URL|DATE|
@@ -57,6 +46,17 @@ Natural Language Processing: NLP
 |ゼロから作る Deep Learning 2|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-2)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873118369/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%B7%A8-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873118360)|-|
 
 ### C. Korean
+### Abbreviation
+Machine Learning: ML
+
+Deep Learning: DL
+
+Reinforcement Learning: RL
+
+Computer Vision: CV
+
+Natural Language Processing: NLP
+
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
@@ -121,3 +121,6 @@ Natural Language Processing: NLP
 |러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
 |실전 예제로 배우는 GAN|GAN & Keras|-|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|-|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
+----------
+# R
+[Download](http://cran.seoul.go.kr/)
