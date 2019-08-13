@@ -1,9 +1,27 @@
 # I. Study
-## i. Machine Learning & Deep Learning
-##### 1. Tensorflow (January, 2017) (Studying)
-##### 2. Keras (January, 2018) (Studying)
-##### 3. Caffe (January, 2019)
-##### 4. PyTorch (July, 2019) (Studying)
+about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language Processing".
+### Framework
+##### a. Tensorflow (January, 2017) (Studying) [tutorial](https://www.tensorflow.org/tutorials)
+##### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
+##### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
+##### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/), 
+##### e. PyTorch (July, 2019) (Studying) [tutorial](https://pytorch.org/tutorials/)
+
+## i. Lecture
+### A. Computer Vision
+#### a. cs231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
+#### b. cs231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
+### B. Natural Language Processing
+#### a. cs224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
+#### b. cs224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
+### C. Machine Learning 
+#### a. cs156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
+#### b. cs156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
+### D. Korean
+#### a. 모두를 위한 머신러닝/딥러닝 강의 [homepage](http://hunkim.github.io/ml/)
+#### b. Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
+#### c. 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
+
 ### Abbreviation
 Machine Learning: ML
 
