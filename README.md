@@ -119,7 +119,7 @@ Also about Computer Vision and Natural Language Processing.
 ----------
 ### Language
 #### C (Spring, 2012 ~ 2018) for lectures, and assignments.
-#### Matlab (Spring, 2014 ~ 2017) for lectures and assignments.
+#### Matlab (Spring, 2014 ~ 2017) for lectures, and assignments.
 #### JAVA (Autumn, 2015) for Eclipse, and Android.
 #### C++ with Arduino (Spring, 2015 ~)
 #### C# (Summer, 2016) for Unity 3D, and Oculus Rift.
