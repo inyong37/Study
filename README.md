@@ -1,5 +1,8 @@
 # I. Study
-about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language Processing".
+about Machine Learning and Deep Learning.
+
+Also about Computer Vision and Natural Language Processing.
+
 ### Framework
 #### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
 #### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
