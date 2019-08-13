@@ -4,7 +4,7 @@ about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language
 ##### a. Tensorflow (January, 2017) (Studying) [tutorial](https://www.tensorflow.org/tutorials)
 ##### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
 ##### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
-##### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/), 
+##### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
 ##### e. PyTorch (July, 2019) (Studying) [tutorial](https://pytorch.org/tutorials/)
 
 ## i. Lecture
