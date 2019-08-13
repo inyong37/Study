@@ -30,6 +30,7 @@ Deep Learning: DL
 Reinforcement Learning: RL
 
 Computer Vision: CV
+
 Natural Language Processing: NLP
 
 ## ii. Book
