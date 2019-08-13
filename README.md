@@ -117,5 +117,13 @@ Also about Computer Vision and Natural Language Processing.
 |실전 예제로 배우는 GAN|GAN & Keras|-|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|-|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
 ----------
-# R
-[Download](http://cran.seoul.go.kr/)
+### Language
+#### C (Spring, 2012 ~ 2018) for lectures, and assignments.
+#### Matlab (Spring, 2014 ~ 2017) for lectures and assignments.
+#### JAVA (Autumn, 2015) for Eclipse, and Android.
+#### C++ with Arduino (Spring, 2015 ~)
+#### C# (Summer, 2016) for Unity 3D, and Oculus Rift.
+#### Python (Spring, 2016 ~)
+#### R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar.
+#### C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe.
+
