@@ -1,11 +1,11 @@
 # I. Study
 about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language Processing".
 ### Framework
-#### a. Tensorflow (January, 2017) (Studying) [tutorial](https://www.tensorflow.org/tutorials)
+#### a. Tensorflow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
 #### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
 #### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
 #### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
-#### e. PyTorch (July, 2019) (Studying) [tutorial](https://pytorch.org/tutorials/)
+#### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
 
 ## i. Lecture
 ### A. Computer Vision
@@ -18,7 +18,7 @@ about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language
 #### a. cs156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
 #### b. cs156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
 ### D. Korean
-#### a. 모두를 위한 머신러닝/딥러닝 강의 [homepage](http://hunkim.github.io/ml/)
+#### a. 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
 #### b. Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 #### c. 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
 
