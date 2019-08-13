@@ -9,11 +9,11 @@ about "Machine Learning & Deep Learning" and "Computer Vision & Natural Language
 
 ## i. Lecture
 ### A. Computer Vision
-#### a. cs231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
-#### b. cs231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
+  #### a. cs231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
+  #### b. cs231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
 ### B. Natural Language Processing
-#### a. cs224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
-#### b. cs224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
+  #### a. cs224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
+  #### b. cs224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
 ### C. Machine Learning 
 #### a. cs156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
 #### b. cs156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
