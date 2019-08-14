@@ -87,29 +87,33 @@ Also about Computer Vision and Natural Language Processing.
 |알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
 
 ### B. Site
-#### a. [Hacker Rank](https://www.hackerrank.com/)
+#### a. Hacker Rank [Homepage](https://www.hackerrank.com/)
+##### Interview Preparation Kit: INTERVIEW PREPARATION [Page](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
+##### Problem Solving: PROBLEM SOLVING [Page](https://www.hackerrank.com/interview/interview-preparation-kit)
+##### 30 Days of Code: Tutorial [Page](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code)
+
 #### b. [백준  알고리즘](https://www.acmicpc.net/)
 #### c. [Samsung](https://swexpertacademy.com/main/main.do)
 
 ----------
-    ###### 밑바닥부터 시작하는 데이터과학
-    ###### 밑바닥부터 시작하는 딥러닝
-    ###### 인공지능, 머신러닝, 딥러닝 입문
-    ###### 모두의 딥러닝
-    ###### 파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
-    ###### 러닝 텐서플로
-    ###### Deep Learning (Adaptive Computation and Machine Learning)
-    ###### Deep Learning with Python
-    ###### PYTORCH로 시작하는 딥러닝
-    ###### 실전 예제로 배우는 GAN
+    밑바닥부터 시작하는 데이터과학
+    밑바닥부터 시작하는 딥러닝
+    인공지능, 머신러닝, 딥러닝 입문
+    모두의 딥러닝
+    파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
+    러닝 텐서플로
+    Deep Learning (Adaptive Computation and Machine Learning)
+    Deep Learning with Python
+    PYTORCH로 시작하는 딥러닝
+    실전 예제로 배우는 GAN
 ----------
-    ###### 강화학습 첫걸음
-    ###### 파이썬과 케라스로 배우는 강화학습
-    ###### 코딩셰프의 3분 딥러닝 케라스맛
-    ###### 컴퓨터 비전과 딥러닝
-    ###### 밑바닥부터 시작하는 딥러닝 2
-    ###### 핸즈온 머신러닝
-    ###### 파이토치 첫걸음
+    강화학습 첫걸음
+    파이썬과 케라스로 배우는 강화학습
+    코딩셰프의 3분 딥러닝 케라스맛
+    컴퓨터 비전과 딥러닝
+    밑바닥부터 시작하는 딥러닝 2
+    핸즈온 머신러닝
+    파이토치 첫걸음
 ----------
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
