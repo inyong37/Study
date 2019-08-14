@@ -86,14 +86,13 @@ Also about Computer Vision and Natural Language Processing.
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
 |알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
 
-### B. Site
-#### a. Hacker Rank [Homepage](https://www.hackerrank.com/)
-##### Interview Preparation Kit: INTERVIEW PREPARATION [Page](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
-##### Problem Solving: PROBLEM SOLVING [Page](https://www.hackerrank.com/interview/interview-preparation-kit)
-##### 30 Days of Code: Tutorial [Page](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code)
+### B. Hacker Rank [Homepage](https://www.hackerrank.com/)
+#### a. Problem Solving: PROBLEM SOLVING [Page](https://www.hackerrank.com/interview/interview-preparation-kit)
+#### b. 30 Days of Code: Tutorial [Page](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
+#### c. Interview Preparation Kit: INTERVIEW PREPARATION [Page](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-#### b. [백준  알고리즘](https://www.acmicpc.net/)
-#### c. [Samsung](https://swexpertacademy.com/main/main.do)
+### C. 백준 알고리즘 [Homepage](https://www.acmicpc.net/) (Not Yet)
+### D. 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) (Not Yet)
 
 ----------
     밑바닥부터 시작하는 데이터과학
