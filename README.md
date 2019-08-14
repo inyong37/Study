@@ -126,7 +126,7 @@ Also about Computer Vision and Natural Language Processing.
 #### JAVA (Autumn, 2015) for Eclipse, and Android.
 #### C++ with Arduino (Spring, 2015 ~)
 #### C# (Summer, 2016) for Unity 3D, and Oculus Rift.
-#### Python (Spring, 2016 ~)
-#### R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar.
-#### C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe.
+#### Python (Spring, 2016 ~) [Homepage](https://www.python.org/)
+#### R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar. 
+#### C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe. [Homepage](https://isocpp.org/)
 
