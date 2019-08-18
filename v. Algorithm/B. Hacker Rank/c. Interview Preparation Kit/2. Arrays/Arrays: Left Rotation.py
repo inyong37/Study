@@ -16,6 +16,7 @@ def rotLeft(a, d):
     output
     ra: rotated array
     '''
+    '''
     ra = a
     for i in range(0, len(a)):
         if i + d > len(a) - 1:
@@ -23,6 +24,8 @@ def rotLeft(a, d):
         else:
             ra[i] = a[i + d]
     return ra
+    '''
+    return a[d:] + a[:d]
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
