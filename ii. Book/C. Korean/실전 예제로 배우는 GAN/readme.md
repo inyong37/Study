@@ -1,8 +1,10 @@
 # 실전 예제로 배우는 GAN
-### 파이썬, 텐서플로, 케라스로 다양한 GAN 아키텍처를 구축하고 활용하기
+## 파이썬, 텐서플로, 케라스로 다양한 GAN 아키텍처를 구축하고 활용하기
 조시 칼린 저/박진수 역 | 위키북스 | 2019년 07월 24일 | [YES24](http://www.yes24.com/Product/Goods/76640111)
+
 ### Date
 August, 2019
+
 ### Content :construction:
 Chapter 1. 생성적 적대 신경망이란?
 
