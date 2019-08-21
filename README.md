@@ -1,14 +1,14 @@
 # I. Study
     about Machine Learning and Deep Learning.
     Also about Computer Vision and Natural Language Processing.
-
+----------
 ### Framework
 #### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
 #### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
 #### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
 #### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
 #### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
-
+----------
 ### Language
 #### C (Spring, 2012 ~ 2018) for lectures, and assignments.
 #### Matlab (Spring, 2014 ~ 2017) for lectures, and assignments.
@@ -18,7 +18,7 @@
 #### Python (Spring, 2016 ~) [Homepage](https://www.python.org/)
 #### R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar. 
 #### C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe. [Homepage](https://isocpp.org/)
-
+----------
 ## i. Lecture
 ### A. Computer Vision
 #### a. cs231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
