@@ -33,7 +33,7 @@
 #### a. 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
 #### b. Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 #### c. 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
-
+----------
 ## ii. Book
 ### A. English
 |Title|MATERIAL|URL|URL|DATE|
@@ -74,19 +74,19 @@
     Reinforcement Learning: RL
     Computer Vision: CV
     Natural Language Processing: NLP
-
+----------
 ## iii. Kaggle
 |Title|URL|DATASET|BYNAME|
 |:----|:-:|:-----:|-----:|
 |Titanic: Machine Learning from Disaster|[Competition](https://www.kaggle.com/c/titanic)|[Data](https://www.kaggle.com/c/titanic/data)|TITANIC|
 |Human Protein Atlas Image Classification|[Competition](https://www.kaggle.com/c/human-protein-atlas-image-classification)|[Data](https://www.kaggle.com/c/human-protein-atlas-image-classification/data)|PROTEIN|
 |Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
-
+----------
 ## iv. COLAB
 [Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
 
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
-
+----------
 ## v. Algorithm
 ### A. Book
 |TITLE|MATERIAL|URL|DATE|LANGUAGE|
@@ -107,7 +107,6 @@
 
 ### C. 백준 알고리즘 [Homepage](https://www.acmicpc.net/) (Not Yet)
 ### D. 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) (Not Yet)
-
 ----------
     밑바닥부터 시작하는 데이터과학
     밑바닥부터 시작하는 딥러닝
