@@ -81,7 +81,7 @@ Also about Computer Vision and Natural Language Processing.
 ## v. Algorithm
 ### A. Book
 |TITLE|MATERIAL|URL|DATE|LANGUAGE|
-|:----|:------:|:-:|:--:|
+|:----|:------:|:-:|:--:|:------:|
 |Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|CPP, JAVA|
 |Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|PSEUDO|
 |자료 구조|-|[YES24](http://www.yes24.com/Product/Goods/18930744)|2016|C|
