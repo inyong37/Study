@@ -84,7 +84,7 @@ Also about Computer Vision and Natural Language Processing.
 |:----|:------:|:-:|:--:|
 |Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|
 |Introduction to Algorithms|[PDF](https://drive.google.com/open?id=12tOapOOSc2dB8_E8lNCrr8ebwJqYV1wm)|[AMAZON](https://www.amazon.com/gp/product/0262033844/ref=ox_sc_act_title_4?smid=ATVPDKIKX0DER&psc=1)|-|
-|C언어로 쉽게 풀어쓴 자료구조|-|[YES24](http://www.yes24.com/Product/Goods/18930744)|2016|
+|자료 구조|-|[YES24](http://www.yes24.com/Product/Goods/18930744)|2016|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
 |알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
 |모두의 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/40443936)|-|
