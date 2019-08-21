@@ -10,14 +10,14 @@
 #### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
 
 ### Language
-#### C (Spring, 2012 ~ 2018) for lectures, and assignments.
-#### Matlab (Spring, 2014 ~ 2017) for lectures, and assignments.
-#### JAVA (Autumn, 2015) for Eclipse, and Android.
-#### C++ with Arduino (Spring, 2015 ~)
-#### C# (Summer, 2016) for Unity 3D, and Oculus Rift.
-#### Python (Spring, 2016 ~) [Homepage](https://www.python.org/)
-#### R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar. 
-#### C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe. [Homepage](https://isocpp.org/)
+    C (Spring, 2012 ~ 2018) for lectures, and assignments.
+    Matlab (Spring, 2014 ~ 2017) for lectures, and assignments.
+    JAVA (Autumn, 2015) for Eclipse, and Android.
+    C++ with Arduino (Spring, 2015 ~)
+    C# (Summer, 2016) for Unity 3D, and Oculus Rift.
+    Python (Spring, 2016 ~) [Homepage](https://www.python.org/)
+    R (Summer, 2017) [Download](http://cran.seoul.go.kr/) for Seminar. 
+    C++ (Winter, 2018) for DJI Tello, Intel NUC, MobileNetV2, and Caffe. [Homepage](https://isocpp.org/)
 
 ## i. Lecture
 ### A. Computer Vision
@@ -68,7 +68,12 @@
 |파이토치 첫걸음|DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
 |핸즈온 머신러닝|ML & DL & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
-
+### Abbreviation
+    Machine Learning: ML
+    Deep Learning: DL
+    Reinforcement Learning: RL
+    Computer Vision: CV
+    Natural Language Processing: NLP
 
 ## iii. Kaggle
 |Title|URL|DATASET|BYNAME|
@@ -128,10 +133,3 @@
 |러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
 ----------
-
-### Abbreviation
-    Machine Learning: ML
-    Deep Learning: DL
-    Reinforcement Learning: RL
-    Computer Vision: CV
-    Natural Language Processing: NLP
