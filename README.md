@@ -87,6 +87,9 @@ Also about Computer Vision and Natural Language Processing.
 |C언어로 쉽게 풀어쓴 자료구조|-|[YES24](http://www.yes24.com/Product/Goods/18930744)|2016|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|2018|
 |알고리즘 문제 해결 전략|-|[YES24](http://www.yes24.com/Product/Goods/8006522)|2019|
+|모두의 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/40443936)|-|
+|파이썬 자료구조와 알고리즘|-|[YES24](http://www.yes24.com/Product/Goods/74971408)|-|
+|필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|-|
 
 ### B. Hacker Rank [Homepage](https://www.hackerrank.com/)
 #### a. Problem Solving: PROBLEM SOLVING [Page](https://www.hackerrank.com/interview/interview-preparation-kit)
