@@ -85,7 +85,18 @@
 ## iv. COLAB
 ### A. Tutorial
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
-### B. with Keras
+### B. Google Drive
+#### a. import and attach
+```
+from google.colab import drive
+drive.mount('/content/drive/')
+```
+#### b. check directory
+```
+!ls '/content/drive/My Drive/'
+!ls '/content/drive/My Drive/PUBLIC/GITHUB/Study/Book/C. Korean/실전 예제로 배우는 GAN/'
+```
+### C. with Keras
 [Reference](https://yamalab.tistory.com/80)
 
 ----------
