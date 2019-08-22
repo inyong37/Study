@@ -83,9 +83,10 @@
 |Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
 ----------
 ## iv. COLAB
-[Colab](https://colab.research.google.com/notebooks/welcome.ipynb)
-
+### A. Tutorial
 [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
+### B. with Keras
+[Reference](https://yamalab.tistory.com/80)
 
 ----------
 ## v. Algorithm
