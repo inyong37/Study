@@ -121,7 +121,13 @@ drive.mount('/content/drive/')
 ### C. 백준 알고리즘 [Homepage](https://www.acmicpc.net/) (Not Yet)
 ### D. 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) (Not Yet)
 ----------
-## vi. Docker [Homepage](https://www.docker.com/)
+## vi. AWS
+### A. Create
+### B. Delete
+[Reference](https://brunch.co.kr/@topasvga/342)
+
+----------
+## vii. Docker [Homepage](https://www.docker.com/)
 ### A. Korean Tutorial
 [Reference 1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 
