@@ -125,6 +125,8 @@ drive.mount('/content/drive/')
 ### A. Create
 ### B. Delete
 [Reference](https://brunch.co.kr/@topasvga/342)
+### C. Alarm
+[Reference](https://brunch.co.kr/@topasvga/96)
 
 ----------
 ## vii. Docker [Homepage](https://www.docker.com/)
