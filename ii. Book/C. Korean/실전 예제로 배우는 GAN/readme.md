@@ -6,9 +6,9 @@
 August, 2019
 
 ### Content :construction:
-Chapter 1. 생성적 적대 신경망이란?
+Chapter 1. 생성적 적대 신경망이란? :heavy_check_mark:
 
-Chapter 2. 데이터 중심, 용이한 환경, 데이터 준비 
+Chapter 2. 데이터 중심, 용이한 환경, 데이터 준비 :heavy_check_mark:
 
 Chapter 3. 첫 번째 GAN을 100줄 이내로 만들기
 
