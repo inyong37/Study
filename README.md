@@ -121,7 +121,7 @@ drive.mount('/content/drive/')
 ### C. 백준 알고리즘 [Homepage](https://www.acmicpc.net/) (Not Yet)
 ### D. 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) (Not Yet)
 ----------
-## vi. AWS
+## vi. Amazon Web Services (AWS)
 ### A. Create
 ### B. Delete
 [Reference](https://brunch.co.kr/@topasvga/342)
