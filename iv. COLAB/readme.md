@@ -14,12 +14,6 @@ drive.mount('/content/drive/')
 !ls '/content/drive/My Drive/PUBLIC/GITHUB/Study/Book/C. Korean/실전 예제로 배우는 GAN/'
 ```
 
-```
-# -*- coding: utf-8 -*-
-# Author: Inyong Hwang (inyong1020@gmail.com)
-# Date: *-*-*-*
-# Code Explanation
-```
 ## III. Check Environment
 ### i. check development environment
 [IN]
@@ -182,3 +176,11 @@ tmpfs           6.4G     0  6.4G   0% /sys/firmware
 ```
 ## IV. Others
 Keras [Reference](https://yamalab.tistory.com/80)
+
+## V. Annotation
+```
+# -*- coding: utf-8 -*-
+# Author: Inyong Hwang (inyong1020@gmail.com)
+# Date: *-*-*-*
+# Code Explanation
+```
