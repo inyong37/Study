@@ -1,4 +1,18 @@
 # Colab
+## I. Tutorial
+[welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+## II. Google Drive
+### i. import and attach
+```
+from google.colab import drive
+drive.mount('/content/drive/')
+```
+### ii. check directory
+```
+!ls '/content/drive/My Drive/'
+!ls '/content/drive/My Drive/PUBLIC/GITHUB/Study/Book/C. Korean/실전 예제로 배우는 GAN/'
+```
 
 ```
 # -*- coding: utf-8 -*-
@@ -6,7 +20,8 @@
 # Date: *-*-*-*
 # Code Explanation
 ```
-## check development environment
+## III. Check Environment
+### i. check development environment
 [IN]
 ```
 import platform
@@ -28,7 +43,7 @@ Keras 2.2.4
 Using TensorFlow backend.
 Torch 1.1.0
 ```
-## check system environment
+### ii. check system environment
 [IN]
 ```
 !cat /etc/issue.net # os
@@ -165,3 +180,5 @@ tmpfs           6.4G   12K  6.4G   1% /var/colab
 shm             6.0G  4.0K  6.0G   1% /dev/shm
 tmpfs           6.4G     0  6.4G   0% /sys/firmware
 ```
+## IV. Others
+Keras [Reference](https://yamalab.tistory.com/80)
