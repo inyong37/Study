@@ -83,21 +83,11 @@
 |Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
 ----------
 ## iv. COLAB
-### A. Tutorial
-[welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
-### B. Google Drive
-#### a. import and attach
-```
-from google.colab import drive
-drive.mount('/content/drive/')
-```
-#### b. check directory
-```
-!ls '/content/drive/My Drive/'
-!ls '/content/drive/My Drive/PUBLIC/GITHUB/Study/Book/C. Korean/실전 예제로 배우는 GAN/'
-```
-### C. with Keras
-[Reference](https://yamalab.tistory.com/80)
+
+offical tutorial and explanation [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB/readme.md)
+
 
 ----------
 ## v. Algorithm
