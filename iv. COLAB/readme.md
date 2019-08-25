@@ -6,9 +6,9 @@
 # Date: *-*-*-*
 # Code Explanation
 ```
-check environment
+## check development environment
+[IN]
 ```
-IN
 import platform
 print(platform.platform())
 !python --version # python version
@@ -19,8 +19,8 @@ print('Keras', keras.__version__)
 import torch
 print('Torch', torch.__version__)
 ```
+[OUT]
 ```
-OUT
 Linux-4.14.79+-x86_64-with-Ubuntu-18.04-bionic
 Python 3.6.7
 TensorFlow 1.13.1
@@ -28,17 +28,17 @@ Keras 2.2.4
 Using TensorFlow backend.
 Torch 1.1.0
 ```
-
+## check system environment
+[IN]
 ```
-IN
 !cat /etc/issue.net # os
 !cat /proc/cpuinfo # cpu information
 !cat /proc/meminfo # memory information
 !nvidia-smi # gpu
 !df -h # storage
 ```
+[OUT]
 ```
-OUT
 Ubuntu 18.04.2 LTS
 processor	: 0
 vendor_id	: GenuineIntel
