@@ -5,7 +5,7 @@
 ### Date
 Autumn, 2019
 
-### Content
+### Content :construction:
 Part 1. 알고리즘 기초
 
 Chapter 1. 1부터 n까지의 합 구하기
