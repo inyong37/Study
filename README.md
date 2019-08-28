@@ -115,23 +115,21 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 (Not Yet)
 
 ----------
-## vi. Amazon Web Services (AWS)
-### A. Create
-### B. Delete
+## ETC
+### A. Amazon Web Services (AWS)
+
+#### a. Delete
 [Reference](https://brunch.co.kr/@topasvga/342)
-### C. Alarm
+
+#### b. Alarm for billing
 [Reference](https://brunch.co.kr/@topasvga/96)
 
-----------
-## vii. Docker [Homepage](https://www.docker.com/)
-### A. Korean Tutorial
-[Reference 1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
+### B. Docker [Homepage](https://www.docker.com/)
 
-[Reference 2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
+#### a. Korean Tutorial
+[1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 
-[Reference 3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
-
-### B. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
+### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ----------
     밑바닥부터 시작하는 데이터과학
