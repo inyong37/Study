@@ -16,7 +16,7 @@ drive.mount('/content/drive/')
 
 ## III. Check Environment
 ### i. check development environment
-[IN]
+[IN]:
 ```
 import platform
 print(platform.platform())
@@ -28,7 +28,7 @@ print('Keras', keras.__version__)
 import torch
 print('Torch', torch.__version__)
 ```
-[OUT]
+[OUT]:
 ```
 Linux-4.14.79+-x86_64-with-Ubuntu-18.04-bionic
 Python 3.6.7
@@ -38,7 +38,7 @@ Using TensorFlow backend.
 Torch 1.1.0
 ```
 ### ii. check system environment
-[IN]
+[IN]:
 ```
 !cat /etc/issue.net # os
 !cat /proc/cpuinfo # cpu information
@@ -46,7 +46,7 @@ Torch 1.1.0
 !nvidia-smi # gpu
 !df -h # storage
 ```
-[OUT]
+[OUT]:
 ```
 Ubuntu 18.04.2 LTS
 processor	: 0
