@@ -6,11 +6,11 @@
 Autumn, 2019
 
 ### Content :construction:
-Part 1. 알고리즘 기초
+Part 1. 알고리즘 기초 :heavy_check_mark:
 
-Chapter 1. 1부터 n까지의 합 구하기 :heavy_check_mark:
+Chapter 1. 1부터 n까지의 합 구하기
 
-Chapter 2. 최댓값 찾기 :heavy_check_mark:
+Chapter 2. 최댓값 찾기
 
 Chapter 3. 동명이인 찾기
 
