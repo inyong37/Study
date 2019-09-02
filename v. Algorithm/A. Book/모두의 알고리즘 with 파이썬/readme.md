@@ -14,7 +14,7 @@ Chapter 2. 최댓값 찾기
 
 Chapter 3. 동명이인 찾기
 
-Part 2. 재귀 호출
+Part 2. 재귀 호출 :heavy_check_mark:
 
 Chapter 4. 팩토리얼 구하기
 
