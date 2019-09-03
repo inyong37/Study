@@ -22,7 +22,7 @@ Chapter 5. 최대공약수 구하기
 
 Chapter 6. 하노이의 탑 옮기기
 
-Part 3. 탐색과 정렬
+Part 3. 탐색과 정렬 :heavy_check_mark:
 
 Chapter 7. 순차 탐색
 
