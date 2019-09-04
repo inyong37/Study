@@ -5,7 +5,7 @@
 ### Date
 Autumn, 2019
 
-### Content :construction:
+### Content
 Part 1. 알고리즘 기초 :heavy_check_mark:
 
 Chapter 1. 1부터 n까지의 합 구하기
@@ -44,7 +44,7 @@ Chapter 14. 동명이인 찾기
 
 Chapter 15. 친구의 친구 찾기
 
-Part 5. 응용문제
+Part 5. 응용문제 :heavy_check_mark:
 
 Chapter 16. 미로 찾기 알고리즘
 
