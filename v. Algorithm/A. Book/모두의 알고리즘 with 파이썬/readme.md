@@ -36,7 +36,7 @@ Chapter 11. 퀵 정렬
 
 Chapter 12. 이분 탐색
 
-Part 4. 자료구조
+Part 4. 자료구조 :heavy_check_mark:
 
 Chapter 13. 회문 찾기
 
