@@ -1,3 +1,8 @@
+# VPN (Virtual Private Network, 가상사설망)
+```
+네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
+```
+
 # ego-motion vs odometry
 ```
 both can be used interchangeably in general
