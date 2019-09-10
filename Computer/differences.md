@@ -9,7 +9,7 @@ https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg
 2) 초기화:GPT선택
 https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8
 
-3)포멧:NTFS선택하시고 allocation unit size:4096으로 선택해주시기 바랍니다.
+3) 포멧:NTFS선택하시고 allocation unit size:4096으로 선택해주시기 바랍니다.
 https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10
 
 # Resolution (해상도)
