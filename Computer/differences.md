@@ -12,6 +12,16 @@ https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8
 3) 포멧:NTFS선택하시고 allocation unit size:4096으로 선택해주시기 바랍니다.
 https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10
 
+# 'SLC' versus 'MLC' versus 'TLC' versus 'QLC'
+
+## SSD (Solid State Drive)
+```
+SLC (Single Level Cell)
+MLC (Multi Level Cell)
+TLC (Triple Level Cell)
+QLC (Quad Level Cell)
+```
+
 # Resolution (해상도)
 ```
 VGA: 640 * 480   (Video Graphics Array)
