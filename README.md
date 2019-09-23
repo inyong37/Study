@@ -105,22 +105,22 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
-### B. Hacker Rank [Homepage](https://www.hackerrank.com/) :heavy_exclamation_mark:
-#### a. Problem Solving: PROBLEM SOLVING [Page](https://www.hackerrank.com/interview/interview-preparation-kit)
-#### b. 30 Days of Code: Tutorial [Page](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
-#### c. Interview Preparation Kit: INTERVIEW PREPARATION [Page](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
+### B. [Hacker Rank](https://www.hackerrank.com/) :heavy_exclamation_mark:
+#### a. [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
+#### b. [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
+#### c. [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-### C. Codility [Homepage](https://app.codility.com/programmers/)
+### C. [Codility](https://app.codility.com/programmers/) :heavy_exclamation_mark:
 #### a. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
 #### b. [Challenges](https://app.codility.com/programmers/challenges/)
 
 ### 카카오 코딩테스트 :heavy_exclamation_mark:
-프로그래머스 [Homepage](https://programmers.co.kr/)
+[프로그래머스](https://programmers.co.kr/)
 
-### 백준 알고리즘 [Homepage](https://www.acmicpc.net/) :heavy_exclamation_mark:
+### [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
 (Not Yet)
 
-### 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
+### [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
 (Not Yet)
 
 ----------
