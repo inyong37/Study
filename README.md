@@ -110,14 +110,18 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 #### b. 30 Days of Code: Tutorial [Page](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
 #### c. Interview Preparation Kit: INTERVIEW PREPARATION [Page](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-### C. 백준 알고리즘 [Homepage](https://www.acmicpc.net/) :heavy_exclamation_mark:
-(Not Yet)
+### C. Codility [Homepage](https://app.codility.com/programmers/)
+#### a. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
+#### b. [Challenges](https://app.codility.com/programmers/challenges/)
 
-### D. 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
-(Not Yet)
-
-### E. 카카오 코딩테스트 :heavy_exclamation_mark:
+### 카카오 코딩테스트 :heavy_exclamation_mark:
 프로그래머스 [Homepage](https://programmers.co.kr/)
+
+### 백준 알고리즘 [Homepage](https://www.acmicpc.net/) :heavy_exclamation_mark:
+(Not Yet)
+
+### 삼성 SW expert academy [Homepage](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
+(Not Yet)
 
 ----------
 ## ETC
