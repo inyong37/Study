@@ -1,0 +1,10 @@
+# https://app.codility.com/demo/results/trainingX26ZAW-7FA/
+def solution(A, K):
+    n = K % len(A)
+    if n == 0:
+        return A
+    else:
+        RA = A[len(A) - n:]
+        del A[len(A) - n:]
+        RA.extend(A)
+        return RA
