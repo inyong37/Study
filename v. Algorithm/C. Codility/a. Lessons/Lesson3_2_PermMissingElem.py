@@ -29,3 +29,12 @@ def solution(A):
             else:
                 pass
     return A[-1] + 1
+
+# 100% https://app.codility.com/demo/results/trainingFQ5CS3-UEP/
+
+def solution(A):
+    A = sorted(A)
+    for i in range(0, len(A)):
+        if i + 1 != A[i]:
+            return i + 1
+    return len(A) + 1
