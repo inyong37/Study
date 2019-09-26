@@ -12,3 +12,15 @@ def solution(A):
         if value[i] == 0:
             return i + 1
     return result
+
+# 100% https://app.codility.com/demo/results/training6QF6JW-JMT/
+
+def solution(A):
+    if max(A) < 1:
+        return 1
+    else:
+        A = sorted(set([a for a in A if a > 0]))
+        for index, item in enumerate(A):
+            if index + 1 != item:
+                return index + 1
+        return A[-1] + 1
