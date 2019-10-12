@@ -37,6 +37,48 @@ def solution(A):
         result = []
         for j in range(0, N):
             if A[j] in C:
+                
                 result.append(A[j])
         results.append(len(result))
     return results
+
+# 100% https://app.codility.com/demo/results/trainingNH2ZFX-BN6/
+
+def solution(A):
+    a = max(A)
+    # make dictionary for elements and count each elements
+    cnt = {}
+    for ele in A:
+        # make element
+        if ele not in cnt:
+            cnt[ele] = 1
+        # count element
+        else:
+            cnt[ele] += 1
+    
+    # make dividor 1 and itself
+    div = {}
+    for ele in A:
+        div[ele] = set([1, ele])
+    
+    # sieve algorithm
+    # divisor
+    d = 2
+    while d * d <= a:
+        # candiate
+        can = d
+        # check duplicated candidate
+        while can <= a:
+            if can in div and not d in div[can]:
+                div[can].add(d)
+                div[can].add(can//d)
+                # print(can//d)
+            can += d
+        d += 1
+    
+    # pick result from substract dividor from A
+    result = [0] * len(A)
+    for idx, ele in enumerate(A):
+        result[idx] = (len(A) - sum([cnt.get(d, 0) for d in div[ele]]))
+        # print(sum(cnt.get(d, 0) for d in div[ele]))
+    return result
