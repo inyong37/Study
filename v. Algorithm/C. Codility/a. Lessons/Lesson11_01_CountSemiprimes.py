@@ -71,3 +71,33 @@ def solution(N, P, Q):
                 cnt += 1
         result.append(cnt)
     return result
+
+# 100% https://app.codility.com/demo/results/trainingR6AGKK-CKW/
+
+def solution(N, P, Q):
+    # init vars
+    M = len(P)
+    # filter for divided, 0 = not divided, 1 = divided
+    Filter = [0] * (N + 1)
+    # check prime from 2
+    i = 2
+    while i <= N:
+        if Filter[i] == 0:
+            k = i * i
+            while k <= N:
+                if Filter[k] == 0:
+                    Filter[k] = i
+                k += i
+        i += 1
+    
+    cnt = 0
+    semi_cnt = [0, 0, 0, 0]
+    for i in range(4, N + 1):
+        if Filter[i] != 0 and Filter[i//Filter[i]] == 0:
+            cnt += 1
+        semi_cnt.append(cnt)
+    
+    sol = []
+    for i in range(M):
+        sol.append(semi_cnt[Q[i]] - semi_cnt[P[i]-1])
+    return sol
