@@ -44,4 +44,30 @@ def solution(N, P, Q):
         result.append(prefix[Q[i]] - prefix[P[i]-1])
         
     return result
-            
+
+# 66% https://app.codility.com/demo/results/trainingHMBPZJ-ZSB/
+
+import math
+
+def check_semiprime(n):
+    cnt = 0
+    for i in range(2, int(math.sqrt(n)) + 1):
+        while n % i == 0:
+            n /= i
+            cnt += 1
+        if cnt >= 2:
+            break
+    if n > 1:
+        cnt += 1
+    return cnt == 2
+
+def solution(N, P, Q):
+    M = len(P)
+    result = []
+    for i in range(0, M):
+        cnt = 0
+        for j in range(P[i], Q[i] + 1):
+            if check_semiprime(j):
+                cnt += 1
+        result.append(cnt)
+    return result
