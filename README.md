@@ -140,6 +140,30 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 
 ### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
 
+### Version Check
+Python, CUDA
+```
+> python --versioin
+> nvcc --version
+```
+TensorFlow, Keras, PyTorch, OpenCV
+```
+import tensorflow; tensorflow.__version__
+import keras; keras.__version__
+import torch; torch.__vrtsion__
+import cv2; cv2.__version__
+```
+CuDNN
+nano ~/CUDA/include/cudnn.h
+```
+#define CUDNN_MAJOR 7
+#define CUDNN_MINOR 4
+#define CUDNN_PATCHLEVEL 2
+
+#define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
+```
+
+
 ----------
     밑바닥부터 시작하는 데이터과학
     밑바닥부터 시작하는 딥러닝
