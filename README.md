@@ -138,7 +138,7 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 #### a. Korean Tutorial
 [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 
-### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
+#### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### Version Check
 Python, CUDA
@@ -163,6 +163,12 @@ nano ~/CUDA/include/cudnn.h
 #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 ```
 
+### Virtual Environment
+#### a. Virtual Box
+[Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
+
+#### b. VMware
+[Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
 ----------
     밑바닥부터 시작하는 데이터과학
