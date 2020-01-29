@@ -1,4 +1,0 @@
-> Anaconda Prompt (관리자 권한으로 실행)
-> activate "가상환경"
-> pip install h5py
-> exit()
