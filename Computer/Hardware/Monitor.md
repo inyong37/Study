@@ -4,7 +4,7 @@
 
 ### Monitor
 
-#### Resolution (해상도)
+### Resolution (해상도)
 ```
 VGA: 640 * 480   (Video Graphics Array)
 HD : 1280 * 720  (High Definition)
