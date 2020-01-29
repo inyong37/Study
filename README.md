@@ -1,6 +1,8 @@
 # I. Study
-    about Machine Learning and Deep Learning.
-    Also about Computer Vision and Natural Language Processing.
+```
+This repository is about studies by myself.
+Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
+```
 ----------
 ### Framework
 #### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
