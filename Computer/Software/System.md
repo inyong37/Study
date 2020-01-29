@@ -1,6 +1,8 @@
-# 'Program Files' versus 'Program Files (x86)'
+# System
 
-## 'Program Files' 에는 64-bit program 이, 'Program Files (x86)' 에는 32-bit program 들이 나눠서 설치된다.
+## 'Program Files' versus 'Program Files (x86)'
+
+### 'Program Files' 에는 64-bit program 이, 'Program Files (x86)' 에는 32-bit program 들이 나눠서 설치된다.
 ```
 옛날 컴퓨터는 Intel 의 8086 칩을 사용했는데 처음에는 16-bit 였고 그 이후 32-bit 가 되었다.
 따라서 16-bit와 32-bit는 x86 이라 불리고 64-bit 는 x64 라 불린다.
