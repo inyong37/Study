@@ -4,9 +4,9 @@
 
 ### Storage
 
-#### HDD (Hard Disk Drive)
+### HDD (Hard Disk Drive)
 
-##### 'LMR' versus 'PMR' versus 'SMR'
+#### 'LMR' versus 'PMR' versus 'SMR'
 ```
 LMR(Longitudinal Magnetic Recording)
 PMR(Perpendicular Magnetic Recording) by Toshiba
@@ -23,9 +23,9 @@ Record all platters as zero.
 
 3) Format: NTFS선택하시고 allocation unit size:4096으로 선택 [about](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
 
-#### SSD (Solid State Drive)
+### SSD (Solid State Drive)
 
-##### 'SLC' versus 'MLC' versus 'TLC' versus 'QLC'
+#### 'SLC' versus 'MLC' versus 'TLC' versus 'QLC'
 ```
 SLC (Single Level Cell)
 MLC (Multi Level Cell)
