@@ -3,6 +3,12 @@
 This page is about text editor.
 ```
 
+## Atom [Homepage](ttps://atom.io/)
+
+## Sublime Text 3 [Homepage](https://www.sublimetext.com/)
+
+## Visual Studio Code [Homepage](https://code.visualstudio.com/)
+
 ## Notepad (메모장)
 ```
 Notepad is basic text editor in Windows.
