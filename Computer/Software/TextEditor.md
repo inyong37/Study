@@ -3,7 +3,7 @@
 This page is about text editor.
 ```
 
-## Atom [Homepage](ttps://atom.io/)
+## Atom [Homepage](https://atom.io/)
 
 ## Sublime Text 3 [Homepage](https://www.sublimetext.com/)
 
