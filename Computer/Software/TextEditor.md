@@ -8,6 +8,9 @@ This page is about text editor.
 ## Sublime Text 3 [Homepage](https://www.sublimetext.com/)
 
 ## Visual Studio Code [Homepage](https://code.visualstudio.com/)
+```
+Microsoft
+```
 
 ## Notepad (메모장)
 ```
