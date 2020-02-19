@@ -39,7 +39,9 @@ Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotec
 |Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow|-|[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|-|
 |Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
 |The C Programming Language 2nd Edition|-|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
-|The C++ Programming Language 4th Edition|-|[Homepage](http://www.cplusplus.com/)|[AMAZON](https://www.amazon.com/dp/0321958322/?coliid=IQTLHMIYMJIOR&colid=3DGQ02RJ0O8QW&psc=1&ref_=lv_ov_lig_dp_it)|-|
+|The C++ Programming Language 4th Edition|-|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|-|
+|A Tour of C++ 2nd Edition|-|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
+|Programming: Principles and Practice Using C++, 2nd Edition|-|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
 
 ### B. Japanese
 |Title|MATERIAL|URL|URL|DATE|
