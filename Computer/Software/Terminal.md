@@ -14,3 +14,13 @@ This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 ```
 
 [Reference](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
+
+### Changing Font
+- 나눔고딕코드.exe 설치
+- enter `win` + `R` and search `regedit`
+- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Console\TureTypeFont
+- click `949` and change `*굴림체` to `*나눔고딕코딩`
+- open `PowerShell` and enter `alt` + `D`or enter `default setting`
+- change font to `나눔고딕코딩`
+
+[Reference](https://www.delmaster.net/149)
