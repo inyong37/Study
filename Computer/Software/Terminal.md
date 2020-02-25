@@ -8,6 +8,9 @@ This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 ### Power Shell
 
 ### Color Tool:Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
+
+[Download](https://github.com/microsoft/terminal/releases/tag/1904.29002) version `Color Tool April 2019`
+
 ```
 .\ColorTool.exe -s
 .\ColorTool.exe solarized_dark.itermcolors
