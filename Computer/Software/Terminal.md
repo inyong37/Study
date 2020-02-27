@@ -49,8 +49,8 @@ $ tmux attach -t SessionName # restart
 $ 'prefix' + d # pause session
 $ 'prefix' + t # time
 $ 'prefix' + c # create a window
-$ 'prefix' + % # split pane 1
-$ 'prefix' + # # split pane 2
+$ 'prefix' + % # split pane vertical
+$ 'prefix' + " # split pane horizontal
 $ 'prefix' + 'rudder' # move to each direction pane
 $ 'prefix' + q # move to q number pane
 $ 'prefix' + o # move to pane by order
