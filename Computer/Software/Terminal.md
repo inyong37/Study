@@ -29,6 +29,9 @@ This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 [Reference](https://www.delmaster.net/149)
 
 ## Unix/Linux
+- get a root right `su`
+- check `whoami`
+- get out a root right `exit`
 
 ### Tmux
 ```
