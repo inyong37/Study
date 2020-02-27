@@ -32,7 +32,7 @@ This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 
 ### Tmux
 ```
-Tmux is application that can access/process multi terminal/process/session -s.
+Tmux is an application that can access/process multi terminal/process/session -s.
 Tmux consists of session, window, and pane.
 ```
 - Session: base unit, consists of several windows, kind of a project
