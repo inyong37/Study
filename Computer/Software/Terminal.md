@@ -59,6 +59,8 @@ $ 'prefix' + q # move to q number pane
 $ 'prefix' + o # move to pane by order
 $ 'prefix' + d # delete pane 
 $ 'prefix' + alt + 'rudder' # modulate size of pane
+$ 'prefix' + [ + 'up/down arrow' or 'page up/down' # Scroll up/down
 ```
 
 [Reference](https://seulcode.tistory.com/144)
+[Reference](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
