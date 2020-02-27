@@ -63,4 +63,5 @@ $ 'prefix' + [ + 'up/down arrow' or 'page up/down' # Scroll up/down
 ```
 
 [Reference](https://seulcode.tistory.com/144)
+
 [Reference](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
