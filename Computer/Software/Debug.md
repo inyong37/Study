@@ -12,3 +12,4 @@
 - Up `up`
 - Down `down`
 - Fin `fin`
+- Quit `quit`
