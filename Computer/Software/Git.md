@@ -7,6 +7,7 @@ This page is about Git and it's tools.
 ## GitLab
 
 ## [Git Tutorial Game](https://learngitbranching.js.org/)
+- See tutorials `levels`
 
 ### 1-1 `level intro1`
 - resolving deltas
@@ -98,26 +99,26 @@ git checkyout master; git cherry-pick C2; git branch -f master HEAD^; git cherry
 ### 4-4 `level mixed4`
 - `git tag v1 C1`
 ```
-git tag v0 C1; git tag v1 C2; git checkout v1
+git tag v0 C1; git tag v1 C2; git checkout v1; 
 ```
 
 ### 4-5 `level mixed5`
-- `git describe <ref>`, `tag`: the nearest (parnet) tag, `numCommits`: distance from tag, '<hash>`: commit hash
+- `git describe <ref>`, `tag`: the nearest (parnet) tag, `numCommits`: distance from tag, `<hash>`: commit hash
 ```
-git describe master; git describe side; git describe bugFix
+git describe master; git describe side; git describe bugFix; git commit
 ```
 
-### 5-1
+### 5-1 `level advanced1`
+```
+git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; git checkout side; git rebase master side; git checkout master; git rebase side; git checkout another; git rebase master anotherl git checkout master; git rebase another
+```
+
+### 5-2 `level advanced2`
 -
 ```
 ```
 
-### 5-2
--
-```
-```
-
-### 5-3
+### 5-3 `level advanced3`
 -
 ```
 ```
