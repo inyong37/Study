@@ -158,16 +158,22 @@ git fetch
 git pull
 ```
 #### e. `level remote5`
--
+- `git fakeTeamwork foo 3` = 3 commits push to remote
 ```
+git clone; git fakeTeamwork master 2; git fetch; git commit; git merge
+git clone; git fakeTeamwork master 2; git commit; git pull;
 ```
 #### f. `level remote6`
--
+- `git push`, `push default`
 ```
+git commit; git commit; git push
 ```
 #### g. `level remote7`
--
+- `git fetch; git rebase o/master; git push`
+- + `git fetch; git merge o/master; git push`
+- = `git pull --rebase; git push` = `git pull; git push`
 ```
+git clone; git fakeTeamwork; git commit; git pull --rebase; git push
 ```
 #### h. `level remote8`
 -
