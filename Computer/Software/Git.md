@@ -8,28 +8,54 @@ This page is about Git and it's tools.
 
 ## [Git Tutorial Game](https://learngitbranching.js.org/)
 
-### 1-1
-### 1-2
-### 1-3
-### 1-4
+### 1-1 `level intro1`
+- resolving deltas
+- `git commit`
+```
+git commit; git commit
+```
+
+### 1-2 `level intro2`
+- `git branch newImage`
+- `git checkout newImage; git commit`
+```
+git branch bugFix; git checkout bugFix
+```
+
+### 1-3 `level intro3`
+- `git merge bugFix`
+```
+git branch bugFix; git checkout bugFix; git commit; git checkout master; git commit; git merge bugFix
+```
+
+### 1-4 `level intro4`
+- `git rebase master`
+```
+git branch bugFix; git checkout bugFix; git commit; git checkout master; git commit; git checkout bugFix; git rebase master
+```
+
 ### 2-1 `level rampup1`
+-
+```
+```
+
 ### 2-2 `level rampup2`
+-
+```
+```
+
 ### 2-3 `level rampup3`
 - `git checkout HEAD~4`
 - `git branch -f master HEAD~3`
 ```
-git branch -f master C6
-git checkout HEAD^
-git branch -f bugFix HEAD~1
+git branch -f master C6; git checkout HEAD^; git branch -f bugFix HEAD~1
 ```
 
 ### 2-4 `level rampup4`
 - `git reset HEAD~1`: local
 - `git revert HEAD`
 ```
-git reset local^
-git checkout pushed
-git revert pushed
+git reset local^; git checkout pushed; git revert pushed
 ```
 
 ### 3-1 `level move1`
@@ -43,21 +69,39 @@ git cherry-pick C3 C4 C7
 - mouse drag & drop, `pick`, and squash
 - `undo`, `reset`
 ```
-git rebase -i HEAD~4
-# omit C2, change C4 and C5
+git rebase -i HEAD~4; # omit C2, change C4 and C5
 ```
 ### 4-1 `level mixed1`
 - `git cherry-pick`
 - `git rebase -i`
 ```
-git checkout master
-git cherry-pick C4
+git checkout master; git cherry-pick C4
 ```
 ### 4-1 `level mixed1`
+-
+```
+```
+
 ### 4-2 `level mixed2`
+-
+```
+```
+
 ### 4-3 `level mixed3`
+-
+```
+```
+
 ### 4-4 `level mixed4`
+-
+```
+```
+
 ### 4-5 `level mixed5`
+-
+```
+```
+
 ### 5-1
 ### 5-2
 ### 5-3
