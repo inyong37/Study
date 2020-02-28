@@ -147,12 +147,15 @@ git commit; git checkout o/master; git commit
 ```
 #### c. `level remote3`
 - `git fetch`: remote repository/storage -> local repository/storage
+- Protocol: `http://`, `git://`
 ```
-
+git fetch
 ```
 #### d. `level remote4`
--
+- `git pull` = `git fetch` + `git merge`
+- `git cherry-pick o/master` = `git rebase o/master` = `git merge o/master`
 ```
+git pull
 ```
 #### e. `level remote5`
 -
