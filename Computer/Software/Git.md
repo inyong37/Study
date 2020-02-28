@@ -9,6 +9,7 @@ This page is about Git and it's tools.
 ## [Git Tutorial Game](https://learngitbranching.js.org/)
 - See tutorials `levels`
 
+### Local
 ### 1-1 `level intro1`
 - resolving deltas
 - `git commit`
@@ -109,8 +110,13 @@ git describe master; git describe side; git describe bugFix; git commit
 ```
 
 ### 5-1 `level advanced1`
+#### My Solution
 ```
 git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; git checkout side; git rebase master side; git checkout master; git rebase side; git checkout another; git rebase master anotherl git checkout master; git rebase another
+```
+#### Solution
+```
+git rebase master bugFix; git rebase bugFix side; git rebase side another; git rebase another master
 ```
 
 ### 5-2 `level advanced2`
@@ -118,11 +124,24 @@ git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; 
 - First parent HEAD `git checkout master^`
 - Second parent HEAD `git checkout master^2`
 - `git checkout HEAD~; git checkout HEAD^2; git checkout HEAD~2` = `git checkout HEAD~^2~2`
+#### My Solution
 ```
 git checkout master~1^2~1; git branch HEAD bugWork; git checkout master
 ```
+#### Solution
+```
+git branch bugWork master^^2^
+```
 
 ### 5-3 `level advanced3`
--
+- `show solution`
+#### My Solution
 ```
+git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2
 ```
+#### Solution
+```
+git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2
+```
+
+### Remote
