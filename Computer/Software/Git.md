@@ -114,8 +114,12 @@ git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; 
 ```
 
 ### 5-2 `level advanced2`
--
+- `~`, `^`
+- First parent HEAD `git checkout master^`
+- Second parent HEAD `git checkout master^2`
+- `git checkout HEAD~; git checkout HEAD^2; git checkout HEAD~2` = `git checkout HEAD~^2~2`
 ```
+git checkout master~1^2~1; git branch HEAD bugWork; git checkout master
 ```
 
 ### 5-3 `level advanced3`
