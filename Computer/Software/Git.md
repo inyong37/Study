@@ -96,7 +96,7 @@ git checkyout master; git cherry-pick C2; git branch -f master HEAD^; git cherry
 ```
 
 ### 4-4 `level mixed4`
-- `git tag v1 C1
+- `git tag v1 C1`
 ```
 git tag v0 C1; git tag v1 C2; git checkout v1
 ```
@@ -108,5 +108,16 @@ git tag v0 C1; git tag v1 C2; git checkout v1
 ```
 
 ### 5-1
+-
+```
+```
+
 ### 5-2
+-
+```
+```
+
 ### 5-3
+-
+```
+```
