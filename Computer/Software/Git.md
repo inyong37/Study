@@ -35,13 +35,17 @@ git branch bugFix; git checkout bugFix; git commit; git checkout master; git com
 ```
 
 ### 2-1 `level rampup1`
--
+- HEAD: `git checkout C1`
 ```
+git checkout C4
 ```
 
 ### 2-2 `level rampup2`
--
+- `fed2da64c0efc5293610bdd892f82a58e8cbc5d8` -> 고유값 `fed2`
+- `^`, `~<num>`
+- `git checkout master^`
 ```
+git checkout C4; git checkout HEAD^
 ```
 
 ### 2-3 `level rampup3`
