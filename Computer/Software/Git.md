@@ -2,14 +2,14 @@
 ```
 This page is about Git and it's tools.
 ```
-## [Github](https://github.com/)
+## I. [Github](https://github.com/)
 
-## [GitLab](https://about.gitlab.com/)
+## II. [GitLab](https://about.gitlab.com/)
 
-## [Git Tutorial Game](https://learngitbranching.js.org/)
+## III. [Git Tutorial Game](https://learngitbranching.js.org/)
 - See tutorials `levels`
 
-### Local
+### i. Local
 ### 1-1 `level intro1`
 - resolving deltas
 - `git commit`
@@ -144,4 +144,4 @@ git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; g
 git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2
 ```
 
-### Remote
+### ii. Remote
