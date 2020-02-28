@@ -141,13 +141,14 @@ git clone
 - `<remote name>/<branch name>`
 - `o/master` = 브랜치 이름은 `master`, 저장소 이름은 `o` 이다.
 - `origin/master` = 브랜치 이름은 `maseter`, 저장소 이름은 `origin` 이다.
-- `git checkout o/master; git commit
+- `git checkout o/master; git commit`
 ```
 git commit; git checkout o/master; git commit
 ```
 #### c. `level remote3`
--
+- `git fetch`: remote repository/storage -> local repository/storage
 ```
+
 ```
 #### d. `level remote4`
 -
