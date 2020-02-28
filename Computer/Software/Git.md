@@ -145,3 +145,42 @@ git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5
 ```
 
 ### ii. Remote
+### 1-1 `level remote1`
+- `git clone`
+```
+git clone
+```
+
+### 1-2 `level remote2`
+- `<remote name>/<branch name>`
+- `o/master` = 브랜치 이름은 `master`, 저장소 이름은 `o` 이다.
+- `origin/master` = 브랜치 이름은 `maseter`, 저장소 이름은 `origin` 이다.
+- `git checkout o/master; git commit
+```
+git commit; git checkout o/master; git commit
+```
+
+### 1-3 `level remote3`
+-
+```
+```
+### 1-4 `level remote4`
+-
+```
+```
+### 1-5 `level remote5`
+-
+```
+```
+### 1-6 `level remote6`
+-
+```
+```
+### 1-7 `level remote7`
+-
+```
+```
+### 1-8 `level remote8`
+-
+```
+```
