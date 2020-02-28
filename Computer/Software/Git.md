@@ -75,35 +75,36 @@ git cherry-pick C3 C4 C7
 ```
 git rebase -i HEAD~4; # omit C2, change C4 and C5
 ```
+
 ### 4-1 `level mixed1`
 - `git cherry-pick`
 - `git rebase -i`
 ```
 git checkout master; git cherry-pick C4
 ```
-### 4-1 `level mixed1`
--
-```
-```
 
 ### 4-2 `level mixed2`
--
+-  `git rebase -i`, `git commit --amend`, `git rebase -i` 
 ```
+git rebase -i HEAD~2; git commit --amend; git rebase -i HEAD~2; git checkout master; git rebase caption
 ```
 
 ### 4-3 `level mixed3`
--
+- `git cherry-pick C2`
 ```
+git checkyout master; git cherry-pick C2; git branch -f master HEAD^; git cherry-pick C2 C3
 ```
 
 ### 4-4 `level mixed4`
--
+- `git tag v1 C1
 ```
+git tag v0 C1; git tag v1 C2; git checkout v1
 ```
 
 ### 4-5 `level mixed5`
--
+- `git describe`
 ```
+
 ```
 
 ### 5-1
