@@ -102,9 +102,9 @@ git tag v0 C1; git tag v1 C2; git checkout v1
 ```
 
 ### 4-5 `level mixed5`
-- `git describe`
+- `git describe <ref>`, `tag`: the nearest (parnet) tag, `numCommits`: distance from tag, '<hash>`: commit hash
 ```
-
+git describe master; git describe side; git describe bugFix
 ```
 
 ### 5-1
