@@ -49,7 +49,7 @@ $ tmux new -s SessionName -n WindowName # new session and window with SessionNam
 $ tmux list # tmux list
 $ exit # tmux exit
 $ tmux attach -t SessionName # restart
-$ 'prefix' + d # pause session
+$ 'prefix' + d # pause session = detach
 $ 'prefix' + t # time
 $ 'prefix' + c # create a window
 $ 'prefix' + % # split pane vertical
@@ -60,6 +60,7 @@ $ 'prefix' + o # move to pane by order
 $ 'prefix' + d # delete pane 
 $ 'prefix' + alt + 'rudder' # modulate size of pane
 $ 'prefix' + [ + 'up/down arrow' or 'page up/down' # Scroll up/down
+$ 'prefix' + z # select only the pane
 ```
 
 [Reference](https://seulcode.tistory.com/144)
