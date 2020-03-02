@@ -1,4 +1,4 @@
-# [Git](https://git-scm.com/)
+23# [Git](https://git-scm.com/)
 ```
 This page is about Git and it's tools.
 ```
@@ -176,6 +176,17 @@ git commit; git commit; git push
 git clone; git fakeTeamwork; git commit; git pull --rebase; git push
 ```
 #### h. `level remote8`
--
+- `reset`
 ```
+git reset o/master; git checkout -b feature C2; git push origin feature
+```
+#### B. Remote Advanced
+#### a. `level remoteAdvanced1`
+#### My Solution
+```
+git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push
+```
+#### Solution
+```
+git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push
 ```
