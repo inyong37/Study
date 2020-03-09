@@ -64,7 +64,7 @@ dd # delete
 :tab help tabpage # new tab with tab's contents
 :tabnew # new tab
 :tabclose # close tab
-:#gt # move to #th tab
+#gt # move to #th tab
 :tabfirst # move to first tab
 :tablast # move to last tab
 :tabs # show all tabs' information
