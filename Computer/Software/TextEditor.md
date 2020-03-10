@@ -2,46 +2,49 @@
 ```
 This page is about text editor.
 ```
-## [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/)
+## I. Windows
+## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/)
 ```
 Notepad is basic text editor in Windows.
 ```
-## [Notepad++](https://notepad-plus-plus.org/)
+## ii. [Notepad++](https://notepad-plus-plus.org/)
 ```
 Notepad++ is free source code editor and Notepad replacement that supports several languages.
 Running in the MS Windosws environment, its use is governed by GPL License.
 ```
-## [Atom](https://atom.io/)
+## iii. [Atom](https://atom.io/)
 ```
 Atom is made by Github. It is open source. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
-## [Sublime Text 3](https://www.sublimetext.com/)
+## iv. [Sublime Text 3](https://www.sublimetext.com/)
 ```
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
 ```
-## [Visual Studio Code](https://code.visualstudio.com/)
+## v. [Visual Studio Code](https://code.visualstudio.com/)
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
-## [Nano](https://www.nano-editor.org/)
+## II. UNIX/LINUX
+## i. [Nano](https://www.nano-editor.org/)
 ```
 Nano is an UNIX GNU text editor.
 ```
-## [Emacs](https://www.gnu.org/software/emacs/)
+## ii. [Emacs](https://www.gnu.org/software/emacs/)
 ```
 GNU Emacs is an extensible, customizable, free/libre text editor.
 ```
-## [Vi (Directed to vim)](https://www.vim.org/)
+## iii. [Vi (Directed to vim)](https://www.vim.org/)
 ```
 Vi is basic text editor in Unix.
 ```
-## [Vim (Vi IMproved)](https://www.vim.org/)
+## iv. [Vim (Vi IMproved)](https://www.vim.org/)
 ```
 Vim is basic text editor in Linux.
 Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
 It is included as "vi" with most UNIX systems and with Apple OS X.
 ```
-### Basic Commands
+### A. Commands
+#### a. Basic
 ```
 :q # quit
 :qa # quit all
@@ -55,7 +58,7 @@ yy # copy
 p # paste
 dd # delete
 ```
-### Window
+#### b. Window
 ```
 :help windows # see window's contents
 :split # split window horizontal like tmux's prefix + "
@@ -65,7 +68,7 @@ dd # delete
 'Ctrl' + 'w' + 'k' # move window very top
 'Ctrl' + 'w' + 'l' # move window far left
 ```
-### Tab
+#### c. Tab
 ```
 :help tabpage # see tab's contents
 :tab help tabpage # new tab with tab's contents
@@ -76,13 +79,19 @@ dd # delete
 :tablast # move to last tab
 :tabs # show all tabs' information
 ```
-### Plugin
+### B. Plugin
+#### a. [ctags](https://ctags.io/)
 ```
+Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area.
 ```
-
+#### b. [cscope]()
+#### c. [tagbar]()
+#### d. [fuzzy-finder]()
+#### e. [you complete me]()
 
 ##### Reference
 1. Using Vi in windows with git, https://m.blog.naver.com/PostView.nhn?blogId=callor88&logNo=221051415755&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-01-29-Wed.
 2. Notepad++, https://notepad-plus-plus.org/, 2020-01-29-Wed.
 3. Vi and Vim, https://blockdmask.tistory.com/25, 2020-01-29-Wed.
 4. Vim, https://www.vim.org/, 2020-01-29-Wed.
+5. Ctags, https://ctags.io/, 2020-03-10-Tue.
