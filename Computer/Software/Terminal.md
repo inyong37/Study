@@ -63,6 +63,7 @@ $ 'prefix' + [ + 'up/down arrow' or 'page up/down' # Scroll up/down
 $ 'prefix' + z # select only the pane
 ```
 
-[Reference](https://seulcode.tistory.com/144)
-
-[Reference](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
+#### Reference
+1. Tmux commands, https://seulcode.tistory.com/144, 2020-02-02-Tue.
+2. Tmux scroll, https://superuser.com/questions/209437/how-do-i-scroll-in-tmux, 2020-02-02-Tue.
+3. CLI, GUI, Console, CMD, Terminal, https://datascienceschool.net/view-notebook/26ca8377076541b2b514cd5ed97c554d/, 2020-03-10-Tue.
