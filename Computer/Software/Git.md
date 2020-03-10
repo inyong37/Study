@@ -194,3 +194,5 @@ git fetch; git checkout side1; git rebase o/master; git checkout side2; git reba
 ```
 git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push
 ```
+#### Reference
+1. Git log quit, https://stackoverrun.com/ko/q/2483042, 2020-03-10-Tue.
