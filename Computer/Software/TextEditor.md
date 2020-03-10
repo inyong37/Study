@@ -9,8 +9,7 @@ Notepad is basic text editor in Windows.
 ```
 ## ii. [Notepad++](https://notepad-plus-plus.org/) :heart:
 ```
-Notepad++ is free source code editor and Notepad replacement that supports several languages.
-Running in the MS Windosws environment, its use is governed by GPL License.
+Notepad++ is free source code editor and Notepad replacement that supports several languages. Running in the MS Windosws environment, its use is governed by GPL License.
 ```
 ## iii. [Atom](https://atom.io/) :green_heart:
 ```
@@ -39,9 +38,7 @@ Vi is basic text editor in Unix.
 ```
 ## iv. [Vim (Vi IMproved)](https://www.vim.org/) :star:
 ```
-Vim is basic text editor in Linux.
-Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
-It is included as "vi" with most UNIX systems and with Apple OS X.
+Vim is basic text editor in Linux. Vim is a highly configurable text editor for efficiently creating and changing any kind of text. It is included as "vi" with most UNIX systems and with Apple OS X.
 ```
 ### A. Commands
 #### a. Basic
