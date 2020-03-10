@@ -1,15 +1,19 @@
-23# [Git](https://git-scm.com/)
+# I. [Git](https://git-scm.com/)
 ```
 This page is about Git and it's tools.
 ```
-## I. [Github](https://github.com/)
-
-## II. [GitLab](https://about.gitlab.com/)
-
-## III. [Git Tutorial Game](https://learngitbranching.js.org/)
+## i. Commands
+### A. Basic
+```
+git log # show git log
+q + 'enter' # exit from git log
+```
+# II. [Github](https://github.com/)
+# III. [GitLab](https://about.gitlab.com/)
+# IV. [Git Tutorial Game](https://learngitbranching.js.org/)
 - See tutorials `levels`
-### i. Local
-#### A. Intro
+## i. Local
+### A. Intro
 #### a. `level intro1`
 - resolving deltas
 - `git commit`
@@ -32,7 +36,7 @@ git branch bugFix; git checkout bugFix; git commit; git checkout master; git com
 ```
 git branch bugFix; git checkout bugFix; git commit; git checkout master; git commit; git checkout bugFix; git rebase master
 ```
-#### B. Ramp Up
+### B. Ramp Up
 #### a. `level rampup1`
 - HEAD: `git checkout C1`
 ```
@@ -57,7 +61,7 @@ git branch -f master C6; git checkout HEAD^; git branch -f bugFix HEAD~1
 ```
 git reset local^; git checkout pushed; git revert pushed
 ```
-#### C. Move
+### C. Move
 #### a. `level move1`
 - `git cherry-pick C1 C3`
 ```
@@ -70,7 +74,7 @@ git cherry-pick C3 C4 C7
 ```
 git rebase -i HEAD~4; # omit C2, change C4 and C5
 ```
-#### D. Mixed
+### D. Mixed
 #### a. `level mixed1`
 - `git cherry-pick`
 - `git rebase -i`
@@ -97,7 +101,7 @@ git tag v0 C1; git tag v1 C2; git checkout v1;
 ```
 git describe master; git describe side; git describe bugFix; git commit
 ```
-#### E. Advanced
+### E. Advanced
 #### a. `level advanced1`
 #### My Solution
 ```
@@ -130,8 +134,8 @@ git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; g
 ```
 git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2
 ```
-### ii. Remote
-#### A. Remote
+## ii. Remote
+### A. Remote
 #### a. `level remote1`
 - `git clone`
 ```
@@ -180,7 +184,7 @@ git clone; git fakeTeamwork; git commit; git pull --rebase; git push
 ```
 git reset o/master; git checkout -b feature C2; git push origin feature
 ```
-#### B. Remote Advanced
+### B. Remote Advanced
 #### a. `level remoteAdvanced1`
 #### My Solution
 ```
