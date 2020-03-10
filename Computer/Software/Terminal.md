@@ -1,6 +1,6 @@
 # Terminal
 ```
-This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
+This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 - CLI: Command Line Interface
 - GUI: Graphic User Interface
 ```
