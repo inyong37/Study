@@ -2,7 +2,7 @@
 ```
 This page is about text editor.
 ```
-## Notepad (메모장)
+## [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/)
 ```
 Notepad is basic text editor in Windows.
 ```
@@ -23,17 +23,19 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
-## Nano
+## [Nano](https://www.nano-editor.org/)
 ```
+Nano is an UNIX GNU text editor.
 ```
-## Emacs
+## [Emacs](https://www.gnu.org/software/emacs/)
 ```
+GNU Emacs is an extensible, customizable, free/libre text editor.
 ```
-## Vi
+## [Vi (Directed to vim)](https://www.vim.org/)
 ```
 Vi is basic text editor in Unix.
 ```
-## [Vim (Vi Improved)](https://www.vim.org/)
+## [Vim (Vi IMproved)](https://www.vim.org/)
 ```
 Vim is basic text editor in Linux.
 Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
