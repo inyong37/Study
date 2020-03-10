@@ -2,39 +2,30 @@
 ```
 This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 ```
-
 # I. Windows
-
 ## i. [PowerShell](https://powershell.org/)
 [Documentation](https://docs.microsoft.com/en-us/powershell/)
 ### A. Commands
 ```
 ```
 ### B. Plugin
-### a. Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
+#### a. Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
 [Download](https://github.com/microsoft/terminal/releases/tag/1904.29002) version `Color Tool April 2019`
 ```
 .\ColorTool.exe -s
 .\ColorTool.exe solarized_dark.itermcolors
 ```
-
-[Reference](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
-
-### Changing Font
+#### b. Changing Font
 - 나눔고딕코드.exe 설치
 - enter `win` + `R` and search `regedit`
 - `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Console\TureTypeFont`
 - click `949` and change `*굴림체` to `*나눔고딕코딩`
 - open `PowerShell` and enter `alt` + `D`or enter `default setting`
 - change font to `나눔고딕코딩`
-
-[Reference](https://www.delmaster.net/149)
-
-## Unix/Linux
+# II. Unix/Linux
 - get a root right `su`
 - check `whoami`
 - get out a root right `exit`
-
 ### Tmux
 ```
 Tmux is an application that can access/process multi terminal/process/session -s.
@@ -69,4 +60,6 @@ $ 'prefix' + z # select only the pane
 - Tmux commands, https://seulcode.tistory.com/144, 2020-02-02-Tue.
 - Tmux scroll, https://superuser.com/questions/209437/how-do-i-scroll-in-tmux, 2020-02-02-Tue.
 - Color Tool, https://docs.microsoft.com/en-us/powershell/, 2020-02-19-Wed.
+- Color Tool, https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool, 2020-02-19-Wed.
+- Font, https://www.delmaster.net/149, 2020-02-19-Wed.
 - CLI, GUI, Console, CMD, Terminal, https://datascienceschool.net/view-notebook/26ca8377076541b2b514cd5ed97c554d/, 2020-03-10-Tue.
