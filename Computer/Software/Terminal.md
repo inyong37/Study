@@ -1,15 +1,23 @@
 # Terminal
+(Shell.md와 정리 필요)
 ```
 This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 - CLI: Command Line Interface
 - GUI: Graphic User Interface
 ```
 # I. Windows
-## Coomand 
+## i. CMD(Command Prompt)
+### A. Commands
+```
+> exit # Exit Prompt
+> powershell # Turn off CMD and turn on PowerShell
+> Taskkill OPTION PROCESS_NAME PROCESS_PID_NUMBER # /f: forced, /im: 
+```
 ## ii. [PowerShell](https://powershell.org/)
 [Documentation](https://docs.microsoft.com/en-us/powershell/)
 ### A. Commands
 ```
+PS powershell # Turn off PowerShell and turn on CMD
 ```
 ### B. Plugin
 #### a. Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
@@ -66,3 +74,4 @@ $ 'prefix' + z # select only the pane
 - Color Tool, https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool, 2020-02-19-Wed.
 - Font, https://www.delmaster.net/149, 2020-02-19-Wed.
 - CLI, GUI, Console, CMD, Terminal, https://datascienceschool.net/view-notebook/26ca8377076541b2b514cd5ed97c554d/, 2020-03-10-Tue.
+- CMD, https://namu.wiki/w/%EB%AA%85%EB%A0%B9%20%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8/%EB%AA%85%EB%A0%B9%EC%96%B4, 2020-03-10-Tue.
