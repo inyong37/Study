@@ -23,7 +23,7 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
-# II. UNIX/LINUX
+# II. Unix/Linux
 ## i. [Nano](https://www.nano-editor.org/) :sparkling_heart:
 ```
 Nano is an UNIX GNU text editor.
