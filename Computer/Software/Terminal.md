@@ -1,9 +1,12 @@
 # Terminal
 ```
 This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
+- CLI: Command Line Interface
+- GUI: Graphic User Interface
 ```
 # I. Windows
-## i. [PowerShell](https://powershell.org/)
+## Coomand 
+## ii. [PowerShell](https://powershell.org/)
 [Documentation](https://docs.microsoft.com/en-us/powershell/)
 ### A. Commands
 ```
