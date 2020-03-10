@@ -3,14 +3,16 @@
 This page is about Terminal in Unix/Linux, MAC OS X, and Windows.
 ```
 
-## Windows
+# I. Windows
 
-### PowerShell
-
-### Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
-
+## i. [PowerShell](https://powershell.org/)
+[Documentation](https://docs.microsoft.com/en-us/powershell/)
+### A. Commands
+```
+```
+### B. Plugin
+### a. Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
 [Download](https://github.com/microsoft/terminal/releases/tag/1904.29002) version `Color Tool April 2019`
-
 ```
 .\ColorTool.exe -s
 .\ColorTool.exe solarized_dark.itermcolors
@@ -64,6 +66,7 @@ $ 'prefix' + z # select only the pane
 ```
 
 #### Reference
-1. Tmux commands, https://seulcode.tistory.com/144, 2020-02-02-Tue.
-2. Tmux scroll, https://superuser.com/questions/209437/how-do-i-scroll-in-tmux, 2020-02-02-Tue.
-3. CLI, GUI, Console, CMD, Terminal, https://datascienceschool.net/view-notebook/26ca8377076541b2b514cd5ed97c554d/, 2020-03-10-Tue.
+- Tmux commands, https://seulcode.tistory.com/144, 2020-02-02-Tue.
+- Tmux scroll, https://superuser.com/questions/209437/how-do-i-scroll-in-tmux, 2020-02-02-Tue.
+- Color Tool, https://docs.microsoft.com/en-us/powershell/, 2020-02-19-Wed.
+- CLI, GUI, Console, CMD, Terminal, https://datascienceschool.net/view-notebook/26ca8377076541b2b514cd5ed97c554d/, 2020-03-10-Tue.
