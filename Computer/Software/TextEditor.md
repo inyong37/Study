@@ -3,41 +3,41 @@
 This page is about text editor.
 ```
 ## I. Windows
-## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/)
+## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/) :sparkling_heart:
 ```
 Notepad is basic text editor in Windows.
 ```
-## ii. [Notepad++](https://notepad-plus-plus.org/)
+## ii. [Notepad++](https://notepad-plus-plus.org/) :heart:
 ```
 Notepad++ is free source code editor and Notepad replacement that supports several languages.
 Running in the MS Windosws environment, its use is governed by GPL License.
 ```
-## iii. [Atom](https://atom.io/)
+## iii. [Atom](https://atom.io/) :green_heart:
 ```
 Atom is made by Github. It is open source. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
-## iv. [Sublime Text 3](https://www.sublimetext.com/)
+## iv. [Sublime Text 3](https://www.sublimetext.com/) :yellow_heart:
 ```
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
 ```
-## v. [Visual Studio Code](https://code.visualstudio.com/)
+## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
 ## II. UNIX/LINUX
-## i. [Nano](https://www.nano-editor.org/)
+## i. [Nano](https://www.nano-editor.org/) :sparkling_heart:
 ```
 Nano is an UNIX GNU text editor.
 ```
-## ii. [Emacs](https://www.gnu.org/software/emacs/)
+## ii. [Emacs](https://www.gnu.org/software/emacs/) :blue_heart:
 ```
 GNU Emacs is an extensible, customizable, free/libre text editor.
 ```
-## iii. [Vi (Directed to vim)](https://www.vim.org/)
+## iii. [Vi (Directed to vim)](https://www.vim.org/) :purple_heart:
 ```
 Vi is basic text editor in Unix.
 ```
-## iv. [Vim (Vi IMproved)](https://www.vim.org/)
+## iv. [Vim (Vi IMproved)](https://www.vim.org/) :star:
 ```
 Vim is basic text editor in Linux.
 Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
