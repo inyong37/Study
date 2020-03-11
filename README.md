@@ -195,6 +195,7 @@ nano ~/CUDA/include/cudnn.h
 
 #### b. VMware
 [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
+
 ----------
 - :book: 
 ----------
