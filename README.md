@@ -3,7 +3,7 @@
  This repository is about studies by myself. Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
 ```
 ----------
-### Framework
+### Frameworks
 #### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
 #### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
 #### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
@@ -28,7 +28,7 @@
 - Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 - 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
 ----------
-# II. Book
+# II. Books
 ## i. English
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
@@ -40,10 +40,6 @@
 |Hands-on Machine Learning with Scikit-Learn and TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|-|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905538&s=books&sr=1-1)|-|
 |Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow|-|[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|-|
 |Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
-|The C Programming Language 2nd Edition|-|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
-|The C++ Programming Language 4th Edition|-|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|-|
-|A Tour of C++ 2nd Edition|-|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
-|Programming: Principles and Practice Using C++, 2nd Edition|-|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
 
 ## ii. Japanese
 |Title|MATERIAL|URL|URL|DATE|
@@ -114,8 +110,35 @@
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
 (Not Yet)
+
 ## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
 (Not Yet)
+----------
+# VI. Languages
+## i. C
+|Title|URL|URL|DATE|
+|:----|:-:|:-:|:--:|
+|누구나 쉽게 즐기는 C 언어 콘서트|-|[YES24](http://www.yes24.com/Product/Goods/3900759)|Spring, 2012|
+|The C Programming Language (2nd)|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
+
+## ii. Java
+|Title|URL|URL|DATE|
+|:----|:-:|:-:|:--:|
+|난 정말 JAVA를 공부한적이 없다구요|-|[YES24](http://www.yes24.com/Product/Goods/3497762)|Spring, 2009|
+|Eclipse를 활용한 안드로이드 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/16402399)|Fall, 2015|
+
+## iii. Python
+|Title|URL|URL|DATE|
+|:----|:-:|:-:|:--:|
+|Do it! 점프 투 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/74419916)|Summer, 2019|
+
+## iv. C++
+|Title|URL|URL|DATE|
+|:----|:-:|:-:|:--:|
+|윤성우의 열혈 C++ 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|
+|The C++ Programming Language (4th)|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|-|
+|A Tour of C++ (2nd)|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
+|Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
 
 ----------
 ## ETC
