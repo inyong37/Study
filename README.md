@@ -112,9 +112,9 @@
 ### A. 카카오 코딩테스트 :heavy_exclamation_mark:
 ### B. 코딩테스트 연습
 
-- [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
+## v. [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
 (Not Yet)
-- [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
+## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
 (Not Yet)
 
 ----------
