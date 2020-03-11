@@ -1,7 +1,6 @@
-# I. Study
+# Study
 ```
-This repository is about studies by myself.
-Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
+ This repository is about studies by myself. Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
 ```
 ----------
 ### Framework
@@ -11,20 +10,20 @@ Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotec
 #### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
 #### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
 ----------
-## i. Lecture
-### A. Computer Vision
-#### a. cs231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
-#### b. cs231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
-### B. Natural Language Processing
-#### a. cs224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
-#### b. cs224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
-### C. Machine Learning 
-#### a. cs156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
-#### b. cs156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
-### D. Korean
-#### a. 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
-#### b. Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
-#### c. 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
+# I. Lectures
+## i. Computer Vision
+- CS231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
+- CS231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
+## ii. Natural Language Processing
+- CS224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
+- CS224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
+## iii. Machine Learning 
+- CS156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
+- CS156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
+## iv. Korean
+- 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
+- Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
+- 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
 ----------
 ## ii. Book
 ### A. English
@@ -110,8 +109,10 @@ useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB
 #### a. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
 #### b. [Challenges](https://app.codility.com/programmers/challenges/)
 
-### 카카오 코딩테스트 :heavy_exclamation_mark:
-[프로그래머스](https://programmers.co.kr/)
+### D. [Programmers](https://programmers.co.kr/)
+#### a. 카카오 코딩테스트 :heavy_exclamation_mark:
+#### b. 
+
 
 ### [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
 (Not Yet)
