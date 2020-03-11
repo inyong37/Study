@@ -111,14 +111,17 @@ Books about Data Structure and Algorithm.
 ### B. [Challenges](https://app.codility.com/programmers/challenges/)
 
 ## iv. [Programmers](https://programmers.co.kr/) :clipboard:
-### A. 카카오 코딩테스트 :heavy_exclamation_mark:
+### A. 카카오 코딩테스트
+- :heavy_exclamation_mark:
 ### B. 코딩테스트 연습
+- :heavy_exclamation_mark:
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/) :heavy_exclamation_mark:
-(Not Yet)
+- (Not Yet) :heavy_exclamation_mark:
 
-## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
-(Not Yet)
+## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
+- (Not Yet) :heavy_exclamation_mark:
+
 ----------
 # VI. Language :books:
 ```
