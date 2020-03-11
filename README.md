@@ -13,7 +13,7 @@
 #### a. Python with TensorFlow, Theano, Keras, PyTorch
 #### b. C++ with Caffe
 ----------
-# I. Lectures
+# I. Lecture
 ## i. Computer Vision
 - CS231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
 - CS231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
@@ -28,7 +28,10 @@
 - Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 - 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
 ----------
-# II. Books
+# II. Book
+```
+Books about Machine Learning, Deep Learning and Computer Vision.
+```
 ## i. English
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
@@ -84,6 +87,9 @@
 ----------
 # V. Algorithm :heavy_exclamation_mark:
 ## i. Book :heavy_exclamation_mark:
+```
+Books about Data Structure and Algorithm.
+```
 |TITLE|MATERIAL|URL|DATE|LANGUAGE|STATE|
 |:----|:------:|:-:|:--:|:------:|:---:|
 |Cracking the Coding Interview|-|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|-|CPP, JAVA|:triangular_flag_on_post:|
@@ -114,7 +120,10 @@
 ## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do) :heavy_exclamation_mark:
 (Not Yet)
 ----------
-# VI. Languages
+# VI. Language
+```
+Books about Programming Languages.
+```
 ## i. C
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
