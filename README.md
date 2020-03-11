@@ -135,7 +135,7 @@
 ## iv. C++
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
-|윤성우의 열혈 C++ 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|
+|윤성우의 열혈 C++ 프로그래밍|[Homepage](http://www.orentec.co.kr/booklist/CPP_BASIC_1/book_sub1.php)|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|
 |The C++ Programming Language (4th)|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|-|
 |A Tour of C++ (2nd)|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
 |Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
