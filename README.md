@@ -127,6 +127,7 @@ Books about Programming Languages.
 ## i. C :closed_book:
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
+|그림으로 배우는 Easy C언어|-|[YES24](http://www.yes24.com/Product/Goods/3379284)|Spring, 2009|
 |누구나 쉽게 즐기는 C 언어 콘서트|-|[YES24](http://www.yes24.com/Product/Goods/3900759)|Spring, 2012|
 |The C Programming Language (2nd)|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
 
