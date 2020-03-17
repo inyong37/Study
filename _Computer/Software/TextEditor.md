@@ -3,6 +3,7 @@
 This page is about text editor.
 ```
 # I. Windows
+- (That I'm using in)
 ## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/) :sparkling_heart:
 ```
 Notepad is basic text editor in Windows.
@@ -24,6 +25,7 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
 # II. Unix/Linux
+- (That I'm using in)
 ## i. [Nano](https://www.nano-editor.org/) :sparkling_heart:
 ```
 Nano is an UNIX GNU text editor.
@@ -85,6 +87,10 @@ Universal-ctags has the objective of continuing the development from what existe
 #### c. [tagbar]()
 #### d. [fuzzy-finder]()
 #### e. [you complete me]()
+
+## Markdown Editor
+### [Typora](https://typora.io/)
+- [How to add as a command in windows](https://superuser.com/questions/689333/how-to-add-installed-program-to-command-prompt-in-windows)
 
 ##### Reference
 1. Using Vi in windows with git, https://m.blog.naver.com/PostView.nhn?blogId=callor88&logNo=221051415755&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-01-29-Wed.
