@@ -24,6 +24,10 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
+- Find: `Control` + `f`
+- Find and replace: `Control` + `h`, `Enter`
+- Find and replace all: `Control` + `h`, `Control` + `Alt` + `Enter`
+
 # II. Unix/Linux
 - (That I'm using in)
 ## i. [Nano](https://www.nano-editor.org/) :sparkling_heart:
