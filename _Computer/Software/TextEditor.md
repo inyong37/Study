@@ -20,6 +20,9 @@ Atom is made by Github. It is open source. It is based on Chromium project. It i
 ```
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
 ```
+- Install packages: `Control` + `Shift` + `p`, `install package`
+- Change theme: colorsublime
+
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
 ```
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
