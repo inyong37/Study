@@ -86,7 +86,6 @@ dd # delete
 :tabs # show all tabs' information
 ```
 ### B. Plugin
-- Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
 #### a. [ctags](https://ctags.io/)
 ```
 Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area.
