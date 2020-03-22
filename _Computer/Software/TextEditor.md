@@ -28,7 +28,7 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 ```
 - Find: `Control` + `f`
-- Find and replace: `Control` + `h`, `Enter`
+- Find and replace: `Control` + `h`,' `Enter`
 - Find and replace all: `Control` + `h`, `Control` + `Alt` + `Enter`
 
 # II. Unix/Linux
@@ -51,28 +51,43 @@ Vim is basic text editor in Linux. Vim is a highly configurable text editor for 
 ```
 ### A. Commands
 #### a. Basic
+- Quit and Save
 ```
 :q # quit
 :qa # quit all
+:q! # quit forced
 :w # save
 :wq # save and quit
-:q! # quit forced
+```
+- Search
+```
 /asdf # search asdf
 n # see next 'asdf'
 N # see previous 'asdf'
-yy # copy
-p # paste
-dd # delete
+```
+- Copy and Paste
+```
+yy # copy one line
+Y # copy one line
+p # paste the line under
+P # paste the line above
+dd # delete cursor line
+
 ```
 #### b. Window
 ```
 :help windows # see window's contents
 :split # split window horizontal like tmux's prefix + "
 :vsplit # split window vertical like tmux's prefix + %
-'Ctrl' + 'w' + 'h' # move window far right
-'Ctrl' + 'w' + 'j' # move window very bottom
-'Ctrl' + 'w' + 'k' # move window very top
-'Ctrl' + 'w' + 'l' # move window far left
+'Control' + 'w' + 'h' # move window far left
+'Control' + 'w' + 'j' # move window very bottom
+'Control' + 'w' + 'k' # move window very top
+'Control' + 'w' + 'l' # move window far right
+'Control' + 'w' + 'x' # change the windows' position with before one
+'Control' + 'w' + 'r' # change the windows' position by oreder
+'Control' + 'w' + '=' # make every windows' size the same
+'Control' + 'w' + '_' # make window's size the biggest in horizontal
+'Control' + 'w' + '|' # make window's size the biggest in vertical
 ```
 #### c. Tab
 ```
