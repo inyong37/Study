@@ -60,6 +60,7 @@ Vim is basic text editor in Linux. Vim is a highly configurable text editor for 
 :wq # save and quit
 ```
 - `u`: undo, `Control` + `r`: redo, `U`: only undo in cursor(caret) line.
+- `:vs %:r.h`: open same name of header file.
 - Search
 ```
 /asdf # search asdf
