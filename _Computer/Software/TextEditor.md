@@ -103,12 +103,27 @@ dd # delete cursor line
 ```
 ### B. Plugin
 - Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
-#### a. [ctags](https://ctags.io/)
+#### a. Ctags [Exuberant Ctags](http://ctags.sourceforge.net/) [Universal Ctags](https://ctags.io/)
 ```
-Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area.
+Ctags generates an index (or tag) file of language objects found in sources files that allows these items to be quickly and easily located by a text editor and other utility. (from ctags.sourceforge.net, Exuberant Ctags)
+Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area. (from ctags.io, Universal-Ctags)
 ```
-#### b. [cscope]()
-#### c. [tagbar]()
+- `sudo apt-get install ctags`: install ctags.
+- `ctags filename`: build tags for 'filename', `ctags -R`: build tags for all directory under current directory.
+- `vim tags`: turn on tags file.
+- Or use it in `vim`.
+- `:tj functionname/variablename`: find 'functionname/variablename' declaration tags.
+- `Control` + `]`: find current cursor's declaration tag.
+- `:po`: go back to `vim`.
+- `Control` + `t`: go back to `vim`.
+- `:stj functionname/variablename`: find 'functionname/variablename' declaration tags in splited window.
+#### b. [Tagbar](http://majutsushi.github.io/tagbar/) [Github](https://github.com/majutsushi/tagbar)
+```
+Tagbar is a Vim plugin that provides an easy way to browse the tags of the current file and get an overview of its structure.
+```
+- `:Tagbar` or `F8`: Open tagbar. # `nmap <F8> :TagbarToggle<CR>` in `~/.vimrc`.
+- `Control` + `w` + `w`: change vim window.
+#### c. [cscope]()
 #### d. [fuzzy-finder]()
 #### e. [you complete me]()
 
@@ -122,3 +137,4 @@ Universal-ctags has the objective of continuing the development from what existe
 3. Vi and Vim, https://blockdmask.tistory.com/25, 2020-01-29-Wed.
 4. Vim, https://www.vim.org/, 2020-01-29-Wed.
 5. Ctags, https://ctags.io/, 2020-03-10-Tue.
+6. Ctags commands, https://bowbowbow.tistory.com/15, 2020-03-23-Mon.
