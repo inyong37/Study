@@ -18,3 +18,5 @@ def solution(n):
         if not a:
             n -= 1
     return answer
+
+# Reference: https://itholic.github.io/kata-124-world/
