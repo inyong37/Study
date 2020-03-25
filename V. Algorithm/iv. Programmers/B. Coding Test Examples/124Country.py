@@ -9,3 +9,12 @@ def solution(n):
     return change(n, 3)
 
 # Try 2
+
+def solution(n):
+    answer = str()
+    while n:
+        n, a = divmod(n, 3)
+        answer = '412'[a] + answer
+        if not a:
+            n -= 1
+    return answer
