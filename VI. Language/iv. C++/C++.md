@@ -1,6 +1,6 @@
 # Static Versus Dynamic Binding
 
-# Forward Declarartions
+# Forward Declarartions and Definitions
 
 # Anonymous Namespace
 
