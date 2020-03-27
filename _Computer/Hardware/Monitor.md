@@ -19,4 +19,4 @@
 - 1080i vs 1080p
 
 ##### Reference
-PPI vs DPI, https://blank2.tistory.com/3, 2020-03-27-Fri.
+1. PPI vs DPI, https://blank2.tistory.com/3, 2020-03-27-Fri.
