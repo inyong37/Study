@@ -23,10 +23,17 @@ This page is about Programming Lanugages.
 ```
 ```
 
-## JAVA
+## [JAVA](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)
+The Java™ Programming Language is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.[10] Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.[9]
 ```
 JVM, javac, class, Eclipse
 ```
+```
+Tool: Eclipse, IntelliJ IDEA
+```
+### [Eclipse](https://www.eclipse.org/)
+
+### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 ## [Python](https://www.python.org/)
 Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
@@ -74,3 +81,5 @@ Extensible Markup Language (XML) is a simple. very flexible text format derived 
 6. Python, https://www.python.org/, 2020-04-02-Thu.
 7. Verilog, https://www.verilog.com/, 2020-04-02-Thu.
 8. HTML, https://en.wikipedia.org/wiki/HTML, 2020-04-02-Thu.
+9. JAVA, https://en.wikipedia.org/wiki/Java_(programming_language), 2020-04-02-Thu.
+10. JAVA, https://docs.oracle.com/javase/7/docs/technotes/guides/language/, 2020-04-02-Thu.
