@@ -28,10 +28,18 @@ This page is about Programming Lanugages.
 JVM, javac, class, Eclipse
 ```
 
-## Python
+## [Python](https://www.python.org/)
+Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
 ```
 Tool: Anaconda, PyCharm
 ```
+### [PyCharm](https://www.jetbrains.com/pycharm/)
+#### Keymap
+- Setting for Key mapping: `Control` + `Alt` + `s`
+My key mappping
+- run file in python console: `Shift` + `Control` + `Alt` + `F5`
+- Python Console: `Shift` + `Control` + `Alt` + `F6`
+- rerun: `Shift` + `Control` + `Alt` + `F7`
 
 ## Verilog Hardware Description Language (Verilog HDL)
 Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
@@ -58,3 +66,4 @@ Extensible Markup Language (XML) is a simple. very flexible text format derived 
 3. VHDL, http://www.eda-twiki.org/cgi-bin/view.cgi/P1076/WebHome, 2020-04-01-Wed.
 4. VHDL, https://en.wikipedia.org/wiki/VHDL, 2020-04-01-Wed.
 5. XML, https://www.w3.org/XML/, 2020-04-01-Wed.
+6. Python, https://www.python.org/, 2020-04-02-Thu.
