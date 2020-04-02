@@ -36,9 +36,12 @@ Tool: Anaconda, PyCharm
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`
-#### My keymap
+#### My keymap #1
+- Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
+- Rerun: `Control` + `Shift` + `r`
+#### My keymap #2
 - Setting: `Shift` + `Control` + `Alt` + `F4`
-- Run file in python console: `Shift` + `Control` + `Alt` + `F5`
+- Run file in console: `Shift` + `Control` + `Alt` + `F5`
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
