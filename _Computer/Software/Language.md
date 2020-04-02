@@ -36,10 +36,11 @@ Tool: Anaconda, PyCharm
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`
-My key mappping
-- run file in python console: `Shift` + `Control` + `Alt` + `F5`
-- Python Console: `Shift` + `Control` + `Alt` + `F6`
-- rerun: `Shift` + `Control` + `Alt` + `F7`
+#### My keymap
+- Setting: `Shift` + `Control` + `Alt` + `F4`
+- Run file in python console: `Shift` + `Control` + `Alt` + `F5`
+- Python console: `Shift` + `Control` + `Alt` + `F6`
+- Rerun: `Shift` + `Control` + `Alt` + `F7`
 
 ## Verilog Hardware Description Language (Verilog HDL)
 Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
