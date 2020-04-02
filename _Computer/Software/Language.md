@@ -57,6 +57,7 @@ Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a har
 Tool: Quartus II (Altera -> Intel), ModelSim, FPGA
 ```
 ## [HyperText Markup Language (HTML)](https://whatwg.org/)
+Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
 
 ## [Cascading Style Sheets (CSS)](https://www.w3.org/Style/CSS/)
 CSS is a simple mechanism for adding style to web documents.[1]
@@ -72,3 +73,4 @@ Extensible Markup Language (XML) is a simple. very flexible text format derived 
 5. XML, https://www.w3.org/XML/, 2020-04-01-Wed.
 6. Python, https://www.python.org/, 2020-04-02-Thu.
 7. Verilog, https://www.verilog.com/, 2020-04-02-Thu.
+8. HTML, https://en.wikipedia.org/wiki/HTML, 2020-04-02-Thu.
