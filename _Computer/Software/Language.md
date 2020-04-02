@@ -45,8 +45,8 @@ Tool: Anaconda, PyCharm
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
-## Verilog Hardware Description Language (Verilog HDL)
-Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
+## [Verilog Hardware Description Language (Verilog HDL)](https://www.verilog.com/)
+Verilog HDL is a hardware description language used to design and document electronic systems. Verilog HDL allows designers to design at various levels of abstraction. It is the most widely used HDL with a user community of more than 50,000 active designers.[7] Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
 ```
 Tool: Quartus II (Altera -> Intel), ModelSim, FPGA
 ```
@@ -71,3 +71,4 @@ Extensible Markup Language (XML) is a simple. very flexible text format derived 
 4. VHDL, https://en.wikipedia.org/wiki/VHDL, 2020-04-01-Wed.
 5. XML, https://www.w3.org/XML/, 2020-04-01-Wed.
 6. Python, https://www.python.org/, 2020-04-02-Thu.
+7. Verilog, https://www.verilog.com/, 2020-04-02-Thu.
