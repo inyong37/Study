@@ -72,6 +72,9 @@ CSS is a simple mechanism for adding style to web documents.[1]
 ## [eXtensible Markup Language (XML)](https://www.w3.org/XML/)
 Extensible Markup Language (XML) is a simple. very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing.[5]
 
+## [JavaScript Object Notation (JSON)](https://www.json.org/json-en.html)
+JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.[11]
+
 ### Reference
 1. CSS, https://www.w3.org/Style/CSS/, 2020-04-01-Wed.
 2. Verilog, https://en.wikipedia.org/wiki/Verilog, 2020-04-01-Wed.
@@ -83,3 +86,4 @@ Extensible Markup Language (XML) is a simple. very flexible text format derived 
 8. HTML, https://en.wikipedia.org/wiki/HTML, 2020-04-02-Thu.
 9. JAVA, https://en.wikipedia.org/wiki/Java_(programming_language), 2020-04-02-Thu.
 10. JAVA, https://docs.oracle.com/javase/7/docs/technotes/guides/language/, 2020-04-02-Thu.
+11. JSON, https://www.json.org/json-en.html, 2020-04-03-Fri.
