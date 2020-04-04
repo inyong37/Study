@@ -1,6 +1,6 @@
 # Language
 ```
-This page is about Programming Langages.
+This page is about Programming Languages.
 ```
 
 ## C
