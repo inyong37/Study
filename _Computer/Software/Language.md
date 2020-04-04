@@ -1,6 +1,6 @@
 # Language
 ```
-This page is about Programming Lanugages.
+This page is about Programming Langages.
 ```
 
 ## C
@@ -26,10 +26,7 @@ This page is about Programming Lanugages.
 ## [JAVA](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)
 The Java™ Programming Language is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.[10] Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.[9]
 ```
-JVM, javac, class, Eclipse
-```
-```
-Tool: Eclipse, IntelliJ IDEA
+Tool: Eclipse, IntelliJ IDEA. #JVM, #javac, #class
 ```
 ### [Eclipse](https://www.eclipse.org/)
 
@@ -38,7 +35,7 @@ Tool: Eclipse, IntelliJ IDEA
 ## [Python](https://www.python.org/)
 Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
 ```
-Tool: Anaconda, PyCharm
+Tool: Anaconda, PyCharm.
 ```
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
 #### Keymap
@@ -55,13 +52,13 @@ Tool: Anaconda, PyCharm
 ## [Verilog Hardware Description Language (Verilog HDL)](https://www.verilog.com/)
 Verilog HDL is a hardware description language used to design and document electronic systems. Verilog HDL allows designers to design at various levels of abstraction. It is the most widely used HDL with a user community of more than 50,000 active designers.[7] Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
 ```
-Tool: Quartus II (Altera -> Intel), ModelSim, FPGA
+Tool: Quartus II (Altera -> Intel), ModelSim, FPGA.
 ```
 
 ## [Very High Speed Integrated Circuit Hardware Description Language (VHDL)](http://www.eda-twiki.org/cgi-bin/view.cgi/P1076/WebHome)
 Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as field-programmable gate arrays and integrated circuits. VHDL can also be used as a general-purpose parallel programming language.[4]
 ```
-Tool: Quartus II (Altera -> Intel), ModelSim, FPGA
+Tool: Quartus II (Altera -> Intel), ModelSim, FPGA.
 ```
 ## [HyperText Markup Language (HTML)](https://whatwg.org/)
 Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
