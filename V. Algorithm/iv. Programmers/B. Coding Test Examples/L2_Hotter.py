@@ -21,4 +21,19 @@ def solution(s, k):
 
 # Reference: http://blog.naver.com/PostView.nhn?blogId=h0609zxc&logNo=221492095742
 
-# Try 2
+# Try 2 module heapq has only min heap
+
+import heapq
+
+def solution(s, k):
+    a = 0
+    heapq.heapify(s)
+    while min(s) < k:
+        if len(s) == 1:
+            return -1
+        else:
+            l1 = heapq.heappop(s)
+            l2 = heapq.heappop(s)
+            heapq.heappush(s, l1 + (l2 * 2))
+            a += 1
+    return a
