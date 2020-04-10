@@ -37,3 +37,27 @@ def solution(s, k):
             heapq.heappush(s, l1 + (l2 * 2))
             a += 1
     return a
+
+# Try 3
+
+from heapq import heappop, heappush, heapify 
+
+def solution(s, k):
+    a = 0 # answer
+    
+    h = [] # heap
+    heapify(h)
+    for i in s:
+        heappush(h, i)
+    
+    while h[0] < k:
+        if len(h) == 1:
+            return -1
+        else:
+            l1 = heappop(h)
+            l2 = heappop(h)
+            heappush(h, l1 + (l2 * 2))
+            a += 1
+    return a
+
+# Reference: https://itholic.github.io/kata-more-spicy/
