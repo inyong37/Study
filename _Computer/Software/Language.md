@@ -4,10 +4,9 @@ This page is about Programming Languages.
 ```
 
 ## C
-```
-```
+C (/siː/, as in the letter c) is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations. By design, C provides constructs that map efficiently to typical machine instructions and has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computers, from supercomputers to embedded systems. C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages, with C compilers from various vendors available for the majority of existing computer architectures and operating systems. C has been standardized by the ANSI since 1989 (see ANSI C) and by the International Organization for Standardization. C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. The language is available on various platforms, from embedded microcontrollers to supercomputers.[13]
 
-## C++
+## [C++](https://en.cppreference.com/w/)
 ```
 ```
 
@@ -85,3 +84,4 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 10. JAVA, https://docs.oracle.com/javase/7/docs/technotes/guides/language/, 2020-04-02-Thu.
 11. JSON, https://www.json.org/json-en.html, 2020-04-03-Fri.
 12. C#, https://en.wikipedia.org/wiki/C_Sharp_(programming_language), 2020-04-11-Sat.
+13. C, https://en.wikipedia.org/wiki/C_(programming_language), 2020-04-12-Sun.
