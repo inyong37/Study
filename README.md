@@ -222,3 +222,11 @@ nano ~/CUDA/include/cudnn.h
     파이토치 첫걸음
     실전 예제로 배우는 GAN
 ----------
+```
+# Author      : Inyong Hwang (inyong1020@gmail.com)
+# Date        : 2020-04-10-Fri.
+# Description : Check same png is several.
+# State       : Deprecated
+# Environment : Python 3.6.8 :: Anacinda, Inc., PyCharm 2018.1 (Professional Edition), Microsoft Windows 10.0.18362.720
+# Reference   : None
+```
