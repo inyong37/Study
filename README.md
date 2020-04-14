@@ -228,5 +228,7 @@ nano ~/CUDA/include/cudnn.h
 # Description : None
 # State       : Done/Todo/Deprecated
 # Environment : Python 3.6.8 :: Anacinda, Inc., PyCharm 2018.1 (Professional Edition), Microsoft Windows 10.0.18362.720
+# Input       : None
+# Output      : None
 # Reference   : None
 ```
