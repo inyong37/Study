@@ -6,22 +6,22 @@ def solution(s):
     for i in range(1, len(s)//2 + 1): 
         leg = ''    # legacy
         cnt = 1     # number that matches
-        pre = s[:i] # previous comparing word
+        com = s[:i] # comparing word
         # compare with string set for each
         for j in range(i, len(s) + i, i):
             # matched plus count
-            if pre == s[j:j + i]:
+            if com == s[j:j + i]:
                 cnt += 1
             # not matched stack legacy and reset
             else:
                 # stack legacy with count
                 if cnt != 1: 
-                    leg = leg + str(cnt) + pre
+                    leg = leg + str(cnt) + com
                 # stack legacy without count
                 else:
-                    leg = leg + pre
+                    leg = leg + com
                 # reset
-                pre = s[j:j + i]
+                com = s[j:j + i]
                 cnt = 1
         # choose smaller one while comparing
         answer = min(answer, len(leg))
