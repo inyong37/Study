@@ -224,9 +224,9 @@ nano ~/CUDA/include/cudnn.h
 ----------
 ```
 # Author      : Inyong Hwang (inyong1020@gmail.com)
-# Date        : 2020-04-10-Fri.
-# Description : Check same png is several.
-# State       : Deprecated
+# Date        : 2020-01-01-Mon.
+# Description : None
+# State       : Done/Todo/Deprecated
 # Environment : Python 3.6.8 :: Anacinda, Inc., PyCharm 2018.1 (Professional Edition), Microsoft Windows 10.0.18362.720
 # Reference   : None
 ```
