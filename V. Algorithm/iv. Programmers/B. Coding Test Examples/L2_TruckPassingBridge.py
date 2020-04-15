@@ -100,3 +100,27 @@ def solution(bl, w, tws):
                 on.appendleft(0) # nothing in
         t += 1
     return t
+
+# Try 6-100.0/100.0 comment: summation cause a lot time cost (O(n)).
+
+from collections import deque
+
+def solution(bl, w, tws):
+    # input  = bl (bridge_length), w (weight), tws (truck_weights)
+    # output = t  (time)
+    tws = tws[::-1]
+    t = 0
+    on = deque([0] * bl) # bridge
+    total = 0
+    while on:
+        out = on.pop() # out
+        total -= out
+        if tws: # truck remain 
+            if total + tws[-1] <= w:
+                new = tws.pop()
+                on.appendleft(new) # truck in
+                total += new
+            else:
+                on.appendleft(0) # nothing in
+        t += 1
+    return t
