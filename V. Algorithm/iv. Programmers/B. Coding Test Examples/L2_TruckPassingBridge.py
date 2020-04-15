@@ -24,7 +24,7 @@ def solution(bl, w, tws):
         t += 1
     return t
 
-# Try 2
+# Try 2-92.9/100.0 case 5: time out
 
 def solution(bl, w, tws):
     # input  = bl (bridge_length), w (weight), tws (truck_weights)
