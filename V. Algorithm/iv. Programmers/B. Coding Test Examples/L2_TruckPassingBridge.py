@@ -60,3 +60,43 @@ def solution(bl, w, tws):
                 on.append(0) # nothing in
         t += 1
     return t
+
+# Try 4-92.9/100.0 case 5: time out
+
+from collections import deque
+
+def solution(bl, w, tws):
+    # input  = bl (bridge_length), w (weight), tws (truck_weights)
+    # output = t  (time)
+    tws = tws[::-1]
+    t = 0
+    on = deque([0] * bl) # bridge
+    while on:
+        on.popleft() # out
+        if tws: # truck remain 
+            if sum(on) + tws[-1] <= w:
+                on.append(tws.pop()) # truck in
+            else:
+                on.append(0) # nothing in
+        t += 1
+    return t
+
+# Try 5-92.9/100.0 case 5: time out
+
+from collections import deque
+
+def solution(bl, w, tws):
+    # input  = bl (bridge_length), w (weight), tws (truck_weights)
+    # output = t  (time)
+    tws = tws[::-1]
+    t = 0
+    on = deque([0] * bl) # bridge
+    while on:
+        on.pop() # out
+        if tws: # truck remain 
+            if sum(on) + tws[-1] <= w:
+                on.appendleft(tws.pop()) # truck in
+            else:
+                on.appendleft(0) # nothing in
+        t += 1
+    return t
