@@ -42,3 +42,21 @@ def solution(bl, w, tws):
     return t
 
 # Reference: https://mentha2.tistory.com/16
+
+#  Try 3-92.9/100.0 case 5: time out
+
+def solution(bl, w, tws):
+    # input  = bl (bridge_length), w (weight), tws (truck_weights)
+    # output = t  (time)
+    tws = tws[::-1]
+    t = 0
+    on = [0] * bl # bridge
+    while on:
+        on.pop(0) # out
+        if tws: # truck remain 
+            if sum(on) + tws[-1] <= w:
+                on.append(tws.pop()) # truck in
+            else:
+                on.append(0) # nothing in
+        t += 1
+    return t
