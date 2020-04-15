@@ -227,7 +227,8 @@ nano ~/CUDA/include/cudnn.h
 # Date        : 2020-01-01-Mon.
 # Description : None.
 # State       : Done/Todo/Deprecated.
-# Environment : Python 3.6.8 :: Anacinda, Inc., PyCharm 2018.1 (Professional Edition), Microsoft Windows 10.0.18362.720.
+# Laptop  Environment : Python 3.6.8(Anaconda), PyCharm 2018.1(Professional Edition), Microsoft Windows 10.0.18362.720.
+# Desktop Environment : Python 3.6.7(Anaconda custom), PyCharm 2018.3.2(Professional Edition), Microsoft Windows 10.0.18363.720.
 # Input       : None.
 # Output      : None.
 # Reference   : None.
