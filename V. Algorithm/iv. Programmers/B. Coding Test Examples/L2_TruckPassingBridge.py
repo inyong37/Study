@@ -30,14 +30,14 @@ def solution(bl, w, tws):
     # input  = bl (bridge_length), w (weight), tws (truck_weights)
     # output = t  (time)
     t = 0
-    on = [0] * bl
+    on = [0] * bl # bridge
     while on:
-        on.pop(0)
-        if tws:
+        on.pop(0) # out
+        if tws: # truck remain 
             if sum(on) + tws[0] <= w:
-                on.append(tws.pop(0))
+                on.append(tws.pop(0)) # truck in
             else:
-                on.append(0)
+                on.append(0) # nothing in
         t += 1
     return t
 
