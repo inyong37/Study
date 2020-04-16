@@ -32,15 +32,15 @@ def solution(s, sts):
     # input  : s (skill), sts (skill_trees)
     # output : cnt (correct skill_trees)
     cnt = 0
-    for i in sts:
+    for st in sts:
         flg = True # flag
-        cmp = ''
-        for item in i:
-            if item in s:
-                cmp += item
+        cmp = ''   # compare
+        for itm in st:
+            if itm in s:
+                cmp += itm
         
-        for j in range(len(cmp)):
-            if cmp[j] != s[j]:
+        for idx in range(len(cmp)):
+            if cmp[idx] != s[idx]:
                 flg = False
                 break
                 
