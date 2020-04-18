@@ -55,3 +55,5 @@ def solution(p):
                     u[idx] = '('
             tmp += ''.join(u)
             return tmp
+
+# Reference: https://inspirit941.tistory.com/m/104
