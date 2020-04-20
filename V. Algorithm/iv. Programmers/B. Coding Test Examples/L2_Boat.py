@@ -5,7 +5,6 @@ def solution(people, limit):
     cnt = 0
     ldx = 0 # light index
     hdx = len(people) - 1 # heavy index
-    cnt = 0
     while ldx < hdx:
         if people[ldx] + people[hdx] <= limit:
             cnt += 1
