@@ -24,3 +24,20 @@ def solution(v):
     return p
 
 # Try 2
+
+from collections import Counter
+
+def solution(v):
+    x , y = 0, 0
+    u = [list(i) for i in zip(*v)]
+    a = Counter(u[0])
+    b = Counter(u[1])
+    # print(a.keys(), a.values())
+    # print(b.keys(), b.values())
+    for [key, val] in a.items():
+        if val == 1:
+            x = key
+    for [key, val] in b.items():
+        if val == 1:
+            y = key
+    return [x, y]
