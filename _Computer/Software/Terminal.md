@@ -13,6 +13,8 @@ This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 > powershell # Turn off CMD and turn on PowerShell
 > Taskkill OPTION PROCESS_NAME PROCESS_PID_NUMBER # /f: forced, /im: 
 ```
+#### Python
+- activate env 
 ## ii. [PowerShell](https://powershell.org/)
 [Documentation](https://docs.microsoft.com/en-us/powershell/)
 ### A. Commands
@@ -33,6 +35,8 @@ PS powershell # Turn off PowerShell and turn on CMD
 - click `949` and change `*굴림체` to `*나눔고딕코딩`
 - open `PowerShell` and enter `alt` + `D`or enter `default setting`
 - change font to `나눔고딕코딩`
+#### Python
+- activate env 안됨
 # II. Unix/Linux
 - get a root right `su`
 - check `whoami`
