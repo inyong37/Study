@@ -2,24 +2,23 @@
 ```
 This page is about storage.
 ```
-## Hard Disk Drive (HDD)
+## I. Hard Disk Drive (HDD)
 
-### 'LMR' versus 'PMR' versus 'SMR'
-```
-LMR(Longitudinal Magnetic Recording)
-PMR(Perpendicular Magnetic Recording) by Toshiba
-SMR(Shingled Magnetic Recording)
-```
+### LMR
+Longitudinal Magnetic Recording
+
+### PMR
+Perpendicular Magnetic Recording, made by Toshiba
+
+### SMR
+Shingled Magnetic Recording
 
 ### Low Level Format
-```
 Record all platters as zero.
-```
-1) 드라이브 지우기 [about](https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg)
 
-2) 초기화: GPT선택 [about](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
-
-3) Format: NTFS선택하시고 allocation unit size:4096으로 선택 [about](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
+- 1) [드라이브 지우기](https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg)
+- 2) [초기화: GPT선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
+- 3) [Format: NTFS 선택하고 allocation unit size:4096 선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
 
 ## II. Solid State Drive (SSD)
 
@@ -31,11 +30,11 @@ TLC (Triple Level Cell)
 QLC (Quad Level Cell)
 ```
 
-## Direct Attached Storage (DAS)
+## III. Direct Attached Storage (DAS)
 
-## Network Attached Storage (NAS)
+## IV. Network Attached Storage (NAS)
 
-## Cloud Storage
+## V. Cloud Storage
 
 ### [Google Drive](https://www.google.com/drive/)
  It is made by Google. Google documents, spreadsheets, and presentations are available and are seamlessly compatible with Microsoft Office. Keep photos, documents, designs, pictures, recordings, videos, and more. When you create a Google Account, you get 15 GB of storage for free. Files on your drive can be accessed from your smartphone, tablet, computer, and more, so you can use them anytime, anywhere. Invite others to view, download, and work on files together. Personal; Save and share files and access files from any device. 15GB of free storage is provided for basic storage. For business; Enterprise drives only charge for storage used by employees.[1]
