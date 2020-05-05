@@ -16,9 +16,9 @@ Shingled Magnetic Recording
 ### Low Level Format
 Record all platters as zero.
 
-- 1) [드라이브 지우기](https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg)
-- 2) [초기화: GPT선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
-- 3) [Format: NTFS 선택하고 allocation unit size:4096 선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
+1) [드라이브 지우기](https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg)
+2) [초기화: GPT선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
+3) [Format: NTFS 선택하고 allocation unit size:4096 선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
 
 ## II. Solid State Drive (SSD)
 
