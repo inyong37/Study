@@ -22,13 +22,17 @@ Record all platters as zero.
 
 ## II. Solid State Drive (SSD)
 
-### 'SLC' versus 'MLC' versus 'TLC' versus 'QLC'
-```
-SLC (Single Level Cell)
-MLC (Multi Level Cell)
-TLC (Triple Level Cell)
-QLC (Quad Level Cell)
-```
+### SLC
+Single Level Cell
+
+### MLC
+Multi Level Cell
+
+### TLC
+Triple Level Cell
+
+### QLC
+Quad Level Cell
 
 ## III. Direct Attached Storage (DAS)
 
