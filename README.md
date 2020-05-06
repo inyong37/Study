@@ -122,6 +122,9 @@ Books about Data Structure and Algorithm.
 ## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
 - :heavy_exclamation_mark: (Not Yet)
 
+## vii. [LeetCode](https://leetcode.com/)
+- :heavy_exclamation_mark: (Not Yet)
+
 ----------
 # VI. Language :books:
 ```
