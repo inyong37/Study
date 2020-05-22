@@ -37,7 +37,7 @@ PS powershell # Turn off PowerShell and turn on CMD
 - change font to `나눔고딕코딩`
 #### Python
 - activate env 안됨
-### iii. [Terminal](https://github.com/Microsoft/Terminal)
+## iii. [Terminal](https://github.com/Microsoft/Terminal)
  Windows 터미널은 명령 프롬프트, PowerShell 및 WSL과 같은 명령 줄 도구 및 셸 사용자를 위한 최신의 빠르고 효율적이며 강력한 생산성의 터미널 응용 프로그램입니다. 주요 기능으로는 여러 탭, 창, 유니 코드 및 UTF-8 문자 지원, GPU 가속 텍스트 렌더링 엔진 및 사용자 정의 테마, 스타일 및 구성이 있습니다.
  
 # II. Unix/Linux
