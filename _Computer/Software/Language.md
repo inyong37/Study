@@ -27,6 +27,10 @@ The Java™ Programming Language is a general-purpose, concurrent, strongly type
 Tool: Eclipse, IntelliJ IDEA. #JVM, #javac, #class
 ```
 ### [Eclipse](https://www.eclipse.org/)
+- Key
+  - `Control` `l`: Search by line
+  - `Control` `f`: find by word
+  - `Control` ``
 
 ### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
