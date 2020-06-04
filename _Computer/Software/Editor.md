@@ -1,6 +1,6 @@
-# Text Editor
+# Editor
 ```
-This page is about text editor.
+This page is about (text) editor.
 ```
 # I. Windows
 - (That I'm using in)
@@ -52,21 +52,22 @@ Vim is basic text editor in Linux. Vim is a highly configurable text editor for 
 ### A. Commands
 #### a. Basic
 - Quit and Save
-```
-:q # quit
-:qa # quit all
-:q! # quit forced
-:w # save
-:wq # save and quit
-```
-- `u`: undo, `Control` + `r`: redo, `U`: only undo in cursor(caret) line.
-- `:vs %:r.h`: open same name of header file.
+  - Quit: `q`
+  - Quit all: `qa`
+  - Quit without saved/forced: `q!`
+  - Save: `w`
+  - Save and quit: `wq`
+- Undo and Redo
+  - Undo: `u`
+  - Undo cursor/caret line: `U`
+  - Redo: `Control` + `r`
+- Open
+  - Open same name of header file: `:vs %:r.h`
+  - Open same name of source code file: `:vs %:r.cc`
 - Search
-```
-/asdf # search asdf
-n # see next 'asdf'
-N # see previous 'asdf'
-```
+  - Search 'word' `/word`
+  - See next: `n`
+  - See previous `N`
 - Copy and Paste
 ```
 yy # copy one line
