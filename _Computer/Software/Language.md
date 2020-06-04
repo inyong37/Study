@@ -28,9 +28,9 @@ Tool: Eclipse, IntelliJ IDEA. #JVM, #javac, #class
 ```
 ### [Eclipse](https://www.eclipse.org/)
 - Key
-  - `Control` `l`: Search by line
-  - `Control` `f`: find by word
-  - `Control` ``
+  - `Control` `l`: go to # line
+  - `Control` `f`: find 'word' in this code
+  - `Control` `h`: search 'word' in a whole directory
 
 ### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
