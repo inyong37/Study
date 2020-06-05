@@ -69,13 +69,12 @@ Vim is basic text editor in Linux. Vim is a highly configurable text editor for 
   - See next: `n`
   - See previous `N`
 - Copy and Paste
-```
-yy # copy one line
-Y # copy one line
-p # paste the line under
-P # paste the line above
-dd # delete cursor line
-```
+  - Copy cursor/caret line: `yy`
+  - Copy cursor/caret line: `Y`
+  - Paste under: `p`
+  - Paste above: `P`
+  - Delete cursor/caret line: `dd`
+
 #### b. Window
 ```
 :help windows # see window's contents
