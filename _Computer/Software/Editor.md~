@@ -107,10 +107,6 @@ It has 3 modes, command mode, insert mode, visual mode.
 :tablast # move to last tab
 :tabs # show all tabs' information
 ```
-- Move
-  - Move to right tab: `gt`
-  - Move to left tab: `gT`
-
 ### B. Plugin
 - Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
 #### a. Ctags [Exuberant Ctags](http://ctags.sourceforge.net/) [Universal Ctags](https://ctags.io/)
