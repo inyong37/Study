@@ -3,6 +3,7 @@ This page is about C and C++.
 
 ### Ternary Operator
 Conditional statement ? return value 1 : return value 2
+
 If the conditional statment is true, return value 1 if it is false, return value 2.
 
 # Static Versus Dynamic Binding
