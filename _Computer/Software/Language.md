@@ -43,7 +43,7 @@ Tool: Anaconda, PyCharm.
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
 - Comment: `Control` + `/`.
-- Run: 'Control` + `Shift` + `F5`.
+- Run: `Control` + `Shift` + `F5`.
 #### My keymap #1
 - Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
 - Rerun: `Control` + `Shift` + `r`
