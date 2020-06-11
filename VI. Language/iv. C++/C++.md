@@ -11,7 +11,7 @@ It can access to `private` and `protected member` to other `friend class`.
 ### Friend function
 Same as `friend class`, it gives other to access `private` and `protected member` with function unit not as class unit.
 
-### Static Varialbe
+### Static Variable
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
 
 ### Virtual
