@@ -1,3 +1,11 @@
+# Author      : inyong1020@gmail.com
+# Date        : 2020-06-12-Fri.
+# Description : Hacker Rank; 30 Days of code; Day 4: Class vs. Instance.
+# State       : Passed.
+# Environment : -
+# Input       : -
+# Output      : -
+
 """
 Objective
 In this challenge, we're going to learn about the difference between a class and an instance; because this is an Object Oriented concept, it's only enabled in certain languages. Check out the Tutorial tab for learning materials and an instructional video!
