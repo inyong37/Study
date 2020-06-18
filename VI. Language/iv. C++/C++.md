@@ -53,10 +53,15 @@ It can convert(cast) A type to B type, it can convert(cast) any type to any type
 
 It can convert(cast) A type to B type, it has to use right cast.
 
+#### `const_cast`
+It removes or grant constantity to expression. It rarley used to grant constantity to expression.
+
 #### `static_cast`
+`static_cast<type A>(type B's variable)`
 #### `dynamic_cast`
-#### `const_cats`
+
 #### `reinterpret_cast`
+
 
 ### Static Versus Dynamic Binding
 
