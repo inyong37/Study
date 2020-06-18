@@ -39,15 +39,25 @@ This keyword used at child class's virtual function, as `virtual` keyword is use
 
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
-# Static Versus Dynamic Binding
+### sstream
+#### istringstream
+It used to parse(input) string.
 
-# Forward Declarartions and Definitions
+#### ostringstream
+It used to save(output) string.
 
-# Anonymous Namespace
+#### stringstream
+It used to modifie data of string.
 
-# Extern Versus Static Versus Class Static
+### Static Versus Dynamic Binding
 
-# Singleton
+### Forward Declarartions and Definitions
+
+### Anonymous Namespace
+
+### Extern Versus Static Versus Class Static
+
+### Singleton
 
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
@@ -55,7 +65,8 @@ It can make nickname of type. For example, `typedef double d` means `d` is nickn
 - Static Variable, https://boycoding.tistory.com/169, 2020-06-11-Thu.
 - Virtual, https://unikys.tistory.com/355, 2020-06-11-Thu.
 - Smart Pointer, http://tcpschool.com/cpp/cpp_template_smartPointer, 2020-06-11-Thu.
--   boost::scoped_ptr, https://yesarang.tistory.com/53, 2020-06-11-Thu.
--   Multi Inheritance, https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=60207057116&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-06-11-Thu.
--   Override, https://blankspace-dev.tistory.com/412, 2020-06-11-Thu.
--   Typedef, https://boycoding.tistory.com/182, 2020-06-11-Thu.
+- boost::scoped_ptr, https://yesarang.tistory.com/53, 2020-06-11-Thu.
+- Multi Inheritance, https://m.blog.naver.com/PostView.nhn?blogId=kks227&logNo=60207057116&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-06-11-Thu.
+- Override, https://blankspace-dev.tistory.com/412, 2020-06-11-Thu.
+- Typedef, https://boycoding.tistory.com/182, 2020-06-11-Thu.
+- sstream, https://doitnow-man.tistory.com/207, 2020-06-18-Thu.
