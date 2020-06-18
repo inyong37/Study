@@ -3,7 +3,7 @@ This page is about C and C++.
 
 ## Data Type
 |Type Name|Byte|Nickname|Value Range|
-|:-------:|---:|:------:|:---------:|
+|:-------:|:--:|:------:|:---------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
 |unsigned int|4|unsigned|0 to 4,294,967,295|
 |bool|1|none|false or true|
