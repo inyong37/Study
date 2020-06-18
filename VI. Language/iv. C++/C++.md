@@ -43,7 +43,16 @@ It used to save(output) string.
 #### stringstream
 It used to modifie data of string.
 
-### cast
+### C Style Cast
+`(type-id)(e-pression)`
+
+It can convert(cast) A type to B type, it can convert(cast) any type to any type.
+
+### C++ Style Cast
+`<type-id>(e-pression)`
+
+It can convert(cast) A type to B type, it has to use right cast.
+
 #### `static_cast`
 #### `dynamic_cast`
 #### `const_cats`
