@@ -65,6 +65,9 @@ It has limit as can't convert/cast struct type to int/double or float to pointer
 It's name is because it checks its' type at moment of compile not at run-time.
 
 #### `dynamic_cast`
+It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting.
+It casts pointer or reference's base class instance to derived class or sibling class type.
+It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
 ### Static Versus Dynamic Binding
 
