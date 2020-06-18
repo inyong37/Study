@@ -54,12 +54,15 @@ It can convert(cast) A type to B type, it can convert(cast) any type to any type
 It can convert(cast) A type to B type, it has to use right cast.
 
 #### `const_cast`
-It removes or grant constantity to expression. It rarley used to grant constantity to expression.
+It removes or grant constness to expression. It rarley used to grant constness to expression.
 
 #### `reinterpret_cast`
 It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
 #### `static_cast`
+It is basic cast as having same meaning and same ability to convert/cast as C style cast.
+It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness.
+It's name is because it checks its' type at moment of compile not at run-time.
 
 #### `dynamic_cast`
 
