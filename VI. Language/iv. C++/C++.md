@@ -3,10 +3,10 @@ This page is about C and C++.
 
 ### Ternary Operator
 `Conditional statement ? return value 1 : return value 2`
+
 If the conditional statment is true, return value 1 if it is false, return value 2.
 
 ### `friend` Class
-
 It can access to `private` and `protected member` to other `friend class`.
 
 ### `friend` Function
@@ -16,27 +16,21 @@ Same as `friend class`, it gives other to access `private` and `protected member
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
 
 ### `virtual`
-
 It used to declare function virtually in parent class, and it make child class declare in real. It used to manage modules as component, as modules have one same parent and make class as themselves with specify along their property.
 
 ### Template
-
 It codes only `.h`s not `.cc`s.
 
 ### Smart pointer
-
 C++ provides smart pointer to guarantee program's secure with memory leak. It is class template works as pointer, it releases memory automatically when useless. There was `auto_ptr` before C++11, and after C++11, there are `unique_ptr`, `shared_ptr`, and `weak_ptr`.
 
 ### `boost::scoped_ptr`
-
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
 
 ### `override`
-
 This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
 
 ### `typedef`
-
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
 ### sstream
@@ -48,6 +42,12 @@ It used to save(output) string.
 
 #### stringstream
 It used to modifie data of string.
+
+### cast
+#### `static_cast`
+#### `dynamic_cast`
+#### `const_cats`
+#### `reinterpret_cast`
 
 ### Static Versus Dynamic Binding
 
@@ -70,3 +70,4 @@ It used to modifie data of string.
 - Override, https://blankspace-dev.tistory.com/412, 2020-06-11-Thu.
 - Typedef, https://boycoding.tistory.com/182, 2020-06-11-Thu.
 - sstream, https://doitnow-man.tistory.com/207, 2020-06-18-Thu.
+- cast, http://egloos.zum.com/sweeper/v/1907485, 2020-06-18-Thu.
