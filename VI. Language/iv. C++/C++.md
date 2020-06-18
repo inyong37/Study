@@ -21,6 +21,40 @@ This page is about C and C++.
 |double|8|none|1.7E +/- 308 (15 digits)|
 |long double|8|none|1.7E +/- 308 (15 digits)|
 
+## Standard Template Library(STL)
+Library that provides data structure and algorithm as template
+
+### Algorithm
+Is is a function template that provides a generalized way to solve sorts, deletes, searches, operations, etc.
+
+### Allocator
+It is a class object that encapsulates a container's memory allocation policy. Every container has its own allocator.
+
+### Container
+It also called an object or data structure that stores objects. It is implemented as a class template.
+
+#### Associative Container
+##### array
+##### vector
+##### list
+##### deque
+#### Sequence Container
+##### set
+##### multiset
+##### map
+##### multimap
+### Container Adaptor
+It changes the component's interface to a component with a new interface.
+
+#### stack
+#### queue
+#### Priority_queue
+### Function Object
+It is an object that behaves like a function, with the operator() operator overloaded. Client policy is reflected in containers and algorithms.
+
+### Iterator
+It is a function similar to a pointer that points to an element in a container, accesses the element it points to, and points to the next element.
+
 ## untitled
 
 ### Ternary Operator
@@ -114,3 +148,5 @@ It can't be casted between nonpolymorphic objects, and a compliation error occur
 - sstream, https://doitnow-man.tistory.com/207, 2020-06-18-Thu.
 - cast, http://egloos.zum.com/sweeper/v/1907485, 2020-06-18-Thu.
 - Data Type, https://offbyone.tistory.com/115, 2020-06-18-Fri.
+- STL, https://blockdmask.tistory.com/67, 2020-06-18-Fri.
+- STL, https://m.blog.naver.com/PostView.nhn?blogId=psd0217&logNo=220308769007&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-06-18-Fri.
