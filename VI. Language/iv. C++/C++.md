@@ -56,12 +56,12 @@ It can convert(cast) A type to B type, it has to use right cast.
 #### `const_cast`
 It removes or grant constantity to expression. It rarley used to grant constantity to expression.
 
-#### `static_cast`
-`static_cast<type A>(type B's variable)`
-#### `dynamic_cast`
-
 #### `reinterpret_cast`
+It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
+#### `static_cast`
+
+#### `dynamic_cast`
 
 ### Static Versus Dynamic Binding
 
