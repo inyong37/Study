@@ -2,6 +2,26 @@
 This page is about C and C++.
 
 ## Data Type
+|Type Name|Byte|Nickname|Value Range|
+|:-------:|---:|:------:|:---------:|
+|int|4|signed|-2,147,483,648 to 2,147,483,647|
+|unsigned int|4|unsigned|0 to 4,294,967,295|
+|bool|1|none|false or true|
+|char|1|none|-128 to 127|
+|signed char|1|none|-128 to 127|
+|unsigned char|1|none|0 to 255|
+|short|2|short int, signed short int|-32,768 to 32,767|
+|unsigned short|2|unsigned short int|0 to 65,535|
+|long|4|long int, signed long int|-2,147,483,648 to 2,147,483,647|
+|unsigned long|4|unsigned long int|0 to 4,294,967,295|
+|long long|8|none|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|unsigned long long|8|none|0 to 18,446,744,073,709,551,615|
+|enum|varies|none|varies|
+|float|4|none|3.4E +/- 38 (7 digits)|
+|double|8|none|1.7E +/- 308 (15 digits)|
+|long double|8|none|1.7E +/- 308 (15 digits)|
+
+## untitled
 
 ### Ternary Operator
 `Conditional statement ? return value 1 : return value 2`
@@ -93,3 +113,4 @@ It can't be casted between nonpolymorphic objects, and a compliation error occur
 - Typedef, https://boycoding.tistory.com/182, 2020-06-11-Thu.
 - sstream, https://doitnow-man.tistory.com/207, 2020-06-18-Thu.
 - cast, http://egloos.zum.com/sweeper/v/1907485, 2020-06-18-Thu.
+- Data Type, https://offbyone.tistory.com/115, 2020-06-18-Fri.
