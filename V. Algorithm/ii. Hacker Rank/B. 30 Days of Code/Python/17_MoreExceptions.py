@@ -47,7 +47,7 @@ Explanation
 : Both inputs ( and ) are negative, so power throws an exception and  is printed.
 : One of the inputs () is negative, so power throws an exception and  is printed.
 """
-#Write your code here
+# Write your code here
 
 
 class Calculator:
