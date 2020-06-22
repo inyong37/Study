@@ -5,6 +5,7 @@
 # Environment : -
 # Input       : -
 # Output      : -
+# Reference   : Abstract Base Class(ABC), https://bluese05.tistory.com/61, 2020-06-22-Mon.
 
 """
 Objective
