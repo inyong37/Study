@@ -5,6 +5,7 @@
 # Environment : -
 # Input       : -
 # Output      : -
+# Reference   : https://docs.python.org/ko/3/tutorial/datastructures.html
 
 """
 Welcome to Day 18! Today we're learning about Stacks and Queues. Check out the Tutorial tab for learning materials and an instructional video!
@@ -44,6 +45,24 @@ import sys
 
 class Solution:
     # Write your code here
+    def __init__(self):
+        self.stack = list()
+        self.queue = list()
+
+    def pushCharacter(self, string):
+        for character in string:
+            self.stack.append(character)
+
+    def popCharacter(self):
+        return self.stack.pop()
+
+    def enqueueCharacter(self, string):
+        for character in string:
+            self.queue.append(character)
+
+    def dequeueCharacter(self):
+        return self.queue.pop(0)
+
 
 # read the string s
 s = input()
