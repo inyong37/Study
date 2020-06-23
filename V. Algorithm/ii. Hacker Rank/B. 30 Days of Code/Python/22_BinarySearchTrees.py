@@ -5,6 +5,7 @@
 # Environment : -
 # Input       : -
 # Output      : -
+# Reference   : https://www.hackerrank.com/challenges/30-binary-search-trees/forum/comments/178930
 
 """
 Objective
@@ -52,7 +53,7 @@ There are  nodes in this path that are connected by  edges, meaning our BST's . 
 
 class Node:
     def __init__(self, data):
-        self.right=self.left=None
+        self.right = self.left = None
         self.data = data
 
 
@@ -62,16 +63,18 @@ class Solution:
             return Node(data)
         else:
             if data <= root.data:
-                cur=self.insert(root.left,data)
-                root.left=cur
+                cur = self.insert(root.left, data)
+                root.left = cur
             else:
-                cur=self.insert(root.right,data)
-                root.right=cur
+                cur = self.insert(root.right, data)
+                root.right = cur
         return root
 
     def getHeight(self, root):
         # Write your code here
-        return
+        if root is None:
+            return -1
+        return 1 + max(self.getHeight(root.left), self.getHeight(root.right))
 
 
 T = int(input())
@@ -81,5 +84,5 @@ for i in range(T):
     data = int(input())
     root = myTree.insert(root, data)
 
-height=myTree.getHeight(root)
+height = myTree.getHeight(root)
 print(height)
