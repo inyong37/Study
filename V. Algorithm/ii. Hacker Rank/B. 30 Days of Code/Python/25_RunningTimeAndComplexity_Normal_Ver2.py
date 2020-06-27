@@ -1,11 +1,11 @@
 # Author      : inyong1020@gmail.com
-# Date        : 2020-06-26-Fri.
+# Date        : 2020-06-27-Sat.
 # Description : Hacker Rank; 30 Days of code; Day 25: Running Time and Complexity.
-# State       : Passed without test case 7 and 8.
+# State       : Passed.
 # Environment : -
 # Input       : -
 # Output      : -
-# Reference   : https://brownbears.tistory.com/445
+# Reference   : https://www.hackerrank.com/challenges/30-running-time-and-complexity/forum/comments/495184
 """
 Objective
 Today we're learning about running time! Check out the Tutorial tab for learning materials and an instructional video!
@@ -54,23 +54,20 @@ import sys
 from math import ceil, sqrt
 
 
-def sieveOfEratosthenes(integer):
-    sieve = [0, 0] + [1] * (integer-1)
-    for i in range(2, ceil(sqrt(integer+1))):
-        if sieve[i]:
-            for j in range(2*i, integer+1, i):
-                sieve[j] = 0
-    return [i for i in range(2, len(sieve)) if sieve[i]]
+def check(integer):
+    if integer <= 1:
+        return print('Not prime')
+    if integer is 2:
+        return print('Prime')
+    if not integer % 2:
+        return print('Not prime')
+    for i in range(3, ceil(sqrt(integer))+1, 2):
+        if integer % i == 0:
+            return print('Not prime')
+    return print('Prime')
 
 
 n = int(sys.stdin.readline())
-input_integers = list()
 for _ in range(n):
-    input_integers.append(int(sys.stdin.readline()))
+    check(int(sys.stdin.readline()))
 
-check = sieveOfEratosthenes(max(input_integers))
-for idx, itm in enumerate(input_integers):
-    if itm in check:
-        print('Prime')
-    else:
-        print('Not prime')

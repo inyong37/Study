@@ -1,7 +1,7 @@
 # Author      : inyong1020@gmail.com
-# Date        : 2020-06-26-Fri.
+# Date        : 2020-06-27-Sat.
 # Description : Hacker Rank; 30 Days of code; Day 25: Running Time and Complexity.
-# State       : Passed without test case 7 and 8.
+# State       : Not passed.
 # Environment : -
 # Input       : -
 # Output      : -
@@ -54,13 +54,19 @@ import sys
 from math import ceil, sqrt
 
 
-def sieveOfEratosthenes(integer):
+def sieveOfEratosthenes(integers):
+    answers = dict()
+    for idx, itm in enumerate(integers):
+        answers[itm] = True
+    integer = max(integers)
     sieve = [0, 0] + [1] * (integer-1)
     for i in range(2, ceil(sqrt(integer+1))):
         if sieve[i]:
             for j in range(2*i, integer+1, i):
+                if i in list(answers.keys()) or j in list(answers.keys()):
+                    answers[itm] = False
                 sieve[j] = 0
-    return [i for i in range(2, len(sieve)) if sieve[i]]
+    return answers
 
 
 n = int(sys.stdin.readline())
@@ -68,9 +74,9 @@ input_integers = list()
 for _ in range(n):
     input_integers.append(int(sys.stdin.readline()))
 
-check = sieveOfEratosthenes(max(input_integers))
-for idx, itm in enumerate(input_integers):
-    if itm in check:
+answers = sieveOfEratosthenes(input_integers)
+for answer in answers.values():
+    if answer:
         print('Prime')
     else:
         print('Not prime')
