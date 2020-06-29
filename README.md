@@ -209,6 +209,13 @@ nano ~/CUDA/include/cudnn.h
 #### b. VMware
 [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
+### Computer
+
+- Operating System Concepts (10th Ed.) [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+- Operating System Concepths Essential (2nd Ed.) [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=)
+- Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)
+- Head First Design Patterns [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
+
 ----------
 - :book: 
 ----------
