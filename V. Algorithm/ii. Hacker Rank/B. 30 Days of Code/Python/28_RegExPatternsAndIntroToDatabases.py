@@ -65,5 +65,5 @@ if __name__ == '__main__':
         if emailID.endswith('@gmail.com'):
             table.append([firstName, emailID])
     # sorted by name, not email
-    for name, email in sorted(table):
+    for name, email in sorted(table): # same as table.sort(), sorted(table) has return, and table.sort() sorts itself.
         print(name)
