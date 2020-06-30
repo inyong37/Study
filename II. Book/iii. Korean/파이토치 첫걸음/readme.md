@@ -8,6 +8,7 @@
 August, 2019
 
 ### Content
+
 Prologue. 개발환경 준비 :heavy_check_mark:
 
 Chapter 1. 파이토치의 기본 :heavy_check_mark:
