@@ -5,7 +5,9 @@
 
 ### Date
 
-September, 2018
+- September, 2018
+
+- July, 2020
 
 ### Content
 
