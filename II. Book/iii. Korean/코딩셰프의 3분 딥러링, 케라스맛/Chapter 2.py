@@ -43,7 +43,7 @@ class ANN_seq_class(models.Sequential):
         super().__init__()
         self.add(layers.Dense(Nh, activation='relu', input_shape=(Nin,)))
         self.add(layers.Dense(Nout, activation='softmax'))
-        self.compile(loss='categorical_crossentropy', optmizer='adam', metrics=['accuracy'])
+        self.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 
 import numpy as np
@@ -88,7 +88,7 @@ def plot_acc(history):
 
 
 def main():
-    Nin = 785
+    Nin = 784
     Nh = 100
     number_of_class = 10
     Nout = number_of_class
@@ -96,7 +96,7 @@ def main():
     model = ANN_seq_class(Nin, Nh, Nout)
     (X_train, Y_train), (X_test, Y_test) = Data_func()
 
-    history = model.fit(X_train, Y_train, epoch=15, batch_size=100, validation_split=0.2)
+    history = model.fit(X_train, Y_train, epochs=15, batch_size=100, validation_split=0.2)
     performance_test = model.evaluate(X_test, Y_test, batch_size=100)
     print('Test Loss and Accuracy ->', performance_test)
 
