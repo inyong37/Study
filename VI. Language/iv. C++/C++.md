@@ -177,6 +177,8 @@ struct foo_struct *a
 - X: `a.bar_arr`
 - X: `a.bar_int`
 
+B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
+
 ### Static Versus Dynamic Binding
 
 ### Forward Declarartions and Definitions
