@@ -159,6 +159,26 @@ call by reference/pass by reference 참조로 전달하면 함수를 위한 별�
 
 상수 멤버 함수란 호출한 객체의 데이터를 변경할 수 없는 멤버 함수이며 함수의 원형 마지막에 `const` 키워드를 사용하여 선언한다. 호출한 객체의 데이터를 단순히 읽기만 하는 멤버 함수는 상수 멤버 함수로 정의하는 것이 정보 보호 측면에서 좋다. `function_name const;`
 
+### `->`
+
+포인터 변수의 값을 참조하기 위한 연산자이다.
+
+```
+struct foo_struct
+{
+    char bar_arr[10];
+    int bar_int = 10;
+};
+
+struct foo_struct *a
+```
+- O: `a->bar_arr`
+- O: `a->bar_int`
+- X: `a.bar_arr`
+- X: `a.bar_int`
+
+B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
+
 ### Static Versus Dynamic Binding
 
 ### Forward Declarartions and Definitions
@@ -184,7 +204,7 @@ call by reference/pass by reference 참조로 전달하면 함수를 위한 별�
 - Data Type, https://offbyone.tistory.com/115, 2020-06-18-Fri.
 - STL, https://blockdmask.tistory.com/67, 2020-06-18-Fri.
 - STL, https://m.blog.naver.com/PostView.nhn?blogId=psd0217&logNo=220308769007&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-06-18-Fri.
-
 -   Call by Value, https://boycoding.tistory.com/217, 2020-06-25-Thu.
 -   Call by Reference, Call by Assignment, https://wayhome25.github.io/cs/2017/04/11/cs-13/, 2020-06-25-Thu.
 -   Static, Const, http://tcpschool.com/cpp/cpp_encapsulation_staticConst, 2020-06-25-Thu.
+- ->, https://m.blog.naver.com/PostView.nhn?blogId=reverse_ing&logNo=60133603796&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-01-Wed.
