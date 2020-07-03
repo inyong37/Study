@@ -62,7 +62,7 @@ class Machine:
         model = self.model
         print('Training stage')
         print('='*10)
-        models.fit(data.x_train, data.y_train, batch_size=batch_size, epochs=epochs, validation_data=(data.x_test, data.y_test))
+        model.fit(data.x_train, data.y_train, batch_size=batch_size, epochs=epochs, validation_data=(data.x_test, data.y_test))
 
         score, acc = model.evaluate(data.x_test, data.y_test, batch_size=batch_size)
         print('Test performance: accuracy={0}, loss={1]'.format(acc, score))
