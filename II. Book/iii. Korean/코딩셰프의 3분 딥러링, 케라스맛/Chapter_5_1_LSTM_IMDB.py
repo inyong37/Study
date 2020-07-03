@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Modified Author : Inyong Hwang (inyong1020@gmail.com)
 # Date            : 2020-07-03-Fri
-# Title           : 코딩셰프의 분 딥러닝, 케라스맛 Chapter 4. 케라스로 구현하는 RNN(순환신경망)
+# Title           : 코딩셰프의 분 딥러닝, 케라스맛 Chapter 5. 케라스로 구현하는 RNN(순환신경망)
 
 
 from __future__ import print_function
