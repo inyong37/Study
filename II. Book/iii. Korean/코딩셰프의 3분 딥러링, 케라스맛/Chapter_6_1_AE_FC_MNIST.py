@@ -30,6 +30,19 @@ def plot_acc(history):
     plt.legend(['Train', 'Test'], loc=0)
 
 
+class AE(models.Model):
+    def __init__(self, x_nodes=784, z_dim=36):
+        x_shape = (x_nodes,)
+        x = layers.Input(shape=x_shape)
+        z = layers.Dense(z_dim, activation='relu')(x)
+        y = layers.Dense(x_nodes, activation='sigmoid')(z)
+
+        super().__init__(x, y)
+
+        self.x = x
+        self.z = z
+        
+
 def main():
     machine = Machine()
     machine.run(epochs=400)
