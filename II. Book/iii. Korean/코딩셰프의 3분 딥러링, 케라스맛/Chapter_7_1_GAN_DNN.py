@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 # Modified Author : Inyong Hwang (inyong1020@gmail.com)
 # Date            : 2020-07-05-Sun
-# Title           : 코딩셰프의 분 딥러닝, 케라스맛 Chapter 6. 케라스로 구현하는 AE(오토인코더)
+# Title           : 코딩셰프의 분 딥러닝, 케라스맛 Chapter 7. 케라스로 구현하는 GAN(생성적 적대 신경망)
 
 
 import numpy as np
-from keras import models, layers
-from keras import datasets
-from keras import backend
-import keras
+from keras import models
+from keras.layers import Dense, Conv1D, Reshape, Flatten, Lambda
+from keras.optimizers import Adam
+from keras import backend as K
 import matplotlib.pyplot as plt
 import inspect
 
@@ -35,6 +35,38 @@ def plot_acc(history):
     plt.legend(['Train', 'Test'], loc=0)
     plt.savefig(filename.replace('.py', '') + '_acc.png', dpi=300)
 
+
+def main():
+    machine = Machine(n_batch=1, ni_D=100)
+    machine.run(n_repeat=200, n_show=200, n_test=100)
+
+
+class DATA:
+    def __init__(self):
+        num_classes = 10
+        (x_train, y_train), (x_test, y_test) = datasets.mnist.load_data()
+        img_rows, img_cols = x_train.shape[1:]
+        if backend.image_data_format() == 'channels_first':
+            x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)
+            x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)
+            input_shape = (1, img_rows, img_cols)
+        else:
+            x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)
+            x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)
+            input_shape = (img_rows, img_cols, 1)
+
+        x_train = x_train.astype('float32')
+        x_test = x_test.astype('float32')
+        x_train /= 255
+        x_test /= 255
+
+        y_train = keras.utils.to_categorical(y_train, num_classes)
+        y_test = keras.utils.to_categorical(y_test, num_classes)
+
+        self.input_shape = input_shape
+        self.num_clsses = num_classes
+        self.x_train, self.y_train = x_train, y_train
+        self.x_test, self.y_test = x_test, y_test
 
 def Conv2D(filters, kernel_size, padding='same', activation='relu'):
     return layers.Conv2D(filters, kernel_size, padding=padding, activation=activation)
@@ -66,32 +98,7 @@ class AE(models.Model):
         self.compile(optimizer='adadelta', loss='binary_crossentropy', metrics=['accuracy'])
 
 
-class DATA:
-    def __init__(self):
-        num_classes = 10
-        (x_train, y_train), (x_test, y_test) = datasets.mnist.load_data()
-        img_rows, img_cols = x_train.shape[1:]
-        if backend.image_data_format() == 'channels_first':
-            x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)
-            x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)
-            input_shape = (1, img_rows, img_cols)
-        else:
-            x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)
-            x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)
-            input_shape = (img_rows, img_cols, 1)
 
-        x_train = x_train.astype('float32')
-        x_test = x_test.astype('float32')
-        x_train /= 255
-        x_test /= 255
-
-        y_train = keras.utils.to_categorical(y_train, num_classes)
-        y_test = keras.utils.to_categorical(y_test, num_classes)
-
-        self.input_shape = input_shape
-        self.num_clsses = num_classes
-        self.x_train, self.y_train = x_train, y_train
-        self.x_test, self.y_test = x_test, y_test
 
 
 def show_ae(autoencoder, data):
