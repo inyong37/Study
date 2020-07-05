@@ -9,7 +9,9 @@ from keras import models, layers
 from keras.datasets import mnist
 import matplotlib.pyplot as plt
 import inspect
-import os
+
+
+filename = inspect.getfile(inspect.currentframe())
 
 
 def plot_loss(history):
@@ -19,6 +21,7 @@ def plot_loss(history):
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Test'], loc=0)
+    plt.savefig(filename.replace('.py', '') + '_loss.png', dpi=300)
 
 
 def plot_acc(history):
@@ -28,6 +31,7 @@ def plot_acc(history):
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Test'], loc=0)
+    plt.savefig(filename.replace('.py', '') + '_acc.png', dpi=300)
 
 
 class AE(models.Model):
@@ -94,7 +98,7 @@ def show_ae(autoencoder):
         plt.gray()
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
-
+    plt.savefig(filename.replace('.py', '') + '_ae.png', dpi=300)
     plt.show()
 
 
