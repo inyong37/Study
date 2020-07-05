@@ -119,12 +119,13 @@ class Machine:
         for ii in range(n_repeat):
             print('Stage', ii, '(Epoch: {})'.format(ii * n_show))
             self.run_epochs(n_show, n_test)
+            plt.savefig(filename.replace('.py', '_stage_') + str(ii) + '.png', dpi=300)
             plt.show()
 
     @staticmethod
     def print_stat(Real, Gen):
         def stat(d):
-            return  (np.mean(d), np.std(d))
+            return (np.mean(d), np.std(d))
         print('Mean and Std of Real:', stat(Real))
         print('Mean and Std of Gen:', stat(Gen))
 
