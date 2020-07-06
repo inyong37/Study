@@ -9,11 +9,15 @@ git log # show git log
 q + 'enter' # exit from git log
 ```
 
+## ii. Branch
+### A. Remote Branch
+
+
 # II. [Github](https://github.com/)
 
 # III. [GitLab](https://about.gitlab.com/) [Source Code](https://github.com/gitlabhq)
- GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다.
- 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다. 
+
+GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다. 
 
 # IV. [Git Tutorial Game](https://learngitbranching.js.org/)
 
@@ -205,4 +209,5 @@ git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 s
 - Git Log Quit, https://stackoverrun.com/ko/q/2483042, 2020-03-10-Tue.
 - Git, https://opentutorials.org/course/785/4933, 2020-07-06-Mon.
 - GitLab, https://about.gitlab.com/, 2020-07-06-Mon.
-
+- Remote Branch, https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EB%B8%8C%EB%9E%9C%EC%B9%98, 2020-07-06-Mon.
+- Sub Module, https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-%EC%84%9C%EB%B8%8C%EB%AA%A8%EB%93%88, 2020-07-06-Mon.
