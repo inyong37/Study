@@ -179,7 +179,7 @@ struct foo_struct *a
 
 B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
 
-### #if #elif #endif
+### #if #elif #else #endif
 ```
 #if condition1
 function1();
@@ -222,4 +222,4 @@ function3();
 - Call by Reference, Call by Assignment, https://wayhome25.github.io/cs/2017/04/11/cs-13/, 2020-06-25-Thu.
 - Static, Const, http://tcpschool.com/cpp/cpp_encapsulation_staticConst, 2020-06-25-Thu.
 - ->, https://m.blog.naver.com/PostView.nhn?blogId=reverse_ing&logNo=60133603796&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-01-Wed.
-- #if, #elif, #endif, https://docs.microsoft.com/ko-kr/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=vs-2019, 2020-07-13-Mon.
+- #if, #elif, #else, #endif, https://docs.microsoft.com/ko-kr/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=vs-2019, 2020-07-13-Mon.
