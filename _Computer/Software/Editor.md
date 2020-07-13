@@ -79,7 +79,10 @@ It has 3 modes, command mode, insert mode, visual mode.
   - Copy cursor/caret line: `Y`
   - Paste under: `p`
   - Paste above: `P`
-  - Delete cursor/caret line: `dd`
+  - Delete/cut cursor/caret line: `dd`
+- Block
+  - Visual mode: `v`
+- 
 
 #### b. Window
 ```
@@ -148,3 +151,5 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 4. Vim, https://www.vim.org/, 2020-01-29-Wed.
 5. Ctags, https://ctags.io/, 2020-03-10-Tue.
 6. Ctags commands, https://bowbowbow.tistory.com/15, 2020-03-23-Mon.
+- Vim-undo, https://techlog.gurucat.net/175, 2020-07-13-Mon.
+- Vim-Block, https://jinnydown.tistory.com/entry/vim-%EC%9E%98%EB%9D%BC%EB%82%B4%EA%B8%B0%EB%B3%B5%EC%82%AC-%ED%9B%84-%EB%B6%99%EC%9D%B4%EA%B8%B0, 2020-07-13-Mon.
