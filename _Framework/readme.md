@@ -22,17 +22,20 @@ Starlark is a dialect of Python. Like Python, it is a dynamically typed language
 A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
 
 ## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras)
-Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.[Ref]
+Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
 
-Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).
+Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).[Ref]
 
-## [OpenCV]() | [GitHub](https://github.com/opencv/opencv)
+## [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
+Open Source Computer Vision Library
 
-## [PyTorch]() | [GitHub](https://github.com/pytorch/pytorch)
+## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch)
+Tensors and Dynamic neural networks in Python with strong GPU acceleration
 
-## [Caffe]() | [GitHub](https://github.com/BVLC/caffe)
+## [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
 
 ## [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano)
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
@@ -40,7 +43,7 @@ Theano is a Python library that allows you to define, optimize, and evaluate mat
 [MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)
 
 ## [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK)
-The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.
+The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.[Ref]
 
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
@@ -50,6 +53,12 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - Starlark GitHub, https://github.com/bazelbuild/starlark, 2020-07-16-Thu.
 - Keras, https://keras.io/, 2020-07-16-Thu.
 - Keras GitHub, https://github.com/keras-team/keras, 2020-07-16-Thu.
+- OpenCV, https://opencv.org/, 2020-07-16-Thu.
+- OpenCV GitHub, https://github.com/opencv/opencv, 2020-07-16-Thu.
+- PyTorch, https://pytorch.org/, 2020-07-16-Thu.
+- PyTorch GitHub, https://github.com/pytorch/pytorch, 2020-07-16-Thu.
+- Caffe, https://caffe.berkeleyvision.org/, 2020-07-16-Thu.
+- Caffe GitHub, https://github.com/BVLC/caffe, 2020-07-16-Thu.
 - Theano, http://www.deeplearning.net/software/theano/, 2020-07-16-Thu.
 - Theano GitHub, https://github.com/Theano/Theano, 2020-07-16-Thu.
 - CNTK, https://docs.microsoft.com/ko-kr/cognitive-toolkit/, 2020-07-16-Thu.
