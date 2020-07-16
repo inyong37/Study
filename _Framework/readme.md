@@ -7,16 +7,12 @@ TensorFlow was originally developed by researchers and engineers working on the 
 
 TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backward compatible API for other languages. [Ref]
 
-(with bazel, starlark)
-
 ## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras)
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
 
 Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).[Ref]
-
-(using TensorFlow)
 
 ## [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
 Open Source Computer Vision Library[Ref]
@@ -57,6 +53,13 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - CNTK GitHub, https://github.com/microsoft/CNTK, 2020-07-16-Thu.
 
 ## Build
+
+### Summary
+
+TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다.
+
+Keras는 python으로 `PyPI(pip)`, 또는 직접 소스에서 `(sudo) python setup.py install`한다. 
+
 
 ### [Bazel](https://www.bazel.build/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
 Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
