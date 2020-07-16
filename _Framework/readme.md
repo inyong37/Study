@@ -19,17 +19,17 @@ Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the
 (using TensorFlow)
 
 ## [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
-Open Source Computer Vision Library
+Open Source Computer Vision Library[Ref]
 
 (with CMake, cpp, h)
 
 ## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch)
-Tensors and Dynamic neural networks in Python with strong GPU acceleration
+Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 (with submodule or bazel)
 
 ## [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
-Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
 
 (with CMake and docker)
 
@@ -72,7 +72,10 @@ Starlark is a dialect of Python. Like Python, it is a dynamically typed language
 
 A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
 
-### [Make]() | [Wiki (Kor)](https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) |
+### Make | [GNU Make](https://www.gnu.org/software/make/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Git Repositories](http://savannah.gnu.org/git/?group=make)
+GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
+
+Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.[Ref]
 
 ### [CMake](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
@@ -95,8 +98,9 @@ GN is a meta-build system that generates build files for Ninja.[Ref]
 - Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
 - Bazel GitHub, https://github.com/bazelbuild/bazel, 2020-07-16-Thu.
 - Starlark GitHub, https://github.com/bazelbuild/starlark, 2020-07-16-Thu.
-- Make, 2020-07-16-Thu.
+- GNU Make, https://www.gnu.org/software/make/, 2020-07-16-Thu.
 - Make Wiki(kor), https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
+- Make Git Repositories, http://savannah.gnu.org/git/?group=make, 2020-07-16-Thu.
 - CMake, https://cmake.org/, 2020-07-16-Thu.
 - CMake Wiki, https://ko.wikipedia.org/wiki/CMake, 2020-07-16-Thu.
 - CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
