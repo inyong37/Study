@@ -43,10 +43,6 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
-- Bazel, https://www.bazel.build/, 2020-07-16-Thu.
-- Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
-- Bazel GitHub, https://github.com/bazelbuild/bazel, 2020-07-16-Thu.
-- Starlark GitHub, https://github.com/bazelbuild/starlark, 2020-07-16-Thu.
 - Keras, https://keras.io/, 2020-07-16-Thu.
 - Keras GitHub, https://github.com/keras-team/keras, 2020-07-16-Thu.
 - OpenCV, https://opencv.org/, 2020-07-16-Thu.
@@ -59,10 +55,10 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - Theano GitHub, https://github.com/Theano/Theano, 2020-07-16-Thu.
 - CNTK, https://docs.microsoft.com/ko-kr/cognitive-toolkit/, 2020-07-16-Thu.
 - CNTK GitHub, https://github.com/microsoft/CNTK, 2020-07-16-Thu.
-- CMake, https://cmake.org/, 2020-07-16-Thu.
-- CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
 
-### [Bazel](https://www.bazel.build/) | [Wiki (KOR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
+## Build
+
+### [Bazel](https://www.bazel.build/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
 Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
 
 Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
@@ -80,3 +76,14 @@ A Starlark interpreter is typically embedded within a larger application, and th
 
 ### [CMake](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
+
+#### Reference
+- Bazel, https://www.bazel.build/, 2020-07-16-Thu.
+- Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
+- Bazel GitHub, https://github.com/bazelbuild/bazel, 2020-07-16-Thu.
+- Starlark GitHub, https://github.com/bazelbuild/starlark, 2020-07-16-Thu.
+- Make, 2020-07-16-Thu.
+- Make Wiki, 2020-07-16-Thu.
+- CMake, https://cmake.org/, 2020-07-16-Thu.
+- CMake Wiki, https://ko.wikipedia.org/wiki/CMake, 2020-07-16-Thu.
+- CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
