@@ -55,6 +55,8 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 ## Build
 
 ### Summary
+Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Googlde이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 [Ref]
+
 
 TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다.
 
@@ -80,7 +82,7 @@ GNU Make is a tool which controls the generation of executables and other non-so
 
 Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.[Ref]
 
-### [CMake](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
+### [CMake (Cross Platform Make)](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
 
 ### [Ninja](https://ninja-build.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [GitHub](https://github.com/ninja-build/ninja)
@@ -88,12 +90,12 @@ Ninja is a small build system with a focus on speed. It differs from other build
 
 [Manual](https://ninja-build.org/manual.html)
 
-### [GYP](https://gyp.gsrc.io/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Google Source](https://chromium.googlesource.com/external/gyp)
-GYP is a Meta-Build system: a build system that generates other build systems.[Ref]
+### [GYP (Generate Your Projects)](https://gyp.gsrc.io/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Google Source](https://chromium.googlesource.com/external/gyp)
+GYP is a Meta-Build system: a build system that generates other build systems.
 
 GYP is intended to support large projects that need to be built on multiple platforms (e.g., Mac, Windows, Linux), and where it is important that the project can be built using the IDEs that are popular on each platform as if the project is a “native” one.[Ref]
 
-### [GN](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
+### [GN (Generates Ninja build files)](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
 GN is a meta-build system that generates build files for Ninja.[Ref]
 
 #### Reference
