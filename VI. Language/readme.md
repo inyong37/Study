@@ -1,7 +1,9 @@
-# C++
+# Language
+
+## C++
 This page is about C and C++.
 
-## Data Type
+### Data Type
 |Type Name|Byte|Nickname|Value Range|
 |:-------:|:--:|:------:|:---------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
@@ -21,146 +23,140 @@ This page is about C and C++.
 |double|8|none|1.7E +/- 308 (15 digits)|
 |long double|8|none|1.7E +/- 308 (15 digits)|
 
-## Standard Template Library(STL)
+### Standard Template Library(STL)
 Library that provides data structure and algorithm as template
 
-### Algorithm
+#### Algorithm
 Is is a function template that provides a generalized way to solve sorts, deletes, searches, operations, etc.
 
-### Allocator
+#### Allocator
 It is a class object that encapsulates a container's memory allocation policy. Every container has its own allocator.
 
-### Container
+#### Container
 It also called an object or data structure that stores objects. It is implemented as a class template.
 
-#### Associative Container
-##### array
-##### vector
-##### list
-##### deque
-#### Sequence Container
-##### set
-##### multiset
-##### map
-##### multimap
-### Container Adaptor
+##### Associative Container
+###### array
+###### vector
+###### list
+###### deque
+##### Sequence Container
+###### set
+###### multiset
+###### map
+###### multimap
+#### Container Adaptor
 It changes the component's interface to a component with a new interface.
 
-#### stack
-#### queue
-#### Priority_queue
-### Function Object
+##### stack
+##### queue
+##### Priority_queue
+#### Function Object
 It is an object that behaves like a function, with the operator() operator overloaded. Client policy is reflected in containers and algorithms.
 
-### Iterator
+#### Iterator
 It is a function similar to a pointer that points to an element in a container, accesses the element it points to, and points to the next element.
 
-## untitled
+### untitled
 
-### Ternary Operator
+#### Ternary Operator
 `Conditional statement ? return value 1 : return value 2`
 
 If the conditional statment is true, return value 1 if it is false, return value 2.
 
-### `friend` Class
+#### `friend` Class
 It can access to `private` and `protected member` to other `friend class`.
 
-### `friend` Function
+#### `friend` Function
 Same as `friend class`, it gives other to access `private` and `protected member` with function unit not as class unit.
 
-### Static Variable (`static` as local variable)
+#### Static Variable (`static` as local variable)
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
 
-### `virtual`
+#### `virtual`
 It used to declare function virtually in parent class, and it make child class declare in real. It used to manage modules as component, as modules have one same parent and make class as themselves with specify along their property.
 
-### Template
+#### Template
 It codes only `.h`s not `.cc`s.
 
-### Smart pointer
+#### Smart pointer
 C++ provides smart pointer to guarantee program's secure with memory leak. It is class template works as pointer, it releases memory automatically when useless. There was `auto_ptr` before C++11, and after C++11, there are `unique_ptr`, `shared_ptr`, and `weak_ptr`.
 
-### `boost::scoped_ptr`
+#### `boost::scoped_ptr`
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
 
-### `override`
+#### `override`
 This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
 
-### `typedef`
+#### `typedef`
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
-### sstream
-#### istringstream
+#### sstream
+##### istringstream
 It used to parse(input) string.
 
-#### ostringstream
+##### ostringstream
 It used to save(output) string.
 
-#### stringstream
+##### stringstream
 It used to modifie data of string.
 
-### C Style Cast
+#### C Style Cast
 `(type-id)(e-pression)`
 
 It can convert(cast) A type to B type, it can convert(cast) any type to any type.
 
-### C++ Style Cast
+#### C++ Style Cast
 `<type-id>(e-pression)`
 
 It can convert(cast) A type to B type, it has to use right cast.
 
-#### `const_cast`
+##### `const_cast`
 It removes or grant constness to expression. It rarley used to grant constness to expression.
 
-#### `reinterpret_cast`
+##### `reinterpret_cast`
 It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
-#### `static_cast`
+##### `static_cast`
 It is basic cast as having same meaning and same ability to convert/cast as C style cast.
 It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness.
 It's name is because it checks its' type at moment of compile not at run-time.
 
-#### `dynamic_cast`
+##### `dynamic_cast`
 It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting.
 It casts pointer or reference's base class instance to derived class or sibling class type.
 It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
-### Call
+#### Call
 
-#### Call by Value
-
+##### Call by Value
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
 큰 구조체 또는 클래스를 함수에 전달할 때 값으로 전달하면 인수의 복사본을 함수 매개 변수로 만든다. 이 경우 복사하는데 큰 비용이 들어 성능이 저하될 수 있다. 그리고 값으로 인수를 전달할 경우 함수에서 호출자에게 값을 반환하는 유일한 방법은 함수의 반환 값을 사용하는 것이다. 이 방법도 좋지만, 함수에서 인수를 수정하는 것이 더 명확하고 효율적일 수 있다.
 
-#### Call by Reference (Pass by Reference)
+##### Call by Reference (Pass by Reference)
 
 call by reference/pass by reference 참조로 전달하면 함수를 위한 별도의 임시 공간은 생성되지만, 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달 받아 해당 변수를 가르키기 때문에 인자의 값이 변경되면 argument로 전달된 object의 값도 함께 변경된다.
 
-### Static
+#### Static
 
-#### Static Member Variable
-
+##### Static Member Variable
 정적 멤버 변수는 클래스에는 속하지만 객체 별로 할당되지 않고 클래스의 모든 객체가 공유한다. 해당 클래스의 모든 객체에 대해 하나의 데이터만이 유지 관리된다. 선언은 클래스 영역에서 되지만, 정의는 파일 영역에서 수행된다. 이러한 정적 멤버 변수는 외부 연결을 가지므로, 여러 파일에서 접근할 수 있다.
 
 정적 멤버 변수에도 클래스 멤버의 접근 제한 규칙이 적용되므로, 클래스의 멤버 함수나 프렌드만이 접근할 수 있다. 하지만 외부에서도 접근할 수 있게 하고 싶으면, public 영역에 선언하면 된다.
 
 #### Static Member Function
-
 정적 멤버 함수는 해당 클래스의 객체를 생성하지 않고도, 클래스 이름만으로 호출할 수 있다. 문법으로는 `object_name.member_function_name();`는 일반 멤버 함수의 호출이고, `class_name.member_function_name();`으로도 호출 가능하다. 정적 멤버 함수는 정적 멤버 변수를 선언하는 방법과 같이 static 키워드를 사용해서 선언한다. 특징으로는 객체를 생성하지 않고 클래스 이름만으로 호출 가능하며, 객체를 생성하지 않으므로 this 포인터를 가지지 않고, 특정 객체와 결합하지 않으므로 정적 멤버 변수만 사용 가능하다.
 
-### Const
+#### Const
 
-#### Constant Member Variable
-
+##### Constant Member Variable
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
-#### Constant Member Function
-
+##### Constant Member Function
 상수 멤버 함수란 호출한 객체의 데이터를 변경할 수 없는 멤버 함수이며 함수의 원형 마지막에 `const` 키워드를 사용하여 선언한다. 호출한 객체의 데이터를 단순히 읽기만 하는 멤버 함수는 상수 멤버 함수로 정의하는 것이 정보 보호 측면에서 좋다. `function_name const;`
 
-### `->`
-
+#### `->`
 포인터 변수의 값을 참조하기 위한 연산자이다.
 
 ```
@@ -179,7 +175,7 @@ struct foo_struct *a
 
 B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
 
-### #if #elif #else #endif
+#### #if #elif #else #endif
 ```
 #if condition1
 function1();
@@ -193,15 +189,15 @@ function3();
 #endif
 ```
 
-### Static Versus Dynamic Binding
+##### Static Versus Dynamic Binding
 
-### Forward Declarartions and Definitions
+##### Forward Declarartions and Definitions
 
-### Anonymous Namespace
+##### Anonymous Namespace
 
-### Extern Versus Static Versus Class Static
+##### Extern Versus Static Versus Class Static
 
-### Singleton
+##### Singleton
 
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
