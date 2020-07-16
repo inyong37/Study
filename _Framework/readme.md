@@ -77,6 +77,11 @@ A Starlark interpreter is typically embedded within a larger application, and th
 ### [CMake](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
 
+### [Ninja]() | [Wiki]() | 
+
+### [GN](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
+GN is a meta-build system that generates build files for Ninja.
+
 #### Reference
 - Bazel, https://www.bazel.build/, 2020-07-16-Thu.
 - Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
@@ -87,3 +92,9 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
 - CMake, https://cmake.org/, 2020-07-16-Thu.
 - CMake Wiki, https://ko.wikipedia.org/wiki/CMake, 2020-07-16-Thu.
 - CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
+- Ninja Wiki, https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C), 2020-07-16-Thu.
+- GYP Wiki, https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu. 
+- GN, https://www.chromium.org/developers/gn-build-configuration, 2020-07-16-Thu.
+- GN Wiki, https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C), 2020-07-16-Thu.
+- GN Google Source, https://gn.googlesource.com/gn/, 2020-07-16-Thu.
+
