@@ -9,20 +9,6 @@ TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backwar
 
 (with bazel, starlark)
 
-### [Bazel](https://www.bazel.build/) | [Wiki (KOR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
-Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
-
-Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
-
-When designing Bazel, we focused on build speed, accuracy and reproducibility. This tool uses parallelism to accelerate parts of the build process. Includes Bazel Query language that can be used to analyze build dependencies in complex build graphs.[Ref]
-
-### [Starlark Language](https://docs.bazel.build/versions/2.0.0/skylark/language.html) | [GitHub](https://github.com/bazelbuild/starlark)
-Starlark (formerly known as Skylark) is a language intended for use as a configuration language. It was designed for the Bazel build system, but may be useful for other projects as well. This repository is where Starlark features are proposed, discussed, and specified. It contains information about the language, including the specification. There are multiple implementations of Starlark.
-
-Starlark is a dialect of Python. Like Python, it is a dynamically typed language with high-level data types, first-class functions with lexical scope, and garbage collection. Independent Starlark threads execute in parallel, so Starlark workloads scale well on parallel machines. Starlark is a small and simple language with a familiar and highly readable syntax. You can use it as an expressive notation for structured data, defining functions to eliminate repetition, or you can use it to add scripting capabilities to an existing application.
-
-A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
-
 ## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras)
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
@@ -73,3 +59,24 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - Theano GitHub, https://github.com/Theano/Theano, 2020-07-16-Thu.
 - CNTK, https://docs.microsoft.com/ko-kr/cognitive-toolkit/, 2020-07-16-Thu.
 - CNTK GitHub, https://github.com/microsoft/CNTK, 2020-07-16-Thu.
+- CMake, https://cmake.org/, 2020-07-16-Thu.
+- CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
+
+### [Bazel](https://www.bazel.build/) | [Wiki (KOR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
+Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
+
+Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
+
+When designing Bazel, we focused on build speed, accuracy and reproducibility. This tool uses parallelism to accelerate parts of the build process. Includes Bazel Query language that can be used to analyze build dependencies in complex build graphs.[Ref]
+
+### [Starlark Language](https://docs.bazel.build/versions/2.0.0/skylark/language.html) | [GitHub](https://github.com/bazelbuild/starlark)
+Starlark (formerly known as Skylark) is a language intended for use as a configuration language. It was designed for the Bazel build system, but may be useful for other projects as well. This repository is where Starlark features are proposed, discussed, and specified. It contains information about the language, including the specification. There are multiple implementations of Starlark.
+
+Starlark is a dialect of Python. Like Python, it is a dynamically typed language with high-level data types, first-class functions with lexical scope, and garbage collection. Independent Starlark threads execute in parallel, so Starlark workloads scale well on parallel machines. Starlark is a small and simple language with a familiar and highly readable syntax. You can use it as an expressive notation for structured data, defining functions to eliminate repetition, or you can use it to add scripting capabilities to an existing application.
+
+A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
+
+### Make
+
+### [CMake](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
+CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
