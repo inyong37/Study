@@ -32,4 +32,5 @@ Some programs also support third party plug-ins, which add functionality to the 
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
 - Plug-in Wiki, https://en.wikipedia.org/wiki/Plug-in_(computing), 2020-07-21-Tue.
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
-- Third party, https://tuhbm.github.io/2018/01/26/thirdParty/, 2020-07-21-Tue.
+- Third Party Kor, https://tuhbm.github.io/2018/01/26/thirdParty/, 2020-07-21-Tue.
+- Third Party Kor, https://vivabin.tistory.com/2, 2020-07-21-Tue.
