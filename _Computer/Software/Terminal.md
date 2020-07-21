@@ -1,10 +1,10 @@
 # Terminal
-(Shell.md와 정리 필요)
 ```
 This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
+```
 - CLI: Command Line Interface
 - GUI: Graphic User Interface
-```
+
 # I. Windows
 ## i. CMD(Command Prompt)
 ### A. Commands
