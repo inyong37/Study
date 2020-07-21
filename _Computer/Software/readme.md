@@ -9,6 +9,13 @@ Third party software refers to programs that are developed by companies other th
 
 Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.[Ref]
 
-#### Reference
+# Plug-in | [Wiki](https://en.wikipedia.org/wiki/Plug-in_(computing))
+In computing, a plug-in (or plugin, add-in, addin, add-on, or addon) is a software component that adds a specific feature to an existing computer program. When a program supports plug-ins, it enables customization.
+
+A theme or skin is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).[Ref]
+
+## Reference
 - Third Party Wiki, https://en.wikipedia.org/wiki/Third-party_software_component, 2020-07-21-Tue.
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
+- Plug-in Wiki, https://en.wikipedia.org/wiki/Plug-in_(computing), 2020-07-21-Tue.
+
