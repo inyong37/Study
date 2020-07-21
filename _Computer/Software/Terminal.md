@@ -21,12 +21,12 @@ This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 PS powershell # Turn off PowerShell and turn on CMD
 ```
 ### B. Plugin
-#### a. Color Tool: Changing Color Theme [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool)
-[Download](https://github.com/microsoft/terminal/releases/tag/1904.29002) version `Color Tool April 2019`
+#### a. Color Tool (Changing Color Theme) | [Github](https://github.com/Microsoft/Terminal/tree/master/src/tools/ColorTool) | [Download](https://github.com/microsoft/terminal/releases/tag/1904.29002) version `Color Tool April 2019`
 ```
 .\ColorTool.exe -s
 .\ColorTool.exe solarized_dark.itermcolors
 ```
+
 #### b. Changing Font
 - 나눔고딕코드.exe 설치
 - enter `win` + `R` and search `regedit`
@@ -34,8 +34,10 @@ PS powershell # Turn off PowerShell and turn on CMD
 - click `949` and change `*굴림체` to `*나눔고딕코딩`
 - open `PowerShell` and enter `alt` + `D`or enter `default setting`
 - change font to `나눔고딕코딩`
+
 #### Python
 - activate env 안됨
+
 ## iii. Terminal | [GitHub](https://github.com/Microsoft/Terminal)
  Windows 터미널은 명령 프롬프트, PowerShell 및 WSL과 같은 명령 줄 도구 및 셸 사용자를 위한 최신의 빠르고 효율적이며 강력한 생산성의 터미널 응용 프로그램입니다. 주요 기능으로는 여러 탭, 창, 유니 코드 및 UTF-8 문자 지원, GPU 가속 텍스트 렌더링 엔진 및 사용자 정의 테마, 스타일 및 구성이 있습니다.
 
@@ -43,11 +45,12 @@ PS powershell # Turn off PowerShell and turn on CMD
 - get a root right `su`
 - check `whoami`
 - get out a root right `exit`
+
 ### Tmux
-```
 Tmux is an application that can access/process multi terminal/process/session -s.
+
 Tmux consists of session, window, and pane.
-```
+
 - Session: base unit, consists of several windows, kind of a project
 - Window: terminal window, kind of a tab
 - Pane: spliting screens in a window
