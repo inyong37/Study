@@ -149,6 +149,7 @@ Books about Programming Languages.
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/74419916)|Summer, 2019|
+|전문가를 위한 파이썬|[YES24](http://www.yes24.com/Product/Goods/30231768)|[GitHub](https://github.com/fluentpython)|Winter, 2019|
 |Introducing Python|[O'Reilly](https://www.oreilly.com/library/view/introducing-python/9781449361167/)|-|-|
 |High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|
 |Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|
