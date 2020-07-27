@@ -6,7 +6,7 @@
 Autumn, 2019
 
 ### Content
-Part 1. 알고리즘 기초 :heavy_check_mark:
+**Part 1. 알고리즘 기초** :heavy_check_mark:
 
 Chapter 1. 1부터 n까지의 합 구하기
 
@@ -14,7 +14,7 @@ Chapter 2. 최댓값 찾기
 
 Chapter 3. 동명이인 찾기
 
-Part 2. 재귀 호출 :heavy_check_mark:
+**Part 2. 재귀 호출** :heavy_check_mark:
 
 Chapter 4. 팩토리얼 구하기
 
@@ -22,7 +22,7 @@ Chapter 5. 최대공약수 구하기
 
 Chapter 6. 하노이의 탑 옮기기
 
-Part 3. 탐색과 정렬 :heavy_check_mark:
+**Part 3. 탐색과 정렬** :heavy_check_mark:
 
 Chapter 7. 순차 탐색
 
@@ -36,7 +36,7 @@ Chapter 11. 퀵 정렬
 
 Chapter 12. 이분 탐색
 
-Part 4. 자료구조 :heavy_check_mark:
+**Part 4. 자료구조** :heavy_check_mark:
 
 Chapter 13. 회문 찾기
 
@@ -44,7 +44,7 @@ Chapter 14. 동명이인 찾기
 
 Chapter 15. 친구의 친구 찾기
 
-Part 5. 응용문제 :heavy_check_mark:
+**Part 5. 응용문제** :heavy_check_mark:
 
 Chapter 16. 미로 찾기 알고리즘
 
