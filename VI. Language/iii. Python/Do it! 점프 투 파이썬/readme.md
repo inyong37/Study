@@ -1,14 +1,12 @@
 # Do it! 점프 투 파이썬
-### 박응용 저 | 이지스퍼블리싱 | 2016년 03월 03일 | [YES24](http://www.yes24.com/Product/Goods/24567417)
+박응용 저 | 이지스퍼블리싱 | 2016년 03월 03일 | [YES24](http://www.yes24.com/Product/Goods/24567417)
 
 ### Date
-
 Spring, 2018
 
 Spring, 2020
 
 ### Content
-
 **Part 1. 파이썬 기본 문법 익히기**
 
 Chapter 1. 파이썬이란 무엇인가? :heavy_check_mark:
