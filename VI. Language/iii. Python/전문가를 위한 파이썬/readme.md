@@ -8,7 +8,7 @@ Summer, 2020
 ### Content
 **Part 1. 들어가며**
 
-Chapter 1. 파이썬 데이터 모델
+Chapter 1. 파이썬 데이터 모델 :heavy_check_mark:
 
 **Part 2. 데이터 구조체**
 
