@@ -1,4 +1,4 @@
-# Language
+# Programming Language
 ```
 This page is about Programming Languages.
 ```
