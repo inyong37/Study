@@ -9,8 +9,12 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 
 ## Linux
 
+### Symbolic Link
+
+
 ## Mac OS
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
+- Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
