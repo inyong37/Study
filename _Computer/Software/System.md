@@ -13,7 +13,7 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 ### Symbolic Link
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.
 
-## Mac OS
+## macOS | [Catalina](https://www.apple.com/macos/catalina/)
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
@@ -21,3 +21,4 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
 - Unix, https://www.opengroup.org/membership/forums/platform/unix, 2020-08-05-Wed.
 - Linux, https://www.linux.org/, 2020-08-05-Wed.
+- macOS, https://www.apple.com/macos/catalina/, 2020-008-05-Wed.
