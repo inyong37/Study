@@ -8,6 +8,11 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 
 ## Unix | [Homepage](https://www.opengroup.org/membership/forums/platform/unix)
 
+### ELF (Executable and Linkable Format) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
+ELF(Executable and Linkable Format)는 실행 파일, 목적 파일, 공유 라이브러리 그리고 코어 덤프를 위한 표준 파일 형식이다. 1999년 86open 프로젝트에 의해 x86 기반 유닉스, 유닉스 계열 시스템들의 표준 바이너리 파일 형식으로 선택되었다.
+
+ELF 형식은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 이것은 유닉스 계열 운영체제에서 a.out과 COFF 포맷을 대체하였다. 리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스, 그리고 유닉스 계열이 아닌 OpenVMS (아이테니엄 버전), BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전, 그리고 게임 콘솔인 플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U.
+
 ## Linux | [Homepage](https://www.linux.org/)
 
 ### Symbolic Link
@@ -22,3 +27,5 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 - Unix, https://www.opengroup.org/membership/forums/platform/unix, 2020-08-05-Wed.
 - Linux, https://www.linux.org/, 2020-08-05-Wed.
 - macOS, https://www.apple.com/macos/catalina/, 2020-008-05-Wed.
+- ELF Wiki (Kor), https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D, 2020-08-06-Thu.
+
