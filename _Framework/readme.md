@@ -142,3 +142,4 @@ GN is a meta-build system that generates build files for Ninja.[Ref]
 - GN Wiki, https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C), 2020-07-16-Thu.
 - GN Google Source, https://gn.googlesource.com/gn/, 2020-07-16-Thu.
 - CMake functions, https://www.tuwlab.com/ece/27260, 2020-08-06-Thu.
+- Limit visibiliy using gnu/gcc version script, https://stackoverflow.com/questions/435352/limiting-visibility-of-symbols-when-linking-shared-libraries, 2020-08-06-Thu.
