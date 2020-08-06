@@ -13,6 +13,8 @@ EXE는 일반적인 파일 확장자로 컴퓨터 프로그램의 실행 파일�
 
 도스 실행 파일 포맷은 64 킬로바이트로 크기가 제한되는 COM 실행 파일과 다르다. 도스 실행 파일 헤더는 여러 개의 세그먼트가 DMA에서 로드될 수 있으며 64 킬로바이트 이상의 실행 파일을 지원하는 리로케이션 정보를 포함하고 있다.
 
+### DLL | [MS (Kor)](https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll)
+
 ## Unix | [Homepage](https://www.opengroup.org/membership/forums/platform/unix)
 
 ### ELF (Executable and Linkable Format) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
@@ -37,3 +39,4 @@ ELF 형식은 다양한 환경들에서 오래된 실행 파일 포맷을 대체
 - ELF Wiki (Kor), https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D, 2020-08-06-Thu.
 - EXE Wiki (Kor), https://ko.wikipedia.org/wiki/EXE, 2020-08-06-Thu.
 - 실행 파일 Wiki (Kor), https://ko.wikipedia.org/wiki/%EC%8B%A4%ED%96%89_%ED%8C%8C%EC%9D%BC, 2020-08-06-Thu.
+- DLL 이란?, https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll, 2020-08-06-Thu.
