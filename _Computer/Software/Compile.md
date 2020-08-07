@@ -43,7 +43,12 @@
   - 동적 링크가 가능한 파일이다.
 - Relocatable object file
   - 링크를 하지 않은 파일, 링커를 통해 재배치가 가능하다는 뜻이다.
+
+### Executable and Linking Format `.elf`
+UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오브젝트 파일을 나타낸다.
+
 #### Reference
 - gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
 - Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
 - Object file, https://m.blog.naver.com/s2kiess/220058707917, 2020-08-07-Fri.
+- ELF, https://m.blog.naver.com/s2kiess/220064366133, 2020-08-07-Fri.
