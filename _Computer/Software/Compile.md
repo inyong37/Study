@@ -2,7 +2,7 @@
 
 ## Compiler
 
-### gcc
+### gcc (GNU C Compiler)
 
 #### How to use
 - `gcc`: compile C source code
