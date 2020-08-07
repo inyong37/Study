@@ -1,7 +1,6 @@
 # Memory
 
 ## Section
-
 |Memory Section |
 |:-------------:|
 |CODE |
@@ -9,7 +8,11 @@
 |BSS  |
 |HEAP |
 |STACK|
-### CODE
+
+실행 파일의 크기는 CODE, DATA, BSS의 영역에서 결정되며 컴파일 이후에는 고정된다.
+
+### CODE (TEXT)
+함수, 제어문, 상수 영역으로 기계어로 구성되어 있다.
 
 ### DATA
 
