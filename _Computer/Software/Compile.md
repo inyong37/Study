@@ -34,6 +34,9 @@
   - defualt library directory: `/lib`, `/usr/lib`, and `/usr/local/lib`
   - `-L /home/directory` or `-L/home/directory`
   
+### LLVM (Low Level Virtual Machine) | [Homepage](https://llvm.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/LLVM)
+The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.
+  
 ## File
 
 ### Object file `.o`
@@ -88,3 +91,5 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - Object file, https://m.blog.naver.com/s2kiess/220058707917, 2020-08-07-Fri.
 - ELF, https://m.blog.naver.com/s2kiess/220064366133, 2020-08-07-Fri.
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
+- LLVM, https://llvm.org/, 2020-08-07-Fri.
+- LLVM Wiki Kor, https://ko.wikipedia.org/wiki/LLVM, 2020-08-07-Fri.
