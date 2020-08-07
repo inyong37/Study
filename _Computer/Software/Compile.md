@@ -35,8 +35,23 @@
   - `-L /home/directory` or `-L/home/directory`
   
 ### LLVM (Low Level Virtual Machine) | [Homepage](https://llvm.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/LLVM)
-The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.
-  
+The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.[Ref]
+
+LLVM(이전 이름: Low Level Virtual Machine)은 컴파일러의 기반구조이다. 프로그램을 컴파일 타임, 링크 타임, 런타임 상황에서 프로그램의 작성 언어에 상관없이 최적화를 쉽게 구현할 수 있도록 구성되어 있다.
+
+LLVM은 원래는 저급 가상 기계(low-level virtual machine)의 약자를 가리켰지만, LLVM이 성장하고 다양한 목적을 가지게 되면서 현재는 그 이름을 약자로서 사용하는 것이 아니라 그냥 프로젝트의 이름으로서 사용하고 있다.
+
+LLVM의 핵심 코드는 'LLVM 라이선스'로 배포되며, 이것은 BSD 라이선스와 비슷한 속성을 가진다. 즉, LLVM을 사용한 프로그램을 배포하였을 때 해당 소스 코드를 공개/배포해야 하는 의무가 없다. 단 LLVM의 프론트엔드를 GNU 컴파일러 모음(GCC) 기반으로 사용할 경우 프론트엔드는 GPL로 배포한다. LLVM 프로젝트에서는 LLVM 라이선스를 가지는 프론트엔드를 위해, Clang이라는 프로젝트를 진행하고 있다.[Ref]
+
+### Clang: a C language family frontend for LLVM | [Homepage](https://clang.llvm.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD)
+The Clang project provides a language front-end and tooling infrastructure for languages in the C language family (C, C++, Objective C/C++, OpenCL, CUDA, and RenderScript) for the LLVM project. Both a GCC-compatible compiler driver (clang) and an MSVC-compatible compiler driver (clang-cl.exe) are provided. You can get and build the source today.[Ref]
+
+클랭은 C, C++, 오브젝티브-C, 오브젝티브-C++ 프로그래밍 언어를 위한 컴파일러 프론트엔드이다. LLVM을 백엔드로 사용하며 LLVM 2.6 이후로 릴리즈의 일부로 자리잡았다.
+
+목표는 GNU 컴파일러 모음 (GCC)를 대체하는 것이다. 개발은 완전히 오픈 소스이며 구글, 애플 등 대형 소프트웨어 기업의 지원을 받고 있다. 소스는 일리노이 대학교/NCSA 오픈 소스 라이선스로 이용할 수 있다.
+
+클랭 프로젝트는 클랭 프론트엔드와 클랭 정적 분석기를 포함한다.[Ref]
+
 ## File
 
 ### Object file `.o`
@@ -84,7 +99,6 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - `void *dlsym(void *dl_handle, char *symbol_name)`: 라이브러리 핸들에서 특정 심볼을 가져온다.
 - `const char *dlerror(void)`: 에러를 반환한다.
 
-
 #### Reference
 - gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
 - Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
@@ -93,3 +107,5 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - LLVM, https://llvm.org/, 2020-08-07-Fri.
 - LLVM Wiki Kor, https://ko.wikipedia.org/wiki/LLVM, 2020-08-07-Fri.
+- Clang, https://clang.llvm.org/, 2020-08-07-Fri.
+- Clang Wiki Kor, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD, 2020-08-07-Fri.
