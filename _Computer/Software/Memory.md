@@ -44,3 +44,5 @@ Swap memory 또는 가상 메모리는 주 메모리가 부족할 때 하드디�
 - Virtual memory and paging, https://jins-dev.tistory.com/entry/%EA%B0%80%EC%83%81-%EB%A9%94%EB%AA%A8%EB%A6%ACVirtual-Memory%EC%99%80-%ED%8E%98%EC%9D%B4%EC%A7%95Paging%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC, 2020-08-07-Fri.
 - Shared Memory, https://reakwon.tistory.com/96, 2020-08-07-Fri.
 - Memory Section, https://kama1204.tistory.com/entry/%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%9D%98-5-%EC%98%81%EC%97%AD, 2020-08-07-Fri.
+- Memory Section, https://siwall27.tistory.com/entry/4-Memory-Sections, 2020-08-07-Fri.
+- Segment, https://ultradream.tistory.com/entry/%EC%84%B8%EA%B7%B8%EB%A8%BC%ED%8A%B8Segment-%EB%9E%80, 2020-08-07-Fri.
