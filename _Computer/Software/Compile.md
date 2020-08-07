@@ -20,8 +20,12 @@
 
 ## Compiler
 
-### GCC (GNU C Compiler) | [Homepage](https://gcc.gnu.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C)
+### GCC (GNU C Compiler/GNU Compiler Collection) | [Homepage](https://gcc.gnu.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C)
 The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom.[Ref]
+
+GNU 컴파일러 모음(GNU Compiler Collection, 줄여서 GCC)는 GNU 프로젝트의 일환으로 개발되어 널리 쓰이고 있는 컴파일러이다.
+
+자유 소프트웨어 중에 가장 잘 알려진 것들 중 하나인 GCC는 원래 C만을 지원했던 컴파일러로 이름도 "GNU C 컴파일러"였다. 이러한 까닭에 현재에도 GCC는 GNU 컴파일러 모음의 일부인 GNU C 컴파일러(GNU C Compiler)의 줄임말로 쓰이기도 한다. 그러나 나중에 C++, 자바, 포트란, 에이다 등 여러 언어를 컴파일할 수 있게 되면서, 현재의 이름으로 바뀌게 되었다.[Ref]
 
 #### How to use
 - `gcc`: compile C source code
