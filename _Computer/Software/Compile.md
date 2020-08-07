@@ -63,7 +63,7 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
     Dynamic Loading(동적 라이브러리)로 프로그램 실행 중 필요할 때, 즉 사용하는 응용 프로그램이 결정하는 런타임에 symbol reference resolve되며 프로그램끼리 공유한다.
 
 ### Static Library `.a` archive
-컴파일 시 라이브러리를 사용해 relocatable symbol들을 reference resolving (linking)한다. 즉 컴파일 시 필요한 코드(라이브러리)를 프로그램에 적재하고 하나의 프로그램을 만들어낸다.
+컴파일 시 라이브러리를 사용해 relocatable symbol들을 reference resolving (linking)한다. 즉 컴파일 시 필요한 코드(라이브러리)를 프로그램에 적재하고 하나의 프로그램을 만들어낸다. 실행 파일은 외부 라이브러리에 대한 의존성이 없어지기 때문에 이식성이 좋고, 런타임에 외부를 참조할 필요가 없기 때문에 속도에서 장점이 있다. 하지만 코드를 프로그램에 다 적재하므로(text) 프로그램 크기가 커진다. 또한 라이브러리 변경이 필요할 시(패치) 라이브러리만 재배포하면 되는 것이 아니라 변경된 라이브러리로 컴파일하여 프로그램을 재배포 해야한다.
 
 ### Shared Library: Dynamic Linking `.so`
 공유 라이브러리 
