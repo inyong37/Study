@@ -1,8 +1,7 @@
-# Language
-
-## C++
+# C++
 This page is about C and C++.
 
+## Grammar
 ### Data Type
 |Type Name|Byte|Nickname|Value Range|
 |:-------:|:--:|:------:|:---------:|
