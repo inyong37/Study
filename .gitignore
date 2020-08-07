@@ -1,4 +1,13 @@
-# Pycharm InyongDesktop
+# InyongDesktop
+# PyCharm
+.idea/misc.xml
+.idea/modules.xml
+.idea/Study.iml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
+
+# InyongLaptop
+# PyCharm
 .idea/misc.xml
 .idea/modules.xml
 .idea/Study.iml
