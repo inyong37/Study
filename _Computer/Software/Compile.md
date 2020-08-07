@@ -50,13 +50,21 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 ### Library
 - Linux Library
   - Static
+  
   Static Library(정적 라이브러리)로 컴파일 타임에 symbol reference resolve(프로그램에 라이브러리 적재)되며 컴파일 시 라이브러리를 적재한 그 프로그램만 라이브러리 코드를 사용한다.
+  
   - Shared
     - Dynamic Linking
+    
     Dynamic Linking(공유 라이브러리)로 프로그램 메모리에 적재 런타임에 symbol reference resolve되며 메모리에 라이브러리 적재되어 있으면 해당 라이브러리를 사용하는 프로그램끼리 공유한다.
+    
     - Dynamic Loading
+    
     Dynamic Loading(동적 라이브러리)로 프로그램 실행 중 필요할 때, 즉 사용하는 응용 프로그램이 결정하는 런타임에 symbol reference resolve되며 프로그램끼리 공유한다.
-  
+
+### Static Library `.a` archive
+컴파일 시 라이브러리를 사용해 relocatable symbol들을 reference resolving (linking)한다. 즉 컴파일 시 필요한 코드(라이브러리)를 프로그램에 적재하고 하나의 프로그램을 만들어낸다.
+
 #### Reference
 - gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
 - Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
