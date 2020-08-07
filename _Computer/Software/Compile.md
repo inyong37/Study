@@ -33,7 +33,17 @@
 - `-L` option: optional library directory
   - defualt library directory: `/lib`, `/usr/lib`, and `/usr/local/lib`
   - `-L /home/directory` or `-L/home/directory`
+  
+## File
 
+### Object file `.o`
+- Executable object file
+  - 링크까지 끝나 실행이 가능한 파일이다.
+- Shared object file
+  - 동적 링크가 가능한 파일이다.
+- Relocatable object file
+  - 링크를 하지 않은 파일, 링커를 통해 재배치가 가능하다는 뜻이다.
 #### Reference
 - gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
 - Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
+- Object file, https://m.blog.naver.com/s2kiess/220058707917, 2020-08-07-Fri.
