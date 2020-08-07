@@ -20,7 +20,8 @@
 
 ## Compiler
 
-### gcc (GNU C Compiler)
+### GCC (GNU C Compiler) | [Homepage](https://gcc.gnu.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C)
+The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom.[Ref]
 
 #### How to use
 - `gcc`: compile C source code
@@ -109,3 +110,5 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - LLVM Wiki Kor, https://ko.wikipedia.org/wiki/LLVM, 2020-08-07-Fri.
 - Clang, https://clang.llvm.org/, 2020-08-07-Fri.
 - Clang Wiki Kor, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD, 2020-08-07-Fri.
+- GCC, https://gcc.gnu.org/, 2020-08-07-Fri.
+- GCC Wiki Kor, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
