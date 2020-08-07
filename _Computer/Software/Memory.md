@@ -1,7 +1,12 @@
 # Memory
 
 ## Swap Memory
-Swap memory 또는 가상 메모리는 주 메모리가 부족할 때 하드디스크와 같은 저장 공간을 메모리로 사용하는 것이다. 윈도우에서는 가상 메모리/페이징 메모리라고 한다.
+Swap memory 또는 가상 메모리는 주 메모리가 부족할 때 하드디스크와 같은 저장 공간을 메모리로 사용하는 것이다. 윈도우에서는 가상 메모리/페이징 메모리라고 한다. 일반 메모리에 비해 하드디스크(HDD), SSD는 속도가 느리기 때문에 데이터 처리 속도가 느려진다.
+
+### How to use in Linux
+- `top`: show memory usage by process
+- `htop`: show cpu usage by process
+- `free -m`: show memory
 
 #### Reference
 - Swap memory, https://m.blog.naver.com/PostView.nhn?blogId=blueday9404&logNo=221032460184&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-07-Fri.
