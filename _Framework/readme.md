@@ -53,7 +53,6 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - CNTK GitHub, https://github.com/microsoft/CNTK, 2020-07-16-Thu.
 
 # Build
-- Summary
 Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Googlde이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 Ninja로 응용프로그램 프로젝트를 구축할 수 있도록 Ninja 빌드 파일을 생성하는 메타 빌드 시스템이다. Chromium 빌드가 GYP에서 GN으로 전환되었다. [Ref]
 
 TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다.
