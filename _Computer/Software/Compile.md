@@ -116,3 +116,4 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - Clang Wiki Kor, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD, 2020-08-07-Fri.
 - GCC, https://gcc.gnu.org/, 2020-08-07-Fri.
 - GCC Wiki Kor, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
+- Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
