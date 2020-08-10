@@ -104,6 +104,10 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - `void *dlsym(void *dl_handle, char *symbol_name)`: 라이브러리 핸들에서 특정 심볼을 가져온다.
 - `const char *dlerror(void)`: 에러를 반환한다.
 
+### Terminology
+- Static Library, `.a`, `.lib`, Static Link Library
+- Dynamic Library, `.so`, `.dll`, Shared Library, Dynamic Shared Object, Dynamic Loading, Dynamic Link Library
+
 #### Reference
 - gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
 - Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
