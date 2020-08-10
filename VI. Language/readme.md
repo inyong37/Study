@@ -34,6 +34,9 @@ Tool: Eclipse, IntelliJ IDEA. #JVM, #javac, #class
 
 ### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
+### Paid? Oracle JDK vs OpenJDK
+Commercial version JDK is Oracle JDK and open source based JDK is OpenJDK. Oracle JDK has some pulgin used to pay, from Sun Microsystems
+
 ## [Python](https://www.python.org/)
 Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
 ```
@@ -91,3 +94,4 @@ JSON (JavaScript Object Notation) is a lightweight data-interchange format. It i
 11. JSON, https://www.json.org/json-en.html, 2020-04-03-Fri.
 12. C#, https://en.wikipedia.org/wiki/C_Sharp_(programming_language), 2020-04-11-Sat.
 13. C, https://en.wikipedia.org/wiki/C_(programming_language), 2020-04-12-Sun.
+- Java Paid?, https://mine-it-record.tistory.com/7, 2020-08-10-Mon.
