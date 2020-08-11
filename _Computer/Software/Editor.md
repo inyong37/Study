@@ -1,32 +1,25 @@
 # Editor
-```
 This page is about (text) editor.
-```
+
 # I. Windows
-- (That I'm using in)
 ## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/) :sparkling_heart:
-```
 Notepad is basic text editor in Windows.
-```
+
 ## ii. [Notepad++](https://notepad-plus-plus.org/) :heart:
-```
 Notepad++ is free source code editor and Notepad replacement that supports several languages. Running in the MS Windosws environment, its use is governed by GPL License.
-```
+
 ## iii. [Atom](https://atom.io/) :green_heart:
-```
 Atom is made by Github. It is open source. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
-```
+
 ## iv. [Sublime Text 3](https://www.sublimetext.com/) :yellow_heart:
-```
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
-```
 - Install packages: `Control` + `Shift` + `p`, `install package`
 - Change theme: colorsublime
 
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
-```
+
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
-```
+
 - Find: `Control` + `f`
 - Find and replace: `Control` + `h`,' `Enter`
 - Find and replace all: `Control` + `h`, `Control` + `Alt` + `Enter`
@@ -116,6 +109,7 @@ It has 3 modes, command mode, insert mode, visual mode.
 
 ### B. Plugin
 - Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
+
 #### a. Ctags [Exuberant Ctags](http://ctags.sourceforge.net/) [Universal Ctags](https://ctags.io/)
 ```
 Ctags generates an index (or tag) file of language objects found in sources files that allows these items to be quickly and easily located by a text editor and other utility. (from ctags.sourceforge.net, Exuberant Ctags)
@@ -153,3 +147,9 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 6. Ctags commands, https://bowbowbow.tistory.com/15, 2020-03-23-Mon.
 - Vim-undo, https://techlog.gurucat.net/175, 2020-07-13-Mon.
 - Vim-Block, https://jinnydown.tistory.com/entry/vim-%EC%9E%98%EB%9D%BC%EB%82%B4%EA%B8%B0%EB%B3%B5%EC%82%AC-%ED%9B%84-%EB%B6%99%EC%9D%B4%EA%B8%B0, 2020-07-13-Mon.
+- pathogen.vim, https://www.vim.org/scripts/script.php?script_id=2332, 2020-08-11-Tue.
+- pathogen.vim GitHub, https://github.com/tpope/vim-pathogen, 2020-08-11-Tue.
+- useful .vimrc, https://eldora.tistory.com/171, 2020-08-11-Tue.
+- pathogen, vundle, https://medium.com/@breadmj/pathogen-%EC%97%90%EC%84%9C-vundle-%EB%A1%9C-110104a57833, 2020-08-11.Tue.
+- vundle.vim, https://github.com/VundleVim/Vundle.vim, 2020-08-11-Tue.
+- useful .vimrc, https://blog.outsider.ne.kr/518, 2020-08-11-Tue.
