@@ -28,7 +28,15 @@ Third party software refers to programs that are developed by companies other th
 Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.[Ref]
 
 ## ELF
+### ELF Symbol Visibility
+Dynamic linker의 symbol resolution을 도와주는 역할을 한다. readelf로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
 
+- default는 visibilty를고려하지 않고 해당 symbol binding이 global인지 local(static)인지를 이용한다.
+- hidden은 주로 사용되는 속성으로 해당 symbol을 외부로 공개하지 않게 만든다.
+- protected는 잘 사용되지 않는 속성으로 공개하지만 다른 모듈에 의해 대체되지 않는다.
+- internal은 잘 사용되지 않는 속성으로 해당 symbol을 공개하지 않으며 각 architecture 별로 약간씩 다른 효과를 가질 수 있다.
+
+default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 사용할 symbol은 static으로 선언하면 된다. static으로 선언한 symbol은 항상 해당 파일 내의 symbol을 접근하는 것이므로 간접 접근이 필요없이 직접 접근이 가능하므로 컴파일러가 더 빠른 코드를 만들어 낼 수 있다. 또한 symbol이 외부로 공개되지 않으므로 relocation 및 symbol resolution 시에도 고려해야할 요소가 적어지므로 추가적인 성능 향상이 있다.
 
 ## Reference
 - Third Party Wiki, https://en.wikipedia.org/wiki/Third-party_software_component, 2020-07-21-Tue.
