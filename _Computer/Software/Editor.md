@@ -107,6 +107,19 @@ It has 3 modes, command mode, insert mode, visual mode.
   - Move to right tab: `gt`
   - Move to left tab: `gT`
 
+#### d. Buffer
+- Open: `vi a.cc b.h`
+- List: `:ls` or `:buffers` or `:files`
+- Move to # number: `:b#`
+  - `:b1`
+- Delete # number: `:bd#` or `:bw#`
+- Move previous #: `:bp#`
+- Move next #: `:bn#`
+- Seperate parallel and load #: `:sb#`
+- Move to first buffer: `:bf`
+- Move to last buffer: `:bl`
+
+
 ### B. Plugin
 - Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
 
@@ -153,3 +166,4 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 - pathogen, vundle, https://medium.com/@breadmj/pathogen-%EC%97%90%EC%84%9C-vundle-%EB%A1%9C-110104a57833, 2020-08-11.Tue.
 - vundle.vim, https://github.com/VundleVim/Vundle.vim, 2020-08-11-Tue.
 - useful .vimrc, https://blog.outsider.ne.kr/518, 2020-08-11-Tue.
+- Vim Buffer, https://opentutorials.org/course/730/4571, 2020-08-12-Wed.
