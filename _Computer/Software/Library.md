@@ -27,6 +27,9 @@ Third party software refers to programs that are developed by companies other th
 
 Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.[Ref]
 
+## ELF
+
+
 ## Reference
 - Third Party Wiki, https://en.wikipedia.org/wiki/Third-party_software_component, 2020-07-21-Tue.
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
@@ -34,3 +37,6 @@ Some programs also support third party plug-ins, which add functionality to the 
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
 - Third Party Kor, https://tuhbm.github.io/2018/01/26/thirdParty/, 2020-07-21-Tue.
 - Third Party Kor, https://vivabin.tistory.com/2, 2020-07-21-Tue.
+- ELF Symbol Visibility, http://egloos.zum.com/studyfoss/v/5257309, 2020-08-12-Wed.
+- readelf, https://m.blog.naver.com/PostView.nhn?blogId=yon7961&logNo=50097076949&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-12-Wed.
+- readelf Option, https://devanix.tistory.com/186, 2020-08-12-Wed.
