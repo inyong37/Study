@@ -59,6 +59,11 @@ ln은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 
 - `-S`: 백업 파일 생성 시에 원하는 suffix 지정
 - `-t`: 링크 파일을 생성할 디렉토리를 지정
 
+### Circular Dependency | [Wiki (Eng)](https://en.wikipedia.org/wiki/Circular_dependency)
+In software engineering, a circular dependency is a relation between two or more modules which either directly or indirectly depend on each other to function properly. Such modules are also known as mutually recursive.
+
+Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.[Ref]
+
 ## Reference
 - Third Party Wiki, https://en.wikipedia.org/wiki/Third-party_software_component, 2020-07-21-Tue.
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
@@ -70,3 +75,4 @@ ln은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 
 - readelf, https://m.blog.naver.com/PostView.nhn?blogId=yon7961&logNo=50097076949&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-12-Wed.
 - readelf Option, https://devanix.tistory.com/186, 2020-08-12-Wed.
 - ln, https://webdir.tistory.com/148, 2020-08-13-Thu.
+- Circular Dependency Wiki, https://en.wikipedia.org/wiki/Circular_dependency, 2020-08-13-Thu.
