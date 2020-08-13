@@ -77,3 +77,4 @@ Circular dependencies are natural in many domain models where certain objects of
 - ln, https://webdir.tistory.com/148, 2020-08-13-Thu.
 - Circular Dependency Wiki, https://en.wikipedia.org/wiki/Circular_dependency, 2020-08-13-Thu.
 - Dependency Management, https://architecture101.blog/2008/12/07/dependency_managment/, 2020-08-13-Thu.
+- How to solve circular dependecy, https://brunch.co.kr/@fishz/143, 2020-08-13-Thu.
