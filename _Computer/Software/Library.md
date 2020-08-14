@@ -80,3 +80,4 @@ Circular dependencies are natural in many domain models where certain objects of
 - How to solve circular dependecy, https://brunch.co.kr/@fishz/143, 2020-08-13-Thu.
 - Does circular dependecy really need?, http://hyper-cube.io/2018/03/30/circular_dependency/, 2020-08-13-Thu.
 - Dependency Analyzer, https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220729875733&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-13-Thu.
+- Library Visibility, https://cmake.org/cmake/help/latest/command/target_link_libraries.html, 2020-08-14-Fri.
