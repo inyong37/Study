@@ -1,6 +1,5 @@
 # :microphone: Study :headphones:
 ```
-
 This repository is about studies by myself. Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
 ```
 ----------
