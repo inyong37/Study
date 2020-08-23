@@ -115,7 +115,6 @@ Books about Data Structure and Algorithm.
 - 2020 KAKAO BLIND RECRUITMENT
 - 2019 KAKAO BLIND RECRUITMENT
 - 2018 KAKAO BLIND RECRUITMENT
-
 ### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges):heavy_exclamation_mark:
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/)
