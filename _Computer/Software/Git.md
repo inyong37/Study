@@ -71,12 +71,12 @@ git 2.23.0 부터 modified 된 파일을 restore하는 command
 
 ### reflog
 git log를 볼 수 있다.
-- command: `git reflog
-- 이전 commit HEAD@{1}으로 돌아가기: git reset --hard HEAD@{1}
+- command: `git reflog`
+- 이전 commit HEAD@{1}으로 돌아가기: `git reset --hard HEAD@{1}`
 
 ### log
 commit log를 볼 수 있다.
-- command: `git log
+- command: `git log`
 
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
