@@ -69,6 +69,13 @@ git 2.23.0 부터 branch를 switch하기 위한 command
 git 2.23.0 부터 modified 된 파일을 restore하는 command
 - `git restore file_name` = `git checkout file_name`
 
+### reset
+git 명령을 되돌린다.
+- `git reset --soft`: commit 명령을 되돌린다. HEAD만 되돌아간다.
+- `git reset --mixed`(default): commit, add 명령을 되돌린다. HEAD, index가 되돌아간다.
+- `git reset --hard`: commit, add, working dir을 되돌린다. HEAD, index, working dir가 되돌아간다. 이후의 commit history까지 삭제된다.
+  - revert의 경우에는 되돌아간다는 commit을 생성한다.
+
 ### reflog
 git log를 볼 수 있다.
 - command: `git reflog`
