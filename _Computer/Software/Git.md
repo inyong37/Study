@@ -22,8 +22,11 @@ This page is about Git and it's tools.
 #### rename
 git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추적할 수 있어야 한다. 특히 리팩토링 때 클래스나 패키지 폴더의 이름 변경은 자주 발생하는 작업이므로 변경 내역을 잘 관리해야 하며 git의 명령어 `git mv`를 사용하면 된다.
 - command: `git mv old_name new_name`
+
 #### rename: invalid argument
 파일이나 폴더 이름의 일부를 대소문자로 변경하는 경우에 발생한다. 이 경우에는 임시 이름으로 한 뒤 변경하는 단계를 거치도록 한다.
+- error: `git mv old_name OLD_NAME`
+- sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
 ## Github | [Homepage](https://github.com/)
 
