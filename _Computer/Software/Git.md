@@ -56,6 +56,28 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 기존 원격 저장소 이름을 변경하기는 `git remote rename`을 사용하면 된다.
 - command: `git remote rename origin destination`
 
+### cherry-pick
+다른 브랜치에 있는 commit을 내 브랜치에 적용하기
+- conflict가 발생해서 해결하기: conflict를 수정하고 `--continue` 하고 commit message를 수정해서 cherry-pick 마무리한다.
+- conflict가 발생해서 취소하기: `--abort`하면 된다.
+
+### switch
+git 2.23.0 부터 branch를 switch하기 위한 command
+- `git switch branch_name` = `git checkout branch_name`
+
+### restore
+git 2.23.0 부터 modified 된 파일을 restore하는 command
+- `git restore file_name` = `git checkout file_name`
+
+### reflog
+git log를 볼 수 있다.
+- command: `git reflog
+- 이전 commit HEAD@{1}으로 돌아가기: git reset --hard HEAD@{1}
+
+### log
+commit log를 볼 수 있다.
+- command: `git log
+
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
@@ -218,3 +240,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - Git, https://git-scm.com/, 2020-08-24-Mon.
 - git file status, https://seonkyukim.github.io/git-tutorial/git-status/#, 2020-08-24-Mon.
 - git project status, https://ohgyun.com/351, 2020-08-24-Mon.
+- git reflog, https://88240.tistory.com/284,2020-08-24-Mon.
