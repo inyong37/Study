@@ -190,4 +190,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - Submodule, https://git-scm.com/book/ko/v2/Git-%EB%8F%84%EA%B5%AC-%EC%84%9C%EB%B8%8C%EB%AA%A8%EB%93%88, 2020-07-06-Mon.
 - rename, https://www.lesstif.com/gitbook/git-git-rename-file-or-folder-54952878.html, 2020-08-24-Mon.
 - GitHub about, https://github.com/about, 2020-08-24-Mon.
-- managing remote repo, http://minsone.github.io/git/github-managing-remotes-renaming-a-remote, 2020-08-24-Mon.
+- rename repo, http://minsone.github.io/git/github-managing-remotes-renaming-a-remote, 2020-08-24-Mon.
