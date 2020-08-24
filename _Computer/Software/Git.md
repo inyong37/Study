@@ -2,6 +2,9 @@
 ```
 This page is about Git and it's tools.
 ```
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.[Ref]
 
 ### Command
 - `git clone`
@@ -191,3 +194,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - rename, https://www.lesstif.com/gitbook/git-git-rename-file-or-folder-54952878.html, 2020-08-24-Mon.
 - GitHub about, https://github.com/about, 2020-08-24-Mon.
 - rename repo, http://minsone.github.io/git/github-managing-remotes-renaming-a-remote, 2020-08-24-Mon.
+- Git, https://git-scm.com/, 2020-08-24-Mon.
