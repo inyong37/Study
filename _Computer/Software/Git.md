@@ -1,10 +1,18 @@
 # Git | [Homepage](https://git-scm.com/)
-```
-This page is about Git and it's tools.
-```
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.[Ref]
+
+### project status
+3 status: Git Directory | Working Directory | Staging Area
+
+### file status
+4 status: Untracked | Unmodified | Modified | Staged
+- add the file: Untracked, Unmodified, Modified -> Staged
+- Edit the file: Unmodified -> Modified
+- Stage the file: Modified -> Staged
+- Remove the file: Untracked <- Unmodified
+- Commit: Unmodified <- Staged
 
 ### Command
 - `git clone`
@@ -18,11 +26,11 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
 - `git rebase`
 - `git reset`
 
-#### submodule
+### submodule
 
-#### hook
+### hook
 
-#### rename
+### rename
 git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추적할 수 있어야 한다. 특히 리팩토링 때 클래스나 패키지 폴더의 이름 변경은 자주 발생하는 작업이므로 변경 내역을 잘 관리해야 하며 git의 명령어 `git mv`를 사용하면 된다.
 - command: `git mv old_name new_name`
 
@@ -195,3 +203,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - GitHub about, https://github.com/about, 2020-08-24-Mon.
 - rename repo, http://minsone.github.io/git/github-managing-remotes-renaming-a-remote, 2020-08-24-Mon.
 - Git, https://git-scm.com/, 2020-08-24-Mon.
+- git status, https://seonkyukim.github.io/git-tutorial/git-status/#, 2020-08-24-Mon.
