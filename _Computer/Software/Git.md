@@ -30,14 +30,11 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 ### Command
 - `git clone`
 - `git pull`
-- `git log`
 - `git branch`
-- `git checkout`
 - `git add`
 - `git commit`
 - `git push`
 - `git rebase`
-- `git reset`
 
 ### submodule
 
@@ -53,7 +50,7 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 - sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
 ### rename repo
-기존 원격 저장소 이름을 변경하기는 `git remote rename`을 사용하면 된다.
+기존 원격 저장소 이름을 변경하기는 `git remote rename`을 사용하면 된다. (보는 방법은 `git remote -v`)
 - command: `git remote rename origin destination`
 
 ### cherry-pick
