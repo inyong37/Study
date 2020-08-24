@@ -10,6 +10,14 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
 - Staging Area: commit할 파일에 대한 정보를 저장한다. 단순한 파일이고 실제로 git directory 내에 존재한다.
 Working directory에서 파일을 수정하고, staging area에 파일을 stage해서 commit할 snapshot을 만들고, staging area에 있는 파일들을 commit해서 git directory에 영구적인 snapshot으로 저장한다.
 
+Working Directory | Staging Area | Local Repository | Remote Repository
+- git add: working dir -> staging area
+- git commit: staging area -> local repo
+- git push: local repo -> remote repo
+- git fetch: local repo <- remote repo
+- git checkout: working dir <- local repo
+- git merge: working dir <- local repo
+
 ### file status
 4 status: Untracked | Unmodified | Modified | Staged
 - add the file: Untracked -> Staged
