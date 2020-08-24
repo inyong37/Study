@@ -51,7 +51,8 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 
 ### remote
 #### show remote
-`git remote -v`
+`git remote`
+`git remote -v` with name and url
 #### remote rename
 `git remote rename old_name new_name`
 #### remote add
