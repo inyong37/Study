@@ -28,6 +28,10 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 - error: `git mv old_name OLD_NAME`
 - sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
+### rename repo
+기존 원격 저장소 이름을 변경하기는 `git remote rename`을 사용하면 된다.
+- command: `git remote rename origin destination`
+
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
