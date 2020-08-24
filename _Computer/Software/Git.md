@@ -127,65 +127,56 @@ git describe master; git describe side; git describe bugFix; git commit
 ```
 #### E. Advanced
 #### a. level advanced1
-#### My Solution
-`git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; git checkout side; git rebase master side; git checkout master; git rebase side; git checkout another; git rebase master anotherl git checkout master; git rebase another`
-#### Solution
-`git rebase master bugFix; git rebase bugFix side; git rebase side another; git rebase another master`
+- My Solution: `git checkout bugFix; git rebase master; git checkout master; git rebase bugFix; git checkout side; git rebase master side; git checkout master; git rebase side; git checkout another; git rebase master anotherl git checkout master; git rebase another`
+- Solution: `git rebase master bugFix; git rebase bugFix side; git rebase side another; git rebase another master`
 #### b. level advanced2
 - `~`, `^`
 - First parent HEAD `git checkout master^`
 - Second parent HEAD `git checkout master^2`
 - `git checkout HEAD~; git checkout HEAD^2; git checkout HEAD~2` = `git checkout HEAD~^2~2`
-#### My Solution
-`git checkout master~1^2~1; git branch HEAD bugWork; git checkout master`
-#### Solution
-`git branch bugWork master^^2^`
+- My Solution: `git checkout master~1^2~1; git branch HEAD bugWork; git checkout master`
+- Solution: `git branch bugWork master^^2^`
 #### c. level advanced3
 - `show solution`
-#### My Solution
-`git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2`
-#### Solution
-`git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2`
+- My Solution: `git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2`
+- Solution: `git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2`
 #### ii. Remote
 #### A. Remote
 #### a. level remote1
 - `git clone`
-`git clone`
+- Solution: `git clone`
 #### b. level remote2
 - `<remote name>/<branch name>`
 - `o/master` = 브랜치 이름은 `master`, 저장소 이름은 `o` 이다.
 - `origin/master` = 브랜치 이름은 `maseter`, 저장소 이름은 `origin` 이다.
 - `git checkout o/master; git commit`
-`git commit; git checkout o/master; git commit`
+- Solution: `git commit; git checkout o/master; git commit`
 #### c. level remote3
 - `git fetch`: remote repository/storage -> local repository/storage
 - Protocol: `http://`, `git://`
-`git fetch`
+- Solution: `git fetch`
 #### d. level remote4
 - `git pull` = `git fetch` + `git merge`
 - `git cherry-pick o/master` = `git rebase o/master` = `git merge o/master`
-`git pull`
+- Solution: `git pull`
 #### e. level remote5
 - `git fakeTeamwork foo 3` = 3 commits push to remote
-`git clone; git fakeTeamwork master 2; git fetch; git commit; git merge
-git clone; git fakeTeamwork master 2; git commit; git pull;`
+- Solution: `git clone; git fakeTeamwork master 2; git fetch; git commit; git merge`, `git clone; git fakeTeamwork master 2; git commit; git pull;`
 #### f. `level remote6`
 - `git push`, `push default`
-`git commit; git commit; git push`
+- Solution: `git commit; git commit; git push`
 #### g. level remote7
 - `git fetch; git rebase o/master; git push`
 - + `git fetch; git merge o/master; git push`
 - = `git pull --rebase; git push` = `git pull; git push`
-`git clone; git fakeTeamwork; git commit; git pull --rebase; git push`
+- Solution: `git clone; git fakeTeamwork; git commit; git pull --rebase; git push`
 #### h. level remote8
 - `reset`
-`git reset o/master; git checkout -b feature C2; git push origin feature`
+- Solution: `git reset o/master; git checkout -b feature C2; git push origin feature`
 #### B. Remote Advanced
 #### a. level remoteAdvanced1
-#### My Solution
-`git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push`
-#### Solution
-`git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push`
+- My Solution: `git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push`
+- Solution: `git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push`
 
 #### Reference
 - Git Log Quit, https://stackoverrun.com/ko/q/2483042, 2020-03-10-Tue.
