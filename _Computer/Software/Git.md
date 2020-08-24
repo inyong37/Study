@@ -29,15 +29,14 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 - sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
 ## Github | [Homepage](https://github.com/)
-GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software.
-
+GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
 ## GitLab| [Homepage](https://about.gitlab.com/) | [Source Code](https://github.com/gitlabhq)
 GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다. [Ref]
 
 ## Git Tutorial Game | [Homepage](https://learngitbranching.js.org/)
-- See tutorials `levels`
-## i. Local
+- See tutorials command: `levels`
+### i. Local
 ### A. Intro
 #### a. `level intro1`
 - resolving deltas
@@ -86,7 +85,7 @@ git branch -f master C6; git checkout HEAD^; git branch -f bugFix HEAD~1
 ```
 git reset local^; git checkout pushed; git revert pushed
 ```
-### C. Move
+#### C. Move
 #### a. `level move1`
 - `git cherry-pick C1 C3`
 ```
@@ -99,7 +98,7 @@ git cherry-pick C3 C4 C7
 ```
 git rebase -i HEAD~4; # omit C2, change C4 and C5
 ```
-### D. Mixed
+#### D. Mixed
 #### a. `level mixed1`
 - `git cherry-pick`
 - `git rebase -i`
@@ -126,7 +125,7 @@ git tag v0 C1; git tag v1 C2; git checkout v1;
 ```
 git describe master; git describe side; git describe bugFix; git commit
 ```
-### E. Advanced
+#### E. Advanced
 #### a. `level advanced1`
 #### My Solution
 ```
@@ -159,8 +158,8 @@ git checkout three; git rebase C2; git checkout one; git cherry-pick C4 C3 C2; g
 ```
 git checkout one; git cherry-pick C4 C3 C2; git checkout two; git cherry-pick C5 C4 C3 C2; git branch -f three C2
 ```
-## ii. Remote
-### A. Remote
+#### ii. Remote
+#### A. Remote
 #### a. `level remote1`
 - `git clone`
 ```
@@ -209,7 +208,7 @@ git clone; git fakeTeamwork; git commit; git pull --rebase; git push
 ```
 git reset o/master; git checkout -b feature C2; git push origin feature
 ```
-### B. Remote Advanced
+#### B. Remote Advanced
 #### a. `level remoteAdvanced1`
 #### My Solution
 ```
