@@ -49,9 +49,15 @@ git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추�
 - error: `git mv old_name OLD_NAME`
 - sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
-### rename repo
-기존 원격 저장소 이름을 변경하기는 `git remote rename`을 사용하면 된다. (보는 방법은 `git remote -v`)
-- command: `git remote rename origin destination`
+### remote
+#### show remote
+`git remote -v`
+#### remote rename
+`git remote rename old_name new_name`
+#### remote add
+`git remote add new_name git@1.1.1.1:user_name/repo_name.git`
+#### remove remote
+`git remote remove delete_name`
 
 ### cherry-pick
 다른 브랜치에 있는 commit을 내 브랜치에 적용하기
@@ -245,3 +251,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - git file status, https://seonkyukim.github.io/git-tutorial/git-status/#, 2020-08-24-Mon.
 - git project status, https://ohgyun.com/351, 2020-08-24-Mon.
 - git reflog, https://88240.tistory.com/284,2020-08-24-Mon.
+- git remote, https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C, 2020-08-24-Mon.
