@@ -5,12 +5,16 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
 
 ### project status
 3 status: Git Directory | Working Directory | Staging Area
+- Git Directory: git이 프로젝트의 모든 정보를 저장하는 곳으로, git을 새로 만들거나 clone할 때 git directory가 만들어진다.
+- Working Directory: 프로젝트의 특정 버전을 git directory로부터 checkout 상태이다.
+- Staging Area: commit할 파일에 대한 정보를 저장한다. 단순한 파일이고 실제로 git directory 내에 존재한다.
+Working directory에서 파일을 수정하고, staging area에 파일을 stage해서 commit할 snapshot을 만들고, staging area에 있는 파일들을 commit해서 git directory에 영구적인 snapshot으로 저장한다.
 
 ### file status
 4 status: Untracked | Unmodified | Modified | Staged
-- add the file: Untracked, Unmodified, Modified -> Staged
+- add the file: Untracked -> Staged
 - Edit the file: Unmodified -> Modified
-- Stage the file: Modified -> Staged
+- Stage(add) the file: Modified -> Staged
 - Remove the file: Untracked <- Unmodified
 - Commit: Unmodified <- Staged
 
@@ -203,4 +207,5 @@ git describe master; git describe side; git describe bugFix; git commit
 - GitHub about, https://github.com/about, 2020-08-24-Mon.
 - rename repo, http://minsone.github.io/git/github-managing-remotes-renaming-a-remote, 2020-08-24-Mon.
 - Git, https://git-scm.com/, 2020-08-24-Mon.
-- git status, https://seonkyukim.github.io/git-tutorial/git-status/#, 2020-08-24-Mon.
+- git file status, https://seonkyukim.github.io/git-tutorial/git-status/#, 2020-08-24-Mon.
+- git project status, https://ohgyun.com/351, 2020-08-24-Mon.
