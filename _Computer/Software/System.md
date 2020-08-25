@@ -52,6 +52,22 @@ Linux의 동적 라이브러리이다.[Ref]
 
 ## Linux | [Homepage](https://www.linux.org/)
 
+### Alias
+
+#### How to use
+- show: `alias`
+- setup at '.bashrc'
+```
+alias ll='ls -al'
+alias ls='ls --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias tn='tmux new'
+alias tl='tmux ls'
+alias ta='tmux attach'
+```
+
 ### Symbolic Link
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.[Ref]
 
@@ -71,3 +87,4 @@ Linux의 동적 라이브러리이다.[Ref]
 - DLL, https://goddaehee.tistory.com/185, 2020-08-06-Thu.
 - Library, https://jasonjason.tistory.com/15, 2020-08-06-Thu.
 - Shortcut, https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0, 2020-08-08-Sat.
+- Alias, https://webdir.tistory.com/107, 2020-08-25-Tue.
