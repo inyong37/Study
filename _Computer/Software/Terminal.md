@@ -78,6 +78,15 @@ $ 'prefix' + z # select only the pane
 
 ### grep
 
+#### How to use
+- show line number: `-n` or `--line-number`
+- ignore upper case and lower case: `-i` or `--ignore-case
+- show only file name: `-l` or `--files-with-matches`
+- search for sub directories: `-r` or `--recursive`
+- except the string: `-v` or `--invert-match`
+- include binary files as a text file: `-a` or `--text`
+- search without binary files: `-I` same as another option `binary-files=without-match`
+
 #### egrep
 Extended version of grep, it can search multiple strings and more meta regression.
 
