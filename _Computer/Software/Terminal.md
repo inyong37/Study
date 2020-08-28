@@ -76,6 +76,14 @@ $ 'prefix' + [ + 'up/down arrow' or 'page up/down' # Scroll up/down
 $ 'prefix' + z # select only the pane
 ```
 
+### grep
+
+#### egrep
+Extended version of grep, it can search multiple strings and more meta regression.
+
+#### fgrep
+Search everything as a string. So it is faster than any other greps.
+
 #### Reference
 - Tmux commands, https://seulcode.tistory.com/144, 2020-02-02-Tue.
 - Tmux scroll, https://superuser.com/questions/209437/how-do-i-scroll-in-tmux, 2020-02-02-Tue.
@@ -89,3 +97,4 @@ $ 'prefix' + z # select only the pane
 - Console, Terminal, Shell 차이, https://infosecguide.tistory.com/15, 2020-03-10-Tue.
 - Windows Terminal, https://github.com/Microsoft/Terminal, 2020-05-22-Fri.
 - Windows Terminal, https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab, 2020-05-22-Fri.
+- grep commands, https://geundi.tistory.com/113, 2020-08-28-Fri.
