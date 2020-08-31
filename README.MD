@@ -153,7 +153,6 @@ Books about Programming Languages.
 |High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|
 |Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|
 
-
 ## iv. C++ :blue_book:
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
@@ -165,15 +164,13 @@ Books about Programming Languages.
 ----------
 ## ETC 
 ### A. Amazon Web Services (AWS)
-#### a. Delete
-[Reference](https://brunch.co.kr/@topasvga/342)
-#### b. Alarm for billing
-[Reference](https://brunch.co.kr/@topasvga/96)
+#### a. How to delete [Reference](https://brunch.co.kr/@topasvga/342)
+#### b. How to alarm for billing [Reference](https://brunch.co.kr/@topasvga/96)
 
-### B. Docker [Homepage](https://www.docker.com/)
+### B. Docker | [Homepage](https://www.docker.com/)
 #### a. Korean Tutorial
 [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
-#### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
+#### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### C. Version Check
 - Python, CUDA
