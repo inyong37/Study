@@ -165,55 +165,50 @@ Books about Programming Languages.
 ----------
 ## ETC 
 ### A. Amazon Web Services (AWS)
-
 #### a. Delete
 [Reference](https://brunch.co.kr/@topasvga/342)
-
 #### b. Alarm for billing
 [Reference](https://brunch.co.kr/@topasvga/96)
 
 ### B. Docker [Homepage](https://www.docker.com/)
-
 #### a. Korean Tutorial
 [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
-
 #### b. NVIDIA Docker [Homepage](https://github.com/nvidia/nvidia-docker)
 
-### Version Check
-Python, CUDA
+### C. Version Check
+- Python, CUDA
 ```
-> python --versioin
-> nvcc --version
+$ python --versioin
+$ nvcc --version
 ```
-TensorFlow, Keras, PyTorch, OpenCV
+- TensorFlow, Keras, PyTorch, OpenCV in python
 ```
 import tensorflow; tensorflow.__version__
 import keras; keras.__version__
 import torch; torch.__vrtsion__
 import cv2; cv2.__version__
 ```
-CuDNN
-nano ~/CUDA/include/cudnn.h
+- CuDNN in ~/CUDA/include/cudnn.h
 ```
 #define CUDNN_MAJOR 7
 #define CUDNN_MINOR 4
 #define CUDNN_PATCHLEVEL 2
-
 #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 ```
 
-### Virtual Environment
+### D. Virtual Environment
 #### a. Virtual Box
 [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
-
 #### b. VMware
 [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
-### Computer
+### E. Computer
 - Operating System Concepts (10th Ed.) [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
 - Operating System Concepths Essential (2nd Ed.) [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=)
 - Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)
 - Head First Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
+
+### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 ----------
 - :book: 
 ----------
