@@ -124,18 +124,19 @@ It has 3 modes, command mode, insert mode, visual mode.
 - Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
 
 #### a. Ctags [Exuberant Ctags](http://ctags.sourceforge.net/) [Universal Ctags](https://ctags.io/)
-```
 Ctags generates an index (or tag) file of language objects found in sources files that allows these items to be quickly and easily located by a text editor and other utility. (from ctags.sourceforge.net, Exuberant Ctags)
+
 Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area. (from ctags.io, Universal-Ctags)
-```
-- `sudo apt-get install ctags`: install ctags.
-- `ctags filename`: build tags for 'filename', `ctags -R`: build tags for all directory under current directory.
+
+- Install ctags: `$ sudo apt-get install ctags`
+- Build ctags for all directory under current directory: `$ ctags -R`
+- Build ctags for 'file_name': `ctags file_name`
+- Find current cursor's declaration tag: `Control` + `]`
+- Go back to vim after tag: `control` + `t`
 - `vim tags`: turn on tags file.
 - Or use it in `vim`.
 - `:tj functionname/variablename`: find 'functionname/variablename' declaration tags.
-- `Control` + `]`: find current cursor's declaration tag.
 - `:po`: go back to `vim`.
-- `Control` + `t`: go back to `vim`.
 - `:stj functionname/variablename`: find 'functionname/variablename' declaration tags in splited window.
 #### b. [Tagbar](http://majutsushi.github.io/tagbar/) [Github](https://github.com/majutsushi/tagbar)
 ```
@@ -167,3 +168,4 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 - vundle.vim, https://github.com/VundleVim/Vundle.vim, 2020-08-11-Tue.
 - useful .vimrc, https://blog.outsider.ne.kr/518, 2020-08-11-Tue.
 - Vim Buffer, https://opentutorials.org/course/730/4571, 2020-08-12-Wed.
+- ctags commands, https://harryp.tistory.com/130, 2020-09-02-Wed.
