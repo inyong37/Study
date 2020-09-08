@@ -69,6 +69,16 @@ alias tn='tmux new'
 alias tl='tmux ls'
 alias ta='tmux attach'
 ```
+### tmux
+```
+$ sudo apt-get install tmux
+```
+
+### ssh server with openssh server
+```
+$ sudo apt-get install openssh-server
+$ sudo service ssh start
+```
 
 ### Symbolic Link
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.[Ref]
@@ -90,3 +100,4 @@ alias ta='tmux attach'
 - Library, https://jasonjason.tistory.com/15, 2020-08-06-Thu.
 - Shortcut, https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0, 2020-08-08-Sat.
 - Alias, https://webdir.tistory.com/107, 2020-08-25-Tue.
+- openssh, https://jimnong.tistory.com/713, 2020-09-08-Tue.
