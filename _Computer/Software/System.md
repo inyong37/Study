@@ -78,6 +78,7 @@ $ sudo apt-get install tmux
 ```
 $ sudo apt-get install openssh-server
 $ sudo service ssh start
+$ sudo systemctl enable ssh
 ```
 
 ### Symbolic Link
