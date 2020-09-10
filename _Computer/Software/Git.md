@@ -34,7 +34,10 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git add`
 - `git commit`
 - `git push`
-- `git rebase`
+
+### rebase
+- commit 2개 합치기: `$ git rebase -i HEAD~2`
+  - `pick` commit# -> `fixup` commit#
 
 ### submodule
 
