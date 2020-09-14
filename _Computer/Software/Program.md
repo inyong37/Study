@@ -20,3 +20,5 @@
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
 - CI/CD, https://deveric.tistory.com/106, 2020-09-14-Mon.
+- Profiling, https://en.wikipedia.org/wiki/Profiling_(computer_programming), 2020-09-14-Mon.
+- Hot spot Wiki, https://en.wikipedia.org/wiki/Hot_spot_(computer_programming), 2020-09-14-Mon.
