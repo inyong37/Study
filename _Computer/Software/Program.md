@@ -45,6 +45,9 @@ The Valgrind distribution currently includes seven production-quality tools: a m
 
 Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.
 
+### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | Instruction Level & Free Version & Unix
+Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
+
 ### Very Sleepy | [Homepage](http://www.codersnotes.com/sleepy/) | [Wiki](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | Instruction Level & Free Version
 Very Sleepy is a free C/C++ CPU profiler for Windows systems. Originally started as a fork of Nick Chapman's sleepy, many people have since contributed to add considerable improvements. It supports any native Windows app, if it has standard PDB or DWARF2 debugging information. No recompilation is necessary – it can just attach to any app as it's running. Both 32-bit x86 and 64-bit x64 systems are fully supported, and Very Sleepy will work with both Visual Studio or gcc/mingw compilers. Profiling results are displayed in full call-graph format, and can additionally be saved and exported to CSV format. Very Sleepy is released under the GNU Public License, so you're guaranteed the right to the source code and to change it how you wish.
 
