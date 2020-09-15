@@ -16,9 +16,20 @@
 -   레벨은 문제가 가장 어렵고, 여지가 가장 크며, 익숙도는 가장 크고, 툴 여부는 적다.
 -   코드 레벨의 CPU 프로파일러는 Visual Studio Profiler, Very Sleepy, Glow Code가 있다.
 
+## Profiler
+### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [WiKi](https://en.wikipedia.org/wiki/AMD_CodeAnalyst)
+AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
+
+#### Specifications
+- Processors: AMD CPU & APU Processors, Discrete GPUs: Graphics IP 7 GPUs, AMD Radeon 500 Series, FirePro models (Power Profiling Only) 
+- Operating Systems: AMD uProf supports the 64-bit version of the following Operating Systems: Microsoft Windows 7, Windows 10 (up to May 2020 Update 20H1), Windows Server 2016, Windows Server 2019 and Linux Ubuntu 16.04 & later, RHEL 7.0 & later, openSUSE Leap 15.0, SLES 12 & 15, CentOS 7.0 & later.
+- Compilers and Application Environment: Languages with C, C++, Fortran, Assembly, Java, .NET and Programs compiled with Microsoft compilers, GNU compilers, LLVM, AMD’s AOCC, Intel compilers and Parallelism with OpenMP, MPI and Applications compiled with and without optimization and/or debug information.
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
 - CI/CD, https://deveric.tistory.com/106, 2020-09-14-Mon.
 - Profiling, https://en.wikipedia.org/wiki/Profiling_(computer_programming), 2020-09-14-Mon.
 - Hot spot Wiki, https://en.wikipedia.org/wiki/Hot_spot_(computer_programming), 2020-09-14-Mon.
+- AMD μProf, https://developer.amd.com/amd-uprof/, 2020-09-15-Tue.
+- AMD CodeAnalyst Wiki, https://en.wikipedia.org/wiki/AMD_CodeAnalyst, 2020-09-15-Tue.
