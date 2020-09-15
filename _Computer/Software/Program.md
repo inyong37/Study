@@ -28,6 +28,19 @@ A bottleneck in computer science occurs when the capacity of an application or a
 ### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst)
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
+### In-house Profiler
+using chrono header for c++
+```
+# include <chrono>
+int main(){
+ std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+ work();
+ std::chrono::duration<double> sec = std::chrono::system_clock::now() - start;
+ std::cout << sec.count() << " seconds" << std::endl;
+ return 0;
+}
+```
+
 #### Specifications
 - Processors: AMD CPU & APU Processors, Discrete GPUs: Graphics IP 7 GPUs, AMD Radeon 500 Series, FirePro models (Power Profiling Only) 
 - Operating Systems: AMD uProf supports the 64-bit version of the following Operating Systems: Microsoft Windows 7, Windows 10 (up to May 2020 Update 20H1), Windows Server 2016, Windows Server 2019 and Linux Ubuntu 16.04 & later, RHEL 7.0 & later, openSUSE Leap 15.0, SLES 12 & 15, CentOS 7.0 & later.
@@ -42,3 +55,4 @@ AMD uProf is a performance analysis tool for applications running on Windows and
 - AMD μProf, https://developer.amd.com/amd-uprof/, 2020-09-15-Tue.
 - AMD CodeAnalyst Wiki, https://en.wikipedia.org/wiki/AMD_CodeAnalyst, 2020-09-15-Tue.
 - Bottleneck, https://en.wikipedia.org/wiki/Bottleneck_(software), 2020-09-15-Tue.
+- C++ chrono, https://jacking.tistory.com/988, 2020-09-15-Tue.
