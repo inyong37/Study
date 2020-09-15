@@ -74,6 +74,14 @@ AMD uProf supports the 64-bit version of the following Operating Systems:
   - OpenMP, MPI
 - Applications compiled with and without optimization and/or debug information.
 
+### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version
+NVIDIA PerfKit is a comprehensive suite of performance tools to help debug and profile OpenGL and Direct3D applications. It gives you access to low-level performance counters inside the driver and hardware counters inside the GPU itself. The counters can be used to determine exactly how your application is using the GPU, identify performance issues, and confirm that performance problems have been resolved. NVIDIA PerfKit is available separately for 3 target platforms. PC packages includes support for 32-bit and 64-bit Windows 10, Windows 8, Windows 7, and Vista platforms. Android packages includes support for NVIDIA Tegra TK1 and TX1 devices running Android OS. Linux for Tegra support is available under NVIDIA PerfKit (L4T) targeting the NVIDIA Jetson Embedded Platform.
+
+### Radeon GPU Profiler (AMD GPU Open) | [Homepage](https://gpuopen.com/rgp/) | [GitHub](https://github.com/GPUOpen-Tools/radeon_gpu_profiler) | GPU & Free Version
+The Radeon GPU Profiler (RGP) is a ground-breaking low-level optimization tool from AMD. It provides detailed timing information on Radeon Graphics using custom, built-in, hardware thread-tracing, allowing the developer deep inspection of GPU workloads.
+
+This unique tool generates easy to understand visualizations of how your DirectX®12 and Vulkan® games interact with the GPU at the hardware level. Profiling a game is both a quick, and simple process using the Radeon Developer Panel and the public display driver.
+
 ### In-house Profiler | Code level
 using chrono for c++
 ```
@@ -114,3 +122,8 @@ Polling profilers work by periodically inspecting the profiled program's state. 
 - Very Sleepy GitHub, https://github.com/VerySleepy/verysleepy, 2020-09-15-Tue.
 - Very Sleepy Wiki, https://github.com/VerySleepy/verysleepy/wiki, 2020-09-15-Tue.
 - Very Sleepy, http://www.codersnotes.com/sleepy/, 2020-09-15-Tue.
+- Nvidia PerfKit, https://developer.nvidia.com/nvidia-perfkit, 2020-09-15-Tue.
+- PerfHud Korean blog, https://mgun.tistory.com/1169, 2020-09-15-Tue.
+- Frame Profiler, https://docs.nvidia.com/gameworks/content/developertools/mobile/perfhud_frame_profiler.htm, 2020-09-15-Tue.
+- AMD GPU Open (Radeon GPU Profiler), https://gpuopen.com/rgp/, 2020-09-15-Tue.
+- Radeon GPU Profiler GitHub, https://github.com/GPUOpen-Tools/radeon_gpu_profiler, 2020-09-15-Tue.
