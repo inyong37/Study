@@ -25,12 +25,32 @@ A Hot spot in computer science is most usually defined as a region of a program 
 A bottleneck in computer science occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow. The bottleneck has lowest throughput of all parts of the transaction path.
 
 ## Profiler
-### Intel VTune Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
+### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
 
-#### Specifications
-- Processors:
- - Intel® and compatible processors and coprocessors
+### Specifications
+#### Processors
+- Intel® and compatible processors and coprocessors
+#### FPGAs
+- Intel® Arria® 10 FPGA, Intel® Stratix® 10 FPGA
+#### Host operating systems
+- Windows*, Linux, macOS* (optional download)
+#### Target operating systems
+- Windows, Linux, FreeBSD*, Android*, Tizen*, Wind River Linux*, Yocto Project*
+#### Programming languages
+- C, C++, C#, Fortran, Java*, Python*, Google Go* Programming language, Assembly
+#### Compilers
+- Compilers from Intel, Microsoft* compilers, GNU Compiler Collection (GCC)*, Other Compilers that follow the same standards
+#### Development environments
+- Integration with Microsoft Visual Studio*, Stand-alone product
+#### Threading analysis
+- OpenMP*, Intel® Threading Building Blocks (Intel® TBB), Native threads
+#### Extended threading performance analysius
+- OpenMP, Intel TBB
+#### Message passing interface (MPI) parallelism
+- Integration with the Intel Trace Analyzer and Collector MPI profiler
+#### GPU
+- Media and OpenCL™ application tuning on newer Intel® processors
 
 ### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst)
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
