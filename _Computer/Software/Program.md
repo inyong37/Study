@@ -34,14 +34,14 @@ int main(){
 }
 ```
 
-### Valgrind | [Homepage](https://valgrind.org/) | Instruction Level & Free Version
+### Valgrind | [Homepage](https://valgrind.org/) | Instruction Level & Free Version & UNIX
 Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile programs in detail. 
 
 The Valgrind distribution currently includes seven production-quality tools: a memory error detector, two thread error detectors, a cache and branch-prediction profiler, a call-graph generating cache and branch-prediction profiler, and two different heap profilers. It also includes an experimental SimPoint basic block vector generator. It runs on the following platforms: X86/Linux, AMD64/Linux, ARM/Linux, ARM64/Linux, PPC32/Linux, PPC64/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux, MIPS64/Linux, X86/Solaris, AMD64/Solaris, ARM/Android (2.3.x and later), ARM64/Android, X86/Android (4.0 and later), MIPS32/Android, X86/Darwin and AMD64/Darwin (Mac OS X 10.12).
 
 Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.
 
-### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | Instruction Level & Free Version & Unix
+### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | Instruction Level & Free Version & UNIX
 Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
 
 ### Very Sleepy | [Homepage](http://www.codersnotes.com/sleepy/) | [Wiki](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | Instruction Level & Free Version
@@ -53,12 +53,12 @@ Instrumenting profilers work by modifying the program before it is executed. Thi
 
 Polling profilers work by periodically inspecting the profiled program's state. This is usually done by attaching to the program as a debugger would, and periodically recording each thread's stack traces. The advantages of polling profilers is that they do not require modifying the program code before it is executed, and the results better statistically reflect which portions the program spends time in (due to not adding inconsistent overhead to small functions). Very Sleepy is a polling profiler.
 
-### Glow Code | [Homepage](https://www.glowcode.com/) | Instruction Level & Paid Version
+### Glow Code | [Homepage](https://www.glowcode.com/) | CPU & Instruction Level & Paid Version
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
-### Visual Studio Profiler | [Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019)
+### Visual Studio Profiler | [Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | CPU & Memory & Instruction & Partial Paid Version & Windows
 
-### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | Instruction Level & Partial Paid Version
+### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | CPU & Instruction Level & Partial Paid Version & All
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
 
 ### Specifications
@@ -85,7 +85,7 @@ Intel® VTune™ Profiler collects key profiling data and presents it with a pow
 #### GPU
 - Media and OpenCL™ application tuning on newer Intel® processors
 
-### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | Instruction Level & Free Version
+### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | CPU & Instruction Level & Free Version & All
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
 ### Specifications
@@ -107,15 +107,15 @@ AMD uProf supports the 64-bit version of the following Operating Systems:
   - OpenMP, MPI
 - Applications compiled with and without optimization and/or debug information.
 
-### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version
+### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version & All
 NVIDIA PerfKit is a comprehensive suite of performance tools to help debug and profile OpenGL and Direct3D applications. It gives you access to low-level performance counters inside the driver and hardware counters inside the GPU itself. The counters can be used to determine exactly how your application is using the GPU, identify performance issues, and confirm that performance problems have been resolved. NVIDIA PerfKit is available separately for 3 target platforms. PC packages includes support for 32-bit and 64-bit Windows 10, Windows 8, Windows 7, and Vista platforms. Android packages includes support for NVIDIA Tegra TK1 and TX1 devices running Android OS. Linux for Tegra support is available under NVIDIA PerfKit (L4T) targeting the NVIDIA Jetson Embedded Platform.
 
-### Radeon GPU Profiler (AMD GPU Open) | [Homepage](https://gpuopen.com/rgp/) | [GitHub](https://github.com/GPUOpen-Tools/radeon_gpu_profiler) | GPU & Free Version
+### Radeon GPU Profiler (AMD GPU Open) | [Homepage](https://gpuopen.com/rgp/) | [GitHub](https://github.com/GPUOpen-Tools/radeon_gpu_profiler) | GPU & Free Version & All
 The Radeon GPU Profiler (RGP) is a ground-breaking low-level optimization tool from AMD. It provides detailed timing information on Radeon Graphics using custom, built-in, hardware thread-tracing, allowing the developer deep inspection of GPU workloads.
 
 This unique tool generates easy to understand visualizations of how your DirectX®12 and Vulkan® games interact with the GPU at the hardware level. Profiling a game is both a quick, and simple process using the Radeon Developer Panel and the public display driver.
 
-### Microsoft PIX | [Homepage](https://devblogs.microsoft.com/pix/)
+### Microsoft PIX | [Homepage](https://devblogs.microsoft.com/pix/) | Windows
 Performance tuning and debugging for DirectX 12 games on Windows
 
 #### Reference
