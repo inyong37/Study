@@ -53,12 +53,12 @@ Instrumenting profilers work by modifying the program before it is executed. Thi
 
 Polling profilers work by periodically inspecting the profiled program's state. This is usually done by attaching to the program as a debugger would, and periodically recording each thread's stack traces. The advantages of polling profilers is that they do not require modifying the program code before it is executed, and the results better statistically reflect which portions the program spends time in (due to not adding inconsistent overhead to small functions). Very Sleepy is a polling profiler.
 
-### Glow Code | [Homepage](https://www.glowcode.com/) | CPU & Instruction Level & Paid Version
+### Glow Code | [Homepage](https://www.glowcode.com/) | CPU & Instruction Level & Paid Version & Almost all OSs
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
 ### Visual Studio Profiler | [Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | CPU & Memory & Instruction & Partial Paid Version & Windows
 
-### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | CPU & Instruction Level & Partial Paid Version & All
+### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | CPU & Instruction Level & Partial Paid Version & Almost all OSs
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
 
 ### Specifications
@@ -85,7 +85,7 @@ Intel® VTune™ Profiler collects key profiling data and presents it with a pow
 #### GPU
 - Media and OpenCL™ application tuning on newer Intel® processors
 
-### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | CPU & Instruction Level & Free Version & All
+### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | CPU & Instruction Level & Free Version & Almost all OSs
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
 ### Specifications
@@ -107,10 +107,10 @@ AMD uProf supports the 64-bit version of the following Operating Systems:
   - OpenMP, MPI
 - Applications compiled with and without optimization and/or debug information.
 
-### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version & All
+### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version & Almost all OSs
 NVIDIA PerfKit is a comprehensive suite of performance tools to help debug and profile OpenGL and Direct3D applications. It gives you access to low-level performance counters inside the driver and hardware counters inside the GPU itself. The counters can be used to determine exactly how your application is using the GPU, identify performance issues, and confirm that performance problems have been resolved. NVIDIA PerfKit is available separately for 3 target platforms. PC packages includes support for 32-bit and 64-bit Windows 10, Windows 8, Windows 7, and Vista platforms. Android packages includes support for NVIDIA Tegra TK1 and TX1 devices running Android OS. Linux for Tegra support is available under NVIDIA PerfKit (L4T) targeting the NVIDIA Jetson Embedded Platform.
 
-### Radeon GPU Profiler (AMD GPU Open) | [Homepage](https://gpuopen.com/rgp/) | [GitHub](https://github.com/GPUOpen-Tools/radeon_gpu_profiler) | GPU & Free Version & All
+### Radeon GPU Profiler (AMD GPU Open) | [Homepage](https://gpuopen.com/rgp/) | [GitHub](https://github.com/GPUOpen-Tools/radeon_gpu_profiler) | GPU & Free Version & Almost all OSs
 The Radeon GPU Profiler (RGP) is a ground-breaking low-level optimization tool from AMD. It provides detailed timing information on Radeon Graphics using custom, built-in, hardware thread-tracing, allowing the developer deep inspection of GPU workloads.
 
 This unique tool generates easy to understand visualizations of how your DirectX®12 and Vulkan® games interact with the GPU at the hardware level. Profiling a game is both a quick, and simple process using the Radeon Developer Panel and the public display driver.
