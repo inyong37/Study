@@ -53,7 +53,7 @@ Instrumenting profilers work by modifying the program before it is executed. Thi
 
 Polling profilers work by periodically inspecting the profiled program's state. This is usually done by attaching to the program as a debugger would, and periodically recording each thread's stack traces. The advantages of polling profilers is that they do not require modifying the program code before it is executed, and the results better statistically reflect which portions the program spends time in (due to not adding inconsistent overhead to small functions). Very Sleepy is a polling profiler.
 
-### Glow Code | [Homepage](https://www.glowcode.com/) | CPU & Instruction Level & Paid Version & Almost all OSs
+### Glow Code | [Homepage](https://www.glowcode.com/) | CPU & Instruction Level & Paid Version & Windows
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
 ### Visual Studio Profiler | [Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | CPU/Memory & Instruction & Partial Paid Version & Windows
