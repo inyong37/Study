@@ -18,8 +18,11 @@ Profiling is achieved by instrumenting either the program source code or its bin
 -   레벨은 문제가 가장 어렵고, 여지가 가장 크며, 익숙도는 가장 크고, 툴 여부는 적다.
 -   코드 레벨의 CPU 프로파일러는 Visual Studio Profiler, Very Sleepy, Glow Code가 있다.
 
-## Hot spot | [Wiki](https://en.wikipedia.org/wiki/Hot_spot_(computer_programming))
+### Hot spot | [Wiki](https://en.wikipedia.org/wiki/Hot_spot_(computer_programming))
 A Hot spot in computer science is most usually defined as a region of a program where a high proportion of executed instructions occur or where most time is spent during the program's execution (not necessarily the same thing since some instructions are faster than others).
+
+### Bottleneck | [Wiki](https://en.wikipedia.org/wiki/Bottleneck_(software))
+A bottleneck in computer science occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow. The bottleneck has lowest throughput of all parts of the transaction path.
 
 ## Profiler
 ### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst)
@@ -38,3 +41,4 @@ AMD uProf is a performance analysis tool for applications running on Windows and
 - Hot spot Wiki, https://en.wikipedia.org/wiki/Hot_spot_(computer_programming), 2020-09-14-Mon.
 - AMD μProf, https://developer.amd.com/amd-uprof/, 2020-09-15-Tue.
 - AMD CodeAnalyst Wiki, https://en.wikipedia.org/wiki/AMD_CodeAnalyst, 2020-09-15-Tue.
+- Bottleneck, https://en.wikipedia.org/wiki/Bottleneck_(software), 2020-09-15-Tue.
