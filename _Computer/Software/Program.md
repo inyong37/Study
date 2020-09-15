@@ -82,6 +82,9 @@ The Radeon GPU Profiler (RGP) is a ground-breaking low-level optimization tool f
 
 This unique tool generates easy to understand visualizations of how your DirectX®12 and Vulkan® games interact with the GPU at the hardware level. Profiling a game is both a quick, and simple process using the Radeon Developer Panel and the public display driver.
 
+### Microsoft PIX | [Homepage](https://devblogs.microsoft.com/pix/)
+Performance tuning and debugging for DirectX 12 games on Windows
+
 ### In-house Profiler | Code level
 using chrono for c++
 ```
@@ -127,3 +130,4 @@ Polling profilers work by periodically inspecting the profiled program's state. 
 - Frame Profiler, https://docs.nvidia.com/gameworks/content/developertools/mobile/perfhud_frame_profiler.htm, 2020-09-15-Tue.
 - AMD GPU Open (Radeon GPU Profiler), https://gpuopen.com/rgp/, 2020-09-15-Tue.
 - Radeon GPU Profiler GitHub, https://github.com/GPUOpen-Tools/radeon_gpu_profiler, 2020-09-15-Tue.
+- Microsoft PIX, https://devblogs.microsoft.com/pix/, 2020-09-15-Tue.
