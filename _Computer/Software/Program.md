@@ -25,7 +25,7 @@ A Hot spot in computer science is most usually defined as a region of a program 
 A bottleneck in computer science occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow. The bottleneck has lowest throughput of all parts of the transaction path.
 
 ## Profiler
-### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html)
+### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | Instruction Level
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
 
 ### Specifications
@@ -52,7 +52,7 @@ Intel® VTune™ Profiler collects key profiling data and presents it with a pow
 #### GPU
 - Media and OpenCL™ application tuning on newer Intel® processors
 
-### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst)
+### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | Instruction Level
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
 ### Specifications
@@ -74,7 +74,7 @@ AMD uProf supports the 64-bit version of the following Operating Systems:
   - OpenMP, MPI
 - Applications compiled with and without optimization and/or debug information.
 
-### In-house Profiler
+### In-house Profiler | Code level
 using chrono for c++
 ```
 3# include <chrono>
@@ -87,6 +87,15 @@ int main(){
 }
 ```
 
+### Glow Code | [Homepage](https://www.glowcode.com/)
+
+### Very Sleepy | [Home](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy)
+Very Sleepy is a polling CPU profiler. Very Sleepy profiles CPU usage, i.e. it tries to find which parts of a program spend the most CPU time executing. CPU profilers can be roughly divided in two categories, according to their modus operandi:
+
+Instrumenting profilers work by modifying the program before it is executed. This can be done at the source level, or after compilation (e.g. Valgrind). The advantages of instrumenting profilers is that they can gather exact information on how many times any function was called, or which functions call which functions exactly.
+
+Polling profilers work by periodically inspecting the profiled program's state. This is usually done by attaching to the program as a debugger would, and periodically recording each thread's stack traces. The advantages of polling profilers is that they do not require modifying the program code before it is executed, and the results better statistically reflect which portions the program spends time in (due to not adding inconsistent overhead to small functions). Very Sleepy is a polling profiler.
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
@@ -98,3 +107,6 @@ int main(){
 - Bottleneck, https://en.wikipedia.org/wiki/Bottleneck_(software), 2020-09-15-Tue.
 - C++ chrono, https://jacking.tistory.com/988, 2020-09-15-Tue.
 - Intel VTune Profiler, https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html, 2020-09-15-Tue.
+- Glow Code, https://www.glowcode.com/, 2020-09-15-Tue.
+- Very Sleepy GitHub, https://github.com/VerySleepy/verysleepy, 2020-09-15-Tue.
+- Very Sleepy Home, https://github.com/VerySleepy/verysleepy/wiki, 2020-09-15-Tue.
