@@ -25,7 +25,7 @@ A Hot spot in computer science is most usually defined as a region of a program 
 A bottleneck in computer science occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow. The bottleneck has lowest throughput of all parts of the transaction path.
 
 ## Profiler
-### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | Instruction Level
+### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | Instruction Level & Partial Paid Version
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
 
 ### Specifications
@@ -52,7 +52,7 @@ Intel® VTune™ Profiler collects key profiling data and presents it with a pow
 #### GPU
 - Media and OpenCL™ application tuning on newer Intel® processors
 
-### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | Instruction Level
+### AMD μProf (AMD CodeAnalyst) | [Homepage](https://developer.amd.com/amd-uprof/) | [Wiki](https://en.wikipedia.org/wiki/AMD_CodeAnalyst) | Instruction Level * Free Version
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
 ### Specifications
@@ -87,9 +87,10 @@ int main(){
 }
 ```
 
-### Glow Code | [Homepage](https://www.glowcode.com/)
+### Glow Code | [Homepage](https://www.glowcode.com/) | Instruction Level & Paid Version
+GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
-### Very Sleepy | [Home](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy)
+### Very Sleepy | [Home](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | Instruction Level & Free Version
 Very Sleepy is a polling CPU profiler. Very Sleepy profiles CPU usage, i.e. it tries to find which parts of a program spend the most CPU time executing. CPU profilers can be roughly divided in two categories, according to their modus operandi:
 
 Instrumenting profilers work by modifying the program before it is executed. This can be done at the source level, or after compilation (e.g. Valgrind). The advantages of instrumenting profilers is that they can gather exact information on how many times any function was called, or which functions call which functions exactly.
