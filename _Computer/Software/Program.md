@@ -90,7 +90,9 @@ int main(){
 ### Glow Code | [Homepage](https://www.glowcode.com/) | Instruction Level & Paid Version
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
-### Very Sleepy | [Home](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | Instruction Level & Free Version
+### Very Sleepy | [Homepage](http://www.codersnotes.com/sleepy/) | [Wiki](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | Instruction Level & Free Version
+Very Sleepy is a free C/C++ CPU profiler for Windows systems. Originally started as a fork of Nick Chapman's sleepy, many people have since contributed to add considerable improvements. It supports any native Windows app, if it has standard PDB or DWARF2 debugging information. No recompilation is necessary – it can just attach to any app as it's running. Both 32-bit x86 and 64-bit x64 systems are fully supported, and Very Sleepy will work with both Visual Studio or gcc/mingw compilers. Profiling results are displayed in full call-graph format, and can additionally be saved and exported to CSV format. Very Sleepy is released under the GNU Public License, so you're guaranteed the right to the source code and to change it how you wish.
+
 Very Sleepy is a polling CPU profiler. Very Sleepy profiles CPU usage, i.e. it tries to find which parts of a program spend the most CPU time executing. CPU profilers can be roughly divided in two categories, according to their modus operandi:
 
 Instrumenting profilers work by modifying the program before it is executed. This can be done at the source level, or after compilation (e.g. Valgrind). The advantages of instrumenting profilers is that they can gather exact information on how many times any function was called, or which functions call which functions exactly.
@@ -110,4 +112,5 @@ Polling profilers work by periodically inspecting the profiled program's state. 
 - Intel VTune Profiler, https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html, 2020-09-15-Tue.
 - Glow Code, https://www.glowcode.com/, 2020-09-15-Tue.
 - Very Sleepy GitHub, https://github.com/VerySleepy/verysleepy, 2020-09-15-Tue.
-- Very Sleepy Home, https://github.com/VerySleepy/verysleepy/wiki, 2020-09-15-Tue.
+- Very Sleepy Wiki, https://github.com/VerySleepy/verysleepy/wiki, 2020-09-15-Tue.
+- Very Sleepy, http://www.codersnotes.com/sleepy/, 2020-09-15-Tue.
