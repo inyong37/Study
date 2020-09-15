@@ -29,7 +29,7 @@ A bottleneck in computer science occurs when the capacity of an application or a
 AMD uProf is a performance analysis tool for applications running on Windows and Linux operating systems. It allows developers to better understand the runtime performance of their application and to identify ways to improve its performance.
 
 ### In-house Profiler
-using chrono header for c++
+using chrono for c++
 ```
 # include <chrono>
 int main(){
