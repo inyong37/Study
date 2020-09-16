@@ -3,7 +3,7 @@
 ## Windows | [Windows 10](https://www.microsoft.com/en-us/windows/)
 ### Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
-### MSDN | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/)
+### MSDN (Microsoft Developer Network) | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/)
 Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
@@ -13,7 +13,7 @@ From January 2020, the website has been fully integrated with Microsoft Docs.
 ### Program Files
 Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files (x86) 폴더에는 32-bit 프로그램들이 나눠서 설치된다. 옛날 컴퓨터는 Intel 의 8086 칩을 사용했는데 처음에는 16-bit 였고 그 이후 32-bit 가 되었다. 따라서 16-bit와 32-bit는 x86 이라 불리고 64-bit 는 x64 라 불린다. (지금 대부분의 컴퓨터는 16-bit 는 지원하지 않는다.) 현재 컴퓨터는 다양한 칩을 사용하는데 대부분 64-bit 를 지원한다. 32-bit 로 만들어진 응용 프로그램들은 'WOW64 (Windows on Windows 64-bit)' 를 통해 64-bit 에서도 실행이 가능하다. 따라서 Windows 에서는 32-bit 프로그램과 64-bit 프로그램을 섞이지 않고 나눠서 저장하고자 했다. 그래서 'C:/' 에는 'Program Files' 와 'Program Files (x86)' 2개의 폴더에 각각 나눠서 저장하게 설계되었다.
 
-### 바로 가기 Shortcut | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0)
+### 바로가기 Shortcut | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0)
 바로 가기(Shortcut)는 다른 파일의 위치를 포함하는 작은 파일이며, 실행을 위해 특정한 매개 변수를 사용하기도 한다. 이 바로 가기 아이콘은 다양한 운영 체제의 바탕 화면, 시작 메뉴, 작업 표시줄에 놓이며, 명령 줄에서가 아닌 GUI에서만 동작한다. "링크 파일", "LNK 파일"이라고도 부른다.
 
 마이크로소프트 윈도는 .lnk를 파일 확장자로 사용하며, 아이콘에 굽은 화살표 모양을 기본으로 보여 준다. 이 확장자는 폴더 옵션의 "알려진 파일 형식의 파일 확장명 숨기기"에 체크를 없애도 윈도 탐색기에서는 보이지 않는다.[Ref]
