@@ -1,6 +1,6 @@
 # Operating System
 
-# Windows | [Windows 10](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
+# Windows | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
 Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs). Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984. Apple came to see Windows as an unfair encroachment on their innovation in GUI development as implemented on products such as the Lisa and Macintosh (eventually settled in court in Microsoft's favor in 1993). On PCs, Windows is still the most popular operating system. However, in 2014, Microsoft admitted losing the majority of the overall operating system market to Android, because of the massive growth in sales of Android smartphones. In 2014, the number of Windows devices sold was less than 25% that of Android devices sold. This comparison, however, may not be fully relevant, as the two operating systems traditionally target different platforms. Still, numbers for server use of Windows (that are comparable to competitors) show one third market share, similar to that for end user use.
@@ -122,6 +122,17 @@ $ sudo systemctl enable ssh
 ### Symbolic Link
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.[Ref]
 
+# Macintosh | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
+The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
+
+In 1984, Apple debuted the operating system that is now known as the "Classic" Mac OS with its release of the original Macintosh System Software. The system, rebranded "Mac OS" in 1996, was preinstalled on every Macintosh until 2002 and offered on Macintosh clones for a short time in the 1990s. Noted for its ease of use, it was also criticized for its lack of modern technologies compared to its competitors.
+
+The current Mac operating system is macOS, originally named "Mac OS X" until 2012 and then "OS X" until 2016. Developed between 1997 and 2001 after Apple's purchase of NeXT, Mac OS X brought an entirely new architecture based on NeXTSTEP, a Unix system, that eliminated many of the technical challenges that the classic Mac OS faced. The current macOS is preinstalled with every Mac and is updated annually. It is the basis of Apple's current system software for its other devices – iOS, iPadOS, watchOS, and tvOS.
+
+Prior to the introduction of Mac OS X, Apple experimented with several other concepts, releasing different products designed to bring the Macintosh interface or applications to Unix-like systems or vice versa, A/UX, MAE, and MkLinux. Apple's effort to expand upon and develop a replacement for its classic Mac OS in the 1990s led to a few cancelled projects, code named Star Trek, Taligent, and Copland.
+
+Although they have different architectures, the Macintosh operating systems share a common set of GUI principles, including a menu bar across the top of the screen; the Finder shell, featuring a desktop metaphor that represents files and applications using icons and relates concepts like directories and file deletion to real-world objects like folders and a trash can; and overlapping windows for multitasking.
+
 # macOS | [Catalina](https://www.apple.com/macos/catalina/) | [Wiki](https://en.wikipedia.org/wiki/MacOS)
 macOS (previously Mac OS X and later OS X) is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers. Within the market of desktop, laptop and home computers, and by web usage, it is the second most widely used desktop OS, after Microsoft Windows.
 
@@ -157,3 +168,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Windows Wiki, https://en.wikipedia.org/wiki/Microsoft_Windows, 2020-09-16-Wed.
 - Differences between Unix and Linux, https://m.blog.naver.com/PostView.nhn?blogId=limoremo&logNo=220533015236&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-09-16-Wed.
 - macOS Wiki, https://en.wikipedia.org/wiki/MacOS, 2020-09-16-Wed.
+- Macintosh Wiki, https://en.wikipedia.org/wiki/Macintosh_operating_systems, 2020-09-16-Wed.
