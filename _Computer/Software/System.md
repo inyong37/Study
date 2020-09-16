@@ -3,6 +3,11 @@
 ## Windows | [Windows 10](https://www.microsoft.com/en-us/windows/)
 ### Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
+### MSDN | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/)
+Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
+
+From January 2020, the website has been fully integrated with Microsoft Docs.
+
 ### HRESULT
 
 ### Program Files
@@ -102,3 +107,6 @@ $ sudo systemctl enable ssh
 - Shortcut, https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0, 2020-08-08-Sat.
 - Alias, https://webdir.tistory.com/107, 2020-08-25-Tue.
 - openssh, https://jimnong.tistory.com/713, 2020-09-08-Tue.
+- MSDN, https://social.msdn.microsoft.com/forums/en-us/home, 2020-09-16-Wed.
+- MSDN Wiki, https://en.wikipedia.org/wiki/Microsoft_Developer_Network, 2020-09-16-Wed.
+- Microsoft Docs, https://docs.microsoft.com/en-us/, 2020-09-16-Wed.
