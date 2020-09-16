@@ -1,6 +1,7 @@
 # Operating System
 
 ## Windows | [Windows 10](https://www.microsoft.com/en-us/windows/)
+
 ### Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
 ### MSDN (Microsoft Developer Network) | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/)
@@ -37,7 +38,23 @@ Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에
 ### .lib (Static Link Libray)
 Windows의 정적 라이브러리로, 정적 링크로 컴파일 시점에 라이브러리가 링커에 의해 연결되어 실행 파일의 일부분이 된다.[Ref]
 
-## Unix | [Homepage](https://www.opengroup.org/membership/forums/platform/unix)
+## Unix | [Homepage](https://www.opengroup.org/membership/forums/platform/unix) | [Wiki](https://en.wikipedia.org/wiki/Unix)
+Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
+
+Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including University of California, Berkeley (BSD), Microsoft (Xenix), Sun Microsystems (SunOS/Solaris), HP/HPE (HP-UX), and IBM (AIX). In the early 1990s, AT&T sold its rights in Unix to Novell, which then sold its Unix business to the Santa Cruz Operation (SCO) in 1995. The UNIX trademark passed to The Open Group, a neutral industry consortium founded in 1996, which allows the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). However, Novell continues to own the Unix copyrights, which the SCO Group, Inc. v. Novell, Inc. court case (2010) confirmed.
+
+Unix systems are characterized by a modular design that is sometimes called the "Unix philosophy". According to this philosophy, the operating system should provide a set of simple tools, each of which performs a limited, well-defined function. A unified filesystem (the Unix filesystem) and an inter-process communication mechanism known as "pipes" serve as the main means of communication, and a shell scripting and command language (the Unix shell) is used to combine the tools to perform complex workflows.
+
+Unix distinguishes itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language, which allows Unix to operate on numerous platforms.
+
+[A diagram showing the key Unix and Unix-like operating systems (Wiki)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
+
+### man page (Manual Page) | [Wiki](https://en.wikipedia.org/wiki/Man_page)
+A man page (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system. Topics covered include computer programs (including library and system calls), formal standards and conventions, and even abstract concepts. A user may invoke a man page by issuing the man command.
+
+By default, man typically uses a terminal pager program such as more or less to display its output.
+
+Because man pages are distributed together with the software they document, they are a more favourable means of documenting software compared to out-of-band documentation like web pages, as there is a higher likelihood for a match between the actual features of the software to the documented ones.[1] It is for this reason that man-pages are often referred to as an on-line or online form of software documentation,[2] even though the man command does not require internet access, dating back to the times when printed out-of-band manuals were the norm.
 
 ### ELF (Executable and Linkable Format) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
 ELF(Executable and Linkable Format)는 실행 파일, 목적 파일, 공유 라이브러리 그리고 코어 덤프를 위한 표준 파일 형식이다. 1999년 86open 프로젝트에 의해 x86 기반 유닉스, 유닉스 계열 시스템들의 표준 바이너리 파일 형식으로 선택되었다.
@@ -110,3 +127,6 @@ $ sudo systemctl enable ssh
 - MSDN, https://social.msdn.microsoft.com/forums/en-us/home, 2020-09-16-Wed.
 - MSDN Wiki, https://en.wikipedia.org/wiki/Microsoft_Developer_Network, 2020-09-16-Wed.
 - Microsoft Docs, https://docs.microsoft.com/en-us/, 2020-09-16-Wed.
+- man page Wiki, https://en.wikipedia.org/wiki/Man_page, 2020-09-16-Wed.
+- Unix Wiki, https://en.wikipedia.org/wiki/Unix, 2020-09-16-Wed.
+- A diagram showing the key Unix and Unix-like operating systems, https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg, 2020-09-16-Wed.
