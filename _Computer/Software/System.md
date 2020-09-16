@@ -169,3 +169,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Differences between Unix and Linux, https://m.blog.naver.com/PostView.nhn?blogId=limoremo&logNo=220533015236&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-09-16-Wed.
 - macOS Wiki, https://en.wikipedia.org/wiki/MacOS, 2020-09-16-Wed.
 - Macintosh Wiki, https://en.wikipedia.org/wiki/Macintosh_operating_systems, 2020-09-16-Wed.
+- Linux vs. Unix, https://www.diffen.com/difference/Linux_vs_Unix, 20202-09-16-Wed.
