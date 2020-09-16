@@ -122,7 +122,14 @@ $ sudo systemctl enable ssh
 ### Symbolic Link
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.[Ref]
 
-# macOS | [Catalina](https://www.apple.com/macos/catalina/)
+# macOS | [Catalina](https://www.apple.com/macos/catalina/) | [Wiki](https://en.wikipedia.org/wiki/MacOS)
+macOS (previously Mac OS X and later OS X) is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers. Within the market of desktop, laptop and home computers, and by web usage, it is the second most widely used desktop OS, after Microsoft Windows.
+
+macOS is the second major series of Macintosh operating systems. The first is colloquially called the classic Mac OS, introduced in 1984, the final release of which was Mac OS 9 in 1999. The first desktop version, Mac OS X 10.0, was released in March 2001, with its first update, 10.1, arriving later that year. After this, Apple began naming its releases after big cats, which lasted until OS X 10.8 Mountain Lion. Since OS X 10.9 Mavericks, releases have been named after locations in California. Apple shortened the name to "OS X" in 2012 and then changed it to "macOS" in 2016, adopting the nomenclature that they were using for their other operating systems, iOS, watchOS, and tvOS. The latest version is macOS Catalina, which was publicly released in October 2019.
+
+macOS is based on the Unix operating system and on technologies developed between 1985 and 1997 at NeXT, a company that Apple co-founder Steve Jobs created after leaving Apple in 1985. The "X" in Mac OS X and OS X is the Roman numeral for the number 10 and is pronounced as such. The X was a prominent part of the operating system's brand identity and marketing in its early years, but gradually receded in prominence since the release of Snow Leopard in 2009. In 2020, Apple incremented the major version number to 11 in macOS Big Sur, although it retains the same base as the previous versions of macOS. UNIX 03 certification was achieved for the Intel version of Mac OS X 10.5 Leopard and all releases from Mac OS X 10.6 Snow Leopard up to the current version also have UNIX 03 certification. macOS shares its Unix-based core, named Darwin, and many of its frameworks with Apple's other operating systems.
+
+Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that period. After Apple announced that they were switching to Intel CPUs from 2006 onwards, versions were released for Intel-based Macs with 32-bit and currently 64-bit processors. Versions from macOS 11 (2020) will support both 64-bit Intel and future Macs running 64-bit ARM processors.
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
@@ -149,3 +156,4 @@ $ sudo systemctl enable ssh
 - Linux Wiki, https://en.wikipedia.org/wiki/Linux, 2020-09-16-Wed.
 - Windows Wiki, https://en.wikipedia.org/wiki/Microsoft_Windows, 2020-09-16-Wed.
 - Differences between Unix and Linux, https://m.blog.naver.com/PostView.nhn?blogId=limoremo&logNo=220533015236&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-09-16-Wed.
+- macOS Wiki, https://en.wikipedia.org/wiki/MacOS, 2020-09-16-Wed.
