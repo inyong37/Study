@@ -94,17 +94,12 @@ AMD uProf is a performance analysis tool for applications running on Windows and
 - Discrete GPUs: Graphics IP 7 GPUs, AMD Radeon 500 Series, FirePro models (Power Profiling Only) 
 #### Operating Systems
 AMD uProf supports the 64-bit version of the following Operating Systems:
-- Microsoft
-  - Windows 7, Windows 10 (up to May 2020 Update 20H1), Windows Server 2016, Windows Server 2019
-- Linux
-  - Ubuntu 16.04 & later, RHEL 7.0 & later, openSUSE Leap 15.0, SLES 12 & 15, CentOS 7.0 & later.
+- Microsoft: Windows 7, Windows 10 (up to May 2020 Update 20H1), Windows Server 2016, Windows Server 2019
+- Linux: Ubuntu 16.04 & later, RHEL 7.0 & later, openSUSE Leap 15.0, SLES 12 & 15, CentOS 7.0 & later.
 #### Compilers and Application Environment
-- Languages
-  - C, C++, Fortran, Assembly, Java, .NET
-- Programs compiled with
-  - Microsoft compilers, GNU compilers, LLVM, AMD’s AOCC, Intel compilers
-- Parallelism
-  - OpenMP, MPI
+- Languages: C, C++, Fortran, Assembly, Java, .NET
+- Programs compiled with Microsoft compilers, GNU compilers, LLVM, AMD’s AOCC, Intel compilers
+- Parallelism: OpenMP, MPI
 - Applications compiled with and without optimization and/or debug information.
 
 ### Nvidia PerfKit (PerfHud) | [Homepage](https://developer.nvidia.com/nvidia-perfkit) | GPU & Free Version & Almost all OSs
