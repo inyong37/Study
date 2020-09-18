@@ -9,6 +9,13 @@
 #### Office Install
 설치 파일에 필요한 모든 파일이 같이 있어서 오프라인으로 설치한다.
 
+### Universal Windows Platform (UWP) Application | [Docs (Kor)](https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide)
+UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
+
+UWP is one choice for creating apps that run on Windows 10 devices, and can be combined with other platforms. UWP apps can make use of Win32 APIs and .NET classes (see API Sets for UWP apps, Dlls for UWP apps, and .NET for UWP apps).
+
+The Microsoft development story continues to evolve, and along with initiatives such as WinUI, MSIX, and Project Reunion, UWP is a powerful tool for creating client apps.
+
 # Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 Profiling in computer science is a form of dynamic program analysis that measures, for example, the space(memory) or time complexity of a program, the usage of particular instructions, or frequency and duration of function calls. The most common use of profiling information is to aid program optimization.
 
@@ -142,6 +149,7 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Valgrind, https://valgrind.org/, 2020-09-15-Tue.
 - Visual Studio Profiler docs Korean, https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019, 2020-09-15-Tue.
 - Call stack Wiki, https://en.wikipedia.org/wiki/Call_stack, 2020-09-18-Fri.
+- MS Docs (Kor), https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide, 2020-09-18-Fri.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
