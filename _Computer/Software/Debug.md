@@ -1,9 +1,20 @@
 # Debug
 ‘디버깅’이라는 용어는 여러 다양한 것을 의미할 수 있지만 대부분의 경우 코드에서 버그를 제거하는 것을 의미한다. 현재 이 작업을 수행하는 방법은 여러 가지가 있다. 예를 들어 오타를 찾는 코드를 검사하거나 코드 분석기를 사용하여 디버그할 수 있다. 성능 프로파일러를 사용하여 코드를 디버그할 수도 있다. 또는 ‘디버거’를 사용하여 디버그할 수 있다.[Ref]
 
-## GDB (GNU Debugger)
+## GDB: The GNU Project Debugger | [Homepage](https://www.gnu.org/software/gdb/)
+GDB, the GNU Project debugger, allows you to see what is going on `inside' another program while it executes -- or what another program was doing at the moment it crashed.
 
-### How to use
+GDB can do four main kinds of things (plus other things in support of these) to help you catch bugs in the act:
+- Start your program, specifying anything that might affect its behavior.
+- Make your program stop on specified conditions.
+- Examine what has happened, when your program has stopped.
+- Change things in your program, so you can experiment with correcting the effects of one bug and go on to learn about another.
+
+Those programs might be executing on the same machine as GDB (native), on another machine (remote), or on a simulator. GDB can run on most popular UNIX and Microsoft Windows variants, as well as on Mac OS X.
+#### Language
+- Ada, Assembly, C, C++, D, Fortran, Go, Objective-C, OpenCL, Modula-2, Pascal, Rust
+
+#### How to use
 - Start GDB `gdb .ProgramName`
 - Set breakpoint `b SourceCode.cc`
 - Run `r`
@@ -35,3 +46,4 @@ CMake is integrated in the Visual Studio IDE as a component of the C++ desktop w
 - Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#), https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution?view=vs-2019, 2020-09-18-Fri.
 - Develop code in Visual Studio without projects or solutions, https://docs.microsoft.com/en-us/visualstudio/ide/develop-code-in-visual-studio-without-projects-or-solutions?view=vs-2019#run-and-debug-your-code, 2020-09-18-Fri.
 - Open Folder support for C++ build systems in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=vs-2019#configure-debugging-parameters-with-launchvsjson, 2020-09-18-Fri.
+- GDB, https://www.gnu.org/software/gdb/, 2020-09-18-Fri.
