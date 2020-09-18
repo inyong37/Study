@@ -16,6 +16,9 @@ UWP is one choice for creating apps that run on Windows 10 devices, and can be c
 
 The Microsoft development story continues to evolve, and along with initiatives such as WinUI, MSIX, and Project Reunion, UWP is a powerful tool for creating client apps.
 
+### XAML | [Wiki](https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/XAML)
+Extensible Application Markup Language (XAML) is a declarative XML-based language developed by Microsoft that is used for initializing structured values and objects. It is available under Microsoft's Open Specification Promise. The acronym originally stood for Extensible Avalon Markup Language, Avalon being the code-name for Windows Presentation Foundation (WPF).
+
 # Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 Profiling in computer science is a form of dynamic program analysis that measures, for example, the space(memory) or time complexity of a program, the usage of particular instructions, or frequency and duration of function calls. The most common use of profiling information is to aid program optimization.
 
@@ -68,7 +71,20 @@ Polling profilers work by periodically inspecting the profiled program's state. 
 ### Glow Code | [Homepage](https://www.glowcode.com/) | CPU/Memory & Instruction Level & Paid Version & Windows
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
-### Visual Studio Profiler | [Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | CPU/Memory & Instruction & Partial Paid Version & Windows
+### Visual Studio Profiler | [MS Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | [Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019) | CPU/Memory/GPU & Code/Instruction Level & Partial Paid Version & Windows
+#### [PerfTips](https://docs.microsoft.com/en-us/visualstudio/profiling/perftips?view=vs-2019) | [Examine performance using PerfTips](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#examine-performance-using-perftips)
+#### CPU Usage | [Measure application performance by analyzing CPU usage](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2019) | [Analyze CPU usage](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-cpu-usage)
+#### Memory Usage | [Measure memory usage in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2019) | [Analyze memory usage](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-memory-usage)
+#### .Net Object Allocation | [Analyze memory usage by using the .NET Object Allocation tool](https://docs.microsoft.com/en-us/visualstudio/profiling/dotnet-alloc-tool?view=vs-2019)
+#### [GPU Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/gpu-usage?view=vs-2019) | [Analyze GPU Usage (Direct3D)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-gpu-usage-direct3d)
+#### Application Timeline | [Analyze resource consumption and UI thread activity (XAML)](https://docs.microsoft.com/en-us/visualstudio/profiling/application-timeline?view=vs-2019) | [Analyze resource consumption (XAML)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-resource-consumption-xaml)
+#### [Events viewer](https://docs.microsoft.com/en-us/visualstudio/profiling/events-viewer?view=vs-2019) | [Examine application events](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#examine-application-events)
+The generic events viewer shows app activity through a list of events like module load, thread start, and system configuration. This view helps you better diagnose how your app is doing within the Visual Studio profiler.
+#### .Net Async | [Analyze performance of .NET asynchronous code](https://docs.microsoft.com/en-us/visualstudio/profiling/analyze-async?view=vs-2019)| [Analyze asynchronous code (.NET)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-asynchronous-code-net)
+#### Database | [Analyze database performance using the Database tool](https://docs.microsoft.com/en-us/visualstudio/profiling/analyze-database?view=vs-2019) | [Analyze database performance (.NET Core)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-database-performance-net-core)
+#### Performance Explorer | [Analyze performance (legacy tools)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-performance-legacy-tools)
+In Visual Studio 2019, the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using Debug > Performance Profiler. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
+#### IntelliTrace | [IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)](https://docs.microsoft.com/en-us/visualstudio/debugger/intellitrace?view=vs-2019)
 
 ### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | CPU/Memory/GPU & Instruction Level & Partial Paid Version & Almost all OSs
 Intel® VTune™ Profiler collects key profiling data and presents it with a powerful interface that simplifies its analysis and interpretation.
@@ -151,6 +167,9 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Call stack Wiki, https://en.wikipedia.org/wiki/Call_stack, 2020-09-18-Fri.
 - MS Docs, https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide, 2020-09-18-Fri.
 - MS Docs (Kor), https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide, 2020-09-18-Fri.
+- Visual Studio Profilers, https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019, 2020-09-18-Fri.
+- XAML Wiki, https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language, 2020-09-18-Fri.
+- XAML Wiki (Kor), https://ko.wikipedia.org/wiki/XAML, 2020-09-18-Fri.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
