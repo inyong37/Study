@@ -52,3 +52,4 @@ CMake is integrated in the Visual Studio IDE as a component of the C++ desktop w
 - Open Folder support for C++ build systems in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=vs-2019#configure-debugging-parameters-with-launchvsjson, 2020-09-18-Fri.
 - GDB, https://www.gnu.org/software/gdb/, 2020-09-18-Fri.
 - Visual Studio, https://visualstudio.microsoft.com/vs/, 2020-09-18-Fri.
+- How to use Visual Studio debugging, https://zapiro.tistory.com/entry/Visual-Studio-%EB%94%94%EB%B2%84%EA%B1%B0-%EC%82%AC%EC%9A%A9%EB%B2%95, 2020-09-18-Fri.
