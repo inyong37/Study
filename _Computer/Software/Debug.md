@@ -13,7 +13,6 @@ GDB can do four main kinds of things (plus other things in support of these) to 
 Those programs might be executing on the same machine as GDB (native), on another machine (remote), or on a simulator. GDB can run on most popular UNIX and Microsoft Windows variants, as well as on Mac OS X.
 #### Language
 - Ada, Assembly, C, C++, D, Fortran, Go, Objective-C, OpenCL, Modula-2, Pascal, Rust
-
 #### How to use
 - Start GDB `gdb .ProgramName`
 - Set breakpoint `b SourceCode.cc`
@@ -28,7 +27,7 @@ Those programs might be executing on the same machine as GDB (native), on anothe
 - Fin `fin`
 - Quit `quit`
 
-## Visual Studio
+## Visual Studio | [Homepage](https://visualstudio.microsoft.com/vs/)
 ### Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#) | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution?view=vs-2019)
 
 ### Develop code in Visual Studio without projects or solutions | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/ide/develop-code-in-visual-studio-without-projects-or-solutions?view=vs-2019#run-and-debug-your-code)
@@ -47,3 +46,4 @@ CMake is integrated in the Visual Studio IDE as a component of the C++ desktop w
 - Develop code in Visual Studio without projects or solutions, https://docs.microsoft.com/en-us/visualstudio/ide/develop-code-in-visual-studio-without-projects-or-solutions?view=vs-2019#run-and-debug-your-code, 2020-09-18-Fri.
 - Open Folder support for C++ build systems in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=vs-2019#configure-debugging-parameters-with-launchvsjson, 2020-09-18-Fri.
 - GDB, https://www.gnu.org/software/gdb/, 2020-09-18-Fri.
+- Visual Studio, https://visualstudio.microsoft.com/vs/, 2020-09-18-Fri.
