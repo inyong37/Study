@@ -29,16 +29,21 @@ Those programs might be executing on the same machine as GDB (native), on anothe
 
 ## Visual Studio | [Homepage](https://visualstudio.microsoft.com/vs/)
 ### Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#) | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-debug-an-executable-not-part-of-a-visual-studio-solution?view=vs-2019)
-
 ### Develop code in Visual Studio without projects or solutions | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/ide/develop-code-in-visual-studio-without-projects-or-solutions?view=vs-2019#run-and-debug-your-code)
 #### Run and debug your code
 You can debug your code in Visual Studio without a project or solution! To debug some languages, you may need to specify a valid startup file in the codebase, such as a script, executable, or project. The drop-down list box next to the Start button on the toolbar lists all of the startup items that Visual Studio detects, as well as items you specifically designate. Visual Studio runs this code first when you debug your code.
 
 Configuring your code to run in Visual Studio differs depending on what kind of code it is, and what the build tools are.
-
 ### Open Folder support for C++ build systems in Visual Studio | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=vs-2019#configure-debugging-parameters-with-launchvsjson)
 #### CMake and Qt
 CMake is integrated in the Visual Studio IDE as a component of the C++ desktop workload. The workflow for CMake is not identical to the workflow described in this article. If you are using CMake, see CMake projects in Visual Studio. You can also use CMake to build Qt projects, or you can use the Qt Visual Studio Extension for either Visual Studio 2015 or Visual Studio 2017.
+#### How to use
+- Start/Continue debuggin: `F5`
+- Stop debugging: `Shift` + `F5`
+- Restart debugging: `Control` + `Shift` + `F5`
+- Step into: `F11`
+- Step over: `F10`
+- Step out: `Shift` + `F11`
 
 #### Reference
 - What is debugging?, https://docs.microsoft.com/ko-kr/visualstudio/debugger/what-is-debugging?view=vs-2019, 2020-07-21-Tue.
