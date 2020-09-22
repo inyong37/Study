@@ -35,6 +35,21 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git commit`
 - `git push`
 
+### Branch
+#### Make branch
+- `git branch branch_name`
+#### Make and change branch
+- `git checkout -b branch_name`
+#### Move to branch
+- `git checkout branch_name`
+#### Delete branch
+- `git branch -d branch_name`
+#### Delete branch in force
+- `git branch -D branch_name`
+#### Delete remote branch after deleting local branch
+- `git branch -d branch_name`
+- `git push origin :branch_name`
+
 ### rebase
 - commit 2개 합치기: `$ git rebase -i HEAD~2`
   - `pick` commit# -> `fixup` commit#
