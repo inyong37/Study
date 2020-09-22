@@ -29,6 +29,11 @@ The Java™ Programming Language is a general-purpose, concurrent, strongly type
 ```
 Tool: Eclipse, IntelliJ IDEA. #JVM, #javac, #class
 ```
+
+### JDK | [OpenJDK 15 Download](https://jdk.java.net/15/)
+### JRE
+### JVM
+
 ### [Eclipse](https://www.eclipse.org/)
 - Key
   - `Control` `l`: go to # line
