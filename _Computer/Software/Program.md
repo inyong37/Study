@@ -82,6 +82,11 @@ The Valgrind distribution currently includes seven production-quality tools: a m
 
 Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.
 
+#### Callgrind
+#### How to use
+- `$ valgrind --tool=callgrind program_name program_argument`
+- `$ callgrind_annotatie --auto=yes callgrind.out.pid_number`
+
 ### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | CPU/Memory & Instruction Level & Free Version & UNIX
 Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
 
@@ -211,6 +216,7 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Instruction Wiki, https://en.wikipedia.org/wiki/Instruction, 2020-09-21-Mon.
 - Instruction Set Architecture Wiki, https://en.wikipedia.org/wiki/Instruction_set_architecture, 2020-09-21-Mon.
 - Computer Program Wiki, https://en.wikipedia.org/wiki/Computer_program, 2020-09-21-Mon.
+- Callgrind Korean guide, https://m.blog.naver.com/PostView.nhn?blogId=kimyoseob&logNo=220639317811&proxyReferer=https:%2F%2Fwww.google.com%2F 2020-09-22-Tue.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
