@@ -121,6 +121,52 @@ DHAT is a tool for examining how programs use their heap allocations. It tracks 
 ### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | CPU/Memory & Instruction Level & Free Version & UNIX
 Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
 
+### Google gperftools (originally Google Performance Tools) | [Homepage](https://gperftools.github.io/gperftools/) | [GitHub](https://github.com/gperftools/gperftools)
+
+gperftools is a collection of a high-performance multi-threaded malloc() implementation, plus some pretty nifty performance analysis tools. gperftools is distributed under the terms of the BSD License. gperftools was original home for pprof program. But do note that original pprof (which is still included with gperftools) os now deprecated in favor of golang version at https://github.com/google/pprof.
+
+#### [thread-caching malloc](https://gperftools.github.io/gperftools/tcmalloc.html)
+
+TCMalloc is faster than the glibc 2.3 malloc (available as a separate library called ptmalloc2) and other mallocs that I have tested. ptmalloc2 takes approximately 300 nanoseconds to execute a malloc/free pair on a 2.8 GHz P4 (for small objects). The TCMalloc implementation takes approximately 50 nanoseconds for the same operation pair. Speed is important for a malloc implementation because if malloc is not fast enough, application writers are inclined to write their own custom free lists on top of malloc. This can lead to extra complexity, and more memory usage unless the application writer is very careful to appropriately size the free lists and scavenge idle objects out of the free list.
+
+TCMalloc also reduces lock contention for multi-threaded programs. For small objects, there is virtually zero contention. For large objects, TCMalloc tries to use fine grained and efficient spinlocks. ptmalloc2 also reduces lock contention by using per-thread arenas but there is a big problem with ptmalloc2's use of per-thread arenas. In ptmalloc2 memory can never move from one arena to another. This can lead to huge amounts of wasted space. For example, in one Google application, the first phase would allocate approximately 300MB of memory for its URL canonicalization data structures. When the first phase finished, a second phase would be started in the same address space. If this second phase was assigned a different arena than the one used by the first phase, this phase would not reuse any of the memory left after the first phase and would add another 300MB to the address space. Similar memory blowup problems were also noticed in other applications.
+
+Another benefit of TCMalloc is space-efficient representation of small objects. For example, N 8-byte objects can be allocated while using space approximately `8N * 1.01` bytes. I.e., a one-percent space overhead. ptmalloc2 uses a four-byte header for each object and (I think) rounds up the size to a multiple of 8 bytes and ends up using `16N` bytes.
+
+#### [heap-checking using tcmalloc](https://gperftools.github.io/gperftools/heap_checker.html)
+
+This is the heap checker that used at Google to detect memory leaks in C++ programs. There are three parts to using it: linking the library into an application, running the code, and analyzing the output.
+
+#### [heap-profiling using tcmalloc](https://gperftools.github.io/gperftools/heapprofile.html)
+
+This is the heap profiler that used at Google, to explore how C++ programs manage memory. This facility can be useful for
+
+- Figuring out what is in the program heap at any given time
+- Locating memory leaks
+- Finding places that do a lot of allocation
+
+The profiling system instruments all allocations and frees. It keeps track of various pieces of information per allocation site. An allocation site is defined as the active stack trace at the call to `malloc`, `calloc`, `realloc`, or, `new`.
+
+There are three parts to using it: linking the library into an application, running the code, and analyzing the output.
+
+#### [CPU profiler](https://gperftools.github.io/gperftools/cpuprofile.html)
+
+This is the CPU profiler that used at Google. There are three parts to using it: linking the library into an application, running the code, and analyzing the output.
+
+### Google pprof | [GitHub](https://github.com/google/pprof)
+
+pprof is a tool for visualization and analysis of profiling data.
+
+pprof reads a collection of profiling samples in profile.proto format and generates reports to visualize and help analyze the data. It can generate both text and graphical reports (through the use of the dot visualization package).
+
+profile.proto is a protocol buffer that describes a set of callstacks and symbolization information. A common usage is to represent a set of sampled callstacks from statistical profiling. The format is described on the [proto/profile.proto](https://github.com/google/pprof/blob/master/proto/profile.proto) file. For details on protocol buffers, see https://developers.google.com/protocol-buffers
+
+Profiles can be read from a local file, or over http. Multiple profiles of the same type can be aggregated or compared.
+
+If the profile samples contain machine addresses, pprof can symbolize them through the use of the native binutils tools (addr2line and nm).
+
+**This is not an official Google product.**
+
 ### Very Sleepy | [Homepage](http://www.codersnotes.com/sleepy/) | [Wiki](https://github.com/VerySleepy/verysleepy/wiki) | [GitHub](https://github.com/VerySleepy/verysleepy) | CPU & Instruction Level & Free Version
 Very Sleepy is a free C/C++ CPU profiler for Windows systems. Originally started as a fork of Nick Chapman's sleepy, many people have since contributed to add considerable improvements. It supports any native Windows app, if it has standard PDB or DWARF2 debugging information. No recompilation is necessary – it can just attach to any app as it's running. Both 32-bit x86 and 64-bit x64 systems are fully supported, and Very Sleepy will work with both Visual Studio or gcc/mingw compilers. Profiling results are displayed in full call-graph format, and can additionally be saved and exported to CSV format. Very Sleepy is released under the GNU Public License, so you're guaranteed the right to the source code and to change it how you wish.
 
@@ -250,6 +296,13 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Callgrind Korean guide, https://m.blog.naver.com/PostView.nhn?blogId=kimyoseob&logNo=220639317811&proxyReferer=https:%2F%2Fwww.google.com%2F 2020-09-22-Tue.
 - Valgrind Tools, https://valgrind.org/info/tools.html, 2020-09-23-Wed.
 - Valgrind doesn't support to measure time, https://stackoverflow.com/questions/6663614/use-valgrind-to-know-timein-seconds-spent-in-each-function, 2020-09-23-Wed.
+- Google gperftools GitHub, https://github.com/gperftools/gperftools, 2020-09-23-Wed.
+- Google gperftools, https://gperftools.github.io/gperftools/, 2020-09-23-Wed.
+- Google gperftools thread-caching malloc, https://gperftools.github.io/gperftools/tcmalloc.html, 2020-09-23-Wed.
+- Google gperftools heap-checking using tcmalloc, https://gperftools.github.io/gperftools/heap_checker.html, 20202-09-23-Wed.
+- Google gperftools heap-profiling using tcmalloc, https://gperftools.github.io/gperftools/heapprofile.html, 2020-09-23-Wed.
+- Google gperftools CPU profiler, https://gperftools.github.io/gperftools/cpuprofile.html, 2020-09-23-Wed.
+- Google pprof GitHub, https://github.com/google/pprof, 2020-09-23-Wed.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
