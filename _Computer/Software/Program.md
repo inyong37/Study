@@ -2,7 +2,7 @@
 
 #### Redistributable (재배포)
 프로그램을 재배포 해도 된다는 뜻이다. 예로 상업적인 마이크로소프트의 오피스 2019, 365는 재배포가 불가하다.
- 
+
 #### Online Install
 설치 시 인터넷에 연결해서 필요한 파일을 다운받아서 설치한다.
 
@@ -75,17 +75,48 @@ int main(){
 }
 ```
 
-### Valgrind | [Homepage](https://valgrind.org/) | CPU/Memory & Instruction Level & Free Version & UNIX
+### Valgrind | [Homepage](https://valgrind.org/) | CPU/Memory & Instruction Level & Free Version & UNIX | [Tools](https://valgrind.org/info/tools.html)
 Valgrind is an instrumentation framework for building dynamic analysis tools. There are Valgrind tools that can automatically detect many memory management and threading bugs, and profile programs in detail. 
 
 The Valgrind distribution currently includes seven production-quality tools: a memory error detector, two thread error detectors, a cache and branch-prediction profiler, a call-graph generating cache and branch-prediction profiler, and two different heap profilers. It also includes an experimental SimPoint basic block vector generator. It runs on the following platforms: X86/Linux, AMD64/Linux, ARM/Linux, ARM64/Linux, PPC32/Linux, PPC64/Linux, PPC64LE/Linux, S390X/Linux, MIPS32/Linux, MIPS64/Linux, X86/Solaris, AMD64/Solaris, ARM/Android (2.3.x and later), ARM64/Android, X86/Android (4.0 and later), MIPS32/Android, X86/Darwin and AMD64/Darwin (Mac OS X 10.12).
 
 Valgrind is Open Source / Free Software, and is freely available under the GNU General Public License, version 2.
 
-#### Callgrind
+The Valgrind distribution includes the following debugging and profiling tools: Memcheck, Cachegrind, Callgrind, Massif, Helgrind, DRD, DHAT, Experimental Tools, Other Tools.
+
+#### [Memcheck](htts://valgrind.org/info/tools.html#memcheck)
+
+Memcheck detects memory-management problems, and is aimed primarily at C and C++ programs.
+
+The Valgrind distribution includes the following debugging and profiling tools:
+
+#### [Cachegrind](https://valgrind.org/info/tools.html#cachegrind)
+
+Cachegrind is a cache profiler. It performs detailed simulation of the I1, D1 and L2 caches in your CPU and so can accurately pinpoint the sources of cache misses in your code. It identifies the number of cache misses, memory references and instructions executed for each line of source code, with per-function, per-module and whole-program summaries. It is useful with programs written in any language. Cachegrind runs programs about 20--100x slower than normal.
+
+#### [Callgrind](https://valgrind.org/info/tools.html#callgrind)
+
+Callgrind, by Josef Weidendorfer, is an extension to [Cachegrind](https://valgrind.org/info/tools.html#cachegrind). It provides all the information that Cachegrind does, plus extra information about callgraphs. It was folded into the main Valgrind distribution in version 3.2.0. Available separately is an amazing visualisation tool, [KCachegrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi/KcacheGrindIndex), which gives a much better overview of the data that Callgrind collects; it can also be used to visualise Cachegrind's output.
+
 #### How to use
 - `$ valgrind --tool=callgrind program_name program_argument`
 - `$ callgrind_annotatie --auto=yes callgrind.out.pid_number`
+
+#### [Massif](https://valgrind.org/info/tools.html#massif)
+
+Massif is a heap profiler. It performs detailed heap profiling by taking regular snapshots of a program's heap. It produces a graph showing heap usage over time, including information about which parts of the program are responsible for the most memory allocations. The graph is supplemented by a text or HTML file that includes more information for determining where the most memory is being allocated. Massif runs programs about 20x slower than normal.
+
+#### [Helgrind](https://valgrind.org/info/tools.html#helgrind)
+
+Helgrind is a thread debugger which finds data races in multithreaded programs. It looks for memory locations which are accessed by more than one (POSIX p-)thread, but for which no consistently used (pthread_mutex_) lock can be found. Such locations are indicative of missing synchronisation between threads, and could cause hard-to-find timing-dependent problems. It is useful for any program that uses pthreads. It is a somewhat experimental tool, so your feedback is especially welcome here.
+
+#### [DRD](https://valgrind.org/info/tools.html#drd)
+
+DRD is a tool for detecting errors in multithreaded C and C++ programs. The tool works for any program that uses the POSIX threading primitives or that uses threading concepts built on top of the POSIX threading primitives. While Helgrind can detect locking order violations, for most programs DRD needs less memory to perform its analysis.
+
+#### [DHAT](https://valgrind.org/info/tools.html#dhat)
+
+DHAT is a tool for examining how programs use their heap allocations. It tracks the allocated blocks, and inspects every memory access to find which block, if any, it is to. It comes with a GUI to facilitate exploring the profile results.
 
 ### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | CPU/Memory & Instruction Level & Free Version & UNIX
 Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
@@ -217,6 +248,7 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Instruction Set Architecture Wiki, https://en.wikipedia.org/wiki/Instruction_set_architecture, 2020-09-21-Mon.
 - Computer Program Wiki, https://en.wikipedia.org/wiki/Computer_program, 2020-09-21-Mon.
 - Callgrind Korean guide, https://m.blog.naver.com/PostView.nhn?blogId=kimyoseob&logNo=220639317811&proxyReferer=https:%2F%2Fwww.google.com%2F 2020-09-22-Tue.
+- Valgrind Tools, https://valgrind.org/info/tools.html, 2020-09-23-Wed.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
