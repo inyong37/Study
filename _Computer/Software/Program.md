@@ -88,8 +88,6 @@ The Valgrind distribution includes the following debugging and profiling tools: 
 
 Memcheck detects memory-management problems, and is aimed primarily at C and C++ programs.
 
-The Valgrind distribution includes the following debugging and profiling tools:
-
 #### [Cachegrind](https://valgrind.org/info/tools.html#cachegrind)
 
 Cachegrind is a cache profiler. It performs detailed simulation of the I1, D1 and L2 caches in your CPU and so can accurately pinpoint the sources of cache misses in your code. It identifies the number of cache misses, memory references and instructions executed for each line of source code, with per-function, per-module and whole-program summaries. It is useful with programs written in any language. Cachegrind runs programs about 20--100x slower than normal.
