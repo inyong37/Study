@@ -116,6 +116,8 @@ DRD is a tool for detecting errors in multithreaded C and C++ programs. The tool
 
 DHAT is a tool for examining how programs use their heap allocations. It tracks the allocated blocks, and inspects every memory access to find which block, if any, it is to. It comes with a GUI to facilitate exploring the profile results.
 
+#### [Valgrind doesn't support measuring time.](https://stackoverflow.com/questions/6663614/use-valgrind-to-know-timein-seconds-spent-in-each-function)
+
 ### GNU gprof | [Homepage](https://sourceware.org/binutils/docs/gprof/) | [Wiki](https://en.wikipedia.org/wiki/Gprof) | CPU/Memory & Instruction Level & Free Version & UNIX
 Gprof is a performance analysis tool for Unix applications. It used a hybrid of instrumentation and sampling and was created as an extended version of the older "prof" tool. Unlike prof, gprof is capable of limited call graph collecting and printing.
 
@@ -247,6 +249,7 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Computer Program Wiki, https://en.wikipedia.org/wiki/Computer_program, 2020-09-21-Mon.
 - Callgrind Korean guide, https://m.blog.naver.com/PostView.nhn?blogId=kimyoseob&logNo=220639317811&proxyReferer=https:%2F%2Fwww.google.com%2F 2020-09-22-Tue.
 - Valgrind Tools, https://valgrind.org/info/tools.html, 2020-09-23-Wed.
+- Valgrind doesn't support to measure time, https://stackoverflow.com/questions/6663614/use-valgrind-to-know-timein-seconds-spent-in-each-function, 2020-09-23-Wed.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
