@@ -84,7 +84,7 @@ Valgrind is Open Source / Free Software, and is freely available under the GNU G
 
 The Valgrind distribution includes the following debugging and profiling tools: Memcheck, Cachegrind, Callgrind, Massif, Helgrind, DRD, DHAT, Experimental Tools, Other Tools.
 
-#### [Memcheck](htts://valgrind.org/info/tools.html#memcheck)
+#### [Memcheck](https://valgrind.org/info/tools.html#memcheck)
 
 Memcheck detects memory-management problems, and is aimed primarily at C and C++ programs.
 
