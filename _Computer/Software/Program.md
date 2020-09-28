@@ -22,6 +22,12 @@ Extensible Application Markup Language (XAML) is a declarative XML-based languag
 ### Windows Presentation Foundation (WPF) | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019) | [MS Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/designers/getting-started-with-wpf?view=vs-2019)
 Windows Presentation Foundation (WPF) is a UI framework that creates desktop client applications. The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security. The framework is part of .NET, so if you have previously built applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language (XAML) to provide a declarative model for application programming.
 
+### htop | [Wiki](https://en.wikipedia.org/wiki/Htop) | Unix
+htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about processor, swap and memory status. htop can also display the processes as a tree.
+
+### top | [Wiki](https://en.wikipedia.org/wiki/Top_(software)) | Unix
+top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
+
 # Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 Profiling in computer science is a form of dynamic program analysis that measures, for example, the space(memory) or time complexity of a program, the usage of particular instructions, or frequency and duration of function calls. The most common use of profiling information is to aid program optimization.
 
@@ -304,6 +310,8 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Google gperftools heap-profiling using tcmalloc, https://gperftools.github.io/gperftools/heapprofile.html, 2020-09-23-Wed.
 - Google gperftools CPU profiler, https://gperftools.github.io/gperftools/cpuprofile.html, 2020-09-23-Wed.
 - Google pprof GitHub, https://github.com/google/pprof, 2020-09-23-Wed.
+- htop Wiki, https://en.wikipedia.org/wiki/Htop, 2020-09-28-Mon.
+- top Wiki, https://en.wikipedia.org/wiki/Top_(software), 2020-09-28-Mon.
 
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
