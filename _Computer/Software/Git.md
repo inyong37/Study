@@ -28,12 +28,24 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Commit: Unmodified <- Staged
 
 ### Command
-- `git clone`
 - `git pull`
 - `git branch`
 - `git add`
 - `git commit`
 - `git push`
+
+### Clone
+#### Clone with HTTPS
+- `git clone https://github.com/inyong37/Study.git`
+#### Clone with SSH
+- `git clone git@github.com:inyong37/Study.git`
+#### Clone with GitHub CLI
+- `git clone gh repo clone inyong37/Study`
+#### Clone single branch
+- `git clone -b branch_name --single-branch https://github.com/inyong37/Study.git`
+#### Fetch after cloning single branch
+- `git remote set-branches --add-origin remote_branch_name`
+- `git fetch origin remote_branch_name:local_branch_name`
 
 ### Branch
 #### Make branch
