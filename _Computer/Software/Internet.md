@@ -24,7 +24,7 @@ the estimation of ego-motion using computer vision techniques
 ### HTTP(HyperTxet Trnasfer Protocol) vs HTTPS(HyperTxet Trnasfer Protocol Secure)
 https is also referred to as http over TLS or http over SSL
 
-## DNS(Domain Name System) | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) |
+## DNS(Domain Name System) | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
 
 The Domain Name System delegates the responsibility of assigning domain names and mapping those names to Internet resources by designating authoritative name servers for each domain. Network administrators may delegate authority over sub-domains of their allocated name space to other name servers. This mechanism provides distributed and fault-tolerant service and was designed to avoid a single large central database.
