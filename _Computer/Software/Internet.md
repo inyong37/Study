@@ -47,3 +47,4 @@ The term is used to describe two different concepts. The first is "dynamic DNS u
 - DNS Wiki Kor, https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C, 2020-10-06-Tue.
 - DDNS Wiki, https://en.wikipedia.org/wiki/Dynamic_DNS, 2020-10-06-Tue.
 - DDNS Wiki Kor, https://ko.wikipedia.org/wiki/DDNS, 2020-10-06-Tue.
+- Internet
