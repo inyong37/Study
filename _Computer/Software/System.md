@@ -133,6 +133,13 @@ Prior to the introduction of Mac OS X, Apple experimented with several other con
 
 Although they have different architectures, the Macintosh operating systems share a common set of GUI principles, including a menu bar across the top of the screen; the Finder shell, featuring a desktop metaphor that represents files and applications using icons and relates concepts like directories and file deletion to real-world objects like folders and a trash can; and overlapping windows for multitasking.
 
+### Fuzzy Finder
+- Install
+  - `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
+  - `~/.fzf/install`
+- How to use
+  - `Control` + `t`
+
 # macOS | [Catalina](https://www.apple.com/macos/catalina/) | [Wiki](https://en.wikipedia.org/wiki/MacOS)
 macOS (previously Mac OS X and later OS X) is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers. Within the market of desktop, laptop and home computers, and by web usage, it is the second most widely used desktop OS, after Microsoft Windows.
 
@@ -170,3 +177,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - macOS Wiki, https://en.wikipedia.org/wiki/MacOS, 2020-09-16-Wed.
 - Macintosh Wiki, https://en.wikipedia.org/wiki/Macintosh_operating_systems, 2020-09-16-Wed.
 - Linux vs. Unix, https://www.diffen.com/difference/Linux_vs_Unix, 20202-09-16-Wed.
+- fuzzy finder Blog Kor, https://black7375.tistory.com/15, 2020-10-12-Mon.
