@@ -12,6 +12,23 @@ USB flash drives use the USB mass storage device class standard, supported nativ
 
 A flash drive consists of a small printed circuit board carrying the circuit elements and a USB connector, insulated electrically and protected inside a plastic, metal, or rubberized case, which can be carried in a pocket or on a key chain, for example. The USB connector may be protected by a removable cap or by retracting into the body of the drive, although it is not likely to be damaged if unprotected. Most flash drives use a standard type-A USB connection allowing connection with a port on a personal computer, but drives for other interfaces also exist. USB flash drives draw power from the computer via the USB connection. Some devices combine the functionality of a portable media player with USB flash storage; they require a battery only when used to play music on the go.
 
+## Type
+### A
+### B
+### Mini B
+### Micro B
+### C
+
+## Version
+### 1.0 & 1.1
+Low Speed 1.5Mbps, Full Speed 12Mbps
+### 2.0
+High Speed 480Mbps
+### 3.0
+Super Speed USB: 5Gbps
+### 3.1
+Super Speed USB: 10Gbps
+
 #### Reference
 - USB flash drive Wiki, https://en.wikipedia.org/wiki/USB_flash_drive, 2020-10-13-Tue.
 - USB Wiki, https://en.wikipedia.org/wiki/USB, 2020-10-13-Tue.
