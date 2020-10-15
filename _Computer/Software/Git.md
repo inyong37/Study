@@ -63,8 +63,9 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git push origin :branch_name`
 
 ### rebase
-- commit 2개 합치기: `$ git rebase -i HEAD~2`
+- commit 2개 합치기: `git rebase -i HEAD~2`
   - `pick` commit# -> `fixup` commit#
+- 현재 브랜치의 base를 origin(remote)의 master 브랜치로 업데이트하기: `git rebase origin/master`
 
 ### submodule
 
