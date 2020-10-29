@@ -46,6 +46,15 @@ PS powershell # Turn off PowerShell and turn on CMD
 - check `whoami`
 - get out a root right `exit`
 
+## Shell
+
+### Change Color
+```
+ 46 force_color_prompt=yes
+ 59 if [ "$color_prompt" = yes ]; then
+ 60     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00;32m\]\u\[\033[01;33m\]@\[\033[01;34m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+```
+
 ### Tmux
 Tmux is an application that can access/process multi terminal/process/session -s.
 
@@ -107,3 +116,4 @@ Search everything as a string. So it is faster than any other greps.
 - Windows Terminal, https://github.com/Microsoft/Terminal, 2020-05-22-Fri.
 - Windows Terminal, https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab, 2020-05-22-Fri.
 - grep commands, https://geundi.tistory.com/113, 2020-08-28-Fri.
+- - Change shell color, https://askubuntu.com/questions/123268/changing-colors-for-user-host-directory-information-in-terminal-command-prompt, 2020-10-29-Thu.
