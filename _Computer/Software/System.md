@@ -1,8 +1,12 @@
 # System: Operating System
+- DOS
+  - QDOS
+  - MS-DOS (By Microsoft)
 - Windows (By Microsoft, closed source)
-- Unix (by Bell Laboratory, 1970's, mixed/shared source)
-  - HP-UX (by Hewlett Packard Enterprise, Unix System V, 1984, closed source)
+- Unix (by Bell Laboratory, at 1970's, mixed/shared source)
+  - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984, closed source)
   - Solaris ((aka SunOS by Sun Microsystems) by Oracle, closed source)
+  - NeXTSTEP (by NeXT)
 - Linux
   - Ubuntu
   - CentOS
@@ -11,6 +15,13 @@
   - Mint
   - Red Hat
 - macOS
+  - Mac OS
+  - OS X
+  - macOS
+
+# DOS
+
+# MS-DOS | [GitHub](https://github.com/Microsoft/MS-DOS)
 
 # Windows | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
@@ -216,3 +227,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Fedora, https://getfedora.org/, 2020-10-29-Thu.
 - Mint, https://www.linuxmint.com/, 2020-10-29-Thu.
 - Red Hat, https://access.redhat.com/, 2020-10-29-Thu.
+- MS-DOS GitHub, https://github.com/Microsoft/MS-DOS, 2020-10-29-Thu.
