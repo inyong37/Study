@@ -2,11 +2,13 @@
 - DOS
   - QDOS
   - MS-DOS (By Microsoft)
-- Windows (By Microsoft, closed source)
-- Unix (by Bell Laboratory, at 1970's, mixed/shared source)
-  - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984, closed source)
-  - Solaris ((aka SunOS by Sun Microsystems) by Oracle, closed source)
+- Windows (By Microsoft)
+- Unix (by Bell Laboratory, at 1970's)
+  - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984)
+  - SunOS (by Sun Microsystems)
+  - Solaris (by Oracle)
   - NeXTSTEP (by NeXT)
+  - BSD (by Computer Systems Research Group in University of California, Berkeley, at 1977 ~ 1995)
 - Linux
   - Ubuntu
   - CentOS
@@ -20,6 +22,8 @@
   - macOS
 
 # DOS
+
+# QDOS
 
 # MS-DOS | [GitHub](https://github.com/Microsoft/MS-DOS)
 
@@ -228,3 +232,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Mint, https://www.linuxmint.com/, 2020-10-29-Thu.
 - Red Hat, https://access.redhat.com/, 2020-10-29-Thu.
 - MS-DOS GitHub, https://github.com/Microsoft/MS-DOS, 2020-10-29-Thu.
+- BSD Wiki KR-KO, https://ko.wikipedia.org/wiki/BSD, 2020-10-29-Thu.
