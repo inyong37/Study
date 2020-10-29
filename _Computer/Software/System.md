@@ -1,8 +1,8 @@
 # System: Operating System
-- Windows
-- Unix by
-  - HP-UX
-  - Solaris (aka SunOS by Sun Microsystems) by Oracle
+- Windows (By Microsoft, closed source)
+- Unix (by Bell Laboratory, 1970's, mixed/shared source)
+  - HP-UX (by Hewlett Packard Enterprise, Unix System V, 1984, closed source)
+  - Solaris ((aka SunOS by Sun Microsystems) by Oracle, closed source)
 - Linux
   - Ubuntu
   - CentOS
@@ -92,6 +92,8 @@ Linux의 동적 라이브러리이다.[Ref]
 라이브러리는 기계어로 번역된 라이브러리이며, 헤더는 컴파일 하기 전의 프로그래머가 이해할 수 있고 문법에 맞게 작성되어 있는 선언들의 집합이다. 컴파일된 산물인 .o(object) 파일을 여러개 모아놓은 것이 라이브러리이다. 라이브러리를 사용하기 위해서는 해당 라이브러리의 헤더가 필요하다. 링커가 이해할 수 있는 symbol name을 가지고 library를 찾아 link하게 된다. compilier가 이런 header를 가지고 symbol name을 만들어서 object 파일을 넣어주면 linker가 해당 symbol name을 가지고 library를 검색해서 link하게 된다.[Ref]
 
 # Solaris | [Homepage](https://www.oracle.com/solaris/solaris11/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
+
+# HP-UX | [Homepage](https://www.hpe.com/us/en/servers/hp-ux.html)
 
 # Linux | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [DOwnload](https://www.linux.org/pages/download/)
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
