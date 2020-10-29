@@ -1,6 +1,16 @@
 # System: Operating System
 - Windows
-- Unix
+- Unix by
+  - HP-UX
+  - Solaris (aka SunOS by Sun Microsystems) by Oracle
+- Linux
+  - Ubuntu
+  - CentOS
+  - Debian
+  - Fedora
+  - Mint
+  - Red Hat
+- macOS
 
 # Windows | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
@@ -81,6 +91,8 @@ Linux의 동적 라이브러리이다.[Ref]
 ### Library, Header
 라이브러리는 기계어로 번역된 라이브러리이며, 헤더는 컴파일 하기 전의 프로그래머가 이해할 수 있고 문법에 맞게 작성되어 있는 선언들의 집합이다. 컴파일된 산물인 .o(object) 파일을 여러개 모아놓은 것이 라이브러리이다. 라이브러리를 사용하기 위해서는 해당 라이브러리의 헤더가 필요하다. 링커가 이해할 수 있는 symbol name을 가지고 library를 찾아 link하게 된다. compilier가 이런 header를 가지고 symbol name을 만들어서 object 파일을 넣어주면 linker가 해당 symbol name을 가지고 library를 검색해서 link하게 된다.[Ref]
 
+# Solaris | [Homepage](https://www.oracle.com/solaris/solaris11/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
+
 # Linux | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [DOwnload](https://www.linux.org/pages/download/)
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
@@ -93,6 +105,18 @@ Linux was originally developed for personal computers based on the Intel x86 arc
 Linux also runs on embedded systems, i.e. devices whose operating system is typically built into the firmware and is highly tailored to the system. This includes routers, automation controls, smart home technology (like Google Nest), televisions (Samsung and LG Smart TVs use Tizen and WebOS, respectively), automobiles (for example, Tesla, Audi, Mercedes-Benz, Hyundai, and Toyota all rely on Linux), digital video recorders, video game consoles, and smartwatches. The Falcon 9's and the Dragon 2's avionics use a customized version of Linux.
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
+
+# Ubuntu | [Homepage](https://ubuntu.com/)
+
+# CentOS | [Homepage](https://wiki.centos.org/FrontPage)
+
+# Debian | [Homepage](https://www.debian.org/)
+
+# Fedora | [Homepage](https://getfedora.org/)
+
+# Mint | [Homepage](https://www.linuxmint.com/)
+
+# Red Hat | [Homepage](https://access.redhat.com/)
 
 ### Alias
 
@@ -180,3 +204,13 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Macintosh Wiki, https://en.wikipedia.org/wiki/Macintosh_operating_systems, 2020-09-16-Wed.
 - Linux vs. Unix, https://www.diffen.com/difference/Linux_vs_Unix, 20202-09-16-Wed.
 - fuzzy finder Blog Kor, https://black7375.tistory.com/15, 2020-10-12-Mon.
+- Solaris Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C), 2020-10-29-Thu.
+- Solaris Homepage, https://www.oracle.com/solaris/solaris11/, 2020-10-29-Thu.
+- Unix history image Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4#/media/%ED%8C%8C%EC%9D%BC:Unix_history-simple.svg, 2020-10-29-Thu.
+- Linux download, https://www.linux.org/pages/download/, 2020-10-29-Thu.
+- Ubuntu, https://ubuntu.com/, 2020-10-29-Thu.
+- CentOS, https://wiki.centos.org/FrontPage, 2020-10-29-Thu.
+- Debian, https://www.debian.org/, 2020-10-29-Thu.
+- Fedora, https://getfedora.org/, 2020-10-29-Thu.
+- Mint, https://www.linuxmint.com/, 2020-10-29-Thu.
+- Red Hat, https://access.redhat.com/, 2020-10-29-Thu.
