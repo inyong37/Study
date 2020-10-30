@@ -26,7 +26,7 @@
 # CP/M | [Homepage](https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CP/M)
 CP/M은 인텔 8080/85 마이크로프로세서를 기반으로 하는 처음 제작된 운영 체제이다. 디지털 리서치의 개리 킬달(Gary Kildall)이 만들었다. 게리 킬달은 커스텀 플로피 디스크 컨트롤러를 통해 접속되는 슈거트 어소시에이트(Shugart Associates) 8인치 플로피 디스크 드라이브가 장착된 인텔 인텔렉-8 개발 시스템에서 구동할 운영 체제로서 CP/M을 1974년에 처음 개발하였다. 최소 8비트의 CP/M 시스템은 다음 5개의 부품을 포함하고 있어야한다. 1. 아스키 문자열 집합을 사용하는 컴퓨터 터미널(매우 오래된 시스템은 텔레프린터를 사용하였다.), 2. 인텔 8080(나중에는 8085) 또는 자일로그 Z80 마이크로프로세서, 3. 최소 16킬로바이트인 램, 4. 디스켓 첫 섹터를 부트스트래핑할 수 있는 환경, 5. 최소 한 개의 플로피 디스크 드라이브. 8비트 버전에서 동작하는 동안 메모리에 로드된 CP/M 운영 체제에는 다음 3개의 구성요소가 있었다. 1. 기본 입출력 시스템, 곧 BIOS, 2. 기본 디스크 운영 체제, 곧 BDOS, 3. 콘솔 명령어 프로세서, 곧 CCP.
 
-# DOS
+# DOS | [Wiki (KR-KO) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [Wiki (KR-KO) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
 
 # 86-DOS (aka QDOS) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/86-%EB%8F%84%EC%8A%A4)
 86-DOS는 시애틀 컴퓨터 프로덕트(SCP)에서 팀 패터슨에 의하여 Intel 8086 기반 컴퓨터 키트 용으로 개발되어 판매된 운영 체제로 현재는 단종되었다. 초기에는 QDOS(Quick and Dirty Operating System)로 알려졌으나, 1980년에 SCP가 운영 체제를 라이센스하기 시작하면서 86-DOS로 이름이 변경되었다. 86-DOS에는 디지털 리서치의 CP/M 운영 체제를 모방한 명령 구조 및 응용 프로그래밍 인터페이스가 있어 프로그램을 후자로부터 쉽게 이식할 수 있었다. 마이크로소프트에게 라이센스 되었다가 그 후 판매되어 MS-DOS 및 PC-DOS로 개발되었다.
@@ -248,3 +248,5 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - MS-DOS Wiki KR-KO, https://ko.wikipedia.org/wiki/MS-DOS, 2020-10-30-Fri.
 - CP/M Wiki KR-KO, https://ko.wikipedia.org/wiki/CP/M, 2020-10-30-Fri.
 - CP/M, https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM, 2020-10-30-Fri.
+- 디스크 운영 체제 Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C 2020-10-30-Fri.
+- 도스 Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4, 2020-10-30-Fri.
