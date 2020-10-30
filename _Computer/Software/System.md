@@ -1,7 +1,8 @@
 # System: Operating System
 - DOS
-  - QDOS
-  - MS-DOS (By Microsoft)
+  - 86-DOS (aka QDOS, by Seattle Computer Products)
+  - MS-DOS (By Microsoft, at 1981)
+  - PC-DOS (By IBM, at 1981)
 - Windows (By Microsoft)
 - Unix (by Bell Laboratory, at 1970's)
   - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984)
@@ -23,9 +24,14 @@
 
 # DOS
 
-# QDOS
+# 86-DOS (aka QDOS) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/86-%EB%8F%84%EC%8A%A4)
+86-DOS는 시애틀 컴퓨터 프로덕트(SCP)에서 팀 패터슨에 의하여 Intel 8086 기반 컴퓨터 키트 용으로 개발되어 판매된 운영 체제로 현재는 단종되었다. 초기에는 QDOS(Quick and Dirty Operating System)로 알려졌으나, 1980년에 SCP가 운영 체제를 라이센스하기 시작하면서 86-DOS로 이름이 변경되었다. 86-DOS에는 디지털 리서치의 CP/M 운영 체제를 모방한 명령 구조 및 응용 프로그래밍 인터페이스가 있어 프로그램을 후자로부터 쉽게 이식할 수 있었다. 마이크로소프트에게 라이센스 되었다가 그 후 판매되어 MS-DOS 및 PC-DOS로 개발되었다.
 
-# MS-DOS | [GitHub](https://github.com/Microsoft/MS-DOS)
+# MS-DOS | [GitHub](https://github.com/Microsoft/MS-DOS) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/MS-DOS)
+MS-DOS(MicroSoft Disk Operating System)은 DOS의 일종으로 마이크로소프트가 IBM의 의뢰를 받아 시애틀 컴퓨터 프로덕트로부터 사들여 개발한 IBM PC용 운영 체제(CP/M-86 호환의 DOS)로 사상 최초로 대중화된 운영 체제이다. 1981년 8월 처음 PC에 올려져서 제공되었으며 1995년 개발이 중단될 때까지 몇 차례의 판올림이 있었다. MS-DOS라는 독립 제품으로서의 최종 버전은 6.22이며 Windows 95가 출시된 이후부터는 윈도 제품의 일부로 제공되었고 Windows ME에 기본 내장되어있는 8.0까지 나왔다. 이후에는 더 이상 개발되지 않는다. 마이크로소프트는 이 제품의 인기에 힘입어 조그마한 프로그래밍 언어 회사에서 다양한 소프트웨어를 제공하는 회사로 자리잡게 된다.
+
+# PC-DOS | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PC-DOS)
+PC-DOS는 IBM 개인용 컴퓨터를 위한 클로즈드 소스 형태의 도스 운영 체제이며 1980년대에서 1990년대까지 판매되었다. 1981년에 IBM과 마이크로소프트 사이에서, 마이크로소프트는 기본 제품을 생산하고 두 회사는 합성 코드를 공유하여 더 강력하고 튼튼한 시스템으로 들어가는 서로 다른 부분을 개발하려고 했다. 또 MS-DOS와 PC-DOS는 별도로 시장화될 예정이었다. 다시 말해 PC-DOS는 IBM PC용으로만 판매하고 마이크로소프트는 오픈 마켓에 판매하려고 했다. 그러나 IBM은 자사의 개인용 컴퓨터를 위한 운영 체제의 소스 코드 소유권을 획득하려고 하지는 않았다. ThinkPad 제품은 현재 복구 파티션에 PC-DOS의 최신 버전의 복사본을 소유하고 있다.
 
 # Windows | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
@@ -233,3 +239,6 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Red Hat, https://access.redhat.com/, 2020-10-29-Thu.
 - MS-DOS GitHub, https://github.com/Microsoft/MS-DOS, 2020-10-29-Thu.
 - BSD Wiki KR-KO, https://ko.wikipedia.org/wiki/BSD, 2020-10-29-Thu.
+- 86-DOS Wiki KR-KO, https://ko.wikipedia.org/wiki/86-%EB%8F%84%EC%8A%A4, 2020-10-30-Fri.
+- PC-DOS Wiki KR-KO, https://ko.wikipedia.org/wiki/PC-DOS, 2020-10-30-Fri.
+- MS-DOS Wiki KR-KO, https://ko.wikipedia.org/wiki/MS-DOS, 2020-10-30-Fri.
