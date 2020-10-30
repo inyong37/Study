@@ -56,7 +56,7 @@ Microsoft Developer Network (MSDN) was the division of Microsoft responsible for
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
 
-```Other parts have been moved to the `Windows` page.```
+```Other parts have been moved to the 'Windows' page.```
 
 # Unix | [Homepage](https://www.opengroup.org/membership/forums/platform/unix) | [Wiki](https://en.wikipedia.org/wiki/Unix)
 Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
@@ -69,7 +69,7 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 [A diagram showing the key Unix and Unix-like operating systems (Wiki)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 
-```Other parts have been moved to the `Linux` page.```
+```Other parts have been moved to the 'Linux' page.```
 
 # Solaris | [Homepage](https://www.oracle.com/solaris/solaris11/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
 
