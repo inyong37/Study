@@ -4,6 +4,16 @@ This page is from the "Language" page.
 ```
 The Java™ Programming Language is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification. Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.
 
+- Tool: Eclipse (by IBM but now Eclipse), IntelliJ (by JetBrains)
+
+## Eclipse | [Homeage](https://www.eclipse.org/)
+- Key
+  - `Control` `l`: go to # line
+  - `Control` `f`: find 'word' in this code
+  - `Control` `h`: search 'word' in a whole directory
+
+## IntelliJ | [Homepage](https://www.jetbrains.com/idea/)
+
 ### JDK (Java Development Kit) | [Wiki](https://en.wikipedia.org/wiki/Java_Development_Kit)
 The Java Development Kit (JDK) is an implementation of either one of the Java Platform, Standard Edition, Java Platform, Enterprise Edition, or Java Platform, Micro Edition platforms released by Oracle Corporation in the form of a binary product aimed at Java developers on Solaris, Linux, macOS or Windows. The JDK includes a private JVM and a few other resources to finish the development of a Java application.[2] Since the introduction of the Java platform, it has been by far the most widely used Software Development Kit (SDK).
 
@@ -21,14 +31,6 @@ JDK 11 버전 이후로는 JRE가 포함되지 않는다.
 A Java virtual machine (JVM) is a virtual machine that enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode. The JVM is detailed by a specification that formally describes what is required in a JVM implementation. Having a specification ensures interoperability of Java programs across different implementations so that program authors using the Java Development Kit (JDK) need not worry about idiosyncrasies of the underlying hardware platform.
 
 The JVM reference implementation is developed by the OpenJDK project as open source code and includes a JIT compiler called HotSpot. The commercially supported Java releases available from Oracle Corporation are based on the OpenJDK runtime. Eclipse OpenJ9 is another open source JVM for OpenJDK.
-
-### [Eclipse](https://www.eclipse.org/)
-- Key
-  - `Control` `l`: go to # line
-  - `Control` `f`: find 'word' in this code
-  - `Control` `h`: search 'word' in a whole directory
-
-### [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 ### Paid? Oracle JDK vs OpenJDK
 Commercial version JDK is Oracle JDK and open source based JDK is OpenJDK. Oracle JDK has some pulgin used to pay, from Sun Microsystems
