@@ -7,7 +7,7 @@ This page is about Programming Languages.
 C (/siː/, as in the letter c) is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations. By design, C provides constructs that map efficiently to typical machine instructions and has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computers, from supercomputers to embedded systems. C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages, with C compilers from various vendors available for the majority of existing computer architectures and operating systems. C has been standardized by the ANSI since 1989 (see ANSI C) and by the International Organization for Standardization. C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. The language is available on various platforms, from embedded microcontrollers to supercomputers.
 
 ```
-
+Other parts of C have been moved to the 'C' page.
 ```
 
 ### Visual Stuido | [Homepage](https://visualstudio.microsoft.com/)
@@ -15,11 +15,20 @@ C (/siː/, as in the letter c) is a general-purpose, procedural computer program
 ## JAVA | [Homepage](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)
 The Java™ Programming Language is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.[10] Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.[9]
 
+```
+Other parts of Java have been moved to the 'Java' page.
+```
+
 ## [Python](https://www.python.org/)
 Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
 ```
 Tool: Anaconda, PyCharm.
 ```
+
+```
+Other parts of Python have been moved to the 'Python' page.
+```
+
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
@@ -35,6 +44,10 @@ Tool: Anaconda, PyCharm.
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
 ## C++ | [cpp reference](https://en.cppreference.com/w/)
+
+```
+Other parts of C++ have been moved to the 'C++' page.
+```
 
 ## [Verilog Hardware Description Language (Verilog HDL)](https://www.verilog.com/)
 Verilog HDL is a hardware description language used to design and document electronic systems. Verilog HDL allows designers to design at various levels of abstraction. It is the most widely used HDL with a user community of more than 50,000 active designers.[7] Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
@@ -68,8 +81,6 @@ Objective-C is the primary programming language when writing software for OS X a
 
 ## Swift | [Homepage](https://developer.apple.com/swift/)
 Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyond.
-
-
 
 ### Reference
 1. CSS, https://www.w3.org/Style/CSS/, 2020-04-01-Wed.
