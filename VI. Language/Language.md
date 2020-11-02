@@ -1,6 +1,6 @@
 # Programming Language
 
-## C | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
+## C | [Wiki](https://en.wikipedia.org/wiki/C_(programming_language)) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
 C는 1972년 켄 톰슨과 데니스 리치가 벨 연구소에서 일할 당시 새로 개발된 유닉스 운영 체제에서 사용하기 위해 개발한 프로그래밍 언어이다. 켄 톰슨은 BCPL언어를 필요에 맞추어 개조해서 B언어(언어를 개발한 벨 연구소의 B를 땀)라 명명했고 데니스 리치가 이것을 개선하여 C언어가 탄생했다. 유닉스 시스템의 바탕 프로그램은 모두 C로 작성되었고 수많은 운영 체제의 커널 또한 C로 만들어졌다. 오늘날 많이 쓰이는 C++는 C에서 객체 지향형 언어로 발전된 것이다. 또 다른 다양한 최신 언어들도 그 뿌리를 C에 두고 있다.
 
 C (/siː/, as in the letter c) is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations. By design, C provides constructs that map efficiently to typical machine instructions and has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computers, from supercomputers to embedded systems. C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages, with C compilers from various vendors available for the majority of existing computer architectures and operating systems. C has been standardized by the ANSI since 1989 (see ANSI C) and by the International Organization for Standardization. C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. The language is available on various platforms, from embedded microcontrollers to supercomputers.[13]
@@ -18,7 +18,7 @@ The Java™ Programming Language is a general-purpose, concurrent, strongly type
 Other parts of the "Java" have been moved to the "Java" page.
 ```
 
-## [Python](https://www.python.org/)
+## Python | [Homepage](https://www.python.org/)
 Python is a programming language that lets you work quickly and integrate systems more effectively.[6]
 
 - Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
@@ -29,21 +29,22 @@ Other parts of the "Python" have been moved to the "Python" page.
 
 ## C++ | [cpp reference](https://en.cppreference.com/w/)
 
+- Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
+
 ```
 Other parts of the "C++" have been moved to the "C++" page.
 ```
 
 ## VerilogHDL: Verilog Hardware Description Language | [Homepage](https://www.verilog.com/)
 Verilog HDL is a hardware description language used to design and document electronic systems. Verilog HDL allows designers to design at various levels of abstraction. It is the most widely used HDL with a user community of more than 50,000 active designers.[7] Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
-```
-Tool: Quartus II (Altera -> Intel), ModelSim, FPGA.
-```
+
+- Tool: Quartus II (by Altera but now Intel), ModelSim (by Mentor Graphics)
+
 
 ## VHDL: Very High Speed Integrated Circuit Hardware Description Language | [Homepage](http://www.eda-twiki.org/cgi-bin/view.cgi/P1076/WebHome)
 Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as field-programmable gate arrays and integrated circuits. VHDL can also be used as a general-purpose parallel programming language.[4]
-```
-Tool: Quartus II (Altera -> Intel), ModelSim, FPGA.
-```
+
+- Tool: Quartus II (by Altera but now Intel), ModelSim (by Mentor Graphics)
 
 ## HTML: HyperText Markup Language | [Homepage](https://whatwg.org/)
 Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
