@@ -1,7 +1,10 @@
-# Python
+# Python | [Homepage](https://www.python.org/)
 ```
 This page is from the "Language" page.
 ```
+Python is a programming language that lets you work quickly and integrate systems more effectively.
+
+- Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
 
 ### PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 #### Keymap
@@ -32,5 +35,6 @@ This page is from the "Language" page.
 각자의 값을 참조하게 됨.
 
 #### Reference
+- Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
 - C++, Deep Copy, Shallow Copy, https://wonjayk.tistory.com/256, 2020-05-31-Sun.
