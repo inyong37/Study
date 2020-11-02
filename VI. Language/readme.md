@@ -8,15 +8,13 @@ C (/siː/, as in the letter c) is a general-purpose, procedural computer program
 
 ### Visual Stuido | [Homepage](https://visualstudio.microsoft.com/)
 
-
 ## C++ | [cpp reference](https://en.cppreference.com/w/)
-
 
 ## Objective-C | [About (Apple)](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 Objective-C is the primary programming language when writing software for OS X and iOS. It's a superset of the C programming language and provides object-oriented capabilities and a dynamic runtime. Objective-C inherits the syntax, primitive types, and flow control statements of C and adds syntax for defining classes and methodes. It also adds language-level support for object graph management and object literals while providing dynamic typing and binding, deferring many responsibilities until runtime.
 
 ## Swift | [Homepage](https://developer.apple.com/swift/)
-
+Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyond.
 
 ## C# | [Homepage](https://docs.microsoft.com/en-us/dotnet/csharp/)
 C# (pronounced see sharp, like the musical note C♯, but written with the number sign) is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed around 2000 by Microsoft as part of its .NET initiative, and later approved as an international standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2018). Mono is the name of the free and open-source project to develop a compiler and runtime for the language. C# is one of the programming languages designed for the Common Language Infrastructure (CLI). C# was designed by Anders Hejlsberg, and its development team is currently led by Mads Torgersen. The most recent version is 8.0, which was released in 2019 alongside Visual Studio 2019 version 16.3.[12]
