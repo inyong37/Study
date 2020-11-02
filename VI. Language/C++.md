@@ -1,7 +1,11 @@
-# C++
+# C++ | [cpp reference](https://en.cppreference.com/w/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C%2B%2B)
 ```
 This page is from the "Language" page.
 ```
+
+C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으로 1983년 발표하여 발전한 프로그래밍 언어이다.
+
+- Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
 ### Data Type
 |Type Name|Byte|Nickname|Value Range|
@@ -225,3 +229,4 @@ void foo(int bar = 0);
 - Static, Const, http://tcpschool.com/cpp/cpp_encapsulation_staticConst, 2020-06-25-Thu.
 - ->, https://m.blog.naver.com/PostView.nhn?blogId=reverse_ing&logNo=60133603796&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-01-Wed.
 - #if, #elif, #else, #endif, https://docs.microsoft.com/ko-kr/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=vs-2019, 2020-07-13-Mon.
+- C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
