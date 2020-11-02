@@ -27,7 +27,8 @@ Python is a programming language that lets you work quickly and integrate system
 Other parts of the "Python" have been moved to the "Python" page.
 ```
 
-## C++ | [cpp reference](https://en.cppreference.com/w/)
+## C++ | [cpp reference](https://en.cppreference.com/w/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C%2B%2B)
+C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으로 1983년 발표하여 발전한 프로그래밍 언어이다.
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
@@ -39,7 +40,6 @@ Other parts of the "C++" have been moved to the "C++" page.
 Verilog HDL is a hardware description language used to design and document electronic systems. Verilog HDL allows designers to design at various levels of abstraction. It is the most widely used HDL with a user community of more than 50,000 active designers.[7] Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commoly used in the design and verification of digital circuits at the register-transfer level of abstraction. It is also used in the verification of analog circuits and mixed-signal circuits, as well as in the design if genetic circuits.[2]
 
 - Tool: Quartus II (by Altera but now Intel), ModelSim (by Mentor Graphics)
-
 
 ## VHDL: Very High Speed Integrated Circuit Hardware Description Language | [Homepage](http://www.eda-twiki.org/cgi-bin/view.cgi/P1076/WebHome)
 Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as field-programmable gate arrays and integrated circuits. VHDL can also be used as a general-purpose parallel programming language.[4]
@@ -88,3 +88,4 @@ Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyo
 - JVM Wiki, https://en.wikipedia.org/wiki/Java_virtual_machine, 2020-09-22-Tue.
 - Objective-C, https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html, 2020-11-02-Mon.
 - Swift, https://developer.apple.com/swift/, 2020-11-02-Mon.
+- C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
