@@ -1,4 +1,4 @@
-# C
+# C | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4))
 ```
 This page is from the 'Language' page.
 ```
@@ -8,3 +8,4 @@ This page is from the 'Language' page.
 
 #### Referece
 - C signal process Wiki KR-KO, https://ko.wikipedia.org/wiki/C_%EC%8B%9C%EA%B7%B8%EB%84%90_%EC%B2%98%EB%A6%AC, 2020-11-02-Mon.
+- C Wiki KR-KO, https://ko.wikipedia.org/wiki/C_(%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4), 2020-11-02-Mon.
