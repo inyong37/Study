@@ -6,7 +6,7 @@ Python is a programming language that lets you work quickly and integrate system
 
 - Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
 
-### PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
+## PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
 - Comment: `Control` + `/`.
