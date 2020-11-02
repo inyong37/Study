@@ -1,6 +1,6 @@
 # C
 ```
-This page is from the 'Language's readme.md' page.
+This page is from the 'Language' page.
 ```
 
 ### C 시그널 처리
