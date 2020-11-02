@@ -1,5 +1,7 @@
 # C++
-This page is about C and C++.
+```
+This page is from the "Language" page.
+```
 
 ### Data Type
 |Type Name|Byte|Nickname|Value Range|
