@@ -76,6 +76,12 @@ $ sudo systemctl enable ssh
 - How to use
   - `Control` + `t`
 
+### htop | [Wiki](https://en.wikipedia.org/wiki/Htop) | Unix
+htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about processor, swap and memory status. htop can also display the processes as a tree.
+
+### top | [Wiki](https://en.wikipedia.org/wiki/Top_(software)) | Unix
+top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -124,3 +130,5 @@ $ sudo systemctl enable ssh
 - CP/M, https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM, 2020-10-30-Fri.
 - 디스크 운영 체제 Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C 2020-10-30-Fri.
 - 도스 Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4, 2020-10-30-Fri.
+- htop Wiki, https://en.wikipedia.org/wiki/Htop, 2020-09-28-Mon.
+- top Wiki, https://en.wikipedia.org/wiki/Top_(software), 2020-09-28-Mon.
