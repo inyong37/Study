@@ -44,32 +44,33 @@ Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에
 ### .lib (Static Link Libray)
 Windows의 정적 라이브러리로, 정적 링크로 컴파일 시점에 라이브러리가 링커에 의해 연결되어 실행 파일의 일부분이 된다.[Ref]
 
+### Universal Windows Platform (UWP) Application | [MS Docs](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) | [MS Docs (Kor)](https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide)
+UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
+
+UWP is one choice for creating apps that run on Windows 10 devices, and can be combined with other platforms. UWP apps can make use of Win32 APIs and .NET classes (see API Sets for UWP apps, Dlls for UWP apps, and .NET for UWP apps).
+
+The Microsoft development story continues to evolve, and along with initiatives such as WinUI, MSIX, and Project Reunion, UWP is a powerful tool for creating client apps.
+
+### Extensible Application Markup Language (XAML) | [Wiki](https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/XAML)
+Extensible Application Markup Language (XAML) is a declarative XML-based language developed by Microsoft that is used for initializing structured values and objects. It is available under Microsoft's Open Specification Promise. The acronym originally stood for Extensible Avalon Markup Language, Avalon being the code-name for Windows Presentation Foundation (WPF).
+
+### Windows Presentation Foundation (WPF) | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019) | [MS Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/designers/getting-started-with-wpf?view=vs-2019)
+Windows Presentation Foundation (WPF) is a UI framework that creates desktop client applications. The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security. The framework is part of .NET, so if you have previously built applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language (XAML) to provide a declarative model for application programming.
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
-- 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
-- Unix, https://www.opengroup.org/membership/forums/platform/unix, 2020-08-05-Wed.
-- Linux, https://www.linux.org/, 2020-08-05-Wed.
-- macOS, https://www.apple.com/macos/catalina/, 2020-008-05-Wed.
-- ELF Wiki (Kor), https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D, 2020-08-06-Thu.
 - EXE Wiki (Kor), https://ko.wikipedia.org/wiki/EXE, 2020-08-06-Thu.
 - 실행 파일 Wiki (Kor), https://ko.wikipedia.org/wiki/%EC%8B%A4%ED%96%89_%ED%8C%8C%EC%9D%BC, 2020-08-06-Thu.
 - DLL 이란?, https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll, 2020-08-06-Thu.
 - DLL, https://goddaehee.tistory.com/185, 2020-08-06-Thu.
 - Library, https://jasonjason.tistory.com/15, 2020-08-06-Thu.
 - Shortcut, https://ko.wikipedia.org/wiki/%EB%B0%94%EB%A1%9C_%EA%B0%80%EA%B8%B0, 2020-08-08-Sat.
-- Alias, https://webdir.tistory.com/107, 2020-08-25-Tue.
-- openssh, https://jimnong.tistory.com/713, 2020-09-08-Tue.
 - MSDN, https://social.msdn.microsoft.com/forums/en-us/home, 2020-09-16-Wed.
 - MSDN Wiki, https://en.wikipedia.org/wiki/Microsoft_Developer_Network, 2020-09-16-Wed.
 - Microsoft Docs, https://docs.microsoft.com/en-us/, 2020-09-16-Wed.
-- man page Wiki, https://en.wikipedia.org/wiki/Man_page, 2020-09-16-Wed.
-- Unix Wiki, https://en.wikipedia.org/wiki/Unix, 2020-09-16-Wed.
-- A diagram showing the key Unix and Unix-like operating systems, https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg, 2020-09-16-Wed.
-- Linux Wiki, https://en.wikipedia.org/wiki/Linux, 2020-09-16-Wed.
 - Windows Wiki, https://en.wikipedia.org/wiki/Microsoft_Windows, 2020-09-16-Wed.
-- Differences between Unix and Linux, https://m.blog.naver.com/PostView.nhn?blogId=limoremo&logNo=220533015236&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-09-16-Wed.
-- macOS Wiki, https://en.wikipedia.org/wiki/MacOS, 2020-09-16-Wed.
-- Macintosh Wiki, https://en.wikipedia.org/wiki/Macintosh_operating_systems, 2020-09-16-Wed.
-- Linux vs. Unix, https://www.diffen.com/difference/Linux_vs_Unix, 20202-09-16-Wed.
-- fuzzy finder Blog Kor, https://black7375.tistory.com/15, 2020-10-12-Mon.
+- UWP MS Docs, https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide, 2020-09-18-Fri.
+- UWP MS Docs (Kor), https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide, 2020-09-18-Fri.
+- WPF MS Docs, https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019, 2020-09-18-Fri.
+- WPF MS Docs (Kor), https://docs.microsoft.com/ko-kr/visualstudio/designers/getting-started-with-wpf?view=vs-2019, 2020-09-18-Fri.
