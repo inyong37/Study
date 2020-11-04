@@ -59,7 +59,7 @@ A computer program is usually written by a computer programmer in a programming 
 
 A collection of computer programs, libraries, and related data are referred to as software. Computer programs may be categorized along functional lines, such as application software and system software. The underlying method used for some calculation or manipulation is known as an algorithm.
 
-# Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+## Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. 디자인 최적화, 코드 최적화가 중요하다. 레벨은 문제가 가장 어렵고, 여지가 가장 크며, 익숙도는 가장 크고, 툴 여부는 적다. 코드 레벨의 CPU 프로파일러는 Visual Studio Profiler, Very Sleepy, Glow Code가 있다.
 
 Profiling in computer science is a form of dynamic program analysis that measures, for example, the space(memory) or time complexity of a program, the usage of particular instructions, or frequency and duration of function calls. The most common use of profiling information is to aid program optimization.
@@ -74,6 +74,9 @@ Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling"
 프로세스 간 통신이란 프로세스들 사이에 서로 데이터를 주고받는 행위 또는 그에 대한 방법이나 경로를 뜻한다. IPC는 마이크로커널과 나노커널의 디자인 프로세스에 매우 중요하다. 마이크로커널은 커널이 제공하는 기능의 수를 줄였기 때문이다. 해당 기능들은 IPC를 통해 서버와 통신함으로써 얻으며 일반적인 모놀리딕 커널에 비해 IPC의 수가 극적으로 증가된다.
 
 주요 IPC 방식으로는 파일(대부분), 신호(대부분. Windows와 같은 일부 시스템은 C 런타임 라이브러리에서만 신호를 제공하며 IPC 방식으로 사용하는 것을 지원하지는 않음), 소켓(대부분), 메시지 큐(대부분), 파이프(모든 POSIX, Windows), 지명 파이프(모든 POSIX, Windows), 세미포어(모든 POSIX, Windows), 공유 메모리(모든 POSIX, Windows), 메서지 전달(비공유(MPI 패러다임, 자바 RMI, CORBA, MSMQ, 메일슬롯, QNX 등)), 메모리 맵 파일(모든 POSIX, Windows)이 있다.
+
+### RPC: Remote Procedure Call | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9B%90%EA%B2%A9_%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80_%ED%98%B8%EC%B6%9C)
+원격 프로시저 호출은 별도의 원격 제어를 위한 코딩 없이 다른 주소 공간에서 함수나 프로시저를 실행할 수 있게 하는 프로세스 간 통신 기술이다. RPC을 이용하면 프로그래머는 함수가 실행 프로그램에 로컬 위치에 있든 원격 위치에 있든 동일한 코드를 이용할 수 있다. 객체 지향의 원칙을 사용하는 소프트웨어의 경우 RPC를 원격 호출(remote invocation) 또는 원격 메소드 호출(remote method invocation)이라고 일컫는다. 가끔 ONC RPC와 DCE/RPC와 같은 비호환 대상을 수행하기 위해 쓰이는 다른 수많은 기술이 있다.
 
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
@@ -117,3 +120,4 @@ Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling"
 - Refactoring Blog KR-KO, https://nesoy.github.io/articles/2018-05/Refactoring, 2020-11-03-Tue.
 - DBus Wiki KR-KO, https://ko.wikipedia.org/wiki/D-Bus, 2020-11-04-Wed.
 - IPC Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EA%B0%84_%ED%86%B5%EC%8B%A0, 2020-11-04-Wed.
+- RPC Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9B%90%EA%B2%A9_%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80_%ED%98%B8%EC%B6%9C, 2020-11-04-Wed.
