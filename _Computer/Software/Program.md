@@ -17,9 +17,8 @@
 ### Refactoring
 동작을 바꾸지 않으면서 구조를 개선하는 방법이다. 코드가 작성된 이후 디자인을 개선하는 작업이다. 값이 수정되지 않는 변수는 parameter로 넘길 수 있다. 값이 수정되는 변수는 함수로 추출하여 리턴 값으로 돌려줄 수 있다.
 
-### DBus: Desktop Bus | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/D-Bus)
-
-
+### D-Bus: Desktop Bus | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/D-Bus)
+컴퓨터에서 D-Bus는 같은 머신에서 동시에 실행 중인 여러 컴퓨터 프로그램(프로세스) 간의 통신을 가능케하는 소프트웨어 버스, 프로세스 간 통신(IPC), 원격 프로시저 호출(RPC) 매커니즘이다. D-Bus는 레드햇의 하복 페닝튼이 그놈, KDE 등의 리눅스 데스크탑 환경이 제공하는 서비스들을 표준화하기 위해 발의된 Freedesktop.org 프로젝트의 일부로서 개발되었다. Freedesktop.org 프로젝트는 이 사양의 참조 구현체로서 libdbus라는 이름의 자유-오픈 소스 라이브러리를 개발하였다. 이 라이브러리는 D-Bus와는 구별된다. 실제로 다른 구현체의 D-Bus 클라이언트 라이브러리도 존재한다. GDBus(GNOME), QtDBUS(Qt/KDE), dbus-java, sd-bus(systemd의 일부) 등이 있다.
 
 ```
 Other parts of the "Windows" have been moved to "Windows" page.
