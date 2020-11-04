@@ -17,6 +17,10 @@
 ### Refactoring
 동작을 바꾸지 않으면서 구조를 개선하는 방법이다. 코드가 작성된 이후 디자인을 개선하는 작업이다. 값이 수정되지 않는 변수는 parameter로 넘길 수 있다. 값이 수정되는 변수는 함수로 추출하여 리턴 값으로 돌려줄 수 있다.
 
+### DBus: Desktop Bus | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/D-Bus)
+
+
+
 ```
 Other parts of the "Windows" have been moved to "Windows" page.
 Other parts of the "Unix" and "Linux" have been moved to "Linux" page.
@@ -300,6 +304,8 @@ Performance tuning and debugging for DirectX 12 games on Windows
 - Google pprof GitHub, https://github.com/google/pprof, 2020-09-23-Wed.
 - Daemon Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%AA%AC_(%EC%BB%B4%ED%93%A8%ED%8C%85) 2020-10-30-Fri.
 - Refactoring Blog KR-KO, https://nesoy.github.io/articles/2018-05/Refactoring, 2020-11-03-Tue.
+- DBus Wiki KR-KO, https://ko.wikipedia.org/wiki/D-Bus, 2020-11-04-Tue.
+
 #### Korean
 - 문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. (디자인 최적화, 코드 최적화)
 - 레벨은 문제가 가장 어렵고, 여지가 가장 크며, 익숙도는 가장 크고, 툴 여부는 적다.
