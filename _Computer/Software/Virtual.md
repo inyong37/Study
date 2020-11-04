@@ -5,7 +5,8 @@
 
 ## VMware
 
-## VirtualBox
+## VirtualBox | [Homepage](https://www.virtualbox.org/)
+VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
 ## Hyper-V | [Introduction](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
 Hyper-V는 Windows 10 Pro, Enterprise 및 Education 64비트 버전에서 사용할 수 있으며 Home 버전에서는 사용할 수 없다.
@@ -15,3 +16,4 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 #### Reference
 - Virtual Machine Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0, 2020-11-04-Wed.
 - Windows 10 Hyper-V Introduction, https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/, 2020-11-04-Wed.
+- VirtualBox, https://www.virtualbox.org/, 2020-11-04-Wed.
