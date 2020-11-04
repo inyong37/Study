@@ -9,10 +9,18 @@
 ## Microkernel | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90)
 마이크로 커널은 컴퓨터 과학에서 운영 체제에 추가되어야하는 메커니즘을 최소한으로 제공하는 초소형 커널이다. 이러한 미니멀리티 메커니즘에는 낮은 수준의 주소 공간 관리, 스레드 관리, 프로세스 간 통신을 포함한다. 하드웨어가 여러 개의 링과 CPU 모드를 제공한다면 마이크로커널은 최소 권한 수준(일반적으로 수퍼바이저 및 커널 모드로 부름)에서 실행되는 유일한 소프트웨어가 된다. 소스 코드 크기 측면에서 마이크로커널은 일반적으로 10,000줄 이하의 코드를 지니는 경향이 있다. 이를테면 미닉스 3의 경우 6,000줄 이하의 코드이다.
 
+## Hybrid Kernel | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%BB%A4%EB%84%90)
+하이브리드 커널은 컴퓨터 운영 체제에서 쓰이는 마이크로 커널과 모노리딕 커널 아키텍처라는 양면을 합쳐 놓은 커널 아키텍처이다. 이 구조는 모노리딕 커널과 유사성 때문에 논란이 되기도 한다. 어떤 사람들은 이 용어가 단지 마케팅을 위한 용어일뿐이라며 일축하기도 한다. 보통 모노리딕 커널과 마이크로커널이라는 구분이 받아들여진다.
+
+## Nanokernel, Picokernel | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90#%EB%82%98%EB%85%B8%EC%BB%A4%EB%84%90)
+나노 커널 또는 피코 커널이라는 용어는 모든 커널 코드의 양이 매우 작은 커널, 운영 체제 밑에 존재하는 가상화 계층(하이퍼바이저), 가장 낮은 수준의 커널 부분을 형성하는 하드웨어 추상화 계층(HAL)이다.
+
 [Kernel types image](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90#/media/%ED%8C%8C%EC%9D%BC:OS-structure2.svg)
 
 #### Reference
 - Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2020-11-04-Wed.
 - Monolithic Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
 - Microkernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90 2020-11-04-Wed.
-- Kernel types, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90#/media/%ED%8C%8C%EC%9D%BC:OS-structure2.svg, 2020-11-04-Wed.
+- Hybrid Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
+- Nanokernel/Picokernel Wiki KR-KO in Microkernel, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90#%EB%82%98%EB%85%B8%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
+- Kernel types image, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90#/media/%ED%8C%8C%EC%9D%BC:OS-structure2.svg, 2020-11-04-Wed.
