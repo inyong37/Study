@@ -8,6 +8,8 @@
 ## VirtualBox | [Homepage](https://www.virtualbox.org/)
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
+VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
+
 ## Hyper-V | [Introduction](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
 Hyper-V는 Windows 10 Pro, Enterprise 및 Education 64비트 버전에서 사용할 수 있으며 Home 버전에서는 사용할 수 없다.
 
