@@ -7,10 +7,10 @@ A collection of computer programs, libraries, and related data are referred to a
 
 Executable file for a task.
 
-## Process
+## Process | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 프로세스는 실행 중인 프로그램의 인스턴스, 독립적인 개체이다. 운영 체제로부터 하드웨어 자원인 CPU 시간, 주소, 독립된 메모리(code, data, bass, stack, heap)을 할당 받는다. 각 프로세스는 다른 프로세스의 변수, 자료 구조에 접근할 수 없으며, 하기 위해서는 IPC를 사용해야한다.
 
-## Thread
+## Thread | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A0%88%EB%93%9C_(%EC%BB%B4%ED%93%A8%ED%8C%85))
 스레드는 프로세스 내에서 실행되는 흐름의 단위이다. 각 스레드는 프로세스 내에서 stack만 따로 할당받고 code, data, heap은 공유한다. 스레드들은 프로세스 내의 주소, 공간 자원들을 공유하면서 실행된다. 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만 힙 메모리는 공유되어 서로 읽고 쓸 수 있다. 한 스레드가 프로세스의 자원을 수정하면 다른 스레드(sibling thread)로 내용을 즉시 볼 수 있다.
 
 ### Multi Process/Multi Processing
@@ -137,3 +137,5 @@ Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling"
 - IPC Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EA%B0%84_%ED%86%B5%EC%8B%A0, 2020-11-04-Wed.
 - RPC Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9B%90%EA%B2%A9_%ED%94%84%EB%A1%9C%EC%8B%9C%EC%A0%80_%ED%98%B8%EC%B6%9C, 2020-11-04-Wed.
 - Process vs. Thread Blog KR-KO, https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html, 2020-11-06-Fri.
+- Thread Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A0%88%EB%93%9C_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2020-11-06-Fri.
+- Process Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4, 2020-11-06-Fri.
