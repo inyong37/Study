@@ -22,3 +22,4 @@ GPU는 그래픽과 관련된 연산을 할 때에 CPU의 부담을 크게 줄�
 - VGA and GPU blog KR-KO, https://intel-ryzen.tistory.com/20, 2020-10-21-Wed.
 - VGA Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B9%84%EB%94%94%EC%98%A4_%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4_%EC%96%B4%EB%A0%88%EC%9D%B4, 2020-10-21-Wed.
 - GPU Wiki KR_KO, https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-10-21-Wed.
+- AMD Radeon, https://www.amd.com/en/graphics/radeon-rx-graphics, 2020-11-07-Sat.
