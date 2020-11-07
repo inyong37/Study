@@ -18,6 +18,9 @@ ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본�
 # Flash Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 Flash memory(전기 일괄소거형 기억기)는 전기적으로 데이터를 지우고 다시 기록할 수 있는 비휘발성 컴퓨터 기억 장치이다.(Electrically erased and reprogrammed) Flash memory는 EEPROM과 다르게 여러 구역으로 구성된 블록 안에서 지우고 쓸 수 있다. 이제는 flash memory의 가격이 EEPROM보다 훨씬 싸기 때문에 비휘발성 고체 상태(Solid State) 저장 매체가 상당량 필요한 곳에서는 가장 많이 사용되는 메모리 종류가 되었다. USB drive에도 flash memory가 사용된다. 옛날 게임팩으로는 EEPROM으로 만들었으나 요즘은 flash memory가 주로 사용되고 있다. Flash memory는 메모리 칩 안에 정보를 유지시키는데 전력이 필요 없는 비휘발성 메모리이다. Flash memory는 DRAM보다는 느리지만 읽기 속도가 빠르며 HDD보다 충격에 강하다. 이러한 특징으로 배터리로 동작하는 장치에서 저장 장치로 많이 사용되며 강한 압력이나 끓는 물에도 견딜 만큼 물리적인 힘으로 거의 파괴되지 않는다.
 
+### V-NAND
+V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리며 차지 트랩 플래시 아키텍처를 사용한다. 이 수직층들은 개개의 작은 셀들의 필요 없이 더 큰 면적의 비트 밀도를 가능케 한다.
+
 #### Reference
 - ECC blog KO-KR, https://m.blog.naver.com/PostView.nhn?blogId=jamiet1&logNo=221557521166&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-10-19-Mon.
 - SDRAM, DDR1, DDR2, DDR3, DDR4 blog KO-KR, https://kr.transcend-info.com/Support/FAQ-296, 2020-10-19-Mon.
