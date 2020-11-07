@@ -5,15 +5,21 @@ CPU(중앙 처리 장치)는 컴퓨터 시스템을 통제하고 프로그램의
 ## Micro Processor 
 Micro processor는 페드리코 페긴이 1970년대에 발명한 것으로, CPU의 설계와 구현에 대한 전반적인 기초를 완전히 바꾸어 놓았다. 최초의 상업용 마이크로프로세스는 1970년에 등장한 Intel 4004, 범용 마이크로프로세서는 1974년의 Intel 8080이다. 각종 전자 부품과 반도체 칩을 하나의 작은 칩에 내장한 전자 부품을 마이크로프로세서라고 한다. 마이크로프로세서는 전기 밥통에 쓰이는 낮은 성능의 저품부터 컴퓨터에 쓰이는 높은 성능의 제품까지 매우 다양하다. 마이크로프로세서들 가운데 가장 복잡하고 성능이 높은 제품은 컴퓨터의 연산 장치로 쓰인다. 이것을 CPU라고 한다.
 
-## Intel
+## Intel | [Homepage](https://www.intel.com/content/www/us/en/homepage.html)
 
-## Core
+### Intel Xeon Processor | [Homepage](https://www.intel.com/content/www/us/en/products/processors/xeon.html)
 
-## Xeon
+### [Intel Xeon Platinum 8180 Processor](https://www.intel.com/content/www/us/en/products/processors/xeon/scalable/platinum-processors/platinum-8180.html) $15,759.99
+
+### Intel Core Processor | [Homepage](https://www.intel.com/content/www/us/en/products/processors/core.html)
 
 ## AMD
 
-## Ryzen
+### Ryzen
 
 #### Reference
 - CPU Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
+- Intel, https://www.intel.com/content/www/us/en/homepage.html, 2020-11-07-Sat.
+- Intel Xeon Processor, https://www.intel.com/content/www/us/en/products/processors/xeon.html, 2020-11-07-Sat.
+- Intel Core Processor, https://www.intel.com/content/www/us/en/products/processors/core.html, 2020-11-07-Sat.
+- Intel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94, 2020-11-07-Sat.
