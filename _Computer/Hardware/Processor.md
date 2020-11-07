@@ -17,7 +17,8 @@ Intel은 반도체 설계와 제조를 하는 미국의 기업으로, 본사는 
 ## AMD | [Homepage](https://www.amd.com/en) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4)
 AMD(Advanced Micro Devices)는 미국의 집적회로 제조사로 캘리포니아 산타클라라 카운티 서니베일에 위치해있다. Intel에 이어 2번째로 큰 x86 아키텍처 호환 프로세스 제조사이며 플래시 메모리 분야에서도 주도적인 위치에 있다. AMD가 ATI를 2006년에 합병한 이후 GPU 시장에서도 높은 점유율을 차지하고 있다. AMD는 제리 샌더스가 1969년 5월 1일에 페어차일드 반도체의 동료들 중 7명과 함께 설립하였다.
 
-### Ryzen
+### AMD Ryzen Desktop Processor | [Homepage](https://www.amd.com/en/processors/ryzen) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0)
+Ryzen은 젠과 젠 플러스와 젠 2 아키텍처를 기반으로 하여 AMD가 제조하는 컴퓨터 마이크로프로세서 시리즈에 적용하는 브랜드 이름이다. 젠으로 구동되는 라이젠 프로세서들은 데이터 센터나 서버에 목표를 두지 않고 고성능 데스크탑(HEDT), 저전력 컴퓨팅을 지향하는 랩탑 탑재용 모바일 프로세서 ㅣ장을 목표한다. Ryzen은 Intel의 Core 시리즈에 대응한다.
 
 #### Reference
 - CPU Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
@@ -27,3 +28,5 @@ AMD(Advanced Micro Devices)는 미국의 집적회로 제조사로 캘리포니�
 - Intel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94, 2020-11-07-Sat.
 - AMD, https://www.amd.com/en, 2020-11-07-Sat.
 - AMD Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4, 2020-11-07-Sat.
+- AMD Ryzen Processor, https://www.amd.com/en/processors/ryzen, 2020-11-07-Sat.
+- AMD Ryzen Processor Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0, 2020-11-07-Sat.
