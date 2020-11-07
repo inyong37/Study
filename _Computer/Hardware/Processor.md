@@ -5,7 +5,8 @@ CPU(중앙 처리 장치)는 컴퓨터 시스템을 통제하고 프로그램의
 ## Micro Processor 
 Micro processor는 페드리코 페긴이 1970년대에 발명한 것으로, CPU의 설계와 구현에 대한 전반적인 기초를 완전히 바꾸어 놓았다. 최초의 상업용 마이크로프로세스는 1970년에 등장한 Intel 4004, 범용 마이크로프로세서는 1974년의 Intel 8080이다. 각종 전자 부품과 반도체 칩을 하나의 작은 칩에 내장한 전자 부품을 마이크로프로세서라고 한다. 마이크로프로세서는 전기 밥통에 쓰이는 낮은 성능의 저품부터 컴퓨터에 쓰이는 높은 성능의 제품까지 매우 다양하다. 마이크로프로세서들 가운데 가장 복잡하고 성능이 높은 제품은 컴퓨터의 연산 장치로 쓰인다. 이것을 CPU라고 한다.
 
-## Intel | [Homepage](https://www.intel.com/content/www/us/en/homepage.html)
+## Intel | [Homepage](https://www.intel.com/content/www/us/en/homepage.html) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94)
+Intel은 반도체 설계와 제조를 하는 미국의 기업으로, 본사는 캘리포니아 샌타클래라에 있다. Intel은 1968년 7월 18일에 고든 무어와 로버트 노이스가 설립하였고 INTegrated ELectronics의 혼성어이다. 1971년 최초의 마이크로프로세서인 Intel 4004를 만들었으며 이후 만들어진 인텔 8088은 IBM PC에 장착되어 유명해졌다. 이때 만들어진 x86 명령어 아키텍처는 확장을 통해 지금까지 데스크탑 시장에서 널리 쓰이게 되었다. 일반적인 PC는 x86 호환 프로세서를 사용하는 IBM PC 호환기종이다. 이뿐 아니라 메인보드 칩셋, 네트워크 카드, 집접회로, 플래시 메모리, 그래픽 프로세서, 임베디드 프로세서 등의 통신과 컴퓨팅에 관련된 장치도 만든다.
 
 ### Intel Xeon Processor | [Homepage](https://www.intel.com/content/www/us/en/products/processors/xeon.html)
 
