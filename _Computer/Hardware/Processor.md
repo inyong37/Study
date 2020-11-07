@@ -10,11 +10,12 @@ Intel은 반도체 설계와 제조를 하는 미국의 기업으로, 본사는 
 
 ### Intel Xeon Processor | [Homepage](https://www.intel.com/content/www/us/en/products/processors/xeon.html)
 
-### [Intel Xeon Platinum 8180 Processor](https://www.intel.com/content/www/us/en/products/processors/xeon/scalable/platinum-processors/platinum-8180.html) $15,759.99
+#### [Intel Xeon Platinum 8180 Processor](https://www.intel.com/content/www/us/en/products/processors/xeon/scalable/platinum-processors/platinum-8180.html) $15,759.99
 
 ### Intel Core Processor | [Homepage](https://www.intel.com/content/www/us/en/products/processors/core.html)
 
-## AMD
+## AMD | [Homepage](https://www.amd.com/en) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4)
+AMD(Advanced Micro Devices)는 미국의 집적회로 제조사로 캘리포니아 산타클라라 카운티 서니베일에 위치해있다. Intel에 이어 2번째로 큰 x86 아키텍처 호환 프로세스 제조사이며 플래시 메모리 분야에서도 주도적인 위치에 있다. AMD가 ATI를 2006년에 합병한 이후 GPU 시장에서도 높은 점유율을 차지하고 있다. AMD는 제리 샌더스가 1969년 5월 1일에 페어차일드 반도체의 동료들 중 7명과 함께 설립하였다.
 
 ### Ryzen
 
@@ -24,3 +25,5 @@ Intel은 반도체 설계와 제조를 하는 미국의 기업으로, 본사는 
 - Intel Xeon Processor, https://www.intel.com/content/www/us/en/products/processors/xeon.html, 2020-11-07-Sat.
 - Intel Core Processor, https://www.intel.com/content/www/us/en/products/processors/core.html, 2020-11-07-Sat.
 - Intel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94, 2020-11-07-Sat.
+- AMD, https://www.amd.com/en, 2020-11-07-Sat.
+- AMD Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4, 2020-11-07-Sat.
