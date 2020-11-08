@@ -20,6 +20,9 @@ AMD(Advanced Micro Devices)는 미국의 집적회로 제조사로 캘리포니�
 ### AMD Ryzen Desktop Processor | [Homepage](https://www.amd.com/en/processors/ryzen) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0)
 Ryzen은 젠과 젠 플러스와 젠 2 아키텍처를 기반으로 하여 AMD가 제조하는 컴퓨터 마이크로프로세서 시리즈에 적용하는 브랜드 이름이다. 젠으로 구동되는 라이젠 프로세서들은 데이터 센터나 서버에 목표를 두지 않고 고성능 데스크탑(HEDT), 저전력 컴퓨팅을 지향하는 랩탑 탑재용 모바일 프로세서 ㅣ장을 목표한다. Ryzen은 Intel의 Core 시리즈에 대응한다.
 
+### ARM: Advanced/Acorn RISC Machine | [Homepage](https://www.arm.com) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/ARM_아키텍처)
+ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이다. 저전력을 사용하도록 설계하여 arm CPU는 모바일 시장 및 싱글 보드 컴퓨터로 불리는 개인용 컴퓨터에서 뚜렷한 강세를 보인다. arm은 1985년 4월 26일 영국의 캠브릿지에 있는 Acorn Computers에 의해서 탄생되었으며, 1990년 11월 Apple과 VLSI의 조인트 벤처 형식으로 ARM(Advanced RISC Machines)가 생겼다.
+
 # AP: Application Processor | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)
 AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 등 사람의 두뇌 역할을 하는 핵심 부품이다. AP는 CPU와 달리 GPU와 설계에 따라 통신 칩(WiFi, Bluetooth, 3G 등)과 USB와 같은 기능까지 하나의 칩에 포함시켜 놓는 칩셋의 형태로 구성되었기 떄문이다. 칩셋은 SoC라 불리며 CPU, GPU 등 칩 한에 여러 기능을 집적시켜 모든 애플리케이션 구동과 시스템 장치, 여러 인터페이스 장치 등을 제어하고 관장하는 장치로, 부피를 줄이고 전력 소모를 최소화할 수 있게 한손에 들고 다닐 수 있는 초소형의 컴퓨터를 만들 수 있게 되었다고 한다.
 
@@ -48,3 +51,4 @@ AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 �
 - AMD Ryzen Processor, https://www.amd.com/en/processors/ryzen, 2020-11-07-Sat.
 - AMD Ryzen Processor Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0, 2020-11-07-Sat.
 - AP Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C, 2020-11-08-Sun.
+- ARM Wiki KR-KO, https://ko.wikipedia.org/wiki/ARM_아키텍처, 2020-11-09-Mon.
