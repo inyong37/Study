@@ -52,3 +52,4 @@ AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 �
 - AMD Ryzen Processor Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0, 2020-11-07-Sat.
 - AP Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C, 2020-11-08-Sun.
 - ARM Wiki KR-KO, https://ko.wikipedia.org/wiki/ARM_아키텍처, 2020-11-09-Mon.
+- ARM, https://www.arm.com,, 2020-11-09-Mon.
