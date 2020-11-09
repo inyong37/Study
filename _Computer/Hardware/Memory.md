@@ -1,8 +1,12 @@
-# RAM: Random Access Memory
+# RAM: Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+RAM(임의 접근 기억 장치)은 임의의 영역에 접근하여 읽고 쓰기가 가능한 주기억 장치이다. 반도체 회로로 구성되어 있으며 휘발성 메모리이다. 흔히 RAM을 "읽고 쓸 수 있는 메모리"라는 뜻으로 알고 있는데 이것은 오해다. RAM은 어느 위치에 저장되 데이터든지 접근(읽기 및 쓰기)하는 데 동일한 시간이 거리는 메모리이기에 random(무작위)이다. 반면 HDD 등의 자기 디스크나 자기 테이프는 저장된 위치에 따라 접근하는 데 시간이 다르게 걸린다.
 
 ### Parity
 
 ### ECC: Error Correcting Code
+
+### DRAM: Dynamic RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8)
+DRAM(동적 막기억장치)는 RAM의 한 종류로 정보를 구성하는 개개의 비트를 각기 분리된 capacitor에 저장하는 기억 장치이다. 각각의 capacitor가 담고 있는 전자의 수의 따라 비트의 1과 0을 나타내지만 결국 capacitor가 전자를 누전하므로 기억된 정보를 잃게 된다. 이를 방지하기 위해 기억 장치의 내용을 일정 시간마다 재생시켜야 되는 것을 일컬어 dynamic이란 명칭이 주어졌다. 정보를 유지하려면 지속적인 전기 공급이 필요하기 때문에 DRAM은 휘발성 기억 장치(volatile memory)에 속한다.
 
 ### SDRAM: Synchronous Dynamic Random Access Memory
 
@@ -31,3 +35,5 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - ROM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
 - Flash Memory, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-07-Sat.
 - EPROM, https://ko.wikipedia.org/wiki/EPROM, 2020-11-08-Sun.
+- RAM, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
+- DRAM, https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
