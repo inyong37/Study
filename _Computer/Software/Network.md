@@ -50,6 +50,9 @@ An anonymous pipe is a simple FIFO communication chaneel that may be used for on
 ### Named Pipe | [Wiki](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR-KO)](https://mug896.github.io/bash-shell/named_pipe.html)
 A named pips(also known as a FIFO for its behavior) is an extension to the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of IPC. The concepth is also found in OS/2 and Microsoft Windows, althought the semantics differ substantially. A tranditional pipe is unnamed and lasts only as long as the process. A named pipe, however, can last as long as the system is up, beyond the life of the process. It can be deleted if no longer used, Usually a named pipe appears as a file, and generally processes attach to it for IPC.
 
+### File Descriptor | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
+File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
+
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
@@ -62,3 +65,4 @@ A named pips(also known as a FIFO for its behavior) is an extension to the tradi
 - Pipe blog KR-KO, https://12bme.tistory.com/226, 2020-11-09-Mon.
 - Named Pipe Wiki, https://en.wikipedia.org/wiki/Named_pipe, 2020-11-09-Mon.
 - Named Pipe blog KR-KO, https://mug896.github.io/bash-shell/named_pipe.html, 2020-11-09-Mon.
+- File Descriptor Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
