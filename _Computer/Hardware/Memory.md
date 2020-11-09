@@ -20,7 +20,8 @@ SDR SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만�
 ### DDR SDRAM: Double Data Rate SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
 DDR SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
 
-### GDDR SDRAM: Graphics Double Data Rate SDRAM
+### GDDR SDRAM: Graphics DDR SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/GDDR_SDRAM)
+GDDR SDRAM은 GPU(그래픽 처리 장치)용으로 설계된 일종의 SDRAM으로, DDR3 등 더 널리 알려져 있는 유형의 DDR SDRAM과 구별되지만 double data rate 전송을 포함한 동일한 기능 중 일부를 공유한다. 2014년을 기점으로 GDDR SDRAM 이후로 GDDR2, GDDR3, GDDR4, GDDR5, 그리고 GDDR6가 공개되었다.
 
 # ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
 ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본능에 비유할 수 있으며, 컴퓨터를 구동하기 위한 기본적인 정보가 담겨있고 그 정보들을 기억하기 위해 다른 정보들은 기억하지 않는다. ROM은 RAM과 달리 자유롭게 읽고 쓰기가 어려우며, 전원을 꺼도 데이터가 지워지지 않기 때문에 BIOS, UEFI, OS, firmware의 저장에 사용되었다. 최근에는 일부분이 읽고 쓰기가 가능한 flash memory 등으로 일부 대체되었다. ROM은 ROM writer로 수정이 가능하다. ROM은 1956년에 PROM이 발명되었고, 1971년에 EPROM이 발명되었으며, 1983년 EEPROM이 발명되었고, 1980년대 중반에는 Toshiba가 flash memory를 발명하여 1990년대 초에 상용화하였으며 이는 EEPROM의 일종으로 손상을 일으키지 않고 수천번이나 삭제와 재프로그래밍을 가능하게 하였다. 가장 최근 방식은 NAND flash 이며 이또한 Toshiba가 발명하였다.
@@ -46,3 +47,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - SRAM, https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
 - SDRAM, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
 - DDR SDRAM, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
+- GDDR SDRAM, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
