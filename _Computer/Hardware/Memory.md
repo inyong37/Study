@@ -5,10 +5,14 @@ RAM(임의 접근 기억 장치)은 임의의 영역에 접근하여 읽고 쓰�
 
 ### ECC: Error Correcting Code
 
+### SRAM: Static RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8)
+SRAM(정적 막기억장치)는 반도체 기억 장치의 한 종류로 주기적으로 내용을 갱신해 주어야하는 DRAM과 달리 기억 장치에 전원이 공급되는 한 그 내용이 계속 보존된다. SRAM은 RAM이므로 데이터의 쓰고 읽기가 이루어지는 주소와 관계없이 입출력에 걸리는 시간이 일정하다. SRAM은 DRAM의 일종인 SDRAM과 전혀 다른 기억 소자이다. SRAM에서 각각의 비트들은 4개의 transistor로 이루어진 2쌍의 inverter에 저장된다. 2쌍의 inverter가 1과 0의 값을 안정된 상태로 유지하고 2개의 접근 transistor가 읽기와 쓰기 기능을 수행한다. 따라서 1개의 비트를 저장하기 위해 일반적으로 8개의 transistor를 필요로 한다. SRAM은 회로의 대칭 구조로 인해 DRAM보다 훨씬 빠른 입출력을 가능하게 한다. 또한 메모리 주소에 접근할 때 상위 비트와 하위 비트 순서로 2번 접근해야 하는 DRAM과 달리 SRAM은 한번에 접근할 수 있는 장점이 있다.
+
 ### DRAM: Dynamic RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8)
 DRAM(동적 막기억장치)는 RAM의 한 종류로 정보를 구성하는 개개의 비트를 각기 분리된 capacitor에 저장하는 기억 장치이다. 각각의 capacitor가 담고 있는 전자의 수의 따라 비트의 1과 0을 나타내지만 결국 capacitor가 전자를 누전하므로 기억된 정보를 잃게 된다. 이를 방지하기 위해 기억 장치의 내용을 일정 시간마다 재생시켜야 되는 것을 일컬어 dynamic이란 명칭이 주어졌다. 정보를 유지하려면 지속적인 전기 공급이 필요하기 때문에 DRAM은 휘발성 기억 장치(volatile memory)에 속한다.
 
-### SDRAM: Synchronous Dynamic Random Access Memory
+### SDRAM: Synchronous DRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/SDRAM)
+SDRAM은 DRAM의 발전된 형태로, 보통 DRAM과는 달리 제어 장치 입력을 clock pulse와 동시에 일어나도록 하는 동기식 DRAM이다. SDRAM은 DDR SDRAM의 보급으로 SDR SDRAM이라는 관례적인 명칭이 주어졌따. SDR은 Single Data Rate의 약자이다. 이 의미는 기존의 SDRAM이 각 pusle clock이 상승 또는 하강하는 시점에서 한번만 정보를 전송하는 것에서 나온 명칭이다.
 
 ### SDR SDRAM: Single Data Rate SDRAM
 
@@ -37,3 +41,5 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - EPROM, https://ko.wikipedia.org/wiki/EPROM, 2020-11-08-Sun.
 - RAM, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
 - DRAM, https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
+- SRAM, https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
+- SDRAM, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
