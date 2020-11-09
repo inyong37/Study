@@ -20,6 +20,8 @@ SDR SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만�
 ### DDR SDRAM: Double Data Rate SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
 DDR SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
 
+### Multi Channel Memory Architecture | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0)
+Multi Channel Memory Architecture(다중 채널 메모리 구조)는 DRAM과 memory controller 사이에 통신 채널을 하나 이상 더 추가하여 데이터 전송 속도를 빠르게 하는 기술이다. 듀얼 채널, 트리플 채널, 그리고 쿼드 채널 등이 여기에 속한다. Dual channel architecture은 RAM에서 memory controller를 거치는 데이터를 2배로 만드는 기술을 말한다. Dual channel을 사용하는 memory controller는 2개의 64비트 데이터 채널을 이용함으로써 RAM에서 CPU로 데이터를 이동할 때 128비트의 대역을 활용할 수 있다. Dual channel은 DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM에서 사용된다. Dual channel은 병목 문제를 해결하는 것이 목적으로, processor의 속도가 빨라지면서 다른 부품들의 상대적으로 낮은 속도는 시스템 병목 원인으로 지적되어 왔다. Triple channel architecture은 Intel Core i7-900 시리즈부터 사용된 구조로, LGA 1366 platform은 DDR3 triple channel(보통 1333, 1600MHz)에서 지원하지만, 일부 mainboard에서는 더 높은 클럭 속도로 구동할 수 있다. Quard channel은 Intel LGA 2011, AMD G34 platform에서 지원한다.
 ### GDDR SDRAM: Graphics DDR SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/GDDR_SDRAM)
 GDDR SDRAM은 GPU(그래픽 처리 장치)용으로 설계된 일종의 SDRAM으로, DDR3 등 더 널리 알려져 있는 유형의 DDR SDRAM과 구별되지만 double data rate 전송을 포함한 동일한 기능 중 일부를 공유한다. 2014년을 기점으로 GDDR SDRAM 이후로 GDDR2, GDDR3, GDDR4, GDDR5, 그리고 GDDR6가 공개되었다.
 
@@ -48,3 +50,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - SDRAM, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
 - DDR SDRAM, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
 - GDDR SDRAM, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
+- Multi Channel Memory Architecture, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
