@@ -57,4 +57,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - GDDR SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
 - Multi Channel Memory Architecture Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
 - Parity Bit Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
-- ECC memory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
+- ECC emory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
