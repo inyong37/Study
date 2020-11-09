@@ -22,7 +22,7 @@ Multi Channel Memory Architecture(다중 채널 메모리 구조)는 DRAM과 mem
 ### GDDR SDRAM: Graphics DDR SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/GDDR_SDRAM)
 GDDR SDRAM은 GPU(그래픽 처리 장치)용으로 설계된 일종의 SDRAM으로, DDR3 등 더 널리 알려져 있는 유형의 DDR SDRAM과 구별되지만 double data rate 전송을 포함한 동일한 기능 중 일부를 공유한다. 2014년을 기점으로 GDDR SDRAM 이후로 GDDR2, GDDR3, GDDR4, GDDR5, 그리고 GDDR6가 공개되었다.
 
-### ECC: Error Correcting Code
+### ECC: Error Correcting Code Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 
 ### Parity Bit | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8)
 Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 위해 추가된 bit이다. 문자열 내 1비트의 모든 숫자가 odd 또는 even인지를 보증하기 위해 전송하고자 하는 데이터의 각 문자에 1bit를 더하여 전송하는 방법으로, 2가지 종류의 parity(odd, even)가 있다. Parity bit는 오류 검출 부호에서 가장 간단한 형태로 쓰인다. Odd parity는 전체 bit에서 1의 개수가 odd이 되도록 parity bit를 정하는 방법이다. Even parity는 전체 bit에서 1의 개수가 even이 되도록 parity bit를 정하는 방법이다. 예를 들어 data bit에서 1의 개수가 odd이면 parity bit를 1로 정한다. 이렇게 parity bit를 정하여 데이터를 보내면 받는 쪽에서는 수신된 데이터의 전체 bit를 계산하여 parity bit를 다시 계산함으로써 데이터 오류 발생 여부를 알 수 있다. 그러나 parity bit는 오류 발생 여부만 알 수 있지, 오류를 수정할 수는 없다.
@@ -44,13 +44,14 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - SDRAM, DDR1, DDR2, DDR3, DDR4 blog KO-KR, https://kr.transcend-info.com/Support/FAQ-296, 2020-10-19-Mon.
 - DDR, GDDR, https://m.post.naver.com/viewer/postView.nhn?volumeNo=7144098&memberNo=5148059, 2020-10-19-Mon.
 - ROM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
-- Flash Memory, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-07-Sat.
-- EPROM, https://ko.wikipedia.org/wiki/EPROM, 2020-11-08-Sun.
-- RAM, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
-- DRAM, https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
-- SRAM, https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
-- SDRAM, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
-- DDR SDRAM, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
-- GDDR SDRAM, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
-- Multi Channel Memory Architecture, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
-- Parity Bit, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
+- Flash Memory Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-07-Sat.
+- EPROM Wiki KR-KO, https://ko.wikipedia.org/wiki/EPROM, 2020-11-08-Sun.
+- RAM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
+- DRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
+- SRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
+- SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
+- DDR SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
+- GDDR SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
+- Multi Channel Memory Architecture Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
+- Parity Bit Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
+- ECC memory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
