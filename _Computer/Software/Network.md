@@ -1,15 +1,10 @@
 # Internet
 
-## VPN (Virtual Private Network, 가상사설망)
-```
-네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
-```
+## VPN: Virtual Private Network
+VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
 
-## Proxy Server (프록시 서버)
-```
-클라이언트가 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 시스템 또는 프로그램이다.
-서버와 클라이언트 사이 중계기로서 대리로 통신하는 것을 '프록시' 중계를 해주는 것을 '프록시 서버'라 한다.
-```
+### Proxy Server
+Proxy Server(프록시 서버)는 클라이언트가 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 시스템 또는 프로그램이다. 서버와 클라이언트 사이 중계기로서 대리로 통신하는 것을 "Proxy" 중계를 해주는 것을 "Proxy Server"라 한다.
 
 ## ego-motion vs odometry
 both can be used interchangeably in general
@@ -20,11 +15,18 @@ both can be used interchangeably in general
 ### visual odometry/odometry
 the estimation of ego-motion using computer vision techniques
 
-## HTTPS
-### HTTP(HyperTxet Trnasfer Protocol) vs HTTPS(HyperTxet Trnasfer Protocol Secure)
-https is also referred to as http over TLS or http over SSL
+### HTTP: Hyper Text Transfer Protocol
 
-## DNS: Domain Name System | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
+### HTTPS: HTTP Secure
+
+#### HTTP vs HTTPS
+HTTPS is also referred to as HTTP over TLS or http over SSL
+
+### FTP: File Transfer Protocol
+
+### SSH: Secure SHell
+
+### DNS: Domain Name System | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
 
 The Domain Name System delegates the responsibility of assigning domain names and mapping those names to Internet resources by designating authoritative name servers for each domain. Network administrators may delegate authority over sub-domains of their allocated name space to other name servers. This mechanism provides distributed and fault-tolerant service and was designed to avoid a single large central database.
