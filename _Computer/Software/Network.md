@@ -1,19 +1,21 @@
-# Internet
+# Network
 
-## VPN: Virtual Private Network
+### Internet
+
+### VPN: Virtual Private Network
 VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
 
 ### Proxy Server
 Proxy Server(프록시 서버)는 클라이언트가 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 시스템 또는 프로그램이다. 서버와 클라이언트 사이 중계기로서 대리로 통신하는 것을 "Proxy" 중계를 해주는 것을 "Proxy Server"라 한다.
 
-## ego-motion vs odometry
-both can be used interchangeably in general
-
-### ego-motion
-3D motion of a system within an environment
+### Ego Motion
+Ego motion is a 3D motion of a system within an environment.
 
 ### visual odometry/odometry
-the estimation of ego-motion using computer vision techniques
+Visual odometry is the estimation of ego-motion using computer vision techniques.
+
+#### ego-motion vs odometry
+Both words can be used interchangeably in general.
 
 ### HTTP: Hyper Text Transfer Protocol
 
