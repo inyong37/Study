@@ -15,8 +15,10 @@ DRAM(동적 막기억장치)는 RAM의 한 종류로 정보를 구성하는 개�
 SDRAM은 DRAM의 발전된 형태로, 보통 DRAM과는 달리 제어 장치 입력을 clock pulse와 동시에 일어나도록 하는 동기식 DRAM이다. SDRAM은 DDR SDRAM의 보급으로 SDR SDRAM이라는 관례적인 명칭이 주어졌다. SDR은 Single Data Rate의 약자이다. 이 의미는 기존의 SDRAM이 각 pusle clock이 상승 또는 하강하는 시점에서 한번만 정보를 전송하는 것에서 나온 명칭이다.
 
 ### SDR SDRAM: Single Data Rate SDRAM
+SDR SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만큼의 data를 주고 받을 수 있는 SDRAM을 말한다. 전형적인 clock frequency는 100 및 133MHz였다. 데이터 버스 사이즈는 4비트, 8비트, 16비트 등으로 다양하였는데, 단 일반적으로 SDR SDRAM 칩들은 64 (non-ECC) 혹은 72 (ECC) 비트를 한번에 읽을 수 있는 168 핀 DIMM 형태로 조립되었다.
 
-### DDR SDRAM: Double Data Rate SDRAM
+### DDR SDRAM: Double Data Rate SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
+DDR SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
 
 ### GDDR SDRAM: Graphics Double Data Rate SDRAM
 
@@ -43,3 +45,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - DRAM, https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
 - SRAM, https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8, 2020-11-09-Mon.
 - SDRAM, https://ko.wikipedia.org/wiki/SDRAM, 2020-11-09-Mon.
+- DDR SDRAM, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
