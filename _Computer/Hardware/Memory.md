@@ -30,6 +30,9 @@ DRAM의 single bit가 컴퓨터 시스템 내부의 전기적 또는 자기적 �
 ### Parity Bit | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8)
 Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 위해 추가된 bit이다. 문자열 내 1비트의 모든 숫자가 odd 또는 even인지를 보증하기 위해 전송하고자 하는 데이터의 각 문자에 1bit를 더하여 전송하는 방법으로, 2가지 종류의 parity(odd, even)가 있다. Parity bit는 오류 검출 부호에서 가장 간단한 형태로 쓰인다. Odd parity는 전체 bit에서 1의 개수가 odd이 되도록 parity bit를 정하는 방법이다. Even parity는 전체 bit에서 1의 개수가 even이 되도록 parity bit를 정하는 방법이다. 예를 들어 data bit에서 1의 개수가 odd이면 parity bit를 1로 정한다. 이렇게 parity bit를 정하여 데이터를 보내면 받는 쪽에서는 수신된 데이터의 전체 bit를 계산하여 parity bit를 다시 계산함으로써 데이터 오류 발생 여부를 알 수 있다. 그러나 parity bit는 오류 발생 여부만 알 수 있지, 오류를 수정할 수는 없다.
 
+### Hamming Code | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8)
+Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
+
 # ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
 ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본능에 비유할 수 있으며, 컴퓨터를 구동하기 위한 기본적인 정보가 담겨있고 그 정보들을 기억하기 위해 다른 정보들은 기억하지 않는다. ROM은 RAM과 달리 자유롭게 읽고 쓰기가 어려우며, 전원을 꺼도 데이터가 지워지지 않기 때문에 BIOS, UEFI, OS, firmware의 저장에 사용되었다. 최근에는 일부분이 읽고 쓰기가 가능한 flash memory 등으로 일부 대체되었다. ROM은 ROM writer로 수정이 가능하다. ROM은 1956년에 PROM이 발명되었고, 1971년에 EPROM이 발명되었으며, 1983년 EEPROM이 발명되었고, 1980년대 중반에는 Toshiba가 flash memory를 발명하여 1990년대 초에 상용화하였으며 이는 EEPROM의 일종으로 손상을 일으키지 않고 수천번이나 삭제와 재프로그래밍을 가능하게 하였다. 가장 최근 방식은 NAND flash 이며 이또한 Toshiba가 발명하였다.
 
@@ -58,3 +61,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - Multi Channel Memory Architecture Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
 - Parity Bit Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
 - ECC emory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
+- Hamming Code Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8, 2020-11-10-Tue.
