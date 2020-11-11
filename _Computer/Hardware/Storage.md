@@ -9,9 +9,10 @@ HDD(하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발�
 Platter는 HDD에서 데이터가 저장되는 원판을 말한다. Platter의 장당 용량은 기록 밀도가 높아질수록 커질 뿐만 아니라, 같은 용량의 데이터를 입출력 하더라도 head가 적게 움직이므로 HDD의 입출력 속도에도 영향을 미친다. 또한 platter의 회전 속도는 HDD의 반응 속도에 영향을 미친다. 대용량의 HDD의 경우 여러 장의 platter를 사용하기도 한다. 하지만 너무 많은 장수의 platter를 장착하면 발열, 소음, 전력 소모, 오작동 등의 문제가 발생하므로 여러 장의 platter를 사용해 고용량을 만드는 방법도 한계가 있다.
 
 ### Longitudinal Magnetic Recording(LMR)
+LMR(수평 기록 방식)은 데이터를 저장하는 자기 입자들을 수평으로 배열하므로 만들기 쉽지만 데이터 밀도가 낮아 대용량을 실현하기 어렵다는 단점이 있다.
 
 ### Perpendicular Magnetic Recording(PMR)
-PMR is made by Toshiba
+PMR(수직 기록 방식)은 데이터를 저장하는 자기 입자들을 platter 표면에 수직 방향 배열함으로써 더 높은 데이터 밀도를 실현할 수 있어 작은 면적으로도 더 큰 데이터를 저장할 수 있으며, 오랜 시간이 지나도 자성이 안정되어 있어 수명이 길어 각광받고 있다. 하지만 수직으로 데이터를 기록할 때 생기는 문제인 자화전이점 노이즈와 스파크 노이즈를 해결하기 위해서는 단자극형(single pole type) 기록 헤드를 사용하여 자기 기록층에 수직인 자계를 인가하여 기록하므로, 헤드의 구조가 더욱 복잡해진다. PMR is made by Toshiba.
 
 ### Shingled Magnetic Recording(SMR)
 
