@@ -2,16 +2,15 @@
 ```
 This page is about storage.
 ```
-## I. Hard Disk Drive (HDD)
+## I. Hard Disk Drive(HDD) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C)
+HDD(하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발성, 순차 접근이 가능한 컴퓨터의 보조 기억 장치이다. 보호 케이스 안에 있는 platter를 회전시켜 이것에 자기 패턴으로 정보를 기록한다. 이 platter를 구동시키는 장치는 스팬들 모터로 이루어져있다. 데이터는 platter 표면의 코팅된 자성체에 기록되며 회전하는 platter 위에 부상하는 입출력 헤드에 의해 자기적으로 데이터를 쓰고 읽을 수 있다. HDD는 floppy disk와 같은 자기 기록 매체이나, floppy disk와 다르게 금속 재질의 platter에 데이터를 기록하기 때문에 구분짓기 위해 재질적으로 단단하다는 뜻으로 hard라는 이름이 붙었다. 일반적으로 아직까지는 personal computer의 OS를 담는 용도로 없어서는 안 되는 저장 매체로 많이 쓰이고 있다.
 
-### LMR
-Longitudinal Magnetic Recording
+### Longitudinal Magnetic Recording(LMR)
 
-### PMR
-Perpendicular Magnetic Recording, made by Toshiba
+### Perpendicular Magnetic Recording(PMR)
+PMR is made by Toshiba
 
-### SMR
-Shingled Magnetic Recording
+### Shingled Magnetic Recording(SMR)
 
 ### Low Level Format
 Record all platters as zero.
@@ -56,3 +55,4 @@ Create the best work of your life with the latest versions of Word, Excel and ot
  2. OneDrive, https://www.microsoft.com/ko-kr/microsoft-365/onedrive/online-cloud-storage, 2020-05-05-Tue.
  3. iCloud, https://www.apple.com/kr/icloud/, 2020-05-05-Tue.
 - Das Wiki, https://en.wikipedia.org/wiki/Direct-attached_storage, 2020-10-13-Tue.
+- HDD Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C, 2020-11-11-Wed.
