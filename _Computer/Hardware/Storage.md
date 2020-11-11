@@ -8,6 +8,8 @@ HDD(하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발�
 ### Platter | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0)
 Platter는 HDD에서 데이터가 저장되는 원판을 말한다. Platter의 장당 용량은 기록 밀도가 높아질수록 커질 뿐만 아니라, 같은 용량의 데이터를 입출력 하더라도 head가 적게 움직이므로 HDD의 입출력 속도에도 영향을 미친다. 또한 platter의 회전 속도는 HDD의 반응 속도에 영향을 미친다. 대용량의 HDD의 경우 여러 장의 platter를 사용하기도 한다. 하지만 너무 많은 장수의 platter를 장착하면 발열, 소음, 전력 소모, 오작동 등의 문제가 발생하므로 여러 장의 platter를 사용해 고용량을 만드는 방법도 한계가 있다.
 
+HDD의 bad sector 등 오류는 흔히 platter에 발생한 물리적 흠집(스크래치)에 의해 발생한다.
+
 ### Longitudinal Magnetic Recording(LMR)
 LMR(수평 기록 방식)은 데이터를 저장하는 자기 입자들을 수평으로 배열하므로 만들기 쉽지만 데이터 밀도가 낮아 대용량을 실현하기 어렵다는 단점이 있다.
 
