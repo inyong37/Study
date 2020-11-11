@@ -45,6 +45,9 @@ Flash memory(전기 일괄소거형 기억기)는 전기적으로 데이터를 �
 ### V-NAND
 V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리며 차지 트랩 플래시 아키텍처를 사용한다. 이 수직층들은 개개의 작은 셀들의 필요 없이 더 큰 면적의 비트 밀도를 가능케 한다.
 
+# CPU Cache | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C)
+CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드웨어 캐시다. CPU cache는 메인 메모리에서 가장 자주 사용되는 위치의 데이터를 갖고 있는, 크기는 작지만 빠른 메모리이다. 대부분의 메모리 접근은 특정한 위치의 근방에서 자주 일어나는 경향이 있기 때문에, 데이터를 크기는 작지만 속도가 빠른 cache memory에 복사해 두면 평균 메모리 접근 시간을 아낄 수 있다. 프로세서가 메인 메모리를 읽거나 쓰고자 할 때는, 먼저 그 주소에 해당하는 데이터가 cache에 존재하는지를 살핀다. 만약 그 주소의 데이터가 cache에 있으면 데이터를 cache에서 직접 읽고, 그렇지 않으면 메인 메모리에 직접 접근한다. 이때 대부분의 프로세서는 메인 메모리에 직접 접근해서 전송된 데이터를 cache에 복사해 넣음으로써 다음에 같은 주소에 프로세서가 접근할 때 cache에서 직접 읽고 쓸 수 있도록 한다.
+
 #### Reference
 - ECC blog KO-KR, https://m.blog.naver.com/PostView.nhn?blogId=jamiet1&logNo=221557521166&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-10-19-Mon.
 - SDRAM, DDR1, DDR2, DDR3, DDR4 blog KO-KR, https://kr.transcend-info.com/Support/FAQ-296, 2020-10-19-Mon.
@@ -62,3 +65,4 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 - Parity Bit Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
 - ECC emory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
 - Hamming Code Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8, 2020-11-10-Tue.
+- CPU Cache Wiki KR-KO, https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C, 2020-11-11-Wed.
