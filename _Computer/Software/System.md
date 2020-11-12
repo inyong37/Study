@@ -3,6 +3,9 @@ OS(운영 체제는/조작 체계)는 시스템 하드웨어를 관리할 뿐 �
 
 OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다. 또한 OS는 CS의 연구 분야이기도 하다.
 
+## Firmware | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
+Firmware(펌웨어)는 CS에서 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
+
 - CP/M (by Digital Research, at 1974)
 - DOS
   - 86-DOS (aka QDOS, by Seattle Computer Products)
@@ -181,3 +184,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - 도스 Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4, 2020-10-30-Fri.
 - BIOS Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EC%98%A4%EC%8A%A4, 2020-11-12-Thu.
 - OS Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C, 2020-11-12-Thu.
+- Firmware Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4, 2020-11-12-Thu.
