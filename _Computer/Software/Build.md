@@ -1,1 +1,93 @@
-Redirect to [Build](https://github.com/inyong37/Study/tree/master/_Framework#build) System
+# Build | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C)
+Software build는 CS에서 소스 코드 파일을 컴퓨터나 휴대폰에서 실행할 수 있는 독립(standalone) 소프트웨어 가공물로 변환하는 과정을 말하거나 그에 대한 결과물을 일컫는다. 빌드에 있어 가장 중요한 단계들 가운데 하나는 소스 코드 파일이 실행 코드로 변환되는 컴파일 과정이다. 컴퓨터 프로그램을 빌드하는 과정은 보통 다른 프로그램을 제어하는 프로그램인 빌드 도구에 의해 관리된다.
+
+## Build Tool
+Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Googlde이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 Ninja로 응용프로그램 프로젝트를 구축할 수 있도록 Ninja 빌드 파일을 생성하는 메타 빌드 시스템이다. Chromium 빌드가 GYP에서 GN으로 전환되었다. [Ref]
+
+TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다.
+
+Keras는 python으로 `PyPI(pip)`, 또는 직접 소스에서 `(sudo) python setup.py install`한다. 
+
+## [Bazel](https://www.bazel.build/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
+Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
+
+Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
+
+When designing Bazel, we focused on build speed, accuracy and reproducibility. This tool uses parallelism to accelerate parts of the build process. Includes Bazel Query language that can be used to analyze build dependencies in complex build graphs.[Ref]
+
+## [Starlark Language](https://docs.bazel.build/versions/2.0.0/skylark/language.html) | [GitHub](https://github.com/bazelbuild/starlark)
+Starlark (formerly known as Skylark) is a language intended for use as a configuration language. It was designed for the Bazel build system, but may be useful for other projects as well. This repository is where Starlark features are proposed, discussed, and specified. It contains information about the language, including the specification. There are multiple implementations of Starlark.
+
+Starlark is a dialect of Python. Like Python, it is a dynamically typed language with high-level data types, first-class functions with lexical scope, and garbage collection. Independent Starlark threads execute in parallel, so Starlark workloads scale well on parallel machines. Starlark is a small and simple language with a familiar and highly readable syntax. You can use it as an expressive notation for structured data, defining functions to eliminate repetition, or you can use it to add scripting capabilities to an existing application.
+
+A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
+
+## Make | [GNU Make](https://www.gnu.org/software/make/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Git Repositories](http://savannah.gnu.org/git/?group=make)
+GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
+
+Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.[Ref]
+
+## [CMake (Cross Platform Make)](https://cmake.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
+CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
+
+### How to use
+- Conditional statements: `if()`, `elseif()`, `else()`, `endif()`
+- Variable declarartion/definition: `SET()`
+  - `SET(var_name "value")`
+  - `SET(var_list "value_1" "value_2")`
+- Using variable: `$var_name` or `${var_name}`
+- Make binary output: `ADD_EXECUTABLE()`
+  - `ADD_EXECUTABLE(program.output main.cc foo.cc bar.cc)`
+- Minimum version: `CMAKE_MINIMUM_REQUIRED()`
+  - `CMAKE_MINIMUM_REQUIRED(VERSION "version_number")`
+  - `CMAKE_MINIMUM_REQUIRED(VERSION 3.0)`
+- Project name: `PROJECT()`
+  - `PROJECT(project_name)`
+  - use with `${CMAKE_PROJECT_NAME}`
+- Message output: `MESSAGE()`
+  - `MESSAGE("Hello World!")`
+  - `MESSAGE([Type] "message")`
+  - [Type]
+    - STATUS: plus '--'
+    - WARNING: warning message and keep going
+    - AUTHOR_WARNING: warning for develop and keep going
+    - SEND_ERROR: error message and keep going without Makefile
+    - FATAL_ERROR: error message and stop
+
+## [Ninja](https://ninja-build.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [GitHub](https://github.com/ninja-build/ninja)
+Ninja is a small build system with a focus on speed. It differs from other build systems in two major respects: it is designed to have its input files generated by a higher-level build system, and it is designed to run builds as fast as possible.[Ref]
+
+[Manual](https://ninja-build.org/manual.html)
+
+## [GYP (Generate Your Projects)](https://gyp.gsrc.io/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Google Source](https://chromium.googlesource.com/external/gyp)
+GYP is a Meta-Build system: a build system that generates other build systems.
+
+GYP is intended to support large projects that need to be built on multiple platforms (e.g., Mac, Windows, Linux), and where it is important that the project can be built using the IDEs that are popular on each platform as if the project is a “native” one.[Ref]
+
+## [GN (Generates Ninja build files)](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
+GN is a meta-build system that generates build files for Ninja.[Ref]
+
+#### Reference
+- Bazel, https://www.bazel.build/, 2020-07-16-Thu.
+- Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
+- Bazel GitHub, https://github.com/bazelbuild/bazel, 2020-07-16-Thu.
+- Starlark GitHub, https://github.com/bazelbuild/starlark, 2020-07-16-Thu.
+- GNU Make, https://www.gnu.org/software/make/, 2020-07-16-Thu.
+- Make Wiki(kor), https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
+- Make Git Repositories, http://savannah.gnu.org/git/?group=make, 2020-07-16-Thu.
+- CMake, https://cmake.org/, 2020-07-16-Thu.
+- CMake Wiki, https://ko.wikipedia.org/wiki/CMake, 2020-07-16-Thu.
+- CMake GitLab, https://gitlab.kitware.com/cmake/cmake, 2020-07-16-Thu.
+- Ninja, https://ninja-build.org/, 2020-07-16-Thu.
+- Ninja Wiki, https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C), 2020-07-16-Thu.
+- Ninja GitHub, https://github.com/ninja-build/ninja, 2020-07-16-Thu.
+- Ninja Manual, https://ninja-build.org/manual.html, 2020-07-16-Thu.
+- GYP, https://gyp.gsrc.io/, 2020-07-16-Thu.
+- GYP Wiki, https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
+- GYP Google Source, https://chromium.googlesource.com/external/gyp, 2020-07-16-Thu.
+- GN, https://www.chromium.org/developers/gn-build-configuration, 2020-07-16-Thu.
+- GN Wiki, https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C), 2020-07-16-Thu.
+- GN Google Source, https://gn.googlesource.com/gn/, 2020-07-16-Thu.
+- CMake functions, https://www.tuwlab.com/ece/27260, 2020-08-06-Thu.
+- Limit visibiliy using gnu/gcc version script, https://stackoverflow.com/questions/435352/limiting-visibility-of-symbols-when-linking-shared-libraries, 2020-08-06-Thu.
+- Build Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C, 2020-11-12-Thu.
