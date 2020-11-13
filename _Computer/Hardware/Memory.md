@@ -35,7 +35,7 @@ Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 
 ### Hamming Code | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8)
 Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
 
-# Non Volatile Random Access Memory(NVM, NVRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+# Non Volatile Memory(NVM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
 
 NVM은 보통 제 2차 저장 장치(secondary storage), 즉 장기간의 영구적 저장 공간으로서 이용된다. 현재 가장 널리 쓰이고 있는 제 1차 저장 장치는 휘발성 메모리인 RAM이다. 이것은 컴퓨터의 전원이 꺼졌을 때, RAM 안에 있던 모든 데이터가 지워진다. 불행하게도 현재 나와 있는 비휘발성 메모리는 제 1차 저장 장치에는 적합하지가 않다. 일반적으로 비휘발성 메모리는 RAM보다 가격 단가가 비싸다던가, 성능이 잘 나오지 않던가 한다. IBM은 MRAM을 개발 중이고, 삼성전자 Intel, STMicroelectronics 등은 PRAM을 개발 중이다.
