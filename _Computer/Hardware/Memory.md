@@ -1,4 +1,6 @@
-# RAM: Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+# Memory
+
+## RAM: Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 RAM(임의 접근 기억 장치)은 임의의 영역에 접근하여 읽고 쓰기가 가능한 주기억 장치이다. 반도체 회로로 구성되어 있으며 휘발성 메모리이다. 흔히 RAM을 "읽고 쓸 수 있는 메모리"라는 뜻으로 알고 있는데 이것은 오해다. RAM은 어느 위치에 저장되 데이터든지 접근(읽기 및 쓰기)하는 데 동일한 시간이 거리는 메모리이기에 random(무작위)이다. 반면 HDD 등의 자기 디스크나 자기 테이프는 저장된 위치에 따라 접근하는 데 시간이 다르게 걸린다.
 
 ### SRAM: Static RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8)
@@ -33,26 +35,26 @@ Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 
 ### Hamming Code | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8)
 Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
 
+### MRAM: Magnetoresistive Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+
+### PRAM: Phase change Memory, PCM, PCME, PCRAM, CRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
+
 # NVM, NVRAM: Non Volatile Memory, Non Volatile Storage | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
 
 NVM은 보통 제 2차 저장 장치(secondary storage), 즉 장기간의 영구적 저장 공간으로서 이용된다. 현재 가장 널리 쓰이고 있는 제 1차 저장 장치는 휘발성 메모리인 RAM이다. 이것은 컴퓨터의 전원이 꺼졌을 때, RAM 안에 있던 모든 데이터가 지워진다. 불행하게도 현재 나와 있는 비휘발성 메모리는 제 1차 저장 장치에는 적합하지가 않다. 일반적으로 비휘발성 메모리는 RAM보다 가격 단가가 비싸다던가, 성능이 잘 나오지 않던가 한다. IBM은 MRAM을 개발 중이고, 삼성전자 Intel, STMicroelectronics 등은 PRAM을 개발 중이다.
 
-# ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
+## ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
 ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본능에 비유할 수 있으며, 컴퓨터를 구동하기 위한 기본적인 정보가 담겨있고 그 정보들을 기억하기 위해 다른 정보들은 기억하지 않는다. ROM은 RAM과 달리 자유롭게 읽고 쓰기가 어려우며, 전원을 꺼도 데이터가 지워지지 않기 때문에 BIOS, UEFI, OS, firmware의 저장에 사용되었다. 최근에는 일부분이 읽고 쓰기가 가능한 flash memory 등으로 일부 대체되었다. ROM은 ROM writer로 수정이 가능하다. ROM은 1956년에 PROM이 발명되었고, 1971년에 EPROM이 발명되었으며, 1983년 EEPROM이 발명되었고, 1980년대 중반에는 Toshiba가 flash memory를 발명하여 1990년대 초에 상용화하였으며 이는 EEPROM의 일종으로 손상을 일으키지 않고 수천번이나 삭제와 재프로그래밍을 가능하게 하였다. 가장 최근 방식은 NAND flash 이며 이또한 Toshiba가 발명하였다.
 
 ### EPROM: Erasable PROM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/EPROM)
 EPROM(Erasable PROM)은 필요할 때 기억된 내용을 지우고 다른 내용을 기록할 수 있는 ROM이다. 지우는 방법에 따라 자외선으로 지울 수 있는 UVEPROM(Ultra-Violet Erasable Programmable Read Only Memory)과 높은 전압으로 지울 수 있는 EEPROM(Electrically Erasble Programmable Read Only Memory)로 나뉜다. 하지만 EPROM은 일반적으로 UVEPROM을 가리킨다. UVEPROM은 1971년 Intel의 Dov Frohman이 발명했으며 최초의 제품은 Intel 1702A이다. 기록은 floating-gate 트랜지스터에 고전압(12V)으로 전자를 주입하여 기록하며 플로팅 게이트는 절연되어 있어서 전원을 꺼도 전자는 보존되어 ROM으로 사용할 수 있다. 그러나 강한 자외선(234nm)을 쬐게되면 전자는 게이트의 절연막을 통과해 기록이 지워지게 된다. 보통 UVEPROM에는 석영유리창이 있어 다른 ROM과는 확연히 구분한다. 기록횟수는 고전압이 실리콘에 영향을 주기 때문에 20회 전후이며 차광 씰을 잘 부착하여 최적으로 보관한다면 약 10년 정도 데이터 보관이 가능하다. UVEPROM은 과거 메인보드, 그래픽카드의 BIOS chip이나 게임기의 ROM으로 많이 사용되었다. 그리고 칩 패키지에서 창을 없앤 UVEPROM을 OTP(One Time Programmable)라고 하는데 소거창이 없기 떄문에 한번 기록 후 지울 수 없으며 주로 마이크로컨트롤러에서 볼 수 있다.
 
-# Flash Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+## Flash Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 Flash memory(전기 일괄소거형 기억기)는 전기적으로 데이터를 지우고 다시 기록할 수 있는 비휘발성 컴퓨터 기억 장치이다.(Electrically erased and reprogrammed) Flash memory는 EEPROM과 다르게 여러 구역으로 구성된 블록 안에서 지우고 쓸 수 있다. 이제는 flash memory의 가격이 EEPROM보다 훨씬 싸기 때문에 비휘발성 고체 상태(Solid State) 저장 매체가 상당량 필요한 곳에서는 가장 많이 사용되는 메모리 종류가 되었다. USB drive에도 flash memory가 사용된다. 옛날 게임팩으로는 EEPROM으로 만들었으나 요즘은 flash memory가 주로 사용되고 있다. Flash memory는 메모리 칩 안에 정보를 유지시키는데 전력이 필요 없는 비휘발성 메모리이다. Flash memory는 DRAM보다는 느리지만 읽기 속도가 빠르며 HDD보다 충격에 강하다. 이러한 특징으로 배터리로 동작하는 장치에서 저장 장치로 많이 사용되며 강한 압력이나 끓는 물에도 견딜 만큼 물리적인 힘으로 거의 파괴되지 않는다.
 
 ### V-NAND
 V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리며 차지 트랩 플래시 아키텍처를 사용한다. 이 수직층들은 개개의 작은 셀들의 필요 없이 더 큰 면적의 비트 밀도를 가능케 한다.
-
-## MRAM: Magnetoresistive Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
-
-## PRAM: Phase change Memory, PCM, PCME, PCRAM, CRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
 
 # CPU Cache | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C)
 CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드웨어 캐시다. CPU cache는 메인 메모리에서 가장 자주 사용되는 위치의 데이터를 갖고 있는, 크기는 작지만 빠른 메모리이다. 대부분의 메모리 접근은 특정한 위치의 근방에서 자주 일어나는 경향이 있기 때문에, 데이터를 크기는 작지만 속도가 빠른 cache memory에 복사해 두면 평균 메모리 접근 시간을 아낄 수 있다. 프로세서가 메인 메모리를 읽거나 쓰고자 할 때는, 먼저 그 주소에 해당하는 데이터가 cache에 존재하는지를 살핀다. 만약 그 주소의 데이터가 cache에 있으면 데이터를 cache에서 직접 읽고, 그렇지 않으면 메인 메모리에 직접 접근한다. 이때 대부분의 프로세서는 메인 메모리에 직접 접근해서 전송된 데이터를 cache에 복사해 넣음으로써 다음에 같은 주소에 프로세서가 접근할 때 cache에서 직접 읽고 쓸 수 있도록 한다.
