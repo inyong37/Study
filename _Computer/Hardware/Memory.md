@@ -15,7 +15,7 @@ Synchronous DRAM(SDRAM)은 DRAM의 발전된 형태로, 보통 DRAM과는 달리
 ### Single Data Rate(SDD) SDRAM
 Single data rate(SDR) SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만큼의 data를 주고 받을 수 있는 SDRAM을 말한다. 전형적인 clock frequency는 100 및 133MHz였다. 데이터 버스 사이즈는 4비트, 8비트, 16비트 등으로 다양하였는데, 단 일반적으로 SDR SDRAM 칩들은 64 (non-ECC) 혹은 72 (ECC) 비트를 한번에 읽을 수 있는 168 핀 DIMM 형태로 조립되었다.
 
-### Double Data Rate SDRAM(DDR SDRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
+### Double Data Rate(DDR) SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
 Double data rate(DDR) SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
 
 ### Multi Channel Memory Architecture | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0)
@@ -35,27 +35,27 @@ Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 
 ### Hamming Code | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8)
 Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
 
-# NVM, NVRAM: Non Volatile Memory, Non Volatile Storage | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+# Non Volatile Random Access Memory(NVM, NVRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
 
 NVM은 보통 제 2차 저장 장치(secondary storage), 즉 장기간의 영구적 저장 공간으로서 이용된다. 현재 가장 널리 쓰이고 있는 제 1차 저장 장치는 휘발성 메모리인 RAM이다. 이것은 컴퓨터의 전원이 꺼졌을 때, RAM 안에 있던 모든 데이터가 지워진다. 불행하게도 현재 나와 있는 비휘발성 메모리는 제 1차 저장 장치에는 적합하지가 않다. 일반적으로 비휘발성 메모리는 RAM보다 가격 단가가 비싸다던가, 성능이 잘 나오지 않던가 한다. IBM은 MRAM을 개발 중이고, 삼성전자 Intel, STMicroelectronics 등은 PRAM을 개발 중이다.
 
-### MRAM: Magnetoresistive Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+### Magnetoresistive Random Access Memory(MRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 MRAM은 비휘발성 컴퓨터 메모리 기술이며 1990년대부터 개발이 진행 중이다. 현재의 메모리, 특히 flasy RAM과 DRAM의 밀도가 꾸준히 늘어나면서, 시장에서 MRAM은 틈새 제품이라는 위치를 벗어나지 못하였다. 그러나 MRAM을 지지하는 사람들은 MRAM의 뛰어난 이점 때문에 MRAM이 결국 시장을 지배하여 universal memory가 될 것으로 생각한다. 에버스핀에서 생산 중이며 글로벌 파운드리와 삼성을 포함한 다른 기업들은 제품 계획을 발표하였다.
 
-### PRAM: Phase change Memory, PCM, PCME, PCRAM, CRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
+### Phase Change Memory(PCM, PCRAM, CRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
 PRAM은 비휘발성 메모리의 한 종류로, flash memory의 비휘발성과 RAM의 빠른 속도의 장점을 모두 가지고 있는 차세대 메모리 반도체이다. PRAM은 열을 가함에 따라 비정질 상태와 결정질 상태로 바뀌는 칼코게나이드 유리의 독특한 특성을 이용하여 데이터를 저장한다.
 
-## ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
+## Read Only Memory(ROM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
 ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본능에 비유할 수 있으며, 컴퓨터를 구동하기 위한 기본적인 정보가 담겨있고 그 정보들을 기억하기 위해 다른 정보들은 기억하지 않는다. ROM은 RAM과 달리 자유롭게 읽고 쓰기가 어려우며, 전원을 꺼도 데이터가 지워지지 않기 때문에 BIOS, UEFI, OS, firmware의 저장에 사용되었다. 최근에는 일부분이 읽고 쓰기가 가능한 flash memory 등으로 일부 대체되었다. ROM은 ROM writer로 수정이 가능하다. ROM은 1956년에 PROM이 발명되었고, 1971년에 EPROM이 발명되었으며, 1983년 EEPROM이 발명되었고, 1980년대 중반에는 Toshiba가 flash memory를 발명하여 1990년대 초에 상용화하였으며 이는 EEPROM의 일종으로 손상을 일으키지 않고 수천번이나 삭제와 재프로그래밍을 가능하게 하였다. 가장 최근 방식은 NAND flash 이며 이또한 Toshiba가 발명하였다.
 
-### EPROM: Erasable PROM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/EPROM)
+### Erasable PROM(EPROM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/EPROM)
 EPROM(Erasable PROM)은 필요할 때 기억된 내용을 지우고 다른 내용을 기록할 수 있는 ROM이다. 지우는 방법에 따라 자외선으로 지울 수 있는 UVEPROM(Ultra-Violet Erasable Programmable Read Only Memory)과 높은 전압으로 지울 수 있는 EEPROM(Electrically Erasble Programmable Read Only Memory)로 나뉜다. 하지만 EPROM은 일반적으로 UVEPROM을 가리킨다. UVEPROM은 1971년 Intel의 Dov Frohman이 발명했으며 최초의 제품은 Intel 1702A이다. 기록은 floating-gate 트랜지스터에 고전압(12V)으로 전자를 주입하여 기록하며 플로팅 게이트는 절연되어 있어서 전원을 꺼도 전자는 보존되어 ROM으로 사용할 수 있다. 그러나 강한 자외선(234nm)을 쬐게되면 전자는 게이트의 절연막을 통과해 기록이 지워지게 된다. 보통 UVEPROM에는 석영유리창이 있어 다른 ROM과는 확연히 구분한다. 기록횟수는 고전압이 실리콘에 영향을 주기 때문에 20회 전후이며 차광 씰을 잘 부착하여 최적으로 보관한다면 약 10년 정도 데이터 보관이 가능하다. UVEPROM은 과거 메인보드, 그래픽카드의 BIOS chip이나 게임기의 ROM으로 많이 사용되었다. 그리고 칩 패키지에서 창을 없앤 UVEPROM을 OTP(One Time Programmable)라고 하는데 소거창이 없기 떄문에 한번 기록 후 지울 수 없으며 주로 마이크로컨트롤러에서 볼 수 있다.
 
 ## Flash Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%9E%98%EC%8B%9C_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 Flash memory(전기 일괄소거형 기억기)는 전기적으로 데이터를 지우고 다시 기록할 수 있는 비휘발성 컴퓨터 기억 장치이다.(Electrically erased and reprogrammed) Flash memory는 EEPROM과 다르게 여러 구역으로 구성된 블록 안에서 지우고 쓸 수 있다. 이제는 flash memory의 가격이 EEPROM보다 훨씬 싸기 때문에 비휘발성 고체 상태(Solid State) 저장 매체가 상당량 필요한 곳에서는 가장 많이 사용되는 메모리 종류가 되었다. USB drive에도 flash memory가 사용된다. 옛날 게임팩으로는 EEPROM으로 만들었으나 요즘은 flash memory가 주로 사용되고 있다. Flash memory는 메모리 칩 안에 정보를 유지시키는데 전력이 필요 없는 비휘발성 메모리이다. Flash memory는 DRAM보다는 느리지만 읽기 속도가 빠르며 HDD보다 충격에 강하다. 이러한 특징으로 배터리로 동작하는 장치에서 저장 장치로 많이 사용되며 강한 압력이나 끓는 물에도 견딜 만큼 물리적인 힘으로 거의 파괴되지 않는다.
 
-### V-NAND
+### Vertical NAND(V-NAND)
 V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리며 차지 트랩 플래시 아키텍처를 사용한다. 이 수직층들은 개개의 작은 셀들의 필요 없이 더 큰 면적의 비트 밀도를 가능케 한다.
 
 ## Floppy Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC)
@@ -85,7 +85,7 @@ Record all platters as zero.
 2) [초기화: GPT선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
 3) [Format: NTFS 선택하고 allocation unit size:4096 선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
 
-## Solid State Drive (SSD)
+## Solid State Drive(SSD)
 
 ### Single Level Cell(SLC)
 
