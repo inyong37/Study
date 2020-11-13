@@ -35,16 +35,16 @@ Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 
 ### Hamming Code | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8)
 Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
 
+# NVM, NVRAM: Non Volatile Memory, Non Volatile Storage | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
+
+NVM은 보통 제 2차 저장 장치(secondary storage), 즉 장기간의 영구적 저장 공간으로서 이용된다. 현재 가장 널리 쓰이고 있는 제 1차 저장 장치는 휘발성 메모리인 RAM이다. 이것은 컴퓨터의 전원이 꺼졌을 때, RAM 안에 있던 모든 데이터가 지워진다. 불행하게도 현재 나와 있는 비휘발성 메모리는 제 1차 저장 장치에는 적합하지가 않다. 일반적으로 비휘발성 메모리는 RAM보다 가격 단가가 비싸다던가, 성능이 잘 나오지 않던가 한다. IBM은 MRAM을 개발 중이고, 삼성전자 Intel, STMicroelectronics 등은 PRAM을 개발 중이다.
+
 ### MRAM: Magnetoresistive Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 MRAM은 비휘발성 컴퓨터 메모리 기술이며 1990년대부터 개발이 진행 중이다. 현재의 메모리, 특히 flasy RAM과 DRAM의 밀도가 꾸준히 늘어나면서, 시장에서 MRAM은 틈새 제품이라는 위치를 벗어나지 못하였다. 그러나 MRAM을 지지하는 사람들은 MRAM의 뛰어난 이점 때문에 MRAM이 결국 시장을 지배하여 universal memory가 될 것으로 생각한다. 에버스핀에서 생산 중이며 글로벌 파운드리와 삼성을 포함한 다른 기업들은 제품 계획을 발표하였다.
 
 ### PRAM: Phase change Memory, PCM, PCME, PCRAM, CRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
 PRAM은 비휘발성 메모리의 한 종류로, flash memory의 비휘발성과 RAM의 빠른 속도의 장점을 모두 가지고 있는 차세대 메모리 반도체이다. PRAM은 열을 가함에 따라 비정질 상태와 결정질 상태로 바뀌는 칼코게나이드 유리의 독특한 특성을 이용하여 데이터를 저장한다.
-
-# NVM, NVRAM: Non Volatile Memory, Non Volatile Storage | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
-NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
-
-NVM은 보통 제 2차 저장 장치(secondary storage), 즉 장기간의 영구적 저장 공간으로서 이용된다. 현재 가장 널리 쓰이고 있는 제 1차 저장 장치는 휘발성 메모리인 RAM이다. 이것은 컴퓨터의 전원이 꺼졌을 때, RAM 안에 있던 모든 데이터가 지워진다. 불행하게도 현재 나와 있는 비휘발성 메모리는 제 1차 저장 장치에는 적합하지가 않다. 일반적으로 비휘발성 메모리는 RAM보다 가격 단가가 비싸다던가, 성능이 잘 나오지 않던가 한다. IBM은 MRAM을 개발 중이고, 삼성전자 Intel, STMicroelectronics 등은 PRAM을 개발 중이다.
 
 ## ROM: Read Only Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%95_%EA%B8%B0%EC%96%B5_%EC%9E%A5%EC%B9%98)
 ROM(고정 기억 장치)는 반도체 기억 장치의 하나로 사람의 본능에 비유할 수 있으며, 컴퓨터를 구동하기 위한 기본적인 정보가 담겨있고 그 정보들을 기억하기 위해 다른 정보들은 기억하지 않는다. ROM은 RAM과 달리 자유롭게 읽고 쓰기가 어려우며, 전원을 꺼도 데이터가 지워지지 않기 때문에 BIOS, UEFI, OS, firmware의 저장에 사용되었다. 최근에는 일부분이 읽고 쓰기가 가능한 flash memory 등으로 일부 대체되었다. ROM은 ROM writer로 수정이 가능하다. ROM은 1956년에 PROM이 발명되었고, 1971년에 EPROM이 발명되었으며, 1983년 EEPROM이 발명되었고, 1980년대 중반에는 Toshiba가 flash memory를 발명하여 1990년대 초에 상용화하였으며 이는 EEPROM의 일종으로 손상을 일으키지 않고 수천번이나 삭제와 재프로그래밍을 가능하게 하였다. 가장 최근 방식은 NAND flash 이며 이또한 Toshiba가 발명하였다.
@@ -58,7 +58,44 @@ Flash memory(전기 일괄소거형 기억기)는 전기적으로 데이터를 �
 ### V-NAND
 V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리며 차지 트랩 플래시 아키텍처를 사용한다. 이 수직층들은 개개의 작은 셀들의 필요 없이 더 큰 면적의 비트 밀도를 가능케 한다.
 
-# CPU Cache | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C)
+## Floppy Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC)
+Floppy disk(플로피 디스크) 또는 diskette(디스켓)은 컴퓨터 보조 기억 장치의 일종이다. 컴퓨터에 부착된 floppy disk drive에 넣고 빼면서 사용한다. Diskette은 5.25inch 디스크가 개발되면서 기존의 8inch보다 작다고 하여 floppy disk에 "-ette"의 접미사를 붙인 말이다. 재킷(껍데기) 안에 자성체로 덮여 있는, 회전할 수 있는 원판이 들어 있다. 헤드가 표면과 떨어져있는 HDD와는 달리, floppy disk는 직접 헤드와 맞닿아있다. 그 결과, 데이터와 헤드가 빠르게 닳아버린다. 닳아 없어지는 것을 줄이기 위해서, PC에서는 드라이브가 읽거나 쓰기 않을 때 헤드를 움츠리고 회전을 중지시킨다. 그 다음에 읽거나 쓰는 명령을 받게되면, 멈추었던 모터가 다시 돌아 회전력을 얻기까지 약 0.5초의 지연 시간을 가지게 된다. 이러한 구조 때문에 읽기 쓰기 속도가 HDD보다 느리다.
+
+## OD: Optical Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC)
+OD(광 디스크)는 빛의 반사를 이용하여 자료를 읽어내는 저장 매체이다. OD의 효시로는 디지털 방식으로는 음반인 CD가 있고 아날로그 방식으로는 비디오 디스크인 레이저 데스크가 1980년대 초에 개발 완료되어 발매되기 시작하였다. 재기록 가능한 OD로는 자기 방식과 광 방식을 혼합한 광자기 디스크가 1980년대 말에 개발되었고 실용적으로는 1회 기록형 유기광 디스크가 1990년대 초에 개발되었다.
+
+## Hard Disk Drive(HDD) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C)
+HDD(하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발성, 순차 접근이 가능한 컴퓨터의 보조 기억 장치이다. 보호 케이스 안에 있는 platter를 회전시켜 이것에 자기 패턴으로 정보를 기록한다. 이 platter를 구동시키는 장치는 스팬들 모터로 이루어져있다. 데이터는 platter 표면의 코팅된 자성체에 기록되며 회전하는 platter 위에 부상하는 입출력 헤드에 의해 자기적으로 데이터를 쓰고 읽을 수 있다. HDD는 floppy disk와 같은 자기 기록 매체이나, floppy disk와 다르게 금속 재질의 platter에 데이터를 기록하기 때문에 구분짓기 위해 재질적으로 단단하다는 뜻으로 hard라는 이름이 붙었다. 일반적으로 아직까지는 personal computer의 OS를 담는 용도로 없어서는 안 되는 저장 매체로 많이 쓰이고 있다.
+
+### Platter | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0)
+Platter는 HDD에서 데이터가 저장되는 원판을 말한다. Platter의 장당 용량은 기록 밀도가 높아질수록 커질 뿐만 아니라, 같은 용량의 데이터를 입출력 하더라도 head가 적게 움직이므로 HDD의 입출력 속도에도 영향을 미친다. 또한 platter의 회전 속도는 HDD의 반응 속도에 영향을 미친다. 대용량의 HDD의 경우 여러 장의 platter를 사용하기도 한다. 하지만 너무 많은 장수의 platter를 장착하면 발열, 소음, 전력 소모, 오작동 등의 문제가 발생하므로 여러 장의 platter를 사용해 고용량을 만드는 방법도 한계가 있다. HDD의 bad sector 등 오류는 흔히 platter에 발생한 물리적 흠집(스크래치)에 의해 발생한다.
+
+### Longitudinal Magnetic Recording(LMR)
+LMR(수평 기록 방식)은 데이터를 저장하는 자기 입자들을 수평으로 배열하므로 만들기 쉽지만 데이터 밀도가 낮아 대용량을 실현하기 어렵다는 단점이 있다.
+
+### Perpendicular Magnetic Recording(PMR)
+PMR(수직 기록 방식)은 데이터를 저장하는 자기 입자들을 platter 표면에 수직 방향 배열함으로써 더 높은 데이터 밀도를 실현할 수 있어 작은 면적으로도 더 큰 데이터를 저장할 수 있으며, 오랜 시간이 지나도 자성이 안정되어 있어 수명이 길어 각광받고 있다. 하지만 수직으로 데이터를 기록할 때 생기는 문제인 자화전이점 노이즈와 스파크 노이즈를 해결하기 위해서는 단자극형(single pole type) 기록 헤드를 사용하여 자기 기록층에 수직인 자계를 인가하여 기록하므로, 헤드의 구조가 더욱 복잡해진다. PMR is made by Toshiba.
+
+### Shingled Magnetic Recording(SMR)
+
+### Low Level Format
+Record all platters as zero.
+
+1) [드라이브 지우기](https://support.wdc.com/knowledgebase/answer.aspx?ID=1211&s=1211&lang=en#windlg)
+2) [초기화: GPT선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=1018&s=1018&lang=en#win8)
+3) [Format: NTFS 선택하고 allocation unit size:4096 선택](https://support.wdc.com/knowledgebase/answer.aspx?ID=3865&s=3865&lang=en#win10)
+
+## Solid State Drive (SSD)
+
+### Single Level Cell(SLC)
+
+### Multi Level Cell(MLC)
+
+### Triple Level Cell(TLC)
+
+### Quad Level Cell(QLC)
+
+## CPU Cache | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C)
 CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드웨어 캐시다. CPU cache는 메인 메모리에서 가장 자주 사용되는 위치의 데이터를 갖고 있는, 크기는 작지만 빠른 메모리이다. 대부분의 메모리 접근은 특정한 위치의 근방에서 자주 일어나는 경향이 있기 때문에, 데이터를 크기는 작지만 속도가 빠른 cache memory에 복사해 두면 평균 메모리 접근 시간을 아낄 수 있다. 프로세서가 메인 메모리를 읽거나 쓰고자 할 때는, 먼저 그 주소에 해당하는 데이터가 cache에 존재하는지를 살핀다. 만약 그 주소의 데이터가 cache에 있으면 데이터를 cache에서 직접 읽고, 그렇지 않으면 메인 메모리에 직접 접근한다. 이때 대부분의 프로세서는 메인 메모리에 직접 접근해서 전송된 데이터를 cache에 복사해 넣음으로써 다음에 같은 주소에 프로세서가 접근할 때 cache에서 직접 읽고 쓸 수 있도록 한다.
 
 #### Reference
@@ -82,3 +119,7 @@ CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드
 - NVM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
 - MRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
 - PRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/PRAM, 2020-11-13-Fri.
+- HDD Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C, 2020-11-11-Wed.
+- HDD Platter Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0, 2020-11-11-Wed.
+- Floppy disk Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-11-Wed.
+- OD Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-13-Fri.
