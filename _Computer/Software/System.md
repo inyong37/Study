@@ -1,10 +1,15 @@
 # System: Operating System | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
 OS(운영 체제는/조작 체계)는 시스템 하드웨어를 관리할 뿐 아니라 application을 실행하기 위하여 하드웨어 추상화 플팻폼과 공통 시스템 서비스를 제공하는 시스템 소프트웨어이다. 최근에는 가상화 기술의 발전에 힘입어 실제 하드웨어가 아닌 하이퍼바이저 위에서 실행되기도 한다. 또한 입출력과 메모리 할당과 같은 하드웨어 기능의 경우 운영 체제는 application과 컴퓨터 하드웨어 사이의 중재 역할을 한다. 그러나 application 코드는 일반적으로 하드웨어에서 직접 실행된다. OS는 휴대 전화, 게임기에서부터 슈퍼컴퓨터, 웹 서버에 이르기까지 컴퓨터를 포함하는 거의 모든 장치에서 볼 수 있다. OS는 한 면으로는 소비자를, 다른 한 면으로는 프로그램 개발자를 함께 하나의 시장으로 데려다 놓을 수 있는 양면 플랫폼이다. 잘 알려진 현대의 PC OS에는 Microsoft Windows, Mac OS X, Linux가 있다. 이 밖에 BSD, Unix 등의 PC용 OS가 있다.
 
-OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다. 또한 OS는 CS의 연구 분야이기도 하다.
+OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다.
 
 ## Firmware | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
 Firmware(펌웨어)는 CS에서 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
+
+### Bootloader
+Micro processor가 리셋 상태에서 빠져 나오면 맨 먼저 리셋 벡터로 정해진 메모리 주소로 가서 저장된 명령어를 실행한다. 전원이 들어온 직후에 RAM에는 아무런 의미가 없는 쓰레기 값이 저장되어 있으므로 리셋 벡터 위치에는 반드시 실행 가능한 명령어를 저장하고 있는 ROM이나 flasy memory와 같은 비휘발성 메모리가 있어야 한다. 리셋 벡터 위치의 비휘발성 메모리에 저장된 프로그램은 전원이 들어온 후 필요한 최소한의 하드웨어의 초기화와 OS의 kernel을 RAM으로 읽어 들여 실행할 준비 작업을 하는데 이런 일을 하는 시스템 소프트웨어를 bootloader(부트로더)라고 한다. Bootloader는 반드시 비휘발성 메모리에 저장된다.
+
+PC처럼 큰 시스템에서 OS는 메모리가 아닌 HDD 또는 SDD와 같은 보조 기억 장치에 저장되어 있는데 CPU는 이에 저장되어 있는 프로그램을 직접 실행할 수 없다. PC 전원이 들어오면 ROM에 저장되어 있는 bootloader가 제일 먼저 실행되어 저장되어 있는 kernel을 RAM으로 읽어 들여 CPU가 kernel을 실행시키는데 필요한 준비 작업을 한다. HDD, SDD가 없는 임베디드 시스템의 경우에도 flasy memory에 저장된 OS 실행 코드를 RAM으로 옮기는 일을 bootloader가 한다. 경우에 따라서는 flasy memory를 절약하기 위해 실행 코드를 압축해서 저장하기도 하는데 이 떄에는 bootloader가 압축을 푸는 일 또한 한다. 그러나 AVR이나 8051 같은 8bit micro controller들은 규모가 큰 OS를 구동할 수 없기도 하거니와 flasy memory에 저장되어 있는 실행 코드를 직접 실행하므로 앞에서 설명한 역할을 하는 bootloader는 필요로 하지 않다. 그러나 이런 간단한 processor에서도 bootloader를 사용할 수 있는데 이 때 bootloader의 주역할은 호스트 컴퓨터와의 직렬 통신을 통해 실행 코드를 받아서 내부 flasy memory에 기록하는 것이다.
 
 - CP/M (by Digital Research, at 1974)
 - DOS
@@ -185,3 +190,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - BIOS Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EC%98%A4%EC%8A%A4, 2020-11-12-Thu.
 - OS Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C, 2020-11-12-Thu.
 - Firmware Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4, 2020-11-12-Thu.
+- Bootloader Blog KR-KO, https://m.blog.naver.com/eslectures/80140013119, 2020-11-13-Fri.
