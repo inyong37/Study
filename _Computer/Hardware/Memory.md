@@ -1,31 +1,31 @@
 # Memory
 
-## RAM: Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC)
-RAM(임의 접근 기억 장치)은 임의의 영역에 접근하여 읽고 쓰기가 가능한 주기억 장치이다. 반도체 회로로 구성되어 있으며 휘발성 메모리이다. 흔히 RAM을 "읽고 쓸 수 있는 메모리"라는 뜻으로 알고 있는데 이것은 오해다. RAM은 어느 위치에 저장되 데이터든지 접근(읽기 및 쓰기)하는 데 동일한 시간이 거리는 메모리이기에 random(무작위)이다. 반면 HDD 등의 자기 디스크나 자기 테이프는 저장된 위치에 따라 접근하는 데 시간이 다르게 걸린다.
+## Random Access Memory(RAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%8D%A4_%EC%95%A1%EC%84%B8%EC%8A%A4_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+Random access memory (RAM, 임의 접근 기억 장치)은 임의의 영역에 접근하여 읽고 쓰기가 가능한 주기억 장치이다. 반도체 회로로 구성되어 있으며 휘발성 메모리이다. 흔히 RAM을 "읽고 쓸 수 있는 메모리"라는 뜻으로 알고 있는데 이것은 오해다. RAM은 어느 위치에 저장되 데이터든지 접근(읽기 및 쓰기)하는 데 동일한 시간이 거리는 메모리이기에 random(무작위)이다. 반면 HDD 등의 자기 디스크나 자기 테이프는 저장된 위치에 따라 접근하는 데 시간이 다르게 걸린다.
 
-### SRAM: Static RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8)
-SRAM(정적 막기억장치)는 반도체 기억 장치의 한 종류로 주기적으로 내용을 갱신해 주어야하는 DRAM과 달리 기억 장치에 전원이 공급되는 한 그 내용이 계속 보존된다. SRAM은 RAM이므로 데이터의 쓰고 읽기가 이루어지는 주소와 관계없이 입출력에 걸리는 시간이 일정하다. SRAM은 DRAM의 일종인 SDRAM과 전혀 다른 기억 소자이다. SRAM에서 각각의 비트들은 4개의 transistor로 이루어진 2쌍의 inverter에 저장된다. 2쌍의 inverter가 1과 0의 값을 안정된 상태로 유지하고 2개의 접근 transistor가 읽기와 쓰기 기능을 수행한다. 따라서 1개의 비트를 저장하기 위해 일반적으로 8개의 transistor를 필요로 한다. SRAM은 회로의 대칭 구조로 인해 DRAM보다 훨씬 빠른 입출력을 가능하게 한다. 또한 메모리 주소에 접근할 때 상위 비트와 하위 비트 순서로 2번 접근해야 하는 DRAM과 달리 SRAM은 한번에 접근할 수 있는 장점이 있다.
+### Static RAM(SRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%A0%95%EC%A0%81_%EB%9E%A8)
+Static RAM(SRAM, 정적 막기억장치)는 반도체 기억 장치의 한 종류로 주기적으로 내용을 갱신해 주어야하는 DRAM과 달리 기억 장치에 전원이 공급되는 한 그 내용이 계속 보존된다. SRAM은 RAM이므로 데이터의 쓰고 읽기가 이루어지는 주소와 관계없이 입출력에 걸리는 시간이 일정하다. SRAM은 DRAM의 일종인 SDRAM과 전혀 다른 기억 소자이다. SRAM에서 각각의 비트들은 4개의 transistor로 이루어진 2쌍의 inverter에 저장된다. 2쌍의 inverter가 1과 0의 값을 안정된 상태로 유지하고 2개의 접근 transistor가 읽기와 쓰기 기능을 수행한다. 따라서 1개의 비트를 저장하기 위해 일반적으로 8개의 transistor를 필요로 한다. SRAM은 회로의 대칭 구조로 인해 DRAM보다 훨씬 빠른 입출력을 가능하게 한다. 또한 메모리 주소에 접근할 때 상위 비트와 하위 비트 순서로 2번 접근해야 하는 DRAM과 달리 SRAM은 한번에 접근할 수 있는 장점이 있다.
 
-### DRAM: Dynamic RAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8)
-DRAM(동적 막기억장치)는 RAM의 한 종류로 정보를 구성하는 개개의 비트를 각기 분리된 capacitor에 저장하는 기억 장치이다. 각각의 capacitor가 담고 있는 전자의 수의 따라 비트의 1과 0을 나타내지만 결국 capacitor가 전자를 누전하므로 기억된 정보를 잃게 된다. 이를 방지하기 위해 기억 장치의 내용을 일정 시간마다 재생시켜야 되는 것을 일컬어 dynamic이란 명칭이 주어졌다. 정보를 유지하려면 지속적인 전기 공급이 필요하기 때문에 DRAM은 휘발성 기억 장치(volatile memory)에 속한다.
+### Dynamic RAM(DRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8F%99%EC%A0%81_%EB%9E%A8)
+Dynamic RAM(DRAM, 동적 막기억장치)는 RAM의 한 종류로 정보를 구성하는 개개의 비트를 각기 분리된 capacitor에 저장하는 기억 장치이다. 각각의 capacitor가 담고 있는 전자의 수의 따라 비트의 1과 0을 나타내지만 결국 capacitor가 전자를 누전하므로 기억된 정보를 잃게 된다. 이를 방지하기 위해 기억 장치의 내용을 일정 시간마다 재생시켜야 되는 것을 일컬어 dynamic이란 명칭이 주어졌다. 정보를 유지하려면 지속적인 전기 공급이 필요하기 때문에 DRAM은 휘발성 기억 장치(volatile memory)에 속한다.
 
-### SDRAM: Synchronous DRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/SDRAM)
-SDRAM은 DRAM의 발전된 형태로, 보통 DRAM과는 달리 제어 장치 입력을 clock pulse와 동시에 일어나도록 하는 동기식 DRAM이다. SDRAM은 DDR SDRAM의 보급으로 SDR SDRAM이라는 관례적인 명칭이 주어졌다. SDR은 Single Data Rate의 약자이다. 이 의미는 기존의 SDRAM이 각 pusle clock이 상승 또는 하강하는 시점에서 한번만 정보를 전송하는 것에서 나온 명칭이다.
+### Synchronous DRAM(SDRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/SDRAM)
+Synchronous DRAM(SDRAM)은 DRAM의 발전된 형태로, 보통 DRAM과는 달리 제어 장치 입력을 clock pulse와 동시에 일어나도록 하는 동기식 DRAM이다. SDRAM은 DDR SDRAM의 보급으로 SDR SDRAM이라는 관례적인 명칭이 주어졌다. SDR은 Single Data Rate의 약자이다. 이 의미는 기존의 SDRAM이 각 pusle clock이 상승 또는 하강하는 시점에서 한번만 정보를 전송하는 것에서 나온 명칭이다.
 
-### SDR SDRAM: Single Data Rate SDRAM
-SDR SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만큼의 data를 주고 받을 수 있는 SDRAM을 말한다. 전형적인 clock frequency는 100 및 133MHz였다. 데이터 버스 사이즈는 4비트, 8비트, 16비트 등으로 다양하였는데, 단 일반적으로 SDR SDRAM 칩들은 64 (non-ECC) 혹은 72 (ECC) 비트를 한번에 읽을 수 있는 168 핀 DIMM 형태로 조립되었다.
+### Single Data Rate(SDD) SDRAM
+Single data rate(SDR) SDRAM은 clock cycle 1개 당 1개의 command를 받거나 1개의 word만큼의 data를 주고 받을 수 있는 SDRAM을 말한다. 전형적인 clock frequency는 100 및 133MHz였다. 데이터 버스 사이즈는 4비트, 8비트, 16비트 등으로 다양하였는데, 단 일반적으로 SDR SDRAM 칩들은 64 (non-ECC) 혹은 72 (ECC) 비트를 한번에 읽을 수 있는 168 핀 DIMM 형태로 조립되었다.
 
-### DDR SDRAM: Double Data Rate SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
-DDR SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
+### Double Data Rate SDRAM(DDR SDRAM) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/DDR_SDRAM)
+Double data rate(DDR) SDRAM은 컴퓨터에 쓰이는 메모리 집적 회로 계열로, clock frequency를 높이지 않고도 SDR SDRAM에 비해 대역폭이 거의 2배나 늘어났다. JEDEC는 DDR SDRAM의 속도에 대한 표준을 2가지로 지정하였다. 첫 규격은 메모리 칩에 대한 것이고, 두번째 규격은 메모리 모듈에 대한 것이다. DDR2 SDRAM이 나오면서 기존의 DDR SDRAM은 DDR1 SDRAM으로 불리우게 되었다.
 
 ### Multi Channel Memory Architecture | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0)
-Multi Channel Memory Architecture(다중 채널 메모리 구조)는 DRAM과 memory controller 사이에 통신 채널을 하나 이상 더 추가하여 데이터 전송 속도를 빠르게 하는 기술이다. 듀얼 채널, 트리플 채널, 그리고 쿼드 채널 등이 여기에 속한다. Dual channel architecture은 RAM에서 memory controller를 거치는 데이터를 2배로 만드는 기술을 말한다. Dual channel을 사용하는 memory controller는 2개의 64비트 데이터 채널을 이용함으로써 RAM에서 CPU로 데이터를 이동할 때 128비트의 대역을 활용할 수 있다. Dual channel은 DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM에서 사용된다. Dual channel은 병목 문제를 해결하는 것이 목적으로, processor의 속도가 빨라지면서 다른 부품들의 상대적으로 낮은 속도는 시스템 병목 원인으로 지적되어 왔다. Triple channel architecture은 Intel Core i7-900 시리즈부터 사용된 구조로, LGA 1366 platform은 DDR3 triple channel(보통 1333, 1600MHz)에서 지원하지만, 일부 mainboard에서는 더 높은 클럭 속도로 구동할 수 있다. Quard channel은 Intel LGA 2011, AMD G34 platform에서 지원한다.
+Multi channel memory architecture(다중 채널 메모리 구조)는 DRAM과 memory controller 사이에 통신 채널을 하나 이상 더 추가하여 데이터 전송 속도를 빠르게 하는 기술이다. 듀얼 채널, 트리플 채널, 그리고 쿼드 채널 등이 여기에 속한다. Dual channel architecture은 RAM에서 memory controller를 거치는 데이터를 2배로 만드는 기술을 말한다. Dual channel을 사용하는 memory controller는 2개의 64비트 데이터 채널을 이용함으로써 RAM에서 CPU로 데이터를 이동할 때 128비트의 대역을 활용할 수 있다. Dual channel은 DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM에서 사용된다. Dual channel은 병목 문제를 해결하는 것이 목적으로, processor의 속도가 빨라지면서 다른 부품들의 상대적으로 낮은 속도는 시스템 병목 원인으로 지적되어 왔다. Triple channel architecture은 Intel Core i7-900 시리즈부터 사용된 구조로, LGA 1366 platform은 DDR3 triple channel(보통 1333, 1600MHz)에서 지원하지만, 일부 mainboard에서는 더 높은 클럭 속도로 구동할 수 있다. Quard channel은 Intel LGA 2011, AMD G34 platform에서 지원한다.
 
-### GDDR SDRAM: Graphics DDR SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/GDDR_SDRAM)
-GDDR SDRAM은 GPU(그래픽 처리 장치)용으로 설계된 일종의 SDRAM으로, DDR3 등 더 널리 알려져 있는 유형의 DDR SDRAM과 구별되지만 double data rate 전송을 포함한 동일한 기능 중 일부를 공유한다. 2014년을 기점으로 GDDR SDRAM 이후로 GDDR2, GDDR3, GDDR4, GDDR5, 그리고 GDDR6가 공개되었다.
+### Graphics DDR(GDDR) SDRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/GDDR_SDRAM)
+Graphics DDR(GDDR) SDRAM은 GPU(그래픽 처리 장치)용으로 설계된 일종의 SDRAM으로, DDR3 등 더 널리 알려져 있는 유형의 DDR SDRAM과 구별되지만 double data rate 전송을 포함한 동일한 기능 중 일부를 공유한다. 2014년을 기점으로 GDDR SDRAM 이후로 GDDR2, GDDR3, GDDR4, GDDR5, 그리고 GDDR6가 공개되었다.
 
-### ECC: Error Correcting Code Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC)
-ECC memory는 가장 일반적인 종류의 내부 데이터 손상을 감지하고 수정하는 기억 장치의 일종이다. ECC memory는 계산 과학, 금융 컴퓨팅 등 모든 상황에서 데이터 손상에 대처해야하는 컴퓨터에서 사용된다. 일반적으로 ECC memory는 single bit 오류에 memory system이 면역되도록 관리한다. 각 워드로부터 읽은 데이터는 무조건 기록되는 데이터와 동일해야 하는데, 이는 실제로 저장되는 하나 이상의 bit가 잘못된 상태로 flip되더라도 마찬가지이다. 대부분의 비 ECC memory는 오류를 감지할 수 없으며, parity bit를 지원하는 일부 비 ECC memory는 오류를 감지할 수는 있으나 정정 기능은 없다.
+### Error Correcting Code(ECC) Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+Error correcting code(ECC) memory는 가장 일반적인 종류의 내부 데이터 손상을 감지하고 수정하는 기억 장치의 일종이다. ECC memory는 계산 과학, 금융 컴퓨팅 등 모든 상황에서 데이터 손상에 대처해야하는 컴퓨터에서 사용된다. 일반적으로 ECC memory는 single bit 오류에 memory system이 면역되도록 관리한다. 각 워드로부터 읽은 데이터는 무조건 기록되는 데이터와 동일해야 하는데, 이는 실제로 저장되는 하나 이상의 bit가 잘못된 상태로 flip되더라도 마찬가지이다. 대부분의 비 ECC memory는 오류를 감지할 수 없으며, parity bit를 지원하는 일부 비 ECC memory는 오류를 감지할 수는 있으나 정정 기능은 없다.
 
 DRAM의 single bit가 컴퓨터 시스템 내부의 전기적 또는 자기적 간섭으로 인해 자연스럽게 반대 상태로 바뀔 수 있는데, 처음에는 주로 칩 포장재의 오염물질에 의해 방출되는 알파 입자 때문이라고 생각되었으나, 연구를 통해 DRAM 칩의 일회성 소프트 에러의 대부분은 주로 2차 우주선의 중성자에 의한 배경 방사능의 결과로 발생하며, 이는 하나 이상의 memory cell의 내용을 변경하거나 읽기 또는 쓰기에 사용되는 회로를 방해할 수 있다는 것을 밝혀냈다. 이러한 이유로 오류율은 고도가 증가할수록 급격히 증가하는데, 예를 들어 해수면 대비 중성자 선속은 1.5km에서 3.5배, 10~12km(상용 항공기의 순항 고도)에서 300배 더 빠르다. 결과적으로 높은 고도에서 작동하는 시스템은 신뢰성을 위해 특별한 규정이 필요하다. 이러한 예로 1997년에 발사된 우주선 카시니-하위헌스는 2개의 동일한 비행 기록기에 각각 상용 DRAM 칩 배열의 형태로 2.5GB memory를 탑재했으며, EDAC가 내장되어 있어, 키시니 하위헌스의 인제니어링 telemetry는 single bit 워드 오류(수정 가능) 수와 dual bit 워드 오류(수정 불가능) 수를 보고했다. 처음 2년 6개월간 비행하는 동안, 카시니-하위헌스는 하루에 약 280개의 오류를 보고했으며, 거의 일정한 single bit error rate를 보였다. 그러나 1997년 11월 6일, 우주에서의 첫 달 동안, 오류의 수는 하루에 4배 이상 증가했는데, 증가의 원인은 인공위성 GOE9에 의해 탐지된 태양 입자 방출(solor particle event)이었다.
 
@@ -61,11 +61,11 @@ V-NAND(Vertical NAND) 메모리는 메모리 셀들을 수직으로 쌓아올리
 ## Floppy Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC)
 Floppy disk(플로피 디스크) 또는 diskette(디스켓)은 컴퓨터 보조 기억 장치의 일종이다. 컴퓨터에 부착된 floppy disk drive에 넣고 빼면서 사용한다. Diskette은 5.25inch 디스크가 개발되면서 기존의 8inch보다 작다고 하여 floppy disk에 "-ette"의 접미사를 붙인 말이다. 재킷(껍데기) 안에 자성체로 덮여 있는, 회전할 수 있는 원판이 들어 있다. 헤드가 표면과 떨어져있는 HDD와는 달리, floppy disk는 직접 헤드와 맞닿아있다. 그 결과, 데이터와 헤드가 빠르게 닳아버린다. 닳아 없어지는 것을 줄이기 위해서, PC에서는 드라이브가 읽거나 쓰기 않을 때 헤드를 움츠리고 회전을 중지시킨다. 그 다음에 읽거나 쓰는 명령을 받게되면, 멈추었던 모터가 다시 돌아 회전력을 얻기까지 약 0.5초의 지연 시간을 가지게 된다. 이러한 구조 때문에 읽기 쓰기 속도가 HDD보다 느리다.
 
-## OD: Optical Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC)
-OD(광 디스크)는 빛의 반사를 이용하여 자료를 읽어내는 저장 매체이다. OD의 효시로는 디지털 방식으로는 음반인 CD가 있고 아날로그 방식으로는 비디오 디스크인 레이저 데스크가 1980년대 초에 개발 완료되어 발매되기 시작하였다. 재기록 가능한 OD로는 자기 방식과 광 방식을 혼합한 광자기 디스크가 1980년대 말에 개발되었고 실용적으로는 1회 기록형 유기광 디스크가 1990년대 초에 개발되었다.
+## Optical Disk(OD) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC)
+Optical disk(OD, 광 디스크)는 빛의 반사를 이용하여 자료를 읽어내는 저장 매체이다. OD의 효시로는 디지털 방식으로는 음반인 CD가 있고 아날로그 방식으로는 비디오 디스크인 레이저 데스크가 1980년대 초에 개발 완료되어 발매되기 시작하였다. 재기록 가능한 OD로는 자기 방식과 광 방식을 혼합한 광자기 디스크가 1980년대 말에 개발되었고 실용적으로는 1회 기록형 유기광 디스크가 1990년대 초에 개발되었다.
 
 ## Hard Disk Drive(HDD) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C)
-HDD(하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발성, 순차 접근이 가능한 컴퓨터의 보조 기억 장치이다. 보호 케이스 안에 있는 platter를 회전시켜 이것에 자기 패턴으로 정보를 기록한다. 이 platter를 구동시키는 장치는 스팬들 모터로 이루어져있다. 데이터는 platter 표면의 코팅된 자성체에 기록되며 회전하는 platter 위에 부상하는 입출력 헤드에 의해 자기적으로 데이터를 쓰고 읽을 수 있다. HDD는 floppy disk와 같은 자기 기록 매체이나, floppy disk와 다르게 금속 재질의 platter에 데이터를 기록하기 때문에 구분짓기 위해 재질적으로 단단하다는 뜻으로 hard라는 이름이 붙었다. 일반적으로 아직까지는 personal computer의 OS를 담는 용도로 없어서는 안 되는 저장 매체로 많이 쓰이고 있다.
+Hard disk drive(HDD, 하드 디스크 드라이브/hard disk/hard drive/fixed disk)는 비휘발성, 순차 접근이 가능한 컴퓨터의 보조 기억 장치이다. 보호 케이스 안에 있는 platter를 회전시켜 이것에 자기 패턴으로 정보를 기록한다. 이 platter를 구동시키는 장치는 스팬들 모터로 이루어져있다. 데이터는 platter 표면의 코팅된 자성체에 기록되며 회전하는 platter 위에 부상하는 입출력 헤드에 의해 자기적으로 데이터를 쓰고 읽을 수 있다. HDD는 floppy disk와 같은 자기 기록 매체이나, floppy disk와 다르게 금속 재질의 platter에 데이터를 기록하기 때문에 구분짓기 위해 재질적으로 단단하다는 뜻으로 hard라는 이름이 붙었다. 일반적으로 아직까지는 personal computer의 OS를 담는 용도로 없어서는 안 되는 저장 매체로 많이 쓰이고 있다.
 
 ### Platter | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0)
 Platter는 HDD에서 데이터가 저장되는 원판을 말한다. Platter의 장당 용량은 기록 밀도가 높아질수록 커질 뿐만 아니라, 같은 용량의 데이터를 입출력 하더라도 head가 적게 움직이므로 HDD의 입출력 속도에도 영향을 미친다. 또한 platter의 회전 속도는 HDD의 반응 속도에 영향을 미친다. 대용량의 HDD의 경우 여러 장의 platter를 사용하기도 한다. 하지만 너무 많은 장수의 platter를 장착하면 발열, 소음, 전력 소모, 오작동 등의 문제가 발생하므로 여러 장의 platter를 사용해 고용량을 만드는 방법도 한계가 있다. HDD의 bad sector 등 오류는 흔히 platter에 발생한 물리적 흠집(스크래치)에 의해 발생한다.
