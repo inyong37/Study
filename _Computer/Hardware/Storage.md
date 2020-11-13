@@ -26,6 +26,9 @@ Record all platters as zero.
 ## Floppy Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC)
 Floppy disk(플로피 디스크) 또는 diskette(디스켓)은 컴퓨터 보조 기억 장치의 일종이다. 컴퓨터에 부착된 floppy disk drive에 넣고 빼면서 사용한다. Diskette은 5.25inch 디스크가 개발되면서 기존의 8inch보다 작다고 하여 floppy disk에 "-ette"의 접미사를 붙인 말이다. 재킷(껍데기) 안에 자성체로 덮여 있는, 회전할 수 있는 원판이 들어 있다. 헤드가 표면과 떨어져있는 HDD와는 달리, floppy disk는 직접 헤드와 맞닿아있다. 그 결과, 데이터와 헤드가 빠르게 닳아버린다. 닳아 없어지는 것을 줄이기 위해서, PC에서는 드라이브가 읽거나 쓰기 않을 때 헤드를 움츠리고 회전을 중지시킨다. 그 다음에 읽거나 쓰는 명령을 받게되면, 멈추었던 모터가 다시 돌아 회전력을 얻기까지 약 0.5초의 지연 시간을 가지게 된다. 이러한 구조 때문에 읽기 쓰기 속도가 HDD보다 느리다.
 
+## OD: Optical Disk | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC)
+OD(광 디스크)는 빛의 반사를 이용하여 자료를 읽어내는 저장 매체이다. OD의 효시로는 디지털 방식으로는 음반인 CD가 있고 아날로그 방식으로는 비디오 디스크인 레이저 데스크가 1980년대 초에 개발 완료되어 발매되기 시작하였다. 재기록 가능한 OD로는 자기 방식과 광 방식을 혼합한 광자기 디스크가 1980년대 말에 개발되었고 실용적으로는 1회 기록형 유기광 디스크가 1990년대 초에 개발되었다.
+
 ## II. Solid State Drive (SSD)
 
 ### Single Level Cell(SLC)
@@ -61,3 +64,4 @@ Create the best work of your life with the latest versions of Word, Excel and ot
 - HDD Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C, 2020-11-11-Wed.
 - HDD Platter Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0, 2020-11-11-Wed.
 - Floppy disk Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-11-Wed.
+- OD Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-13-Fri.
