@@ -36,8 +36,10 @@ Parity bit는 정보의 전달 과정에서 오류가 생겼는지 검사하기 
 Hamming code(해밍 부호)는 이진 선형 부호의 일종으로, 거리가 3이므로 1개 이하의 오류를 교정할 수 있으며 2개 이하의 오류를 발견할 수 있다. Hamming code는 임의의 소수 거듭제곱 진법에 대하여 정의되는 거의 3의 선형 부호이다. 이 가운데 이진 해밍 부호는 정의하기가 특별히 간단하다.
 
 ### MRAM: Magnetoresistive Random Access Memory | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC)
+MRAM은 비휘발성 컴퓨터 메모리 기술이며 1990년대부터 개발이 진행 중이다. 현재의 메모리, 특히 flasy RAM과 DRAM의 밀도가 꾸준히 늘어나면서, 시장에서 MRAM은 틈새 제품이라는 위치를 벗어나지 못하였다. 그러나 MRAM을 지지하는 사람들은 MRAM의 뛰어난 이점 때문에 MRAM이 결국 시장을 지배하여 universal memory가 될 것으로 생각한다. 에버스핀에서 생산 중이며 글로벌 파운드리와 삼성을 포함한 다른 기업들은 제품 계획을 발표하였다.
 
 ### PRAM: Phase change Memory, PCM, PCME, PCRAM, CRAM | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PRAM)
+PRAM은 비휘발성 메모리의 한 종류로, flash memory의 비휘발성과 RAM의 빠른 속도의 장점을 모두 가지고 있는 차세대 메모리 반도체이다. PRAM은 열을 가함에 따라 비정질 상태와 결정질 상태로 바뀌는 칼코게나이드 유리의 독특한 특성을 이용하여 데이터를 저장한다.
 
 # NVM, NVRAM: Non Volatile Memory, Non Volatile Storage | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC)
 NVM(비휘발성 메모리)는 전원이 공급되지 않아도 저장된 정보를 계속 유지하는 컴퓨터 메모리이다. 비휘발성 메모리 종류에는 ROM, flash memory, HDD, diskette, magnetic tape, OD 등이 있으며 초창기 컴퓨터 저장 장치였던 천공 카드, 페이퍼 테이프 같은 것도 있다.
