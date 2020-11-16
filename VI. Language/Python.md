@@ -34,6 +34,9 @@ Python is a programming language that lets you work quickly and integrate system
 깊은 복사는 전체 복사로, 얕은 복사와 달리 객체가 가진 모든 멤버(값과 참조 형식 모두)를 복사하는 것, 객체가 참조 타입의 멤버를 포함할 경우 참조 값의 복사가 아닌 참조된 객체 자체가 복사됨.
 각자의 값을 참조하게 됨.
 
+### Special Method, Magic Method aka dunder method
+`__getitem()__`
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
