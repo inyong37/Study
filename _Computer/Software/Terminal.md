@@ -15,6 +15,11 @@ This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 ```
 #### Python
 - activate env 
+### doskey
+`doskey vi=vim`
+`doskey clear=cls`
+`doskey nn = cd D:\office\out\win && ninja`
+`doskey ls=dir`
 ## ii. PowerShell | [Homepage](https://powershell.org/) | [Documentation](https://docs.microsoft.com/en-us/powershell/)
 ### A. Commands
 ```
