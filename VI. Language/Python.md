@@ -37,6 +37,18 @@ Python is a programming language that lets you work quickly and integrate system
 ### Special Method, Magic Method aka dunder method
 `__getitem()__`
 
+### doctest
+test in classes or functions in documentation field
+```
+import doctest
+
+def bar():
+  >>> bar()
+  foo
+  return foo
+```
+`python test.py -v`
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
