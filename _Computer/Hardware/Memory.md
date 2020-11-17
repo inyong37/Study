@@ -100,27 +100,44 @@ CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드
 
 ### Cache Type
 L1, L2, L3 순으로 느려지고 CPU와 멀어진다. Cache memory 크기가 작은 이유는 SRAM 가격이 매우 비싸기 때문이다.
-- L1
+
+#### L1
 L1은 CPU 내에 있는 각 코어가 독립적으로 갖고 있는 cache memory로, 용량의 절반은 바로 실행할 명령어를 임시 저장하고 있으며, 나머지 절반은 실행 후 명령어를 저장하고 있다. (명령어 세트 I-Cache, D-Cache)
-- L2
+
+####L2
 L2는 CPU와 RAM 사이에 있는 CPU가 공유하는 cache memory이다.
-- L3
+
+#### L3
 L3는 Mainboard에 있는 cache memory이다.
 
 ### Locailty of Reference
 캐시에 데이터를 저장할 때는 이러한 참조 지역성을 최대한 활용하기 위해 해당 데이터뿐만 아니라 옆 주소의 데이터도 같이 가져와 미래에 쓰일 것을 대비한다. CPU가 요청한 데이터가 cache에 있으면 "Cache Hit", 없어서 DRAM에서 가져오면 "Cache Miss"이다.
-- 시간 지역성
+
+#### 시간 지역성
 for, while 같은 반복문에 사용하는 조건 변수처럼 한번 참조된 데이터는 잠시 후 다시 참조될 가능성이 높다
-- 공간 지역성
+
+#### 공간 지역성
 A[0], A[1]과 같은 연속 접근 시, 참조된 데이터 근처에 있는 데이터가 잠시 후 또 사용될 가능성이 높다.
 
 ### Cache Miss
-- Cold Miss
+#### Cold Miss
 해당 메모리 주소를 처음 불러서 나는 miss
-- Conflict Miss
+
+#### Conflict Miss
 Cache memory에 A와 B 데이터를 저장해야 하는데, A와 B가 같은 cache memory 주소에 할당되어 있어서 발생하는 miss이다. Direct mapped cache에서 많이 발생한다.
-- Capacity Miss
+
+#### Capacity Miss
 Cache memory의 공간이 부족해서 발생하는 miss이다. Conflict는 주소 할당 문제, capacity는 공간 문제이다. Cache 크기를 크게해서 문제를 해결하려면 cache 접근 속도가 느려지고 파워를 많이 먹는다는 단점이 있다.
+
+### Caching Type
+#### Direct Mapped Cache
+Direct mapped cache는 가장 기본적인 구조로 DRAM의 여러 주소가 cache memory의 한 주소에 대응되는 1:N 방식이다. Cache memory와 RAM이 매칭되어 있는 index field 부분과 tag field 부분, 그리고 data field로 구성된다. Direct mapped cache는 간단하고 빠르다는 장점이 있지만, conflict miss가 발생하는 것이 단점이며, 데이터를 동시에 사용해야 할 때 사용한다.
+
+#### Fully Associative Cache
+Fully associative cache는 비어있는 cache memory가 있으면, 마음대로 주소를 저장하는 방식으로, 저장할 때는 매우 간단하지만 찾을 때 문제가 발생한다. 조건이나 규칙이 없어서 특정 cache set 안에 있는 모든 block을 한번에 찾아 원하는 데이터가 있는지 검색해야 한다. CAM이라는 특수한 메모리 구조를 사용해야하지만 가격이 매우 비싸다.
+
+#### Set Associative Cache
+Set associative cache는 direct mapped cache 방식과 fully associative cache 방식을 혼합한 방식으로, 특정 행을 지정하고, 그 행 안의 어떤 열이든 비어있을 때 저장하는 방식이다. Direct에 비해 검색 속도는 느리지만, 저장이 빠르고 fully에 비해 저장이 느린 대신 검색이 빠른 중간형이다.
 
 #### Reference
 - ECC blog KO-KR, https://m.blog.naver.com/PostView.nhn?blogId=jamiet1&logNo=221557521166&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-10-19-Mon.
