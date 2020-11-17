@@ -98,6 +98,12 @@ Record all platters as zero.
 ## CPU Cache | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C)
 CPU cache(캐시)는 CPU 구조에 메모리로 사용하도록 구성된 하드웨어 캐시다. CPU cache는 메인 메모리에서 가장 자주 사용되는 위치의 데이터를 갖고 있는, 크기는 작지만 빠른 메모리이다. 대부분의 메모리 접근은 특정한 위치의 근방에서 자주 일어나는 경향이 있기 때문에, 데이터를 크기는 작지만 속도가 빠른 cache memory에 복사해 두면 평균 메모리 접근 시간을 아낄 수 있다. 프로세서가 메인 메모리를 읽거나 쓰고자 할 때는, 먼저 그 주소에 해당하는 데이터가 cache에 존재하는지를 살핀다. 만약 그 주소의 데이터가 cache에 있으면 데이터를 cache에서 직접 읽고, 그렇지 않으면 메인 메모리에 직접 접근한다. 이때 대부분의 프로세서는 메인 메모리에 직접 접근해서 전송된 데이터를 cache에 복사해 넣음으로써 다음에 같은 주소에 프로세서가 접근할 때 cache에서 직접 읽고 쓸 수 있도록 한다.
 
+### Cache Type
+L1, L2, L3 순으로 느려지고 CPU와 멀어진다. Cache memory 크기가 작은 이유는 SRAM 가격이 매우 비싸기 때문이다.
+- L1: CPU 내에 있는 각 코어가 독립적으로 갖고 있는 cache memory로, 용량의 절반은 바로 실행할 명령어를 임시 저장하고 있으며, 나머지 절반은 실행 후 명령어를 저장하고 있다. (명령어 세트 I-Cache, D-Cache)
+- L2: CPU와 RAM 사이에 있는 CPU가 공유하는 cache memory이다.
+- L3: Mainboard에 있는 cache memory이다.
+
 #### Reference
 - ECC blog KO-KR, https://m.blog.naver.com/PostView.nhn?blogId=jamiet1&logNo=221557521166&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-10-19-Mon.
 - SDRAM, DDR1, DDR2, DDR3, DDR4 blog KO-KR, https://kr.transcend-info.com/Support/FAQ-296, 2020-10-19-Mon.
