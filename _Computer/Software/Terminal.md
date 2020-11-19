@@ -1,7 +1,6 @@
-# Terminal
-```
-This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
-```
+# Terminal | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0)
+Terminal(단말기)는 컴퓨터나 컴퓨팅 시스템에 데이터를 입력하거나 표시하는데 쓰이는 전자 하드웨어 기기이다. 컴퓨터 터미널은 인간과 컴퓨터의 인터페이스(HMI)의 한 예이다. 터미널의 기능은 데이터를 보여 주고 입력하는데 제한을 받는다. 중대한 로컬 프로그래밍 데이터 기능이 있는 장치는 스마트 터미널(smart terminal) 또는 thin client라고 부른다. PC는 terminal 기능을 에뮬레이트하는 소프트웨어를 실행할 수 있으며 이따금 로컬 프로그램을 이용하여 먼 거리의 호스트 시스템에 접근할 수 있다.
+
 - CLI: Command Line Interface
 - GUI: Graphic User Interface
 
@@ -132,3 +131,5 @@ Search everything as a string. So it is faster than any other greps.
 - - Change shell color, https://askubuntu.com/questions/123268/changing-colors-for-user-host-directory-information-in-terminal-command-prompt, 2020-10-29-Thu.
 - Shell Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%85%B8, 2020-11-19-Thu.
 - Bourne Shell Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8, 2020-11-19-Thu.
+- Terminal Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0, 2020-11-19-Thu.
+- Terminal, Console, Shell Blog KR-KO, http://blog.naver.com/asianchairshot/221383363419, 2020-11-19-Thu.
