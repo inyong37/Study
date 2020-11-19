@@ -5,6 +5,14 @@ This page is about Terminal in Unix/Linux, macOS/OS X, and Windows.
 - CLI: Command Line Interface
 - GUI: Graphic User Interface
 
+# Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%85%B8)
+Shell은 OS에서 다양한 OS 기능과 서비스를 구현하는 인터페이스를 제공하는 프로그램이다. Shell은 사용자와 OS kernel 사이의 인터페이스를 감싸는 층이기 때문에 이러한 이름이 붙었다. Shell은 일반적으로 명령 줄과 그래픽 형의 2종류로 분류된다. 명령 줄 shell은 OS에서 CLI를 제공하고, 그래픽 shell은 GUI를 제공한다. CLI와 GUI 기반 shell의 상대적 장점에 대해서는 논쟁이 많다. CLI 지지자는 CLI shell 상에서 일반적인 수행(파일 이동 등)을 훨씬 빠르게 할 수 있다고 주장한다. 반대로 GUI 지지자는 GUI shell의 상대적 사용성과 간편함을 내세운다. 일반적으로는 성능을 중시하고 숙련된 관리자의 작업에 주로 사용되는 서버의 경우는 CLI가 많이 쓰이며, 반면 일상적인 업무에 사용되는 컴퓨터엔 GUI가 많이 사용된다.
+
+최초의 Unix shell인 켄 톰프슨의 sh는 Multix shell을 따라 모형화한 것이다. Bourne shell(sh)는 첫 Unix shell에서 파생했다. sh 이후에는 Bill Joy가 만든 csh(C shell)이 등장했으며, shell script를 작성하는 언어가 C 언어를 닮았기에 C shell이라 불린다. 다음에는 TC shell(tcsh)로 C shell의 기능에다가 command-completion(명령어-완성) 기능을 추가시켜 만든 public domain version이다. 실질적으로 모든 OS shell은 상호 작용과 일괄 방식으로 사용될 수 있으며 일괄 방식의 경우 여러 명령어를 나열하여 둔 텍스트 파일의 이름을 지정함으로써 사용하는 것이 보통이다. Shell을 이용하는 일괄 방식은 프로그래밍 언어의 구조, 조건, 변수 등을 동반한다.
+
+## Bourne Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8)
+Bourne shell(sh)는 Unix version 7의 기본 Unix shell이었다. 톰프슨 shell을 대체하는 shell로서 실행파일 이름이 sh로서 같다. AT&T Bell 연구소의 Stephen Bourne이 개발했고 1977년에 ㅓ음으로 Unix version 7에 포함되었다. 많은 Unix 계정에서 기본 shell로 사용될만큼 오랫동안 인기를 누렸다.
+
 # I. Windows
 ## i. CMD(Command Prompt)
 ### A. Commands
@@ -122,3 +130,5 @@ Search everything as a string. So it is faster than any other greps.
 - Windows Terminal, https://www.microsoft.com/ko-kr/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab, 2020-05-22-Fri.
 - grep commands, https://geundi.tistory.com/113, 2020-08-28-Fri.
 - - Change shell color, https://askubuntu.com/questions/123268/changing-colors-for-user-host-directory-information-in-terminal-command-prompt, 2020-10-29-Thu.
+- Shell Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%85%B8, 2020-11-19-Thu.
+- Bourne Shell Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8, 2020-11-19-Thu.
