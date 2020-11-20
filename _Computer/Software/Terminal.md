@@ -57,6 +57,7 @@ PS powershell # Turn off PowerShell and turn on CMD
 Windows 터미널은 명령 프롬프트, PowerShell 및 WSL과 같은 명령 줄 도구 및 셸 사용자를 위한 최신의 빠르고 효율적이며 강력한 생산성의 터미널 응용 프로그램입니다. 주요 기능으로는 여러 탭, 창, 유니 코드 및 UTF-8 문자 지원, GPU 가속 텍스트 렌더링 엔진 및 사용자 정의 테마, 스타일 및 구성이 있습니다.
 
 ### Cygwin | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B7%B8%EC%9C%88)
+Cygwin은 원래 시그너스 솔루션스가 개발한 free software 모음집으로, Microsoft Windows에서 POSIX 기반 소프트웨어를 구동 및 개발할 수 있는 환경을 제공한다. GNU GPL로 배포되어 자유롭게 사용할 수 있다.
 
 ### MinGW | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/MinGW)
 MinGW(과거 mingw32, Minimalist GNU for Windows 32-bit)는 Microsoft Windows로 포팅한 GNU software 도구 모음이다. MinGW은 Windows API를 구현할 수 있는 헤더 파일들을 가지고 있으며 이로써 자유롭게 쓸 수 있는 컴파일러인 GCC를 사용할 수 있다. Cygwin 포팅을 사용할 경우 컴파일한 프로그램 결과물이 Unix 계통의 기능을 가상으로 구현하는 run-time에 의존하는 반면, MinGW의 경우 이러한 기능에 의존하지 않고 Microsoft Windows 기반 프로그램들을 만들 수 있다. 이 MinGW 프로젝트는 2개의 기본 꾸러미를 관리하고 배포한다. 첫째로는 포팅된 GCC 컴파일러들은 Windows command line에서, 아니면 IDE에 통합된 채로 쓸 수 있다. 아니면 둘째로는 MSYS(Minimal System)를 쓸 수도 있는데, 이것은 가벼운 Unix 계통의 shell 환경을 제공한다. 이러한 환경은 rxvt와 autoconf scripts를 실행하는 데에 충분한 POSIX 도구들이 집약되어 있다. 2개의 꾸러미들은 원래 Cygwin 일부의 forks였으며 forks는 native Winodws 기능 덕에 더 포괄적인 Unix 계통의 지원을 제공한다. 2개의 꾸러미들은 free software이다. Win32 header 파일들은 공용 도메인에 공개된다. 반면 GNU에서 포팅되는 프로그램들은 GNU 일반 공중 사용 허가서 하에서 사용할 수 있다. 완전한 MSYS 꾸머리와 개별 MinGW GNU 유틸리티들의 바이너리 파일들은 MinGW 사이트에서 내려 받을 수 있다.
