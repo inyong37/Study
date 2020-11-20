@@ -9,8 +9,11 @@ Shell은 OS에서 다양한 OS 기능과 서비스를 구현하는 인터페이�
 
 최초의 Unix shell인 켄 톰프슨의 sh는 Multix shell을 따라 모형화한 것이다. Bourne shell(sh)는 첫 Unix shell에서 파생했다. sh 이후에는 Bill Joy가 만든 csh(C shell)이 등장했으며, shell script를 작성하는 언어가 C 언어를 닮았기에 C shell이라 불린다. 다음에는 TC shell(tcsh)로 C shell의 기능에다가 command-completion(명령어-완성) 기능을 추가시켜 만든 public domain version이다. 실질적으로 모든 OS shell은 상호 작용과 일괄 방식으로 사용될 수 있으며 일괄 방식의 경우 여러 명령어를 나열하여 둔 텍스트 파일의 이름을 지정함으로써 사용하는 것이 보통이다. Shell을 이용하는 일괄 방식은 프로그래밍 언어의 구조, 조건, 변수 등을 동반한다.
 
-## Bourne Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8)
+### Bourne Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8)
 Bourne shell(sh)는 Unix version 7의 기본 Unix shell이었다. 톰프슨 shell을 대체하는 shell로서 실행파일 이름이 sh로서 같다. AT&T Bell 연구소의 Stephen Bourne이 개발했고 1977년에 ㅓ음으로 Unix version 7에 포함되었다. 많은 Unix 계정에서 기본 shell로 사용될만큼 오랫동안 인기를 누렸다.
+
+### Bash, Bourne-again Shell, Unix Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8))
+Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 Brian Fox가 작성한 Unix shell이다. Bash는 1989년 발표되어 GNU OS와 Linux, mac os X 그리고 Dawin 등 OS의 기본 shell로 탑재되어 광범위하게 배포되었다. Bash는 또한 DJGPP와 노벨 넷웨어에 의해 DOS로 이식되었고 Cygwin과 MinGW의 배포로 Microsoft Windows로 이식되었다.
 
 # I. Windows
 ## i. CMD(Command Prompt)
@@ -133,3 +136,4 @@ Search everything as a string. So it is faster than any other greps.
 - Bourne Shell Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B3%B8_%EC%85%B8, 2020-11-19-Thu.
 - Terminal Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0, 2020-11-19-Thu.
 - Terminal, Console, Shell Blog KR-KO, http://blog.naver.com/asianchairshot/221383363419, 2020-11-19-Thu.
+- Bash Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8), 2020-11-20-Fri.
