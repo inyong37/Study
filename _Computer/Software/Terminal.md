@@ -54,7 +54,12 @@ PS powershell # Turn off PowerShell and turn on CMD
 - activate env 안됨
 
 ## iii. Terminal | [GitHub](https://github.com/Microsoft/Terminal)
- Windows 터미널은 명령 프롬프트, PowerShell 및 WSL과 같은 명령 줄 도구 및 셸 사용자를 위한 최신의 빠르고 효율적이며 강력한 생산성의 터미널 응용 프로그램입니다. 주요 기능으로는 여러 탭, 창, 유니 코드 및 UTF-8 문자 지원, GPU 가속 텍스트 렌더링 엔진 및 사용자 정의 테마, 스타일 및 구성이 있습니다.
+Windows 터미널은 명령 프롬프트, PowerShell 및 WSL과 같은 명령 줄 도구 및 셸 사용자를 위한 최신의 빠르고 효율적이며 강력한 생산성의 터미널 응용 프로그램입니다. 주요 기능으로는 여러 탭, 창, 유니 코드 및 UTF-8 문자 지원, GPU 가속 텍스트 렌더링 엔진 및 사용자 정의 테마, 스타일 및 구성이 있습니다.
+
+### Cygwin | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B7%B8%EC%9C%88)
+
+### MinGW | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/MinGW)
+MinGW(과거 mingw32)는 Microsoft Windows로 포팅한 GNU software 도구 모음이다. MinGW은 Windows API를 구현할 수 있는 헤더 파일들을 가지고 있으며 이로써 자유롭게 쓸 수 있는 컴파일러인 GCC를 사용할 수 있다. Cygwin 포팅을 사용할 경우 컴파일한 프로그램 결과물이 Unix 계통의 기능을 가상으로 구현하는 run-time에 의존하는 반면, MinGW의 경우 이러한 기능에 의존하지 않고 Microsoft Windows 기반 프로그램들을 만들 수 있다. 이 MinGW 프로젝트는 2개의 기본 꾸러미를 관리하고 배포한다. 첫째로는 포팅된 GCC 컴파일러들은 Windows command line에서, 아니면 IDE에 통합된 채로 쓸 수 있다. 아니면 둘째로는 MSYS(Minimal System)를 쓸 수도 있는데, 이것은 가벼운 Unix 계통의 shell 환경을 제공한다. 이러한 환경은 rxvt와 autoconf scripts를 실행하는 데에 충분한 POSIX 도구들이 집약되어 있다. 2개의 꾸러미들은 원래 Cygwin 일부의 forks였으며 forks는 native Winodws 기능 덕에 더 포괄적인 Unix 계통의 지원을 제공한다. 2개의 꾸러미들은 free software이다. Win32 header 파일들은 공용 도메인에 공개된다. 반면 GNU에서 포팅되는 프로그램들은 GNU 일반 공중 사용 허가서 하에서 사용할 수 있다. 완전한 MSYS 꾸머리와 개별 MinGW GNU 유틸리티들의 바이너리 파일들은 MinGW 사이트에서 내려 받을 수 있다.
 
 # II. Unix/Linux
 - get a root right `su`
@@ -137,3 +142,5 @@ Search everything as a string. So it is faster than any other greps.
 - Terminal Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0, 2020-11-19-Thu.
 - Terminal, Console, Shell Blog KR-KO, http://blog.naver.com/asianchairshot/221383363419, 2020-11-19-Thu.
 - Bash Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8), 2020-11-20-Fri.
+- Cygwin Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B7%B8%EC%9C%88, 2020-11-20-Fri.
+- MinGW Wiki KR-KO, https://ko.wikipedia.org/wiki/MinGW, 2020-11-20-Fri.
