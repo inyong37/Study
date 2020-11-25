@@ -1,5 +1,14 @@
 # Framework
 
+## [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
+OpenCV was started at Intel in 1999 by Gary Bradsky, and the first release came out in 2000. Vadim Pisarevsky joined Gary Bradsky to manage Intel's Russian software OpenCV team. In 2005, OpenCV was used on Stanley, the vehicle that won the 2005 DARPA Grand Challenge. Later, its active development continued under the support of Willow Garage with Gary Bradsky and Vadim Pisarevsky leading the project. OpenCV now supports a multitud of algorithms related to Computer Vision and Machine Learning and is expanding day by day.
+
+OpenCV supports a wide variety of programming languages such as C++, Python, Java, etc., and is available on different platforms including Windows, Linux, OS X, Android, and iOS. Interfaces for high-speed GPU operations based on CUDA and OpenCL are also under active development. OpenCV-Python is the Python API for OpenCV, combining the best qualities of the OpenCV C++ API and the Python language.
+
+Open Source Computer Vision Library[Ref]
+
+(with CMake, cpp, h)
+
 ## [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow)
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
@@ -13,11 +22,6 @@ Keras is a deep learning API written in Python, running on top of the machine le
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
 
 Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).[Ref]
-
-## [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
-Open Source Computer Vision Library[Ref]
-
-(with CMake, cpp, h)
 
 ## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch)
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
@@ -51,3 +55,4 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 - Theano GitHub, https://github.com/Theano/Theano, 2020-07-16-Thu.
 - CNTK, https://docs.microsoft.com/ko-kr/cognitive-toolkit/, 2020-07-16-Thu.
 - CNTK GitHub, https://github.com/microsoft/CNTK, 2020-07-16-Thu.
+- Introduction to OpenCV-Python Tutorials, https://docs.opencv.org/master/d0/de3/tutorial_py_intro.html, 2020-11-25-Wed.
