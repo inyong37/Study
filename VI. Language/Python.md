@@ -71,5 +71,5 @@ Pandas is a fast, powerful, flexible and easy to use open source data analysis a
 - Numpy, https://numpy.org/, 2020-12-04-Fri.
 - Pandas, https://pandas.pydata.org/, 2020-12-04-Fri.
 - SciPy, https://www.scipy.org/, 2020-12-04-Fri.
-- scikit-learn, https://scikit-learn.org/, 2020-12-04-Fri.
+- Scikit-learn, https://scikit-learn.org/, 2020-12-04-Fri.
 - Matplotlib, https://matplotlib.org/ 2020-12-04-Fri.
