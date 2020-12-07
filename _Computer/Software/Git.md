@@ -44,7 +44,7 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 #### Clone single branch
 - `git clone -b branch_name --single-branch https://github.com/inyong37/Study.git`
 #### Fetch after cloning single branch
-- `git remote set-branches --add-origin remote_branch_name`
+- `git remote set-branches --add origin remote_branch_name`
 - `git fetch origin remote_branch_name:local_branch_name`
 
 ### Branch
