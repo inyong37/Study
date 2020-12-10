@@ -49,7 +49,27 @@ def bar():
 ```
 `python test.py -v`
 
+## Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
+The fundamental package for scientific computing with Python.
+
+## SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
+The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
+
+## Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
+Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
+
+## Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
+Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
+
+## Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
+Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
 - C++, Deep Copy, Shallow Copy, https://wonjayk.tistory.com/256, 2020-05-31-Sun.
+- Numpy, https://numpy.org/, 2020-12-04-Fri.
+- Pandas, https://pandas.pydata.org/, 2020-12-04-Fri.
+- SciPy, https://www.scipy.org/, 2020-12-04-Fri.
+- Scikit-learn, https://scikit-learn.org/, 2020-12-04-Fri.
+- Matplotlib, https://matplotlib.org/ 2020-12-04-Fri.
