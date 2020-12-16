@@ -59,6 +59,9 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 #### Delete branch in force
 - `git branch -D branch_name`
 #### Delete remote branch after deleting local branch
+#### Case 1
+- `git push origin --delete branch_name`
+#### Case 2
 - `git branch -d branch_name`
 - `git push origin :branch_name`
 
