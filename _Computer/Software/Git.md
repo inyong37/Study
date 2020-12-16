@@ -72,7 +72,7 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 
 ### submodule
 #### Add
-- Command: `git submodule add git@github.com:user_name/submodule_name path_name`
+- `git submodule add git@github.com:user_name/submodule_name path_name`
 #### Delete
 - `git submodule deinit -f submodule_name`
 - `rm -rf .git/modules/submodule_name`
