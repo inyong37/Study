@@ -75,7 +75,8 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git submodule add git@github.com:user_name/submodule_name path_name`
 #### Delete
 - `git submodule deinit -f submodule_name`
-- `rm -rf .git/modules/submodule_name`
+- UNIX: `rm -rf .git/modules/submodule_name`
+- Windows: `rd /s /q .git/modules/submodule_name`
 - `git rm -f path_name/submodule_name`
 
 #### Error
