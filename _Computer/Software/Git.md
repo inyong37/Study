@@ -27,6 +27,8 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Remove the file: Untracked <- Unmodified
 - Commit: Unmodified <- Staged
 
+### clean
+
 ### Command
 - `git pull`
 - `git branch`
