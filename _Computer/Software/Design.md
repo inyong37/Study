@@ -1,1 +1,5 @@
-Design Pattern
+# Design Pattern
+
+## Factory Pattern
+
+## Observer Pattern
