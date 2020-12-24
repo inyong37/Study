@@ -35,6 +35,8 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git add`
 - `git commit`
 - `git push`
+- `git mv`
+- `git rm`
 
 ### Clone
 #### Clone with HTTPS
