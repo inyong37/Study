@@ -100,11 +100,22 @@ os_platform = platform.system()
 ```
 
 ### io
-Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
+Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
 ```
 import io
 file = io.open(file_name, 'r', encoding='utf-8')
 ```
+
+### Command python
+#### If python2 and python3 are both installed
+- In Unix
+  - Python2: `$ python`
+  - Python3: `$ python3`
+- In Windows
+  - Python2: `$ py -2`
+  - Python3: `$ py -3`
+#### If only one of python verison is installed
+`$ python`
 
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
