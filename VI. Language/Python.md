@@ -84,6 +84,28 @@ args = parser.parse_args()
 
 ### Unicode = str
 
+### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
+Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
+```
+import sys
+reload(sys)
+sys.setdefaultencoding("UTF-8")
+```
+
+### platform
+운영체제를 알 수 있다.
+```
+import platform
+os_platform = platform.system()
+```
+
+### io
+Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
+```
+import io
+file = io.open(file_name, 'r', encoding='utf-8')
+```
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
@@ -95,3 +117,5 @@ args = parser.parse_args()
 - Matplotlib, https://matplotlib.org/ 2020-12-04-Fri.
 - Argparse Blog KR, https://greeksharifa.github.io/references/2019/02/12/argparse-usage/, 2020-12-17-Thu.
 - PIP, https://pypi.org/project/pip/, 2021-01-04-Mon.
+- UnicodeEncodeError Handling Blog KR, https://www.snoopybox.co.kr/2059, 2021-01-04-Mon.
+- Typeerror Handling Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-01-04-Mon.
