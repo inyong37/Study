@@ -20,6 +20,11 @@ Python is a programming language that lets you work quickly and integrate system
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
+### pip
+pip is the package installer for Python.
+- Installation: `pip install pip`
+- Usage: `pip install/uninstall package_name [options]`
+
 ### Copy
 기존 객체와 같은 값을 가진 새로운 객체를 만든다는 것임, 객체들은 멤버를 가지고 있고 그 멤버들은 값일 수도 있고 참조 형식일 수도 있음, 이 객체들이 가진 값 형식과 참조 형식의 복제 방식에 따라 얕은 복사와 깊은 복사의 개념이 나뉨.
 
@@ -89,3 +94,4 @@ args = parser.parse_args()
 - Scikit-learn, https://scikit-learn.org/, 2020-12-04-Fri.
 - Matplotlib, https://matplotlib.org/ 2020-12-04-Fri.
 - Argparse Blog KR, https://greeksharifa.github.io/references/2019/02/12/argparse-usage/, 2020-12-17-Thu.
+- PIP, https://pypi.org/project/pip/, 2021-01-04-Mon.
