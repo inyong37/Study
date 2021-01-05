@@ -80,9 +80,11 @@ args = parser.parse_args()
 
 ### 2to3
 
-### isInstance
+### isInstance(variable)
+variable이 어떤 instance인지 확인을 할 수 있다.
 
 ### Unicode = str
+Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포함된다.
 
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
