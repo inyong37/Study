@@ -119,6 +119,10 @@ file = io.open(file_name, 'r', encoding='utf-8')
 #### If only one of python verison is installed
 `$ python`
 
+### os
+#### os.rename(src, dst)
+이미 파일이 존재하면 FileExistsError 발생함
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
@@ -131,4 +135,5 @@ file = io.open(file_name, 'r', encoding='utf-8')
 - Argparse Blog KR, https://greeksharifa.github.io/references/2019/02/12/argparse-usage/, 2020-12-17-Thu.
 - PIP, https://pypi.org/project/pip/, 2021-01-04-Mon.
 - UnicodeEncodeError Handling Blog KR, https://www.snoopybox.co.kr/2059, 2021-01-04-Mon.
-- Typeerror Handling Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-01-04-Mon.
+- Typeerror Handling Blog KR, https://m.blog.naver.com/P
+tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-01-04-Mon.
