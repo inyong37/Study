@@ -123,6 +123,9 @@ file = io.open(file_name, 'r', encoding='utf-8')
 #### os.rename(src, dst)
 이미 파일이 존재하면 FileExistsError 발생함
 
+### ;
+multiple lines, but not pythonic
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
