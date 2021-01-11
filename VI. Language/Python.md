@@ -22,7 +22,7 @@ Python is a programming language that lets you work quickly and integrate system
 
 ### pip
 pip is the package installer for Python.
-- Installation: `pip install pip`
+- Installation: `sudo apt-get install python-pip` or `sudo apt-get install python3-pip` or `pip install pip`
 - Usage: `pip install/uninstall package_name [options]`
 
 ### Copy
