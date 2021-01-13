@@ -142,6 +142,10 @@ git log를 볼 수 있다.
 commit log를 볼 수 있다.
 - command: `git log`
 
+### error: RPC failed
+파일의 크기가 클 때 발생할 수 있다. 이때는 buffer의 크기를 크게 해주면 된다.
+`git config --global http.postBuffer`
+
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
@@ -307,3 +311,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - git reflog, https://88240.tistory.com/284,2020-08-24-Mon.
 - git remote, https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C, 2020-08-24-Mon.
 - git submodule deinit blog KR, http://snowdeer.github.io/git/2018/08/01/how-to-remove-git-submodule/, 2020-12-16-Wed.
+- error: RPC failed Solution Blog KR, https://gomcine.tistory.com/entry/Git-Push-%EC%8B%9C-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-Failed-with-error-RPC-failed-curl-18-transfer-closed, 2021-01-13-Wed.
