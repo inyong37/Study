@@ -1,5 +1,6 @@
 # InyongDesktop
 # PyCharm
+.idea
 .idea/misc.xml
 .idea/modules.xml
 .idea/Study.iml
@@ -8,8 +9,16 @@
 
 # InyongLaptop
 # PyCharm
+.idea
 .idea/misc.xml
 .idea/modules.xml
 .idea/Study.iml
 .idea/workspace.xml
 .idea/inspectionProfiles/profiles_settings.xml
+
+# Common
+# Deep Learning
+# Data, folder, file, directory
+tmp
+*.weights
+*.gz
