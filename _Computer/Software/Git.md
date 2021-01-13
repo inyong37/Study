@@ -27,12 +27,16 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Remove the file: Untracked <- Unmodified
 - Commit: Unmodified <- Staged
 
+### clean
+
 ### Command
 - `git pull`
 - `git branch`
 - `git add`
 - `git commit`
 - `git push`
+- `git mv`
+- `git rm`
 
 ### Clone
 #### Clone with HTTPS
@@ -59,6 +63,9 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 #### Delete branch in force
 - `git branch -D branch_name`
 #### Delete remote branch after deleting local branch
+#### Case 1
+- `git push origin --delete branch_name`
+#### Case 2
 - `git branch -d branch_name`
 - `git push origin :branch_name`
 
@@ -68,6 +75,21 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - 현재 브랜치의 base를 origin(remote)의 master 브랜치로 업데이트하기: `git rebase origin/master`
 
 ### submodule
+#### Add
+- `git submodule add git@github.com:user_name/submodule_name path_name`
+#### Delete
+- `git submodule deinit -f submodule_name`
+- UNIX: `rm -rf .git/modules/submodule_name`
+- Windows: `rd /s /q .git/modules/submodule_name`
+- `git rm -f path_name/submodule_name`
+
+#### Error
+- Command: `git submodule add git@github.com:user_name/submodule_name path_name`
+  - Error: `"path_name" already exists in the index`
+  - Cause: 해당 "path_name"이 사용 중인 경우, 예를 들어 안에 다른 folder 또는 file이 있는 경우
+  - Solution: 다른 path를 사용해야한다.
+
+### subtree
 
 ### hook
 
@@ -284,3 +306,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - git project status, https://ohgyun.com/351, 2020-08-24-Mon.
 - git reflog, https://88240.tistory.com/284,2020-08-24-Mon.
 - git remote, https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C, 2020-08-24-Mon.
+- git submodule deinit blog KR, http://snowdeer.github.io/git/2018/08/01/how-to-remove-git-submodule/, 2020-12-16-Wed.
