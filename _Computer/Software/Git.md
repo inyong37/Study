@@ -146,6 +146,10 @@ commit log를 볼 수 있다.
 파일의 크기가 클 때 발생할 수 있다. 이때는 buffer의 크기를 크게 해주면 된다.
 `git config --global http.postBuffer`
 
+### Token
+- How to setup GitHub token in config file
+  - `git config --global github.token`
+
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
