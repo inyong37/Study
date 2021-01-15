@@ -6,6 +6,9 @@
 .idea/workspace.xml
 .idea/inspectionProfiles/profiles_settings.xml
 
+# Python
+__pycache__
+
 # Deep Learning - Data, folder, file, directory
 tmp
 *.weights
