@@ -7,33 +7,33 @@ Autumn, 2019
 
 ### Content
 
-Part 1. 핵심 개념 :heavy_check_mark:
+:books: Part 1. 핵심 개념
 
-Chapter 1. 파이썬 프로그래밍을 위한 개발 환경 만들기
+:star: Chapter 1. 파이썬 프로그래밍을 위한 개발 환경 만들기
 
-Chapter 2. 알고리즘 정의와 분석 방법
+:star: Chapter 2. 알고리즘 정의와 분석 방법
 
-Chapter 3. 연결 리스트
+:star: Chapter 3. 연결 리스트
 
-Chapter 4. 이중 연결 리스트
+:star: Chapter 4. 이중 연결 리스트
 
-Chapter 5. 스택(Stack)과 큐(Queue)
+:star: Chapter 5. 스택(Stack)과 큐(Queue)
 
-Chapter 6. 트리(Tree) :star:
+:star: Chapter 6. 트리(Tree)
 
-Chapter 7. 트리(Tree)의 순회(Traverse) 알고리즘 :star:
+:star: Chapter 7. 트리(Tree)의 순회(Traverse) 알고리즘 
 
-Chapter 8. 선택/삽입 정렬 알고리즘 :star:
+:star: Chapter 8. 선택/삽입 정렬 알고리즘
 
-Chapter 9. 거품/셸 정렬 알고리즘 :star:
+:star: Chapter 9. 거품/셸 정렬 알고리즘
 
-Chapter 10. 퀵/기수 정렬 알고리즘 :star:
+:star: Chapter 10. 퀵/기수 정렬 알고리즘
 
-Chapter 11. 병합/힙 정렬 알고리즘 :star:
+:star: Chapter 11. 병합/힙 정렬 알고리즘
 
-Chapter 12. 이진 검색 알고리즘 :star:
+:star: Chapter 12. 이진 검색 알고리즘
 
-Part 2. 실전 문제 :construction:
+:fire: Part 2. 실전 문제
 
 1. 반복문을 사용하여 0부터 n까지의 합 출력하기
 
