@@ -1,5 +1,10 @@
-1. Human Detection
-2. Uniform Detection
-3. Firearm Detection
+# Enemy Spotted
+with OpenCV, Keras
 
-with OpenCV, TensorFlow, Keras, PyTorch
+## Human Detection
+
+## Uniform Classification
+
+## Firearm Detection
+
+## Calculate firing
