@@ -5,6 +5,8 @@
 ### Date
 Autumn, 2019
 
+
+
 ### Content
 
 :books: Part 1. 핵심 개념
