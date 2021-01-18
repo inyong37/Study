@@ -1,3 +1,5 @@
+# 연결 리스트(Linked List)
+
 class Node:
     def __init__(self, data, next=None):
         self.data = data
