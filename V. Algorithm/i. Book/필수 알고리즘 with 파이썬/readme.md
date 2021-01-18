@@ -13,7 +13,7 @@ Autumn, 2019
 
 :star: Chapter 2. 알고리즘 정의와 분석 방법
 
-:star: Chapter 3. 연결 리스트
+:star: [Chapter 3. 연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C03_LinkedList.py)
 
 :star: Chapter 4. 이중 연결 리스트
 
