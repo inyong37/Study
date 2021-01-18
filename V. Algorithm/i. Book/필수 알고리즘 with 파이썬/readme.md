@@ -43,7 +43,7 @@ Autumn, 2019
 
 4. [재귀 호출을 사용하여 n부터 1까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P04.py)
 
-5. [53과 5의 배수 계산하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P05.py)
+5. [3과 5의 배수 계산하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P05.py)
 
 6. 숫자 뒤집기
 
