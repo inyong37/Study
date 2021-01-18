@@ -9,11 +9,11 @@ Autumn, 2019
 
 :books: Part 1. 핵심 개념
 
-:star: [Chapter 1. 파이썬 프로그래밍을 위한 개발 환경 만들기](https://github.com/inyong37/Study/blob/master/VI.%20Language/Python.md)
+:star: Chapter 1. [파이썬 프로그래밍을 위한 개발 환경 만들기](https://github.com/inyong37/Study/blob/master/VI.%20Language/Python.md)
 
-:star: Chapter 2. 알고리즘 정의와 분석 방법
+:star: Chapter 2. [알고리즘 정의와 분석 방법](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C02_Algorithm.md)
 
-:star: [Chapter 3. 연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C03_LinkedList.py)
+:star: Chapter 3. [연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C03_LinkedList.py)
 
 :star: Chapter 4. 이중 연결 리스트
 
