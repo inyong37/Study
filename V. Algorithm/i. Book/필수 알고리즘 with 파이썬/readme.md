@@ -35,15 +35,15 @@ Autumn, 2019
 
 :fire: Part 2. 실전 문제
 
-[1. 반복문을 사용하여 0부터 n까지의 합 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P1.py)
+1. [반복문을 사용하여 0부터 n까지의 합 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P01.py)
 
-[2. 재귀 호출을 사용하여 1부터 20까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P2.py)
+2. [재귀 호출을 사용하여 1부터 20까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P02.py)
 
-[3. 반복문을 사용하여 1부터 n까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P3.py)
+3. [반복문을 사용하여 1부터 n까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P03.py)
 
-[. 재귀 호출을 사용하여 n부터 1까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P4.py)
+4. [재귀 호출을 사용하여 n부터 1까지 출력하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P04.py)
 
-[5. 3과 5의 배수 계산하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P5.py)
+5. [53과 5의 배수 계산하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P05.py)
 
 6. 숫자 뒤집기
 
@@ -93,7 +93,7 @@ Autumn, 2019
 
 29. 하노이의 탑
 
-[30. 이진 트리에서 두 노드사이의 거리 구하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P30.py)
+30. [이진 트리에서 두 노드사이의 거리 구하기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/P30.py)
 
 31. 제곱근 구하기
 
