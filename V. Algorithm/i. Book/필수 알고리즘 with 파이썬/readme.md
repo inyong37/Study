@@ -9,7 +9,7 @@ Autumn, 2019
 
 :books: Part 1. 핵심 개념
 
-:star: Chapter 1. 파이썬 프로그래밍을 위한 개발 환경 만들기
+:star: [Chapter 1. 파이썬 프로그래밍을 위한 개발 환경 만들기](https://github.com/inyong37/Study/blob/master/VI.%20Language/Python.md)
 
 :star: Chapter 2. 알고리즘 정의와 분석 방법
 
