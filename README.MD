@@ -168,8 +168,7 @@ Books about Programming Languages.
 #### b. How to alarm for billing [Reference](https://brunch.co.kr/@topasvga/96)
 
 ### B. Docker | [Homepage](https://www.docker.com/)
-#### a. Korean Tutorial
-[1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
+#### a. Korean Tutorial | Blog (KR) [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 #### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### C. Version Check
