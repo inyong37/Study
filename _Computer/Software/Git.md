@@ -29,7 +29,6 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Remove the file: Untracked <- Unmodified
 - Commit: Unmodified <- Staged
 
-
 ### Branch
 #### Make branch
 - `git branch branch_name`
@@ -136,14 +135,30 @@ git 2.23.0 부터 modified 된 파일을 restore하는 command이다. 이전의 
 - `git restore file_name` = `git checkout file_name`
 
 ### Submodule
-#### Add Submodule: `git submodule add git@github.com:user_name/submodule_name path_name`
+#### Add Submodule
+- `git submodule add git@github.com:user_name/submodule_name path_name`
 #### Delete Submodule
 1. `git submodule deinit -f submodule_name`
-2-a. UNIX: `rm -rf .git/modules/submodule_name`
-2-b. Windows: `rd /s /q .git/modules/submodule_name`
-3. `git rm -f path_name/submodule_name`
+2. UNIX: `rm -rf .git/modules/submodule_name`
+3. Windows: `rd /s /q .git/modules/submodule_name`
+4. `git rm -f path_name/submodule_name`
 
 ### Subtree
+main project에서 sub folder/project를 분리하는 방법이다.
+1. Split sub project from main project: `cd mainproject_name && git subtree split -P subproject_name -b branch_name`
+2. Make new folder/directory for sub porject: `cd workspace_name && mkdir subproject_name & cd subproject_name`
+3. Git init subproject: `git init`
+4. Git pull sub project from main project: `git pull mainproject_path branch_name`
+5. Add git remote repository: `git remote add remote_name git_name`
+6. Push sub project content: `git push remote_name -u branch_name`
+7. Additionally remove sub project folder/directory in main project: `cd mainproject_name && git rm -r subproject_name`
+8. Commit and push changes: `git commit -m "split subproject" && git push`
+
+#### Submodule vs. Subtree
+- Submodule은 main에서 sub의 SHA 값만 기록하기 때문에 main에서 수정한 sub folder의 내용은 사라지고 항상 submodule의 내용으로 업데이트된다. 따라서 항상 작업은 sub에서 한 뒤 이를 커밋하고 main에서 업데이트(`git submodule update subproject_name`) 해야 한다.
+- Subtree는 submodule과 달리 main에 file/folder를 직접 추가하고 tracking한다. 따라서 sub의 변경 사항도 main에 기록되며, subtree의 remote의 content와 subtree를 추가한 repo(main)의 content가 서로 달라도 `subtree merge`를 사용하면 변경 사항을 양쪽 모두에 반영 가능하다.
+- main에서 sub를 직접 수정하고 remote에 push할 수 있다는 점이 차이점이다. 즉, 자유도가 높다.
+- 단, subtree를 추가한 모든 사용자가 subtree의 내용을 자유롭게 변경해서 remote에 push할 수 있기 떄문에 문제가 발생할 수 있다.
 
 ### Switch
 git 2.23.0 부터 branch를 switch하기 위한 command이다. 이전의 checkout의 기능을 세분화한 것이다.
@@ -324,3 +339,5 @@ git describe master; git describe side; git describe bugFix; git commit
 - git submodule deinit blog KR, http://snowdeer.github.io/git/2018/08/01/how-to-remove-git-submodule/, 2020-12-16-Wed.
 - error: RPC failed Solution Blog KR, https://gomcine.tistory.com/entry/Git-Push-%EC%8B%9C-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0-Failed-with-error-RPC-failed-curl-18-transfer-closed, 2021-01-13-Wed.
 - Setup GitHub Token Blog US, https://github.blog/2008-10-11-local-github-config/, 2021-01-13-Wed.
+- git subtree Blog KR, https://yh0921k.tistory.com/27, 2020-01-20-Wed.
+- git submodule vs. subtree Blog KR, https://blog.rhostem.com/posts/2020-01-03-code-sharing-with-git-subtree, 2020-01-20-Wed.
