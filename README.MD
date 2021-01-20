@@ -1,8 +1,10 @@
-# :microphone: Study :headphones:
+# Study
 ```
 This repository is about studies by myself. Themes is about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, Data Structure, Algorithm and Reinforcement Learning that I am interested in.
 ```
+
 ----------
+
 ### Frameworks
 #### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
 #### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
@@ -10,11 +12,15 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 #### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
 #### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
 
+----------
+
 ### Language
 #### a. Python with TensorFlow, Theano, Keras, PyTorch
 #### b. C++ with Caffe
+
 ----------
-# I. Lecture :sparkling_heart:
+
+# I. Lecture :notebook:
 ## i. Computer Vision
 - CS231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
 - CS231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
@@ -28,12 +34,14 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 - 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
 - Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
 - 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
+
 ----------
+
 # II. Book :books:
 ```
 Books about Machine Learning, Deep Learning and Computer Vision.
 ```
-## i. English :green_book:
+## i. English
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
 |Deep Learning|[PDF](https://drive.google.com/open?id=1TiGx2WRewwhWd7rcTAoAv4vlFCOMc26I)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
@@ -45,14 +53,14 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow|-|[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|-|
 |Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
 
-## ii. Japanese :blue_book:
+## ii. Japanese
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
 |PyTorchで学ぶニューラルネットワークと深層学習|[GITHUB](https://github.com/lucidfrontier45/PyTorch-Book)|-|[AMAZON.JP](https://www.amazon.co.jp/gp/product/B078WK5CPK)|-|
 |ゼロから作る Deep Learning|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|-|
 |ゼロから作る Deep Learning 2|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-2)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873118369/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%B7%A8-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873118360)|-|
 
-## iii. Korean :notebook:
+## iii. Korean
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
@@ -74,20 +82,26 @@ Books about Machine Learning, Deep Learning and Computer Vision.
     Reinforcement Learning: RL
     Computer Vision: CV
     Natural Language Processing: NLP
+    
 ----------
-# III. Kaggle :clap:
+
+# III. Kaggle
 |Title|URL|DATASET|BYNAME|
 |:----|:-:|:-----:|-----:|
 |Titanic: Machine Learning from Disaster|[Competition](https://www.kaggle.com/c/titanic)|[Data](https://www.kaggle.com/c/titanic/data)|TITANIC|
 |Human Protein Atlas Image Classification|[Competition](https://www.kaggle.com/c/human-protein-atlas-image-classification)|[Data](https://www.kaggle.com/c/human-protein-atlas-image-classification/data)|PROTEIN|
 |Chest X-Ray Images (Pneumonia)|[Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)|[PKL](https://drive.google.com/drive/folders/102q8Y446NfhLaY_P_vAZFKNOHr8hMZ5w?usp=sharing)|XRAY|
+
 ----------
-# IV. COLAB :thumbsup:
+
+# IV. COLAB
 - offical tutorial and explanation [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 - useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB/readme.md)
+
 ----------
-# V. Algorithm :heavy_exclamation_mark:
-## i. Book :books:
+
+# V. Algorithm :pencil:
+## i. Book
 ```
 Books about Data Structure and Algorithm.
 ```
@@ -102,49 +116,51 @@ Books about Data Structure and Algorithm.
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
-## ii. [Hacker Rank](https://www.hackerrank.com/) :page_facing_up:
+## ii. [Hacker Rank](https://www.hackerrank.com/) :pencil:
 ### A. [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
 ### B. [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
 ### C. [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-## iii. [Codility](https://app.codility.com/programmers/) :memo:
+## iii. [Codility](https://app.codility.com/programmers/) :pencil:
 ### A. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
 ### B. [Challenges](https://app.codility.com/programmers/challenges/)
 
-## iv. [Programmers](https://programmers.co.kr/) :clipboard:
-### A. [카카오 코딩테스트] :heavy_exclamation_mark:
+## iv. [Programmers](https://programmers.co.kr/) :pencil:
+### A. [카카오 코딩테스트]
 - 2020 KAKAO BLIND RECRUITMENT
 - 2019 KAKAO BLIND RECRUITMENT
 - 2018 KAKAO BLIND RECRUITMENT
-### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges):heavy_exclamation_mark:
+### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/)
-- :heavy_exclamation_mark: (Not Yet)
+(Not Yet)
 
 ## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
-- :heavy_exclamation_mark: (Not Yet)
+(Not Yet)
 
 ## vii. [LeetCode](https://leetcode.com/)
-- :heavy_exclamation_mark: (Not Yet)
+(Not Yet)
+
 ----------
+
 # VI. Language :books:
 ```
 Books about Programming Languages.
 ```
-## i. C :closed_book:
+## i. C
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
 |그림으로 배우는 Easy C언어|-|[YES24](http://www.yes24.com/Product/Goods/3379284)|Spring, 2009|
 |누구나 쉽게 즐기는 C 언어 콘서트|-|[YES24](http://www.yes24.com/Product/Goods/3900759)|Spring, 2012|
 |The C Programming Language (2nd)|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
 
-## ii. Java :orange_book:
+## ii. Java
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
 |난 정말 JAVA를 공부한적이 없다구요|-|[YES24](http://www.yes24.com/Product/Goods/3497762)|Spring, 2009|
 |Eclipse를 활용한 안드로이드 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/16402399)|Fall, 2015|
 
-## iii. Python :green_book:
+## iii. Python
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/74419916)|Summer, 2019|
@@ -153,7 +169,7 @@ Books about Programming Languages.
 |High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|
 |Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|
 
-## iv. C++ :blue_book:
+## iv. C++
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
 |윤성우의 열혈 C++ 프로그래밍|[Homepage](http://www.orentec.co.kr/booklist/CPP_BASIC_1/book_sub1.php)|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|
@@ -162,6 +178,7 @@ Books about Programming Languages.
 |Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
 
 ----------
+
 ## ETC 
 ### A. Amazon Web Services (AWS)
 #### a. How to delete [Reference](https://brunch.co.kr/@topasvga/342)
@@ -205,6 +222,7 @@ import cv2; cv2.__version__
 - Head First Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
+
 ----------
 - :book: 
 ----------
