@@ -5,35 +5,35 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 
 ----------
 
-### Frameworks
-#### a. TensorFlow (January, 2017) (Studying) [Tutorial](https://www.tensorflow.org/tutorials)
-#### b. Theano (January, 2018) [Homepage](http://deeplearning.net/software/theano/)
-#### c. Keras (January, 2018) (Studying) [Homepage](https://keras.io/)
-#### d. Caffe (January, 2019) [Homepage](https://caffe.berkeleyvision.org/)
-#### e. PyTorch (July, 2019) (Studying) [Tutorial](https://pytorch.org/tutorials/)
+### [Framework](https://github.com/inyong37/Study/tree/master/_Framework)
+#### a. TensorFlow | [Tutorial](https://www.tensorflow.org/tutorials) | January, 2017 | :pencil:
+#### b. Theano | [Homepage](http://deeplearning.net/software/theano/) | January, 2018 |
+#### c. Keras | [Homepage](https://keras.io/) | January, 2018 | :pencil:
+#### d. Caffe | [Homepage](https://caffe.berkeleyvision.org/) | January, 2019 |
+#### e. PyTorch | [Tutorial](https://pytorch.org/tutorials/) | July, 2019 | :pencil:
 
 ----------
 
 ### Language
-#### a. Python with TensorFlow, Theano, Keras, PyTorch
+#### a. Python with TensorFlow, Theano, Keras, and PyTorch
 #### b. C++ with Caffe
 
 ----------
 
 # I. Lecture :notebook:
 ## i. Computer Vision
-- CS231n: Convolutional Neural Networks for Visual Recognition [Homepage](http://cs231n.stanford.edu/index.html)
-- CS231n (Spring 2017) [Youtube](https://youtu.be/vT1JzLTH4G4)
+- CS231n: Convolutional Neural Networks for Visual Recognition | [Homepage](http://cs231n.stanford.edu/index.html) |
+- CS231n (Spring 2017) | [Youtube](https://youtu.be/vT1JzLTH4G4) |
 ## ii. Natural Language Processing
-- CS224n: Natural Language Processing with Deep Learning [Homepage](http://web.stanford.edu/class/cs224n/)
-- CS224d: Deep Learning for Natural Language Processing [Homepage](http://cs224d.stanford.edu/index.html)
+- CS224n: Natural Language Processing with Deep Learning | [Homepage](http://web.stanford.edu/class/cs224n/) |
+- CS224d: Deep Learning for Natural Language Processing | [Homepage](http://cs224d.stanford.edu/index.html) |
 ## iii. Machine Learning 
-- CS156: Learning from Data [Homepage](https://work.caltech.edu/telecourse.html)
-- CS156 (Spring, 2012) [Youtube](https://youtu.be/mbyG85GZ0PI)
+- CS156: Learning from Data | [Homepage](https://work.caltech.edu/telecourse.html) |
+- CS156 (Spring, 2012) | [Youtube](https://youtu.be/mbyG85GZ0PI) |
 ## iv. Korean
-- 모두를 위한 머신러닝/딥러닝 강의 [Homepage](http://hunkim.github.io/ml/)
-- Learning from Data 한글 정리 [Homepage](http://theyearlyprophet.com/lfd.html), [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf)
-- 라온피플 머신러닝 아카데미 [Homepage](https://laonple.blog.me/220463627091)
+- 모두를 위한 머신러닝/딥러닝 강의 | [Homepage](http://hunkim.github.io/ml/) |
+- Learning from Data 한글 정리 | [Homepage](http://theyearlyprophet.com/lfd.html) | [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf) |
+- 라온피플 머신러닝 아카데미 | [Homepage](https://laonple.blog.me/220463627091) | :pencil:
 
 ----------
 
@@ -100,7 +100,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 
 ----------
 
-# V. Algorithm :pencil:
+# V. Algorithm :books: :computer:
 ## i. Book
 ```
 Books about Data Structure and Algorithm.
@@ -126,10 +126,8 @@ Books about Data Structure and Algorithm.
 ### B. [Challenges](https://app.codility.com/programmers/challenges/)
 
 ## iv. [Programmers](https://programmers.co.kr/) :pencil:
-### A. [카카오 코딩테스트]
-- 2020 KAKAO BLIND RECRUITMENT
-- 2019 KAKAO BLIND RECRUITMENT
-- 2018 KAKAO BLIND RECRUITMENT
+### A. [카카오 코딩테스트]()
+(2020 KAKAO BLIND RECRUITMENT, 2019 KAKAO BLIND RECRUITMENT, 2018 KAKAO BLIND RECRUITMENT)
 ### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/)
@@ -179,29 +177,29 @@ Books about Programming Languages.
 
 ----------
 
-## ETC 
+## VII. ETC 
 ### A. Amazon Web Services (AWS)
-#### a. How to delete [Reference](https://brunch.co.kr/@topasvga/342)
-#### b. How to alarm for billing [Reference](https://brunch.co.kr/@topasvga/96)
+#### a. How to delete | [Reference](https://brunch.co.kr/@topasvga/342)
+#### b. How to alarm for billing | [Reference](https://brunch.co.kr/@topasvga/96)
 
 ### B. Docker | [Homepage](https://www.docker.com/)
 #### a. Korean Tutorial | Blog (KR) [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 #### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### C. Version Check
-- Python, CUDA
+Python, CUDA
 ```
 $ python --versioin
 $ nvcc --version
 ```
-- TensorFlow, Keras, PyTorch, OpenCV in python
+TensorFlow, Keras, PyTorch, OpenCV in python
 ```
 import tensorflow; tensorflow.__version__
 import keras; keras.__version__
 import torch; torch.__vrtsion__
 import cv2; cv2.__version__
 ```
-- CuDNN in ~/CUDA/include/cudnn.h
+CuDNN in ~/CUDA/include/cudnn.h
 ```
 #define CUDNN_MAJOR 7
 #define CUDNN_MINOR 4
@@ -210,21 +208,19 @@ import cv2; cv2.__version__
 ```
 
 ### D. Virtual Environment
-#### a. Virtual Box
-[Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
-#### b. VMware
-[Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
+#### a. Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
+#### b. VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
-### E. Computer
-- Operating System Concepts (10th Ed.) [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
-- Operating System Concepths Essential (2nd Ed.) [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=)
-- Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)
-- Head First Design Patterns (1st Ed.) [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
+### E. Computer Science
+- Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+- Operating System Concepths Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=)
+- Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)
+- Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 
-----------
-- :book: 
+
+## VIII. Deprecated content :book: 
 ----------
     밑바닥부터 시작하는 데이터과학
     밑바닥부터 시작하는 딥러닝
