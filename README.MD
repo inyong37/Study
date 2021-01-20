@@ -187,12 +187,12 @@ Books about Programming Languages.
 #### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### C. Version Check
-Python, CUDA
+Python, and CUDA
 ```
 $ python --versioin
 $ nvcc --version
 ```
-TensorFlow, Keras, PyTorch, OpenCV in python
+TensorFlow, Keras, PyTorch, and OpenCV in python
 ```
 import tensorflow; tensorflow.__version__
 import keras; keras.__version__
@@ -208,8 +208,8 @@ CuDNN in ~/CUDA/include/cudnn.h
 ```
 
 ### D. Virtual Environment
-#### a. Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
-#### b. VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
+- Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
+- VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
 ### E. Computer Science
 - Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
@@ -219,6 +219,7 @@ CuDNN in ~/CUDA/include/cudnn.h
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 
+----------
 
 ## VIII. Deprecated content :book: 
 ----------
