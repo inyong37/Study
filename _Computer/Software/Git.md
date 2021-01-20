@@ -3,7 +3,9 @@ Git is a free and open source distributed version control system designed to han
 
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.[Ref]
 
-### project status
+### Status
+
+#### Project Status
 3 status: Git Directory | Working Directory | Staging Area
 - Git Directory: git이 프로젝트의 모든 정보를 저장하는 곳으로, git을 새로 만들거나 clone할 때 git directory가 만들어진다.
 - Working Directory: 프로젝트의 특정 버전을 git directory로부터 checkout 상태이다.
@@ -19,7 +21,7 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - git checkout: working dir <- local repo
 - git merge: working dir <- local repo
 
-### file status
+#### File Status
 4 status: Untracked | Unmodified | Modified | Staged
 - add the file: Untracked -> Staged
 - Edit the file: Unmodified -> Modified
@@ -27,29 +29,6 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Remove the file: Untracked <- Unmodified
 - Commit: Unmodified <- Staged
 
-### clean
-
-### Command
-- `git pull`
-- `git branch`
-- `git add`
-- `git commit`
-- `git push`
-- `git mv`
-- `git rm`
-
-### Clone
-#### Clone with HTTPS
-- `git clone https://github.com/inyong37/Study.git`
-#### Clone with SSH
-- `git clone git@github.com:inyong37/Study.git`
-#### Clone with GitHub CLI
-- `git clone gh repo clone inyong37/Study`
-#### Clone single branch
-- `git clone -b branch_name --single-branch https://github.com/inyong37/Study.git`
-#### Fetch after cloning single branch
-- `git remote set-branches --add origin remote_branch_name`
-- `git fetch origin remote_branch_name:local_branch_name`
 
 ### Branch
 #### Make branch
@@ -69,92 +48,120 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git branch -d branch_name`
 - `git push origin :branch_name`
 
-### rebase
+### Cherry-Pick
+다른 브랜치에 있는 commit을 내 브랜치에 적용하는 방법이다.
+- conflict가 발생해서 해결하기: conflict를 수정하고 `--continue` 하고 commit message를 수정해서 cherry-pick 마무리한다.
+- conflict가 발생해서 취소하기: `--abort`하면 된다.
+
+### Clean
+
+### Clone
+
+#### Clone with HTTPS
+- `git clone https://github.com/inyong37/Study.git`
+
+#### Clone with SSH
+- `git clone git@github.com:inyong37/Study.git`
+
+#### Clone with GitHub CLI
+- `git clone gh repo clone inyong37/Study`
+
+#### Clone single branch
+- `git clone -b branch_name --single-branch https://github.com/inyong37/Study.git`
+
+#### Fetch after cloning single branch
+- `git remote set-branches --add origin remote_branch_name`
+- `git fetch origin remote_branch_name:local_branch_name`
+
+### Error
+
+#### Error: RPC failed
+파일의 크기가 클 때 발생할 수 있다. 이때는 buffer의 크기를 크게 해주면 된다.
+- `git config --global http.postBuffer`
+
+#### Error: "path_name" already exists in the index
+해당 "path_name"이 사용 중인 경우, 예를 들어 안에 다른 folder 또는 file이 있는 경우에 발생한다. 해결책으로는 다른 path를 사용해야한다.
+- `git submodule add git@github.com:user_name/submodule_name path_name`
+
+### Hook
+
+### Log
+commit log를 볼 수 있다.
+- `git log`
+- n개의 log만 보기: `git log -n`
+  
+## Rebase
 - commit 2개 합치기: `git rebase -i HEAD~2`
   - `pick` commit# -> `fixup` commit#
 - 현재 브랜치의 base를 origin(remote)의 master 브랜치로 업데이트하기: `git rebase origin/master`
 
-### submodule
-#### Add
-- `git submodule add git@github.com:user_name/submodule_name path_name`
-#### Delete
-- `git submodule deinit -f submodule_name`
-- UNIX: `rm -rf .git/modules/submodule_name`
-- Windows: `rd /s /q .git/modules/submodule_name`
-- `git rm -f path_name/submodule_name`
+### Reflog
+project/repository의 git log가 아닌 현재 작업 중인 git log 전체를 볼 수 있다.
+- `git reflog`
+- 이전 commit HEAD@{1}으로 돌아가기: `git reset --hard HEAD@{1}`
 
-#### Error
-- Command: `git submodule add git@github.com:user_name/submodule_name path_name`
-  - Error: `"path_name" already exists in the index`
-  - Cause: 해당 "path_name"이 사용 중인 경우, 예를 들어 안에 다른 folder 또는 file이 있는 경우
-  - Solution: 다른 path를 사용해야한다.
+### Remote
 
-### subtree
+#### Show Remote
+`git remote`
+`git remote -v` with name and url
 
-### hook
+#### Rename Remote
+`git remote rename old_name new_name`
 
-### rename
-git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추적할 수 있어야 한다. 특히 리팩토링 때 클래스나 패키지 폴더의 이름 변경은 자주 발생하는 작업이므로 변경 내역을 잘 관리해야 하며 git의 명령어 `git mv`를 사용하면 된다.
-- command: `git mv old_name new_name`
+#### Add Remote
+`git remote add new_name git@1.1.1.1:user_name/repo_name.git`
 
-#### rename: invalid argument
+#### Remove Remote
+`git remote remove delete_name`
+
+### Rename
+git으로 버전 관리할 경우, 파일이나 폴더의 이름 변경도 추적할 수 있어야 한다. 특히 리팩토링 때 클래스나 패키지 폴더의 이름 변경은 자주 발생하는 작업이므로 변경 내역을 잘 관리해야 하며 git의 명령어 `git mv`를 사용하면 된다. 바로 stage에 올라간다. unstage로 작업하고 싶다면 `git mv`가 아닌 방식으로 한 뒤 `git add`를 하면 된다. 
+- `git mv old_name new_name`
+
+#### Rename: invalid argument
 파일이나 폴더 이름의 일부를 대소문자로 변경하는 경우에 발생한다. 이 경우에는 임시 이름으로 한 뒤 변경하는 단계를 거치도록 한다.
 - error: `git mv old_name OLD_NAME`
 - sol: `git mv old_name temp_name`, `git mv temp_name OLD_NAME`
 
-### remote
-#### show remote
-`git remote`
-`git remote -v` with name and url
-#### remote rename
-`git remote rename old_name new_name`
-#### remote add
-`git remote add new_name git@1.1.1.1:user_name/repo_name.git`
-#### remove remote
-`git remote remove delete_name`
-
-### cherry-pick
-다른 브랜치에 있는 commit을 내 브랜치에 적용하기
-- conflict가 발생해서 해결하기: conflict를 수정하고 `--continue` 하고 commit message를 수정해서 cherry-pick 마무리한다.
-- conflict가 발생해서 취소하기: `--abort`하면 된다.
-
-### switch
-git 2.23.0 부터 branch를 switch하기 위한 command
-- `git switch branch_name` = `git checkout branch_name`
-
-### restore
-git 2.23.0 부터 modified 된 파일을 restore하는 command
-- `git restore file_name` = `git checkout file_name`
-
-### reset
+### Reset
 git 명령을 되돌린다.
 - `git reset --soft`: commit 명령을 되돌린다. HEAD만 되돌아간다.
 - `git reset --mixed`(default): commit, add 명령을 되돌린다. HEAD, index가 되돌아간다.
 - `git reset --hard`: commit, add, working dir을 되돌린다. HEAD, index, working dir가 되돌아간다. 이후의 commit history까지 삭제된다.
   - revert의 경우에는 되돌아간다는 commit을 생성한다.
 
-### reflog
-git log를 볼 수 있다.
-- command: `git reflog`
-- 이전 commit HEAD@{1}으로 돌아가기: `git reset --hard HEAD@{1}`
+### Restore
+git 2.23.0 부터 modified 된 파일을 restore하는 command이다. 이전의 checkout의 기능을 세분화한 것이다.
+- `git restore file_name` = `git checkout file_name`
 
-### log
-commit log를 볼 수 있다.
-- command: `git log`
+### Submodule
+#### Add Submodule: `git submodule add git@github.com:user_name/submodule_name path_name`
+#### Delete Submodule
+1. `git submodule deinit -f submodule_name`
+2-a. UNIX: `rm -rf .git/modules/submodule_name`
+2-b. Windows: `rd /s /q .git/modules/submodule_name`
+3. `git rm -f path_name/submodule_name`
 
-### error: RPC failed
-파일의 크기가 클 때 발생할 수 있다. 이때는 buffer의 크기를 크게 해주면 된다.
-`git config --global http.postBuffer`
+### Subtree
+
+### Switch
+git 2.23.0 부터 branch를 switch하기 위한 command이다. 이전의 checkout의 기능을 세분화한 것이다.
+- `git switch branch_name` = `git checkout branch_name`
 
 ### Token
 - How to setup GitHub token in config file
   - `git config --global github.token`
+
+----------------------------------------------------------------------------------------------------
 
 ## Github | [Homepage](https://github.com/)
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
 ## GitLab| [Homepage](https://about.gitlab.com/) | [Source Code](https://github.com/gitlabhq)
 GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다. [Ref]
+
+----------------------------------------------------------------------------------------------------
 
 ## Git Tutorial Game | [Homepage](https://learngitbranching.js.org/)
 - See tutorials command: `levels`
