@@ -17,7 +17,7 @@ Spring, 2021 (Con't)
 
 :star: Chapter 3. [연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C03_LinkedList.py)
 
-:star: Chapter 4. 이중 연결 리스트
+:star: Chapter 4. [이중 연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C04_DoubleLinkedList.py)
 
 :star: Chapter 5. 스택(Stack)과 큐(Queue)
 
