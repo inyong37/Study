@@ -26,6 +26,7 @@ if __name__ == '__main__':
 # 큐를 사용하는 대표적인 프로그램은 Windows, Linux와 같은 운영체제이다.
 # FIFO(First In First Out): 처음으로 저장한 데이터를 처음 사용하는 방식이다.
 # 큐 역시 배열이든 연결 리스트든 어떤 것으로 만들어도 상관없지만, 스택과 달리 큐는 배열을 사용하는 것이 좀 더 편리하다.
+# 시간의 효율성에서 
   
 def put(item):
   queue.append(item)
