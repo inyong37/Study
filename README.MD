@@ -221,7 +221,7 @@ CuDNN in ~/CUDA/include/cudnn.h
 
 ----------
 
-## VIII. Deprecated content :book: 
+## VIII. Deprecated Content :book: 
 ----------
     밑바닥부터 시작하는 데이터과학
     밑바닥부터 시작하는 딥러닝
