@@ -23,7 +23,7 @@ Spring, 2021 (Con't)
 
 :star: Chapter 6. [트리(Tree)](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/필수%20알고리즘%20with%20파이썬/C06_Tree.md)
 
-:star: Chapter 7. 트리(Tree)의 순회(Traverse) 알고리즘 
+:star: Chapter 7. [트리(Tree)의 순회(Traverse) 알고리즘](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/필수%20알고리즘%20with%20파이썬/C07_TreeTraverse.md)
 
 :star: Chapter 8. 선택/삽입 정렬 알고리즘
 
