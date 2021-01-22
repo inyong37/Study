@@ -21,7 +21,7 @@ Spring, 2021 (Con't)
 
 :star: Chapter 5. [스택(Stack)과 큐(Queue)](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/필수%20알고리즘%20with%20파이썬/C05_StackQueue.py)
 
-:star: Chapter 6. 트리(Tree)
+:star: Chapter 6. [트리(Tree)](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/필수%20알고리즘%20with%20파이썬/C06_Tree.md)
 
 :star: Chapter 7. 트리(Tree)의 순회(Traverse) 알고리즘 
 
