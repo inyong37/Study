@@ -6,7 +6,7 @@ Python is a programming language that lets you work quickly and integrate system
 
 - Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
 
-## PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
+## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 #### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
 - Comment: `Control` + `/`.
@@ -20,7 +20,7 @@ Python is a programming language that lets you work quickly and integrate system
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
-### pip
+## PIP
 pip is the package installer for Python.
 - Installation: `sudo apt-get install python-pip` or `sudo apt-get install python3-pip` or `pip install pip`
 - Usage: `pip install/uninstall package_name [options]`
@@ -54,23 +54,23 @@ def bar():
 ```
 `python test.py -v`
 
-## Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
+## :book: Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
 The fundamental package for scientific computing with Python.
 
-## SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
+## :book: SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
-## Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
+## :book: Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
 Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
 
-## Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
+## :book: Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
 Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
 
-## Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
+## :book: Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
 Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-## Argparse
-```python
+## :book: Argparse
+```Python
 import argparse
 
 parser = argparse.ArgumentParser(description='Argument Parse')
@@ -94,16 +94,16 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
-### platform
+### :book: Platform
 운영체제를 알 수 있다.
-```python
+```Python
 import platform
 os_platform = platform.system()
 ```
 
-### io
+### :book: io
 Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
-```python
+```Python
 import io
 file = io.open(file_name, 'r', encoding='utf-8')
 ```
@@ -113,13 +113,13 @@ file = io.open(file_name, 'r', encoding='utf-8')
 - In Unix
   - Python2: `$ python`
   - Python3: `$ python3`
-- In Windows
+- In Windows (cmd)
   - Python2: `$ py -2`
   - Python3: `$ py -3`
 #### If only one of python verison is installed
 `$ python`
 
-### os
+### :book: OS
 #### os.rename(src, dst)
 이미 파일이 존재하면 FileExistsError 발생함
 
