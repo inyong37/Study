@@ -44,7 +44,7 @@ pip is the package installer for Python.
 
 ### doctest
 test in classes or functions in documentation field
-```
+```python
 import doctest
 
 def bar():
@@ -70,7 +70,7 @@ Scikit-learn is a simple and efficient tools for predictive data analysis. It is
 Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
 ## Argparse
-```
+```python
 import argparse
 
 parser = argparse.ArgumentParser(description='Argument Parse')
@@ -88,7 +88,7 @@ Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포�
 
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
-```
+```python
 import sys
 reload(sys)
 sys.setdefaultencoding("UTF-8")
@@ -96,14 +96,14 @@ sys.setdefaultencoding("UTF-8")
 
 ### platform
 운영체제를 알 수 있다.
-```
+```python
 import platform
 os_platform = platform.system()
 ```
 
 ### io
 Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
-```
+```python
 import io
 file = io.open(file_name, 'r', encoding='utf-8')
 ```
