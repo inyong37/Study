@@ -188,19 +188,19 @@ Books about Programming Languages.
 
 ### C. Version Check
 Python, and CUDA
-```
+```cmd
 $ python --versioin
 $ nvcc --version
 ```
 TensorFlow, Keras, PyTorch, and OpenCV in python
-```
+```Python
 import tensorflow; tensorflow.__version__
 import keras; keras.__version__
 import torch; torch.__vrtsion__
 import cv2; cv2.__version__
 ```
 CuDNN in ~/CUDA/include/cudnn.h
-```
+```C
 #define CUDNN_MAJOR 7
 #define CUDNN_MINOR 4
 #define CUDNN_PATCHLEVEL 2
@@ -242,7 +242,7 @@ CuDNN in ~/CUDA/include/cudnn.h
     파이토치 첫걸음
     실전 예제로 배우는 GAN
 ----------
-```
+```python
 # Author      : Inyong Hwang (inyong1020@gmail.com).
 # Date        : 2020-01-01-Mon.
 # Description : None.
