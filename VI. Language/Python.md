@@ -22,34 +22,7 @@ Python is a programming language that lets you work quickly and integrate system
 
 ## :book: Library
 
-### Doctest
-test in classes or functions in documentation field
-```python
-import doctest
-
-def bar():
-  >>> bar()
-  foo
-  return foo
-```
-`python test.py -v`
-
-## Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
-The fundamental package for scientific computing with Python.
-
-## SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
-The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
-
-## Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
-Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
-
-## Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
-Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
-
-## Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
-Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
-
-## Argparse
+### Argparse
 ```Python
 import argparse
 
@@ -58,12 +31,21 @@ parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_
 args = parser.parse_args()
 ```
 
-### Platform
-운영체제를 알 수 있다.
-```Python
-import platform
-os_platform = platform.system()
+### Doctest
+Test in classes or functions in documentation field
+```python
+import doctest
+
+def bar():
+  >>> bar()
+  foo
+  return foo
 ```
+
+And
+
+`python test.py -v`
+
 
 ### IO
 Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
@@ -72,9 +54,31 @@ import io
 file = io.open(file_name, 'r', encoding='utf-8')
 ```
 
+### Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
+Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
+
+### Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
+The fundamental package for scientific computing with Python.
+
 ### OS
 #### os.rename(src, dst)
 이미 파일이 존재하면 FileExistsError 발생함
+
+### Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
+Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
+
+### Platform
+운영체제를 알 수 있다.
+```Python
+import platform
+os_platform = platform.system()
+```
+
+### Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
+Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
+
+### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
+The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
 ## :pencil2: PIP
 pip is the package installer for Python.
@@ -95,10 +99,10 @@ pip is the package installer for Python.
 깊은 복사는 전체 복사로, 얕은 복사와 달리 객체가 가진 모든 멤버(값과 참조 형식 모두)를 복사하는 것, 객체가 참조 타입의 멤버를 포함할 경우 참조 값의 복사가 아닌 참조된 객체 자체가 복사됨.
 각자의 값을 참조하게 됨.
 
-### :pencil2: Special Method, Magic Method aka dunder method
+## :pencil2: Special Method, Magic Method aka dunder method
 `__getitem()__`
 
-### :pencil2: Command python
+## :pencil2: Command python
 #### If python2 and python3 are both installed
 - In Unix
   - Python2: `$ python`
@@ -109,18 +113,21 @@ pip is the package installer for Python.
 #### If only one of python verison is installed
 `$ python`
 
-### :pencil2: `;`
+## :pencil2: `;`
 multiple lines, but not pythonic
 
-### :pencil2: 2to3
+## :fire: Python 2.X versus Python 3.X
+### 2to3
+Coverting a Python 2 code to a Python 3 file.
+
+### Unicode = str
+Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포함된다.
 
 ### :pencil2: isInstance(variable)
 variable이 어떤 instance인지 확인을 할 수 있다.
 
-### :pencil2: Unicode = str
-Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포함된다.
-
-### :pencil2: UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
+## :bulb: Error
+### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
 ```Python
 import sys
