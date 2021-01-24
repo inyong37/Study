@@ -123,7 +123,7 @@ file = io.open(file_name, 'r', encoding='utf-8')
 #### os.rename(src, dst)
 이미 파일이 존재하면 FileExistsError 발생함
 
-### ;
+### `;`
 multiple lines, but not pythonic
 
 #### Reference
