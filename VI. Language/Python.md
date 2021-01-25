@@ -20,7 +20,22 @@ Python is a programming language that lets you work quickly and integrate system
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
-## :book: Library
+## :books: Built-in Function | [Documentation](https://docs.python.org/3/library/functions.html) | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
+`abs(x)`: Return the absolute value of a number. The argument may be an integer or a floating point number. If the arguemtn is a complex number, its magnitude is returned.
+
+`all(iterable)`: Return `True` if all elements of the `iterable` are true (or if the iterable is empty).
+
+`any(iterable)`: Return `True` if any element of the `iterable` is true. If the iterable is empty, return `False`.
+
+`ascii(object)`: As `repr()`, return a string containing a printable representation of an object, but escape the non-ASCII characters in the string returned by `repr()` using `\x`, `\u` or `\U` escapes. This generates a string similar to that returned by `repr()` in Python 2.
+
+`bin(x)`: Convert an integer number to a binary string prefixed with "0b". The result is a valid Python expression. If `x` is not a Python `int` object, it has to define an `__index__()` method that returns an integer.
+
+`isInstance(object, classinfo)`: Return `True` if the object argument is an instance of the classinfo argument, or of a (direct, indirect or virtual) subclass thereof. If `object` is not an object of the given type, the function always returns `False`. If `classinfo` is a tuple of type objects (or recursively, other such tuples), return `True` if `object` is an instance of any of the types. If `classinfo` is not a type or tuple of types and such tuples, a `TypeError` exception is raised.
+
+## :books: Built-in Constant | [Documentation](https://docs.python.org/3.9/library/constants.html) | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
+
+## :books: Library
 
 ### Argparse
 ```Python
@@ -123,9 +138,6 @@ Coverting a Python 2 code to a Python 3 file.
 ### Unicode = str
 Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포함된다.
 
-### :pencil2: isInstance(variable)
-variable이 어떤 instance인지 확인을 할 수 있다.
-
 ## :bulb: Error
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
@@ -154,3 +166,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python 3 Built-in Functions EN, https://docs.python.org/3/library/constants.html, 2021-01-26-Tue.
 - Python 3 Built-in Constants KR, https://docs.python.org/ko/3/library/constants.html, 2021-01-26-Tue.
 - Python 3 Built-in Constants EN, https://docs.python.org/3/library/constants.html, 2021-01-26-Tue.
+- Python 3.7.9 Built-in Functions EN, https://docs.python.org/3.7/library/functions.html, 2021-01-26-Tue.
+- Python 3.7.9 Built-in Constants EN, https://docs.python.org/3.7/library/constants.html, 2021-01-26-Tue.
