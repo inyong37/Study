@@ -44,7 +44,7 @@ def bar():
 
 And
 
-`python test.py -v`
+`$ python test.py -v`
 
 
 ### IO
@@ -102,7 +102,7 @@ pip is the package installer for Python.
 ## :pencil2: Special Method, Magic Method aka dunder method
 `__getitem()__`
 
-## :pencil2: Command python
+### :pencil2: Command python
 #### If python2 and python3 are both installed
 - In Unix
   - Python2: `$ python`
@@ -113,7 +113,7 @@ pip is the package installer for Python.
 #### If only one of python verison is installed
 `$ python`
 
-## :pencil2: `;`
+### :pencil2: `;`
 multiple lines, but not pythonic
 
 ## :fire: Python 2.X versus Python 3.X
@@ -149,3 +149,8 @@ sys.setdefaultencoding("UTF-8")
 - UnicodeEncodeError Handling Blog KR, https://www.snoopybox.co.kr/2059, 2021-01-04-Mon.
 - Typeerror Handling Blog KR, https://m.blog.naver.com/P
 tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-01-04-Mon.
+- Python 3 Built-in Functions Book KR, https://wikidocs.net/32, 2021-01-26-Tue.
+- Python 3 Built-in Functions KR, https://docs.python.org/ko/3/library/functions.html#built-in-functions, 2021-01-26-Tue.
+- Python 3 Built-in Functions EN, https://docs.python.org/3/library/constants.html, 2021-01-26-Tue.
+- Python 3 Built-in Constants KR, https://docs.python.org/ko/3/library/constants.html, 2021-01-26-Tue.
+- Python 3 Built-in Constants EN, https://docs.python.org/3/library/constants.html, 2021-01-26-Tue.
