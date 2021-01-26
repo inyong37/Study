@@ -116,26 +116,27 @@ Books about Data Structure and Algorithm.
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
-## ii. [Hacker Rank](https://www.hackerrank.com/) :pencil:
-### A. [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
-### B. [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
-### C. [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
+## ii. Site
+### A. [Hacker Rank](https://www.hackerrank.com/) :pencil:
+#### a. [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
+#### b. [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
+#### c. [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-## iii. [Codility](https://app.codility.com/programmers/) :pencil:
-### A. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
-### B. [Challenges](https://app.codility.com/programmers/challenges/)
+### C. [Codility](https://app.codility.com/programmers/) :pencil:
+#### a. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
+#### b. [Challenges](https://app.codility.com/programmers/challenges/)
 
-## iv. [Programmers](https://programmers.co.kr/) :pencil:
-### A. Kakao Blind Recruitment | [2020]() | [2019]() | [2018]()
-### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
+### D. [Programmers](https://programmers.co.kr/) :pencil:
+#### a. Kakao Blind Recruitment | [2020]() | [2019]() | [2018]()
+#### b. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-## v. [백준 알고리즘](https://www.acmicpc.net/)
+### E. [백준 알고리즘](https://www.acmicpc.net/)
 (Not Yet)
 
-## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
+### F. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
 (Not Yet)
 
-## vii. [LeetCode](https://leetcode.com/)
+### G. [LeetCode](https://leetcode.com/)
 (Not Yet)
 
 ----------
