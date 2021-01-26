@@ -191,6 +191,19 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
+## Information
+```python
+# Author      : Inyong Hwang (inyong1020@gmail.com).
+# Date        : 2020-01-01-Mon.
+# Description : None.
+# State       : Done/Todo/Deprecated.
+# Laptop  Environment : Python 3.6.8(Anaconda), PyCharm 2018.1(Professional Edition), Microsoft Windows 10.0.18362.720.
+# Desktop Environment : Python 3.6.7(Anaconda custom), PyCharm 2018.3.2(Professional Edition), Microsoft Windows 10.0.18363.720.
+# Input       : None.
+# Output      : None.
+# Reference   : None.
+```
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
