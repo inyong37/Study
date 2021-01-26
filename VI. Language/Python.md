@@ -61,6 +61,18 @@ Return a new "bytes" object, which is an immutable sequence of integers in the r
 
 Return [True]() if the *object* argument appears callable, [False]() if not. If this returns `True`, it is still possible that a call fails, but if it is `False`, calling *object* will never succeed. Note that classes are callable (calling a class returns a new instance); instances are callable if their class has a [__call__()]() method.
 
+- **divmod**(*a*, *b*)
+
+Take tow (non complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division. With mixed oprand types, the rules for binary arithmetic operators apply. For integers, the result is the same as `( a // b, a % b)`. For floating point numbers the result is `(q, a % b)`, where *q* is usually `math.floor(a / b)` but may be 1 less than that. In any case `q * b + a % b` is very close to *a*, if `a % b` is non-zero it has the same sign as *b*, and `0 <= abs(a % b) < abs(b)`.
+
+- **enumerate**(*iterable*, *start*=0)
+
+Return as enumerate object. *iteralbe* must be a sequence, an [iterator], or some other object which supports iteration. The [__next__()]() method of the iterator returned by [enumerate()] returns a tuple containing a count (from *start* which defaults to 0) and the values obtained from iterating over *iterable*.
+
+- **format**(*value*[, *format_spec*])
+
+Convert a *value* to a "formatted" representation, as controlled by *format_spec*. The interpretation ofr *format_spec* will depend on the type of the *value* argument, however there is a standard formatting syntax that is used by most built-in types: [Format Specification Mini-Language]().
+
 - **isInstance**(*object*, *classinfo*)
 
 Return `True` if the object argument is an instance of the classinfo argument, or of a (direct, indirect or [virtual]()) subclass thereof. If *object* is not an object of the given type, the function always returns `False`. If *classinfo* is a tuple of type objects (or recursively, other such tuples), return `True` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a [TypeError]() exception is raised.
