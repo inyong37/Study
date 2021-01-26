@@ -2,6 +2,8 @@
 Python with OpenCV, Keras
 
 # Steps
+## 0. Colab Tutorial :notebook:
+
 ## 1. Human Detection :runner:
 
 ## 2. Uniform Classification :shirt:
