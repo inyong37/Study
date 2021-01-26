@@ -77,11 +77,11 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |핸즈온 머신러닝|ML & DL & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 ### Abbreviation
-    Machine Learning: ML
-    Deep Learning: DL
-    Reinforcement Learning: RL
-    Computer Vision: CV
-    Natural Language Processing: NLP
+- Machine Learning: ML
+- Deep Learning: DL
+- Reinforcement Learning: RL
+- Computer Vision: CV
+- Natural Language Processing: NLP
     
 ----------
 
