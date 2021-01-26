@@ -126,8 +126,7 @@ Books about Data Structure and Algorithm.
 ### B. [Challenges](https://app.codility.com/programmers/challenges/)
 
 ## iv. [Programmers](https://programmers.co.kr/) :pencil:
-### A. [카카오 코딩테스트]()
-(2020 KAKAO BLIND RECRUITMENT, 2019 KAKAO BLIND RECRUITMENT, 2018 KAKAO BLIND RECRUITMENT)
+### A. Kakao Blind Recruitment | [2020]() | [2019]() | [2018]()
 ### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
 ## v. [백준 알고리즘](https://www.acmicpc.net/)
