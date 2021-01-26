@@ -31,3 +31,59 @@ def merge_sort(mylist):
 3. 코드의 효율성: 보통의 경우 재귀 호출을 사용한다. 재귀 호출을 사용하면 코드의 길이가 짧아지고 컴팩트(Compact)하다는 장점이 있는 반면에 디버깅이 어렵고 코드를 이애하기 좀 어려워진다는 단점이 있다. 그러한 단점을 피하기 위해 재귀 호출을 사용하지 않고 병합 정렬 알고리즘을 구현할 수도 있다. 그러나 재귀 호출을 사용하는 방식에 비해 코드가 길어지게 된다.
 
 # :palm_tree: 힙 정렬 알고리즘(Heap Sort Algorithm)
+힙 정렬 알고리즘은 일반 사용자들이 선호하지는 않지만 운영체제나 네트워크 등 시스템 내부에서 가장 많이 사용되는 정렬 알고리즘이다. 힙 정렬 알고리즘은 우선순위 큐(Priority Queue)를 이용하여 우선순위에 따라 정렬을 하는 알고리즘이다. 우선순위 큐는 앞에서 배운 큐와는 개념적으로 많은 차이가 있다. 스택이나 큐처럼 특별한 형태를 갖는 자료구조가 있는 개념은 아니다. 가장 앞쪽에 있는 데이터가 가장 큰 값을 갖는 데이터가 되어야 한다. 그 외에 다른 데이터들은 어떻게 정렬이 되어 있던지 별 상관이 없다. (자료구조를 배운 학생들이나 심지어 몇 년 동안 프로그램 개발을 업으로 삼고 살고 있는 프로그래머들조차도 우선순위 큐라고 하면 앞에서 배운 큐의 일종이거나 그와 비슷한 무엇이라고 생각하기 쉽지만 결코 그렇지 않다.)
+
+힙 정렬 알고리즘은 트리 구조로 구성되며 루트 노드가 가장 큰 값을 갖게 된다. 일차원 리스트로 주어진 데이터를 힙으로 만드는 과정은, 첫 번째 데이터를 힙에 추가한다. 그리고 다음 데이터를 자식 노드에 추가한다. 그런데 자식 노드의 데이터가 크면 부모와 위치를 바꾼다. 새롭게 추가되는 데이터가 작으면 힙의 규칙에 적합하므로 재구성 작업은 필요없다. 클 때마다 자리를 서로 바꾸어 힙을 구성한다.
+
+```Python
+# UPHEAP이기 때문에 정렬은 내림차순으로 된다.
+
+import random
+
+def left_node(idx=None):
+  return ((idx + 1) << 1) - 1
+
+def right_node(idx=None):
+  return (idx + 1) << 1
+
+def up_head(mylist=None, idx=None, heap_size=None):
+  l_node = left_node(idx)
+  r_node = right_node(idx)
+  
+  if l_node <= heap_size and mylist[l_node] > mylist[idx]:
+    largest = l_node
+  else:
+    largest = idx
+  if r_node <= heap_size and mylist[r_node] > mylist[largest]:
+    largest = r_node
+  if largest != idx:
+    mylist[idx], mylist[largest] = mylist[largest], mylist[idx]
+    up_heap(mylist, largest, heap_size)
+
+def build_heap(mylist=None):
+  heap_size = len(mylist) - 1
+  for i in reversed(range(len(mylist) // 2)):
+    up_heap(mylist, i, heap_size)
+
+def heap_sort(heap=None):
+  tmp_arry = list()
+  for i in range(len(heap)):
+    tmp_arry.append(heap.pop(0))
+    up_heap(heap, 0, len(heap) - 1)
+  return tmp_arry
+
+if __name_- == '__main__':
+  data = []
+  input_n = input("정렬할 데이터의 수:")
+  data = [random.randint(1, 99999] for x in range(int(input_n))]
+  
+  build_heap(data)
+  
+  sorted_data = heap_sort(data)
+```
+
+힙 정렬 알고리즘은 트리 구조를 사용하기 떄문에 이진 트리의 성능과 거의 동일하다. 힙에서 사용하는 트리의 깊이가 D라고 했을 때 힙에서 사용하는 데이터 N은 다음과 같은 식이 성립한다. `2D - 1 <= N < 2D - 1` 따라서 힙에서 사용하는 트르의 깊이인 D는 log2N + 1이 된다. 힙 정렬 알고리즘은 최선, 일반, 최악의 경우에 따라 거의 차이가 없다. 따라서 안정된 정렬 알고리즘이라고 볼 수 있지만 정렬을 할 때마다 힙 내부에서 노드들을 반복적으로 이동하므로 실제 성능은 퀵 정렬 알고리즘에 비해서 떨어진다고 볼 수 있다.
+
+1. 시간의 효율성: O(N * log2N)의 성능을 갖고 있다. 따라서 퀵 정렬과 비슷한 성능을 보여주지만 아무래도 힙을 다시 재구성하는 과정이 실행되기 때문에 실제 성능은 퀵 정렬 알고리즘보다 떨어지게 된다.
+2. 공간의 효율성: 트리 구조를 사용할 수 있다는 점과 리스트를 사용해서도 구현이 가능하다는 점에서 공간 효율성은 뛰어나다는 볼 수 있다.
+3. 코드의 효율성: 힙 정렬 알고리즘의 코드는 퀵 정렬이나 병합 정렬 알고리즘처럼 재귀 호출을 사용하는 것도 아니고 단순히 트리 구조만 알고 있다면 쉽게 이해할 수 있는 만큼 단순하다. 따라서 다른 알고리즘에 비해 코드의 효율성은 좋다고 볼 수 있다.
