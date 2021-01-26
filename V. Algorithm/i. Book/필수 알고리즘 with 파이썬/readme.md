@@ -31,7 +31,7 @@ Spring, 2021 (Con't)
 
 :star: Chapter 10. [퀵/기수 정렬 알고리즘](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC/C10_QuickRadixSort.md)
 
-:star: Chapter 11. 병합/힙 정렬 알고리즘
+:star: Chapter 11. [병합/힙 정렬 알고리즘](https://github.com/inyong37/Study/tree/master/V.%20Algorithm/i.%20Book/%ED%95%84%EC%88%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC)
 
 :star: Chapter 12. 이진 검색 알고리즘
 
