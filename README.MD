@@ -100,8 +100,8 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 
 ----------
 
-# V. Algorithm :books: :computer:
-## i. Book
+# V. Algorithm
+## i. Book :books:
 ```
 Books about Data Structure and Algorithm.
 ```
@@ -116,7 +116,7 @@ Books about Data Structure and Algorithm.
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
-## ii. Site
+## ii. Site :computer:
 ### A. [Hacker Rank](https://www.hackerrank.com/) :pencil:
 - [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
 - [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
