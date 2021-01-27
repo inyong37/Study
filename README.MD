@@ -77,11 +77,11 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |핸즈온 머신러닝|ML & DL & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 ### Abbreviation
-    Machine Learning: ML
-    Deep Learning: DL
-    Reinforcement Learning: RL
-    Computer Vision: CV
-    Natural Language Processing: NLP
+- Machine Learning: ML
+- Deep Learning: DL
+- Reinforcement Learning: RL
+- Computer Vision: CV
+- Natural Language Processing: NLP
     
 ----------
 
@@ -116,28 +116,25 @@ Books about Data Structure and Algorithm.
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
-## ii. [Hacker Rank](https://www.hackerrank.com/) :pencil:
-### A. [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
-### B. [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
-### C. [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
+## ii. Site
+### A. [Hacker Rank](https://www.hackerrank.com/) :pencil:
+- [Problem Solving: PROBLEM SOLVING](https://www.hackerrank.com/interview/interview-preparation-kit)
+- [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
+- [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-## iii. [Codility](https://app.codility.com/programmers/) :pencil:
-### A. [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
-### B. [Challenges](https://app.codility.com/programmers/challenges/)
+### C. [Codility](https://app.codility.com/programmers/) :pencil:
+- [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
+- [Challenges](https://app.codility.com/programmers/challenges/)
 
-## iv. [Programmers](https://programmers.co.kr/) :pencil:
-### A. [카카오 코딩테스트]()
-(2020 KAKAO BLIND RECRUITMENT, 2019 KAKAO BLIND RECRUITMENT, 2018 KAKAO BLIND RECRUITMENT)
-### B. [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
+### D. [Programmers](https://programmers.co.kr/) :pencil:
+- Kakao Blind Recruitment | [2020]() | [2019]() | [2018]()
+- [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-## v. [백준 알고리즘](https://www.acmicpc.net/)
-(Not Yet)
+### E. [백준 알고리즘](https://www.acmicpc.net/)
 
-## vi. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
-(Not Yet)
+### F. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
 
-## vii. [LeetCode](https://leetcode.com/)
-(Not Yet)
+### G. [LeetCode](https://leetcode.com/)
 
 ----------
 
@@ -218,38 +215,3 @@ CuDNN in ~/CUDA/include/cudnn.h
 - Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
-
-----------
-
-## VIII. Deprecated Content :book: 
-----------
-    밑바닥부터 시작하는 데이터과학
-    밑바닥부터 시작하는 딥러닝
-    인공지능, 머신러닝, 딥러닝 입문
-    모두의 딥러닝
-    파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문
-    러닝 텐서플로
-    Deep Learning (Adaptive Computation and Machine Learning)
-    Deep Learning with Python
-    PYTORCH로 시작하는 딥러닝
-----------
-    강화학습 첫걸음
-    파이썬과 케라스로 배우는 강화학습
-    코딩셰프의 3분 딥러닝 케라스맛
-    컴퓨터 비전과 딥러닝
-    밑바닥부터 시작하는 딥러닝 2
-    핸즈온 머신러닝
-    파이토치 첫걸음
-    실전 예제로 배우는 GAN
-----------
-```python
-# Author      : Inyong Hwang (inyong1020@gmail.com).
-# Date        : 2020-01-01-Mon.
-# Description : None.
-# State       : Done/Todo/Deprecated.
-# Laptop  Environment : Python 3.6.8(Anaconda), PyCharm 2018.1(Professional Edition), Microsoft Windows 10.0.18362.720.
-# Desktop Environment : Python 3.6.7(Anaconda custom), PyCharm 2018.3.2(Professional Edition), Microsoft Windows 10.0.18363.720.
-# Input       : None.
-# Output      : None.
-# Reference   : None.
-```
