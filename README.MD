@@ -116,7 +116,7 @@ Books about Data Structure and Algorithm.
 |알고리즘 문제 해결 전략 (9쇄)|[ALGOSPOT](https://book.algospot.com/)|[YES24](http://www.yes24.com/Product/Goods/8006522)|Summer, 2019|C++|:triangular_flag_on_post:|
 |자료 구조 (2판)|[BOOKSR](https://www.booksr.co.kr/html/book/book.asp?seq=696059)|[YES24](http://www.yes24.com/Product/Goods/18930744)|Autumn, 2016|C|:heavy_check_mark:|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|Summer, 2018|C++, JAVA|:triangular_flag_on_post:|:triangular_flag_on_post:|
-|파이썬 알고리즘 인터뷰|[YES24](http://www.yes24.com/Product/Goods/91084402)|PYTHON|Spring, 2021|-|
+|파이썬 알고리즘 인터뷰|-|[YES24](http://www.yes24.com/Product/Goods/91084402)|Spring, 2021|PYTHON|:construction:|
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
