@@ -66,15 +66,17 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
 |PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|Not yet|
 |강화학습 첫걸음|RL & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
-|러닝 텐서플로|Deep Learning & TensorFlow|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|Not yet|
+|딥러닝의 최신 트렌드|DL|-|[YES24](http://www.yes24.com/Product/Goods/91471013)|-|Spring, 2021|
+|러닝 텐서플로|DL & TF|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|Not yet|
 |밑바닥부터 시작하는 딥러닝|ML & DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
 |밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
 |실전 예제로 배우는 GAN|GAN & Keras|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|August, 2019|
-|컴퓨터 비전과 딥러닝|CV & TensorFlow & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
+|실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF & Keras|-|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|Spring, 2021|
+|컴퓨터 비전과 딥러닝|CV & TF & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
 |코딩셰프의 3분 딥러닝, 케라스맛|DL & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
 |파이썬과 케라스로 배우는 강화학습|RL & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
 |파이토치 첫걸음|DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
-|핸즈온 머신러닝|ML & DL & TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
+|핸즈온 머신러닝|ML & DL & TF|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 ### Abbreviation
 - Machine Learning: ML
@@ -82,6 +84,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 - Reinforcement Learning: RL
 - Computer Vision: CV
 - Natural Language Processing: NLP
+- TensorFlow: TF
     
 ----------
 
@@ -113,6 +116,7 @@ Books about Data Structure and Algorithm.
 |알고리즘 문제 해결 전략 (9쇄)|[ALGOSPOT](https://book.algospot.com/)|[YES24](http://www.yes24.com/Product/Goods/8006522)|Summer, 2019|C++|:triangular_flag_on_post:|
 |자료 구조 (2판)|[BOOKSR](https://www.booksr.co.kr/html/book/book.asp?seq=696059)|[YES24](http://www.yes24.com/Product/Goods/18930744)|Autumn, 2016|C|:heavy_check_mark:|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|Summer, 2018|C++, JAVA|:triangular_flag_on_post:|:triangular_flag_on_post:|
+|파이썬 알고리즘 인터뷰|[YES24](http://www.yes24.com/Product/Goods/91084402)|PYTHON|Spring, 2021|-|
 |파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
 |필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
 
