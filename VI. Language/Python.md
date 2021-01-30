@@ -137,7 +137,7 @@ Return `True` if the object argument is an instance of the classinfo argument, o
 
 ## :books: Library
 
-### Argparse | [Documentation Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
+### argparse | [Documentation Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
 ```Python
 import argparse
 
@@ -146,7 +146,7 @@ parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_
 args = parser.parse_args()
 ```
 
-### Doctest | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
+### doctest | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
 The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
 - To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
 - To perform regression testing by verifying that interactive examples from a test file or a test object work as expected.
@@ -166,9 +166,19 @@ And
 
 `$ python test.py -v`
 
+### fileinput | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/fileinput.html)
+This module implements a helper class and functions to quickly write a loop over standard input or a list of files. If you just want to read or write on file see [open()]()
 
-### IO | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/io.html)
-Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
+### io | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/io.html)
+The [io]() module provides Python’s main facilities for dealing with various types of I/O. There are three main types of I/O: *text I/O*, *binary I/O* and *raw I/O*. These are generic categories, and various backing stores can be used for each of them. A concrete object belonging to any of these categories is called a [file object](). Other common terms are stream and *file-like object*.
+
+Independent of its category, each concrete stream object will also have various capabilities: it can be read-only, write-only, or read-write. It can also allow arbitrary random access (seeking forwards or backwards to any location), or only sequential access (for example in the case of a socket or pipe).
+
+All streams are careful about the type of data you give to them. For example giving a [str]() object to the `write()` method of a binary stream will raise a [TypeError](). So will giving a [bytes]() object to the `write()` method of a text stream.
+
+Changed in version 3.3: Operations that used to raise [IOError]() now raise [OSError](), since [IOError]() is now an alias of [OSError]().
+
+- Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
 ```Python
 import io
 file = io.open(file_name, 'r', encoding='utf-8')
@@ -180,7 +190,9 @@ Matplotlib is a comprehensive library for creating static, animated, and interac
 ### Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
 The fundamental package for scientific computing with Python.
 
-### OS | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/os.html)
+### os | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/os.html)
+This module provides a portable way of using operating system dependent functionality. If you just want to read or write a file see [open()](), if you want to manipulate paths, see the [os.path]() module, and if you want to read all the lines in all the files on the command line see the [fileinput]() module. For creating temporary files and directories see the [tempfile]() module, and for high-level file and directory handling see the [shutil]() module.
+
 - os.**rename**(*src*, *dst*, *, *src_dir_fd=None*, *dst_dir_fd=None*)
 
 Rename the file or directory *src* to *dst*. If *dst* exists, the operations will fail with an [OSError]() subclass in a number of cases: On Windows, if *dst* exosts a [FileExistsError]() is always raised. On Unix, if *src* is a file and *dst* is a directory or vice-versa, an [IsADirectoryError]() or a [NotADirectoryError]() will be raised respectively. If both are directories and *dst* is empty, *dst* will be silently replaced. If *dst* is a non-empty directory, an [OSError]() is raised. If both are files, *dst* it will be replaced silently if the user has permission. The operation may fail on some Unix flavors if *src* and *dst* are on different filesystems. If successful, the renaming will be an atomic operation (this is a POSIX requirement).
@@ -188,8 +200,9 @@ Rename the file or directory *src* to *dst*. If *dst* exists, the operations wil
 ### Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
 Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-### Platform | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/platform.html)
+### platform | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/platform.html)
 Access to underlying platform's identifying data
+
 - platform.**system**()
 
 Returns the system/OS name, such as `Linux`, `Darwin`, `Java`, `Windows`. An empty string is returned if the value cannot be determined.
@@ -199,6 +212,13 @@ Scikit-learn is a simple and efficient tools for predictive data analysis. It is
 
 ### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
+
+### shutil | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/shutil.html)
+The [shutil]() module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the [os]() module.
+
+### tempfile | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/tempfile.html)
+
+## :books: Built-in Exceptions | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/exceptions.html)
 
 ## :pencil2: PIP
 pip is the package installer for Python.
