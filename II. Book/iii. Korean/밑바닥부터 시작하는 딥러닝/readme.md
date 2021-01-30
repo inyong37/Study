@@ -3,7 +3,7 @@
 사이토 고키 지음 개앞맵시 옮김 | 한빛미디어 | 2017년 01월 02일 | [YES24](http://www.yes24.com/Product/Goods/34970929)
 
 ### Date
-Summer, 2018
+Summer, 2018 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
 
 ### Content
 Chapter 1. 헬로 파이썬
