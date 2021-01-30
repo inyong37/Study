@@ -69,7 +69,7 @@ Return [True]() if the *object* argument appears callable, [False]() if not. If 
 
 - *class* **complex**([*real*[, *imag*]])
 
-- **delattr(*object*, *name*)
+- **delattr**(*object*, *name*)
 
 - *class* **dict**(***kwarg*)
 
