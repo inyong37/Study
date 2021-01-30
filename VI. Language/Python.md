@@ -20,7 +20,7 @@ Python is a programming language that lets you work quickly and integrate system
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
-## :books: Built-in Function | [Documentation](https://docs.python.org/3/library/functions.html) | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
+## :books: Built-in Function | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
 - **abs**(*x*)
 
 Return the absolute value of a number. The argument may be an integer or a floating point number. If the arguemtn is a complex number, its magnitude is returned.
@@ -133,11 +133,11 @@ The arguments are an object and a string. The result is `True` if the string is 
 
 Return `True` if the object argument is an instance of the classinfo argument, or of a (direct, indirect or [virtual]()) subclass thereof. If *object* is not an object of the given type, the function always returns `False`. If *classinfo* is a tuple of type objects (or recursively, other such tuples), return `True` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a [TypeError]() exception is raised.
 
-## :books: Built-in Constant | [Documentation](https://docs.python.org/3.9/library/constants.html) | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
+## :books: Built-in Constant | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
 
 ## :books: Library
 
-### Argparse
+### Argparse | [Documentation Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
 ```Python
 import argparse
 
@@ -146,7 +146,12 @@ parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_
 args = parser.parse_args()
 ```
 
-### Doctest
+### Doctest | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
+The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
+- To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
+- To perform regression testing by verifying that interactive examples from a test file or a test object work as expected.
+- To write tutorial documentation for a package, liberally illustrated with input-output examples. Depending on whether the examples or the expository text are emphasized, this has the flavor of "literate testing" or "executable documentation".
+
 Test in classes or functions in documentation field
 ```python
 import doctest
@@ -162,7 +167,7 @@ And
 `$ python test.py -v`
 
 
-### IO
+### IO | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/io.html)
 Python2.x의 경우 Python의 내장 함수 open()에서 encoding keyword가 부적절하다는 에러 발생 시 다음을 사용하면 해결할 수 있다.
 ```Python
 import io
@@ -175,19 +180,19 @@ Matplotlib is a comprehensive library for creating static, animated, and interac
 ### Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
 The fundamental package for scientific computing with Python.
 
-### OS
-#### os.rename(src, dst)
-이미 파일이 존재하면 FileExistsError 발생함
+### OS | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/os.html)
+- os.**rename**(*src*, *dst*, *, *src_dir_fd=None*, *dst_dir_fd=None*)
+
+Rename the file or directory *src* to *dst*. If *dst* exists, the operations will fail with an [OSError]() subclass in a number of cases: On Windows, if *dst* exosts a [FileExistsError]() is always raised. On Unix, if *src* is a file and *dst* is a directory or vice-versa, an [IsADirectoryError]() or a [NotADirectoryError]() will be raised respectively. If both are directories and *dst* is empty, *dst* will be silently replaced. If *dst* is a non-empty directory, an [OSError]() is raised. If both are files, *dst* it will be replaced silently if the user has permission. The operation may fail on some Unix flavors if *src* and *dst* are on different filesystems. If successful, the renaming will be an atomic operation (this is a POSIX requirement).
 
 ### Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
 Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
-### Platform
-운영체제를 알 수 있다.
-```Python
-import platform
-os_platform = platform.system()
-```
+### Platform | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/platform.html)
+Access to underlying platform's identifying data
+- platform.**system**()
+
+Returns the system/OS name, such as `Linux`, `Darwin`, `Java`, `Windows`. An empty string is returned if the value cannot be determined.
 
 ### Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
 Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
