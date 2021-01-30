@@ -129,11 +129,88 @@ The arguments are an object and a string. The result is `True` if the string is 
 
 - *class* **int**(*x*, *base=10*)
 
-- **isInstance**(*object*, *classinfo*)
+- **isinstance**(*object*, *classinfo*)
 
 Return `True` if the object argument is an instance of the classinfo argument, or of a (direct, indirect or [virtual]()) subclass thereof. If *object* is not an object of the given type, the function always returns `False`. If *classinfo* is a tuple of type objects (or recursively, other such tuples), return `True` if *object* is an instance of any of the types. If *classinfo* is not a type or tuple of types and such tuples, a [TypeError]() exception is raised.
 
-- **__import__**(*name*, *globals=None*, *locals=None*, *fromlist=()*, *level=0*)
+### **issubclass**(*class*, *classinfo*)
+
+### **iter**(*object*[, *sentinel*])
+
+### **len**(*s*)
+
+### *class* **list**([*iterable*])
+
+### **locals**()
+
+### **map**(*funtion*, *iterable*, *...*)
+
+### **max**(*iterable*, *[, *key*, *default*])
+
+### **max**(*arg1*, *arg2*, * *args*[, *key*])
+
+### **min**(*iterable*, *[, *key*, *default*])
+
+### **min**(*arg1*, *arg2*, * *args*[, *key*])
+
+### **next**(*iterator*[, *default*])
+
+### *class* **object**
+
+### **oct**(*x*)
+
+### **open**(*file*, *mode='r'*, *buffering=-1*, *encoding=None*, *errors=None*, *newline=None*, *closefd=True*, *opener=None*)
+
+### **ord**(*c*)
+
+### **pow**(*x*, *y*[, *z*])
+
+### **print**(* *objects*, *sep=''*, *end='\n'*, *file=sys.stdout*, *flush=False*)
+
+### *class* **property**(*fget=None*, *fset=None*, *fdel=None*, *doc=None*)
+
+### *class* **range**(*stop*)
+
+### *class* **range**(*start*, *stop*[, *step*])
+
+### **repr**(*object*)
+
+### **reversed**(*seq*)
+
+### **round**(*number*[, *ndigits*])
+
+### *class* **set**([*iterable*])
+
+### **setattr**(*object*, *name*, *value*)
+
+### *class* **slice**(*stop*)
+
+### *class* **slice**(*start*, *stop*[, *step*])
+
+### **sorted**(*iterable*, *, *key=None*, *reverse=False*)
+
+### **@staticmethod**
+Transform a method into a static method.
+
+### *class* **str**(*object=''*)
+
+### *class* **str**(*object=b''*, *encoding='utf-8'*, *errors='strict'*)
+
+### **sum**(*iterable*[, *start*])
+
+### **super**(*type*[, *object-or-type*]])
+
+### *class* **tuple**([iterable*])
+
+### *class* **type**(*object*)
+
+### *class* **type**(*name*, *bases*, *dict*)
+
+### ##vars**([*object*])
+
+### **zip**(* *iterables*)
+
+### **__import__**(*name*, *globals=None*, *locals=None*, *fromlist=()*, *level=0*)
 
 ## :books: Built-in Constant | [Documentation Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
 
