@@ -83,7 +83,7 @@ Return [True]() if the *object* argument appears callable, [False]() if not. If 
 
 Take tow (non complex) numbers as arguments and return a pair of numbers consisting of their quotient and remainder when using integer division. With mixed oprand types, the rules for binary arithmetic operators apply. For integers, the result is the same as `( a // b, a % b)`. For floating point numbers the result is `(q, a % b)`, where *q* is usually `math.floor(a / b)` but may be 1 less than that. In any case `q * b + a % b` is very close to *a*, if `a % b` is non-zero it has the same sign as *b*, and `0 <= abs(a % b) < abs(b)`.
 
-- **enumerate*(*iterable*, *start=0*)
+- **enumerate**(*iterable*, *start=0*)
 
 Return as enumerate object. *iteralbe* must be a sequence, an [iterator], or some other object which supports iteration. The [__next__()]() method of the iterator returned by [enumerate()] returns a tuple containing a count (from *start* which defaults to 0) and the values obtained from iterating over *iterable*.
 
@@ -91,9 +91,29 @@ Return as enumerate object. *iteralbe* must be a sequence, an [iterator], or som
 
 - **exec**(*object*[, *globals*[, *locals*]])
 
+- **filter**(*function*, *iterable*)
+
+- *class* **float**([*x*])
+
 - **format**(*value*[, *format_spec*])
 
 Convert a *value* to a "formatted" representation, as controlled by *format_spec*. The interpretation ofr *format_spec* will depend on the type of the *value* argument, however there is a standard formatting syntax that is used by most built-in types: [Format Specification Mini-Language]().
+
+- *class* **frozenset**([*iterable*])
+
+Return a new [frozenset]() object, optionally with elements taken from *iterable*. `frozenset` is a built-in class.
+
+- **getattr**(*object*, *name*[, *default*])
+
+Return the value of the named attributed of *object*. *name* must be a string. If the string is the name of one of the object's attributes, the result is the value of that attribute. For example, `getattr(x, 'foobar')` is equivalent to `x.foobar`. If the named attributes does not exist, *default* is returned if provided, otherwise [AttributeError]() is raised.
+
+- **globals**()
+
+Return a dictionary representing the current global symbol table. This is always the dictionary of the current module (inside a function or method, this is the module where it is defined, not the module from which it is called).
+
+- **hasattr**(*object*, *name*)
+
+The arguments are an object and a string. The result is `True` if the string is the name of one of the object's attributes. `False` if not. (This is implemented by calling `getattr(object, name)` and seeing whether it raises an [AttributeError]() or not).
 
 - **isInstance**(*object*, *classinfo*)
 
