@@ -1,4 +1,4 @@
-# Chapter 03. Representation Learning of Deep Learning
+# Chapter 03. Representation Learning of Deep Learning :evergreen_tree:
 
 ## 01 Disentangled Representation
 
