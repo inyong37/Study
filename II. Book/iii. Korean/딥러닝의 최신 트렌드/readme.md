@@ -11,7 +11,7 @@ February, 2021
 
 ### :bulb: Chapter 3. [딥러닝의 표현 학습](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C03_RepresentationLearningOfDeepLearning.md)
 
-### Chapter 4. 딥마인드의 알파스타
+### :bulb: Chapter 4. [딥마인드의 알파스타](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C04_DeepMindAlphaStar.md)
 
 ### Chapter 5. 딥러닝의 한계를 뛰어넘는 최신 기술
 
