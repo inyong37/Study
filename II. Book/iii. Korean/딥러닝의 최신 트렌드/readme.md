@@ -5,9 +5,9 @@
 February, 2021
 
 ## Content
-### Chapter 1. 딥러닝의 기본
+### :bulb: Chapter 1. [딥러닝의 기본](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C01_BasicsOfDeepLearning.md)
 
-### Chapter 2. 딥러닝의 한계
+### :bulb: Chapter 2. [딥러닝의 한계](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C02_TheLimitationsOfDeepLearning.md)
 
 ### Chapter 3. 딥러닝의 표현 학습
 
