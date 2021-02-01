@@ -10,4 +10,4 @@
 ## 09 Generative Adversarial Network
 ## 10 Reinforcement Learning
 ## 11 Attention Mechanism
-## The 3 Best Scholars in Deep Learning
+## The 3 best scholars in deep learning
