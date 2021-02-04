@@ -83,7 +83,7 @@ htop is an interactive system-monitor process-viewer and process-manager. It is 
 top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
 
 ### hostname
-- How to change hostname: `sudo vim /etc/hostname`
+- How to change hostname: `sudo vim /etc/hostname` and reboot(`sudo reboot -n`)
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
