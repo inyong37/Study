@@ -6,26 +6,28 @@
 Spring, 2021
 
 ## Content
-### :bulb: 1부 코딩 인터뷰
-1장 코딩 인터뷰
+:bulb: Part 1. 코딩 인터뷰
 
-2장 프로그래밍 언어 선택
+Chapter 1. 코딩 인터뷰
 
-### :palm_tree: 2부 파이썬
-3장 파이썬
+Chapter 2. 프로그래밍 언어 선택
 
-4장 빅오, 자료형
+:palm_tree: Part 2. 파이썬
 
-5장 리스트, 딕셔너리
+Chapter 3. 파이썬
 
-6장 문자열 조작
+Chapter 4. 빅오, 자료형
 
-### :notebook: 3부 선형 자료구조
+Chapter 5. 리스트, 딕셔너리
 
-### :notebook: 4부 비선형 자료구조
+Chapter 6. 문자열 조작
 
-### :fire: 5부 알고리즘
+:notebook: Part 3. 선형 자료구조
 
-### :bulb: 부록 A 회사 및 이직 가이드
+:notebook: Part 4. 비선형 자료구조
 
-### :pencil: 부록 B 카카오 공채 문제 풀이
+:fire: Part 5. 알고리즘
+
+:bulb: Appendix A. 회사 및 이직 가이드
+
+:pencil: Appendix B. 카카오 공채 문제 풀이
