@@ -1,4 +1,4 @@
-# 들어가는 글(Introduction)
+# 들어가는 글(Introduction) :palm_tree:
 단순성(Simplicity): 프로그램을 간결하고 관리하기 쉽게 짜는 것이다.
 
 명확성(Clarity): 기계 뿐 아니라 사람도 이해하기 쉽게 만드는 것이다.
