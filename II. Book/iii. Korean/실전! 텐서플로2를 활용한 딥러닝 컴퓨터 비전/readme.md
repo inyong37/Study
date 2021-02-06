@@ -7,6 +7,7 @@
 February, 2021
 
 ## Content
+
 ### Part 1. 컴퓨터 비전에 적용한 텐서플로 2와 딥러닝
 
 Chapter 1. 컴퓨터 비전과 신경망
