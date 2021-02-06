@@ -10,7 +10,7 @@ August, 2019
 
 ## Content
 
-### Prologue. 개발환경 준비 :heavy_check_mark:
+**Prologue. 개발환경 준비** :heavy_check_mark:
 
 Chapter 1. 파이토치의 기본 :heavy_check_mark:
 
@@ -48,6 +48,6 @@ Chapter 7. 애플리케이션 적용 :heavy_check_mark:
 
 &nbsp; &nbsp; &nbsp; &nbsp; 7.4 ONNX를 사용한 다른 프레임워크와의 연계 :triangular_flag_on_post:
 
-### Appendix A. 훈련 상태 가시화 :heavy_check_mark:
+**Appendix A. 훈련 상태 가시화** :heavy_check_mark:
 
-### Appendix B. 컬래버레터리로 파이토치 개발 환경 구축 :heavy_check_mark:
+**Appendix B. 컬래버레터리로 파이토치 개발 환경 구축** :heavy_check_mark:
