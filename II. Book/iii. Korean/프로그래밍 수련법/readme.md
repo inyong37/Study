@@ -30,4 +30,4 @@ Chapter 8. 호환성
 
 Chapter 9. 표기법
 
-### Appendix. 원칙 일람
+**Appendix. 원칙 일람**
