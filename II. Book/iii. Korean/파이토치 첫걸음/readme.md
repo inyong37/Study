@@ -3,11 +3,11 @@
 
 두세교 저/김완섭 역 | 제이펍 | 2019년 5월 09일 | [YES24](http://www.yes24.com/Product/Goods/72307730)
 
-### Date
+## Date
 
 August, 2019
 
-### Content
+## Content
 
 Prologue. 개발환경 준비 :heavy_check_mark:
 
