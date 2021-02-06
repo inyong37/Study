@@ -40,4 +40,4 @@ Chapter 7. 합성곱 신경망(CNN)
 
 Chapter 8. 딥러닝
 
-### Appendix A. Softmax-with-Loss 계층의 계산 그래프
+**Appendix A. Softmax-with-Loss 계층의 계산 그래프**
