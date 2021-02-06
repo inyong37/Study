@@ -1,5 +1,6 @@
 # 코딩셰프의 3분 딥러링, 케라스맛
-##  Keras 코드로 맛보는 ANN, DNN, CNN, RNN, AE, GAN, UNET
+
+Keras 코드로 맛보는 ANN, DNN, CNN, RNN, AE, GAN, UNET
 
 김성진 저 | 한빛미디어 | 2018년 01월 01일 | [YES24](http://www.yes24.com/Product/Goods/57617933)
 
