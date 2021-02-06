@@ -3,13 +3,13 @@
 
 김성진 저 | 한빛미디어 | 2018년 01월 01일 | [YES24](http://www.yes24.com/Product/Goods/57617933)
 
-### Date
+## Date
 
-- September, 2018
+September, 2018
 
-- July, 2020
+July, 2020
 
-### Content
+## Content
 
 Chapter 0. 프롤로그 :heavy_check_mark:
 
