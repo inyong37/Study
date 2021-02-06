@@ -1,5 +1,6 @@
 # 프로그래밍 수련법
-## The Practice of Programming
+
+The Practice of Programming
 
 브라이언 W. 커니핸, 롭 파이크 지음, 김정민, 장혜식, 신성국 옮김 | 인사이트 | 2008년 02월 25일 | [YES24](http://www.yes24.com/Product/Goods/2833579)
 
