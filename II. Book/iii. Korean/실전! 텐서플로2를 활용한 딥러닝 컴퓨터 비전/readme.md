@@ -12,7 +12,7 @@ February, 2021
 
 Chapter 1. 컴퓨터 비전과 신경망
 
-Chapter 2. 텐서플로 기초와 모델 훈련
+Chapter 2. [텐서플로 기초와 모델 훈련](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/실전!%20텐서플로2를%20활용한%20딥러닝%20컴퓨터%20비전/C02_BasicsOfTensorFlowAndModelTraining.md)
 
 Chapter 3. 현대 신경망
 
