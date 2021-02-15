@@ -369,3 +369,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python 3.7.9 Built-in Constants EN, https://docs.python.org/3.7/library/constants.html, 2021-01-26-Tue.
 - Python Screentshot Blog EN, https://datatofish.com/screenshot-python/, 2021-02-12-Fri.
 - Python Debugging
+- Python pytest, https://docs.pytest.org/en/stable/, 2021-02-15-Mon.
