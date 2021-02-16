@@ -210,6 +210,10 @@ void foo(int bar = 0);
 
 ### GetDriveType()
 
+### std::vector<type>
+    
+### std::map<type, type>
+
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
 - Friend Class, Friend Function, https://yeolco.tistory.com/116, 2020-06-11-Thu.
