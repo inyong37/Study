@@ -22,7 +22,7 @@ Chapter 4. [인터페이스](https://github.com/inyong37/Study/blob/master/V.%20
 
 Chapter 5. [디버깅](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EB%A0%A8%EB%B2%95/C05_Debugging.md) :fire:
 
-Chapter 6. 테스트
+Chapter 6. [테스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%88%98%EB%A0%A8%EB%B2%95/C06_Test.md) :fire:
 
 Chapter 7. 성능
 
