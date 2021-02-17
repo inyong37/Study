@@ -1,15 +1,16 @@
 # 파이토치 첫걸음
-## 딥러닝 모델 생성에서 애플리케이션 개발까지
+
+딥러닝 모델 생성에서 애플리케이션 개발까지
 
 두세교 저/김완섭 역 | 제이펍 | 2019년 5월 09일 | [YES24](http://www.yes24.com/Product/Goods/72307730)
 
-### Date
+## Date
 
 August, 2019
 
-### Content
+## Content
 
-Prologue. 개발환경 준비 :heavy_check_mark:
+**Prologue. 개발환경 준비** :heavy_check_mark:
 
 Chapter 1. 파이토치의 기본 :heavy_check_mark:
 
@@ -47,6 +48,6 @@ Chapter 7. 애플리케이션 적용 :heavy_check_mark:
 
 &nbsp; &nbsp; &nbsp; &nbsp; 7.4 ONNX를 사용한 다른 프레임워크와의 연계 :triangular_flag_on_post:
 
-Appendix A. 훈련 상태 가시화 :heavy_check_mark:
+**Appendix A. 훈련 상태 가시화** :heavy_check_mark:
 
-Appendix B. 컬래버레터리로 파이토치 개발 환경 구축 :heavy_check_mark:
+**Appendix B. 컬래버레터리로 파이토치 개발 환경 구축** :heavy_check_mark:

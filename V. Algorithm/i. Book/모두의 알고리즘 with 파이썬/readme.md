@@ -1,11 +1,15 @@
 # 모두의 알고리즘 with 파이썬
-## 컴퓨팅 사고를 위한 기초 알고리즘
+
+컴퓨팅 사고를 위한 기초 알고리즘
+
 이승찬 저 | 길벗 | 2017년 05월 18일 | [YES24](http://www.yes24.com/Product/Goods/40443936)
 
-### Date
+## Date
+
 Autumn, 2019
 
-### Content
+## Content
+
 **Part 1. 알고리즘 기초** :heavy_check_mark:
 
 Chapter 1. 1부터 n까지의 합 구하기

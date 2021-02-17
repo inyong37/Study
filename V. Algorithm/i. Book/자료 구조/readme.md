@@ -1,10 +1,14 @@
 # 자료 구조
-## C언어로 쉽게 풀어쓴
+
+C언어로 쉽게 풀어쓴
+
 천인국 저 | 생능출판사 | 2014년 02월 14일 | [YES24](http://www.yes24.com/Product/Goods/18930744)
-### Date
+
+## Date
+
 Autumn, 2016
 
-### Content
+## Content
 
 Chapter 1. 자료 구조와 알고리즘 :heavy_check_mark:
 

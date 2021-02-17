@@ -1,11 +1,15 @@
 # 밑바닥부터 시작하는 딥러닝
-## Deep Learning from Scratch
+
+Deep Learning from Scratch
+
 사이토 고키 지음 개앞맵시 옮김 | 한빛미디어 | 2017년 01월 02일 | [YES24](http://www.yes24.com/Product/Goods/34970929)
 
 ## Date
+
 Summer, 2018 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
 
 ## Content
+
 Chapter 1. 헬로 파이썬
 - 파이썬은 간단하고 익히기 쉬운 프로그래밍 언어다.
 - 파이써은 오픈 소스여서 자유롭게 사용할 수 있다.
@@ -36,4 +40,4 @@ Chapter 7. 합성곱 신경망(CNN)
 
 Chapter 8. 딥러닝
 
-Appendix A. Softmax-with-Loss 계층의 계산 그래프
+**Appendix A. Softmax-with-Loss 계층의 계산 그래프**

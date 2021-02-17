@@ -2,17 +2,17 @@
 
 Hands-On Machine Learning with Scikit-Learn and TensorFlow
 
-## 사이킷런과 텐서플로를 활용한 머신러닝, 딥러닝 실무
+사이킷런과 텐서플로를 활용한 머신러닝, 딥러닝 실무
 
 오렐리앙 제롱 저/박해선 역 | 한빛미디어 | 2018년 04월 17일 | [YES24](http://www.yes24.com/Product/Goods/59878826)
 
-### Date
+## Date
 
 May, 2019
 
-### Content
+## Content
 
-Part 1. 머신러닝 :construction:
+**Part 1. 머신러닝** :construction:
 
 Chapter 1. 한눈에 보는 머신러닝
 
@@ -30,7 +30,7 @@ Chapter 7. 앙상블 학습과 랜덤 포레스트
 
 Chapter 8. 차원 축소
 
-Part 2. 신경망과 딥러닝 :heavy_check_mark:
+**Part 2. 신경망과 딥러닝** :heavy_check_mark:
 
 Chapter 9장. 텐서플로 시작하기
 
@@ -48,14 +48,14 @@ Chapter 15. 오토인코더
 
 Chapter 16. 강화 학습
 
-Appendix A. 연습문제 정답
+**Appendix A. 연습문제 정답**
 
-Appendix B. 머신러닝 프로젝트 체크리스트
+**Appendix B. 머신러닝 프로젝트 체크리스트**
 
-Appendix C. SVM 쌍대 문제
+**Appendix C. SVM 쌍대 문제**
 
-Appendix D. 자동 미분
+**Appendix D. 자동 미분**
 
-Appendix E. 유명한 다른 인공 신경망 구조
+**Appendix E. 유명한 다른 인공 신경망 구조**
 
 &nbsp; &nbsp; &nbsp; &nbsp; 

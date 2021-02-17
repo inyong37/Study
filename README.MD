@@ -44,39 +44,39 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 ## i. English
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
-|Deep Learning|[PDF](https://drive.google.com/open?id=1TiGx2WRewwhWd7rcTAoAv4vlFCOMc26I)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
-|Deep Learning for Computer Vision|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-computer-vision?utm_source=github&utm_medium=repository&utm_campaign=9781788295628)|[AMAZON](https://www.amazon.com/Deep-Learning-Computer-Vision-techniques/dp/1788295625/ref=sr_1_2?keywords=deep+learning+for+computer+vision&qid=1564993587&s=gateway&sr=8-2)|-|
-|Deep Learning with Python|[PDF](https://drive.google.com/open?id=14JtNZVekXl3Z10olKujeIzaKIDYa-FIk)|-|[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
-|Deep Learning with PyTorch|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-with-PyTorch)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch?utm_source=github&utm_medium=repository&utm_campaign=9781788624336)|[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|-|
-|Generative Adversarial Networks Cookbook|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/generative-adversarial-networks-cookbook)|[AMAZON](https://www.amazon.com/gp/product/1789139902/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)|-|
-|Hands-on Machine Learning with Scikit-Learn and TensorFlow|[GITHUB](https://github.com/ageron/handson-ml)|-|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905538&s=books&sr=1-1)|-|
-|Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow|-|[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|-|
-|Pattern Recognition and Machine Learning|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
+|**Deep Learning**|[PDF](https://drive.google.com/open?id=1TiGx2WRewwhWd7rcTAoAv4vlFCOMc26I)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
+|**Deep Learning for Computer Vision**|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-computer-vision?utm_source=github&utm_medium=repository&utm_campaign=9781788295628)|[AMAZON](https://www.amazon.com/Deep-Learning-Computer-Vision-techniques/dp/1788295625/ref=sr_1_2?keywords=deep+learning+for+computer+vision&qid=1564993587&s=gateway&sr=8-2)|-|
+|**Deep Learning with Python**|[PDF](https://drive.google.com/open?id=14JtNZVekXl3Z10olKujeIzaKIDYa-FIk)|-|[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
+|**Deep Learning with PyTorch**|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-with-PyTorch)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch?utm_source=github&utm_medium=repository&utm_campaign=9781788624336)|[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|-|
+|**Generative Adversarial Networks Cookbook**|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/generative-adversarial-networks-cookbook)|[AMAZON](https://www.amazon.com/gp/product/1789139902/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)|-|
+|**Hands-on Machine Learning with Scikit-Learn and TensorFlow**|[GITHUB](https://github.com/ageron/handson-ml)|-|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291/ref=sr_1_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905538&s=books&sr=1-1)|-|
+|**Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**|-|[O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)|[AMAZON](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646/ref=sr_1_fkmr0_1?keywords=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow%2C+2nd+Edition&qid=1564905477&s=books&sr=1-1-fkmr0)|-|
+|**Pattern Recognition and Machine Learning**|[PDF](https://drive.google.com/open?id=12InXmsLMa8k0pO6UTDYHuS-MXROHqKDg)|-|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
 
 ## ii. Japanese
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
-|PyTorchで学ぶニューラルネットワークと深層学習|[GITHUB](https://github.com/lucidfrontier45/PyTorch-Book)|-|[AMAZON.JP](https://www.amazon.co.jp/gp/product/B078WK5CPK)|-|
-|ゼロから作る Deep Learning|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|-|
-|ゼロから作る Deep Learning 2|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-2)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873118369/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%B7%A8-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873118360)|-|
+|**PyTorchで学ぶニューラルネットワークと深層学習**|[GITHUB](https://github.com/lucidfrontier45/PyTorch-Book)|-|[AMAZON.JP](https://www.amazon.co.jp/gp/product/B078WK5CPK)|-|
+|**ゼロから作る Deep Learning**|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|-|
+|**ゼロから作る Deep Learning 2**|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-2)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873118369/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86%E7%B7%A8-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873118360)|-|
 
 ## iii. Korean
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
-|PyTorch로 시작하는 딥러닝|PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|Not yet|
-|강화학습 첫걸음|RL & TensorFlow|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
+|PyTorch로 시작하는 딥러닝|DL & PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
+|강화학습 첫걸음|RL & TF|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |딥러닝의 최신 트렌드|DL|-|[YES24](http://www.yes24.com/Product/Goods/91471013)|-|-|
 |러닝 텐서플로|DL & TF|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
-|밑바닥부터 시작하는 딥러닝|ML & DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
+|밑바닥부터 시작하는 딥러닝|DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
 |밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
 |실전 예제로 배우는 GAN|GAN & Keras|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|August, 2019|
-|실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF & Keras|-|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|-|
+|실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF2|[GITHUB](https://github.com/wikibook/dl-vision)|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|February, 2021|
 |컴퓨터 비전과 딥러닝|CV & TF & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
 |코딩셰프의 3분 딥러닝, 케라스맛|DL & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
 |파이썬과 케라스로 배우는 강화학습|RL & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
 |파이토치 첫걸음|DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
-|핸즈온 머신러닝|ML & DL & TF|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
+|핸즈온 머신러닝|ML & TF|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 ### Abbreviation
 - Machine Learning: ML
