@@ -28,6 +28,10 @@ Chapter 6. 문자열 조작
 
 :notebook: **Part 3. 선형 자료구조**
 
+Chapter 7. 배열
+
+Chapter 8. 연결 리스트
+
 :notebook: **Part 4. 비선형 자료구조**
 
 :fire: **Part 5. 알고리즘**
