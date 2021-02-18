@@ -36,6 +36,8 @@ Chapter 9. 스택, 큐
 
 Chapter 10. 데크, 우선순위 큐
 
+Chapter 11. 해시 테이블
+
 :notebook: **Part 4. 비선형 자료구조**
 
 :fire: **Part 5. 알고리즘**
