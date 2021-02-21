@@ -40,6 +40,8 @@ Chapter 11. 해시 테이블
 
 :notebook: **Part 4. 비선형 자료구조**
 
+Chapter 12. 그래프
+
 :fire: **Part 5. 알고리즘**
 
 :bulb: **Appendix A. 회사 및 이직 가이드**
