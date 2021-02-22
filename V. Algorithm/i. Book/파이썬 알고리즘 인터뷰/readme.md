@@ -44,6 +44,8 @@ Chapter 12. 그래프
 
 Chapter 13. 최단 경로 문제
 
+Chapter 14. 트리
+
 :fire: **Part 5. 알고리즘**
 
 :bulb: **Appendix A. 회사 및 이직 가이드**
