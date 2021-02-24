@@ -327,6 +327,9 @@ Python 2에서는 unicode type이 있지만, Python 3에서는 str type에 포�
 ### Argument vs. Parameter
 Parameter는 function 또는 method에서 나열되는 variable으로, program과 비슷하고, Argument는 function 또는 method를 call할 때 전달 혹은 입력하는 실제 value이다. Parameter는 매개 변수이며, function과 method의 입력 변수(variable) 명이다. Argument는 전달 인자/인자이며, function 또는 method의 입력 값(value)이다.
 
+### Python `self` vs. C++ `this`
+C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
+
 ## :bulb: Error
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
