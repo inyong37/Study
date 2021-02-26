@@ -19,6 +19,7 @@ Python is a programming language that lets you work quickly and integrate system
 Version 1
 - Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
 - Rerun: `Control` + `Shift` + `r`
+
 Versoin 2
 - Setting: `Shift` + `Control` + `Alt` + `F4`
 - Run file in console: `Shift` + `Control` + `Alt` + `F5`
