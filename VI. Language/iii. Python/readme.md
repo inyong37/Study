@@ -7,14 +7,19 @@ Python is a programming language that lets you work quickly and integrate system
 - Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
 
 ## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
-#### Keymap
+### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
 - Comment: `Control` + `/`.
 - Run: `Control` + `Shift` + `F5`.
-#### My keymap #1
+- Search Everywhere: `Shift` + `Shift`
+- Project View: `Alt` + `1`
+- Go to File: `Control` + `Shift` + `n`
+
+#### Custom Keymap
+Version 1
 - Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
 - Rerun: `Control` + `Shift` + `r`
-#### My keymap #2
+Versoin 2
 - Setting: `Shift` + `Control` + `Alt` + `F4`
 - Run file in console: `Shift` + `Control` + `Alt` + `F5`
 - Python console: `Shift` + `Control` + `Alt` + `F6`
