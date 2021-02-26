@@ -13,12 +13,23 @@ Atom is made by Github. It is open source. It is based on Chromium project. It i
 
 ## iv. [Sublime Text 3](https://www.sublimetext.com/) :yellow_heart:
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
+### Keymap
 - Install packages: `Control` + `Shift` + `p`, `install package`
 - Change theme: colorsublime
 - Find keyword in file: `Contorl` + `f`
-- FInd keyword in project: `Control` + `Shift` + `f`
+- Find keyword in project: `Control` + `Shift` + `f`
 - Find file in project: `Control` + `p`
 - Show/hide side bar(folder): `Control` + `k` + `Control` + `b`
+### Custom Keymap
+Preferences-Key Bindings-Default (Windows).sublime-keymap - User에서 수정하면 된다.
+- Show/hide side bar(folder/project): `alt` + `1` (as PyCharm)
+- Go to file(find file in project): `Control` + `Shift` + `n` (as PyCharm)
+```
+[
+  { "keys": ["alt+1"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+shift+n+], "command": "show_overlay", "args": {"overlay": "goto", "show_files": ture} }
+]
+```
 
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
 
@@ -180,3 +191,4 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 - useful .vimrc, https://blog.outsider.ne.kr/518, 2020-08-11-Tue.
 - Vim Buffer, https://opentutorials.org/course/730/4571, 2020-08-12-Wed.
 - ctags commands, https://harryp.tistory.com/130, 2020-09-02-Wed.
+- Sublime Text Keymap Blog (KR), https://webclub.tistory.com/323, 2021-02-26-Fri.
