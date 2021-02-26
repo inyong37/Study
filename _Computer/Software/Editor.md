@@ -15,6 +15,10 @@ Atom is made by Github. It is open source. It is based on Chromium project. It i
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
 - Install packages: `Control` + `Shift` + `p`, `install package`
 - Change theme: colorsublime
+- Find keyword in file: `Contorl` + `f`
+- FInd keyword in project: `Control` + `Shift` + `f`
+- Find file in project: `Control` + `p`
+- Show/hide side bar(folder): `Control` + `k` + `Control` + `b`
 
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
 
