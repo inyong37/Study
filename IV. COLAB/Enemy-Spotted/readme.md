@@ -8,6 +8,8 @@ Python with OpenCV, Keras
 
 ## 2. Uniform Classification :shirt:
 
+ACU AOR Multicam
+
 ## 3. Firearm Detection :gun:
 
 ## 4. Firing Arms Angle Calculation :triangular_ruler:
