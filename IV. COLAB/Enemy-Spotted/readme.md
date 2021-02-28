@@ -8,7 +8,7 @@ Python with OpenCV, Keras
 
 ## 2. Uniform Classification :shirt:
 
-ACU AOR Multicam
+ACU AOR Multicam etc
 
 ## 3. Firearm Detection :gun:
 
