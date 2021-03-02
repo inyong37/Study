@@ -44,7 +44,7 @@ Chapter 12. [그래프](https://github.com/inyong37/Study/blob/master/V.%20Algor
 
 Chapter 13. 최단 경로 문제
 
-Problem 40. 네트워크 딜레이 타임
+Problem 40. [네트워크 딜레이 타임](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P40_network_delay_time.py)
 
 Problem 41. K 경유지 내 가장 저렴한 항공권
 
