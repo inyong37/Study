@@ -52,6 +52,8 @@ Chapter 14. [트리](https://github.com/inyong37/Study/blob/master/V.%20Algorith
 
 Problem 45. 이진 트리 반전
 
+Chapter 15. 힙
+
 ### :fire: **Part 5. 알고리즘**
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
