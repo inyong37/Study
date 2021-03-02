@@ -10,13 +10,13 @@ Spring, 2021
 
 ## Content
 
-:bulb: **Part 1. 코딩 인터뷰**
+### :bulb: **Part 1. 코딩 인터뷰**
 
 Chapter 1. 코딩 인터뷰
 
 Chapter 2. 프로그래밍 언어 선택
 
-:palm_tree: **Part 2. 파이썬**
+### :palm_tree: **Part 2. 파이썬**
 
 Chapter 3. 파이썬
 
@@ -26,7 +26,7 @@ Chapter 5. 리스트, 딕셔너리
 
 Chapter 6. 문자열 조작
 
-:notebook: **Part 3. 선형 자료구조**
+### :notebook: **Part 3. 선형 자료구조**
 
 Chapter 7. 배열
 
@@ -38,16 +38,20 @@ Chapter 10. 데크, 우선순위 큐
 
 Chapter 11. 해시 테이블
 
-:notebook: **Part 4. 비선형 자료구조**
+### :notebook: **Part 4. 비선형 자료구조**
 
 Chapter 12. [그래프](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C12_Graph.md)
 
 Chapter 13. 최단 경로 문제
 
+Problem 40. 네트워크 딜레이 타임
+
+Problem 41. K 경유지 내 가장 저렴한 항공권
+
 Chapter 14. 트리
 
-:fire: **Part 5. 알고리즘**
+### :fire: **Part 5. 알고리즘**
 
-:bulb: **Appendix A. 회사 및 이직 가이드**
+### :bulb: **Appendix A. 회사 및 이직 가이드**
 
-:pencil: **Appendix B. 카카오 공채 문제 풀이**
+### :pencil: **Appendix B. 카카오 공채 문제 풀이**
