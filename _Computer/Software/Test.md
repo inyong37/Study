@@ -1,5 +1,7 @@
-## Google Test & Mock 사용법
+# Test
 
+## Google Test(gtest)
+### Google Test(gtest) 사용법
 unit test란 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증, 모든 함수와 메소드에 대한 테스트 케이스를 작성, 통합 테스트란 둘 이상의 모듈을 하나의 그룹으로 테스트하는 것, unit test하는 이유는 문제점 발견이 쉽고, 변경이 쉽고, 통합이 간단함, 테스트 도구에는 Cpp Unit, Google Test 등이 있음
 
 구글에서 만든 C++ 테스트 프레임워크, 통합 테스트, 단위 테스트(unit test), 시나리오 테스트 가능, 크로미윰, OpenCV에서 사용, 특징으로는 다양한 asssertion, user-defined assertions, death test, fatal and non-fatal, value-parameterized test, type-parameterized test, various options runtime test, xml test report 가능, 독립적, 실제 사용하는 것처럼 테스트 케이스 그룹 만들 수 있음, platform 독립적, test case 실패해도 계속 진행 가능, 일일이 지정하지 않아도 찾아줌, 반복 test는 자원을 공유하기 때문에 비용이 적음
@@ -12,12 +14,10 @@ Test Fixtures 여러 테스트에서 공통으로 사용하는 객체 설정 정
 
 `TEST(), TEST_F(), TEST_P()` 테스트 케이스의 Test Group Name과 Test Name을 지정한다. 여러 테스트가 있는 경우에는 이름의 조합이 중복되지 않도록 해야한다.(빌드 에러 발생) `TEST_F()`에서 첫번째 인자는 테스트 픽처로 정의된 클래스 이름으로 한다. `TEST_P()`는 하나의 테스트 매개 변수를 변경하면서 여러번 수행할 수 있다.
 
-## Installation
-
+### Google Test(gtest) Installation
 gtest 다운로드 및 빌드, 헤더 파일 인클루드, 라이브러리 링크
 
-
-```c++
+```C++
 // 1
 TEST(TestGroupName, TestName) {
     ... Test Content ...
@@ -46,10 +46,12 @@ TEST(fixture_sample, case_name)
     ... test content ...
 }
 ```
-
-
-#### References
-- https://www.slideshare.net/jinhwason/ss-69528881
-- https://www.slideshare.net/parkpd/kgc2010
-- https://www.slideshare.net/zone0000/c-7522148
-- https://jacking75.github.io/cpp_GTest_Mock_CheatSeet/
+### References
+- googletest(gtest) GitHub, https://github.com/google/googletest
+- gtest-demo GitHub, https://github.com/bast/gtest-demo
+- googltetest, https://github.com/google/googletest/blob/master/docs/primer.md
+- gMock, https://github.com/google/googletest/blob/master/googlemock/README.md
+- 구글 테스트 Slide, https://www.slideshare.net/jinhwason/ss-69528881
+- C++ 프로젝트에 단위 테스트 도입하기 Slide, https://www.slideshare.net/zone0000/c-7522148
+- 낡은 코드에 단위테스트 넣기 Slide, https://www.slideshare.net/parkpd/kgc2010
+- Google Test/Mock 정리 Blog, https://jacking75.github.io/cpp_GTest_Mock_CheatSeet/
