@@ -52,7 +52,7 @@ Chapter 14. [트리](https://github.com/inyong37/Study/blob/master/V.%20Algorith
 
 Problem 45. [이진 트리 반전](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P45_invert_binary_tree.py)
 
-Chapter 15. 힙
+Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C15_Heap.md)
 
 ### :fire: **Part 5. 알고리즘**
 
