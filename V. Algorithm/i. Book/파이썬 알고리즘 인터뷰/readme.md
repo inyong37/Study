@@ -54,6 +54,8 @@ Problem 45. [이진 트리 반전](https://github.com/inyong37/Study/blob/master
 
 Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C15_Heap.md)
 
+Chapter 16. 트라이
+
 ### :fire: **Part 5. 알고리즘**
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
