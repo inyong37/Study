@@ -8,7 +8,13 @@ Python with OpenCV, Keras
 
 ## 2. Uniform Classification :shirt:
 
-ACU AOR Multicam etc
+Step 1. 정규군 vs 비정규군
+
+Step 2. 미군 패턴 - ACU AOR1 AOR2 Multicam NWU
+
+Step 4. Allies - US KR JP vs. KP CN RU.
+
+Step 3. Countries - US KR JP KP CN RU.
 
 ## 3. Firearm Detection :gun:
 
