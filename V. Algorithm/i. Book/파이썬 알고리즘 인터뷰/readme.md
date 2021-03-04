@@ -58,6 +58,8 @@ Chapter 16. [트라이](https://github.com/inyong37/Study/blob/master/V.%20Algor
 
 Problem 56. [트라이 구현](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P56_implement_trie_prefix_tree.py)
 
+Problem 57. [팰린드롬 페어](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P57_palindrome_pairs.py)
+
 ### :fire: **Part 5. 알고리즘**
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
