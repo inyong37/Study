@@ -93,7 +93,7 @@ Other parts of the "Unix" and "Linux" have been moved to "Linux" page.
 Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling" page.
 ```
 
-### Clipboard(클립보드) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C)
+### Clipboard(클립보드) :clipboard: | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C)
 클립보드(종이 끼우개)는 잘라내서 붙여넣는 과정을 통해 문서나 응용 프로그램 사이에 자료가 전송될 때 짧은 시간 동안 해당 자료를 저장하는 데에 사용되는 소프트웨어 프로그램이다. 보통 그래픽 사용자 인터페이스 환경의 일부이며 환경 안에 있는 대부분의 프로그램으로부터 접근할 수 있는 임시 메모리 블록과 동의어이다.
 
 Windows의 일부 버전은 클립보드 뷰어(XP/2000에서는 클립북 뷰어) 응용 프로그램(Clipbrd.exe)을 사용하여 클립보드의 내용을 언제든지 볼 수 있게 되어 있다. 더 오래된 윈도우 버전에서는 메모장이나 워드패드 편집기의 복사본을 열어서 붙여 넣으면서 알아 볼 수 있다. 이러한 기능은 "편집" 메뉴의 복사, 잘라내기, 붙여넣기 등의 하부 메뉴를 통해 사용할 수 있다. 데이터를 복사하여 클립보드에 저장: `Control` + `c` 또는 `Control` + `Insert`, 데이터를 잘라내어 클립보드에 저장: `Control` + `x` 또는 `Shift` + `Delete`, 클립보드에 저장된 데이터를 붙여넣기: `Control` + `v` 또는 `Shift` + `Insert`.
