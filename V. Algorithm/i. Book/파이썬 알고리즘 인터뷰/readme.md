@@ -62,6 +62,8 @@ Problem 57. [팰린드롬 페어](https://github.com/inyong37/Study/blob/master/
 
 ### :fire: **Part 5. 알고리즘**
 
+Chapter 17. 정렬
+
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
 ### :pencil: **Appendix B. 카카오 공채 문제 풀이**
