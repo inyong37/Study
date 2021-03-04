@@ -56,6 +56,8 @@ Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i
 
 Chapter 16. [트라이](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C16_Trie.md)
 
+Problem 56. [트라이 구현](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P56_implement_trie_prefix_tree.py)
+
 ### :fire: **Part 5. 알고리즘**
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
