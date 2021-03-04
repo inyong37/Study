@@ -93,6 +93,18 @@ Other parts of the "Unix" and "Linux" have been moved to "Linux" page.
 Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling" page.
 ```
 
+### Clipboard(클립보드) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C)
+클립보드(종이 끼우개)는 잘라내서 붙여넣는 과정을 통해 문서나 응용 프로그램 사이에 자료가 전송될 때 짧은 시간 동안 해당 자료를 저장하는 데에 사용되는 소프트웨어 프로그램이다. 보통 그래픽 사용자 인터페이스 환경의 일부이며 환경 안에 있는 대부분의 프로그램으로부터 접근할 수 있는 임시 메모리 블록과 동의어이다.
+
+Windows 일부 버전은 클립보드 뷰어(XP/2000에서는 클립북 뷰어) 응용 프로그램(Clipbrd.exe)을 사용하여 클립보드의 내용을 언제든지 볼 수 있게 되어 있다. 더 오래된 윈도우 버전에서는 메모장이나 워드패드 편집기의 복사본을 열어서 붙여 넣으면서 알아 볼 수 있다. 이러한 기능은 "편집" 메뉴의 복사, 잘라내기, 붙여넣기 등의 하부 메뉴를 통해 사용할 수 있다. 데이터를 복사하여 클립보드에 저장: `Control` + `c` 또는 `Control` + `Insert`, 데이터를 잘라내어 클립보드에 저장: `Control` + `x` 또는 `Shift` + `Delete`, 클립보드에 저장된 데이터를 붙여넣기: `Control` + `v` 또는 `Shift` + `Insert`.
+
+OS X 맥 운영 체제에서 파인더의 편집 메뉴로부터 클립보드 보기 메뉴 항목을 선택함으로써 내용을 볼 수 있다. 데이터를 복사하여 클립보드에 저장: `Command` + `c`, 데이터를 잘라내어 클립보드에 저장: `Command` + `x`, 클립보드에 저장된 데이터를 붙여넣기: `Command` + `v`.
+
+X Window System Unix, Linux 시스템에서 사용되며 selection을 통해 클립보드를 제공한다. selection은 비동기적이므로 데이터는 사용자가 원할 때에만 복사되고 원하는 형태로 변환된다.
+
+### Patch(패치) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%B9%98_(%EC%BB%B4%ED%93%A8%ED%8C%85))
+패치는 수정 또는 개선을 위해 컴퓨터 프로그램이나 지원 데이터를 업데이트하도록 설계된 일종의 소프트웨어이다. 즉, 일반적으로 이미 발표된 소프트웨어 제품에서 발견된 사소한 기능 개선 또는 버그나 오류 등을 수정하기 위해 개발자/회사가 내놓는 업데이트 프로그램을 지칭한다. 설치 프로그램과 비슷한 형식으로 기존에 설치된 프로그램을 자동으로 검색하여 필요한 내용을 바꿔주는 형태가 일반적이다. 보안 취약점 및 기타 버그의 수정을 포함하는데 이러한 패치는 버그픽스라고 하며 사용성과 성능을 개선한다.
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
@@ -139,3 +151,5 @@ Other parts of the "Profiling" and the "Profiler" have been moved to "Profiling"
 - Process vs. Thread Blog KR-KO, https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html, 2020-11-06-Fri.
 - Thread Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A0%88%EB%93%9C_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2020-11-06-Fri.
 - Process Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4, 2020-11-06-Fri.
+- Clipboard Wiki KR, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C, 2021-03-04-Thu.
+- Patch Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%B9%98_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2021-03-04-Thu.
