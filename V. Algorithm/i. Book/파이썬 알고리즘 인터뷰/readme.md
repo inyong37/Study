@@ -12,49 +12,49 @@ Spring, 2021
 
 ### :bulb: **Part 1. 코딩 인터뷰**
 
-Chapter 1. 코딩 인터뷰
+#### Chapter 1. 코딩 인터뷰
 
-Chapter 2. 프로그래밍 언어 선택
+#### Chapter 2. 프로그래밍 언어 선택
 
 ### :palm_tree: **Part 2. 파이썬**
 
-Chapter 3. 파이썬
+#### Chapter 3. 파이썬
 
-Chapter 4. 빅오, 자료형
+#### Chapter 4. 빅오, 자료형
 
-Chapter 5. 리스트, 딕셔너리
+#### Chapter 5. 리스트, 딕셔너리
 
-Chapter 6. 문자열 조작
+#### Chapter 6. 문자열 조작
 
 ### :notebook: **Part 3. 선형 자료구조**
 
-Chapter 7. 배열
+#### Chapter 7. 배열
 
-Chapter 8. 연결 리스트
+#### Chapter 8. 연결 리스트
 
-Chapter 9. 스택, 큐
+#### Chapter 9. 스택, 큐
 
-Chapter 10. 데크, 우선순위 큐
+#### Chapter 10. 데크, 우선순위 큐
 
-Chapter 11. 해시 테이블
+#### Chapter 11. 해시 테이블
 
 ### :notebook: **Part 4. 비선형 자료구조**
 
-Chapter 12. [그래프](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C12_Graph.md)
+#### Chapter 12. [그래프](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C12_Graph.md)
 
-Chapter 13. 최단 경로 문제
+#### Chapter 13. 최단 경로 문제
 
 Problem 40. [네트워크 딜레이 타임](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P40_network_delay_time.py)
 
 Problem 41. [K 경유지 내 가장 저렴한 항공권](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P41_cheapest_flights_within_k_stops.py)
 
-Chapter 14. [트리](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C14_Tree.md)
+#### Chapter 14. [트리](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C14_Tree.md)
 
 Problem 45. [이진 트리 반전](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P45_invert_binary_tree.py)
 
-Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C15_Heap.md)
+#### Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C15_Heap.md)
 
-Chapter 16. [트라이](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C16_Trie.md)
+#### Chapter 16. [트라이](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C16_Trie.md)
 
 Problem 56. [트라이 구현](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P56_implement_trie_prefix_tree.py)
 
@@ -62,7 +62,7 @@ Problem 57. [팰린드롬 페어](https://github.com/inyong37/Study/blob/master/
 
 ### :fire: **Part 5. 알고리즘**
 
-Chapter 17. 정렬
+#### Chapter 17. 정렬
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
