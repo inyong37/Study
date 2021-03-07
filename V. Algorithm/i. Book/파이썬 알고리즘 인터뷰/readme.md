@@ -64,6 +64,8 @@ Problem 57. [팰린드롬 페어](https://github.com/inyong37/Study/blob/master/
 
 #### Chapter 17. 정렬
 
+#### Chapter 18. 이진 검색
+
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
 ### :pencil: **Appendix B. 카카오 공채 문제 풀이**
