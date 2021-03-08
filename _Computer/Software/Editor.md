@@ -174,6 +174,16 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 ### [Typora](https://typora.io/)
 - [How to add as a command in windows](https://superuser.com/questions/689333/how-to-add-installed-program-to-command-prompt-in-windows)
 
+- Keybinding, Keymap
+File - Preference - General - Open Advanced Setting - `config.user.json`
+```xml
+    "keyBinding": {
+    // for example: 
+    // "Always on Top": "Ctrl+Shift+P"
+    "Toggle Sidebar": "Alt+1"
+  },
+```
+
 ##### Reference
 1. Using Vi in windows with git, https://m.blog.naver.com/PostView.nhn?blogId=callor88&logNo=221051415755&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2020-01-29-Wed.
 2. Notepad++, https://notepad-plus-plus.org/, 2020-01-29-Wed.
