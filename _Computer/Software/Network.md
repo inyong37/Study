@@ -53,6 +53,9 @@ A named pips(also known as a FIFO for its behavior) is an extension to the tradi
 ### File Descriptor | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
 File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
 
+### URI vs. URL vs. URN
+Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Resource Name(URN)는 각 네트워크 상에 존재하는 자원을 구분하는 ID(식별자), 네트워크 상에 존재하는 resource의 location, 중복되지 않는 유일한 resource name을 나타낸다. URN, URL은 URI에 포함된다. 따라서 URN, URL은 URI라 할 수 있다. URL은 where을 나타내는 것으로 자원에 접근하는 방법이나 네트워크 위치를 표현하고 있다. http://, https://, ftp:// 등이 포함되면 URL이다. URN은 what을 나타내는 것으로 해당 자원이 무엇인지 중복되지 않는 유일한 식별 가능한 이름이어야 한다.
+
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
@@ -66,3 +69,4 @@ File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 
 - Named Pipe Wiki, https://en.wikipedia.org/wiki/Named_pipe, 2020-11-09-Mon.
 - Named Pipe blog KR-KO, https://mug896.github.io/bash-shell/named_pipe.html, 2020-11-09-Mon.
 - File Descriptor Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
+- URI vs. URL vs. URN Blog KR, https://nsinc.tistory.com/192, 2021-03-08-Mon.
