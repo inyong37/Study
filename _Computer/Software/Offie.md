@@ -11,6 +11,17 @@ OOXML은 XML 기반으로 한 file format으로, Microsoft가 추진했으며 20
 ## Extensible Markup Lanaguage(XML) | [Homepage](https://www.w3.org/XML/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/XML)
 XML은 W3C에서 개발된 다른 특수한 목적을 갖는 마크업 언어를 만드는데 사용하도록 권장하는 다목적 마크업 언어이다. XML은 SGML의 단순화된 부분집합으로 다른 많은 종류의 데이터를 기술하는 데 사용할 수 있다. XML은 주로 다른 종류의 시스템, 특히 인터넷에 연결된 시스템끼리 데이터를 쉽게 주고 받을 수 있게 하여 HTML의 한계를 극복할 목적으로 만들어졌다.
 
+## Parsing(구문 분석) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%AC%B8_%EB%B6%84%EC%84%9D)
+언어학에서 구문 분석(구문 해석, 문장 해석) 또는 parsing은 문장을 이루고 있는 구성 성분으로 분해하고 그들 사이의 위계 관계를 분석하여 문장의 구조를 결정하는 것을 말한다.
+
+In computer science, parsing은 일련의 문자열을 의미있는 token으로 분해하고 이들로 이루어진 parse tree를 만드는 과정을 말한다. Parsing 방식에는 top-down(하향식), and bottom-top(상향식)이 있다. 전산 언어, 자연어 처리, 기계 번역 등의 분야에서는 전산학의 parsing method를 인간 언어를 구문 분석하는 데 적용하려고 한다.
+
+### Document Object Model(DOM) Parsing
+XML 문서를 모두 메모리에 로드한 후 값을 읽는다. XML 문서가 메모리에 모두 로드외어 있기 떄문에 노드의 검색, 수정, 구조 변경 등이 빠르고 용이하다. 직관적이고 SAX보다 파싱하기 단순하다.
+
+### Simple API for XML(SAX) Parsing
+XML 문서를 순차적으로 읽어들이면서 노드가 열리고 닫히는 과정에서 이벤트가 발생한다. XML 문서를 메모리에 전부 로딩하고 파싱하는 것이 아니라서 메모리 사용량이 적고 단순히 읽기만 할 떄 속도가 빠르다. 발생한 이벤트를 핸들링하여 변수에 저장, 활용하는 것이기 때문에 복잡하고 노드 수정이 어렵다. DOM parsing보다 어렵다.
+
 #### Reference
 - Office Open XML, http://officeopenxml.com/, 2021-03-09-Tue.
 - Office Open XML Wiki KR, https://ko.wikipedia.org/wiki/%EC%98%A4%ED%94%BC%EC%8A%A4_%EC%98%A4%ED%94%88_XML, 2021-03-09-Tue.
@@ -18,3 +29,5 @@ XML은 W3C에서 개발된 다른 특수한 목적을 갖는 마크업 언어를
 - XML Wiki KR, https://ko.wikipedia.org/wiki/XML, 2021-03-09-Tue.
 - DOM Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B8%EC%84%9C_%EA%B0%9D%EC%B2%B4_%EB%AA%A8%EB%8D%B8, 2021-03-09-Tue.
 - DOM Blog KR, https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction, 2021-03-09-Tue.
+- Parsing Wiki KR, https://ko.wikipedia.org/wiki/%EA%B5%AC%EB%AC%B8_%EB%B6%84%EC%84%9D, 2021-03-09-Tue.
+- DOM Parsing vs. SAX Parsing Blog KR, https://humble.tistory.com/23, 2021-03-09-Tue.
