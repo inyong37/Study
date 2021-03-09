@@ -56,6 +56,12 @@ File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 
 ### URI vs. URL vs. URN
 Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Resource Name(URN)는 각 네트워크 상에 존재하는 자원을 구분하는 ID(식별자), 네트워크 상에 존재하는 resource의 location, 중복되지 않는 유일한 resource name을 나타낸다. URN, URL은 URI에 포함된다. 따라서 URN, URL은 URI라 할 수 있다. URL은 where을 나타내는 것으로 자원에 접근하는 방법이나 네트워크 위치를 표현하고 있다. http://, https://, ftp:// 등이 포함되면 URL이다. URN은 what을 나타내는 것으로 해당 자원이 무엇인지 중복되지 않는 유일한 식별 가능한 이름이어야 한다.
 
+### Cloud Computing
+Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 처리하는 computing environment이다.
+
+### Edge Computing
+Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
+
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
@@ -70,3 +76,4 @@ Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Res
 - Named Pipe blog KR-KO, https://mug896.github.io/bash-shell/named_pipe.html, 2020-11-09-Mon.
 - File Descriptor Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
 - URI vs. URL vs. URN Blog KR, https://nsinc.tistory.com/192, 2021-03-08-Mon.
+- Cloud Computing and Edge Computing, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-09-Tue.
