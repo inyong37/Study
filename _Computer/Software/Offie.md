@@ -16,10 +16,10 @@ XML은 W3C에서 개발된 다른 특수한 목적을 갖는 마크업 언어를
 
 In computer science, parsing은 일련의 문자열을 의미있는 token으로 분해하고 이들로 이루어진 parse tree를 만드는 과정을 말한다. Parsing 방식에는 top-down(하향식), and bottom-top(상향식)이 있다. 전산 언어, 자연어 처리, 기계 번역 등의 분야에서는 전산학의 parsing method를 인간 언어를 구문 분석하는 데 적용하려고 한다.
 
-### Document Object Model(DOM) Parsing
+## Document Object Model(DOM) Parsing
 XML 문서를 모두 메모리에 로드한 후 값을 읽는다. XML 문서가 메모리에 모두 로드외어 있기 떄문에 노드의 검색, 수정, 구조 변경 등이 빠르고 용이하다. 직관적이고 SAX보다 파싱하기 단순하다.
 
-### Simple API for XML(SAX) Parsing
+## Simple API for XML(SAX) Parsing
 XML 문서를 순차적으로 읽어들이면서 노드가 열리고 닫히는 과정에서 이벤트가 발생한다. XML 문서를 메모리에 전부 로딩하고 파싱하는 것이 아니라서 메모리 사용량이 적고 단순히 읽기만 할 떄 속도가 빠르다. 발생한 이벤트를 핸들링하여 변수에 저장, 활용하는 것이기 때문에 복잡하고 노드 수정이 어렵다. DOM parsing보다 어렵다.
 
 #### Reference
