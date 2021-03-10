@@ -66,7 +66,7 @@ Spring, 2021
 
 #### Chapter 20. [슬라이딩 윈도우](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C20_Sliding_Window.md)
 - Problem 75. [최대 슬라이딩 윈도우](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P75_sliding_window_maximum.py)
-- Problem 76. 부분 문자열이 포함된 최소 윈도우
+- Problem 76. [부분 문자열이 포함된 최소 윈도우](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P76_minimum_window_substring.py)
 - Problem 77. 가장 긴 반복 문자 대체
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
