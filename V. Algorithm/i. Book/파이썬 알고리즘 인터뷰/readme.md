@@ -43,21 +43,16 @@ Spring, 2021
 #### Chapter 12. [그래프](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C12_Graph.md)
 
 #### Chapter 13. 최단 경로 문제
-
 - Problem 40. [네트워크 딜레이 타임](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P40_network_delay_time.py)
-
 - Problem 41. [K 경유지 내 가장 저렴한 항공권](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P41_cheapest_flights_within_k_stops.py)
 
 #### Chapter 14. [트리](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C14_Tree.md)
-
 - Problem 45. [이진 트리 반전](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P45_invert_binary_tree.py)
 
 #### Chapter 15. [힙](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C15_Heap.md)
 
 #### Chapter 16. [트라이](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C16_Trie.md)
-
 - Problem 56. [트라이 구현](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P56_implement_trie_prefix_tree.py)
-
 - Problem 57. [팰린드롬 페어](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P57_palindrome_pairs.py)
 
 ### :fire: **Part 5. 알고리즘**
@@ -65,12 +60,14 @@ Spring, 2021
 #### Chapter 17. 정렬
 
 #### Chapter 18. 이진 검색
-
 - Problem 65. [이진 검색](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/P65_binary_search.py)
 
 #### Chapter 19. [비트 조작](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/C19_Bitwise.md)
 
 #### Chapter 20. [슬라이딩 윈도우](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C20_Sliding_Window.md)
+- Problem 75. 최대 슬라이딩 윈도우
+- Problem 76. 부분 문자열이 포함된 최소 윈도우
+- Problem 77. 가장 긴 반복 문자 대체
 
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
