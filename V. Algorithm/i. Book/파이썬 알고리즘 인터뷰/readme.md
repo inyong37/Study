@@ -76,6 +76,10 @@ Spring, 2021
 - Problem 81. 주유소
 - Problem 82. 쿠키 부여
 
+#### Chapter 22. 분할 정복
+- Problem 83. 과반수 엘리먼트
+- Problem 84. 괄호를 삽입하는 여러 가지 방법
+
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
 ### :pencil: **Appendix B. 카카오 공채 문제 풀이**
