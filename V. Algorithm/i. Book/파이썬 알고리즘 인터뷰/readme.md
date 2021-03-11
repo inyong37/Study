@@ -76,7 +76,7 @@ Spring, 2021
 - Problem 81. 주유소
 - Problem 82. 쿠키 부여
 
-#### Chapter 22. 분할 정복
+#### Chapter 22. [분할 정복](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C22_Divide_and_Conquer.md)
 - Problem 83. 과반수 엘리먼트
 - Problem 84. 괄호를 삽입하는 여러 가지 방법
 
