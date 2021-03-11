@@ -70,7 +70,7 @@ Spring, 2021
 - Problem 77. 가장 긴 반복 문자 대체
 
 #### Chapter 21. [그리디 알고리즘](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C21_Greedy_Algorithm.md)
-- Problem 78. 주식을 사고팔기 가장 좋은 시점 II
+- Problem 78. [주식을 사고팔기 가장 좋은 시점 II](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P78_best_time_to_buy_and_sell_stock_ii.py)
 - Problem 79. 키에 따른 대기열 재구성
 - Problem 80. 태스크 스케줄러
 - Problem 81. 주유소
