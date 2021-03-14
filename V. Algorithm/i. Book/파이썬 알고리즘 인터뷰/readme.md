@@ -80,6 +80,8 @@ Spring, 2021
 - Problem 83. 과반수 엘리먼트
 - Problem 84. 괄호를 삽입하는 여러 가지 방법
 
+#### Chapter 23. 다이나믹 프로그래밍
+
 ### :bulb: **Appendix A. 회사 및 이직 가이드**
 
 ### :pencil: **Appendix B. 카카오 공채 문제 풀이**
