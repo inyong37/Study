@@ -27,21 +27,24 @@ Preferences-Key Bindings-Default (Windows).sublime-keymap - User에서 수정하
 ```
 [
   { "keys": ["alt+1"], "command": "toggle_side_bar" },
-  { "keys": ["ctrl+shift+n+], "command": "show_overlay", "args": {"overlay": "goto", "show_files": ture} }
+  { "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": ture} }
 ]
 ```
 
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
-
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 
 - Find file: `Control` + `e` or `Control` + `p`
 - Find in file: `Control` + `f`
 - Find in files: `Control` + `Shift` + `f`
 - Find and replace: `Control` + `h`,' `Enter`
-- Find and replace all: `Control` + `h`, `Control` + `Alt` + `Enter`
+- Find and replace all: `Control` + `h`, `Control` + `Alterate` + `Enter`
 - Show/Hide Side Bar: `Control` + `b`
 - Show/Hide Panel: `Control` + `j`
+### Custom Keyboard Shortcuts
+File-Preferences-Keyboard Shortcuts
+- Go to File: `ctrl+p` -> `Control + Shift + n`
+- Show/Hide Side Bar: `ctrl+b` -> `Alternate + 1`
 
 # II. Unix/Linux
 - (That I'm using in)
