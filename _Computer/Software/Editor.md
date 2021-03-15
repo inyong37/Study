@@ -21,13 +21,14 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 - Find file in project: `Control` + `p`
 - Show/hide side bar(folder): `Control` + `k` + `Control` + `b`
 ### Custom Keymap
-Preferences-Key Bindings-Default (Windows).sublime-keymap - User에서 수정하면 된다.
+Preferences-Key Bindings-"Default (Windows).sublime-keymap - User"에서 수정하면 된다.
 - Show/hide side bar(folder/project): `alt` + `1` (as PyCharm)
 - Go to file(find file in project): `Control` + `Shift` + `n` (as PyCharm)
 ```
 [
   { "keys": ["alt+1"], "command": "toggle_side_bar" },
-  { "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": ture} }
+  { "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} }
 ]
 ```
 
