@@ -52,3 +52,16 @@ def solution(A):
         sum2 -= val
         result = min(result, abs(sum1 - sum2))
     return result
+
+# 2021-03-17-Wed_84% https://app.codility.com/demo/results/trainingWZ3EZX-46S/ double, small elements
+def solution(A):
+    front, rear = 0, sum(A)
+    result = None
+    for val in A:
+        front += val
+        rear -= val
+        if result == None:
+            result = abs(front - rear)
+        else:
+            result = min(abs(front - rear), result)
+    return result
