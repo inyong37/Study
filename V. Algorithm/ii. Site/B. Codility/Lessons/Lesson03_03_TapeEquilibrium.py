@@ -30,3 +30,15 @@ def solution(A):
     for idx in range(len(A)):
         diff.append(abs(sum(A[:idx]) - sum(A[idx:])))
     return min(diff)
+
+# 2021-03-17-Wed_84% https://app.codility.com/demo/results/trainingBAA2H4-WG8/ double, small elements
+def solution(A):
+    min_val = float('inf')
+    sum1, sum2 = 0, sum(A)
+    for val in A:
+        sum1 += val
+        sum2 -= val
+        diff = abs(sum1 - sum2)
+        if diff < min_val:
+            min_val = diff
+    return min_val
