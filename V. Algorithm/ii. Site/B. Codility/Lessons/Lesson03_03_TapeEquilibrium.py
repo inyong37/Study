@@ -23,3 +23,10 @@ def solution(A):
             result = min(result, diff)
     
     return result
+
+# 2021-03-17-Wed_38% https://app.codility.com/demo/results/trainingCQJEZU-AYA/ timeout error
+def solution(A):
+    diff = []
+    for idx in range(len(A)):
+        diff.append(abs(sum(A[:idx]) - sum(A[idx:])))
+    return min(diff)
