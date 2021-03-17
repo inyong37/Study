@@ -42,3 +42,13 @@ def solution(A):
         if diff < min_val:
             min_val = diff
     return min_val
+
+# 2021-03-17-Wed_84% https://app.codility.com/demo/results/trainingTCDM97-ZME/ double, small elements
+def solution(A):
+    result = float('inf')
+    sum1, sum2 = 0, sum(A)
+    for val in A:
+        sum1 += val
+        sum2 -= val
+        result = min(result, abs(sum1 - sum2))
+    return result
