@@ -65,3 +65,13 @@ def solution(A):
         else:
             result = min(abs(front - rear), result)
     return result
+
+# 2021-03-18-Thu_100% https://app.codility.com/demo/results/trainingWPK6KS-DXE/
+def solution(A):
+    front, rear = 0, sum(A)
+    result = float('inf')
+    for idx in range(1, len(A)):
+        front += A[idx-1]
+        rear -= A[idx-1]
+        result = min(result, abs(front - rear))
+    return result
