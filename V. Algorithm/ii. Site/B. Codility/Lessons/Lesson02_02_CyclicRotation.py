@@ -75,12 +75,12 @@ def solution(A, K):
         K = K % N
         return A[-K:] + A[:-K]
         
-# 2021-03-17-Tue_87% https://app.codility.com/demo/results/trainingHRTEBQ-8QX/ empty array
+# 2021-03-17-Wed_87% https://app.codility.com/demo/results/trainingHRTEBQ-8QX/ empty array
 def solution(A, K):
     K = K % len(A)
     return A[-K:] + A[:-K]
 
-# 2021-03-17-Tue_100% https://app.codility.com/demo/results/trainingAERJWQ-SWE/
+# 2021-03-17-Wed_100% https://app.codility.com/demo/results/trainingAERJWQ-SWE/
 def solution(A, K):
     if len(A) == 0:
         return A
