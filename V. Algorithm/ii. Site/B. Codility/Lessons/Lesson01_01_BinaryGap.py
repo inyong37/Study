@@ -16,7 +16,7 @@ def solution(N):
     else:
         return max(cal)
 
-# 2021-03-17-Wed_100%
+# 2021-03-17-Wed_100% https://app.codility.com/demo/results/trainingQSRZAS-JGP/
 def solution(N: int) -> int:
     num = list(map(int, format(N, 'b'))) # the binary number of N
     idx = [] # the positions of 1 in binary number of N
