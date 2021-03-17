@@ -34,3 +34,13 @@ def solution(A):
     for key, val in result.items():
         if key % 2 == 1:
             return val
+
+# 2021-03-17-Tue_100% https://app.codility.com/demo/results/trainingC7X2YY-DTT/
+        
+import collections
+
+def solution(A):
+    result = collections.Counter(A)
+    for key, val in result.items():
+        if val % 2 == 1:
+            return key
