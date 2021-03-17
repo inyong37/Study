@@ -44,3 +44,10 @@ def solution(A):
     for idx, val in enumerate(sorted(A)):
         if idx + 1 != val:
             return idx + 1
+
+# 2021-03-17-Wed_100% https://app.codility.com/demo/results/training5TQ8Y8-FJT/
+def solution(A):
+    for idx, val in enumerate(sorted(A)):
+        if idx + 1 != val:
+            return idx + 1
+    return len(A) + 1
