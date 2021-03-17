@@ -5,7 +5,7 @@ import math
 def solution(X, Y, D):
     return math.ceil((Y - X) / D)
 
-# 2021-03-17-Tue_100% https://app.codility.com/demo/results/trainingMWVF2M-6HP/
+# 2021-03-17-Wed_100% https://app.codility.com/demo/results/trainingMWVF2M-6HP/
 from math import ceil
 
 def solution(X, Y, D):
