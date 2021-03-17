@@ -36,7 +36,6 @@ def solution(A):
             return val
 
 # 2021-03-17-Tue_100% https://app.codility.com/demo/results/trainingC7X2YY-DTT/
-        
 import collections
 
 def solution(A):
