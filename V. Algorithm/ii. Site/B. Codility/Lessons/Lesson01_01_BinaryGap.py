@@ -15,3 +15,15 @@ def solution(N):
         return 0
     else:
         return max(cal)
+
+# 2021-03-17-Wed_100%
+def solution(N: int) -> int:
+    num = list(map(int, format(N, 'b'))) # the binary number of N
+    idx = [] # the positions of 1 in binary number of N
+    for i in range(len(num)):
+        if num[i] == 1:
+            idx.append(i)
+    results = [0] # the differences of positions
+    for i in range(len(idx) - 1):
+        results.append(idx[i + 1] - idx[i] - 1)
+    return max(results)
