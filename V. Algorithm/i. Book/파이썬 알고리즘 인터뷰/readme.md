@@ -86,6 +86,6 @@ Spring, 2021
 - Problem 87. 계단 오르기
 - Problem 88. 집 도둑
 
-### :bulb: **Appendix A. 회사 및 이직 가이드**
+### :bulb: **Appendix A. [회사 및 이직 가이드](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/AA_Job.md)**
 
 ### :pencil: **Appendix B. 카카오 공채 문제 풀이**
