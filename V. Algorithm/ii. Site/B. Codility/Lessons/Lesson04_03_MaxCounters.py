@@ -64,3 +64,16 @@ def solution(N, A):
             if val >= big:
                 big = result[val - 1]
     return result
+
+# 2021-03-20-Thu_88% https://app.codility.com/demo/results/trainingV56EDC-FKB/ O(N+M) timeout error, extreme large, all max_counter operations
+def solution(N, A):
+    result = [0] * N
+    new = 0
+    for val in A:
+        if val == N + 1:
+            result = [new] * N
+        else:
+            result[val -1] += 1
+            if result[val - 1] > new:
+                new = result[val - 1]
+    return result
