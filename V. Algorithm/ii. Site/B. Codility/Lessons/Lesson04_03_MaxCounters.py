@@ -12,7 +12,7 @@ def solution(N, A):
                 value = result[A[i]-1]
     return result
 
-# 2021-03-20-Sat_44% https://app.codility.com/demo/results/trainingMRDFC9-2ET/ Correctness 100% Performance 0% runtime error
+# 2021-03-20-Sat_44% https://app.codility.com/demo/results/trainingMRDFC9-2ET/ Correctness 100%, Performance 0% runtime error O(N * M)
 def solution(N, A):
     global result
     result = [0] * N
@@ -30,4 +30,24 @@ def solution(N, A):
         else:
             increase(val-1)
         
+    return result
+
+# 2021-03-20-Sat_66% https://app.codility.com/demo/results/trainingM533QS-V2Z/ Correctness 100%, Performance 40% runtime error O(N * M)
+def increase(result, x):
+    result[x] += 1
+    return result
+
+def max_counter(result, N):
+    new = max(result)
+    del result
+    result = [new] * N
+    return result
+
+def solution(N, A):
+    result = [0] * N
+    for val in A:
+        if val == N + 1:
+            result = max_counter(result, N)
+        else:
+            result = increase(result, val-1)
     return result
