@@ -11,3 +11,23 @@ def solution(N, A):
             if result[A[i]-1] >= value:
                 value = result[A[i]-1]
     return result
+
+# 2021-03-20-Sat_44% https://app.codility.com/demo/results/trainingMRDFC9-2ET/ Correctness 100% Performance 0% runtime error
+def solution(N, A):
+    global result
+    result = [0] * N
+    def increase(X):
+        result[X] += 1
+
+    def max_counter():
+        new = max(result)
+        for idx in range(len(result)):
+            result[idx] = new
+
+    for val in A:
+        if val is N + 1:
+            max_counter()
+        else:
+            increase(val-1)
+        
+    return result
