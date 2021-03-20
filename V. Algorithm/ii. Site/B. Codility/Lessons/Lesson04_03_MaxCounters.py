@@ -51,3 +51,16 @@ def solution(N, A):
         else:
             result = increase(result, val-1)
     return result
+
+# 2021-03-20-Sat_22% https://app.codility.com/demo/results/training2VSBHR-C2G/ wrong answer, timeout error
+def solution(N, A):
+    result = [0] * N
+    big = 0
+    for val in A:
+        if val == N + 1:
+            result = [big] * N
+        else:
+            result[val - 1] += 1
+            if val >= big:
+                big = result[val - 1]
+    return result
