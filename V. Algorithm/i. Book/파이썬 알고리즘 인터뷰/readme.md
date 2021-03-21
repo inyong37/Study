@@ -25,7 +25,12 @@ Spring, 2021
 #### Chapter 5. 리스트, 딕셔너리
 
 #### Chapter 6. 문자열 조작
-- Problem 1. Valid Palindrome
+- Problem 1. 유효한 팰린드롬
+- Problem 2. 문자열 뒤집기
+- Problem 3. 로그 파일 재정렬
+- Problem 4. 가장 흔한 단어
+- Problem 5. 그룹 애너그램
+- Problem 6. 가장 긴 팰린드롬 부분 문자열
 
 ### :notebook: **Part 3. 선형 자료구조**
 
