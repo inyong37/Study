@@ -126,19 +126,19 @@ Books about Data Structure and Algorithm.
 - [30 Days of Code: Tutorial](https://www.hackerrank.com/domains/tutorials/30-days-of-code?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=30-days-of-code) with Python and C++
 - [Interview Preparation Kit: INTERVIEW PREPARATION](https://www.hackerrank.com/domains/algorithms?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=problem-solving)
 
-### C. [Codility](https://app.codility.com/programmers/) :pencil:
+### B. [Codility](https://app.codility.com/programmers/) :pencil:
 - [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)
 - [Challenges](https://app.codility.com/programmers/challenges/)
 
-### D. [Programmers](https://programmers.co.kr/) :pencil:
+### C. [Programmers](https://programmers.co.kr/) :pencil:
 - Kakao Blind Recruitment | [2020]() | [2019]() | [2018]()
 - [코딩테스트 연습](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-### E. [백준 알고리즘](https://www.acmicpc.net/)
+### D. [백준 알고리즘](https://www.acmicpc.net/)
 
-### F. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
+### E. [삼성 SW expert academy](https://swexpertacademy.com/main/main.do)
 
-### G. [LeetCode](https://leetcode.com/)
+### F. [LeetCode](https://leetcode.com/)
 
 ----------
 
