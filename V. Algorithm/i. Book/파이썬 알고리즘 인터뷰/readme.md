@@ -25,6 +25,7 @@ Spring, 2021
 #### Chapter 5. 리스트, 딕셔너리
 
 #### Chapter 6. 문자열 조작
+- Problem 1. Valid Palindrome
 
 ### :notebook: **Part 3. 선형 자료구조**
 
