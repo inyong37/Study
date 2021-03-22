@@ -18,7 +18,7 @@ Spring, 2021
 
 ### :palm_tree: **Part 2. 파이썬**
 
-#### Chapter 3. 파이썬
+#### Chapter 3. [파이썬](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C03_Python.md)
 
 #### Chapter 4. 빅오, 자료형
 
