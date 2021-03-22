@@ -25,16 +25,22 @@ Spring, 2021
 #### Chapter 5. 리스트, 딕셔너리
 
 #### Chapter 6. 문자열 조작
-- Problem 1. 유효한 팰린드롬
-- Problem 2. 문자열 뒤집기
-- Problem 3. 로그 파일 재정렬
-- Problem 4. 가장 흔한 단어
-- Problem 5. 그룹 애너그램
-- Problem 6. 가장 긴 팰린드롬 부분 문자열
+- Problem 1. [유효한 팰린드롬](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P01_valid_palindrome.py)
+- Problem 2. [문자열 뒤집기](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P02_reverse_string.py)
+- Problem 3. [로그 파일 재정렬](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P03_reorder_data_in_log_files.py)
+- Problem 4. [가장 흔한 단어](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P04_most_common_word.py)
+- Problem 5. [그룹 애너그램](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P05_group_anagrams.py)
+- Problem 6. [가장 긴 팰린드롬 부분 문자열](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P06_longest_palindromic_substring.py)
 
 ### :notebook: **Part 3. 선형 자료구조**
 
 #### Chapter 7. 배열
+- Problem 7. 두 수의 합
+- Problem 8. 빗물 트래핑
+- Problem 9. 세 수의 합
+- Problem 10. 배열 파티션 I
+- Problem 11. 자신을 제외한 배열의 곱
+- Problem 12. 주식을 사고팔기 가장 좋은 시점
 
 #### Chapter 8. 연결 리스트
 
