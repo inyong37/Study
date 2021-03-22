@@ -12,9 +12,9 @@ Spring, 2021
 
 ### :bulb: **Part 1. 코딩 인터뷰**
 
-#### Chapter 1. 코딩 인터뷰
+#### Chapter 1. [코딩 인터뷰](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C01_Coding_Interview.md)
 
-#### Chapter 2. 프로그래밍 언어 선택
+#### Chapter 2. [프로그래밍 언어 선택](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C02_Choosing_Programming_Language.md)
 
 ### :palm_tree: **Part 2. 파이썬**
 
