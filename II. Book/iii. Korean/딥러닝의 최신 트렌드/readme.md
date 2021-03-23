@@ -2,6 +2,9 @@
 
 추형석 저 | 위즈플래닛 | 2020년 08월 05일 | [YES24](http://www.yes24.com/Product/Goods/91471013)
 
+- 처음으로 읽다가 불쾌감을 느낀 책
+- 과도한 한글/한자어 사용으로 가독성이 매우 떨어짐
+
 ## Date
 
 February, 2021
@@ -19,5 +22,3 @@ Chapter 2. [딥러닝의 한계](https://github.com/inyong37/Study/blob/master/I
 :bulb: Chapter 5. [딥러닝의 한계를 뛰어넘는 최신 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C05_TheLatestTechnologyThatGoesBeyondTheLimitsOfDeepLearning.md)
 
 :pencil: Chapter 6. [딥러닝의 효율을 향상시키는 다양한 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C06_VariousTechnologiesToImproveTheEfficiencyOfDeepLearning.md)
-
-- 처음으로 읽다가 불쾌감을 느낀 책
