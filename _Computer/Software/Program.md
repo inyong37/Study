@@ -108,6 +108,11 @@ X Window System는 Unix, Linux 시스템에서 사용되며 selection을 통해 
 ### API(Application Programming Interface) | [Wiki (KR)](https://ko.wikipedia.org/wiki/API)
 API는 application에서 사용할 수 있도록 OS나 programming language가 제공하는 기능을 제어할 수 있도록 만든 interface를 뜻한다. 주로 파일 제어, 창 제어, 화상 처리, 문자 제어 등을 위한 interface를 제공한다.
 
+### OpenGL(Open Graphics Library) | [Wiki (KR)](https://ko.wikipedia.org/wiki/OpenGL)
+OpenGL은 1992년 실리콘 그래픽스에서 만든 2차원 및 3차원 그래픽스 표준 API 규격이다. Programming language, platform 간의 cross-platform programming을 지원한다. Microsoft의 Direct3D와 함께 컴퓨터 그래픽 세계를 양분하고 있다. Direct3D와는 달리, 표준안이 여러 관련 업체의 토론과 제안으로 이루어지기에 버전 업데이트는 느린 편이다. 현재 비영리 기술 컨소시엄인 크로노스 그룹에 의하여 관리되고 있다.
+
+
+
 ### Interface | [Wiki (KR)](https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅))
 Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호를 주고 받는 경우의 접점이나 경계면이다. 즉, 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미한다. 컴퓨팅에서 컴퓨터 시스템끼리 정보를 교환하는 공유 경계이다. 이러한 교환은 software, hardware, 주변기기, user 간에 이루어질 수 있으며, 서로 복합적으로 이루어질 수도 있다. 터치스크린과 같은 일부 컴퓨터 하드웨어 장치들은 interface를 통해 데이터를 송수신할 수 있으며 마우스나 마이크로폰과 같은 장치들은 오직 시스템에 데이터를 전송만 하는 interface를 제공한다.
 
@@ -161,3 +166,4 @@ Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호�
 - Patch Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%B9%98_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2021-03-04-Thu.
 - API Wiki KR, https://ko.wikipedia.org/wiki/API, 2021-03-25-Thu.
 - Interface Wiki KR, https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅), 2021-03-25-Thu.
+- OpenGL Wiki KR, https://ko.wikipedia.org/wiki/OpenGL, 2021-03-25-Thu.
