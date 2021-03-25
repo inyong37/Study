@@ -111,6 +111,9 @@ API는 application에서 사용할 수 있도록 OS나 programming language가 �
 ### OpenAL(Open Audio Library) | [Wiki (KR)](https://ko.wikipedia.org/wiki/OpenAL)
 OpenAL은 2000년 로키 소프트웨어에서 Windows 게임을 Linux로 porting을 쉽게 하기 위해 만든 자유 소프트웨어 cross-platform audio API이다. 다중 채널 3차원 오디오 출력을 효율적으로 구현해내기 위해 설계되었다.
 
+### OpenCL(Open Computing Language) | [Wiki (KR)](https://ko.wikipedia.org/wiki/OpenCL)
+OpenCL은 애플이 최초로 개발한 개방형 범용 병렬 컴퓨팅 framework이다. AMD, Intel, Nvidia 등과 함께 문서를 다듬어 최초 제아서를 크로노스 그룹에 제출하여 2008년 6월 16일 Khronos Compute Working Group이 만들어졌다. CPU, GPU, DSP 등의 processor로 이루어진 이종 플랫폼에서 실행되는 프로그램을 작성할 수 있게 해준다. OpenCL은 kernel code를 작성하기 위한 C99 기반의 언어인 OpenCL C와 platform을 정희가ㅗ 제어하기 위한 API를 포함하고 있다. OpenCL은 task-based 및 data-based 병렬 컴퓨팅을 제공한다. 비영리 기술 컨소시엄인 크로노스 그룸에서 관리하고 있다.
+
 ### OpenGL(Open Graphics Library) | [Wiki (KR)](https://ko.wikipedia.org/wiki/OpenGL)
 OpenGL은 1992년 실리콘 그래픽스에서 만든 2차원 및 3차원 그래픽스 표준 API 규격이다. Programming language, platform 간의 cross-platform programming을 지원한다. Microsoft의 Direct3D와 함께 컴퓨터 그래픽 세계를 양분하고 있다. Direct3D와는 달리, 표준안이 여러 관련 업체의 토론과 제안으로 이루어지기에 버전 업데이트는 느린 편이다. 현재 비영리 기술 컨소시엄인 크로노스 그룹에 의하여 관리되고 있다.
 
@@ -168,4 +171,5 @@ Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호�
 - API Wiki KR, https://ko.wikipedia.org/wiki/API, 2021-03-25-Thu.
 - Interface Wiki KR, https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅), 2021-03-25-Thu.
 - OpenAL Wiki KR, https://ko.wikipedia.org/wiki/OpenAL, 2021-03-25-Thu.
+- OpenCL Wiki KR, https://ko.wikipedia.org/wiki/OpenCL, 2021-03-25-Thu.
 - OpenGL Wiki KR, https://ko.wikipedia.org/wiki/OpenGL, 2021-03-25-Thu.
