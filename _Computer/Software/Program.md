@@ -105,6 +105,12 @@ X Window System는 Unix, Linux 시스템에서 사용되며 selection을 통해 
 ### Patch(패치) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%B9%98_(%EC%BB%B4%ED%93%A8%ED%8C%85))
 패치는 수정 또는 개선을 위해 컴퓨터 프로그램이나 지원 데이터를 업데이트하도록 설계된 일종의 소프트웨어이다. 즉, 일반적으로 이미 발표된 소프트웨어 제품에서 발견된 사소한 기능 개선 또는 버그나 오류 등을 수정하기 위해 개발자/회사가 내놓는 업데이트 프로그램을 지칭한다. 설치 프로그램과 비슷한 형식으로 기존에 설치된 프로그램을 자동으로 검색하여 필요한 내용을 바꿔주는 형태가 일반적이다. 보안 취약점 및 기타 버그의 수정을 포함하는데 이러한 패치는 버그픽스라고 하며 사용성과 성능을 개선한다.
 
+### API(Application Programming Interface) | [Wiki (KR)](https://ko.wikipedia.org/wiki/API)
+API는 application에서 사용할 수 있도록 OS나 programming language가 제공하는 기능을 제어할 수 있도록 만든 interface를 뜻한다. 주로 파일 제어, 창 제어, 화상 처리, 문자 제어 등을 위한 interface를 제공한다.
+
+### Interface | [Wiki (KR)](https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅)
+Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호를 주고 받는 경우의 접점이나 경계면이다. 즉, 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미한다. 컴퓨팅에서 컴퓨터 시스템끼리 정보를 교환하는 공유 경계이다. 이러한 교환은 software, hardware, 주변기기, user 간에 이루어질 수 있으며, 서로 복합적으로 이루어질 수도 있다. 터치스크린과 같은 일부 컴퓨터 하드웨어 장치들은 interface를 통해 데이터를 송수신할 수 있으며 마우스나 마이크로폰과 같은 장치들은 오직 시스템에 데이터를 전송만 하는 interface를 제공한다.
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
@@ -153,3 +159,5 @@ X Window System는 Unix, Linux 시스템에서 사용되며 selection을 통해 
 - Process Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4, 2020-11-06-Fri.
 - Clipboard Wiki KR, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C, 2021-03-04-Thu.
 - Patch Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%A8%EC%B9%98_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2021-03-04-Thu.
+- API Wiki KR, https://ko.wikipedia.org/wiki/API, 2021-03-25-Thu.
+- Interface Wiki KR, https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅), 2021-03-25-Thu.
