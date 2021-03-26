@@ -44,7 +44,10 @@ A tiling window manager is a window manager with an organizztion of the screen i
 Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
 
 ### *Desktop Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
-Desktio Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
+Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
+
+### *X Window System* | [Wiki (US)](https://en.wikipedia.org/wiki/X_Window_System)
+The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems. X provides the basic framework for a GUI environment: drawing and moving windows on the display device and interacting with a mouse and keyboard. X does note mandate the user interface - this is handled by individual programs. X originated as part of Project Athena at MIT in 1984. The X protocol has been at version 11 (hence X11) since September 1987. The X.Org Foundation leads the X project, with the current reference implementation, X.Org Server, available as free and open-source software under the MIT License and similar permissive licenses.
 
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
@@ -57,3 +60,4 @@ Desktio Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the w
 - Tiling Window Manager Wiki US, https://en.wikipedia.org/wiki/Tiling_window_manager, 2021-03-26-Fri.
 - Compositing Wiki US, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
 - Desktop Window Manager Wiki US, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
+- X Window System Wiki US, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
