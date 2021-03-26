@@ -43,6 +43,9 @@ A tiling window manager is a window manager with an organizztion of the screen i
 ### *Compositing* | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing)
 Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
 
+### *Desktop Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
+Desktio Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -53,3 +56,4 @@ Compositing is the process or technique of combining visual elements from separa
 - Compositing Window Manager Wiki US, https://en.wikipedia.org/wiki/Compositing_window_manager, 2021-03-26-Fri.
 - Tiling Window Manager Wiki US, https://en.wikipedia.org/wiki/Tiling_window_manager, 2021-03-26-Fri.
 - Compositing Wiki US, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
+- Desktop Window Manager Wiki US, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
