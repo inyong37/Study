@@ -55,6 +55,9 @@ OpenBSD is a security-focused, free and open-source, Unix-like operating system 
 ### *MFC, Microsoft Foundation Class Library* | [Wiki (US)](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
+### *Rendering* | [Wiki (US)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
+Rendering or image synthesis is the process of generating a photorealistic or non-photorealistic image from a 2D or 3D model by means of a computer program. The resulting image is referred to as the render. Multiple models can be defined in a scene file containing objects in a strictly defined language or data structure. The scene file contains geometry, viewpoint, texture, lighting, and shading information describing the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file. The term rendering is analogout to the concept of an artist's impression of a scene. The term rendering is also used to describe the process of calculating effects in a video editing program to produce the final video output.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -69,3 +72,4 @@ Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for dev
 - X Window System Wiki US, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
 - OpenBSD Wiki US, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
 - MFC Wiki US, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
+- Rendering Wiki US, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
