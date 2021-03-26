@@ -70,6 +70,9 @@ Object Linking and Embedding (OLE) is a proprietary technology developed by Micr
 ### *Compound File Binary Format* | [Wiki](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)
 Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is developed by Microsoft and is an implementation of Microsoft COM Structured Storage. Microsoft has opened the format for use by others and it is now used in a variety of programs from Microsoft Word and Microsoft Access to Business Objects. It also forms the basis of the Advanced Authoring Format. CFBF is a container, with little restriction on what can be stored within it. CFBF file structure loosely resembles a FAT filesystem. The file is partitioned into Sectors which are chained together with a File Allocation Table(not to be mistaken with the file system of the same name) which contains chains of sectors related to each file, a Directory holds information for contained files with a Sector ID (SID) for the starting sector of a chain and so on.
 
+### *Skia Graphics Library* | [Homepage](https://skia.org/)
+Skia is an open source 2D graphics library which provides common APIs that work across a variety of hardware and software platforms. It serves as the graphics engine for Google Chrome and Chrome OS, Android, Flutter, Mozilla Firefox and Firefox OS, and many ohter products. Skia is sponsored and managed by Google, but is available for use by anyone under the BSD Free Software License. 
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -89,3 +92,4 @@ Compound File Binary Format (CFBF), also called Compound File, Compound Document
 - Compound-based Software Engineering Wiki, https://en.wikipedia.org/wiki/Component-based_software_engineering, 2021-03-26-Fri.
 - Object Linking and Embedding Wiki, https://en.wikipedia.org/wiki/Object_Linking_and_Embedding, 2021-03-26-Fri.
 - Compound File Binary Format Wiki, https://en.wikipedia.org/wiki/Compound_File_Binary_Format, 2021-03-26-Fri.
+- Skia, https://skia.org/, 2021-03-26-Fri.
