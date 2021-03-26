@@ -61,6 +61,9 @@ Rendering or image synthesis is the process of generating a photorealistic or no
 ### *Compound Document* | [Wiki (US)](https://en.wikipedia.org/wiki/Compound_document)
 A compound document is a document that combines multiple document formats, either by reference, by inclusion, or both. Compound documents are often produced using word processing software, and may include text and non-text elements such as barcodes, spreadsheets, pictures, digital videos, digital audio, and other multimedia features. Compound document technologies are commonly utilized on top of a software componentry framework, but the idea of software componentry includes serveral other concepts apart from compound documents, and software components alone do not enable compound documents. Well-known technologies for compound documents include: Active X Documents, Bonobon by Ximian(primarily used by GNOME), Object linking and embedding(OLE) by Microsoft; see Compound File Binary Foramt, OpenDoc by IBM and Apple Computer(now defunct) and XML and XSL are encapsulation formats used for compound documents of all kinds. The first public implementation of compound documents was on the Xerox Star workstation, released in 1981.
 
+### *Component-based Software Engineering* | [Wiki](https://en.wikipedia.org/wiki/Component-based_software_engineering)
+Component-based software engineering(CBSE), also called components-based development(CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-trem for the software itself and for organizations that sponsor such software.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -77,3 +80,4 @@ A compound document is a document that combines multiple document formats, eithe
 - MFC Wiki US, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
 - Rendering Wiki US, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
 - Compound Document Wiki US, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
+- Compound-based Software Engineering Wiki, https://en.wikipedia.org/wiki/Component-based_software_engineering, 2021-03-26-Fri.
