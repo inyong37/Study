@@ -58,6 +58,9 @@ Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for dev
 ### *Rendering* | [Wiki (US)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
 Rendering or image synthesis is the process of generating a photorealistic or non-photorealistic image from a 2D or 3D model by means of a computer program. The resulting image is referred to as the render. Multiple models can be defined in a scene file containing objects in a strictly defined language or data structure. The scene file contains geometry, viewpoint, texture, lighting, and shading information describing the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file. The term rendering is analogous to the concept of an artist's impression of a scene. The term rendering is also used to describe the process of calculating effects in a video editing program to produce the final video output.
 
+### *Compound Document* | [Wiki (US)](https://en.wikipedia.org/wiki/Compound_document)
+A compound document is a document that combines multiple document formats, either by reference, by inclusion, or both. Compound documents are often produced using word processing software, and may include text and non-text elements such as barcodes, spreadsheets, pictures, digital videos, digital audio, and other multimedia features. Compound document technologies are commonly utilized on top of a software componentry framework, but the idea of software componentry includes serveral other concepts apart from compound documents, and software components alone do not enable compound documents. Well-known technologies for compound documents include: Active X Documents, Bonobon by Ximian(primarily used by GNOME), Object linking and embedding(OLE) by Microsoft; see Compound File Binary Foramt, OpenDoc by IBM and Apple Computer(now defunct) and XML and XSL are encapsulation formats used for compound documents of all kinds. The first public implementation of compound documents was on the Xerox Star workstation, released in 1981.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -73,3 +76,4 @@ Rendering or image synthesis is the process of generating a photorealistic or no
 - OpenBSD Wiki US, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
 - MFC Wiki US, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
 - Rendering Wiki US, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
+- Compound Document Wiki US, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
