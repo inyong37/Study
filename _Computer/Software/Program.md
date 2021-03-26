@@ -10,6 +10,9 @@ Executable file for a task.
 ## Process | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 프로세스는 실행 중인 프로그램의 인스턴스, 독립적인 개체이다. 운영 체제로부터 하드웨어 자원인 CPU 시간, 주소, 독립된 메모리(code, data, bass, stack, heap)을 할당 받는다. 각 프로세스는 다른 프로세스의 변수, 자료 구조에 접근할 수 없으며, 하기 위해서는 IPC를 사용해야한다.
 
+### *Parent Process* | [Wiki](https://en.wikipedia.org/wiki/Parent_process)
+A parent process is a process that has created one or more child process. In Unix-like operating systems, every process except process 0 (the swapper) is crated when another process executes the fork() system call. The process that invoked fork is the parent process and the newly crated process is the child process. Every process (except process 0) has one parent process, but can have many child processes. The operating system kernel identifies each process by its process identifier. Process 0 is a special process that is created when the system boots; after forking a child process (process 1), process 0 becomes the swapper process (sometimes also known as the idle task). Process 1, known as init, is the ancestor of every other process in the system. In the Linux kernel, in which there is a very slim difference between processes and POSIX threads, there are two kinds of parent processes, namely real parent and parent. Parent is the process that receives the SIGCHLD signal on child's termination, whereas real parent is the thread that actually created this child process in a multithreaded environment. For a normal process, both these two values are same, but for a POSIX thread which acts as a process, these two values may be different.
+
 ## Thread | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%8A%A4%EB%A0%88%EB%93%9C_(%EC%BB%B4%ED%93%A8%ED%8C%85))
 스레드는 프로세스 내에서 실행되는 흐름의 단위이다. 각 스레드는 프로세스 내에서 stack만 따로 할당받고 code, data, heap은 공유한다. 스레드들은 프로세스 내의 주소, 공간 자원들을 공유하면서 실행된다. 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만 힙 메모리는 공유되어 서로 읽고 쓸 수 있다. 한 스레드가 프로세스의 자원을 수정하면 다른 스레드(sibling thread)로 내용을 즉시 볼 수 있다.
 
@@ -173,3 +176,4 @@ Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호�
 - OpenAL Wiki KR, https://ko.wikipedia.org/wiki/OpenAL, 2021-03-25-Thu.
 - OpenCL Wiki KR, https://ko.wikipedia.org/wiki/OpenCL, 2021-03-25-Thu.
 - OpenGL Wiki KR, https://ko.wikipedia.org/wiki/OpenGL, 2021-03-25-Thu.
+- Parent Process Wiki, https://en.wikipedia.org/wiki/Parent_process, 2021-03-26-Fri.
