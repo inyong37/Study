@@ -64,6 +64,9 @@ A compound document is a document that combines multiple document formats, eithe
 ### *Component-based Software Engineering* | [Wiki](https://en.wikipedia.org/wiki/Component-based_software_engineering)
 Component-based software engineering(CBSE), also called components-based development(CBD), is a branch of software engineering that emphasizes the separation of concerns with respect to the wide-ranging functionality available throughout a given software system. It is a reuse-based approach to defining, implementing and composing loosely coupled independent components into systems. This practice aims to bring about an equally wide-ranging degree of benefits in both the short-term and the long-trem for the software itself and for organizations that sponsor such software.
 
+### *Object Linking and Embedding* | [Wiki](https://en.wikipedia.org/wiki/Object_Linking_and_Embedding)
+Object Linking and Embedding(OLE) is a proprietary technology developed by Microsoft that allows embedding and linking to documents and other objects. For developers, it brought OLE Control Extension(OCX), a way to develop and use custom user interface elements. On a technical level, an OLE object is any object that implements the IOleObject interface, possibly along with a wide range of other interfaces, depending on the object's needs.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -81,3 +84,4 @@ Component-based software engineering(CBSE), also called components-based develop
 - Rendering Wiki, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
 - Compound Document Wik, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
 - Compound-based Software Engineering Wiki, https://en.wikipedia.org/wiki/Component-based_software_engineering, 2021-03-26-Fri.
+- Object Linking and Embedding Wiki, https://en.wikipedia.org/wiki/Object_Linking_and_Embedding, 2021-03-26-Fri.
