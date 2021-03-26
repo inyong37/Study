@@ -67,6 +67,10 @@ Component-based software engineering (CBSE), also called components-based develo
 ### *Object Linking and Embedding* | [Wiki](https://en.wikipedia.org/wiki/Object_Linking_and_Embedding)
 Object Linking and Embedding (OLE) is a proprietary technology developed by Microsoft that allows embedding and linking to documents and other objects. For developers, it brought OLE Control Extension (OCX), a way to develop and use custom user interface elements. On a technical level, an OLE object is any object that implements the IOleObject interface, possibly along with a wide range of other interfaces, depending on the object's needs.
 
+Linked Object는 원본 파일 데이터에 대한 포인터이다. 원본 파일 데이터가 변경되면 변경 내용이 반영된다. Linked Object의 데이터는 원본 파일에 저장되므로 Linked Object를 편집해야 하는 경우 서버 application이 있어야한다. 원본 파일이 이동, 삭제된 경우에는 해당 파일과 Linked Object를 다시 만들어야 한다.
+
+Embedded Object는 원본 파일의 데이터 사본이다. 원본 파일 데이터를 변경해도 Embedded Object에는 반영되지 않는다. Embedded Object의 데이터는 문서에 저장되므로 편집해야 할 경우 원본 파일에 액세스할 필요가 없다. 이 기능을 이용하면 개체에 대한 코드를 문서 안에 그대로 끼워 넣기 때문에 파일 크기가 커지는 단점이 있다.
+
 ### *Compound File Binary Format* | [Wiki](https://en.wikipedia.org/wiki/Compound_File_Binary_Format)
 Compound File Binary Format (CFBF), also called Compound File, Compound Document format, or Composite Document File V2 (CDF), is a compound document file format for storing numerous files and streams within a single file on a disk. CFBF is developed by Microsoft and is an implementation of Microsoft COM Structured Storage. Microsoft has opened the format for use by others and it is now used in a variety of programs from Microsoft Word and Microsoft Access to Business Objects. It also forms the basis of the Advanced Authoring Format. CFBF is a container, with little restriction on what can be stored within it. CFBF file structure loosely resembles a FAT filesystem. The file is partitioned into Sectors which are chained together with a File Allocation Table(not to be mistaken with the file system of the same name) which contains chains of sectors related to each file, a Directory holds information for contained files with a Sector ID (SID) for the starting sector of a chain and so on.
 
@@ -93,3 +97,4 @@ Skia is an open source 2D graphics library which provides common APIs that work 
 - Object Linking and Embedding Wiki, https://en.wikipedia.org/wiki/Object_Linking_and_Embedding, 2021-03-26-Fri.
 - Compound File Binary Format Wiki, https://en.wikipedia.org/wiki/Compound_File_Binary_Format, 2021-03-26-Fri.
 - Skia, https://skia.org/, 2021-03-26-Fri.
+- OLE Blog KR, https://securityfactory.tistory.com/357, 2021-03-26-Fri.
