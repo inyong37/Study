@@ -49,6 +49,9 @@ Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the w
 ### *X Window System* | [Wiki (US)](https://en.wikipedia.org/wiki/X_Window_System)
 The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems. X provides the basic framework for a GUI environment: drawing and moving windows on the display device and interacting with a mouse and keyboard. X does note mandate the user interface - this is handled by individual programs. X originated as part of Project Athena at MIT in 1984. The X protocol has been at version 11 (hence X11) since September 1987. The X.Org Foundation leads the X project, with the current reference implementation, X.Org Server, available as free and open-source software under the MIT License and similar permissive licenses.
 
+### OpenBSD | [Wiki (US)](https://en.wikipedia.org/wiki/OpenBSD)
+OpenBSD is a security-focused, free and open-source, Unix-like operating system based on the Berkeley Software Distribution(BSD). Theo de Raadt created OpenBSD in 1996 by forking NetBSD. OpenBSD project emphasizes portabiliy, standardization, correctness, proactive security and integrated cryptography.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
@@ -61,3 +64,4 @@ The X Window System (X11, or simply X) is a windowing system for bitmap displays
 - Compositing Wiki US, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
 - Desktop Window Manager Wiki US, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
 - X Window System Wiki US, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
+- OpenBSD Wiki US, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
