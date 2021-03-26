@@ -20,45 +20,45 @@ Window(창)은 컴퓨터 프로그램에서 보통 사각형의 모양을 갖는
 
 창은 거의 언제나 바탕 화면 위에 정리된 두 개의 객체(종이와 책과 같은)로 그려진다. 대부분의 창은 크기를 조절하고, 움직이고, 숨기고, 원래 크기로 되돌리고, 사용자의 의지로 닫을 수 있다. 두 창이 겹칠 때, 하나는 위에 있고 다른 하나는 일부가 가려져 보이지 않는다. 그러나 텍스트 사용자 인터페이스를 사용하는 많은 프로그램들(Emacs)은 창으로 불리는 영역을 분리하는 것을 허용하였다. 이러한 기능들을 관리하는 창 시스템 일부를 창 관리자라고 부른다.
 
-### *CWM, Calm Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Cwm_(window_manager))
+### *CWM, Calm Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Cwm_(window_manager))
 Calm Window Manager(CWM) is a stacking window manager for the X Window System. While it is primarily developed as a part of OpenBSD's base system, portable versions are available on other Unix-like operating systems.
 
-### *Stacking Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Stacking_window_manager)
+### *Stacking Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Stacking_window_manager)
 A stacking window manager (also called floating window manager) is a window manager that draws all windows in a sepcific order, allowing them to overlap, using a technique called painter's algorithm. All window managers that allow the overlapping of windows but are not compositing window managers are considered stacking window managers, although it is possible that not all use exactly the same methods. Other window managers that are not considered stacking window managers are those that do not allow the overlapping of windows, which are called tiling window managers.
 
 A stacking window manageres allow windows to overlap by drawing them one at a time. STacking, or repainting (in reference to painter's algorithm) referes to the rendering of each window as an image, painted directly over the desktop, and over any other windows that might already have been drawn, effectively erasing the areas that are covered. The process usually starts with the desktop, and proceeds by drawing each window and any child windows from back to front, until finally the foreground window is drawn.
 
 The order in which windows are to be stacked is called their z-order.
 
-### *Compositing Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing_window_manager)
+### *Compositing Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Compositing_window_manager)
 A compositing window manager, or compositor, is a window manager that provides applications with an off-screen buffer for each window. The window manager composites the window buffers into an image representing the screen and writes the result into the display memory.
 
 Compositing window managers may perform additional processing on buffered windows, applying 2D and 3D animated effects such as blending, fading, scaling, rotation, duplication, bending and contortion, shuffling, blurring, redirecting applications, and translating windows into one of a number of displays and virtual desktops. Computer graphics technology allows for visual effects to be rendered in real time such as drop shadows, live previews, and complex animation. Since the screen is double buffered, it does not flicker during updates.
 
 The most commonly used compositing window managers include: Linux, BSD, Hurd and OpenSolaris - Compiz, KWin, Xfwm, Enlightenment, xcompmgr, picom and Mutter. Windows - the Desktop Window Manager. macOS - the Quartz Compositor.
 
-### *Tiling Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Tiling_window_manager)
+### *Tiling Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Tiling_window_manager)
 A tiling window manager is a window manager with an organizztion of the screen into mutually non-overlapping frames, as opposed to the more popular approach of coordinate-based stacking of overlapping objects(windows) that tries to fully emulate the desktop metaphor.
 
-### *Compositing* | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing)
+### *Compositing* | [Wiki](https://en.wikipedia.org/wiki/Compositing)
 Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
 
-### *DWM, Desktop Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
+### *DWM, Desktop Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
 Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
 
-### *X11, X Window System* | [Wiki (US)](https://en.wikipedia.org/wiki/X_Window_System)
+### *X11, X Window System* | [Wiki](https://en.wikipedia.org/wiki/X_Window_System)
 The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems. X provides the basic framework for a GUI environment: drawing and moving windows on the display device and interacting with a mouse and keyboard. X does note mandate the user interface - this is handled by individual programs. X originated as part of Project Athena at MIT in 1984. The X protocol has been at version 11 (hence X11) since September 1987. The X.Org Foundation leads the X project, with the current reference implementation, X.Org Server, available as free and open-source software under the MIT License and similar permissive licenses.
 
-### *OpenBSD* | [Wiki (US)](https://en.wikipedia.org/wiki/OpenBSD)
+### *OpenBSD* | [Wiki](https://en.wikipedia.org/wiki/OpenBSD)
 OpenBSD is a security-focused, free and open-source, Unix-like operating system based on the Berkeley Software Distribution(BSD). Theo de Raadt created OpenBSD in 1996 by forking NetBSD. OpenBSD project emphasizes portabiliy, standardization, correctness, proactive security and integrated cryptography.
 
-### *MFC, Microsoft Foundation Class Library* | [Wiki (US)](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
+### *MFC, Microsoft Foundation Class Library* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
-### *Rendering* | [Wiki (US)](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
+### *Rendering* | [Wiki](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
 Rendering or image synthesis is the process of generating a photorealistic or non-photorealistic image from a 2D or 3D model by means of a computer program. The resulting image is referred to as the render. Multiple models can be defined in a scene file containing objects in a strictly defined language or data structure. The scene file contains geometry, viewpoint, texture, lighting, and shading information describing the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file. The term rendering is analogous to the concept of an artist's impression of a scene. The term rendering is also used to describe the process of calculating effects in a video editing program to produce the final video output.
 
-### *Compound Document* | [Wiki (US)](https://en.wikipedia.org/wiki/Compound_document)
+### *Compound Document* | [Wiki](https://en.wikipedia.org/wiki/Compound_document)
 A compound document is a document that combines multiple document formats, either by reference, by inclusion, or both. Compound documents are often produced using word processing software, and may include text and non-text elements such as barcodes, spreadsheets, pictures, digital videos, digital audio, and other multimedia features. Compound document technologies are commonly utilized on top of a software componentry framework, but the idea of software componentry includes serveral other concepts apart from compound documents, and software components alone do not enable compound documents. Well-known technologies for compound documents include: Active X Documents, Bonobon by Ximian(primarily used by GNOME), Object linking and embedding(OLE) by Microsoft; see Compound File Binary Foramt, OpenDoc by IBM and Apple Computer(now defunct) and XML and XSL are encapsulation formats used for compound documents of all kinds. The first public implementation of compound documents was on the Xerox Star workstation, released in 1981.
 
 ### *Component-based Software Engineering* | [Wiki](https://en.wikipedia.org/wiki/Component-based_software_engineering)
@@ -69,15 +69,15 @@ Component-based software engineering(CBSE), also called components-based develop
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
 - Widget Wiki KR, https://ko.wikipedia.org/wiki/GUI_%EC%9C%84%EC%A0%AF, 2021-03-09-Tue.
 - https://ko.wikipedia.org/wiki/%EC%B0%BD_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2021-03-09-Tue.
-- CWM Wiki US, https://en.wikipedia.org/wiki/Cwm_(window_manager), 2021-03-26-Fri.
-- Stacking Window Manager Wiki US, https://en.wikipedia.org/wiki/Stacking_window_manager, 2021-03-26-Fri.
-- Compositing Window Manager Wiki US, https://en.wikipedia.org/wiki/Compositing_window_manager, 2021-03-26-Fri.
-- Tiling Window Manager Wiki US, https://en.wikipedia.org/wiki/Tiling_window_manager, 2021-03-26-Fri.
-- Compositing Wiki US, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
-- Desktop Window Manager Wiki US, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
-- X Window System Wiki US, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
-- OpenBSD Wiki US, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
-- MFC Wiki US, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
-- Rendering Wiki US, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
-- Compound Document Wiki US, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
+- CWM Wiki, https://en.wikipedia.org/wiki/Cwm_(window_manager), 2021-03-26-Fri.
+- Stacking Window Manager Wiki, https://en.wikipedia.org/wiki/Stacking_window_manager, 2021-03-26-Fri.
+- Compositing Window Manager Wiki, https://en.wikipedia.org/wiki/Compositing_window_manager, 2021-03-26-Fri.
+- Tiling Window Manager Wiki, https://en.wikipedia.org/wiki/Tiling_window_manager, 2021-03-26-Fri.
+- Compositing Wiki, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
+- Desktop Window Manager Wiki, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
+- X Window System Wiki, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
+- OpenBSD Wiki, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
+- MFC Wiki, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
+- Rendering Wiki, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
+- Compound Document Wik, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
 - Compound-based Software Engineering Wiki, https://en.wikipedia.org/wiki/Component-based_software_engineering, 2021-03-26-Fri.
