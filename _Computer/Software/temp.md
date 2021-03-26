@@ -20,8 +20,32 @@ Window(창)은 컴퓨터 프로그램에서 보통 사각형의 모양을 갖는
 
 창은 거의 언제나 바탕 화면 위에 정리된 두 개의 객체(종이와 책과 같은)로 그려진다. 대부분의 창은 크기를 조절하고, 움직이고, 숨기고, 원래 크기로 되돌리고, 사용자의 의지로 닫을 수 있다. 두 창이 겹칠 때, 하나는 위에 있고 다른 하나는 일부가 가려져 보이지 않는다. 그러나 텍스트 사용자 인터페이스를 사용하는 많은 프로그램들(Emacs)은 창으로 불리는 영역을 분리하는 것을 허용하였다. 이러한 기능들을 관리하는 창 시스템 일부를 창 관리자라고 부른다.
 
+### CWM (Window Manager) | [Wiki (US)](https://en.wikipedia.org/wiki/Cwm_(window_manager))
+CWM(Calm Window Manager) is a stacking window manager for the X Window System. While it is primarily developed as a part of OpenBSD's base system, portable versions are available on other Unix-like operating systems.
+
+### Stacking Window Manager | [Wiki (US)](https://en.wikipedia.org/wiki/Stacking_window_manager)
+A stacking window manager (also called floating window manager) is a window manager that draws all windows in a sepcific order, allowing them to overlap, using a technique called painter's algorithm. All window managers that allow the overlapping of windows but are note compositing window managers are considered stacking window managers, although it is possible that not all use exactly the same methods. Other window managers that are not considered stacking window managers are those that do not allow the overlapping of windows, which are called tiling window managers.
+
+Stacking window manageres allow windows to overlap by drawing them one at a time. STacking, or repainting (in reference to painter's algorithm) referes to the rendering of each window as an image, painted directly over the desktop, and over any other windows that might already have been drawn, effectively erasing the areas that are covered. The process usually starts with the desktop, and proceeds by drawing each window and any child windows from back to front, until finally the foreground window is drawn.
+
+The order in which windows are to be stacked is called their z-order.
+
+### Compositing window manager | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing_window_manager)
+Compositing window manager, or compositor, is a window manager that provides applications with an off-screen buffer for each window. The window manager composites the window buffers into an image representing the screen and writes the result into the display memory.
+
+Compositing window managers may perform additional processing on buffered windows, applying 2D and 3D animated effects such as blending, fading, scaling, rotation, duplication, bending and contortion, shuffling, blurring, redirecting applications, and translating windows into one of a number of displays and virtual desktops. Computer graphics technology allows for visual effects to be rendered in real time such as drop shadows, live previews, and complex animation. Since the screen is double buffered, it does not flicker during updates.
+
+The most commonly used compositing window managers include: Linux, BSD, Hurd and OpenSolaris - Compiz, KWin, Xfwm, Enlightenment, xcompmgr, picom and Mutter. Windows - the Desktop Window Manager. macOS - the Quartz Compositor.
+
+### Compositing | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing)
+Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
+
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
 - Dropdown menu, https://kuzuro.blogspot.com/2018/08/htmlcss.html, 2020-08-26-Wed.
 - Widget Wiki KR, https://ko.wikipedia.org/wiki/GUI_%EC%9C%84%EC%A0%AF, 2021-03-09-Tue.
 - https://ko.wikipedia.org/wiki/%EC%B0%BD_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2021-03-09-Tue.
+- CWM Wiki US, https://en.wikipedia.org/wiki/Cwm_(window_manager), 2021-03-26-Fri.
+- Stacking Window Manager Wiki US, https://en.wikipedia.org/wiki/Stacking_window_manager, 2021-03-26-Fri.
+- Compositing Window Manager Wiki US, https://en.wikipedia.org/wiki/Compositing_window_manager, 2021-03-26-Fri.
+- Compositing Wiki US, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
