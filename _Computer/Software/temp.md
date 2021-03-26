@@ -20,8 +20,8 @@ Window(창)은 컴퓨터 프로그램에서 보통 사각형의 모양을 갖는
 
 창은 거의 언제나 바탕 화면 위에 정리된 두 개의 객체(종이와 책과 같은)로 그려진다. 대부분의 창은 크기를 조절하고, 움직이고, 숨기고, 원래 크기로 되돌리고, 사용자의 의지로 닫을 수 있다. 두 창이 겹칠 때, 하나는 위에 있고 다른 하나는 일부가 가려져 보이지 않는다. 그러나 텍스트 사용자 인터페이스를 사용하는 많은 프로그램들(Emacs)은 창으로 불리는 영역을 분리하는 것을 허용하였다. 이러한 기능들을 관리하는 창 시스템 일부를 창 관리자라고 부른다.
 
-### *CWM (Window Manager)* | [Wiki (US)](https://en.wikipedia.org/wiki/Cwm_(window_manager))
-CWM(Calm Window Manager) is a stacking window manager for the X Window System. While it is primarily developed as a part of OpenBSD's base system, portable versions are available on other Unix-like operating systems.
+### *CWM, Calm Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Cwm_(window_manager))
+Calm Window Manager(CWM) is a stacking window manager for the X Window System. While it is primarily developed as a part of OpenBSD's base system, portable versions are available on other Unix-like operating systems.
 
 ### *Stacking Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Stacking_window_manager)
 A stacking window manager (also called floating window manager) is a window manager that draws all windows in a sepcific order, allowing them to overlap, using a technique called painter's algorithm. All window managers that allow the overlapping of windows but are note compositing window managers are considered stacking window managers, although it is possible that not all use exactly the same methods. Other window managers that are not considered stacking window managers are those that do not allow the overlapping of windows, which are called tiling window managers.
@@ -43,14 +43,17 @@ A tiling window manager is a window manager with an organizztion of the screen i
 ### *Compositing* | [Wiki (US)](https://en.wikipedia.org/wiki/Compositing)
 Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
 
-### *Desktop Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
+### *DWM, Desktop Window Manager* | [Wiki (US)](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
 Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
 
-### *X Window System* | [Wiki (US)](https://en.wikipedia.org/wiki/X_Window_System)
+### *X11, X Window System* | [Wiki (US)](https://en.wikipedia.org/wiki/X_Window_System)
 The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems. X provides the basic framework for a GUI environment: drawing and moving windows on the display device and interacting with a mouse and keyboard. X does note mandate the user interface - this is handled by individual programs. X originated as part of Project Athena at MIT in 1984. The X protocol has been at version 11 (hence X11) since September 1987. The X.Org Foundation leads the X project, with the current reference implementation, X.Org Server, available as free and open-source software under the MIT License and similar permissive licenses.
 
 ### *OpenBSD* | [Wiki (US)](https://en.wikipedia.org/wiki/OpenBSD)
 OpenBSD is a security-focused, free and open-source, Unix-like operating system based on the Berkeley Software Distribution(BSD). Theo de Raadt created OpenBSD in 1996 by forking NetBSD. OpenBSD project emphasizes portabiliy, standardization, correctness, proactive security and integrated cryptography.
+
+### *MFC, Microsoft Foundation Class Library* | [Wiki (US)](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
+Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
 #### Reference
 - Combo box, https://clack.tistory.com/335, 2020-08-26-Wed.
@@ -65,3 +68,4 @@ OpenBSD is a security-focused, free and open-source, Unix-like operating system 
 - Desktop Window Manager Wiki US, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
 - X Window System Wiki US, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
 - OpenBSD Wiki US, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
+- MFC Wiki US, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
