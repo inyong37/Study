@@ -10,7 +10,7 @@
 #### Dropdown list
 선택항목이 숨어있다 콤보박스를 선택하면 선택항목이 펼쳐져 선택할 수 있다. 텍스트를 입력할 수 없다. 선택항목 중에 한가지만 선택 가능하다.
 
-## Widget | [Wiki](https://en.wikipedia.org/wiki/Widget)
+## Widget | [Wiki](https://en.wikipedia.org/wiki/Graphical_widget)
 컴퓨터 프로그램에서 Widget(위젯) 또는 Control(컨트롤)은 사용자가 상호 작용하는 인터페이스 요소이다. 위젯은 위젯 스스로를 물리적인 대응물과 구별하기 위해 virtual 자격을 갖는다. 마우스 커서로 클릭되는 가상 버튼과 그의 대응물인 손가락으로 눌리는 물리적 버튼을 들 수 있다. Widget이라는 용어는 소형 장치나 요소를 뜻한다. 1980년애데 프로젝트 아테나가 최초로 GUI 요소를 widget이라고 부르기 시작했다.
 
 Widget (GUI), a control element in a graphical user interface – an element of interaction, such as a button or a scroll bar.
