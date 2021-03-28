@@ -22,4 +22,5 @@ Only the Machintosh kept significant market share without having compatibility w
 #### Reference
 - IBM PC Wiki, https://en.wikipedia.org/wiki/IBM_Personal_Computer, 2021-03-28-Sun.
 - IBM PC Compatible Wiki, https://en.wikipedia.org/wiki/IBM_PC_compatible, 2021-03-28-Sun.
-- IMB PC Article KR, https://it.donga.com/27924/, 2021-03-28-Sun
+- IMB PC Article KR, https://it.donga.com/27924/, 2021-03-28-Sun.
+- IBM PC Compatible Article KR, https://it.donga.com/5707/, 2021-03-28-Sun.
