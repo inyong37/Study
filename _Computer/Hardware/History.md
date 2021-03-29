@@ -50,3 +50,4 @@ Only the Machintosh kept significant market share without having compatibility w
 - IBM PC Compatible Article KR, https://it.donga.com/5707/, 2021-03-28-Sun.
 - IBM What is AI?, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence?lnk=fle, 2021-03-28-Sun.
 - IBM What is ML?, https://www.ibm.com/cloud/learn/machine-learning?lnk=fle, 2021-03-28-Sun.
+- Why ThinkPad Article KR, https://publy.co/content/1781, 2021-03-29-Mon. 
