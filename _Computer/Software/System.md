@@ -4,7 +4,7 @@ Operating System(OS, 운영 체제는/조작 체계)는 시스템 하드웨어�
 OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다.
 
 # *Firmware* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
-Firmware(펌웨어)는 CS에서 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
+Firmware(펌웨어)는 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
 
 ## *Bootloader*
 Micro processor가 리셋 상태에서 빠져 나오면 맨 먼저 리셋 벡터로 정해진 메모리 주소로 가서 저장된 명령어를 실행한다. 전원이 들어온 직후에 RAM에는 아무런 의미가 없는 쓰레기 값이 저장되어 있으므로 리셋 벡터 위치에는 반드시 실행 가능한 명령어를 저장하고 있는 ROM이나 flasy memory와 같은 비휘발성 메모리가 있어야 한다. 리셋 벡터 위치의 비휘발성 메모리에 저장된 프로그램은 전원이 들어온 후 필요한 최소한의 하드웨어의 초기화와 OS의 kernel을 RAM으로 읽어 들여 실행할 준비 작업을 하는데 이런 일을 하는 시스템 소프트웨어를 bootloader(부트로더)라고 한다. Bootloader는 반드시 비휘발성 메모리에 저장된다.
@@ -95,6 +95,11 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 ### *HP-UX* | [Homepage](https://www.hpe.com/us/en/servers/hp-ux.html)
 
+### *POSIX, Portable Operating System Interface* | [Wiki](https://en.wikipedia.org/wiki/POSIX) | [Wiki (KR)](https://ko.wikipedia.org/wiki/POSIX)
+The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
+
+POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른 Unix OS의 공통 API를 정리하여 이식성이 높은 Unix application program을 개발하기 위한 목적으로 IEEE가 책정한 application interface 규격이다. POSIX의 마지막 글자 X는 Unix compatible OS에 보통 X가 붙는 것에서 유래한다. Unix 계열 외에 Microsoft Windows NT는 POSIX 1.0에 준하는 POSIX 서브 시스템을 탑재하고 있으며, POSIX application program을 서브 시스템에서 실행할 수 있다. 이는 주로 미국 정부기관의 컴퓨터 시스템 도입조건 (FIPS)에서 POSIX 준거할 것을 요구하기 때문이다. Windows 2000까지 POSIX 서브 시스템을 탑재하고 있었지만 Windows XP에서 폐지되었다. 이후 Windows 2003 R2부터 POSIX 2.0에 준하는 Subsystem for Unix-based Application (SUA)를 통해 POSIX를 지원하고 있다.
+
 ## *Linux* | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [DOwnload](https://www.linux.org/pages/download/)
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
@@ -121,9 +126,6 @@ Linux is one of the most prominent examples of free and open-source software col
 ### *Red Hat* | [Homepage](https://access.redhat.com/)
 
 ```Other parts of the "Linux" have been moved to the "Linux" page.```
-
-### *POSIX, Portable Operating System Interface* | [Wiki](https://en.wikipedia.org/wiki/POSIX)
-The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
 ## *Macintosh* | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
 The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
@@ -199,3 +201,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - Bootloader Blog KR-KO, https://m.blog.naver.com/eslectures/80140013119, 2020-11-13-Fri.
 - UEFI Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%86%B5%EC%9D%BC_%ED%99%95%EC%9E%A5_%ED%8E%8C%EC%9B%A8%EC%96%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4, 2020-11-13-Fri.
 - POSIX Wiki, https://en.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
+- POSIX Wiki KR, https://ko.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
