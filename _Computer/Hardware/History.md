@@ -42,15 +42,21 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 
 ## Lenovo
 
-## Dell
+## Dell | [Homapage](https://www.dell.com/en-us?~ck=cr) | [Wiki](https://en.wikipedia.org/wiki/Dell)
 
-### XPS
+### XPS | [Wiki](https://en.wikipedia.org/wiki/Dell_XPS)
+High-end desktop and laptop computers.
 
-### Latitude
+### Inspiron | [Wiki](https://en.wikipedia.org/wiki/Dell_Inspiron)
+Budget desktop and laptop computers.
 
-### Alienware
+### Latitude | [Wiki](https://en.wikipedia.org/wiki/Dell_Latitude)
+Business-focused latop computers.
 
-## HP
+### Alienware | [Wiki](https://en.wikipedia.org/wiki/Alienware)
+High-performance gaming systems.
+
+## HP, Hewlett-Packard | [Homepage](https://www8.hp.com/us/en/home.html) | [Wiki](https://en.wikipedia.org/wiki/Hewlett-Packard)
 
 #### Reference
 - IBM, https://www.ibm.com/us-en?lnk=fcc, 2021-03-28-Sun.
@@ -65,3 +71,11 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 - Why ThinkPad Article KR, https://publy.co/content/1781, 2021-03-29-Mon. 
 - Mainframe Wiki, https://en.wikipedia.org/wiki/Mainframe_computer, 2021-03-29-Mon.
 - IBM System/360 Wiki, https://en.wikipedia.org/wiki/IBM_System/360, 2021-03-29-Mon.
+- Dell, https://www.dell.com/en-us?~ck=cr, 2021-03-29-Mon.
+- Dell Wiki, https://en.wikipedia.org/wiki/Dell, 2021-03-29-Mon.
+- Dell XPS Wiki, https://en.wikipedia.org/wiki/Dell_XPS, 2021-03-29-Mon.
+- Dell Inspiron Wiki, https://en.wikipedia.org/wiki/Dell_Inspiron, 2021-03-29-Mon.
+- Dell Latitude Wiki, https://en.wikipedia.org/wiki/Dell_Latitude, 2021-03-29-Mon.
+- Dell Alienware Wiki, https://en.wikipedia.org/wiki/Alienware, 2021-03-29-Mon.
+- HP, https://www8.hp.com/us/en/home.html, 2021-03-29-Mon.
+- HP Wiki, https://en.wikipedia.org/wiki/Hewlett-Packard, 2021-03-29-Mon.
