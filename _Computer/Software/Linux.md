@@ -1,4 +1,4 @@
-# Linux | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
+# *Linux* | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
 ```This page is from the 'System' page.```
 
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
@@ -89,9 +89,6 @@ top (table of processes) is a task manager program found in many Unix-like opera
 ### hostname
 - How to change hostname: `sudo vim /etc/hostname` and reboot(`sudo reboot -n`)
 
-### Wine (Wine is not a emulator) | [Homepage](https://www.winehq.org/)
-Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
-
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
@@ -114,4 +111,3 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - fuzzy finder Blog Kor, https://black7375.tistory.com/15, 2020-10-12-Mon.
 - htop Wiki, https://en.wikipedia.org/wiki/Htop, 2020-09-28-Mon.
 - top Wiki, https://en.wikipedia.org/wiki/Top_(software), 2020-09-28-Mon.
-- Wine, https://www.winehq.org/, 2021-03-29-Mon.
