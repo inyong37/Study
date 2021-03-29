@@ -65,9 +65,6 @@ Shared library와 dynamic link library는 다르다. 그러나 대부분 shard l
 ### *.so*
 Linux의 동적 라이브러리이다.
 
-### *Library, Header*
-라이브러리는 기계어로 번역된 라이브러리이며, 헤더는 컴파일 하기 전의 프로그래머가 이해할 수 있고 문법에 맞게 작성되어 있는 선언들의 집합이다. 컴파일된 산물인 .o(object) 파일을 여러개 모아놓은 것이 라이브러리이다. 라이브러리를 사용하기 위해서는 해당 라이브러리의 헤더가 필요하다. 링커가 이해할 수 있는 symbol name을 가지고 library를 찾아 link하게 된다. compilier가 이런 header를 가지고 symbol name을 만들어서 object 파일을 넣어주면 linker가 해당 symbol name을 가지고 library를 검색해서 link하게 된다.
-
 ### *Alias*
 #### Usage
 - show: `alias`
