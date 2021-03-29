@@ -34,7 +34,7 @@ EXE는 일반적인 파일 확장자로 컴퓨터 프로그램의 실행 파일�
 
 도스 실행 파일 포맷은 64 킬로바이트로 크기가 제한되는 COM 실행 파일과 다르다. 도스 실행 파일 헤더는 여러 개의 세그먼트가 DMA에서 로드될 수 있으며 64 킬로바이트 이상의 실행 파일을 지원하는 리로케이션 정보를 포함하고 있다.[Ref]
 
-### *DLL (.dll, Dynamic Link Library)* | [MS (KR)](https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll)
+### *DLL (.dll, Dynamic Link Library)* | [MS (KR)](https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll) | [Wiki](https://en.wikipedia.org/wiki/Dynamic-link_library)
 Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에 사용할 수 있는 코드와 데이터를 포함하는 라이브러리이다. 코드를 쉽게 재사용할 수 있으며 메모리 사용 효율성을 높일 수 있다. DLL을 사용하면 프로그램을 여러 개별 구성 요소로 모듈화할 수 있다. 각 모듈은 설치되어 있는 경우 런타임에 주 프로그램으로 로드할 수 있다. 모듈은 서로 분리되어 있으므로 프로그램의 로드 시간이 빨라지며 해당 기능을 요청할 때만 모듈이 로드된다. 또한 프로그램의 다른 부분에 영향을 주지 않고 업데이트를 각 모듈에 더 쉽게 적용할 수 있다. 변경 내용이 DLL 하나에만 적용되는 경우 전체 프로그램을 다시 빌드하거나 설치할 필요 없이 업데이트를 적용할 수 있다.
 
 동적 링크로 실행 파일에서 라이브러리의 기능을 사용 시에만, 라이브러리 파일을 참조 또는 다운로드해서 기능을 호출한다. 정적 링크와 다르게 컴파일 시점에 실행 파일에 함수를 복사하지 않고, 함수의 위치 정보만 갖고 그 함수를 호출할 수 있게 한다.
@@ -83,4 +83,5 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - XAML Wiki (Kor), https://ko.wikipedia.org/wiki/XAML, 2020-09-18-Fri.
 - WPF MS Docs, https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019, 2020-09-18-Fri.
 - WPF MS Docs (Kor), https://docs.microsoft.com/ko-kr/visualstudio/designers/getting-started-with-wpf?view=vs-2019, 2020-09-18-Fri.
-- - Wine, https://www.winehq.org/, 2021-03-29-Mon.
+- Wine, https://www.winehq.org/, 2021-03-29-Mon.
+- DLL Wiki, https://en.wikipedia.org/wiki/Dynamic-link_library, 2021-03-29-Mon.
