@@ -25,11 +25,8 @@ Executable and Linkable Format(ELF)는 실행 파일, 목적 파일, 공유 라�
 
 ELF 형식은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 이것은 유닉스 계열 운영체제에서 a.out과 COFF 포맷을 대체하였다. 리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스, 그리고 유닉스 계열이 아닌 OpenVMS (아이테니엄 버전), BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전, 그리고 게임 콘솔인 플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U.
 
-
-### ELF
-### ELF Symbol Visibility
-Dynamic linker의 symbol resolution을 도와주는 역할을 한다. readelf로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
-
+### *ELF Symbol Visibility*
+Dynamic linker의 symbol resolution을 도와주는 역할을 한다. `readelf`로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
 - default는 visibilty를고려하지 않고 해당 symbol binding이 global인지 local(static)인지를 이용한다.
 - hidden은 주로 사용되는 속성으로 해당 symbol을 외부로 공개하지 않게 만든다.
 - protected는 잘 사용되지 않는 속성으로 공개하지만 다른 모듈에 의해 대체되지 않는다.
