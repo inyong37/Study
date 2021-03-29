@@ -1,4 +1,4 @@
-## Library | [Wiki](https://en.wikipedia.org/wiki/Library_(computing))
+# *Library* | [Wiki](https://en.wikipedia.org/wiki/Library_(computing))
 In computer science, a library is a collection of non-volatile resources used by computer programs, often for software development. These may include configuration data, documentation, help data, message templates, pre-written code and subroutines, classes, values or type specifications. In IBM's OS/360 and its successors they are referred to as partitioned data sets.
 
 A library is also a collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked. For instance, people who want to write a higher level program can use a library to make system calls instead of implementing those system calls over and over again. In addition, the behavior is provided for reuse by multiple independent programs. A program invokes the library-provided behavior via a mechanism of the language. For example, in a simple imperative language such as C, the behavior in a library is invoked by using C's normal function-call. What distinguishes the call as being to a library function, versus being to another function in the same program, is the way that the code is organized in the system.
@@ -11,13 +11,13 @@ The behavior implemented by a library can be connected to the invoking program a
 
 Most compiled languages have a standard library although programmers can also create their own custom libraries. Most modern software systems provide libraries that implement the majority of the system services. Such libraries have commoditized the services which a modern application requires. As such, most code used by modern applications is provided in these system libraries.
 
-## Plug-in | [Wiki](https://en.wikipedia.org/wiki/Plug-in_(computing))
+# *Plug-in* | [Wiki](https://en.wikipedia.org/wiki/Plug-in_(computing))
 In computing, a plug-in (or plugin, add-in, addin, add-on, or addon) is a software component that adds a specific feature to an existing computer program. When a program supports plug-ins, it enables customization.
 
-A theme or skin is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).[Ref]
+A theme or skin is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).
 
-## Third Party | [Wiki](https://en.wikipedia.org/wiki/Third-party_software_component) | [Term](https://techterms.com/definition/thirdparty)
-In computer programming, a third-party software component is a reusable software component developed to be either freely distributed or sold by an entity other than the original vendor of the development platform. The third-party software component market thrives because many programmers believe that component-oriented development improves the efficiency and the quality of developing custom applications. Common third-party software includes macros, bots, and software/scripts to be run as add-ons for popular developing software.[Ref]
+# *Third Party* | [Wiki](https://en.wikipedia.org/wiki/Third-party_software_component) | [Term](https://techterms.com/definition/thirdparty)
+In computer programming, a third-party software component is a reusable software component developed to be either freely distributed or sold by an entity other than the original vendor of the development platform. The third-party software component market thrives because many programmers believe that component-oriented development improves the efficiency and the quality of developing custom applications. Common third-party software includes macros, bots, and software/scripts to be run as add-ons for popular developing software.
 
 In the computer world, a third party may refer to either a hardware manufacturer or a software developer. It is a label given to companies that produce hardware or software for another company's product.
 
@@ -25,9 +25,9 @@ Third party hardware refers to components that are developed by companies beside
 
 Third party software refers to programs that are developed by companies other than the company that developed the computer's operating system. Therefore, any Macintosh applications that are not developed by Apple are considered third party applications. Likewise, any Windows programs developed by companies other than Microsoft are called third party programs. Since most programs are developed by companies other than Apple and Microsoft, third party applications make up the majority of software programs.
 
-Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.[Ref]
+Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.
 
-## ELF
+### ELF
 ### ELF Symbol Visibility
 Dynamic linker의 symbol resolution을 도와주는 역할을 한다. readelf로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
 
@@ -38,13 +38,13 @@ Dynamic linker의 symbol resolution을 도와주는 역할을 한다. readelf로
 
 default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 사용할 symbol은 static으로 선언하면 된다. static으로 선언한 symbol은 항상 해당 파일 내의 symbol을 접근하는 것이므로 간접 접근이 필요없이 직접 접근이 가능하므로 컴파일러가 더 빠른 코드를 만들어 낼 수 있다. 또한 symbol이 외부로 공개되지 않으므로 relocation 및 symbol resolution 시에도 고려해야할 요소가 적어지므로 추가적인 성능 향상이 있다.
 
-### Link ln
-ln은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 명령어이다. Linux에서는 symbolic link와 hard link 2가지 링크 파일이 존재한다.
+### Link `ln`
+`ln`은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 명령어이다. Linux에서는 symbolic link와 hard link 2가지 링크 파일이 존재한다.
 
-#### Symbolic Link
+### Symbolic Link
 단순히 원본 파일을 가리키도록 링크만 시켜둔 것으로 Windows의 shortcut과 같은 것이며, 원본 파일을 가리키고만 있으므로 원본 파일의 크기와는 무관하다. 그리고 symbolic link에서는 원본 파일이 삭제되어 존재하지 않을 경우에 링크 파일은 깜박거리면서 링크 파일의 원본 파일이 없다는 것을 알려준다.
 
-#### Hard Link
+### Hard Link
 원본 파일과 다른 이름으로 존재하는 동일한 파일이며 원본 파일과 동일한 내용의 다른 파일이다. 그리고 hard link에서는 원본 파일과 링크 파일 2개가 서로 다른 파일이기 때문에 둘 중 하나를 삭제하더라도 나머지 하나는 그대로 남아 있다. 또한 hard link에서는 원본 파일의 내용이 변경될 경우에는 링크 파일의 내용 또한 자동으로 변경된다.
 
 #### Usage
@@ -64,7 +64,7 @@ In software engineering, a circular dependency is a relation between two or more
 
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.[Ref]
 
-## Reference
+#### Reference
 - Third Party Wiki, https://en.wikipedia.org/wiki/Third-party_software_component, 2020-07-21-Tue.
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
 - Plug-in Wiki, https://en.wikipedia.org/wiki/Plug-in_(computing), 2020-07-21-Tue.
