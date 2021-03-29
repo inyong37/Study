@@ -42,6 +42,7 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 
 ## Lenovo | [Homepage](https://www.lenovo.com.cn/) | [Wiki](https://en.wikipedia.org/wiki/Lenovo)
 
+
 ## Dell | [Homapage](https://www.dell.com/en-us?~ck=cr) | [Wiki](https://en.wikipedia.org/wiki/Dell)
 
 ### XPS | [Wiki](https://en.wikipedia.org/wiki/Dell_XPS)
@@ -57,6 +58,7 @@ Business-focused latop computers.
 High-performance gaming systems.
 
 ## HP, Hewlett-Packard | [Homepage](https://www8.hp.com/us/en/home.html) | [Wiki](https://en.wikipedia.org/wiki/Hewlett-Packard)
+The HP was an American multinational information technolgy company headquartered in Palo Alto, California, that developed and provided a wide variety of hardware componentsm as well as software and related services to consumers, small and medium-sized businesses (SMBs) and large enterprises, includeing customers in the government, health and education sectors. The company was founded in a one-car garage in Palo Alto, California by Bill Hewlett and David Packard in 1939, and initially produced a line of of electronic test and measurement equipment. The HP Garage at 367 Addison Avenue is now designated an official California Historical Landmark, and is marked with a plaque calling it the Birthplace of Silicon Valley.
 
 ### Envy | [Wiki](https://en.wikipedia.org/wiki/HP_Envy)
 
