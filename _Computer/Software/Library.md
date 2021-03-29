@@ -47,7 +47,7 @@ ln은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 
 #### Hard Link
 원본 파일과 다른 이름으로 존재하는 동일한 파일이며 원본 파일과 동일한 내용의 다른 파일이다. 그리고 hard link에서는 원본 파일과 링크 파일 2개가 서로 다른 파일이기 때문에 둘 중 하나를 삭제하더라도 나머지 하나는 그대로 남아 있다. 또한 hard link에서는 원본 파일의 내용이 변경될 경우에는 링크 파일의 내용 또한 자동으로 변경된다.
 
-#### How to use
+#### Usage
 - `ln -s /tmp /var/tmp`
 - `ln hard_source hard_link`
 - `--backup`: 대상 파일이 이미 존재할 경우에 백업 파일을 만든 후에 링크 파일 생성
@@ -59,7 +59,7 @@ ln은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 
 - `-S`: 백업 파일 생성 시에 원하는 suffix 지정
 - `-t`: 링크 파일을 생성할 디렉토리를 지정
 
-### Circular Dependency | [Wiki (Eng)](https://en.wikipedia.org/wiki/Circular_dependency)
+### Circular Dependency | [Wiki](https://en.wikipedia.org/wiki/Circular_dependency)
 In software engineering, a circular dependency is a relation between two or more modules which either directly or indirectly depend on each other to function properly. Such modules are also known as mutually recursive.
 
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.[Ref]
@@ -69,8 +69,8 @@ Circular dependencies are natural in many domain models where certain objects of
 - Third Party Term, https://techterms.com/definition/thirdparty, 2020-07-21-Tue.
 - Plug-in Wiki, https://en.wikipedia.org/wiki/Plug-in_(computing), 2020-07-21-Tue.
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
-- Third Party Kor, https://tuhbm.github.io/2018/01/26/thirdParty/, 2020-07-21-Tue.
-- Third Party Kor, https://vivabin.tistory.com/2, 2020-07-21-Tue.
+- Third Party KR, https://tuhbm.github.io/2018/01/26/thirdParty/, 2020-07-21-Tue.
+- Third Party KR, https://vivabin.tistory.com/2, 2020-07-21-Tue.
 - ELF Symbol Visibility, http://egloos.zum.com/studyfoss/v/5257309, 2020-08-12-Wed.
 - readelf, https://m.blog.naver.com/PostView.nhn?blogId=yon7961&logNo=50097076949&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-12-Wed.
 - readelf Option, https://devanix.tistory.com/186, 2020-08-12-Wed.
