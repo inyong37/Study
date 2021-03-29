@@ -33,9 +33,12 @@ In software engineering, a circular dependency is a relation between two or more
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.
 
 ### *Static Library* | [Wiki](https://en.wikipedia.org/wiki/Static_library)
+`"Static Library"는 compile-time에 실행 가능한 파일 또는 오브젝트 파일에 복사된다.`
 A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing and object file and a stand-alone executable. This executable and the process of compiling it are both known as a static build of the program. Historically, libraries could only be static libraries are either merged with other static libraries and object files during building/linking to form a single executable or loaded at run-time into the address space of their corresponding executable at a static memory offset determined at compile-time/link-time.
 
 ### *Shared Library*
+`"Shared Library"는 실행 가능한 파일 또는 오브젝트 파일이 공유해서 사용할 수 있는 라이브러리이다. 모듈은 실행 파일을 생성할 때 복사되지 않고 load/run-time에 메모리에 로드된다.`
+
 A shared library or shared object is a file that is intended to be shared by executable files and further shared object files. Modules used by a program are loaded from individual shared objects into memory at load time or runtime, rather than being copied by a linker when it creates a single monolithic executable file for the program. Shared libraries can be statically linked during compile-time, meaning that references to the library modules are resolved and the modules are allocated memory when the executable file is created. But often linking of shared libraries is postponed until they are loaded.
 
 #### Reference
