@@ -25,7 +25,10 @@ Descendants of the IBM PC compatibles comprise the majority of desktop computers
 
 Only the Machintosh kept significant market share without having compatibility with the IBM PC.
 
-### Mainframe
+### Mainframe | [Wiki](https://en.wikipedia.org/wiki/Mainframe_computer)
+A mainframe computer, informally called a mainframe or big iron, is a computer used primarily by large organizations for critical applications, bulk data processing (such as the census and industry and consumer statics, enterprise resource planning, and large-scale transaction processing). A mainframe computer is larger and has more processing power than some other classes of computers, such as minicomputers, servers, workstations, and personal computers. Most large-scale computer-system architectures were established in the 1960s but they continue to evolve. Mainframe computers are often used as servers.
+
+The term mainframe derived from the large cabinet, called a main frame, that houses the central processing unit and main memory of early computers. Later, the term mainframe was used to distinguish high-end commercial computers from less powerful machines.
 
 ### ThickPad | [Wiki](https://en.wikipedia.org/wiki/ThinkPad)
 ThinkPad is a line of business-oriented laptop computers and tablets designed, developed and marketed by Lenovo. It was initially sold by IBM until 2005. ThinkPads have a distinct black, boxy design language, inspired by a japanese bento lunchbox, which originated in 1990 and is still used in some models.
@@ -57,3 +60,4 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 - IBM What is ML?, https://www.ibm.com/cloud/learn/machine-learning?lnk=fle, 2021-03-28-Sun.
 - ThinkPad Wiki, https://en.wikipedia.org/wiki/ThinkPad, 2021-03-29-Mon.
 - Why ThinkPad Article KR, https://publy.co/content/1781, 2021-03-29-Mon. 
+- Mainframe Wiki, https://en.wikipedia.org/wiki/Mainframe_computer, 2021-03-29-Mon.
