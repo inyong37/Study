@@ -29,7 +29,12 @@ Only the Machintosh kept significant market share without having compatibility w
 
 ### ThickPad
 
-## Lenovo
+## Lenovo | [Wiki](https://en.wikipedia.org/wiki/ThinkPad)
+ThinkPad is a line of business-oriented laptop computers and tablets designed, developed and marketed by Lenovo. It was initially sold by IBM until 2005. ThinkPads have a distinct black, boxy design language, inspired by a japanese bento lunchbox, which originated in 1990 and is still used in some models.
+
+The ThinkPad line was first developed at the IBM Yamato Facility in Japan, and the first ThinkPads were released in October 1992.
+
+ThinkPads have seen significant success in the business market. ThinkPad laptops have been used in outer space and for many yesars were the only laptops certified for use on the international Space Station.
 
 ## Dell
 
@@ -50,4 +55,5 @@ Only the Machintosh kept significant market share without having compatibility w
 - IBM PC Compatible Article KR, https://it.donga.com/5707/, 2021-03-28-Sun.
 - IBM What is AI?, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence?lnk=fle, 2021-03-28-Sun.
 - IBM What is ML?, https://www.ibm.com/cloud/learn/machine-learning?lnk=fle, 2021-03-28-Sun.
+- ThinkPad Wiki, https://en.wikipedia.org/wiki/ThinkPad, 2021-03-29-Mon.
 - Why ThinkPad Article KR, https://publy.co/content/1781, 2021-03-29-Mon. 
