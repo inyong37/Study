@@ -40,7 +40,7 @@ The ThinkPad line was first developed at the IBM Yamato Facility in Japan, and t
 
 ThinkPads have seen significant success in the business market. ThinkPad laptops have been used in outer space and for many yesars were the only laptops certified for use on the international Space Station.
 
-## Lenovo
+## Lenovo | [Homepage]() | [Wiki](https://en.wikipedia.org/wiki/Lenovo)
 
 ## Dell | [Homapage](https://www.dell.com/en-us?~ck=cr) | [Wiki](https://en.wikipedia.org/wiki/Dell)
 
@@ -57,6 +57,8 @@ Business-focused latop computers.
 High-performance gaming systems.
 
 ## HP, Hewlett-Packard | [Homepage](https://www8.hp.com/us/en/home.html) | [Wiki](https://en.wikipedia.org/wiki/Hewlett-Packard)
+
+### Envy | [Wiki](https://en.wikipedia.org/wiki/HP_Envy)
 
 #### Reference
 - IBM, https://www.ibm.com/us-en?lnk=fcc, 2021-03-28-Sun.
@@ -79,3 +81,4 @@ High-performance gaming systems.
 - Dell Alienware Wiki, https://en.wikipedia.org/wiki/Alienware, 2021-03-29-Mon.
 - HP, https://www8.hp.com/us/en/home.html, 2021-03-29-Mon.
 - HP Wiki, https://en.wikipedia.org/wiki/Hewlett-Packard, 2021-03-29-Mon.
+- HP Envy Wiki, https://en.wikipedia.org/wiki/HP_Envy 2021-03-29-Mon.
