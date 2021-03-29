@@ -30,7 +30,10 @@ Some programs also support third party plug-ins, which add functionality to the 
 ## *Circular Dependency* | [Wiki](https://en.wikipedia.org/wiki/Circular_dependency)
 In software engineering, a circular dependency is a relation between two or more modules which either directly or indirectly depend on each other to function properly. Such modules are also known as mutually recursive.
 
-Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.[Ref]
+Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.
+
+## *Static Library* | [Wiki](https://en.wikipedia.org/wiki/Static_library)
+A static library or statically-linked library is a set of routines, external functions and varialbes which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing and object file and a stand-alone executable. This executable and the process of compiling it are both known as a static build of the program. Historically, libraries could only be static libraries are either merged with other static libraries and object files during building/linking to form a single executable or loaded at run-time into the address space of their corresponding executable at a static memory offset determined at compile-time/link-time.
 
 #### Reference
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
@@ -43,3 +46,4 @@ Circular dependencies are natural in many domain models where certain objects of
 - How to solve circular dependecy, https://brunch.co.kr/@fishz/143, 2020-08-13-Thu.
 - Does circular dependecy really need?, http://hyper-cube.io/2018/03/30/circular_dependency/, 2020-08-13-Thu.
 - Dependency Analyzer Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220729875733&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-13-Thu.
+- Static Library Wiki, https://en.wikipedia.org/wiki/Static_library, 2021-03-29-Mon.
