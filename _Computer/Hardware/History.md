@@ -30,6 +30,9 @@ A mainframe computer, informally called a mainframe or big iron, is a computer u
 
 The term mainframe derived from the large cabinet, called a main frame, that houses the central processing unit and main memory of early computers. Later, the term mainframe was used to distinguish high-end commercial computers from less powerful machines.
 
+### IBM System/360 | [Wiki](https://en.wikipedia.org/wiki/IBM_System/360)
+The IBM System/360 (S/360) is a family of mainframe computer systems that was announced by IBM on April 7, 1964, and delivered between 1965 and 1978. It was the first family of computers designed to cover the complete range of applications, from small to large, both commercial and scientific. The design made a clear distinction between architecture and implementation, allowing IBM to release a suite of compatible designs at different prices. All but the only partially compatible Model 44 and the most expensive systems use microcode to implement the instruction set, which features 8-bit byte addressing and binary decimal and hexadecimal floating-point calculations.
+
 ### ThickPad | [Wiki](https://en.wikipedia.org/wiki/ThinkPad)
 ThinkPad is a line of business-oriented laptop computers and tablets designed, developed and marketed by Lenovo. It was initially sold by IBM until 2005. ThinkPads have a distinct black, boxy design language, inspired by a japanese bento lunchbox, which originated in 1990 and is still used in some models.
 
@@ -61,3 +64,4 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 - ThinkPad Wiki, https://en.wikipedia.org/wiki/ThinkPad, 2021-03-29-Mon.
 - Why ThinkPad Article KR, https://publy.co/content/1781, 2021-03-29-Mon. 
 - Mainframe Wiki, https://en.wikipedia.org/wiki/Mainframe_computer, 2021-03-29-Mon.
+- IBM System/360 Wiki, https://en.wikipedia.org/wiki/IBM_System/360, 2021-03-29-Mon.
