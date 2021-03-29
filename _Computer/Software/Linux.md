@@ -23,7 +23,7 @@ Because man pages are distributed together with the software they document, they
 ### *ELF (Executable and Linkable Format)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
 Executable and Linkable Format(ELF)는 실행 파일, 목적 파일, 공유 라이브러리 그리고 코어 덤프를 위한 표준 파일 형식이다. 1999년 86open 프로젝트에 의해 x86 기반 유닉스, 유닉스 계열 시스템들의 표준 바이너리 파일 형식으로 선택되었다.
 
-ELF 형식은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 이것은 유닉스 계열 운영체제에서 a.out과 COFF 포맷을 대체하였다. 리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스, 그리고 유닉스 계열이 아닌 OpenVMS (아이테니엄 버전), BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전, 그리고 게임 콘솔인 플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U.
+ELF은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 유닉스 계열 운영체제 (리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스)에서 a.out과 COFF 포맷을 대체했으며, 유닉스 계열이 아닌 운영체제 (OpenVMS 아이테니엄 버전, BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전)에서도 사용하고, 게임 콘솔 (플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U)에서도 사용한다.
 
 ### *ELF Symbol Visibility*
 Dynamic linker의 symbol resolution을 도와주는 역할을 한다. `readelf`로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
