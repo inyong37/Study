@@ -44,6 +44,7 @@ ThinkPads have seen significant success in the business market. ThinkPad laptops
 
 
 ## Dell | [Homapage](https://www.dell.com/en-us?~ck=cr) | [Wiki](https://en.wikipedia.org/wiki/Dell)
+The Dell is an American multinational computer technology company that develops, sells, repairs, and supports computers and related products and services. Named after its founder, Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the U.S and around the world. It is one of the biggest PC product companies in the world. The company was founded in February 1, 1984.
 
 ### XPS | [Wiki](https://en.wikipedia.org/wiki/Dell_XPS)
 High-end desktop and laptop computers.
@@ -58,7 +59,7 @@ Business-focused latop computers.
 High-performance gaming systems.
 
 ## HP, Hewlett-Packard | [Homepage](https://www8.hp.com/us/en/home.html) | [Wiki](https://en.wikipedia.org/wiki/Hewlett-Packard)
-The HP was an American multinational information technolgy company headquartered in Palo Alto, California, that developed and provided a wide variety of hardware componentsm as well as software and related services to consumers, small and medium-sized businesses (SMBs) and large enterprises, includeing customers in the government, health and education sectors. The company was founded in a one-car garage in Palo Alto, California by Bill Hewlett and David Packard in 1939, and initially produced a line of of electronic test and measurement equipment. The HP Garage at 367 Addison Avenue is now designated an official California Historical Landmark, and is marked with a plaque calling it the Birthplace of Silicon Valley.
+The HP is an American multinational information technolgy company headquartered in Palo Alto, California, that developed and provided a wide variety of hardware componentsm as well as software and related services to consumers, small and medium-sized businesses (SMBs) and large enterprises, includeing customers in the government, health and education sectors. The company was founded in a one-car garage in Palo Alto, California by Bill Hewlett and David Packard in 1939, and initially produced a line of of electronic test and measurement equipment. The HP Garage at 367 Addison Avenue is now designated an official California Historical Landmark, and is marked with a plaque calling it the Birthplace of Silicon Valley.
 
 ### Envy | [Wiki](https://en.wikipedia.org/wiki/HP_Envy)
 
