@@ -27,14 +27,14 @@ Only the Machintosh kept significant market share without having compatibility w
 
 ### Mainframe
 
-### ThickPad
-
-## Lenovo | [Wiki](https://en.wikipedia.org/wiki/ThinkPad)
+### ThickPad | [Wiki](https://en.wikipedia.org/wiki/ThinkPad)
 ThinkPad is a line of business-oriented laptop computers and tablets designed, developed and marketed by Lenovo. It was initially sold by IBM until 2005. ThinkPads have a distinct black, boxy design language, inspired by a japanese bento lunchbox, which originated in 1990 and is still used in some models.
 
 The ThinkPad line was first developed at the IBM Yamato Facility in Japan, and the first ThinkPads were released in October 1992.
 
 ThinkPads have seen significant success in the business market. ThinkPad laptops have been used in outer space and for many yesars were the only laptops certified for use on the international Space Station.
+
+## Lenovo
 
 ## Dell
 
