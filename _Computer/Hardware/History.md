@@ -41,7 +41,7 @@ The ThinkPad line was first developed at the IBM Yamato Facility in Japan, and t
 ThinkPads have seen significant success in the business market. ThinkPad laptops have been used in outer space and for many yesars were the only laptops certified for use on the international Space Station.
 
 ## Lenovo | [Homepage](https://www.lenovo.com.cn/) | [Wiki](https://en.wikipedia.org/wiki/Lenovo)
-
+The Lenovo is a Chinese multinational technology company. Incorporated in Hong Kong, it has global headquarters in Beijing, China, operational headquarters in Morrisville, North Carolina, US, and an operational center in Singapore. The company designs, develops, manufactures, and sells personal computers, tablet computers, smartphones, workstations, servers, supercomputers, electronic storage devices, IT management software, and smart televisions, and is the world's largest personal computer vendor by unit sales as of January 2021. It also markets the ThinkPad and ThinkBook business lines of laptop computers; IdeaPad, Yoga, and Legion consumer lines of laptop computers; and the IdeaPad, Yoga, and IdeaCentre and ThinkCentre lines of desktop computers. The company was founded in November 1, 1984.
 
 ## Dell | [Homapage](https://www.dell.com/en-us?~ck=cr) | [Wiki](https://en.wikipedia.org/wiki/Dell)
 The Dell is an American multinational computer technology company that develops, sells, repairs, and supports computers and related products and services. Named after its founder, Michael Dell, the company is one of the largest technology corporations in the world, employing more than 165,000 people in the U.S and around the world. It is one of the biggest PC product companies in the world. The company was founded in February 1, 1984.
