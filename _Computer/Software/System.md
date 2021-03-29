@@ -108,17 +108,17 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
-## *Ubuntu* | [Homepage](https://ubuntu.com/)
+### *Ubuntu* | [Homepage](https://ubuntu.com/)
 
-## *CentOS* | [Homepage](https://wiki.centos.org/FrontPage)
+### *CentOS* | [Homepage](https://wiki.centos.org/FrontPage)
 
-## *Debian* | [Homepage](https://www.debian.org/)
+### *Debian* | [Homepage](https://www.debian.org/)
 
-## *Fedora* | [Homepage](https://getfedora.org/)
+### *Fedora* | [Homepage](https://getfedora.org/)
 
-## *Mint* | [Homepage](https://www.linuxmint.com/)
+### *Mint* | [Homepage](https://www.linuxmint.com/)
 
-## *Red Hat* | [Homepage](https://access.redhat.com/)
+### *Red Hat* | [Homepage](https://access.redhat.com/)
 
 ```Other parts of the "Linux" have been moved to the "Linux" page.```
 
