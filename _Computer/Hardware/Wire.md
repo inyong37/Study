@@ -4,14 +4,13 @@
 ## Cable, 케이블 | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%BC%80%EC%9D%B4%EB%B8%94)
 케이블은 일반적으로 보호 외피나 외장 안에 두 개 이상의 전선이나 광섬유로 묶여 있는 것을 일컫는다.
 
-# TRS (Tip Ring Sleeve) 3극 
+### TRS (Tip Ring Sleeve) 3극 
 
-# TRRS (Tip Ring Ring Sleeve) 4극
-
-## US type
+### TRRS (Tip Ring Ring Sleeve) 4극
+#### US type
 Left-Right-Ground-Microphone
 
-## EU type
+#### EU type
 Left-Right-Microphone-Ground
 
 #### Reference
