@@ -1,22 +1,39 @@
 # Build | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C)
 Build는 소스 코드 파일을 컴퓨터나 휴대폰에서 실행할 수 있는 독립(standalone) 소프트웨어 가공물로 변환하는 과정을 말하거나 그에 대한 결과물을 일컫는다. 빌드에 있어 가장 중요한 단계들 가운데 하나는 소스 코드 파일이 실행 코드로 변환되는 컴파일 과정이다. 컴퓨터 프로그램을 빌드하는 과정은 보통 다른 프로그램을 제어하는 프로그램인 빌드 도구에 의해 관리된다.
 
+## Build Process
+1. Preprocessing
+- foo.c -> foo.i
+- Preprocessor(전처리기, cpp0)가 `#`에 대한 처리를 한다. `#include`의 라이브러리를 불러오는 역할도 한다.
+
+2. Compile
+- foo.i -> foo.s
+- Compiler(컴파일러, cc1)가 불러온 라이브러리를 참조하여 소스코드를 어셈블리 코드로 변환한다.
+
+3. Assemble
+- foo.s -> foo.o
+- Assembler(어셈블러, as, collect2)가 어셈블리 코드에서 기계어 코드(오브젝트 파일)로 변환한다.
+
+4. Link
+- foo.o -> foo (elf, exe)
+- Linker(링커, ld)가 a, so 라이브러리와 연결시켜 실행 파일을 만든다.
+
 ## Build Tool
-Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Googlde이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 Ninja로 응용프로그램 프로젝트를 구축할 수 있도록 Ninja 빌드 파일을 생성하는 메타 빌드 시스템이다. Chromium 빌드가 GYP에서 GN으로 전환되었다. [Ref]
+Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Googlde이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 Ninja로 응용프로그램 프로젝트를 구축할 수 있도록 Ninja 빌드 파일을 생성하는 메타 빌드 시스템이다. Chromium 빌드가 GYP에서 GN으로 전환되었다.
 
 TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다.
 
 Keras는 python으로 `PyPI(pip)`, 또는 직접 소스에서 `(sudo) python setup.py install`한다. 
 
-## Make | [GNU Make](https://www.gnu.org/software/make/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Git Repositories](http://savannah.gnu.org/git/?group=make)
+### Make | [GNU Make](https://www.gnu.org/software/make/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/Make_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Git Repositories](http://savannah.gnu.org/git/?group=make)
 GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
-Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.[Ref]
+Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.
 
-## [CMake (Cross Platform Make)](https://cmake.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
-CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.[Ref]
+### [CMake (Cross Platform Make)](https://cmake.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
+CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
 
-### How to use
+#### How to use CMake
 - Conditional statements: `if()`, `elseif()`, `else()`, `endif()`
 - Variable declarartion/definition: `SET()`
   - `SET(var_name "value")`
@@ -40,32 +57,82 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
     - SEND_ERROR: error message and keep going without Makefile
     - FATAL_ERROR: error message and stop
 
-## [Ninja](https://ninja-build.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [GitHub](https://github.com/ninja-build/ninja)
-Ninja is a small build system with a focus on speed. It differs from other build systems in two major respects: it is designed to have its input files generated by a higher-level build system, and it is designed to run builds as fast as possible.[Ref]
+### [Ninja](https://ninja-build.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [GitHub](https://github.com/ninja-build/ninja)
+Ninja is a small build system with a focus on speed. It differs from other build systems in two major respects: it is designed to have its input files generated by a higher-level build system, and it is designed to run builds as fast as possible.
 
 [Manual](https://ninja-build.org/manual.html)
 
-## [GYP (Generate Your Projects)](https://gyp.gsrc.io/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Google Source](https://chromium.googlesource.com/external/gyp)
+### [GYP (Generate Your Projects)](https://gyp.gsrc.io/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/GYP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [Google Source](https://chromium.googlesource.com/external/gyp)
 GYP is a Meta-Build system: a build system that generates other build systems.
 
-GYP is intended to support large projects that need to be built on multiple platforms (e.g., Mac, Windows, Linux), and where it is important that the project can be built using the IDEs that are popular on each platform as if the project is a “native” one.[Ref]
+GYP is intended to support large projects that need to be built on multiple platforms (e.g., Mac, Windows, Linux), and where it is important that the project can be built using the IDEs that are popular on each platform as if the project is a “native” one.
 
-## [GN (Generates Ninja build files)](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (KR)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
-GN is a meta-build system that generates build files for Ninja.[Ref]
+### [GN (Generates Ninja build files)](https://www.chromium.org/developers/gn-build-configuration) | [Wiki (KR)](https://ko.wikipedia.org/wiki/GN_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [Google Source](https://gn.googlesource.com/gn/)
+GN is a meta-build system that generates build files for Ninja.
 
-## [Bazel](https://www.bazel.build/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
+### [Bazel](https://www.bazel.build/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
 Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
 
 Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
 
-When designing Bazel, we focused on build speed, accuracy and reproducibility. This tool uses parallelism to accelerate parts of the build process. Includes Bazel Query language that can be used to analyze build dependencies in complex build graphs.[Ref]
+When designing Bazel, we focused on build speed, accuracy and reproducibility. This tool uses parallelism to accelerate parts of the build process. Includes Bazel Query language that can be used to analyze build dependencies in complex build graphs.
 
-## [Starlark Language](https://docs.bazel.build/versions/2.0.0/skylark/language.html) | [GitHub](https://github.com/bazelbuild/starlark)
+### [Starlark Language](https://docs.bazel.build/versions/2.0.0/skylark/language.html) | [GitHub](https://github.com/bazelbuild/starlark)
 Starlark (formerly known as Skylark) is a language intended for use as a configuration language. It was designed for the Bazel build system, but may be useful for other projects as well. This repository is where Starlark features are proposed, discussed, and specified. It contains information about the language, including the specification. There are multiple implementations of Starlark.
 
 Starlark is a dialect of Python. Like Python, it is a dynamically typed language with high-level data types, first-class functions with lexical scope, and garbage collection. Independent Starlark threads execute in parallel, so Starlark workloads scale well on parallel machines. Starlark is a small and simple language with a familiar and highly readable syntax. You can use it as an expressive notation for structured data, defining functions to eliminate repetition, or you can use it to add scripting capabilities to an existing application.
 
-A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.[Ref]
+A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.
+
+## Compiler
+### GCC (GNU C Compiler/GNU Compiler Collection) | [Homepage](https://gcc.gnu.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C)
+The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran, Ada, Go, and D, as well as libraries for these languages (libstdc++,...). GCC was originally written as the compiler for the GNU operating system. The GNU system was developed to be 100% free software, free in the sense that it respects the user's freedom.[Ref]
+
+GNU 컴파일러 모음(GNU Compiler Collection, 줄여서 GCC)는 GNU 프로젝트의 일환으로 개발되어 널리 쓰이고 있는 컴파일러이다.
+
+자유 소프트웨어 중에 가장 잘 알려진 것들 중 하나인 GCC는 원래 C만을 지원했던 컴파일러로 이름도 "GNU C 컴파일러"였다. 이러한 까닭에 현재에도 GCC는 GNU 컴파일러 모음의 일부인 GNU C 컴파일러(GNU C Compiler)의 줄임말로 쓰이기도 한다. 그러나 나중에 C++, 자바, 포트란, 에이다 등 여러 언어를 컴파일할 수 있게 되면서, 현재의 이름으로 바뀌게 되었다.[Ref]
+
+#### How to use GCC
+- `gcc`: compile C source code
+  -`gcc foo.c`
+- `g++`: compile C++ source code
+  -`g++ foo.cpp`
+- `-l` option: library linking
+  - without prefix `lib` and suffix `.a`(Linux static link library) or `.so`(Linux dynamic link library) or `.lib`(Windows static link library) or `.dll`(Windows dynamic link library)
+  - `-l library` or `-llibrary`
+- `-L` option: optional library directory
+  - defualt library directory: `/lib`, `/usr/lib`, and `/usr/local/lib`
+  - `-L /home/directory` or `-L/home/directory`
+  
+### LLVM (Low Level Virtual Machine) | [Homepage](https://llvm.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/LLVM)
+The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.[Ref]
+
+LLVM(이전 이름: Low Level Virtual Machine)은 컴파일러의 기반구조이다. 프로그램을 컴파일 타임, 링크 타임, 런타임 상황에서 프로그램의 작성 언어에 상관없이 최적화를 쉽게 구현할 수 있도록 구성되어 있다.
+
+LLVM은 원래는 저급 가상 기계(low-level virtual machine)의 약자를 가리켰지만, LLVM이 성장하고 다양한 목적을 가지게 되면서 현재는 그 이름을 약자로서 사용하는 것이 아니라 그냥 프로젝트의 이름으로서 사용하고 있다.
+
+LLVM의 핵심 코드는 'LLVM 라이선스'로 배포되며, 이것은 BSD 라이선스와 비슷한 속성을 가진다. 즉, LLVM을 사용한 프로그램을 배포하였을 때 해당 소스 코드를 공개/배포해야 하는 의무가 없다. 단 LLVM의 프론트엔드를 GNU 컴파일러 모음(GCC) 기반으로 사용할 경우 프론트엔드는 GPL로 배포한다. LLVM 프로젝트에서는 LLVM 라이선스를 가지는 프론트엔드를 위해, Clang이라는 프로젝트를 진행하고 있다.[Ref]
+
+### Clang: a C language family frontend for LLVM | [Homepage](https://clang.llvm.org/) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD)
+The Clang project provides a language front-end and tooling infrastructure for languages in the C language family (C, C++, Objective C/C++, OpenCL, CUDA, and RenderScript) for the LLVM project. Both a GCC-compatible compiler driver (clang) and an MSVC-compatible compiler driver (clang-cl.exe) are provided. You can get and build the source today.[Ref]
+
+클랭은 C, C++, 오브젝티브-C, 오브젝티브-C++ 프로그래밍 언어를 위한 컴파일러 프론트엔드이다. LLVM을 백엔드로 사용하며 LLVM 2.6 이후로 릴리즈의 일부로 자리잡았다.
+
+목표는 GNU 컴파일러 모음 (GCC)를 대체하는 것이다. 개발은 완전히 오픈 소스이며 구글, 애플 등 대형 소프트웨어 기업의 지원을 받고 있다. 소스는 일리노이 대학교/NCSA 오픈 소스 라이선스로 이용할 수 있다.
+
+클랭 프로젝트는 클랭 프론트엔드와 클랭 정적 분석기를 포함한다.
+
+### Object file `.o`
+- Executable object file
+  - 링크까지 끝나 실행이 가능한 파일이다.
+- Shared object file
+  - 동적 링크가 가능한 파일이다.
+- Relocatable object file
+  - 링크를 하지 않은 파일, 링커를 통해 재배치가 가능하다는 뜻이다.
+
+### Executable and Linking Format `.elf`
+UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오브젝트 파일을 나타낸다.
+
 
 #### Reference
 - Bazel, https://www.bazel.build/, 2020-07-16-Thu.
