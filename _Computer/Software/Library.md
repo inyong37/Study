@@ -84,17 +84,7 @@ In software engineering, a circular dependency is a relation between two or more
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.
 
 #### Reference
-- gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
-- Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
-- Object file, https://m.blog.naver.com/s2kiess/220058707917, 2020-08-07-Fri.
-- ELF, https://m.blog.naver.com/s2kiess/220064366133, 2020-08-07-Fri.
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
-- LLVM, https://llvm.org/, 2020-08-07-Fri.
-- LLVM Wiki Kor, https://ko.wikipedia.org/wiki/LLVM, 2020-08-07-Fri.
-- Clang, https://clang.llvm.org/, 2020-08-07-Fri.
-- Clang Wiki Kor, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD, 2020-08-07-Fri.
-- GCC, https://gcc.gnu.org/, 2020-08-07-Fri.
-- GCC Wiki Kor, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
 - Plug-in Wiki, https://en.wikipedia.org/wiki/Plug-in_(computing), 2020-07-21-Tue.
