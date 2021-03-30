@@ -97,3 +97,4 @@ Circular dependencies are natural in many domain models where certain objects of
 - Does circular dependecy really need?, http://hyper-cube.io/2018/03/30/circular_dependency/, 2020-08-13-Thu.
 - Dependency Analyzer Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220729875733&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-13-Thu.
 - Static Library Wiki, https://en.wikipedia.org/wiki/Static_library, 2021-03-29-Mon.
+- Beginner's Guide to Linkers, https://www.lurklurk.org/linkers/linkers.html#wincircular, 2021-03-30-Tue.
