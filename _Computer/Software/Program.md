@@ -129,6 +129,12 @@ OpenGL은 1992년 실리콘 그래픽스에서 만든 2차원 및 3차원 그래
 ### Interface | [Wiki (KR)](https://ko.wikipedia.org/wiki/인터페이스_(컴퓨팅))
 Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호를 주고 받는 경우의 접점이나 경계면이다. 즉, 사용자가 기기를 쉽게 동작시키는데 도움을 주는 시스템을 의미한다. 컴퓨팅에서 컴퓨터 시스템끼리 정보를 교환하는 공유 경계이다. 이러한 교환은 software, hardware, 주변기기, user 간에 이루어질 수 있으며, 서로 복합적으로 이루어질 수도 있다. 터치스크린과 같은 일부 컴퓨터 하드웨어 장치들은 interface를 통해 데이터를 송수신할 수 있으며 마우스나 마이크로폰과 같은 장치들은 오직 시스템에 데이터를 전송만 하는 interface를 제공한다.
 
+# Design Pattern
+
+### Factory Pattern
+
+### Observer Pattern
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
