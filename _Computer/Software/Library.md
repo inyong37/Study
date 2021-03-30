@@ -83,6 +83,8 @@ In software engineering, a circular dependency is a relation between two or more
 
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.
 
+Windows shared library 사용에는 Unix보다 엄격한 기준을 가지고 있다. Unix에서는 unresolved symbol을 포함한 shared library를 링크할 수 있다. 대신 다른 shard library에서 해당 symbol을 제공해줘야 한다. 그렇지 않으면 program 로드가 실패한다. Windows에서는 해당 경우를 허용하지 않는다.
+
 #### Reference
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
