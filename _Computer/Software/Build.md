@@ -158,3 +158,13 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - CMake functions, https://www.tuwlab.com/ece/27260, 2020-08-06-Thu.
 - Limit visibiliy using gnu/gcc version script, https://stackoverflow.com/questions/435352/limiting-visibility-of-symbols-when-linking-shared-libraries, 2020-08-06-Thu.
 - Build Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C, 2020-11-12-Thu.
+- gcc library option, https://nicewoong.github.io/development/2018/02/24/c-library-gcc-compile/, 2020-08-07-Fri.
+- Compile process, https://m.blog.naver.com/s2kiess/220058401829, 2020-08-07-Fri.
+- Object file, https://m.blog.naver.com/s2kiess/220058707917, 2020-08-07-Fri.
+- ELF, https://m.blog.naver.com/s2kiess/220064366133, 2020-08-07-Fri.
+- LLVM, https://llvm.org/, 2020-08-07-Fri.
+- LLVM Wiki Kor, https://ko.wikipedia.org/wiki/LLVM, 2020-08-07-Fri.
+- Clang, https://clang.llvm.org/, 2020-08-07-Fri.
+- Clang Wiki Kor, https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD, 2020-08-07-Fri.
+- GCC, https://gcc.gnu.org/, 2020-08-07-Fri.
+- GCC Wiki Kor, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
