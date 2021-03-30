@@ -106,3 +106,4 @@ Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대�
 - Dependency Analyzer Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=suresofttech&logNo=220729875733&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-08-13-Thu.
 - Static Library Wiki, https://en.wikipedia.org/wiki/Static_library, 2021-03-29-Mon.
 - Beginner's Guide to Linkers, https://www.lurklurk.org/linkers/linkers.html#wincircular, 2021-03-30-Tue.
+- CMake Cyclic Dependencies of Static Libraries, https://cmake.org/cmake/help/latest/command/target_link_libraries.html#cyclic-dependencies-of-static-libraries, 2021-03-30-Tue.
