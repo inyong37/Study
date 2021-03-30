@@ -46,6 +46,9 @@ Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에
 ### *Static Link Libray (.lib)*
 Windows의 정적 라이브러리로, 정적 링크로 컴파일 시점에 라이브러리가 링커에 의해 연결되어 실행 파일의 일부분이 된다.
 
+### *Export File (.exp)* | [MS Docs]
+Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
+
 ### *Universal Windows Platform (UWP) Application* | [MS Docs](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide)
 UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
 
@@ -85,3 +88,6 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - WPF MS Docs (Kor), https://docs.microsoft.com/ko-kr/visualstudio/designers/getting-started-with-wpf?view=vs-2019, 2020-09-18-Fri.
 - Wine, https://www.winehq.org/, 2021-03-29-Mon.
 - DLL Wiki, https://en.wikipedia.org/wiki/Dynamic-link_library, 2021-03-29-Mon.
+- EXP MS Docs, https://docs.microsoft.com/ko-kr/cpp/build/reference/dot-exp-files-as-linker-input?view=msvc-160, 2021-03-30-Tue.
+- Using an Import Library and Export File, https://docs.microsoft.com/en-us/cpp/build/reference/using-an-import-library-and-export-file?redirectedfrom=MSDN&view=msvc-160, 2021-03-30-Tue.
+- Working with Import Libraries and Export Files, https://docs.microsoft.com/ko-kr/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-03-30-Tue.
