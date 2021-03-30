@@ -85,6 +85,12 @@ Circular dependencies are natural in many domain models where certain objects of
 
 Windows shared library 사용에는 Unix보다 엄격한 기준을 가지고 있다. Unix에서는 unresolved symbol을 포함한 shared library를 링크할 수 있다. 대신 다른 shard library에서 해당 symbol을 제공해줘야 한다. 그렇지 않으면 program 로드가 실패한다. Windows에서는 해당 경우를 허용하지 않는다.
 
+많은 시스템에서는 이것은 문제가 되지 않는다. 실행 파일은 high-level 라이브러리들을 의존하고, high-level 라이브러리들은 low-level 라이브러리들에 의존하고, 링크는 반대 순서이다. low-level 라이브러리들, high-level 라이브러리들, 마지막으로 실행 파일을 링크한다.
+
+하지만 바이너리끼리 circular dependencies가 존재하면, 문제가 달라진다. 만약 X.DLL이 Y.DLL의 심볼을 필요로 하지만, Y.DLL 또한 X.DLL 심볼을 필요로 하면 chicken-and-egg 문제가 발생한다. 어떤 라이브버리를 먼저 링크해도 필요한 모든 심볼들을 찾을 수 없다.
+
+Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대해서 가짜로 링크를 한다. LIB.EXE를 사용해서 X.LIB을 만든다. 이는 LINK.EXE를 사용해서 만드는 파일과 같아 보이지만 X.EXP 파일은 생략되어 있다. 그리고 일반적인 방법과 같이 라이브러리 Y를 링크한다. X.LIB를 pull하고 Y.DLL, Y.LIB 파일이 생성된다. 마지막으로 X를 일반적인 방법으로 링크한다. 하지만 첫 단계와 다른 점은 추가로 X.EXP 파일을 포함한다. 이 링크를 통해 Y.LIB을 pull하고 X.DLL을 만들게 된다. 이 때 일반적일 때와 달리 이미 생성되어 있는 X.LIB 파일 생성을 생략하게 된다.
+
 #### Reference
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
