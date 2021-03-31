@@ -116,8 +116,8 @@ top (table of processes) is a task manager program found in many Unix-like opera
 ### *hostname*
 - How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
 
-### Command `$ nm`
-A command nm shows symbol list in an object file.
+### Show Symbolic Link, Command `$ nm`
+A command nm shows a list of symbolic links in object files.
 
 #### How to use command nm
 - Default
