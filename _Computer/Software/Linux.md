@@ -116,6 +116,17 @@ top (table of processes) is a task manager program found in many Unix-like opera
 ### *hostname*
 - How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
 
+### Command `$ nm`
+A command nm shows symbol list in an object file.
+
+#### How to use command nm
+```bash
+$nm foo.o
+          U _IO_getc
+00000000  Y main
+```
+
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
@@ -145,3 +156,4 @@ top (table of processes) is a task manager program found in many Unix-like opera
 - readelf Option Blog KR, https://devanix.tistory.com/186, 2020-08-12-Wed.
 - ln Blog KR, https://webdir.tistory.com/148, 2020-08-13-Thu.
 - Dependency Management, https://architecture101.blog/2008/12/07/dependency_managment/, 2020-08-13-Thu.
+- Command nm Blog KR, https://devanix.tistory.com/190, 2021-03-31-Wed.
