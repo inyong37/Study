@@ -67,6 +67,11 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 
 ### *HRESULT*
 
+### Show Symbolic link, Command `Get-ChildItem`
+#### How to use command `Get-ChildItem`
+`> Get-ChildItem -Path C:\ -Force -Recurse -ErrorAction 'silentlycontinue' | Where { $_.Attributes -match "ReparsePoint"}` in PowerShell
+
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
@@ -91,3 +96,4 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - EXP MS Docs, https://docs.microsoft.com/ko-kr/cpp/build/reference/dot-exp-files-as-linker-input?view=msvc-160, 2021-03-30-Tue.
 - Using an Import Library and Export File, https://docs.microsoft.com/en-us/cpp/build/reference/using-an-import-library-and-export-file?redirectedfrom=MSDN&view=msvc-160, 2021-03-30-Tue.
 - Working with Import Libraries and Export Files, https://docs.microsoft.com/ko-kr/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-03-30-Tue.
+- Command Get-ChildItem, https://superuser.com/questions/496092/view-a-list-of-symbolic-links-on-system, 2021-03-31-Wed.
