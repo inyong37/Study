@@ -140,6 +140,9 @@ The Clang project provides a language front-end and tooling infrastructure for l
 ### Executable and Linking Format `.elf`
 UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오브젝트 파일을 나타낸다.
 
+### Symbolic Link | [Wiki](https://en.wikipedia.org/wiki/Symbolic_link)
+A symbolic link (also symlink or soft link) is a term for any file that contains a reference to another file or directory in the form of an absolute or relative path and that affects pathname resolution. Symbolicn links were already present by 1978 in minicomputer operating systems from DEC and Data General's RDOS. Today they are supported by the POSIX operating system standard, most Unix-like operating systems such as FreeBSD, Linux, and macOS. Limited support also exists in Windows operating systems such as Windows Vista, Windows 7 and to some degree in Windows 2000 and Windows XP in the form of shortcut files.
+
 #### Reference
 - Bazel, https://www.bazel.build/, 2020-07-16-Thu.
 - Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
@@ -175,3 +178,4 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 - GCC, https://gcc.gnu.org/, 2020-08-07-Fri.
 - GCC Wiki KR, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
 - CMake Public vs. Private vs. Interface Blog, https://leimao.github.io/blog/CMake-Public-Private-Interface/, 2021-03-31-Wed.
+- Symbolic Link Wiki, https://en.wikipedia.org/wiki/Symbolic_link, 2021-03-31-Wed.
