@@ -17,6 +17,9 @@ As of February 2020, the most recent version of Windows for PCs, tablets and emb
 ## *MFC (Microsoft Foundation Class Library)* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
+## *Windows API (Win32, Win64)* | [Wiki](https://en.wikipedia.org/wiki/Windows_API)
+The Windows API (informally WinAPI) is Microsoft's core set of application programming interfaces (APIs) available in the Microsoft Windows operating systems. The name Windows API collectively refers to several different platform implementations that are often referred to by their own names (for example, Win32 API). Almost all Windows programs interact with the Windows API. On the Windows NT line of operating systems, a small number (such as programs started early in the Windows startup process) use the Native API. There are Win16, Win32, Win32s, Win64, and WinCE versions.
+
 ## *DWM (Desktop Window Manager)* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
 Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
 
@@ -110,3 +113,4 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Desktop Window Manager Wiki, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
 - Win32 API MS Docs, https://docs.microsoft.com/en-us/windows/win32/, 2021-03-31-Wed.
 - Win32, and Win64 Blog KR, https://m.blog.naver.com/tipsware/220919155847, 2021-03-31-Wed.
+- Windows API Wiki, https://en.wikipedia.org/wiki/Windows_API, 2021-03-31-Wed.
