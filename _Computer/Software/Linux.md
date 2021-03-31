@@ -120,12 +120,15 @@ top (table of processes) is a task manager program found in many Unix-like opera
 A command nm shows symbol list in an object file.
 
 #### How to use command nm
+- Default
 ```bash
-$nm foo.o
+$ nm foo.o
           U _IO_getc
 00000000  Y main
 ```
-
+- Options
+  - format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
+- Target acrchive file shows libraries as object files
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
