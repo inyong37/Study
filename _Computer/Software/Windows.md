@@ -14,7 +14,13 @@ As of February 2020, the most recent version of Windows for PCs, tablets and emb
 
 [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
-### *Microsoft Developer Network (MSDN)* | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
+## *MFC, Microsoft Foundation Class Library* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
+Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
+
+## *DWM, Desktop Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
+Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
+
+## *Microsoft Developer Network (MSDN)* | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
 Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
@@ -98,3 +104,5 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Working with Import Libraries and Export Files, https://docs.microsoft.com/ko-kr/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-03-30-Tue.
 - Command Get-ChildItem, https://superuser.com/questions/496092/view-a-list-of-symbolic-links-on-system, 2021-03-31-Wed.
 - Command dumpbin Blog KR, https://copynull.tistory.com/33, 20201-03-31-Wed.
+- MFC Wiki, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
+- Desktop Window Manager Wiki, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
