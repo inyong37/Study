@@ -39,6 +39,8 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
 - Using variable: `$var_name` or `${var_name}`
 - Make binary output: `ADD_EXECUTABLE()`
   - `ADD_EXECUTABLE(program.output main.cc foo.cc bar.cc)`
+- Add an executable to the project using the specified source files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_executable.html)
+  - `add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [source1] [source2 ...])`
 - Minimum version: `CMAKE_MINIMUM_REQUIRED()`
   - `CMAKE_MINIMUM_REQUIRED(VERSION "version_number")`
   - `CMAKE_MINIMUM_REQUIRED(VERSION 3.0)`
