@@ -108,3 +108,5 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Command dumpbin Blog KR, https://copynull.tistory.com/33, 20201-03-31-Wed.
 - MFC Wiki, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
 - Desktop Window Manager Wiki, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
+- Win32 API MS Docs, https://docs.microsoft.com/en-us/windows/win32/, 2021-03-31-Wed.
+- Win32, and Win64 Blog KR, https://m.blog.naver.com/tipsware/220919155847, 2021-03-31-Wed.
