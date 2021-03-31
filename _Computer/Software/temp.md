@@ -83,17 +83,11 @@ A tiling window manager is a window manager with an organizztion of the screen i
 ### *Compositing* | [Wiki](https://en.wikipedia.org/wiki/Compositing)
 Compositing is the process or technique of combining visual elements from separate sources into the single images, often to create the illusion that all those elements are parts of the same scene. Live-action shooting for compositing is variously called chroma key, blue screen, green screen and other names.
 
-### *DWM, Desktop Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
-Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
-
 ### *X11, X Window System* | [Wiki](https://en.wikipedia.org/wiki/X_Window_System)
 The X Window System (X11, or simply X) is a windowing system for bitmap displays, common on Unix-like operating systems. X provides the basic framework for a GUI environment: drawing and moving windows on the display device and interacting with a mouse and keyboard. X does note mandate the user interface - this is handled by individual programs. X originated as part of Project Athena at MIT in 1984. The X protocol has been at version 11 (hence X11) since September 1987. The X.Org Foundation leads the X project, with the current reference implementation, X.Org Server, available as free and open-source software under the MIT License and similar permissive licenses.
 
 ### *OpenBSD* | [Wiki](https://en.wikipedia.org/wiki/OpenBSD)
 OpenBSD is a security-focused, free and open-source, Unix-like operating system based on the Berkeley Software Distribution(BSD). Theo de Raadt created OpenBSD in 1996 by forking NetBSD. OpenBSD project emphasizes portabiliy, standardization, correctness, proactive security and integrated cryptography.
-
-### *MFC, Microsoft Foundation Class Library* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
-Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
 ### *Rendering* | [Wiki](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
 Rendering or image synthesis is the process of generating a photorealistic or non-photorealistic image from a 2D or 3D model by means of a computer program. The resulting image is referred to as the render. Multiple models can be defined in a scene file containing objects in a strictly defined language or data structure. The scene file contains geometry, viewpoint, texture, lighting, and shading information describing the virtual scene. The data contained in the scene file is then passed to a rendering program to be processed and output to a digital image or raster graphics image file. The term rendering is analogous to the concept of an artist's impression of a scene. The term rendering is also used to describe the process of calculating effects in a video editing program to produce the final video output.
@@ -127,10 +121,8 @@ Skia is an open source 2D graphics library which provides common APIs that work 
 - Compositing Window Manager Wiki, https://en.wikipedia.org/wiki/Compositing_window_manager, 2021-03-26-Fri.
 - Tiling Window Manager Wiki, https://en.wikipedia.org/wiki/Tiling_window_manager, 2021-03-26-Fri.
 - Compositing Wiki, https://en.wikipedia.org/wiki/Compositing, 2021-03-26-Fri.
-- Desktop Window Manager Wiki, https://en.wikipedia.org/wiki/Desktop_Window_Manager, 2021-03-26-Fri.
 - X Window System Wiki, https://en.wikipedia.org/wiki/X_Window_System, 2021-03-26-Fri.
 - OpenBSD Wiki, https://en.wikipedia.org/wiki/OpenBSD, 2021-03-26-Fri.
-- MFC Wiki, https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library, 2021-03-26-Fri.
 - Rendering Wiki, https://en.wikipedia.org/wiki/Rendering_(computer_graphics), 2021-03-26-Fri.
 - Compound Document Wik, https://en.wikipedia.org/wiki/Compound_document, 2021-03-26-Fri.
 - Compound-based Software Engineering Wiki, https://en.wikipedia.org/wiki/Component-based_software_engineering, 2021-03-26-Fri.
