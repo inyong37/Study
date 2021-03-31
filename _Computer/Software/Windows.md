@@ -67,9 +67,9 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 
 ### *HRESULT*
 
-### Show Symbolic link, Command `Get-ChildItem`
-#### How to use command `Get-ChildItem`
-`> Get-ChildItem -Path C:\ -Force -Recurse -ErrorAction 'silentlycontinue' | Where { $_.Attributes -match "ReparsePoint"}` in PowerShell
+### Show Symbolic link, Command `dumpbin`
+#### How to use command `dumpbin`
+`> dumpbin /exports foo.dll` in Command Prompt for VS
 
 
 #### Reference
@@ -97,3 +97,4 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Using an Import Library and Export File, https://docs.microsoft.com/en-us/cpp/build/reference/using-an-import-library-and-export-file?redirectedfrom=MSDN&view=msvc-160, 2021-03-30-Tue.
 - Working with Import Libraries and Export Files, https://docs.microsoft.com/ko-kr/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-03-30-Tue.
 - Command Get-ChildItem, https://superuser.com/questions/496092/view-a-list-of-symbolic-links-on-system, 2021-03-31-Wed.
+- Command dumpbin Blog KR, https://copynull.tistory.com/33, 20201-03-31-Wed.
