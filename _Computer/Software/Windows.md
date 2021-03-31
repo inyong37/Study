@@ -14,10 +14,10 @@ As of February 2020, the most recent version of Windows for PCs, tablets and emb
 
 [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
-## *MFC, Microsoft Foundation Class Library* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
+## *MFC (Microsoft Foundation Class Library)* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
-## *DWM, Desktop Window Manager* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
+## *DWM (Desktop Window Manager)* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
 Desktop Window Manager(DWM, previsouly Desktop Compositing Engine, DCE) is the window manager in Windows Vista, Windows 7, Windows 8 and Windows 10 that enables the use of hardware accleration to render the graphical user interface of Windows. DWM is a compositing window manager that each program has a buffere that it writes data to; DWM then composites each program's buffer into a final image. The stacking window manager in Windows XP and earlier comprises a single display buffer to which all programs write.
 
 ## *Microsoft Developer Network (MSDN)* | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
@@ -72,6 +72,8 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
 
 ### *HRESULT*
+
+### *HWND*
 
 ### Show Symbolic link, Command `dumpbin`
 #### How to use command `dumpbin`
