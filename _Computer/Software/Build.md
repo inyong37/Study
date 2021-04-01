@@ -32,6 +32,8 @@ Make gets its knowledge of how to build your program from a file called the make
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
 
 #### How to use CMake
+Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 내용은 현재와 하위 디렉토리의 CMakeLists.txt에만 적용된다. 상위, 동일 레벨 CMakeLists.txt에는 적용되지 않는다. Boolean type은 if()로 구분할 수 있고, 다른 비교는 STREQUAL (string equal)을 사용한다. `if(foo is true)` or `if(foo)` (Python) is same as `if(${FOO} STREQUAL "ture")` or `if(${FOO})` in CMake.
+
 - Conditional statements: `if()`, `elseif()`, `else()`, `endif()`
 - Variable declarartion/definition: `SET()`
   - `SET(var_name "value")`
@@ -62,6 +64,7 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
   - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
 - Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
   - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
+
 #### Options
 - Explicitly specify a source directory: `-S <path-to-source>`
 - Explicitly specify a build directory: `-B <path-to-build>`
@@ -103,7 +106,7 @@ The GNU Compiler Collection includes front ends for C, C++, Objective-C, Fortran
 
 GNU 컴파일러 모음(GNU Compiler Collection, 줄여서 GCC)는 GNU 프로젝트의 일환으로 개발되어 널리 쓰이고 있는 컴파일러이다.
 
-자유 소프트웨어 중에 가장 잘 알려진 것들 중 하나인 GCC는 원래 C만을 지원했던 컴파일러로 이름도 "GNU C 컴파일러"였다. 이러한 까닭에 현재에도 GCC는 GNU 컴파일러 모음의 일부인 GNU C 컴파일러(GNU C Compiler)의 줄임말로 쓰이기도 한다. 그러나 나중에 C++, 자바, 포트란, 에이다 등 여러 언어를 컴파일할 수 있게 되면서, 현재의 이름으로 바뀌게 되었다.[Ref]
+자유 소프트웨어 중에 가장 잘 알려진 것들 중 하나인 GCC는 원래 C만을 지원했던 컴파일러로 이름도 "GNU C 컴파일러"였다. 이러한 까닭에 현재에도 GCC는 GNU 컴파일러 모음의 일부인 GNU C 컴파일러(GNU C Compiler)의 줄임말로 쓰이기도 한다. 그러나 나중에 C++, 자바, 포트란, 에이다 등 여러 언어를 컴파일할 수 있게 되면서, 현재의 이름으로 바뀌게 되었다.
 
 #### How to use GCC
 - `gcc`: compile C source code
@@ -185,3 +188,4 @@ A symbolic link (also symlink or soft link) is a term for any file that contains
 - GCC Wiki KR, https://ko.wikipedia.org/wiki/GNU_%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC_%EB%AA%A8%EC%9D%8C, 2020-08-07-Fri.
 - CMake Public vs. Private vs. Interface Blog, https://leimao.github.io/blog/CMake-Public-Private-Interface/, 2021-03-31-Wed.
 - Symbolic Link Wiki, https://en.wikipedia.org/wiki/Symbolic_link, 2021-03-31-Wed.
+- CMake Blog KR, https://tttsss77.tistory.com/194, 2021-04-01-Thu.
