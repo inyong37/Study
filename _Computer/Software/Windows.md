@@ -180,3 +180,4 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 - Compile C++ in CLI command cl, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
 - Command move, https://www.computerhope.com/issues/ch001476.htm, 2021-04-01-Thu.
 - /EH option, https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160, 2021-04-01-Thu.
+- Linking lib or dll, https://docs.microsoft.com/en-us/cpp/build/reference/dot-lib-files-as-linker-input?view=msvc-160, 2021-04-01-Thu.
