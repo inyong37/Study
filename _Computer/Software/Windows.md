@@ -81,8 +81,7 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 ### Find Files, Command dir
 #### How to use command dir
 - Show files in a folder: `> dir`
-- Find foo files in under current directory: `dir /s . *.foo`
-- Find foo files in current directory: `dir /s *.foo`
+- Find foo files in current directory: `> dir /s *.foo`
 
 ### Show Symbolic link, Command `dumpbin`
 #### How to use command dumpbin
