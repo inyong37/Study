@@ -145,6 +145,9 @@ The Clang project provides a language front-end and tooling infrastructure for l
 
 클랭 프로젝트는 클랭 프론트엔드와 클랭 정적 분석기를 포함한다.
 
+#### Clang-cl | [Clang 12 Document](https://clang.llvm.org/docs/MSVCCompatibility.html)
+When Clang compiles C++ code for Windows, it attempts to be compatible with MSVC. Clang-cl is a driver program for clang that attempts to be compatible with MSVC's cl.exe.
+
 ### Object file `.o`
 - Executable object file
   - 링크까지 끝나 실행이 가능한 파일이다.
@@ -201,3 +204,4 @@ A symbolic link (also symlink or soft link) is a term for any file that contains
 - C/C++ Link in Windows MS Docs, https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160, 2021-04-01-Thu.
 - Microsoft Visual C++ Wiki, https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B, 2021-04-01-Thu.
 - Microsoft Visual C++, https://docs.microsoft.com/en-us/cpp/?view=msvc-160, 2021-04-01-Thu.
+- Clang 12 Document, https://clang.llvm.org/docs/MSVCCompatibility.html, 2021-04-01-Thu.
