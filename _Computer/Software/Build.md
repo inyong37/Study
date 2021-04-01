@@ -62,6 +62,12 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
   - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
 - Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
   - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
+#### Options
+- Explicitly specify a source directory: `-S <path-to-source>`
+- Explicitly specify a build directory: `-B <path-to-build>`
+- Create or update a cmake cache entry: `-D <var>[:<type>]=<value>`
+- Specify a build system generator: `-G <generator-name>`
+- Specify platform name if supported by generator: `-A <platform-name>`
 
 #### CMake Public | Private | Interface
 CMake uses somewhat similar inferitance concepts to C++, especially for the C++ public, and private access specifiers and inheritance types.
