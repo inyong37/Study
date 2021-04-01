@@ -74,6 +74,8 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 ### *Wine (Wine is not a emulator)* | [Homepage](https://www.winehq.org/)
 Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
 
+### Compile a C Program on the command line | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
+
 ### *HRESULT*
 
 ### *HWND*
@@ -124,3 +126,4 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Windows API Wiki, https://en.wikipedia.org/wiki/Windows_API, 2021-03-31-Wed.
 - Command find Blog KR, https://realforce111.tistory.com/10, 2021-04-01-Thu.
 - Command dir Blog KR, http://mwultong.blogspot.com/2006/10/file-find-command.html, 2021-04-01-Thu.
+- Compile C in CLI, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
