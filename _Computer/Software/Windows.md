@@ -110,8 +110,8 @@ hello.obj
   - output: foo.exe and foo.obj
   - run: `> foo` or `> foo.exe`
 
-#### /EH (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
-The /EHsc command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks.
+### /EH (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
+The /EHsc command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks. Full compiler support for the Standard C++ exception handling model that safely unwinds stack objects requires /EHsc (recommended), /EHs, or /EHa.
 
 ### *HRESULT*
 
