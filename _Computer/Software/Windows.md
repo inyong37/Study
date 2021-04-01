@@ -74,7 +74,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 ### *Wine (Wine is not a emulator)* | [Homepage](https://www.winehq.org/)
 Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
 
-### Compile a C Program on the command line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
+### Compile a C Program on the Command Line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
 ```CMD
 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.27.29111(x64)
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -92,6 +92,9 @@ simple.obj
   - run: `> foo.exe`
 - Compile several source codes to bar.exe: `> cl foo1.c foo2c. foo3.c /link /out:bar.exe`, can add warning level option with: `> cl /W4 ...`
 - --help: `> cl /?`
+
+### Compile a Native C++ Program on the Command Line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160)
+
 
 ### *HRESULT*
 
@@ -116,6 +119,8 @@ simple.obj
 #### How to use command del
 - --help: `> del /?`
 - Delete foo.c: `> del foo.c`
+
+### Move a file, Command `move`
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
@@ -151,4 +156,6 @@ simple.obj
 - Command find Blog KR, https://realforce111.tistory.com/10, 2021-04-01-Thu.
 - Command dir Blog KR, http://mwultong.blogspot.com/2006/10/file-find-command.html, 2021-04-01-Thu.
 - Compile C in CLI command cl, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
-- Coommand del Blog,https://www.freecodecamp.org/news/cmd-delete-folder-how-to-remove-files-and-folders-in-windows/, 2021-04-01-Thu.
+- Command del Blog,https://www.freecodecamp.org/news/cmd-delete-folder-how-to-remove-files-and-folders-in-windows/, 2021-04-01-Thu.
+- Compile C++ in CLI command cl, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
+- Command move, https://www.computerhope.com/issues/ch001476.htm, 2021-04-01-Thu.
