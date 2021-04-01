@@ -36,7 +36,7 @@ Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files 
 
 마이크로소프트 윈도는 .lnk를 파일 확장자로 사용하며, 아이콘에 굽은 화살표 모양을 기본으로 보여 준다. 이 확장자는 폴더 옵션의 "알려진 파일 형식의 파일 확장명 숨기기"에 체크를 없애도 윈도 탐색기에서는 보이지 않는다.
 
-### *EXE (.exe)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/EXE)
+## *EXE (.exe)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/EXE)
 EXE는 일반적인 파일 확장자로 컴퓨터 프로그램의 실행 파일을 가리킨다. 오픈VMS, 도스, 마이크로소프트 윈도우, 리엑트오에스, OS/2 운영 체제에서 사용할 수 있다.
 
 실행 프로그램 자체뿐 아니라, 많은 EXE 파일들은 비트맵, 실행 프로그램이 그래픽 사용자 인터페이스를 사용하는, 아이콘과 같은 리소스라고 불리는 다른 구성 요소들을 포함할 수 있다.
@@ -74,7 +74,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 ### *Wine (Wine is not a emulator)* | [Homepage](https://www.winehq.org/)
 Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
 
-### Compile a C Program on the command line | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
+### Compile a C Program on the command line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
 ```CMD
 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.27.29111(x64)
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -84,8 +84,14 @@ Microsoft (R) Incremental Linker Version 14.27.29111.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:simple.exe
-simple.ob
+simple.obj
 ```
+#### How to use command cl
+- Compile foo.c: `> cl foo.c`
+  - output: foo.exe and foo.obj
+  - run: `> foo.exe`
+- Compile several source codes to bar.exe: `> cl foo1.c foo2c. foo3.c /link /out:bar.exe`, can add warning level option with: `> cl /W4 ...`
+- Show guide of command cl: `> cl /?`
 
 ### *HRESULT*
 
