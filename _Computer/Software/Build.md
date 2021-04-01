@@ -100,7 +100,7 @@ Starlark is a dialect of Python. Like Python, it is a dynamically typed language
 
 A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.
 
-### Microsoft Visual C++ (MSVC) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
+### Microsoft Visual C++ (MSVC) | [MS Docs](https://docs.microsoft.com/en-us/cpp/?view=msvc-160) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
 Microsoft Visual C++ (MSVC) is a compiler for the C, C++, and C++/CLI programming languages by Microsoft. MSVC is proprietary software; it was originally a standalone product but later become a part of Visual Studio and made available in both trialware and freeware forms. It features tools for developing and debugging C++ code, expecially code written for the Windows API, DirectX and .NET.
 
 #### C/C++ Build in Windows | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/c-cpp-building-reference?view=msvc-160)
@@ -200,3 +200,4 @@ A symbolic link (also symlink or soft link) is a term for any file that contains
 - C/C++ Compile in Windows MS Docs, https://docs.microsoft.com/en-us/cpp/build/reference/compiling-a-c-cpp-program?view=msvc-160, 2021-04-01-Thu.
 - C/C++ Link in Windows MS Docs, https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160, 2021-04-01-Thu.
 - Microsoft Visual C++ Wiki, https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B, 2021-04-01-Thu.
+- Microsoft Visual C++, https://docs.microsoft.com/en-us/cpp/?view=msvc-160, 2021-04-01-Thu.
