@@ -137,7 +137,7 @@ LLVM은 원래는 저급 가상 기계(low-level virtual machine)의 약자를 �
 LLVM의 핵심 코드는 'LLVM 라이선스'로 배포되며, 이것은 BSD 라이선스와 비슷한 속성을 가진다. 즉, LLVM을 사용한 프로그램을 배포하였을 때 해당 소스 코드를 공개/배포해야 하는 의무가 없다. 단 LLVM의 프론트엔드를 GNU 컴파일러 모음(GCC) 기반으로 사용할 경우 프론트엔드는 GPL로 배포한다. LLVM 프로젝트에서는 LLVM 라이선스를 가지는 프론트엔드를 위해, Clang이라는 프로젝트를 진행하고 있다.
 
 ### *Clang (a C language family frontend for LLVM)* | [Homepage](https://clang.llvm.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%81%B4%EB%9E%AD)
-The Clang project provides a language front-end and tooling infrastructure for languages in the C language family (C, C++, Objective C/C++, OpenCL, CUDA, and RenderScript) for the LLVM project. Both a GCC-compatible compiler driver (clang) and an MSVC-compatible compiler driver (clang-cl.exe) are provided. You can get and build the source today.
+The Clang project provides a language front-end and tooling infrastructure for languages in the C language family (C, C++, Objective C/C++, OpenCL, CUDA, and RenderScript) for the LLVM project. Both a GCC-compatible compiler driver (clang) and an MSVC-compatible compiler driver (clang-cl.exe) are provided.
 
 클랭은 C, C++, 오브젝티브-C, 오브젝티브-C++ 프로그래밍 언어를 위한 컴파일러 프론트엔드이다. LLVM을 백엔드로 사용하며 LLVM 2.6 이후로 릴리즈의 일부로 자리잡았다.
 
