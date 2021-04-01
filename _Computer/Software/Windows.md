@@ -91,7 +91,7 @@ simple.obj
   - output: foo.exe and foo.obj
   - run: `> foo.exe`
 - Compile several source codes to bar.exe: `> cl foo1.c foo2c. foo3.c /link /out:bar.exe`, can add warning level option with: `> cl /W4 ...`
-- Show guide of command cl: `> cl /?`
+- --help: `> cl /?`
 
 ### *HRESULT*
 
@@ -101,14 +101,21 @@ simple.obj
 #### How to use command dir
 - Show files in a folder: `> dir`
 - Find foo files in current directory: `> dir /s *.foo`
+- --help: `> dir /?`
 
 ### Show Symbolic link, Command `dumpbin`
 #### How to use command dumpbin
 - Show symbolic links in a file: `> dumpbin /exports foo.dll` in Command Prompt for VS
+- --help: `> dumpbin /?`
 
 ### Find String in Files, Command `find`
 #### How to use command find
-- Show guide for command find: `> find /?`
+- --help: `> find /?`
+
+### Delete files, Command `del`
+#### How to use command del
+- --help: `> del /?`
+- Delete foo.c: `> del foo.c`
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
@@ -143,4 +150,5 @@ simple.obj
 - Windows API Wiki, https://en.wikipedia.org/wiki/Windows_API, 2021-03-31-Wed.
 - Command find Blog KR, https://realforce111.tistory.com/10, 2021-04-01-Thu.
 - Command dir Blog KR, http://mwultong.blogspot.com/2006/10/file-find-command.html, 2021-04-01-Thu.
-- Compile C in CLI, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
+- Compile C in CLI command cl, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
+- Coommand del Blog,https://www.freecodecamp.org/news/cmd-delete-folder-how-to-remove-files-and-folders-in-windows/, 2021-04-01-Thu.
