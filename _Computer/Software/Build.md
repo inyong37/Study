@@ -1,7 +1,7 @@
 # *Build* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C)
 Build는 소스 코드 파일을 컴퓨터나 휴대폰에서 실행할 수 있는 독립(standalone) 소프트웨어 가공물로 변환하는 과정을 말하거나 그에 대한 결과물을 일컫는다. 빌드에 있어 가장 중요한 단계들 가운데 하나는 소스 코드 파일이 실행 코드로 변환되는 컴파일 과정이다. 컴퓨터 프로그램을 빌드하는 과정은 보통 다른 프로그램을 제어하는 프로그램인 빌드 도구에 의해 관리된다.
 
-## Build Process (GCC)
+## *Build Process (ex. GCC)*
 1. Preprocessing
 - foo.c -> foo.i
 - Preprocessor(전처리기, cpp0)가 `#`에 대한 처리를 한다. `#include`의 라이브러리를 불러오는 역할도 한다.
@@ -18,7 +18,7 @@ Build는 소스 코드 파일을 컴퓨터나 휴대폰에서 실행할 수 있�
 - foo.o -> foo (elf, exe)
 - Linker(링커, ld)가 a, so 라이브러리와 연결시켜 실행(executable) 파일을 만든다.
 
-## Build Tool/System
+## *Build Tool/System*
 :bulb: Make는 UNIX에서 주로 사용되는 프로그램 빌드 도구이다. 파일들끼리의 의존성과 각 파일에 필요한 명령을 정의하여 프로그램을 컴파일할 수 있으며 프로그램을 만들 수 있다. Makefile을 해석해서 빌드한다. CMake는 멀티 플랫폼에서 사용할 수 있는 Make로 오픈소스 프로젝트로 키트웨어와 인사이트 콘솔티엄에서 만들었다. Meta Make로 Make를 수행하지 않고 지정한 운영체제에 맞는 Make/Solution 파일을 생성한다. Ninja는 속도에 중점을 둔 소형 빌드 시스템이다. GYP는 빌드 자동화 도구이며 python으로 작성된 메타 빌드 시스템이다. Google이 Chromium 브라우저를 빌드할 때 OS에 의존하는 IDE의 프로젝트 파일을 생성하기 위해 만들어진 오픈 소스 소프트웨어다. GN은 Ninja로 응용프로그램 프로젝트를 구축할 수 있도록 Ninja 빌드 파일을 생성하는 메타 빌드 시스템이다. Chromium 빌드가 GYP에서 GN으로 전환되었다.
 
 :bulb: TensorFlow는 third party 빌드로 bazel와 starlark를 사용한다. OpenCV는 3rdparty 빌드로 CMake와  cpp, h를 사용한다. PyTorch는 third party 빌드로 bazel과 submodule을 사용한다. Caffe는 빌드로 CMake와 docker를 사용한다. Keras는 python으로 `PyPI(pip)`, 또는 직접 소스에서 `(sudo) python setup.py install`한다. 
