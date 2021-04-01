@@ -82,6 +82,9 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 #### How to use command `dumpbin`
 `> dumpbin /exports foo.dll` in Command Prompt for VS
 
+### Find String in Files, Command `find`
+#### How to use command `find`
+`> find /?`
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
@@ -114,3 +117,4 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 - Win32 API MS Docs, https://docs.microsoft.com/en-us/windows/win32/, 2021-03-31-Wed.
 - Win32, and Win64 Blog KR, https://m.blog.naver.com/tipsware/220919155847, 2021-03-31-Wed.
 - Windows API Wiki, https://en.wikipedia.org/wiki/Windows_API, 2021-03-31-Wed.
+- Command find Blog KR, https://realforce111.tistory.com/10, 2021-04-01-Thu.
