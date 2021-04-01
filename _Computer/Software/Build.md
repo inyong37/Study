@@ -87,7 +87,7 @@ GYP is intended to support large projects that need to be built on multiple plat
 GN is a meta-build system that generates build files for Ninja.
 
 ### *Bazel* | [Homepage](https://www.bazel.build/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)) | [GitHub](https://github.com/bazelbuild/bazel)
-Basel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
+Bazel is an open source tool that enables software build and test automation. Google used and built Blaze, a build tool internally, and released and released part of the Blaze tool with Bazel, named Blaze's anagram. Bazel was first released in March 2015 and was beta tested until September 2015.
 
 Similar to build tools like Make, Apache Ant, or Apache Maven, Bazel uses a set of rules to build application software from source code. Rules and macros are written in the Skylark language, a subset of Python. There are basic rules for writing software written in Java, C, C++, Python, Objective-C and Bourne shell script programming languages. Bazel can create application software packages suitable for distribution for Android and iOS operating systems.
 
@@ -100,7 +100,7 @@ Starlark is a dialect of Python. Like Python, it is a dynamically typed language
 
 A Starlark interpreter is typically embedded within a larger application, and the application may define additional domain-specific functions and data types beyond those provided by the core language. For example, Starlark was originally developed for the Bazel build tool. Bazel uses Starlark as the notation both for its BUILD files (like Makefiles, these declare the executables, libraries, and tests in a directory) and for its macro language, through which Bazel is extended with custom logic to support new languages and compilers.
 
-### Microsoft Visual C++ (MSVC) | [MS Docs](https://docs.microsoft.com/en-us/cpp/?view=msvc-160) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
+### *Microsoft Visual C++ (MSVC)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/?view=msvc-160) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B)
 Microsoft Visual C++ (MSVC) is a compiler for the C, C++, and C++/CLI programming languages by Microsoft. MSVC is proprietary software; it was originally a standalone product but later become a part of Visual Studio and made available in both trialware and freeware forms. It features tools for developing and debugging C++ code, expecially code written for the Windows API, DirectX and .NET.
 
 #### C/C++ Build in Windows | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/c-cpp-building-reference?view=msvc-160)
