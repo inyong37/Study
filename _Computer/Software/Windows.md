@@ -86,10 +86,10 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /out:simple.exe
 simple.obj
 ```
-#### How to use command cl
+#### How to use command cl with C
 - Compile foo.c: `> cl foo.c`
   - output: foo.exe and foo.obj
-  - run: `> foo.exe`
+  - run: `> foo` or `> foo.exe`
 - Compile several source codes to bar.exe: `> cl foo1.c foo2c. foo3.c /link /out:bar.exe`, can add warning level option with: `> cl /W4 ...`
 - --help: `> cl /?`
 
@@ -105,6 +105,13 @@ Copyright (C) Microsoft Corporation.  All rights reserved.
 /out:hello.exe
 hello.obj
 ```
+#### How to use command cl with C++
+- Compile foo.cpp: `> cl /EHsc foo.cpp`
+  - output: foo.exe and foo.obj
+  - run: `> foo` or `> foo.exe`
+
+#### /EH (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
+The /EHsc command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks.
 
 ### *HRESULT*
 
@@ -172,3 +179,4 @@ hello.obj
 - Command del Blog,https://www.freecodecamp.org/news/cmd-delete-folder-how-to-remove-files-and-folders-in-windows/, 2021-04-01-Thu.
 - Compile C++ in CLI command cl, https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160, 2021-04-01-Thu.
 - Command move, https://www.computerhope.com/issues/ch001476.htm, 2021-04-01-Thu.
+- /EH option, https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160, 2021-04-01-Thu.
