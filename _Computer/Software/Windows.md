@@ -113,6 +113,11 @@ hello.obj
 ### /EH (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
 The /EHsc command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks. Full compiler support for the Standard C++ exception handling model that safely unwinds stack objects requires /EHsc (recommended), /EHs, or /EHa.
 
+### Link
+- Make/Compile a dll file with foo.c: `> cl /LD foo.c`
+  - output: foo.dll, foo.lib, foo.exp, foo.obj
+- Link a foo.dll to bar.exe
+
 ### *HRESULT*
 
 ### *HWND*
@@ -181,3 +186,4 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 - Command move, https://www.computerhope.com/issues/ch001476.htm, 2021-04-01-Thu.
 - /EH option, https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160, 2021-04-01-Thu.
 - Linking lib or dll, https://docs.microsoft.com/en-us/cpp/build/reference/dot-lib-files-as-linker-input?view=msvc-160, 2021-04-01-Thu.
+- Biuld dll, https://stackoverflow.com/questions/1130479/how-to-build-a-dll-from-the-command-line-in-windows-using-msvc, 2021-04-01-Thu.
