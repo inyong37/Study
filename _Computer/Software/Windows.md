@@ -121,6 +121,9 @@ simple.obj
 - Delete foo.c: `> del foo.c`
 
 ### Move a file, Command `move`
+#### How to use command move
+- --help: `> move /?`
+- Move file foo.c under folder bar: `> move foo.c bar/`
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
