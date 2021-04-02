@@ -1,4 +1,4 @@
-# Chapter 02. The Limitations of Deep Learning
+# Chapter 02 딥러닝의 한계
 ## :star: 01 Deep Learning and Data
 딥러닝과 데이터의 관계
 
