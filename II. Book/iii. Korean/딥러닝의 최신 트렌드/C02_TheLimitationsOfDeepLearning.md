@@ -1,4 +1,4 @@
-# Chapter 02. The Limitations of Deep Learning :deciduous_tree:
+# Chapter 02. The Limitations of Deep Learning
 ## :star: 01 Deep Learning and Data
 딥러닝과 데이터의 관계
 
