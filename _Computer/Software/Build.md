@@ -162,6 +162,9 @@ UNIX, Linux 환경에서 실행하는 프로그램의 바이너리 파일, 오�
 ### Symbolic Link | [Wiki](https://en.wikipedia.org/wiki/Symbolic_link)
 A symbolic link (also symlink or soft link) is a term for any file that contains a reference to another file or directory in the form of an absolute or relative path and that affects pathname resolution. Symbolicn links were already present by 1978 in minicomputer operating systems from DEC and Data General's RDOS. Today they are supported by the POSIX operating system standard, most Unix-like operating systems such as FreeBSD, Linux, and macOS. Limited support also exists in Windows operating systems such as Windows Vista, Windows 7 and to some degree in Windows 2000 and Windows XP in the form of shortcut files.
 
+### Using `extern "C"` Keyword in C++
+C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수정하기 때문에 function의 이름이 그대로 유지되게 하려면 해당 function을 C 언어 방식으로 compile해야 한다. 따라서 선언된 해당 function 앞에 `extern "C"` keyword를 적어서 해당 function가 C 방식으로 compile 되게 한다.
+
 #### Reference
 - Bazel, https://www.bazel.build/, 2020-07-16-Thu.
 - Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
