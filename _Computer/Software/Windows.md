@@ -132,7 +132,7 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 
 ### *HWND*
 
-### LIB.exe | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160)
+### LIB | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160)
 The Microsoft Library Manager (LIB.exe) creates and managers a library of Comman Object File Format (COFF) object files. LIB can also be used to create export files and import libraries to reference exporte definitions.
 
 ### Find Files, Command `dir`
@@ -140,6 +140,9 @@ The Microsoft Library Manager (LIB.exe) creates and managers a library of Comman
 - Show files in a folder: `> dir`
 - Find foo files in current directory: `> dir /s *.foo`
 - --help: `> dir /?`
+
+### DUMPBIN | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160)
+The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about Common Object File Format (COFF) binary files. DUMPBIN can be used to examine COFF object files, standard libraries of COFF objects, executable files, and dynamic-link libraries (DLLs).
 
 ### Show Symbolic link, Command `dumpbin`
 #### How to use command dumpbin
@@ -207,4 +210,5 @@ The Microsoft Library Manager (LIB.exe) creates and managers a library of Comman
 - How to import DLL in MSVC Blog KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
 - How to use DLL in MSVC Blog KR, https://blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221359282016&parentCategoryNo=&categoryNo=83&viewDate=&isShowPopularPosts=true&from=search, 2021-04-02-Fri.
 - How to use LIB in MSVC Blog KR, https://scripter.co.kr/294, 2021-04-02-Fri.
-- LIB.exe, https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160, 2021-04-02-Fri.
+- LIB, https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160, 2021-04-02-Fri.
+- DUMPBIN, https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160, 2021-04-02-Fri.
