@@ -76,7 +76,7 @@
 
 어텐션 메커니즘의 예시
 
-## :star: The 3 best scholars in deep learning
+## :bulb: The 3 best scholars in deep learning
 토론토 대학교 제프리 힌튼 교수: Backpropagation, Deep Belief Network
 
 뉴욕 대학교 얀 르쿤 교수: CNN, LeNet
