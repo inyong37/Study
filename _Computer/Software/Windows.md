@@ -65,7 +65,7 @@ A LIB file contains a library of information used by a specific program. It may 
 ### *How to import LIB in MSVC* | [Blog (KR)](https://scripter.co.kr/294)
 Visual Studio를 사용하는 경우, lib을 사용 (외부 라이브러리 import) 하기 위해서는 "Linker>General>Additional Library Directories"에 lib 파일의 경로를 입력하고, "Linker>Input>Additional Dependencies"에 lib 파일의 이름을 입력하고, "C/C++>General>Additional Include Directories"에 h (include) 파일의 경로를 입력하면 된다.
 
-### *Export File (.exp)* | [MS Docs]
+### *Export File (.exp)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dot-exp-files-as-linker-input?view=msvc-160)
 Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
 
 ### *Universal Windows Platform (UWP) Application* | [MS Docs](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide)
