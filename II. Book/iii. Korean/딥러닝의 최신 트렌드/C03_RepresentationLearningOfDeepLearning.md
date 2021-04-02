@@ -18,4 +18,4 @@
 
 ## 09 Use of Disentangled Representation Learning
 
-:bulb: 비지도 학습의 맹점
+## :bulb: 비지도 학습의 맹점
