@@ -1,4 +1,4 @@
-# Chapter 01. 딥러닝의 기본
+# Chapter 01 딥러닝의 기본
 ## 01 Perceptron and Edge
 인공신경망의 기본 구성 요소
 
