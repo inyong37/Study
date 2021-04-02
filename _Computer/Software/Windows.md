@@ -199,3 +199,4 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 - DLL, https://fileinfo.com/extension/dll, 2021-04-02-Fri.
 - LIB, https://fileinfo.com/extension/lib, 2021-04-02-Fri.
 - How to import DLL in MSVC Blog KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
+- How to use DLL in MSVC Blog KR, https://blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221359282016&parentCategoryNo=&categoryNo=83&viewDate=&isShowPopularPosts=true&from=search, 2021-04-02-Fri.
