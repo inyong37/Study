@@ -52,7 +52,7 @@ Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에
 
 A DLL file is a compiled library that contains a set of precedures and/or drivers that are referenced and executed by a Windows program. It allows multiple programs to access shared functions through common libraries. DLL files are dynamically linked into a program at runtime, meaning they are only loaded when needed.
 
-### How to import DLL in MSVC | [Blog (KR)](https://wnsgml972.github.io/setting/2018/11/01/dll_lib/)
+### *How to import DLL in MSVC* | [Blog (KR)](https://wnsgml972.github.io/setting/2018/11/01/dll_lib/)
 기본 lib과 h (include) 파일을 설정하는 방법은 "VC++ 디렉터리>포함 디렉터리"에 h (include) 파일들 경로를 설정하고, "VC++ 디렉터리>라이브러리 디렉터리"에 lib 파일들 경로를 설정하면 된다.
 
 Visual Studio를 사용하는 경우, dll을 사용 (외부 라이브러리 import) 하기 위해서는 "링커>일반>추가 라이브러리 디렉터리"에 lib 파일의 경로를 입력하고, "링커>입력>추가 종속성"에 lib 파일의 파일명을 입력하고, "C/C++>일반>추가 포함 디렉터리"에 h (include) 파일의 경로를 입력하고, "구성 속성>디버깅>환경"에 dll 파일의 경로를 입력하면 된다.
@@ -61,6 +61,9 @@ Visual Studio를 사용하는 경우, dll을 사용 (외부 라이브러리 impo
 Windows의 정적 라이브러리로, 정적 링크로 컴파일 시점에 라이브러리가 링커에 의해 연결되어 실행 파일의 일부분이 된다.
 
 A LIB file contains a library of information used by a specific program. It may store a variety of information, which may include functions and constants referenced by a program or actual objects, such as text clippings, images, or other media. LIB files are typically referenced by applications and should not be opened manually.
+
+### *How to import LIB in MSVC* | [Blog (KR)](https://scripter.co.kr/294)
+Visual Studio를 사용하는 경우, lib을 사용 (외부 라이브러리 import) 하기 위해서는 "Linker>General>Additional Library Directories"에 lib 파일의 경로를 입력하고, "Linker>Input>Additional Dependencies"에 lib 파일의 이름을 입력하고, "C/C++>General>Additional Include Directories"에 h (include) 파일의 경로를 입력하면 된다.
 
 ### *Export File (.exp)* | [MS Docs]
 Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
@@ -200,3 +203,4 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 - LIB, https://fileinfo.com/extension/lib, 2021-04-02-Fri.
 - How to import DLL in MSVC Blog KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
 - How to use DLL in MSVC Blog KR, https://blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221359282016&parentCategoryNo=&categoryNo=83&viewDate=&isShowPopularPosts=true&from=search, 2021-04-02-Fri.
+- How to use LIB in MSVC Blog KR, https://scripter.co.kr/294, 2021-04-02-Fri.
