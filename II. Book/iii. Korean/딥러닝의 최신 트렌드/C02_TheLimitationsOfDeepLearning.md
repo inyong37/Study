@@ -62,7 +62,7 @@
 
 범용 인공지능의 접근 방법
 
-## :When will the era of general-purpose artificial intelligence come?
+## :bulb: When will the era of general-purpose artificial intelligence come?
 딥러닝의 가장 큰 문제: 데이터 의존도
 
 범용 인공지능의 시대는 언제 올까?
