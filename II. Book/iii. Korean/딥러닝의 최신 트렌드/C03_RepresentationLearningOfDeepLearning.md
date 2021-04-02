@@ -18,4 +18,4 @@
 
 ## 09 Use of Disentangled Representation Learning
 
-:bulb: Blind spots in Unsupervised Learning
+:bulb: 비지도 학습의 
