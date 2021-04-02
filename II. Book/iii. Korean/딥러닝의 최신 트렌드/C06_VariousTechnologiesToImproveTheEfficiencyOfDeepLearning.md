@@ -1,22 +1,22 @@
-# Chapter 06. Various technologies to improve the efficiency of deep learning :deciduous_tree:
+# Chapter 06. 딥러닝의 효율을 향상시키는 다양한 
 
-## 1 딥러닝의 학습용 하드웨어
+## 01 딥러닝의 학습용 하드웨어
 
-## 2 딥러닝의 추론용 하드웨어
+## 02 딥러닝의 추론용 하드웨어
  
-## 3 딥러닝의 계산 효율과 정밀도
+## 03 딥러닝의 계산 효율과 정밀도
 
-## 4 모바일 네트워크 (Mobile Network)
+## 04 모바일 네트워크 (Mobile Network)
 
-## 5 네트워크 프루닝 (Network Pruning)
+## 05 네트워크 프루닝 (Network Pruning)
 
-## 6 심층 압축 (Deep Compression)
+## 06 심층 압축 (Deep Compression)
 
-## 7 이진신경망 (Binary Neural Network)
+## 07 이진신경망 (Binary Neural Network)
 
-## 8 Once For All (OFA) 신경망
+## 08 Once For All (OFA) 신경망
 
-## 9 인공신경망의 지식 증류
+## 09 인공신경망의 지식 증류
 
 ## 10 딥러닝 하드웨어의 성능 측정 (MLPerf)
 
