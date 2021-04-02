@@ -48,14 +48,14 @@ EXE는 일반적인 파일 확장자로 컴퓨터 프로그램의 실행 파일�
 ### *Dynamic Link Library (.dll)* | [MS (KR)](https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll) | [Wiki](https://en.wikipedia.org/wiki/Dynamic-link_library)
 Windows의 동적 라이브러리로, DLL은 여러 프로그램에서 동시에 사용할 수 있는 코드와 데이터를 포함하는 라이브러리이다. 코드를 쉽게 재사용할 수 있으며 메모리 사용 효율성을 높일 수 있다. DLL을 사용하면 프로그램을 여러 개별 구성 요소로 모듈화할 수 있다. 각 모듈은 설치되어 있는 경우 런타임에 주 프로그램으로 로드할 수 있다. 모듈은 서로 분리되어 있으므로 프로그램의 로드 시간이 빨라지며 해당 기능을 요청할 때만 모듈이 로드된다. 또한 프로그램의 다른 부분에 영향을 주지 않고 업데이트를 각 모듈에 더 쉽게 적용할 수 있다. 변경 내용이 DLL 하나에만 적용되는 경우 전체 프로그램을 다시 빌드하거나 설치할 필요 없이 업데이트를 적용할 수 있다.
 
-동적 링크로 실행 파일에서 라이브러리의 기능을 사용 시에만, 라이브러리 파일을 참조 또는 다운로드해서 기능을 호출한다. 정적 링크와 다르게 컴파일 시점에 실행 파일에 함수를 복사하지 않고, 함수의 위치 정보만 갖고 그 함수를 호출할 수 있게 한다.
+동적 링크로 실행 파일에서 라이브러리의 기능을 사용 시에만, 라이브러리 파일을 참조 또는 다운로드해서 기능을 호출한다. 정적 링크와 다르게 컴파일 시점에 실행 파일에 함수를 복사하지 않고, 함수의 위치 정보만 갖고 그 함수를 호출할 수 있게 한다. 더 적은 리소스를 사용하며, 모듈식 구조를 사용할 수 있으며, 배포와 설치가 비교적 쉬우며, 개발을 나눠서 할 수 있으며 재사용이 가능하며 디버깅도 용이하다. 종속성을 유의해야한다.
 
-더 적은 리소스를 사용하며, 모듈식 구조를 사용할 수 있으며, 배포와 설치가 비교적 쉬우며, 개발을 나눠서 할 수 있으며 재사용이 가능하며 디버깅도 용이하다.
-
-종속성을 유의해야한다.
+A DLL file is a compiled library that contains a set of precedures and/or drivers that are referenced and executed by a Windows program. It allows multiple programs to access shared functions through common libraries. DLL files are dynamically linked into a program at runtime, meaning they are only loaded when needed.
 
 ### *Static Link Libray (.lib)*
 Windows의 정적 라이브러리로, 정적 링크로 컴파일 시점에 라이브러리가 링커에 의해 연결되어 실행 파일의 일부분이 된다.
+
+A LIB file contains a library of information used by a specific program. It may store a variety of information, which may include functions and constants referenced by a program or actual objects, such as text clippings, images, or other media. LIB files are typically referenced by applications and should not be opened manually.
 
 ### *Export File (.exp)* | [MS Docs]
 Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
@@ -191,3 +191,6 @@ The /EHsc command-line option instructs the compiler to enable standard C++ exce
 - Build dll, https://stackoverflow.com/questions/1130479/how-to-build-a-dll-from-the-command-line-in-windows-using-msvc, 2021-04-01-Thu.
 - COM, https://docs.microsoft.com/en-us/windows/win32/com/the-com-library, 2021-04-01-Thu.
 - COM Wiki, https://en.wikipedia.org/wiki/Component_Object_Model, 2021-04-01-Thu.
+- DLL, https://fileinfo.com/extension/dll, 2021-04-02-Fri.
+- LIB, https://fileinfo.com/extension/lib, 2021-04-02-Fri.
+- DLL LIB Blor KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
