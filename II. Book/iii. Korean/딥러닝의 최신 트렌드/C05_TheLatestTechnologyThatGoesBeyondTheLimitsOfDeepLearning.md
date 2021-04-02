@@ -1,4 +1,4 @@
-# Chapter 05. The Latest Technology That Goes Beyond The Limits of Deep Learning :star:
+# Chapter 05 딥러닝의 한계를 뛰어넘는 최신 기술
 
 ## 01 메타 학습 (Meta-Learning)
 
@@ -24,4 +24,4 @@
 
 ## 12 캡슐 네트워크 (Capsule Network)
 
-:bulb: 인공지능의 미중 기술 패권
+## :bulb: 인공지능의 미중 기술 패권
