@@ -17,7 +17,7 @@ As of February 2020, the most recent version of Windows for PCs, tablets and emb
 ## *MFC (Microsoft Foundation Class Library)* | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Foundation_Class_Library)
 Microsoft Foundation Class Library(MFC) is a C++ object-oriented library for developing desktop applications for Windows. MFC was introduced by Microsoft in 1992 and quickly gained widespread use. While Microsoft has introduced alterantive application frameworks since the, MFC remains widely used.
 
-## *Windows API (Win32, Win64)* | [Wiki](https://en.wikipedia.org/wiki/Windows_API)
+## *Windows API* | [Wiki](https://en.wikipedia.org/wiki/Windows_API)
 The Windows API (informally WinAPI) is Microsoft's core set of application programming interfaces (APIs) available in the Microsoft Windows operating systems. The name Windows API collectively refers to several different platform implementations that are often referred to by their own names (for example, Win32 API). Almost all Windows programs interact with the Windows API. On the Windows NT line of operating systems, a small number (such as programs started early in the Windows startup process) use the Native API. There are Win16, Win32, Win32s, Win64, and WinCE versions.
 
 ## *DWM (Desktop Window Manager)* | [Wiki](https://en.wikipedia.org/wiki/Desktop_Window_Manager)
