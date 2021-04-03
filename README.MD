@@ -219,3 +219,5 @@ CuDNN in ~/CUDA/include/cudnn.h
 - Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
+
+- Advanced Programming Unix
