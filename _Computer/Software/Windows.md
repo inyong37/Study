@@ -63,7 +63,7 @@ Visual Studio를 사용하는 경우, dll을 사용 (외부 라이브러리 impo
 ### *Export File (.exp)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dot-exp-files-as-linker-input?view=msvc-160)
 Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
 
-## *EXE (.exe)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/EXE)
+### *EXE (.exe)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/EXE)
 EXE는 일반적인 파일 확장자로 컴퓨터 프로그램의 실행 파일을 가리킨다. 오픈VMS, 도스, 마이크로소프트 윈도우, 리엑트오에스, OS/2 운영 체제에서 사용할 수 있다.
 
 실행 프로그램 자체뿐 아니라, 많은 EXE 파일들은 비트맵, 실행 프로그램이 그래픽 사용자 인터페이스를 사용하는, 아이콘과 같은 리소스라고 불리는 다른 구성 요소들을 포함할 수 있다.
@@ -93,7 +93,7 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 
 ## *Command*
 
-### Compile a C Program on the Command Line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
+### *Compile a C Program on the Command Line, Command `cl`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
 ```cmd
 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.27.29111(x64)
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -112,7 +112,7 @@ simple.obj
 - Compile several source codes to bar.exe: `> cl foo1.c foo2c. foo3.c /link /out:bar.exe`, can add warning level option with: `> cl /W4 ...`
 - --help: `> cl /?`
 
-### Compile a Native C++ Program on the Command Line, Command `cl` | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160)
+### *Compile a Native C++ Program on the Command Line, Command `cl`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compiling-a-native-cpp-program-on-the-command-line?view=msvc-160)
 ```cmd
 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.27.29111(x64)
 Copyright (c) Microsoft Corporation. All rights reserved.
@@ -129,10 +129,10 @@ hello.obj
   - output: foo.exe and foo.obj
   - run: `> foo` or `> foo.exe`
 
-### `CL /EH` (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
+### *`CL /EH` (Exception Handling Model)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
 The `/EHsc` command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks. Full compiler support for the Standard C++ exception handling model that safely unwinds stack objects requires `/EHsc` (recommended), `/EHs`, or `/EHa`.
 
-### Linking with `CL /LD`
+### *`CL /LD` (Linking)*
 - Make/Compile a dll file with foo.c: `> cl /LD foo.c`
   - output: foo.dll, foo.lib, foo.exp, foo.obj
 - Link a foo.dll to bar.exe
