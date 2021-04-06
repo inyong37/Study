@@ -68,6 +68,9 @@ Visual Studio를 사용하는 경우, lib을 사용 (외부 라이브러리 impo
 ### *Export File (.exp)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dot-exp-files-as-linker-input?view=msvc-160)
 Export file (.exp) contain information about exported functions and data items. When LIB creates an import library, it also creates an .exp file.
 
+### Solution (.sln) File | [MS Docs](https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019)
+A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files: sln file (text-based, shared), and .suo file (binary, user-specific solution options).
+
 ### *Universal Windows Platform (UWP) Application* | [MS Docs](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide) | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/windows/uwp/get-started/universal-application-platform-guide)
 UWP is one of many ways to create client applications for Windows. UWP apps use WinRT APIs to provide powerful UI and advanced asynchronous features that are ideal for internet-connected devices.
 
@@ -212,3 +215,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - How to use LIB in MSVC Blog KR, https://scripter.co.kr/294, 2021-04-02-Fri.
 - LIB, https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160, 2021-04-02-Fri.
 - DUMPBIN, https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160, 2021-04-02-Fri.
+- sln, https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019, 2021-04-06-Tue.
