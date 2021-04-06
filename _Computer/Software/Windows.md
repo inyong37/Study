@@ -219,9 +219,9 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - COM Wiki, https://en.wikipedia.org/wiki/Component_Object_Model, 2021-04-01-Thu.
 - DLL, https://fileinfo.com/extension/dll, 2021-04-02-Fri.
 - LIB, https://fileinfo.com/extension/lib, 2021-04-02-Fri.
-- How to import DLL in MSVC Blog KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
+- How to import DLL Blog KR, https://wnsgml972.github.io/setting/2018/11/01/dll_lib/, 2021-04-02-Fri.
+- How to import LIB Blog KR, https://scripter.co.kr/294, 2021-04-02-Fri.
 - How to use DLL in MSVC Blog KR, https://blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221359282016&parentCategoryNo=&categoryNo=83&viewDate=&isShowPopularPosts=true&from=search, 2021-04-02-Fri.
-- How to use LIB in MSVC Blog KR, https://scripter.co.kr/294, 2021-04-02-Fri.
 - LIB, https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160, 2021-04-02-Fri.
 - DUMPBIN, https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160, 2021-04-02-Fri.
 - sln, https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019, 2021-04-06-Tue.
