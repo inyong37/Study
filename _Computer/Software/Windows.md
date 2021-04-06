@@ -227,3 +227,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - sln, https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019, 2021-04-06-Tue.
 - LIB /DEF, https://docs.microsoft.com/en-us/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-04-06-Tue.
 - Linking, https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160, 2021-04-06-Tue.
+- .Net Framework Blog KR, https://hackersstudy.tistory.com/46, 2021-04-06-Tue.
