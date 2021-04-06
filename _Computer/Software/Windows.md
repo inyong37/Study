@@ -30,6 +30,23 @@ Microsoft Developer Network (MSDN) was the division of Microsoft responsible for
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
 
+## .NET | [MS Docs](https://docs.microsoft.com/en-us/dotnet/) | [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet?&WT.mc_id=Educationaldotnet-c9-scottha)
+.NET is a free, cross-platform, open source developer platform for building many different types of applications. It makes developer can use multiple languages; C#, F#, or Visual Basic, editors, and libraries to build for web, mobile, desktop, games and IoT.
+
+### .NET Languages
+- C# is a simple, modern, object-oriented, and type-safe programming language.
+- F# is a cross-platform, open-source, functional programming language for .NET. It also includes object-oriented and imperative programming.
+- Visual Basic is an approachable language with a simple syntax for building type-safe, object-oriented apps.
+
+### .NET Cross Platform
+The code will run natively on any compatible OS. Different .Net implementations handle the heavy lifting for developers.
+- .NET Core is a cross-platform .NET implementation for websites, servers, and consol apps on Windows, Linux, and macOS.
+- .NET Framework supports websites, services, desktop apps, and more on Windows.
+- Xamarin/Mono is a .NET implementaion for running apps on all the major mobile operating systems.
+
+## .NET Framework | [MS Docs](https://docs.microsoft.com/en-us/dotnet/framework/)
+.NET Framework is a technology that supports building and running Windows apps and web services.
+
 ## *Folder*
 
 ### *Program Files*
@@ -230,3 +247,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - .Net Framework Blog KR, https://hackersstudy.tistory.com/46, 2021-04-06-Tue.
 - .Net Documentation, https://docs.microsoft.com/en-us/dotnet/, 2021-04-06-Tue.
 - .Net Framework Documentation, https://docs.microsoft.com/en-us/dotnet/framework/, 2021-04-06-Tue.
+- What is .NET?, https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet?&WT.mc_id=Educationaldotnet-c9-scottha, 2021-04-06-Tue.
