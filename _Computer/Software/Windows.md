@@ -129,34 +129,37 @@ hello.obj
   - output: foo.exe and foo.obj
   - run: `> foo` or `> foo.exe`
 
-### /EH (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
-The /EHsc command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks. Full compiler support for the Standard C++ exception handling model that safely unwinds stack objects requires /EHsc (recommended), /EHs, or /EHa.
+### `CL /EH` (Exception Handling Model) | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/eh-exception-handling-model?view=msvc-160)
+The `/EHsc` command-line option instructs the compiler to enable standard C++ exception handling behavior. Without it, thrown exceptions can result in undestroyed objects and resource leaks. Full compiler support for the Standard C++ exception handling model that safely unwinds stack objects requires `/EHsc` (recommended), `/EHs`, or `/EHa`.
 
-### Link
+### Linking with `CL /LD`
 - Make/Compile a dll file with foo.c: `> cl /LD foo.c`
   - output: foo.dll, foo.lib, foo.exp, foo.obj
 - Link a foo.dll to bar.exe
 
+### *`LIB`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160)
+The Microsoft Library Manager (LIB.exe) creates and managers a library of Comman Object File Format (COFF) object files. LIB can also be used to create export files and import libraries to reference exporte definitions.
+
+### *`LIB /DEF`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160)
+`LIB /DEF` creates an import library and an export file. LINK uses the export file to build a program that contains exports (usually a dynamic-link library (DLL)), and it uses the import library to resolve references to those exports in other program.
+
+### *`LINK`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160)
+The `LINK` is a Incremental Linker. In a C++ project, the linking step is performed after the compiler has compiled the source code into object files (.obj). The linker (link.exe) combines the object files into a single executable file.
+
+### *`DUMPBIN`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160)
+The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about Common Object File Format (COFF) binary files. DUMPBIN can be used to examine COFF object files, standard libraries of COFF objects, executable files, and dynamic-link libraries (DLLs).
+
+- Show symbolic links in a file: `> dumpbin /exports foo.dll` in Command Prompt for VS
+
 ### *HRESULT*
 
 ### *HWND*
-
-### LIB | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/lib-reference?view=msvc-160)
-The Microsoft Library Manager (LIB.exe) creates and managers a library of Comman Object File Format (COFF) object files. LIB can also be used to create export files and import libraries to reference exporte definitions.
 
 ### Find Files, Command `dir`
 #### How to use command dir
 - Show files in a folder: `> dir`
 - Find foo files in current directory: `> dir /s *.foo`
 - --help: `> dir /?`
-
-### DUMPBIN | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160)
-The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about Common Object File Format (COFF) binary files. DUMPBIN can be used to examine COFF object files, standard libraries of COFF objects, executable files, and dynamic-link libraries (DLLs).
-
-### Show Symbolic link, Command `dumpbin`
-#### How to use command dumpbin
-- Show symbolic links in a file: `> dumpbin /exports foo.dll` in Command Prompt for VS
-- --help: `> dumpbin /?`
 
 ### Find String in Files, Command `find`
 #### How to use command find
@@ -223,3 +226,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - DUMPBIN, https://docs.microsoft.com/en-us/cpp/build/reference/dumpbin-reference?view=msvc-160, 2021-04-02-Fri.
 - sln, https://docs.microsoft.com/en-us/visualstudio/extensibility/internals/solution-dot-sln-file?view=vs-2019, 2021-04-06-Tue.
 - LIB /DEF, https://docs.microsoft.com/en-us/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-04-06-Tue.
+- Linking, https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160, 2021-04-06-Tue.
