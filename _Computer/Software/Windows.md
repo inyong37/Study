@@ -228,3 +228,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - LIB /DEF, https://docs.microsoft.com/en-us/cpp/build/reference/working-with-import-libraries-and-export-files?view=msvc-160, 2021-04-06-Tue.
 - Linking, https://docs.microsoft.com/en-us/cpp/build/reference/linking?view=msvc-160, 2021-04-06-Tue.
 - .Net Framework Blog KR, https://hackersstudy.tistory.com/46, 2021-04-06-Tue.
+- .Net Documentation, https://docs.microsoft.com/en-us/dotnet/, 2021-04-06-Tue.
+- .Net Framework Documentation, https://docs.microsoft.com/en-us/dotnet/framework/, 2021-04-06-Tue.
