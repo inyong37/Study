@@ -31,6 +31,13 @@ Make gets its knowledge of how to build your program from a file called the make
 ### *CMake (Cross Platform Make)* | [Homeapge](https://cmake.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake) | [CMake Documentation](https://cmake.org/cmake/help/v3.20/manual/cmake-buildsystem.7.html)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
 
+#### *Options*
+- Explicitly specify a source directory: `-S <path-to-source>`
+- Explicitly specify a build directory: `-B <path-to-build>`
+- Create or update a cmake cache entry: `-D <var>[:<type>]=<value>`
+- Specify a build system generator: `-G <generator-name>`
+- Specify platform name if supported by generator: `-A <platform-name>`
+
 #### *How to use CMake*
 Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 내용은 현재와 하위 디렉토리의 CMakeLists.txt에만 적용된다. 상위, 동일 레벨 CMakeLists.txt에는 적용되지 않는다. Boolean type은 if()로 구분할 수 있고, 다른 비교는 STREQUAL (string equal)을 사용한다. `if(foo is true)` or `if(foo)` (Python) is same as `if(${FOO} STREQUAL "ture")` or `if(${FOO})` in CMake.
 
@@ -54,39 +61,33 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
     - AUTHOR_WARNING: warning for develop and keep going
     - SEND_ERROR: error message and keep going without Makefile
     - FATAL_ERROR: error message and stop
-- Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
+- [Add a subdirectory to the build](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
   - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
-- Add a library to the project using the specified sources files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_library.html)
+- [Add a library to the project using the specified sources files](https://cmake.org/cmake/help/v3.20/command/add_library.html)
   - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
     - out: `lib<name>.a` or `<name>.lib`
     - `STATIC` libraries are archives of object files for use when linking other targets.
     - `SHARED` libraries are linked dynamically and loaded at runtime.
     - `MODULE` libraries are plugins that are not linked into other targets but may be loaded dynamically at runtime using dlopen-like functionality.
     - An `INTERFACE` library target does not compile sources and does not produce a library artifact on disk. However, it may have properties set on it and it may be installed and exported
-- Add an executable to the project using the specified source files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_executable.html)
+- [Add an executable to the project using the specified source files](https://cmake.org/cmake/help/v3.20/command/add_executable.html)
   - `add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [source1] [source2 ...])`
   - ex. `ADD_EXECUTABLE(program.output main.cc foo.cc bar.cc)`
-- Specify libraries or flags to use when linking a given target and/or its dependents | [CMake Document](https://cmake.org/cmake/help/v3.20/command/target_link_libraries.html)
+- [Specify libraries or flags to use when linking a given target and/or its dependents](https://cmake.org/cmake/help/v3.20/command/target_link_libraries.html)
   - `target_link_libraries(<target> ... <item> ... ...)`
-- Example
-  - ```
-    add_library(archive archive.cpp zip.cpp lzma.cpp)
-    add_executable(zipapp zipapp.cpp)
-    target_link_librareies(zipapp archive)
-    ```
-    - `archive` is defined as a `STATIC` library, containing objects compiled from `archive.cpp`, `zip.cpp`, and `lzma.cpp`.
-    - `zipapp` is defined as an executable formed by compiling and linking `zipapp.cpp`.
-    - When linking the `zipapp` executable, the `archive` static library is linked in.
+- [Libraries for a Traget and/or its Dependents](https://cmake.org/cmake/help/v3.20/command/target_link_libraries.html#id3)
+  - `target_link_libraries(<target> <PRIVATE|PUBLIC|INTERFACE> <item>... [<PRIVATE|PUBLIC|INTERFACE> <item>...]...)`
+  - CMake uses somewhat similar inferitance concepts to C++, especially for the C++ public, and private access specifiers and inheritance types.
 
-#### Options
-- Explicitly specify a source directory: `-S <path-to-source>`
-- Explicitly specify a build directory: `-B <path-to-build>`
-- Create or update a cmake cache entry: `-D <var>[:<type>]=<value>`
-- Specify a build system generator: `-G <generator-name>`
-- Specify platform name if supported by generator: `-A <platform-name>`
-
-#### CMake Public | Private | Interface
-CMake uses somewhat similar inferitance concepts to C++, especially for the C++ public, and private access specifiers and inheritance types.
+#### [*Example*](https://cmake.org/cmake/help/v3.20/manual/cmake-buildsystem.7.html#id15)
+```
+add_library(archive archive.cpp zip.cpp lzma.cpp)
+add_executable(zipapp zipapp.cpp)
+target_link_librareies(zipapp archive)
+```
+- `archive` is defined as a `STATIC` library, containing objects compiled from `archive.cpp`, `zip.cpp`, and `lzma.cpp`.
+- `zipapp` is defined as an executable formed by compiling and linking `zipapp.cpp`.
+- When linking the `zipapp` executable, the `archive` static library is linked in.
 
 ### *Ninja* | [Homepage](https://ninja-build.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%8B%8C%EC%9E%90_(%EB%B9%8C%EB%93%9C_%EC%8B%9C%EC%8A%A4%ED%85%9C)) | [GitHub](https://github.com/ninja-build/ninja) | [Manual](https://ninja-build.org/manual.html)
 Ninja is a small build system with a focus on speed. It differs from other build systems in two major respects: it is designed to have its input files generated by a higher-level build system, and it is designed to run builds as fast as possible.
