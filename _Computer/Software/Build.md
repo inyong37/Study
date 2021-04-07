@@ -62,6 +62,11 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
   - `target_link_libraries(<target> ... <item> ... ...)`
 - Add a library to the project using the specified sources files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_library.html)
   - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
+    - out: `lib<name>.a` or `<name>.lib`
+    - `STATIC` libraries are archives of object files for use when linking other targets.
+    - `SHARED` libraries are linked dynamically and loaded at runtime.
+    - `MODULE` libraries are plugins that are not linked into other targets but may be loaded dynamically at runtime using dlopen-like functionality.
+    - An `INTERFACE` library target does not compile sources and does not produce a library artifact on disk. However, it may have properties set on it and it may be installed and exported
 - Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
   - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
 
