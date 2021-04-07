@@ -28,10 +28,10 @@ GNU Make is a tool which controls the generation of executables and other non-so
 
 Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files. When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.
 
-### *CMake (Cross Platform Make)* | [Homeapge](https://cmake.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake)
+### *CMake (Cross Platform Make)* | [Homeapge](https://cmake.org/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CMake) | [GitLab](https://gitlab.kitware.com/cmake/cmake) | [CMake Documentation](https://cmake.org/cmake/help/v3.20/manual/cmake-buildsystem.7.html)
 CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. The suite of CMake tools were created by Kitware in response to the need for a powerful, cross-platform build environment for open-source projects such as ITK and VTK.
 
-#### How to use CMake
+#### *How to use CMake*
 Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 내용은 현재와 하위 디렉토리의 CMakeLists.txt에만 적용된다. 상위, 동일 레벨 CMakeLists.txt에는 적용되지 않는다. Boolean type은 if()로 구분할 수 있고, 다른 비교는 STREQUAL (string equal)을 사용한다. `if(foo is true)` or `if(foo)` (Python) is same as `if(${FOO} STREQUAL "ture")` or `if(${FOO})` in CMake.
 
 - Conditional statements: `if()`, `elseif()`, `else()`, `endif()`
@@ -39,10 +39,6 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
   - `SET(var_name "value")`
   - `SET(var_list "value_1" "value_2")`
 - Using variable: `$var_name` or `${var_name}`
-- Make binary output: `ADD_EXECUTABLE()`
-  - `ADD_EXECUTABLE(program.output main.cc foo.cc bar.cc)`
-- Add an executable to the project using the specified source files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_executable.html)
-  - `add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [source1] [source2 ...])`
 - Minimum version: `CMAKE_MINIMUM_REQUIRED()`
   - `CMAKE_MINIMUM_REQUIRED(VERSION "version_number")`
   - `CMAKE_MINIMUM_REQUIRED(VERSION 3.0)`
@@ -58,8 +54,8 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
     - AUTHOR_WARNING: warning for develop and keep going
     - SEND_ERROR: error message and keep going without Makefile
     - FATAL_ERROR: error message and stop
-- Specify libraries or flags to use when linking a given target and/or its dependents | [CMake Document](https://cmake.org/cmake/help/v3.20/command/target_link_libraries.html)
-  - `target_link_libraries(<target> ... <item> ... ...)`
+- Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
+  - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
 - Add a library to the project using the specified sources files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_library.html)
   - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
     - out: `lib<name>.a` or `<name>.lib`
@@ -67,8 +63,20 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
     - `SHARED` libraries are linked dynamically and loaded at runtime.
     - `MODULE` libraries are plugins that are not linked into other targets but may be loaded dynamically at runtime using dlopen-like functionality.
     - An `INTERFACE` library target does not compile sources and does not produce a library artifact on disk. However, it may have properties set on it and it may be installed and exported
-- Add a subdirectory to the build | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
-  - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
+- Add an executable to the project using the specified source files | [CMake Document](https://cmake.org/cmake/help/v3.20/command/add_executable.html)
+  - `add_executable(<name> [WIN32] [MACOSX_BUNDLE] [EXCLUDE_FROM_ALL] [source1] [source2 ...])`
+  - ex. `ADD_EXECUTABLE(program.output main.cc foo.cc bar.cc)`
+- Specify libraries or flags to use when linking a given target and/or its dependents | [CMake Document](https://cmake.org/cmake/help/v3.20/command/target_link_libraries.html)
+  - `target_link_libraries(<target> ... <item> ... ...)`
+- Example
+  - ```
+    add_library(archive archive.cpp zip.cpp lzma.cpp)
+    add_executable(zipapp zipapp.cpp)
+    target_link_librareies(zipapp archive)
+    ```
+    - `archive` is defined as a `STATIC` library, containing objects compiled from `archive.cpp`, `zip.cpp`, and `lzma.cpp`.
+    - `zipapp` is defined as an executable formed by compiling and linking `zipapp.cpp`.
+    - When linking the `zipapp` executable, the `archive` static library is linked in.
 
 #### Options
 - Explicitly specify a source directory: `-S <path-to-source>`
@@ -213,3 +221,4 @@ C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수�
 - Microsoft Visual C++ Wiki, https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B, 2021-04-01-Thu.
 - Microsoft Visual C++, https://docs.microsoft.com/en-us/cpp/?view=msvc-160, 2021-04-01-Thu.
 - Clang 12 Document, https://clang.llvm.org/docs/MSVCCompatibility.html, 2021-04-01-Thu.
+- CMake buildsystem, https://cmake.org/cmake/help/v3.20/manual/cmake-buildsystem.7.html, 2021-04-07-Wed.
