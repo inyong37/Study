@@ -61,14 +61,16 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
     - AUTHOR_WARNING: warning for develop and keep going
     - SEND_ERROR: error message and keep going without Makefile
     - FATAL_ERROR: error message and stop
-- [Add include directories to the build](https://cmake.org/cmake/help/v3.20/command/include_directories.html)
-  - `include_directories([AFTER | BEFORE] [SYSTEM] dir1 [dir2 ...])`
-- [Add directories in which the linker will look for libraries](https://cmake.org/cmake/help/v3.20/command/link_directories.html)
-  - `link_directoires([AFTER | BEFORE] dir1 [dir2 ... ])`
 - [Add a subdirectory to the build](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
   - `add_subdirectory(source_dir [binary_dir] [EXCLUDE_FROM_ALL])`
+- [Add include directories to the build](https://cmake.org/cmake/help/v3.20/command/include_directories.html)
+  - `include_directories([AFTER | BEFORE] [SYSTEM] dir1 [dir2 ...])`
+- [Add include directories to a target](https://cmake.org/cmake/help/v3.20/command/target_include_directories.html#command:target_include_directories)
+  - `target_include_directories(<target> [SYSTEM] [AFTER | BEFORE] <INTERFACE | PUBLIC | PRIVATE> [items1 ...] [<INTERFACE | PUBLIC | PRIVATE> [items2 ...]])`
+- [Add directories in which the linker will look for libraries](https://cmake.org/cmake/help/v3.20/command/link_directories.html)
+  - `link_directoires([AFTER | BEFORE] dir1 [dir2 ...])`
 - [Add a library to the project using the specified sources files](https://cmake.org/cmake/help/v3.20/command/add_library.html)
-  - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source>...]`
+  - `add_library(<name> [STATIC | SHARED | MODULE] [EXCLUDE_FROM_ALL] [<source> ...]`
     - out: `lib<name>.a` or `<name>.lib`
     - `STATIC` libraries are archives of object files for use when linking other targets.
     - `SHARED` libraries are linked dynamically and loaded at runtime.
@@ -230,3 +232,4 @@ C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수�
 - CMake buildsystem, https://cmake.org/cmake/help/v3.20/manual/cmake-buildsystem.7.html, 2021-04-07-Wed.
 - CMake include_directories, https://cmake.org/cmake/help/v3.20/command/include_directories.html, 2021-04-08-Thu.
 - CMake link_directories, https://cmake.org/cmake/help/v3.20/command/link_directories.html, 2021-04-08-Thu.
+- CMake target_include_directories, https://cmake.org/cmake/help/v3.20/command/target_include_directories.html#command:target_include_directories, 2021-04-08-Thu.
