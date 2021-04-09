@@ -138,6 +138,9 @@ Interface는 서로 다른 2개의 system, device 사이에서 정보나 신호�
 ### Ad hoc | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%95%A0%EB%93%9C%ED%98%B9)
 Ad hoc(애드 혹)은 "이것을 위해" 즉 "특별한 목적을 위해서"라는 뜻의 라틴어로, 일반적으로 1. 특정한 문제나 일을 위해 만들어진 관습적인 해결책, 2. 일반화할 수 없는 해결책, 3. 어떤 다른 목적에 적응시킬 수 없는 해결책을 나타낸다.
 
+### Distribution vs. Release | [Stackoverflow](https://stackoverflow.com/questions/8380570/whats-the-difference-between-distribution-and-release-build-configurations)
+It depends on the programmer and the build settings they want to put into each target. For one programmer, Release is an ADHOC and Distribution is a store build. Also opposite case can be happened.
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
@@ -194,3 +197,4 @@ Ad hoc(애드 혹)은 "이것을 위해" 즉 "특별한 목적을 위해서"라�
 - Parent Process Wiki, https://en.wikipedia.org/wiki/Parent_process, 2021-03-26-Fri.
 - Orphan Process Wiki, https://en.wikipedia.org/wiki/Orphan_process, 2021-03-26-Fri.
 - Ad hoc Wiki KR, https://ko.wikipedia.org/wiki/%EC%95%A0%EB%93%9C%ED%98%B9, 2021-04-09-Fri.
+- Distribution vs. Release, https://stackoverflow.com/questions/8380570/whats-the-difference-between-distribution-and-release-build-configurations, 2021-04-09-Fri.
