@@ -61,6 +61,8 @@ Command는 upper, lower case 모두 사용 가능하다. set()으로 설정된 �
     - AUTHOR_WARNING: warning for develop and keep going
     - SEND_ERROR: error message and keep going without Makefile
     - FATAL_ERROR: error message and stop
+- [String operations](https://cmake.org/cmake/help/v3.20/command/string.html)
+  - `string(OPERATION <arguments ... >)`
 - [Add -D define flags to the compilation of source files](https://cmake.org/cmake/help/v3.20/command/add_definitions.html)
   - `add_definitions(-DFOO -DBAR ...)`
 - [Add a subdirectory to the build](https://cmake.org/cmake/help/v3.20/command/add_subdirectory.html)
@@ -236,3 +238,4 @@ C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수�
 - CMake link_directories, https://cmake.org/cmake/help/v3.20/command/link_directories.html, 2021-04-08-Thu.
 - CMake target_include_directories, https://cmake.org/cmake/help/v3.20/command/target_include_directories.html#command:target_include_directories, 2021-04-08-Thu.
 - CMake add_definitions, https://cmake.org/cmake/help/v3.20/command/add_definitions.html, 2021-04-09-Fri.
+- CMake string, https://cmake.org/cmake/help/v3.20/command/string.html, 2021-04-09-Fri.
