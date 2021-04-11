@@ -221,3 +221,6 @@ CuDNN in ~/CUDA/include/cudnn.h
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 
 - Advanced Programming in the UNIX Environment 3rd Ed.
+- The Practice of Programming
+- Operating System Concepts
+- Operating System Concepts Essentials
