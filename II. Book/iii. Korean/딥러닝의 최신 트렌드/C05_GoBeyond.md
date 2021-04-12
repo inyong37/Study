@@ -10,8 +10,10 @@ Way, Shot, Few-Shot Learning, Pre-Trained Network, Feature, Zero-Shot, Similarit
 Catastrophic Forgetting, Elastic Weight Consolidation (EWC), Dynamically Expandable Network (DEN)
 
 ## 04 신경망 구조 탐색 (Neural Architecture Search)
+Hyper-Parameter, AutoML
 
 ## 05 스파이킹 신경망 (Spiking Neural Network)
+Neuron, Spike, Spike Train, Layer-Wise, Synaptic Timing Dependent Plasticity (STDP), Gradient-Descent Method, Firing, Fire
 
 ## 06 활성 학습 (Active Learning)
 
