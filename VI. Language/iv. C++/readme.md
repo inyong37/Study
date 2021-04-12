@@ -1,4 +1,4 @@
-# C++ | [cpp reference](https://en.cppreference.com/w/) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/C%2B%2B)
+# C++ | [cpp reference](https://en.cppreference.com/w/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/C%2B%2B)
 ```
 This page is from the "Language" page.
 ```
@@ -236,3 +236,4 @@ void foo(int bar = 0);
 - #if, #elif, #else, #endif, https://docs.microsoft.com/ko-kr/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=vs-2019, 2020-07-13-Mon.
 - C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
 - GetDriveType(), https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getdrivetypea, 2021-01-06-Wed.
+- Exception Handling Blog KR, https://blog.hexabrain.net/179, 2021-04-12-Mon.
