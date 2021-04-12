@@ -383,3 +383,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python Debugging
 - Python pytest, https://docs.pytest.org/en/stable/, 2021-02-15-Mon.
 - Parameter vs. Argument Blog KR, http://taewan.kim/tip/argument_parameter/, 2021-02-23-Tue.
+- Errors and Exceptions Python 3.7, https://docs.python.org/3.7/tutorial/errors.html, 2021-04-12-Mon.
