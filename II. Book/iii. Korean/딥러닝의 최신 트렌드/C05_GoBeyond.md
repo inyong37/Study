@@ -16,6 +16,7 @@ Hyper-Parameter, AutoML
 Neuron, Spike, Spike Train, Layer-Wise, Synaptic Timing Dependent Plasticity (STDP), Gradient-Descent Method, Firing, Fire
 
 ## 06 활성 학습 (Active Learning)
+Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 주어지지 않은 데이터에 자동으로 라벨을 붙일 수 있도록 고안된 방법이다.
 
 ## 07 그래프 신경망 (Graph Neural Network)
 
