@@ -57,6 +57,7 @@ Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 
 ### 그래프 신경망의 개념
 
 ### 그래프 신경망의 연구 동향
+Vertex, Edge, Attribute, Node, Invariance, 인공신경망으 입력 값을 선정함에 있어 그 순서에도 영향을 받는다.
 
 ## 08 메모리 네트워크 (Memory Network)
 ### 메모리 네트워크의 개념
@@ -64,6 +65,7 @@ Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 
 ### 메모리 네트워크의 구조
 
 ### 종단간 (End-to-End) 메모리 네트워크
+Long-Term Dependency, Question & Answer, Input Feature Map, Generalization, Output, Response, Supporting Fact, Embedding, IGOR
 
 ## 09 뉴럴 튜링 머신 (Neural Turing Machine)
 ### 뉴럴 튜링 머신의 개념
@@ -71,6 +73,7 @@ Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 
 ### 뉴럴 튜링 머신의 제어기
 
 ### 주소 지정 메커니즘
+Alan Turing, Controller, Read Head, Write Head, Addressable Memory, Turing-Complete, Differentiable Neural Computer, Content Addressing, Interpolation, Convolutional Shift, Sharpening
 
 ## 10 BERT 모델
 ### 자연어 처리 알고리즘의 성능
@@ -78,6 +81,7 @@ Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 
 ### BERT 구조의 개념적 이해
 
 ### BERT의 학습 방법과 결과
+Bidrectional Encoder Representations from Transformer, BERT, Fine-Tuning, Masked Language Model, Pre-Trained, korBERT, MNLI, QQP. QNLI, SST-2, CoLA, STS-B, MRPC, RTE, SQuAD v1.1, SQuAD v2.0, SWAG, Google
 
 ## 11 생성적 사전 학습 모델
 ### GPT의 개념
@@ -85,10 +89,12 @@ Uncertainty, 활성 학습은 이러한 문제를 해결하기 위해 라벨이 
 ### GPT-2 (재학습 과정이 없는 언어 모델)
 
 ### GPT-3 (퓨삿 학습을 통한 성능 향상)
+OpenAI, Generative Pre-Training, GPT, Semi-Supervised Learning, Fine-Tuning, 10, Zero-shot, 100, Few-shot, Language Model, Scale-up
 
 ## 12 캡슐 네트워크 (Capsule Network)
 ### 캡슐 네트워크의 개념
 
 ### 캡슐 네트워크의 구조
+Entity, Property, Primary Capsule, Dynamic Routing, Reconstruction
 
 ## :bulb: 인공지능의 미중 기술 패권
