@@ -59,22 +59,32 @@ The answers to below questions determine whether an application cna benefit by u
 - Should the application be a GUI appliction or a consol application? Some IPC mechanisms require a GUI application.
 
 ### *IPC: Clipboard*
-The clipboard acts as a depository for data sharing among applications. All applications should support the clipboard for those data formats that they understand.
+The clipboard acts as a depository for data sharing among applications.
 
-### *IPC: COM*
+**All applications should support the clipboard for those data formats that they understand.**
+
+### *IPC: COM (Component Object Model)*
 Applications that use OLE manage compound documents-that is, documents made up for data from a variety of different applications. OLE provides services that make it easy for applications to call on other applications for data editing.
 
-### *IPC: Data Copy*
-Data copy enables an application to send information to another application using the `WM_COPYDATA` message. This method requires cooperation between the sending application and the receiving application. Data copy can be used to quickly send information to another application using Windows messaging.
+**OLE supports compound documents and enables an application to include embedded or linked data that, when chosen, automatically starts another application for data editing.**
 
-### *IPC: DDE*
-DDE is a protocol that enables applications to exchange data in a variety of formats. DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE.
+### *IPC: Data Copy*
+Data copy enables an application to send information to another application using the `WM_COPYDATA` message. This method requires cooperation between the sending application and the receiving application. 
+
+**Data copy can be used to quickly send information to another application using Windows messaging.**
+
+### *IPC: DDE (Dynamic Data Exchange)*
+DDE is a protocol that enables applications to exchange data in a variety of formats. 
+
+**DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE.**
 
 ### *IPC: File Mapping*
-File mapping enables a process to treat the contents of a file as if they were a block of memory in the process's address space. The process can use simple pointer operations to examine and modify the contents of the file. File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.
+File mapping enables a process to treat the contents of a file as if they were a block of memory in the process's address space. The process can use simple pointer operations to examine and modify the contents of the file.
 
-### *IPC: Mailslots*
-Mailslots provide on-way communication. Any process that creates a mailslot is a mailslot server. Other processes, called mailslot clients, send messages to the mailslot erver by writing a message to its mailslot. Incoming messages are always appended to the mailslot. The mailslot saves the messages until the mailslot server has read them. A process can be both a mailslot server and a mailslot client, so two-way communication os possible using multiple mailslots. 
+**File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.**
+
+### *IPC: A Mailslot*
+Mailslots provide on-way communication. Any process that creates a mailslot is a mailslot server. Other processes, called mailslot clients, send messages to the mailslot erver by writing a message to its mailslot. Incoming messages are always appended to the mailslot. The mailslot saves the messages until the mailslot server has read them. A process can be both a mailslot server and a mailslot client, so two-way communication os possible using multiple mailslots.
 
 **Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.**
 
