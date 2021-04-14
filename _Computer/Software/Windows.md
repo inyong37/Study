@@ -88,10 +88,12 @@ Mailslots provide on-way communication. Any process that creates a mailslot is a
 
 **Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.**
 
-### *IPC: Pipes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes)
+### *IPC: Pipes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes) | [Anonymous Pipe Operations](https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations)
 A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client. One process writes information to the pipe, then the other process reads the information from the pipe.
 
 There are two types of pipes for two-way communication: anonymous pipes and named pipes. 
+
+Anonymous pipes require less overhead than named pipes, but offer limited services. An anonymous pipe is an unnamed, one-way pipe that typically transfers data between a parent process and a child process. Anonymous pipes are always local; they cannot be used for communication over a network.
 
 Anonymous pipes eanable related processes to transfer information to each other. Typically, an anonymous pipe is used for redirecting the standard input or output of a child process so that it can exchange data with its parent process. To exchange data in both directions (duplex operation), you must create two anonymous pipes. The parent process writes data to one pipe using its write handle, while the cihld process reads the data from that pipe using its read handle. Similarly, the child process writes data to the other pipe and the parent process reads from it. Anonymous pipes cannot be used over a network, nor can they be used between unrelated processes.
 
@@ -335,3 +337,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Pipes MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/pipes, 2021-04-14-Wed.
 - RPC MS Docs, https://docs.microsoft.com/en-us/windows/win32/rpc/microsoft-rpc-components, 2021-04-14-Wed.
 - Windows Sockets 2 MS Docs, https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2, 2021-04-14-Wed.
+- Anonymous Pipe Operations MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations, 2021-04-14-Wed.
