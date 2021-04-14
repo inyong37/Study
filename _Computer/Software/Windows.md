@@ -123,7 +123,7 @@ Windows Sockets is a protocol-independent interface. It takes advantage of the c
 
 **Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities.**
 
-## *Signal* | [MS Docs]9https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
+## *Signal* | [MS Docs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
 Sets interrupt signal handling
 
 - sig value
