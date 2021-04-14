@@ -190,6 +190,10 @@ A symbolic link (also symlink or soft link) is a term for any file that contains
 ### Using `extern "C"` Keyword in C++
 C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수정하기 때문에 function의 이름이 그대로 유지되게 하려면 해당 function을 C 언어 방식으로 compile해야 한다. 따라서 선언된 해당 function 앞에 `extern "C"` keyword를 적어서 해당 function가 C 방식으로 compile 되게 한다. 이 방식은 C++로 DLL을 만들어 C#과 같은 다른 언어에 제공할 때도 동일하게 사용한다.
 
+## :books: Error
+### Link Error: undefined symbol | [Blog (KR)](https://spikez.tistory.com/304)
+Include(h) file에만 해당 function/method가 declaration되어 있고 definition이 없는 경우, 즉 lib에 해당 함수가 정의되어 있지 않은 경우에 발생할 수 있다. 또는 library(binary)에도 구현이 되어 있는 경우, 즉 shared library(so, dll)으로 만들어졌을 때, 해당 함수가 export 안 되어 있어서 외부에서 사용할 수 없는 경우에 발생할 수 있다. 또한 구현이 되어있으며 export도 되어있는 경우, 즉 C로 작성된 함수여서 C++에서 사용하고자 했을 때 name mangling 때문에 발생할 수 있다. 마지막 경우에는 `extern C`로 해결할 수 있다. 다른 경우에 대해서는 ld를 사용할 경우 `--allow-shlib-undefined` option을 사용해서 build 환경에는 symbol이 없지만 실제 사용할 실행 환경에서는 library, symbol이 있는 경우에 처리해서 무시할 수 있다.
+
 #### Reference
 - Bazel, https://www.bazel.build/, 2020-07-16-Thu.
 - Bazel wiki, https://ko.wikipedia.org/wiki/%EB%B0%94%EC%A0%A4_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4), 2020-07-16-Thu.
@@ -239,3 +243,4 @@ C++ compiler는 funciton을 compile할 때 function의 이름을 임의로 수�
 - CMake target_include_directories, https://cmake.org/cmake/help/v3.20/command/target_include_directories.html#command:target_include_directories, 2021-04-08-Thu.
 - CMake add_definitions, https://cmake.org/cmake/help/v3.20/command/add_definitions.html, 2021-04-09-Fri.
 - CMake string, https://cmake.org/cmake/help/v3.20/command/string.html, 2021-04-09-Fri.
+- Link Error: undefined symbol Blog KR, https://spikez.tistory.com/304, 2021-04-14-Wed.
