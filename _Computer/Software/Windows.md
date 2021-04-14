@@ -47,6 +47,19 @@ The code will run natively on any compatible OS. Different .Net implementations 
 ## *.NET Framework* | [MS Docs](https://docs.microsoft.com/en-us/dotnet/framework/)
 .NET Framework is a technology that supports building and running Windows apps and web services.
 
+## *IPC* | 
+
+## *Signal* | [MS Docs]9https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
+Sets interrupt signal handling
+
+- sig value
+  - SIGABRT: Abnormal termination
+  - SIGFPE: Floating-point error
+  - SIGILL: Illegal instruction
+  - SIGINT: `Control` + `c` signal
+  - SIGSEGV: Illegal storage access
+  - SIGTERM: Termination request
+
 ## *Folder*
 
 ### *Program Files*
@@ -248,3 +261,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - .Net Documentation, https://docs.microsoft.com/en-us/dotnet/, 2021-04-06-Tue.
 - .Net Framework Documentation, https://docs.microsoft.com/en-us/dotnet/framework/, 2021-04-06-Tue.
 - What is .NET?, https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet?&WT.mc_id=Educationaldotnet-c9-scottha, 2021-04-06-Tue.
+- Windows IPC Blog KR, http://dolphin.ivyro.net/file/windows_api/windows_ipc.html, 2021-04-14-Wed.
+- Signal MS Docs, https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160, 2021-04-14-Wed.
