@@ -89,6 +89,9 @@ File mapping enables a process to treat the contents of a file as if they were a
 
 **File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.**
 
+### Creating Named Shared Memory | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory)
+To share data, multiple processes can use memory-mapped files that the system paging file stores.
+
 ### *IPC: Mailslot*
 Mailslots provide on-way communication. Any process that creates a mailslot is a mailslot server. Other processes, called mailslot clients, send messages to the mailslot erver by writing a message to its mailslot. Incoming messages are always appended to the mailslot. The mailslot saves the messages until the mailslot server has read them. A process can be both a mailslot server and a mailslot client, so two-way communication os possible using multiple mailslots.
 
@@ -344,3 +347,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - RPC MS Docs, https://docs.microsoft.com/en-us/windows/win32/rpc/microsoft-rpc-components, 2021-04-14-Wed.
 - Windows Sockets 2 MS Docs, https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2, 2021-04-14-Wed.
 - Anonymous Pipe Operations MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations, 2021-04-14-Wed.
+- Creating Named Shared Memory, https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory, 2021-04-14-Wed.
