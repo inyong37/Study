@@ -79,16 +79,22 @@ DDE is a protocol that enables applications to exchange data in a variety of for
 **DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE.**
 
 ### *IPC: File Mapping* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/memory/file-mapping)
+File mapping is the association of a file's contents with a portion of the virtual address space of a process. The system creates a file mapping object (also known as a section object) to maintain this association. A file view is the portion of virtual address space that a process uses to access the file's contents. File mapping allows the process to use both random input and output (I/O) and sequential I/O. It also allows the process to work efficiently with a large data file, such as a database, without having to map the whole file into memory. Multiple processes can also use memory-mapped files to share data.
+
+Processes read from and write to the file view using pointers, just as they would with dynamically allocated memory. The use of file mapping imporves efficiency because the file resides on disk, but the file view resides in memory. Processes can also manipulate the file view with the VirtualProtect function.
+
+The file on disk can be any file that you want to map into memory, or it can be the system page file.
+
 File mapping enables a process to treat the contents of a file as if they were a block of memory in the process's address space. The process can use simple pointer operations to examine and modify the contents of the file.
 
 **File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.**
 
-### *IPC: A Mailslot*
+### *IPC: Mailslot*
 Mailslots provide on-way communication. Any process that creates a mailslot is a mailslot server. Other processes, called mailslot clients, send messages to the mailslot erver by writing a message to its mailslot. Incoming messages are always appended to the mailslot. The mailslot saves the messages until the mailslot server has read them. A process can be both a mailslot server and a mailslot client, so two-way communication os possible using multiple mailslots.
 
 **Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.**
 
-### *IPC: Pipes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes) | [Anonymous Pipe Operations](https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations)
+### *IPC: Pipe* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes) | [Anonymous Pipe Operations](https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations)
 A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client. One process writes information to the pipe, then the other process reads the information from the pipe.
 
 There are two types of pipes for two-way communication: anonymous pipes and named pipes. 
