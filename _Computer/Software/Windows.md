@@ -68,7 +68,7 @@ Applications that use OLE manage compound documents-that is, documents made up f
 
 **OLE supports compound documents and enables an application to include embedded or linked data that, when chosen, automatically starts another application for data editing.**
 
-### *IPC: Data Copy*
+### *IPC: Data Copy* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/dataxchg/data-copy)
 Data copy enables an application to send information to another application using the `WM_COPYDATA` message. This method requires cooperation between the sending application and the receiving application. 
 
 **Data copy can be used to quickly send information to another application using Windows messaging.**
@@ -78,7 +78,7 @@ DDE is a protocol that enables applications to exchange data in a variety of for
 
 **DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE.**
 
-### *IPC: File Mapping*
+### *IPC: File Mapping* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/memory/file-mapping)
 File mapping enables a process to treat the contents of a file as if they were a block of memory in the process's address space. The process can use simple pointer operations to examine and modify the contents of the file.
 
 **File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.**
@@ -88,7 +88,7 @@ Mailslots provide on-way communication. Any process that creates a mailslot is a
 
 **Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.**
 
-### *IPC: Pipes*
+### *IPC: Pipes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes)
 There are two types of pipes for two-way communication: anonymous pipes and named pipes.
 
 Anonymous pipes eanable related processes to transfer information to each other. Typically, an anonymous pipe is used for redirecting the standard input or output of a child process so that it can exchange data with its parent process. To exchange data in both directions (duplex operation), you must create two anonymous pipes. The parent process writes data to one pipe using its write handle, while the cihld process reads the data from that pipe using its read handle. Similarly, the child process writes data to the other pipe and the parent process reads from it. Anonymous pipes cannot be used over a network, nor can they be used between unrelated processes.
@@ -97,14 +97,14 @@ Named pipes are used to transfer data between processes that are not related pro
 
 **Anonymous pipes provides an efficient way to redirect standard input or output to child processes on the same computer. Named pipes provide a simple programming interface for transferring data between two processes, whether they reside on the same computer or over a network.**
 
-### *IPC: RPC*
+### *IPC: RPC* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/rpc/microsoft-rpc-components)
 **RPC enables applications to call functions remotely. Therefore, RPC makes IPC as easy as calling a function. RPC operates between processes on a single computer or on different computers on a network.**
 
 The RPC provided by Windows is compliant with the Open Software Foundation (OSF) Distributed Computing Environment (DCE). This means that applications that use RPC are able to communicate with applications running with other operating systems that support DCE. RPC automatically supports data conversion to account for different hardware architectures and for byte-ordering between dissimilar environment.
 
 **RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications.**
 
-### *IPC: Windows Sockets*
+### *IPC: Windows Sockets* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2)
 **Windows Sockets is a protocol-independent interface.** It takes advantage of the communication capabilities of the underlying protocols. In Windows Sockets 2, a socket handle can optionally be used as a file handle with the standard file I/O functions.
 
 **Windows Sockets are based on the sockets first popularized by Berkeley Software Distribution (BSD). An application that uses Windows Sockets can communicate with other socket implementation on other types of systems. However, not all transport service providers support all available options.**
@@ -326,3 +326,8 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Windows IPC MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/interprocess-communications, 2021-04-14-Wed.
 - Windows IPC Blog KR, http://dolphin.ivyro.net/file/windows_api/windows_ipc.html, 2021-04-14-Wed.
 - Signal MS Docs, https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160, 2021-04-14-Wed.
+- Data Copy MS Docs, https://docs.microsoft.com/en-us/windows/win32/dataxchg/data-copy, 2021-04-14-Wed.
+- File Mapping MS Docs, https://docs.microsoft.com/en-us/windows/win32/memory/file-mapping, 2021-04-14-Wed.
+- Pipes MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/pipes, 2021-04-14-Wed.
+- RPC MS Docs, https://docs.microsoft.com/en-us/windows/win32/rpc/microsoft-rpc-components, 2021-04-14-Wed.
+- Windows Sockets 2 MS Docs, https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2, 2021-04-14-Wed.
