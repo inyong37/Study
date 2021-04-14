@@ -47,7 +47,38 @@ The code will run natively on any compatible OS. Different .Net implementations 
 ## *.NET Framework* | [MS Docs](https://docs.microsoft.com/en-us/dotnet/framework/)
 .NET Framework is a technology that supports building and running Windows apps and web services.
 
-## *IPC* | 
+## *Interprocess Communications (IPC)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/interprocess-communications)
+The Windows operating system provides mechanism for facilitating communications and data sharing between applications. Typically, applications can use IPC categorized as clients or servers. A client is an application or a process that requests a servce from some other application or process. A server is an application or a process that responds to a client request. Many applications act as both a client and a server, depending on the situation. 
+
+The answers to below questions determine whether an application cna benefit by using one or more IPC mechanisms.
+- Should the applications be able to communicate with other applications running on other computers on a network, or is it sufficient for the applications to communicate only with applications on the local computer?
+- Should the application be able to communicate with applications running on other computers that may be running under different operating systems (sych as 16-bit Windows or UNIX)?
+- Should the user of the application have to choose the other applications with which the application communicates, or can the application implicitly find its cooperating partners?
+- Should the application communicate with many different applications in a general way, such as allowing cut-and-paste operations with any other application, or should its communications requirements be limited to a restricted set of interactions with specific other application?
+- Is performance a critical aspect of the application? All IPC mechanisms include some amount of overhead.
+- Should the application be a GUI appliction or a consol application? Some IPC mechanisms require a GUI application.
+
+### *IPC: Clipboard*
+The clipboard acts as a depository for data sharing among applications. All applications should support the clipboard for those data formats that they understand.
+
+### *IPC: COM*
+Applications that use OLE manage compound documents-that is, documents made up for data from a variety of different applications. OLE provides services that make it easy for applications to call on other applications for data editing.
+
+### *IPC: Data Copy*
+Data copy enables an application to send information to another application using the `WM_COPYDATA` message. This method requires cooperation between the sending application and the receiving application. Data copy can be used to quickly send information to another application using Windows messaging.
+
+### *IPC: DDE*
+DDE is a protocol that enables applications to exchange data in a variety of formats. DDE is not as efficient as newer technologies. However, you can still use DDE if other IPC mechanisms are not suitable or if you must interface with an existing application that only supports DDE.
+
+### *IPC: File Mapping*
+File mapping enables a process to treat the contents of a file as if they were a block of memory in the process's address space. The process can use simple pointer operations to examine and modify the contents of the file. File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.
+
+### *IPC: Mailslots*
+Mailslots provide on-way communication. Any process that creates a mailslot is a mailslot server. Other processes, called mailslot clients, send messages to the mailslot erver by writing a message to its mailslot. Incoming messages are always appended to the mailslot. The mailslot saves the messages until the mailslot server has read them. A process can be both a mailslot server and a mailslot client, so two-way communication os possible using multiple mailslots. Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.
+
+### *IPC: Pipes*
+### *IPC: RPC*
+### *IPC: Windows Sockets*
 
 ## *Signal* | [MS Docs]9https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
 Sets interrupt signal handling
@@ -261,5 +292,6 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - .Net Documentation, https://docs.microsoft.com/en-us/dotnet/, 2021-04-06-Tue.
 - .Net Framework Documentation, https://docs.microsoft.com/en-us/dotnet/framework/, 2021-04-06-Tue.
 - What is .NET?, https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet?&WT.mc_id=Educationaldotnet-c9-scottha, 2021-04-06-Tue.
+- Windows IPC MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/interprocess-communications, 2021-04-14-Wed.
 - Windows IPC Blog KR, http://dolphin.ivyro.net/file/windows_api/windows_ipc.html, 2021-04-14-Wed.
 - Signal MS Docs, https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160, 2021-04-14-Wed.
