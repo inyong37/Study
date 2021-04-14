@@ -89,7 +89,9 @@ Mailslots provide on-way communication. Any process that creates a mailslot is a
 **Mailslots offer an easy way for applications to send and receive short messages. They also proved the ability to broadcast messages across all computers in a network domain.**
 
 ### *IPC: Pipes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/pipes)
-There are two types of pipes for two-way communication: anonymous pipes and named pipes.
+A pipe is a section of shared memory that processes use for communication. The process that creates a pipe is the pipe server. A process that connects to a pipe is a pipe client. One process writes information to the pipe, then the other process reads the information from the pipe.
+
+There are two types of pipes for two-way communication: anonymous pipes and named pipes. 
 
 Anonymous pipes eanable related processes to transfer information to each other. Typically, an anonymous pipe is used for redirecting the standard input or output of a child process so that it can exchange data with its parent process. To exchange data in both directions (duplex operation), you must create two anonymous pipes. The parent process writes data to one pipe using its write handle, while the cihld process reads the data from that pipe using its read handle. Similarly, the child process writes data to the other pipe and the parent process reads from it. Anonymous pipes cannot be used over a network, nor can they be used between unrelated processes.
 
@@ -105,11 +107,13 @@ The RPC provided by Windows is compliant with the Open Software Foundation (OSF)
 **RPC is a function-level interface, with support for automatic data conversion and for communications with other operating systems. Using RPC, you can create high-performance, tightly coupled distributed applications.**
 
 ### *IPC: Windows Sockets* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2)
-**Windows Sockets is a protocol-independent interface.** It takes advantage of the communication capabilities of the underlying protocols. In Windows Sockets 2, a socket handle can optionally be used as a file handle with the standard file I/O functions.
+Windows Sockets 2 (Winsock) enables programmers to create advanced Internet, intranet, and other network-capable applications to transmit application data across the wire, independent of the network protocol being used.
+
+Windows Sockets is a protocol-independent interface. It takes advantage of the communication capabilities of the underlying protocols. In Windows Sockets 2, a socket handle can optionally be used as a file handle with the standard file I/O functions.
 
 **Windows Sockets are based on the sockets first popularized by Berkeley Software Distribution (BSD). An application that uses Windows Sockets can communicate with other socket implementation on other types of systems. However, not all transport service providers support all available options.**
 
-Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities.
+**Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities.**
 
 ## *Signal* | [MS Docs]9https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
 Sets interrupt signal handling
