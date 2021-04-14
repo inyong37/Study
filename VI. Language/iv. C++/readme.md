@@ -214,6 +214,9 @@ void foo(int bar = 0);
     
 ### std::map<type, type>
 
+### Function Name Mangling | [Blog (KR)]
+C++에서는 함수 중복을 하기 때문에 함수 이름이 같더라도 구별되는 인자열에 따라 다른 이름을 만들어준다. 컴파일러가 어떤 일관된 규칙에 따라 함수를 부호화하는 것이다. 방법은 컴파일러마다 다르지만 The Annotated C++ Reference Manual에 name encoding이라는 내용이다.
+
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
 - Friend Class, Friend Function, https://yeolco.tistory.com/116, 2020-06-11-Thu.
@@ -237,3 +240,4 @@ void foo(int bar = 0);
 - C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
 - GetDriveType(), https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-getdrivetypea, 2021-01-06-Wed.
 - Exception Handling Blog KR, https://blog.hexabrain.net/179, 2021-04-12-Mon.
+- Function name mangling Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=neokjc&logNo=60050291436&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-04-14-Wed.
