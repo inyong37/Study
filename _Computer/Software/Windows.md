@@ -137,26 +137,45 @@ Sets interrupt signal handling
   - SIGSEGV: Illegal storage access
   - SIGTERM: Termination request
 
-### Data Types | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
+### *Data Types* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 - LPARAM: A message parameter. This type is declared in WinDef.h as `typedef LONG_PTR LPARAM;`
 - LRESULT: Signed result of message processing. This type is declared in WinDef.h as `typedef LONG_PTR LRESULT;`
 - WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
 
-### What do the letters W and L stand for in WPARAM and LPARAM? | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
+### *What do the letters W and L stand for in WPARAM and LPARAM?* | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
 When Windows was 16-bit, each message could carry with it two pieces of data, called WPARAM and LPARAM. The WPARAM was a 16-bit value ("word"), so it was called W. The LPARAM was a 32-bit value ("long"), so it was called L. W parameter is used to pass things like handles and integers, and L parameter is used to pass pointers.
 
 When Windows was converted to 32-bit, the WPARAM grew to a 32-bit value as well. So even thought the "W" stands for "word", it isn't a word any more. And in 64-bit Windows, both parameters are 64-bit values. When you look at the design of window messages, you will see that if the message takes a pointer, the pointer is usually passed in the LPARAM, whereas if the message takes a handle or an integer, then it is passed in the WPARAM. And if a message takes both, the integer goes in the WPARAM and the pointer goes in the LPARAM.
 
-### What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows? | [MS](https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303)
+### *What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows?* | [MS](https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303)
 Truncation. When 64-bit process sends a message to a 32-bit window, the 64-bit WPARAM and LPARAM values are truncated to 32 bits. Similary, when a 64-bit window returns an LRESULT back to a 32-bit sender, the value is truncated.
 
 The WPARAM is zero-extended, while LPARAM and LRESULT are sign-extended. WORD is an unsigned type (therefore zero-extended) and LONG is a signed type (therefore sign-extended). UNIT_PTR is an unsigned type (therefore zero-extended) and LONG_PTR is a signed type (therefore sign-extended).
 
-### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
+### *Data Type Ranges* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 
-### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
+### *Built-in Types (C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
 
-### Keywords (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
+### *Keywords (C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
+
+### *Windows Coding Conventions* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/windows-coding-conventions)
+
+### *Working with Strings* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
+
+### *What Is a Window?* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-)
+Windows are central to Windows. They are so important that they named the operating system after them. This type of window is called an application window or main window. It typically has a frame with a title bar, Minimize and Maximize buttons, and other standard UI elements. The frame is called the non-client area of the window, so called because the operating system manages that portion of the window. The area within the frame is the client area. This is the part of the window that programmer manages.
+
+UI controls, such as buttons and edit boxes are themselves windows. The major difference between a UI control and an application window is that a control does not exist by itsef. Instead, the control is positioned relative to the application window. When user drags the application window, the control moves with it, as user would expect. Also, the control and the application window can communicate with each other. For example, the application window receives click notifiations from a button.
+
+Therefore, when thinking window, do not simply think application window. Instead, think of a window as a programming construct that: Occupies a certain portion of the screen. May or may not be visible at a given moment. Knows how to draw itself. Responds to events from the user or the operating system.
+
+In the case of a UI control, the control window is said to be the cihld of the application window. The application window is the parent of the control window. The parent window provides the coordinate system used for positioning a child window. Having a parent window affects aspects of a window's appearance; for example, a child window is clipped so that no part of the child window can appear outside the borders of its parent window.
+
+Another relationship is the relation between an application window and a model dialog window. When an application display a modal dialog, the application window is the owner window, and the dialog is an owned window. An owned window always appears in front if its owner window. It is hidden when the owner is minimized, and is destroyed at the same time as the owner.
+
+Windows are objects-they have both code and data-but they are not C++ classes. Instead, a program references a window by using a value called a handle. A handle is an opaque type. Essentially, it is just a nimber that the operating system uses to identify an object. You can picture Windows as having a big table of all the windows that have been created. It uses this table to look up windows by their handles. (Whether that's exactly how it works internally is not important.) The data type for window handles is HWND, which is usually pronounced "aitch-wind"." Window handles are returned by the functions that create windows: CreateWindow and CreateWindowEX.
+
+To perform an operation on a window, you will typically call some function that takes an HWND value as a parameter. Keep in mind that handles are not pointers. If hwnd is a variable that contains a handle, attempting to dereference the handle by writing *hwnd is an error.
 
 ## *Folder*
 
@@ -377,3 +396,6 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - The Old New Thing, https://devblogs.microsoft.com/oldnewthing/, 2021-04-15-Thu.
 - What do the letters W and L stand for in WPARAM and LPARAM, https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713, 2021-04-15-Thu.
 - What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows?, https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303, 2021-04-15-Thu.
+- Windows Coding Conventions, https://docs.microsoft.com/en-us/windows/win32/learnwin32/windows-coding-conventions, 2021-04-15-Thu.
+- Working with Stings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-04-15-Thu.
+- What Is a Window?, https://docs.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-, 2021-04-15-Thu.
