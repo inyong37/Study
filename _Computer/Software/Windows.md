@@ -138,6 +138,9 @@ Sets interrupt signal handling
   - SIGTERM: Termination request
 
 ### Data Types | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
+- LPARAM: A message parameter. This type is declared in WinDef.h as `typedef LONG_PTR LPARAM;`
+- LRESULT: Signed result of message processing. This type is declared in WinDef.h as `typedef LONG_PTR LRESULT;`
+- WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
 
 ### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 
