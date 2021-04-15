@@ -177,6 +177,8 @@ Windows are objects-they have both code and data-but they are not C++ classes. I
 
 To perform an operation on a window, you will typically call some function that takes an HWND value as a parameter. Keep in mind that handles are not pointers. If hwnd is a variable that contains a handle, attempting to dereference the handle by writing *hwnd is an error.
 
+Coordinates are measured in device-independent pixles, We'll have more to say about the device indepenedent part of device-independent pixels when we discuss graphics. Depending on your task, you might measure coordinates relative to the screen, relative to a window (including the frame), or relative to the client area of a window. For example, you would position a window on the screen using coordinates, but you would draw inside a window using client coordinates. In each case, the origin (0, 0) is always the top-left corner of the region.
+
 ## *Folder*
 
 ### *Program Files*
