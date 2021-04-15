@@ -179,6 +179,17 @@ To perform an operation on a window, you will typically call some function that 
 
 Coordinates are measured in device-independent pixles, We'll have more to say about the device indepenedent part of device-independent pixels when we discuss graphics. Depending on your task, you might measure coordinates relative to the screen, relative to a window (including the frame), or relative to the client area of a window. For example, you would position a window on the screen using coordinates, but you would draw inside a window using client coordinates. In each case, the origin (0, 0) is always the top-left corner of the region.
 
+### WinMain: The Application Entry Point | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
+Every Windows pogram includes an entry-point function that is named either WinMain or wWinMain
+- `int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow);`
+- `INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, INT nCmdShow) {return 0;}`
+
+`hInstance` is something called a "handle to an instance" or "handle to a module". The operating system uses this value to identify the executable (EXE) when it is loaded in memory. The instance handle is needed for certain Windows functions-for exmplae, to load icons or bitmaps. `hPrevInstance` has no meaning. It was used in 16-bit Windows, but is now always zero. `pCmdLine` contains the command-line arguments as a Unicode string. `nCmdShow` is a flag that says whether the main application window will be minimized, maximized, or shown normally. The function returns an int value. The return value is not used by the oeprating system, but you can use the reutnr value to convey a status code to some other program that you write. `WINAPI` is the calling convention. A calling convention defines how a function receives parameters from the caller. For example, it defines the order that parameters appear on the stack. Just make sure to declare your wWinMain function as shown.
+
+The WinMain function is identical to wWinMain, except the command-line arguments are passed as an ANSI string. The Unicode version is perferred. You can use the ANSI WinMain function even if you compile your program as Unicode. To get a Unicode copy of the command-line arguments in a single string. If you want the arguments as an argv-style array, pass this string to CommandLineToArgvW.
+
+How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
+
 ## *Folder*
 
 ### *Program Files*
@@ -401,3 +412,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Windows Coding Conventions, https://docs.microsoft.com/en-us/windows/win32/learnwin32/windows-coding-conventions, 2021-04-15-Thu.
 - Working with Stings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-04-15-Thu.
 - What Is a Window?, https://docs.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-, 2021-04-15-Thu.
+- WinMain, https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point, 2021-04-15-Thu.
