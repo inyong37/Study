@@ -190,6 +190,16 @@ The WinMain function is identical to wWinMain, except the command-line arguments
 
 How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
 
+### Walkthrought: Create a tranditional Windows Desktop application (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=msvc-160&viewFallbackFrom=vs-2019)
+
+### Overview | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program)
+
+### Creating a Window | [MS DOcs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/creating-a-window)
+- [WNDCLASSA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa)
+- [CreateWindowA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa)
+
+### Window Messages | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages)
+
 ## *Folder*
 
 ### *Program Files*
@@ -415,3 +425,9 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - WinMain, https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point, 2021-04-15-Thu.
 - WinMain (1) soen, http://soen.kr/lecture/win32api/lec2/lec2-2-1.htm, 2021-04-15-Thu.
 - WinMain (2) soen, http://soen.kr/lecture/win32api/lec2/lec2-2-2.htm, 2021-04-15-Thu.
+- Whole Process Walkthrough: Create a tranditional Windows Desktop application (C++), https://docs.microsoft.com/en-us/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=msvc-160&viewFallbackFrom=vs-2019, 2021-04-15-Thu.
+- Overview, https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program, 2021-04-15-Thu.
+- Creating a Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/creating-a-window, 2021-04-15-Thu.
+- Window Messages (Get Started with Win32 and C++), https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages, 2021-04-15-Thu.
+- WNDCLASSA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa, 2021-04-15-Thu.
+- CreatWindowA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa, 2021-04-15-Thu.
