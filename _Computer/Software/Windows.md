@@ -137,6 +137,10 @@ Sets interrupt signal handling
   - SIGSEGV: Illegal storage access
   - SIGTERM: Termination request
 
+### Data Types | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
+
+### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
+
 ## *Folder*
 
 ### *Program Files*
@@ -348,3 +352,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Windows Sockets 2 MS Docs, https://docs.microsoft.com/en-us/windows/win32/winsock/windows-sockets-start-page-2, 2021-04-14-Wed.
 - Anonymous Pipe Operations MS Docs, https://docs.microsoft.com/en-us/windows/win32/ipc/anonymous-pipe-operations, 2021-04-14-Wed.
 - Creating Named Shared Memory, https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory, 2021-04-14-Wed.
+- Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-04-15-Thu.
+- Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019, 2021-04-15-Thu.
