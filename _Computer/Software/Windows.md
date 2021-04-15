@@ -143,12 +143,14 @@ Sets interrupt signal handling
 - WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
 
 ### What do the letters W and L stand for in WPARAM and LPARAM? | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
-
 When Windows was 16-bit, each message could carry with it two pieces of data, called WPARAM and LPARAM. The WPARAM was a 16-bit value ("word"), so it was called W. The LPARAM was a 32-bit value ("long"), so it was called L. W parameter is used to pass things like handles and integers, and L parameter is used to pass pointers.
 
 When Windows was converted to 32-bit, the WPARAM grew to a 32-bit value as well. So even thought the "W" stands for "word", it isn't a word any more. And in 64-bit Windows, both parameters are 64-bit values. When you look at the design of window messages, you will see that if the message takes a pointer, the pointer is usually passed in the LPARAM, whereas if the message takes a handle or an integer, then it is passed in the WPARAM. And if a message takes both, the integer goes in the WPARAM and the pointer goes in the LPARAM.
 
 ### What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows? | [MS](https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303)
+Truncation. When 64-bit process sends a message to a 32-bit window, the 64-bit WPARAM and LPARAM values are truncated to 32 bits. Similary, when a 64-bit window returns an LRESULT back to a 32-bit sender, the value is truncated.
+
+The WPARAM is zero-extended, while LPARAM and LRESULT are sign-extended. WORD is an unsigned type (therefore zero-extended) and LONG is a signed type (therefore sign-extended). UNIT_PTR is an unsigned type (therefore zero-extended) and LONG_PTR is a signed type (therefore sign-extended).
 
 ### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 
