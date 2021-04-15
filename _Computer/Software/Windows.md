@@ -142,6 +142,14 @@ Sets interrupt signal handling
 - LRESULT: Signed result of message processing. This type is declared in WinDef.h as `typedef LONG_PTR LRESULT;`
 - WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
 
+### What do the letters W and L stand for in WPARAM and LPARAM? | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
+
+When Windows was 16-bit, each message could carry with it two pieces of data, called WPARAM and LPARAM. The WPARAM was a 16-bit value ("word"), so it was called W. The LPARAM was a 32-bit value ("long"), so it was called L. W parameter is used to pass things like handles and integers, and L parameter is used to pass pointers.
+
+When Windows was converted to 32-bit, the WPARAM grew to a 32-bit value as well. So even thought the "W" stands for "word", it isn't a word any more. And in 64-bit Windows, both parameters are 64-bit values. When you look at the design of window messages, you will see that if the message takes a pointer, the pointer is usually passed in the LPARAM, whereas if the message takes a handle or an integer, then it is passed in the WPARAM. And if a message takes both, the integer goes in the WPARAM and the pointer goes in the LPARAM.
+
+### What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows? | [MS](https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303)
+
 ### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 
 ### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
@@ -363,3 +371,7 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019, 2021-04-15-Thu.
 - Built-in Types (C++), https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-04-15-Thu.
 - Keywords (C++), https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160, 2021-04-15-Thu.
+- The meaning of W and L in WPARAM and LPARAM, https://archive.vn/hUc6B#selection-959.0-1011.199, 2021-04-15-Thu.
+- The Old New Thing, https://devblogs.microsoft.com/oldnewthing/, 2021-04-15-Thu.
+- What do the letters W and L stand for in WPARAM and LPARAM, https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713, 2021-04-15-Thu.
+- What happens to WPARAM, LPARAM, and LRESULT when they travel between 32-bit and 64-bit windows?, https://devblogs.microsoft.com/oldnewthing/20110629-00/?p=10303, 2021-04-15-Thu.
