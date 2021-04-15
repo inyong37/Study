@@ -179,7 +179,7 @@ To perform an operation on a window, you will typically call some function that 
 
 Coordinates are measured in device-independent pixles, We'll have more to say about the device indepenedent part of device-independent pixels when we discuss graphics. Depending on your task, you might measure coordinates relative to the screen, relative to a window (including the frame), or relative to the client area of a window. For example, you would position a window on the screen using coordinates, but you would draw inside a window using client coordinates. In each case, the origin (0, 0) is always the top-left corner of the region.
 
-### WinMain: The Application Entry Point | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
+### *WinMain: The Application Entry Point* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point)
 Every Windows pogram includes an entry-point function that is named either WinMain or wWinMain
 - `int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow);`
 - `INT WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, INT nCmdShow) {return 0;}`
@@ -190,15 +190,15 @@ The WinMain function is identical to wWinMain, except the command-line arguments
 
 How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
 
-### Walkthrought: Create a tranditional Windows Desktop application (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=msvc-160&viewFallbackFrom=vs-2019)
+### *Walkthrought: Create a tranditional Windows Desktop application (C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=msvc-160&viewFallbackFrom=vs-2019)
 
-### Overview | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program)
+### *Overview* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program)
 
-### Creating a Window | [MS DOcs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/creating-a-window)
+### *Creating a Window* | [MS DOcs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/creating-a-window)
 - [WNDCLASSA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa)
 - [CreateWindowA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa)
 
-### Window Messages | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages)
+### *Window Messages* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages)
 
 ## *Folder*
 
