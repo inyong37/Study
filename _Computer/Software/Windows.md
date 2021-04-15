@@ -413,3 +413,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Working with Stings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-04-15-Thu.
 - What Is a Window?, https://docs.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-, 2021-04-15-Thu.
 - WinMain, https://docs.microsoft.com/en-us/windows/win32/learnwin32/winmain--the-application-entry-point, 2021-04-15-Thu.
+- WinMain (1) soen, http://soen.kr/lecture/win32api/lec2/lec2-2-1.htm, 2021-04-15-Thu.
+- WinMain (2) soen, http://soen.kr/lecture/win32api/lec2/lec2-2-2.htm, 2021-04-15-Thu.
