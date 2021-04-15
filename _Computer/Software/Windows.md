@@ -144,6 +144,10 @@ Sets interrupt signal handling
 
 ### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 
+### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
+
+### Keywords (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
+
 ## *Folder*
 
 ### *Program Files*
@@ -357,3 +361,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Creating Named Shared Memory, https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory, 2021-04-14-Wed.
 - Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-04-15-Thu.
 - Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019, 2021-04-15-Thu.
+- Built-in Types (C++), https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-04-15-Thu.
+- Keywords (C++), https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160, 2021-04-15-Thu.
