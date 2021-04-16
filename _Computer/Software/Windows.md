@@ -244,6 +244,8 @@ While your window procedure executes, it blocks any other messgaes for windows c
 
 ### *Closing the Window* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window)
 
+### *Managin Application State* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-)
+
 ## *Folder*
 
 ### *Program Files*
@@ -485,3 +487,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Writing the Window Procedure, https://docs.microsoft.com/en-us/windows/win32/learnwin32/writing-the-window-procedure, 2021-04-16-Fri.
 - Painting the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/painting-the-window, 2021-04-16-Fri.
 - Closing the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window, 2021-04-16-Fri.
+- Managin Application State, https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-, 2021-04-16-Fri.
