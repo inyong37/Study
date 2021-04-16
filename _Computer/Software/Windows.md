@@ -458,3 +458,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - WINAPI vs. APIENTRY Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-04-16-Fri.
 - Windows GDI, https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi, 2021-04-16-Fri.
 - DWORD, https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/262627d8-3418-4627-9218-4ffe110850b2, 2021-04-16-Fri.
+- WD_COPYDATA size, https://forums.codeguru.com/showthread.php?464640-How-much-data-and-what-type-can-be-sent-using-WM_COPYDATA, 2021-04-16-Fri.
