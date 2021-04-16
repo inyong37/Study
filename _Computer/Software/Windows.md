@@ -232,6 +232,11 @@ When the window procedure returns, it returns back to Dispatch Message. This ret
 ### *Posted Messages vs. Sent Meesages*
 Sometimes, the operating system will call a window procedure directly, bypassing the queue. The terminology for this distinction can be confusing: Posting a message means the message goes on the message queue, and is dispatched through the message loop (GetMessage and DispatchMessage). Sending a message means the message skips the queue, and the operating system calls the window procedure directly. The window procedure handles all messages. However, some messages bypass the queue and go directly to your window procedure. However, it can make a difference if your application communicates between windows.
 
+### *SendMessage function* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendmessage)
+Sends the specified message to a window or windows. The SendMessage function calls the window procedure for the specified window and does not return until the window procedure has processed the message. To send a message and reutnr immediately, use the SendMessageCallback or SendNotifyMessage function. To post a message to a thread's message queue and return immediately, use the PostMessage or PostThreadMessage function. `LRESULT SendMessage(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam);`
+
+HWND hWnd: A handle to the window whose window procedure will receive the message. If this parameter is HWND_BROADCAST ((HWND)0xffff), the message is sent to all top-level windows in the system, includeing disabled or invisible unowned windows, overlapped windows, and pop-up windows; but the message is not sent to child windows. UINT: The message to be sent. WPARAN wParam: Additional message-specific information. LPARAM lParam: Additional message-specific information. LRESULT: The return value specifies the result of the message processing; it depends on the message sent.
+
 ### *Writing the Window Procedure* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/writing-the-window-procedure)
 The DispatchMessage function calls the window procedure of the window that is the target of the message. `LRESULT CALLBACK WindowProc(HWND hwnd, UNIT uMSG, WPARAM wParam, LPARAM lParam);` hwnd is a handle to the window. uMsg is the message code; for example, the WM_SIZE message indicates the window was resized. wParam and lParam contain additional data that pertains to the message. The exact meaning depends on the message code. LRESULT is an integer value that your program returns to Windows. It contains your program's respones to a particular message. The meaning of this value depends on the message code. CALLBACK is the calling convention for the function.
 
@@ -488,3 +493,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Painting the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/painting-the-window, 2021-04-16-Fri.
 - Closing the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window, 2021-04-16-Fri.
 - Managin Application State, https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-, 2021-04-16-Fri.
+- SendMessage, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendmessage, 2021-04-16-Fri.
