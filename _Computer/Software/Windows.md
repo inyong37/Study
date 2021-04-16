@@ -281,6 +281,9 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 ### *Wine (Wine is not a emulator)* | [Homepage](https://www.winehq.org/)
 Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프로그램을 실행할 수 있는 호환성 레이어이다. 가상 머신이나 에뮬레이터와 같이 내부 Windows 로직을 시뮬레이션하는 대신 Wine은 Windows API 호출을 POSIX 시스템 호출로 즉시 대체한다. 다른 방식과 다르게 성능이나 메모리 문제가 적으며, Windows 프로그램을 desktop에 깔끔하게 통합할 수 있다.
 
+### *Windows GDI* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi)
+The Microsoft Windows graphics device interface (GDI) enables applications to use graphics and formatted text on both the video display and the printer. Windows-based applications do not access the graphics hardware directly. Instead, GDI interacts with device drivers on behalf of applications.
+
 ## *Command*
 
 ### *Compile a C Program on the Command Line, Command `cl`* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
@@ -452,3 +455,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - WNDCLASSA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa, 2021-04-15-Thu.
 - CreatWindowA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa, 2021-04-15-Thu.
 - WINAPI vs. APIENTRY Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-04-16-Fri.
+- Windows GDI, https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi, 2021-04-16-Fri.
