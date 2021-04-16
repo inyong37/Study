@@ -190,6 +190,17 @@ The WinMain function is identical to wWinMain, except the command-line arguments
 
 How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
 
+### WINAPI vs. APIENTRY | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F)
+```C++
+// <windef.h>
+...
+#define WINAPI __stdcall
+#define WINAPIV __cdecl
+#define APIENTRY WINAPI
+#define APIPRIVATE __stdcall
+...
+```
+
 ### *Walkthrought: Create a tranditional Windows Desktop application (C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=msvc-160&viewFallbackFrom=vs-2019)
 
 ### *Overview* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/your-first-windows-program)
@@ -431,3 +442,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Window Messages (Get Started with Win32 and C++), https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages, 2021-04-15-Thu.
 - WNDCLASSA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-wndclassa, 2021-04-15-Thu.
 - CreatWindowA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa, 2021-04-15-Thu.
+- WINAPI vs. APIENTRY Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-04-16-Fri.
