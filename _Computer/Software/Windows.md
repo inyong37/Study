@@ -229,8 +229,13 @@ Althought the MSG structure contains information about the message, you will alm
 
 When the window procedure returns, it returns back to Dispatch Message. This returns to the message loop for the next message. As long as your program is running, messages will continue to arrive on the queue. Therefore, you must have a loop that continually pulls messages from the queue and dispatches them. Normally, GetMessage returns a nonzero value. When you want to exit the application and break out of the message loop, call the PostQuitMessage function `PostQuitMessage(0);`. The PostQuitMessage function puts a WM_QUIT message on the message queue. WM_QUIT is a special message: it causes GetMessage to return zero, signaling the end of the message loop.
 
-### Posted Messages vs. Sent Meesages
+### *Posted Messages vs. Sent Meesages*
 Sometimes, the operating system will call a window procedure directly, bypassing the queue. The terminology for this distinction can be confusing: Posting a message means the message goes on the message queue, and is dispatched through the message loop (GetMessage and DispatchMessage). Sending a message means the message skips the queue, and the operating system calls the window procedure directly. The window procedure handles all messages. However, some messages bypass the queue and go directly to your window procedure. However, it can make a difference if your application communicates between windows.
+
+### *Writing the Window Procedure* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/writing-the-window-procedure)
+The DispatchMessage function calls the window procedure of the window that is the target of the message. `LRESULT CALLBACK WindowProc(HWND hwnd, UNIT uMSG, WPARAM wParam, LPARAM lParam);` hwnd is a handle to the window. uMsg is the message code; for example, the WM_SIZE message indicates the window was resized. wParam and lParam contain additional data that pertains to the message. The exact meaning depends on the message code. LRESULT is an integer value that your program returns to Windows. It contains your program's respones to a particular message. The meaning of this value depends on the message code. CALLBACK is the calling convention for the function.
+
+A typical window procedure is simply a large switch statement that switches on the message code. Add cases for each message that you want to handle. Additional data for the message is contained in the lParam and wParam parameters. Both parameters are integer values the size of a pointer width (32 bits or 64 bits). The meaning of each depends on the message code (uMSG). For each message, you will need to look up the message code on MSDN and cast the parameters to the correct data type. Usually the data is either a numeric value or a pointer to a structure. Some messages do not have any data.
 
 ## *Folder*
 
@@ -470,3 +475,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Windows GDI, https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi, 2021-04-16-Fri.
 - DWORD, https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/262627d8-3418-4627-9218-4ffe110850b2, 2021-04-16-Fri.
 - WD_COPYDATA size, https://forums.codeguru.com/showthread.php?464640-How-much-data-and-what-type-can-be-sent-using-WM_COPYDATA, 2021-04-16-Fri.
+- Writing the Window Procedure, https://docs.microsoft.com/en-us/windows/win32/learnwin32/writing-the-window-procedure, 2021-04-16-Fri.
