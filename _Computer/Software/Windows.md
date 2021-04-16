@@ -89,7 +89,7 @@ File mapping enables a process to treat the contents of a file as if they were a
 
 **File mapping is an efficient way for two or more processes on the same computer to share data, but you must provide synchronization between the processes.**
 
-### Creating Named Shared Memory | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory)
+### *Creating Named Shared Memory* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/memory/creating-named-shared-memory)
 To share data, multiple processes can use memory-mapped files that the system paging file stores.
 
 ### *IPC: Mailslot*
@@ -190,7 +190,7 @@ The WinMain function is identical to wWinMain, except the command-line arguments
 
 How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
 
-### WINAPI vs. APIENTRY
+### *WINAPI vs. APIENTRY*
 ```C++
 // <windef.h>
 ...
