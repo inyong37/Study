@@ -190,14 +190,22 @@ The WinMain function is identical to wWinMain, except the command-line arguments
 
 How does the compiler know to invoke wWinMain instead of the standard main function? What actually happens is that the Microsoft C runtime library (CRT) provides an implementation of main that calls either WinMain or wWinMain. The CRT does some additional work inside main. For example, any static initializers are called before wWinMain. Althought you can tell the linker to use a different entry-point function, use the default if you link to the CRT. Otherwise, the CRT initialization code will be skipped, with unpredictable results. (For example, global objects will not be initialized correctly.)
 
-### WINAPI vs. APIENTRY | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F)
+### WINAPI vs. APIENTRY
 ```C++
 // <windef.h>
+...
+#define WINAPI      CDECL
+#define WINAPIV     CDECL
+#define APIENTRY    WINAPI
 ...
 #define WINAPI __stdcall
 #define WINAPIV __cdecl
 #define APIENTRY WINAPI
 #define APIPRIVATE __stdcall
+...
+#define WINAPI
+#define WINAPIV
+#define APIENTRY    WINAPI
 ...
 ```
 
@@ -210,6 +218,7 @@ How does the compiler know to invoke wWinMain instead of the standard main funct
 - [CreateWindowA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa)
 
 ### *Window Messages* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages)
+
 
 ## *Folder*
 
