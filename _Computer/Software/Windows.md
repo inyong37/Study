@@ -240,6 +240,10 @@ A typical window procedure is simply a large switch statement that switches on t
 ### *Avoding Bottlenecks in You Window Procedure*
 While your window procedure executes, it blocks any other messgaes for windows created on the same thread. Therefore, avoid lengthy processing inside your window procedure. For example, suppose your program opens a TCP connection and waits indefinitely for the server to respond. If you do that inside the window procedure, your UI will not respond until the request completes. During that time, the window cannot process mouse or keyboard input, repaint itself, or even close. Instead, you should move the work to another thread, using one of the multitasking facilities that are built into Windows: Create a new thread, use a thread pool, use asynchronous I/O calls, use asynchronous procedure calls.
 
+### *Painting the Window* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/painting-the-window)
+
+### *Closing the Window* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window)
+
 ## *Folder*
 
 ### *Program Files*
@@ -479,3 +483,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - DWORD, https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/262627d8-3418-4627-9218-4ffe110850b2, 2021-04-16-Fri.
 - WD_COPYDATA size, https://forums.codeguru.com/showthread.php?464640-How-much-data-and-what-type-can-be-sent-using-WM_COPYDATA, 2021-04-16-Fri.
 - Writing the Window Procedure, https://docs.microsoft.com/en-us/windows/win32/learnwin32/writing-the-window-procedure, 2021-04-16-Fri.
+- Painting the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/painting-the-window, 2021-04-16-Fri.
+- Closing the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window, 2021-04-16-Fri.
