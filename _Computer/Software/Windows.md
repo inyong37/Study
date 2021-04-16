@@ -141,6 +141,7 @@ Sets interrupt signal handling
 - LPARAM: A message parameter. This type is declared in WinDef.h as `typedef LONG_PTR LPARAM;`
 - LRESULT: Signed result of message processing. This type is declared in WinDef.h as `typedef LONG_PTR LRESULT;`
 - WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
+- DWORD: A 32-bit unsigned integer (range: 0 throught 4294967295 decimal) `typedef unsigned long DWORD, *PDWORD, *LPDWORD;`
 
 ### *What do the letters W and L stand for in WPARAM and LPARAM?* | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
 When Windows was 16-bit, each message could carry with it two pieces of data, called WPARAM and LPARAM. The WPARAM was a 16-bit value ("word"), so it was called W. The LPARAM was a 32-bit value ("long"), so it was called L. W parameter is used to pass things like handles and integers, and L parameter is used to pass pointers.
@@ -218,7 +219,7 @@ How does the compiler know to invoke wWinMain instead of the standard main funct
 - [CreateWindowA](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa)
 
 ### *Window Messages* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/window-messages)
-
+A GUI application must respond to events from the user and from the oeprating system. Events from the user include all the ways that someone can interact with your program: mouse clicks, key strokes, touch-screen gestures, and so on. Events from the operating system include anything "outside" of the program that can affect how the porgram behaves. For example, the user might plug in a new hardware device, or Windows might enter a lower-power state (sleep or hibernate). These events can occur at any time while the program is running, in almost any order. Windows uses a meesage-passing model. The operating system communuicates with your application window by passing messages to it. A message is simply a numeric code that designates a particular event. For example, if the user presses the left mouse button, the window receives a message that has the following message code.
 
 ## *Folder*
 
@@ -456,3 +457,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - CreatWindowA, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowa, 2021-04-15-Thu.
 - WINAPI vs. APIENTRY Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=k7102147&logNo=150029897435&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-04-16-Fri.
 - Windows GDI, https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi, 2021-04-16-Fri.
+- DWORD, https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dtyp/262627d8-3418-4627-9218-4ffe110850b2, 2021-04-16-Fri.
