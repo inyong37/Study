@@ -265,6 +265,17 @@ The CreateProcess function creates a new process, which runs independently of th
 
 If CreateProcess succeeds, it returns a PROCESS_INFORMATION structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, althought access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using CloseHandle function.
 
+### PROCESS_INFORMATION structure (processthreadsapi.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information)
+Contains information about a newly created process and its primary thread. It is used with the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, or CreateProcessWithTokenW function.
+```C++
+typedef struct _PROCESS_INFORMATION {
+  HANDLE hProcess;
+  HANDLE hThread;
+  DWORD dwProcessId;
+  DWORD dwThreadId;
+} PROCESS_INFORMATION, *PROCESS_INFORMATION, *LPPROCESS_INFORMATION;
+```
+
 ## *Folder*
 
 ### *Program Files*
@@ -512,3 +523,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - CreateProcessA(), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa, 2021-04-19-Mon.
 - Child Process, https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes, 2021-04-19-Mon.
 - Creating Processes, https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes, 2021-04-19-Mon.
+- PROCESS_INFORMATION structure (processthreadsapi.h), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information, 2021-04-19-Mon.
