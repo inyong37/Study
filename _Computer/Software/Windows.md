@@ -257,6 +257,14 @@ Runs the specified application. This function is provided only for compatibility
 ### CreateProcessA function (processthreadsapi.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
 Create a new process and its primary thread. The new process runs in the security context of the calling process. If the calling process is impersonating another user, the new process uses the token for the calling process, not the impersonation token. To run the new process in the security context of the user represented by the impersonation token, use the CreateProcessAsUser or CreateProcessWithLogonW function.
 
+### Child Process | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes)
+Each process provides the resources needed to execute a program. A child process is a process that is created by another process, called the parent process.
+
+### Creating Processes | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes)
+The CreateProcess function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
+
+If CreateProcess succeeds, it returns a PROCESS_INFORMATION structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, althought access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using CloseHandle function.
+
 ## *Folder*
 
 ### *Program Files*
@@ -502,3 +510,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - SendMessage(), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendmessage, 2021-04-16-Fri.
 - WinExec(), https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winexec, 2021-04-19-Mon.
 - CreateProcessA(), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa, 2021-04-19-Mon.
+- Child Process, https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes, 2021-04-19-Mon.
+- Creating Processes, https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes, 2021-04-19-Mon.
