@@ -251,6 +251,12 @@ While your window procedure executes, it blocks any other messgaes for windows c
 
 ### *Managin Application State* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-)
 
+### WinExec function (winbase.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winexec)
+Runs the specified application. This function is provided only for compatibility with 16-bit Windows. Application should use the CreateProcess function. `UNIT WinExec(LPCSTR lpCmdLine, UNIT uCmdShow);`
+
+### CreateProcessA function (processthreadsapi.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
+Create a new process and its primary thread. The new process runs in the security context of the calling process. If the calling process is impersonating another user, the new process uses the token for the calling process, not the impersonation token. To run the new process in the security context of the user represented by the impersonation token, use the CreateProcessAsUser or CreateProcessWithLogonW function.
+
 ## *Folder*
 
 ### *Program Files*
@@ -493,4 +499,6 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Painting the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/painting-the-window, 2021-04-16-Fri.
 - Closing the Window, https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window, 2021-04-16-Fri.
 - Managin Application State, https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-, 2021-04-16-Fri.
-- SendMessage, https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendmessage, 2021-04-16-Fri.
+- SendMessage(), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendmessage, 2021-04-16-Fri.
+- WinExec(), https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winexec, 2021-04-19-Mon.
+- CreateProcessA(), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa, 2021-04-19-Mon.
