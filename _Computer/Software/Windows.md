@@ -73,6 +73,20 @@ Data copy enables an application to send information to another application usin
 
 **Data copy can be used to quickly send information to another application using Windows messaging.**
 
+### *WM_COPYDATA message* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata)
+An application sends the WM_COPYDATA message to pass data to another application. `wParam`: A handle to the window passing the data. `lParam`: A pointer to a COPYDATASTRUCT structure that contains the data to be passed. If the receiving application processes this message, it should return TRUE; othersiw, it should return FALSE.
+
+### *COPYDATASTRUCT structure (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-copydatastruct)
+Contains data to be passed to another appliction by the WM_COPYDATA message.
+```C++
+typedef struct tagCOPYDATASTRUCT {
+  ULONG_PTR dwData;
+  DWORD cbData;
+  PVOID lpData;
+} COPYDATASTRUCT, *PCOPYDATASTRUCT;
+```
+`dwData`: The type of the data to be passed to the receiving application. The receiving application defines the valid types. `cbData`: The size, in bytes, of the data pointed to by the lpData member. `lpData`: The data to be passed to the receiving application. This member can be NULL.
+
 ### *IPC: DDE (Dynamic Data Exchange)*
 DDE is a protocol that enables applications to exchange data in a variety of formats. 
 
@@ -527,3 +541,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Child Process, https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes, 2021-04-19-Mon.
 - Creating Processes, https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes, 2021-04-19-Mon.
 - PROCESS_INFORMATION structure (processthreadsapi.h), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information, 2021-04-19-Mon.
+- COPYDATASTRUCT structure (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-copydatastruct, 2021-04-19-Mon.
+- WM_COPYDATA message, https://docs.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata, 2021-04-19-Mon.
