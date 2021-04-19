@@ -263,23 +263,23 @@ While your window procedure executes, it blocks any other messgaes for windows c
 
 ### *Closing the Window* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/closing-the-window)
 
-### *Managin Application State* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-)
+### *Managing Application State* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/managing-application-state-)
 
-### WinExec function (winbase.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winexec)
+### *WinExec function (winbase.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winexec)
 Runs the specified application. This function is provided only for compatibility with 16-bit Windows. Application should use the CreateProcess function. `UNIT WinExec(LPCSTR lpCmdLine, UNIT uCmdShow);`
 
-### CreateProcessA function (processthreadsapi.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
+### *CreateProcessA function (processthreadsapi.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)
 Create a new process and its primary thread. The new process runs in the security context of the calling process. If the calling process is impersonating another user, the new process uses the token for the calling process, not the impersonation token. To run the new process in the security context of the user represented by the impersonation token, use the CreateProcessAsUser or CreateProcessWithLogonW function.
 
-### Child Process | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes)
+### *Child Process* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/child-processes)
 Each process provides the resources needed to execute a program. A child process is a process that is created by another process, called the parent process.
 
-### Creating Processes | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes)
+### *Creating Processes* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/creating-processes)
 The CreateProcess function creates a new process, which runs independently of the creating process. However, for simplicity, the relationship is referred to as a parent-child relationship.
 
 If CreateProcess succeeds, it returns a PROCESS_INFORMATION structure containing handles and identifiers for the new process and its primary thread. The thread and process handles are created with full access rights, althought access can be restricted if you specify security descriptors. When you no longer need these handles, close them by using CloseHandle function.
 
-### PROCESS_INFORMATION structure (processthreadsapi.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information)
+### *PROCESS_INFORMATION structure (processthreadsapi.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information)
 Contains information about a newly created process and its primary thread. It is used with the CreateProcess, CreateProcessAsUser, CreateProcessWithLogonW, or CreateProcessWithTokenW function.
 ```C++
 typedef struct _PROCESS_INFORMATION {
