@@ -553,3 +553,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - WM_COPYDATA message, https://docs.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata, 2021-04-19-Mon.
 - Inheritance, https://docs.microsoft.com/en-us/windows/win32/procthread/inheritance, 2021-04-20-Tue.
 - GetDesktopWindow function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdesktopwindow?redirectedfrom=MSDN, 2021-04-20-Tue.
+- SetParent function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setparent, 2021-04-20-Tue.
