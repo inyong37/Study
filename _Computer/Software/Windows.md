@@ -302,21 +302,26 @@ Retrieves a handle to the desktop window. The desktop window covers the entire s
 Changes the parent window of the specified child window. `HWND SetParent(HWND hWndChild, HWND hWndNewParent);`. `hWndNewParent`: A handle to the new parent window. If this parameter is NULL, the desktop window becomes the new parent window. If this parameter is HWND_MESSAGE, the child window becomes a message-only-window. If the function succeeds, the return value is a handle to the previous parent window. If the function fails, the return value is NULL.
 
 ### *Window Features* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features)
-- Clipping
 
+### *Clipping*
 The system does not automatically clip a child window from the parent window's client area. This means the parent window draws over the cihld window if it carries out any drawing in the same location as the cihld window. However, the system does clip the child window from the parent window's client area if the parent window has the WS_CLIPCHILDREN style. If the child window is clipped, the parent window cannot draw over it.
 
-- Relationship to Parent Window
-
+### *Relationship to Parent Window*
 An application can change the parent window of an existing child window by calling the SetParent function. In this case, the system removes the child window from the client area of the old parent window and moves it to the client area of the new parent window. If SetParent specifies a NULL handle, the desktop window becomes the new parent window. In this case, the child window is drawn on the desktop, outside the borders of any other window. The GetParent function retrieves a handle to a child window's parent window.
 
 The EnumChildWindows function enumerates the child windows of a parent window. Then EnumChildWindows passes the handle to each child window to an application-defined callback function. Descendant windows of the given parent window are also enumerated.
 
-- Messages
-
+### *Messages*
 The system passes a child window's input messages directly to the child window; the messages are not passed through the parent window. The only exception is if the child window has been disables by the EnableWindow function. In this case, the system passes any input messages that would have gone to the child window to the parent window instead. This permits the parent window to examine the input messages and enable the child window, if necessary.
 
 A child window can have a unique integer identifier. Child window identifiers are important when working with control windows. An application directs a control's activity by sending it messages. The application uses the control's window identifier to direct the messages to the control. In addition, a control sends notification messages to its parent window. A notification message includes the control's child window identifier, which the parent uses to identify which control sent the message. An application specifies the cihld-window identifier for other types of child windows by setting the hMenu parameter of the CreateWindowEx function to a value rathre than a menu handle.
+
+### *Message-Only Windows*
+A message-only window enables you to send and receive messages. It is not visible, has no z-order, cannot be enumerated, and does not receive broadcast messages. The window simply dispatches messages.
+
+To create a message-only window, specify the HWND_MESSAGE constant or a handle to an existing message-only window in the hWndParent parameter of the CreateWindowEx function. You can also change an existing window to a message-only window by specifying HWND_MESSAGE in the hWndNewParent parameter of the SetParent function.
+
+To find message-only windows, specify HWND_MESSAGE in the hwndParent parameter of the FindWindowEx function. In addition, FindWindowEx searches message-only windows as well as top-level windows if both the hwndParent and hwndChildAfter parameters are NULL.
 
 ## *Folder*
 
