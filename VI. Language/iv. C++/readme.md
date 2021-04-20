@@ -254,3 +254,4 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - struct, http://www.tcpschool.com/cpp/cpp_struct_intro, 2021-04-16-Fri.
 - struct Blog KR, https://boycoding.tistory.com/183, 2021-04-16-Fri.
 - struct, https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-160, 2021-04-16-Fri.
+- string append Blog, https://modoocode.com/307, 2021-04-20-Tue.
