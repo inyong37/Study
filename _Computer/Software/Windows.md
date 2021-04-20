@@ -293,6 +293,8 @@ typedef struct _PROCESS_INFORMATION {
 
 If the function succeeds, be sure to call the CloseHandle function to close the hProcess and hThread handles when you are finished with tem. Otherwise, when the child process exits, the system cannot clean up the process structures for the cihld process because the parent process still has open handles to the child process. However, the system will close these handles when the parent process terminates, so the structures related to the child process object would be cleaned up at this point.
 
+### *Inheritance* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/inheritance)
+
 ## *Folder*
 
 ### *Program Files*
@@ -543,3 +545,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - PROCESS_INFORMATION structure (processthreadsapi.h), https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/ns-processthreadsapi-process_information, 2021-04-19-Mon.
 - COPYDATASTRUCT structure (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-copydatastruct, 2021-04-19-Mon.
 - WM_COPYDATA message, https://docs.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata, 2021-04-19-Mon.
+- Inheritance, https://docs.microsoft.com/en-us/windows/win32/procthread/inheritance, 2021-04-20-Tue.
