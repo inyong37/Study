@@ -298,6 +298,9 @@ If the function succeeds, be sure to call the CloseHandle function to close the 
 ### *GetDesktopWindow function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdesktopwindow?redirectedfrom=MSDN)
 Retrieves a handle to the desktop window. The desktop window covers the entire screen. The desktop window is the area on top of which other windows are painted. `HWND GetDesktopWindow();`
 
+### *SetParent function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setparent)
+Changes the parent window of the specified child window. `HWND SetParent(HWND hWndChild, HWND hWndNewParent);`. `hWndNewParent`: A handle to the new parent window. If this parameter is NULL, the desktop window becomes the new parent window. If this parameter is HWND_MESSAGE, the child window becomes a message-only-window. If the function succeeds, the return value is a handle to the previous parent window. If the function fails, the return value is NULL.
+
 ## *Folder*
 
 ### *Program Files*
