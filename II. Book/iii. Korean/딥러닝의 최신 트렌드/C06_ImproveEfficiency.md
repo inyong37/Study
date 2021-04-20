@@ -14,38 +14,38 @@
 
 ### 부동 소수점과 딥러닝
 
-## 04 모바일 네트워크 (Mobile Network)
+## 04 모바일 네트워크(Mobile Network)
 ### 모바일 네트워크의 부상
 
-### 깊이별로 구분이 가능한 합성곱 (Depthwise Separable Convolution)
+### 깊이별로 구분이 가능한 합성곱(Depthwise Separable Convolution)
 
 ### 너비와 해상도 초모수
 
-## 05 네트워크 프루닝 (Network Pruning)
+## 05 네트워크 프루닝(Network Pruning)
 ### 네트워크 프루닝의 개념
 
 ### 네트워크 프루닝의 초기 결과
 
 ### 네트워크 프루닝의 최신 연구
 
-## 06 심층 압축 (Deep Compression)
+## 06 심층 압축(Deep Compression)
 ### 심층 압축의 개념
 
-### 인공신경망의 양자화 (Quantization)
+### 인공신경망의 양자화(Quantization)
 
-### 허프만 코딩 (Huffman Coding)
+### 허프만 코딩(Huffman Coding)
 
-## 07 이진신경망 (Binary Neural Network)
+## 07 이진신경망(Binary Neural Network)
 ### 이진신경망의 개념
 
 ### 이진신경망의 연산
 
 ### 이진신경망의 접근 방법
 
-## 08 Once For All (OFA) 신경망
+## 08 Once For All 신경망
 ### 인공신경망을 다양하 하드웨어로 학습하는 방법
 
-### Once For All (OFA) 신경망의 접근 방법
+### Once For All(OFA) 신경망의 접근 방법
 
 ### 환경 친화적인 인공지능
 
@@ -56,7 +56,7 @@
 
 ### 지식 증류의 실험 결과
 
-## 10 딥러닝 하드웨어의 성능 측정 (MLPerf)
+## 10 딥러닝 하드웨어의 성능 측정(MLPerf)
 ### MLPerf의 개념
 
 ### MLPerf의 추론 성능 기준
