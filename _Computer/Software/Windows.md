@@ -323,6 +323,12 @@ To create a message-only window, specify the HWND_MESSAGE constant or a handle t
 
 To find message-only windows, specify HWND_MESSAGE in the hwndParent parameter of the FindWindowEx function. In addition, FindWindowEx searches message-only windows as well as top-level windows if both the hwndParent and hwndChildAfter parameters are NULL.
 
+### *getpid* | [MS Docs](https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/posix-getpid?view=msvc-160)
+The Microsoft-implemented POSIX function name getpid is a deprecated alias for the _getpid function.
+
+### *_getpid* | [MS Docs](https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/getpid?view=msvc-160)
+Gets the process identification. This API cannot be used in applications that execute in the Windows Runtime. `int _getpid(void);`
+
 ## *Folder*
 
 ### *Program Files*
@@ -577,3 +583,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - GetDesktopWindow function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdesktopwindow?redirectedfrom=MSDN, 2021-04-20-Tue.
 - SetParent function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setparent, 2021-04-20-Tue.
 - Window Features, https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features, 2021-04-20-Tue.
+- getpid, https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/posix-getpid?view=msvc-160, 2021-04-20-Tue.
+- _getpid, https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/getpid?view=msvc-160, 2021-04-20-Tue.
