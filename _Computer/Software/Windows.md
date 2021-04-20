@@ -295,6 +295,9 @@ If the function succeeds, be sure to call the CloseHandle function to close the 
 
 ### *Inheritance* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/procthread/inheritance)
 
+### *GetDesktopWindow function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdesktopwindow?redirectedfrom=MSDN)
+Retrieves a handle to the desktop window. The desktop window covers the entire screen. The desktop window is the area on top of which other windows are painted. `HWND GetDesktopWindow();`
+
 ## *Folder*
 
 ### *Program Files*
@@ -546,3 +549,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - COPYDATASTRUCT structure (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-copydatastruct, 2021-04-19-Mon.
 - WM_COPYDATA message, https://docs.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata, 2021-04-19-Mon.
 - Inheritance, https://docs.microsoft.com/en-us/windows/win32/procthread/inheritance, 2021-04-20-Tue.
+- GetDesktopWindow function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdesktopwindow?redirectedfrom=MSDN, 2021-04-20-Tue.
