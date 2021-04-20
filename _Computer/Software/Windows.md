@@ -337,6 +337,8 @@ The lifetime of the returned value is managed by the system, applications should
 ### *CommandLineToArgvW function (shellapi.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw)
 Parse a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values. `LPWSTR * CommandLineToArgvW(LPCWSTR lpCmdLine, int *pNumArgs);`.
 
+### *HWND to Sting* | [Stackoverflow](https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode)
+
 ## *Folder*
 
 ### *Program Files*
@@ -596,3 +598,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - GetCommandLineA function (processenv.h), https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinea, 2021-04-20-Tue.
 - GetCommandLineW function (processenv.h), https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinew, 2021-04-20-Tue.
 - CommandLineToArgvW function (shellapi.h), https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw, 2021-04-20-Tue.
+- HWND to String, https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode, 2021-04-20-Tue.
