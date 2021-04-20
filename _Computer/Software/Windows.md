@@ -329,6 +329,14 @@ The Microsoft-implemented POSIX function name getpid is a deprecated alias for t
 ### *_getpid* | [MS Docs](https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/getpid?view=msvc-160)
 Gets the process identification. This API cannot be used in applications that execute in the Windows Runtime. `int _getpid(void);`
 
+### *GetCommandLineW function (processenv.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinew)
+Retrueves the command-line string for the current process. `LPWSTR GetCommandLineW();`. The return value is a pointer to the command-line string for the current process.
+
+The lifetime of the returned value is managed by the system, applications should not free or modify this value. Console processes can use the argc and argv arguments of the main or wmain functions by implementing those as the program entry point. GUI processes can use the lpCmdLine argument of the WinMain or wWinMain functions by implementing those as the program entry point. To convert the command line to an argv style array of strings, pass the result from GetCommandLineW to CommandLineToArgvW.
+
+### *CommandLineToArgvW function (shellapi.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw)
+Parse a Unicode command line string and returns an array of pointers to the command line arguments, along with a count of such arguments, in a way that is similar to the standard C run-time argv and argc values. `LPWSTR * CommandLineToArgvW(LPCWSTR lpCmdLine, int *pNumArgs);`.
+
 ## *Folder*
 
 ### *Program Files*
@@ -585,3 +593,6 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Window Features, https://docs.microsoft.com/en-us/windows/win32/winmsg/window-features, 2021-04-20-Tue.
 - getpid, https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/posix-getpid?view=msvc-160, 2021-04-20-Tue.
 - _getpid, https://docs.microsoft.com/ko-kr/cpp/c-runtime-library/reference/getpid?view=msvc-160, 2021-04-20-Tue.
+- GetCommandLineA function (processenv.h), https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinea, 2021-04-20-Tue.
+- GetCommandLineW function (processenv.h), https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinew, 2021-04-20-Tue.
+- CommandLineToArgvW function (shellapi.h), https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw, 2021-04-20-Tue.
