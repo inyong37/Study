@@ -157,6 +157,28 @@ Sets interrupt signal handling
 - WPARAM: A message parameter. This type is declared in WinDef.h as `typedef UINT_PTR WPARAM;`
 - DWORD: A 32-bit unsigned integer (range: 0 throught 4294967295 decimal) `typedef unsigned long DWORD, *PDWORD, *LPDWORD;`
 
+### *Windows Data Types for Strings* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings)
+Most string operations can use the same logic for Unicode and for Windows code pages. The only difference is that the basic unit of operation is a 16-bit character (also known as a wide character) for Unicode and an 8-bit character for Windows code pages. The Windows header files provide several type definitions that make it easy to create sources that can be compiled for Unicode or for Windows code pages.
+
+Windows supports three sets of character and string data types: a set of generic type definitions that can compile for either Unicode or Windows code pages, and two sets of specific type definitions. One set of specific type definitions is for use with Unicode, and the other is for use with Windows code pages.
+
+```C++
+#ifdef UNICODE // To support other languages.
+  typedef wchar_t TCHAR;
+#else
+  typedef unsigned char TCHAR;
+#endif
+typedef TCHAR *LPTSTR, *LPTCH;
+// 8-bit character specific
+typedef unsigned char CHAR;
+typedef CHAR *LPSTR, *LPCH;
+// Unicode specific (wide characters) To support other languages.
+typedef unsigned wchar_t WCHAR;
+typedef WCHAR *LPWSTR, *LPWCH;
+```
+
+The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR.
+
 ### *What do the letters W and L stand for in WPARAM and LPARAM?* | [MS](https://devblogs.microsoft.com/oldnewthing/20031125-00/?p=41713)
 When Windows was 16-bit, each message could carry with it two pieces of data, called WPARAM and LPARAM. The WPARAM was a 16-bit value ("word"), so it was called W. The LPARAM was a 32-bit value ("long"), so it was called L. W parameter is used to pass things like handles and integers, and L parameter is used to pass pointers.
 
@@ -599,3 +621,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - GetCommandLineW function (processenv.h), https://docs.microsoft.com/en-us/windows/win32/api/processenv/nf-processenv-getcommandlinew, 2021-04-20-Tue.
 - CommandLineToArgvW function (shellapi.h), https://docs.microsoft.com/en-us/windows/win32/api/shellapi/nf-shellapi-commandlinetoargvw, 2021-04-20-Tue.
 - HWND to String, https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode, 2021-04-20-Tue.
+- STR Blog KR, http://pelican7.egloos.com/v/1768951, 2021-04-21-Wed.
+- Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-04-21-Wed.
