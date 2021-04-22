@@ -16,6 +16,8 @@ Step 4. Allies - US KR JP vs. KP CN RU.
 
 Step 3. Countries - US KR JP KP CN RU.
 
+few-shot learning
+
 ## 3. Firearm Detection :gun:
 
 Battle Field
