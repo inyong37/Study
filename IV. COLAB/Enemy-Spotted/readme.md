@@ -32,6 +32,8 @@ Counter Strike
 
 Escape from Tarkov
 
+Insurgency
+
 ## 4. Firing Arms Angle Calculation :triangular_ruler:
 
 ![readme-enemy-spotted](https://user-images.githubusercontent.com/20737479/105256590-5fdff900-5bc9-11eb-8599-a1ea2338b542.JPG)
