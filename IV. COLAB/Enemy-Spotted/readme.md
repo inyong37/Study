@@ -26,7 +26,7 @@ Medal of Honor
 
 Call of Duty
 
-PUBG
+Player Unknown's Battle Ground
 
 Counter Strike
 
