@@ -128,36 +128,32 @@ It is casting operator used to traverse inheritance hierarchy dynamically at run
 It casts pointer or reference's base class instance to derived class or sibling class type.
 It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
-### Call
-
-#### Call by Value
+### *Call by Value*
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
 큰 구조체 또는 클래스를 함수에 전달할 때 값으로 전달하면 인수의 복사본을 함수 매개 변수로 만든다. 이 경우 복사하는데 큰 비용이 들어 성능이 저하될 수 있다. 그리고 값으로 인수를 전달할 경우 함수에서 호출자에게 값을 반환하는 유일한 방법은 함수의 반환 값을 사용하는 것이다. 이 방법도 좋지만, 함수에서 인수를 수정하는 것이 더 명확하고 효율적일 수 있다.
 
-#### Call by Reference (Pass by Reference)
+#### *Call by Reference (Pass by Reference)*
 call by reference/pass by reference 참조로 전달하면 함수를 위한 별도의 임시 공간은 생성되지만, 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달 받아 해당 변수를 가르키기 때문에 인자의 값이 변경되면 argument로 전달된 object의 값도 함께 변경된다.
 
-### Static
-#### Static Member Variable
+### Static Member Variable
 정적 멤버 변수는 클래스에는 속하지만 객체 별로 할당되지 않고 클래스의 모든 객체가 공유한다. 해당 클래스의 모든 객체에 대해 하나의 데이터만이 유지 관리된다. 선언은 클래스 영역에서 되지만, 정의는 파일 영역에서 수행된다. 이러한 정적 멤버 변수는 외부 연결을 가지므로, 여러 파일에서 접근할 수 있다.
 
 정적 멤버 변수에도 클래스 멤버의 접근 제한 규칙이 적용되므로, 클래스의 멤버 함수나 프렌드만이 접근할 수 있다. 하지만 외부에서도 접근할 수 있게 하고 싶으면, public 영역에 선언하면 된다.
 
-#### Static Member Function
+### Static Member Function
 정적 멤버 함수는 해당 클래스의 객체를 생성하지 않고도, 클래스 이름만으로 호출할 수 있다. 문법으로는 `object_name.member_function_name();`는 일반 멤버 함수의 호출이고, `class_name.member_function_name();`으로도 호출 가능하다. 정적 멤버 함수는 정적 멤버 변수를 선언하는 방법과 같이 static 키워드를 사용해서 선언한다. 특징으로는 객체를 생성하지 않고 클래스 이름만으로 호출 가능하며, 객체를 생성하지 않으므로 this 포인터를 가지지 않고, 특정 객체와 결합하지 않으므로 정적 멤버 변수만 사용 가능하다.
 
-### Const
-#### Constant Member Variable
+### Constant Member Variable
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
-##### Constant Member Function
+#### Constant Member Function
 상수 멤버 함수란 호출한 객체의 데이터를 변경할 수 없는 멤버 함수이며 함수의 원형 마지막에 `const` 키워드를 사용하여 선언한다. 호출한 객체의 데이터를 단순히 읽기만 하는 멤버 함수는 상수 멤버 함수로 정의하는 것이 정보 보호 측면에서 좋다. `function_name const;`
 
-#### `->`
+### `->`
 포인터 변수의 값을 참조하기 위한 연산자이다.
 
-```
+```C++
 struct foo_struct
 {
     char bar_arr[10];
@@ -173,7 +169,7 @@ struct foo_struct *a
 
 B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
 
-#### #if #elif #else #endif
+### `#if #elif #else #endif`
 ```
 #if condition1
 function1();
@@ -187,15 +183,15 @@ function3();
 #endif
 ```
 
-##### Static Versus Dynamic Binding
+#### Static Versus Dynamic Binding
 
-##### Forward Declarartions and Definitions
+#### Forward Declarartions and Definitions
 
-##### Anonymous Namespace
+#### Anonymous Namespace
 
-##### Extern Versus Static Versus Class Static
+#### Extern Versus Static Versus Class Static
 
-##### Singleton
+#### Singleton
 
 ### initialize function argument
 - foo.h
