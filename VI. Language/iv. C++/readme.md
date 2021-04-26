@@ -104,46 +104,42 @@ It used to save(output) string.
 ##### stringstream
 It used to modifie data of string.
 
-#### C Style Cast
-`(type-id)(e-pression)`
-
+### C Style Cast | [Explicit type conversion](https://en.cppreference.com/w/cpp/language/explicit_cast)
 It can convert(cast) A type to B type, it can convert(cast) any type to any type.
 
-#### C++ Style Cast
-`<type-id>(e-pression)`
+`(type-id)(e-pression)`, `(new_type)expression`, `new_type(expression)`, `new_type(arg1, arg2, ...)`, `new_type()`, `new_type{arg1, arg2, ...(optional)}` since C++11, `template-name(arg1, arg2, ...(optional))` since C++17, `template-name{arg1, arg2, ...(optional)}` since C++17
 
-It can convert(cast) A type to B type, it has to use right cast.
+### C++ Style Cast
+It can convert(cast) A type to B type, it has to use right cast. `<type-id>(e-pression)`
 
-##### `const_cast`
+#### `const_cast`
 It removes or grant constness to expression. It rarley used to grant constness to expression.
 
-##### `reinterpret_cast`
+#### `reinterpret_cast`
 It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
-##### `static_cast`
+#### `static_cast`
 It is basic cast as having same meaning and same ability to convert/cast as C style cast.
 It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness.
 It's name is because it checks its' type at moment of compile not at run-time.
 
-##### `dynamic_cast`
+#### `dynamic_cast`
 It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting.
 It casts pointer or reference's base class instance to derived class or sibling class type.
 It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
-#### Call
+### Call
 
-##### Call by Value
+#### Call by Value
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
 큰 구조체 또는 클래스를 함수에 전달할 때 값으로 전달하면 인수의 복사본을 함수 매개 변수로 만든다. 이 경우 복사하는데 큰 비용이 들어 성능이 저하될 수 있다. 그리고 값으로 인수를 전달할 경우 함수에서 호출자에게 값을 반환하는 유일한 방법은 함수의 반환 값을 사용하는 것이다. 이 방법도 좋지만, 함수에서 인수를 수정하는 것이 더 명확하고 효율적일 수 있다.
 
-##### Call by Reference (Pass by Reference)
-
+#### Call by Reference (Pass by Reference)
 call by reference/pass by reference 참조로 전달하면 함수를 위한 별도의 임시 공간은 생성되지만, 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달 받아 해당 변수를 가르키기 때문에 인자의 값이 변경되면 argument로 전달된 object의 값도 함께 변경된다.
 
-#### Static
-
-##### Static Member Variable
+### Static
+#### Static Member Variable
 정적 멤버 변수는 클래스에는 속하지만 객체 별로 할당되지 않고 클래스의 모든 객체가 공유한다. 해당 클래스의 모든 객체에 대해 하나의 데이터만이 유지 관리된다. 선언은 클래스 영역에서 되지만, 정의는 파일 영역에서 수행된다. 이러한 정적 멤버 변수는 외부 연결을 가지므로, 여러 파일에서 접근할 수 있다.
 
 정적 멤버 변수에도 클래스 멤버의 접근 제한 규칙이 적용되므로, 클래스의 멤버 함수나 프렌드만이 접근할 수 있다. 하지만 외부에서도 접근할 수 있게 하고 싶으면, public 영역에 선언하면 된다.
@@ -151,9 +147,8 @@ call by reference/pass by reference 참조로 전달하면 함수를 위한 별�
 #### Static Member Function
 정적 멤버 함수는 해당 클래스의 객체를 생성하지 않고도, 클래스 이름만으로 호출할 수 있다. 문법으로는 `object_name.member_function_name();`는 일반 멤버 함수의 호출이고, `class_name.member_function_name();`으로도 호출 가능하다. 정적 멤버 함수는 정적 멤버 변수를 선언하는 방법과 같이 static 키워드를 사용해서 선언한다. 특징으로는 객체를 생성하지 않고 클래스 이름만으로 호출 가능하며, 객체를 생성하지 않으므로 this 포인터를 가지지 않고, 특정 객체와 결합하지 않으므로 정적 멤버 변수만 사용 가능하다.
 
-#### Const
-
-##### Constant Member Variable
+### Const
+#### Constant Member Variable
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
 ##### Constant Member Function
@@ -255,3 +250,4 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - struct Blog KR, https://boycoding.tistory.com/183, 2021-04-16-Fri.
 - struct, https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-160, 2021-04-16-Fri.
 - string append Blog, https://modoocode.com/307, 2021-04-20-Tue.
+- C++ explicit_cast, https://en.cppreference.com/w/cpp/language/explicit_cast, 2021-04-26-Mon.
