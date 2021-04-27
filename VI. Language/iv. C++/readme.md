@@ -198,7 +198,54 @@ function3();
 
 #### Forward Declarartions and Definitions
 
-#### Anonymous Namespace
+### *Namespaces* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160)
+A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur expecially when your code base includes multiple libraries. All identifiers at namespace scope can access the members by using the fully qualified name for each identifier, for example `std::vector<std::string> vec;` or else by a using Declaration for a single identifier (`using std::string`), or a using Directive for all the identifiers in the namespace (`using namespace std;`). Code in header files should always use the fully qualified namespace name.
+
+### *Using Directives*
+
+### *Declaring Namespaces and Namespace Members*
+
+### *The Global Namespace*
+If an identifier is not declared in an explicit namespace, it is part of the implicit global namespace. In general, try to avoid making declarations at global scope when possible, except for the entry point main Function, which is required to be in the global namespace. To explicitly qualify a global identifier, use the scope resolution operator with no name, as in `::SomeFunction(x);`. This will differentiate the identifier from anything with the same name in any other namespace, and it will also help to make you code easier for others to understand.
+
+### *The std Namespace*
+
+### *Nested Namespaces*
+Namespaces may be nested. An ordinary nested namespace has unqualified access to its parent's members, but the parent members do not have unqualified access to the nested namespace (unless it is declared as inline), as shown in the following example:
+```C++
+namespace ContosoDataServer
+{
+    void Foo();
+    namespace Details
+    {
+        int CountImpl;
+        void Ban() {return Foo();}
+    }
+    
+    int Bar(){..};
+    int Baz(int i) {return Details::CountImpl;}
+}
+```
+Ordinary nested namespaces can be used to encapsulate internal implementation details that are not part of the public interface of the parent namespace.
+
+### *Namespace Aliases*
+Namespace names need to be unique, which means that often they should not be too short. If the length of a name makes code difficult to read, or is tedious to type in a header file where using directives can't be used, then you can make a namespace alias which serves as an abbreviation for the actual name. For example:
+```C++
+namespace a_very_long_namespace_name {class Foo {};}
+namespace AVLNN == a_very_long_namespace_name;
+void Bar(AVLNN::FOO foo){ }
+```
+### *Inline namespaces (C++ 11)*
+
+### *Anonymous or Unnamed Namespaces*
+You can create an explicit namespace but not give it a name:
+```C++
+namespace
+{
+    int MyFunc() {}
+}
+```
+This is called an unnamed or anonymous namespace and it is useful when you want to make variable declarations invisible to code in other files (i.e. give them internal linkage) without having to create a named namespace. All code in the same file can see the identifiers in an unnamed namespace but the identifiers, along with the namespace itself, are not visible outside that file-or more precisely outside the translation unit.
 
 #### Extern Versus Static Versus Class Static
 
@@ -262,3 +309,4 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - C++ dynamic_cast, https://en.cppreference.com/w/cpp/language/dynamic_cast, 2021-04-26-Mon.
 - C++ const_cast, https://en.cppreference.com/w/cpp/language/const_cast, 2021-04-27-Tue.
 - C++ reinterpret_cast, https://en.cppreference.com/w/cpp/language/reinterpret_cast, 2021-04-27-Tue.
+- Namespaces MS Docs, https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160, 2021-04-27-Tue.
