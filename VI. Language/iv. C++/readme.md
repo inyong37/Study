@@ -116,28 +116,28 @@ It can convert(cast) A type to B type, it can convert(cast) any type to any type
 - `template-name(arg1, arg2, ...(optional))` since C++17
 - `template-name{arg1, arg2, ...(optional)}` since C++17
 
-### C++ Style Cast
+### *C++ Style Cast*
 It can convert(cast) A type to B type, it has to use right cast. `<type-id>(e-pression)`
 
-#### `const_cast`
-It removes or grant constness to expression. It rarley used to grant constness to expression.
+### *const_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/const_cast)
+Converts between types with difference cv-qualificaion. It removes or grant constness to expression. It rarley used to grant constness to expression.
 
-#### `reinterpret_cast`
-It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
-
-### static_cast conversion | [cppreference](https://en.cppreference.com/w/cpp/language/static_cast)
-Converts between types using a combination of implicit and user-defined conversions.
-
-It is basic cast as having same meaning and same ability to convert/cast as C style cast. It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness. It's name is because it checks its' type at moment of compile not at run-time.
-
-Syntax: `static_cast<new_type>(expression)` returns a value of type new_type.
+Syntax: `const_cast<new_type>(expression)`, returns a value of type new_type
 
 #### *dynamic_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/dynamic_cast)
-Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy.
+Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy. It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting. It casts pointer or reference's base class instance to derived class or sibling class type. It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
-It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting. It casts pointer or reference's base class instance to derived class or sibling class type. It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
+Syntax: `dynamic_cast<new_type>(expression)`, new_type: pointers to complete class type, reference to complete class type, or pointer to (optionally cv-qualified) void. expression: lvalue (until C++11) glvalue (since C++11) of a complete class type if new_type is a reference, prvalue of a pointer to complete class type if new_type is a pointer. If the cast is successful, dynamic_cast returns a value of type new_type. If the cast fails and new_type is a pointer type, it returns a null pointer of that type. If the cast fails and new_type is a reference type, it throws an exception that matches a handler of type std::bad_cast.
 
-Syntax: `dynamic_cast<new_type>(expression)`, new_type; pointers to complete class type, reference to complete class type, or pointer to (optionally cv-qualified) void. expression; lvalue (until C++11) glvalue (since C++11) of a complete class type if new_type is a reference, prvalue of a pointer to complete class type if new_type is a pointer. If the cast is successful, dynamic_cast returns a value of type new_type. If the cast fails and new_type is a pointer type, it returns a null pointer of that type. If the cast fails and new_type is a reference type, it throws an exception that matches a handler of type std::bad_cast.
+### *reinterpret_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/reinterpret_cast)
+Converts between types by reinterpreting the underlying bit pattern. It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
+
+Syntax: `reinterpret_cast<new_type>(expression)`, returns a value of type new_type.
+
+### *static_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/static_cast)
+Converts between types using a combination of implicit and user-defined conversions. It is basic cast as having same meaning and same ability to convert/cast as C style cast. It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness. It's name is because it checks its' type at moment of compile not at run-time.
+
+Syntax: `static_cast<new_type>(expression)` returns a value of type new_type.
 
 ### *Call by Value*
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
@@ -259,3 +259,6 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - string append Blog, https://modoocode.com/307, 2021-04-20-Tue.
 - C++ explicit_cast, https://en.cppreference.com/w/cpp/language/explicit_cast, 2021-04-26-Mon.
 - C++ static_cast, https://en.cppreference.com/w/cpp/language/static_cast, 2021-04-26-Mon.
+- C++ dynamic_cast, https://en.cppreference.com/w/cpp/language/dynamic_cast, 2021-04-26-Mon.
+- C++ const_cast, https://en.cppreference.com/w/cpp/language/const_cast, 2021-04-27-Tue.
+- C++ reinterpret_cast, https://en.cppreference.com/w/cpp/language/reinterpret_cast, 2021-04-27-Tue.
