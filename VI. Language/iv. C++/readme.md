@@ -6,7 +6,7 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-### Data Type
+### *Data Type*
 |Type Name|Byte|Nickname|Value Range|
 |:-------:|:--:|:------:|:---------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
@@ -26,6 +26,8 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |double|8|none|1.7E +/- 308 (15 digits)|
 |long double|8|none|1.7E +/- 308 (15 digits)|
 
+### *Data Structure*
+
 ### Standard Template Library(STL)
 Library that provides data structure and algorithm as template
 
@@ -39,34 +41,36 @@ It is a class object that encapsulates a container's memory allocation policy. E
 It also called an object or data structure that stores objects. It is implemented as a class template.
 
 ##### Associative Container
-###### array
-###### vector
-###### list
-###### deque
+##### array
+##### vector
+##### list
+##### deque
 ##### Sequence Container
-###### set
-###### multiset
-###### map
-###### multimap
-#### Container Adaptor
+##### set
+##### multiset
+##### map
+##### multimap
+##### Container Adaptor
 It changes the component's interface to a component with a new interface.
 
 ##### stack
 ##### queue
 ##### Priority_queue
-#### Function Object
+### *Function Object*
 It is an object that behaves like a function, with the operator() operator overloaded. Client policy is reflected in containers and algorithms.
 
-#### Iterator
+### *Iterator*
 It is a function similar to a pointer that points to an element in a container, accesses the element it points to, and points to the next element.
 
-### untitled
+### *untitled*
 
-#### Ternary Operator
+### *Operator*
+### *Ternary Operator*
 `Conditional statement ? return value 1 : return value 2`
 
 If the conditional statment is true, return value 1 if it is false, return value 2.
 
+### :books: *Class*
 #### `friend` Class
 It can access to `private` and `protected member` to other `friend class`.
 
@@ -88,23 +92,23 @@ C++ provides smart pointer to guarantee program's secure with memory leak. It is
 #### `boost::scoped_ptr`
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
 
-#### `override`
+### override
 This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
 
 #### `typedef`
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
-#### sstream
-##### istringstream
+### sstream
+### istringstream
 It used to parse(input) string.
 
-##### ostringstream
+### ostringstream
 It used to save(output) string.
 
-##### stringstream
+### stringstream
 It used to modifie data of string.
 
-### Cast
+### :books: *Cast*
 ### *Call by Value*
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
