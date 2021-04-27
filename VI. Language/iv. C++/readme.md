@@ -80,35 +80,32 @@ Same as `friend class`, it gives other to access `private` and `protected member
 #### Static Variable (`static` as local variable)
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
 
-#### `virtual`
-It used to declare function virtually in parent class, and it make child class declare in real. It used to manage modules as component, as modules have one same parent and make class as themselves with specify along their property.
 
-#### Template
+
+### *Template*
 It codes only `.h`s not `.cc`s.
 
 #### Smart pointer
 C++ provides smart pointer to guarantee program's secure with memory leak. It is class template works as pointer, it releases memory automatically when useless. There was `auto_ptr` before C++11, and after C++11, there are `unique_ptr`, `shared_ptr`, and `weak_ptr`.
 
-#### `boost::scoped_ptr`
+#### *boost::scoped_ptr*
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
 
-### override
-This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
 
-#### `typedef`
+### *typedef*
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
-### sstream
-### istringstream
+### :books: *sstream*
+### *istringstream*
 It used to parse(input) string.
 
-### ostringstream
+### *ostringstream*
 It used to save(output) string.
 
-### stringstream
+### *stringstream*
 It used to modifie data of string.
 
-### :books: *Cast*
+### :books: *Call*
 ### *Call by Value*
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
@@ -117,6 +114,7 @@ It used to modifie data of string.
 ### *Call by Reference (Pass by Reference)*
 call by reference/pass by reference 참조로 전달하면 함수를 위한 별도의 임시 공간은 생성되지만, 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달 받아 해당 변수를 가르키기 때문에 인자의 값이 변경되면 argument로 전달된 object의 값도 함께 변경된다.
 
+### :books: *Cast*
 ### *C Style Cast* | [Explicit type conversion](https://en.cppreference.com/w/cpp/language/explicit_cast)
 It can convert(cast) A type to B type, it can convert(cast) any type to any type.
 
@@ -161,13 +159,23 @@ Syntax: `static_cast<new_type>(expression)` returns a value of type new_type.
 ### *Function Name Mangling* | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=neokjc&logNo=60050291436&proxyReferer=https:%2F%2Fwww.google.com%2F)
 C++에서는 함수 중복을 하기 때문에 함수 이름이 같더라도 구별되는 인자열에 따라 다른 이름을 만들어준다. 컴파일러가 어떤 일관된 규칙에 따라 함수를 부호화하는 것이다. 방법은 컴파일러마다 다르지만 The Annotated C++ Reference Manual에 name encoding이라는 내용이다.
 
+### :books: *Function Keyword*
+
+### *virtual*
+It used to declare function virtually in parent class, and it make child class declare in real. It used to manage modules as component, as modules have one same parent and make class as themselves with specify along their property.
+
+### *override*
+This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
+
+### *overloading*
+
 ### *Initialize Function Argument*
 - foo.h
 ```C++
 void foo(int bar = 0);
 ```
-
-### Keyword: ->
+### :books: *Keyword*
+### *->*
 포인터 변수의 값을 참조하기 위한 연산자이다.
 
 ```C++
@@ -186,7 +194,7 @@ struct foo_struct *a
 
 B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
 
-### Keyword: #if #elif #else #endif
+### *#if #elif #else #endif*
 ```C++
 #if condition1
 function1();
