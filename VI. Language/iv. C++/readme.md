@@ -180,6 +180,13 @@ The preprocessor expands macros in all lines except preprocessor directives, lin
 
 The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
 
+### *#if, #elif, #else, and #endif directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160)
+The `#if` directive, with the `#elif`, `#else`, and `#endif` directives, controls compilation of portions of a source file. If the expression you write (after the `#if`) has a nonzero value, the line group immediately following the `#if` directives is kept in the translation unit.
+
+### *Preprocessor Operator defined* 
+
+### *Preprocessor Operator __has_include*
+
 ### *#ifdef and #ifndef directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160)
 The `#ifdef` and `#ifndef` preprocessor directives have the same effect as the `#if` directive when it's used with the `defined` operator.
 
@@ -353,3 +360,5 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - Namespaces MS Docs, https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160, 2021-04-27-Tue.
 - C/C++ #ifdef and #ifndef directives, https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160, 2021-04-28-Wed.
 - C/C++ Macros, https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160, 2021-04-28-Wed.
+- Preprocessor Directives, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor-directives?view=msvc-160, 2021-04-28-Wed.
+- C/C++ #if, #elif, #else, and #endif directives, https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160, 2021-04-28-Wed.
