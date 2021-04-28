@@ -174,6 +174,14 @@ This keyword used at child class's virtual function, as `virtual` keyword is use
 ```C++
 void foo(int bar = 0);
 ```
+
+### *Macros (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160)
+The preprocessor expands macros in all lines except preprocessor directives, lines that have a # as the first non-white-space character. It expands macros in parts of some directives that aren't skipped as part of a conditional compilation. Conditional compilation directives allow you to suppress compilation of parts of a source file. They test a constant expression or identifier to determine which text blocks to pass on the the compiler, and which ones to remove from the source file during preprocessing.
+
+The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
+
+### *#ifdef and #ifndef directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160)
+
 ### :books: *Keyword*
 ### *->*
 포인터 변수의 값을 참조하기 위한 연산자이다.
@@ -208,7 +216,7 @@ function3();
 #endif
 ```
 
-### *Namespaces* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160)
+### :books: *Namespaces* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160)
 A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur expecially when your code base includes multiple libraries. All identifiers at namespace scope can access the members by using the fully qualified name for each identifier, for example `std::vector<std::string> vec;` or else by a using Declaration for a single identifier (`using std::string`), or a using Directive for all the identifiers in the namespace (`using namespace std;`). Code in header files should always use the fully qualified namespace name.
 
 ### *Using Directives*
@@ -275,7 +283,6 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 [struct] tag decalarators;
 ```
 
-
 ##### Static Versus Dynamic Binding
 
 ##### Forward Declarartions and Definitions
@@ -324,3 +331,5 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - C++ const_cast, https://en.cppreference.com/w/cpp/language/const_cast, 2021-04-27-Tue.
 - C++ reinterpret_cast, https://en.cppreference.com/w/cpp/language/reinterpret_cast, 2021-04-27-Tue.
 - Namespaces MS Docs, https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160, 2021-04-27-Tue.
+- C/C++ #ifdef and #ifndef directives, https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160, 2021-04-28-Wed.
+- C/C++ Macros, https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160, 2021-04-28-Wed.
