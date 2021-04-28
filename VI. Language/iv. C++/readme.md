@@ -209,6 +209,11 @@ The `#ifdef` directive is useful for checking whether a definition exists, becau
 #endif
 ```
 
+### *once pragma* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/once?view=msvc-160)
+Specifices that the compiler includes the header file only once, when compiling a source code file.
+
+Syntax: `#pragma once`
+
 ### :books: *Keyword*
 ### *->*
 포인터 변수의 값을 참조하기 위한 연산자이다.
@@ -362,3 +367,4 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 - C/C++ Macros, https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160, 2021-04-28-Wed.
 - Preprocessor Directives, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor-directives?view=msvc-160, 2021-04-28-Wed.
 - C/C++ #if, #elif, #else, and #endif directives, https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160, 2021-04-28-Wed.
+- once pragma, https://docs.microsoft.com/en-us/cpp/preprocessor/once?view=msvc-160, 2021-04-28-Wed.
