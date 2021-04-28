@@ -292,10 +292,10 @@ The struct keyword defines a structure type and/or a variable of a structure typ
 
 ## :books: *C++ Language Reference* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
 
-## *Keywords* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
+### *Keywords* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
 Keywords are predefined reserved identifiers that have special meanings. They can't be used as identifiers in your program. The following keywords are reserved for Microsoft C++. Names with leading underscores and names specified for C++/CX and C++/CLI are Microsoft extensions.
 
-## *Operators* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160)
+### *Operators* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160)
 The C++ language includes all C operators and adds several new operators. Operators specify an evaluation to be performed on one or more operands.
 
 ## :books: *C/C++ Preprocessor Reference* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-160)
@@ -303,6 +303,8 @@ The C/C++ preprocessor reference explains the preprocessor as it is implemented 
 
 In Visual Studio 2019 the /Zc:preprocessor compiler options provides a fully conformant C11 and C17 preprocessor. This is the default when you use the compiler flag `/std:c11` or `/std:c17`.
 
+### *Preprocessor* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160)
+The preprocessor is a text processor that manipulates the text of a source file as part of the first phase of translation. The preprocessor doesn't parse the source text, but it does break it up into tokens to locate macro calls. Although the compiler ordinarily invokes the preprocessor in its first pass, the preprocessor can also be invoked separately to process text without compiling.
 
 ### *Preprocessor Directives* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor-directives?view=msvc-160)
 Preprocessor directives, such as `#define` and `#ifdef`, are typically used to make source programs easy to change and easy to compile in different execution environments. Directives in the source file tell the preprocessor to take specific actions. For example, the preprocessor can replace tokens in the text, insert the contents of other files into the source file, or suppress compilation of part of the file by removing sections of text. Preprocessor lines are recognized and carried out before macro expansion. Therefore, if a macro expands into something that looks like a preprocessor command, it isn't recognized by the preprocessor.
@@ -314,11 +316,6 @@ The preprocessor recognizes the following directives: `#define`, `#elif`, `#else
 The number sign (`#`) mush be the first nonwhite-space character on the line containing the directive. White-space characters can appear between the number sign and the first letter of the directive. Some directives include arguments or values. Any text that follows a directive (except an argument or value that is part of the directive) must be preceded by the single-line commet delimiter (`//`) or enclosed in comment delimiters (`/* */`). Lines containing preprocessor directives can be continued by immediately preceding the end-of-line market with a backslash (`\`).
 
 Preprocessor directives can appear anywhere in a source file, but they apply only to the rest of the source file, after they apper.
-
-### *Macros (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160)
-The preprocessor expands macros in all lines except preprocessor directives, lines that have a # as the first non-white-space character. It expands macros in parts of some directives that aren't skipped as part of a conditional compilation. Conditional compilation directives allow you to suppress compilation of parts of a source file. They test a constant expression or identifier to determine which text blocks to pass on the the compiler, and which ones to remove from the source file during preprocessing.
-
-The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
 
 ### *#if, #elif, #else, and #endif directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160)
 The `#if` directive, with the `#elif`, `#else`, and `#endif` directives, controls compilation of portions of a source file. If the expression you write (after the `#if`) has a nonzero value, the line group immediately following the `#if` directives is kept in the translation unit.
@@ -349,11 +346,15 @@ The `#ifdef` directive is useful for checking whether a definition exists, becau
 #endif
 ```
 
+### *Macros (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160)
+The preprocessor expands macros in all lines except preprocessor directives, lines that have a # as the first non-white-space character. It expands macros in parts of some directives that aren't skipped as part of a conditional compilation. Conditional compilation directives allow you to suppress compilation of parts of a source file. They test a constant expression or identifier to determine which text blocks to pass on the the compiler, and which ones to remove from the source file during preprocessing.
+
+The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
+
 ### *once pragma* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/once?view=msvc-160)
 Specifices that the compiler includes the header file only once, when compiling a source code file.
 
 Syntax: `#pragma once`
-
 
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
@@ -398,3 +399,4 @@ Syntax: `#pragma once`
 - C++ Language Reference, https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160, 2021-04-28-Wed.
 - C++ Keywords, https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160, 2021-04-28-Wed.
 - C++ Operators, https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160, 2021-04-28-Wed.
+- Preprocessor, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160, 2021-04-28-Wed.
