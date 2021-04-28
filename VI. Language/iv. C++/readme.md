@@ -181,6 +181,26 @@ The preprocessor expands macros in all lines except preprocessor directives, lin
 The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
 
 ### *#ifdef and #ifndef directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160)
+The `#ifdef` and `#ifndef` preprocessor directives have the same effect as the `#if` directive when it's used with the `defined` operator.
+
+Syntax: 
+```C++
+#ifdef identifier
+#ifndef identifier
+```
+These directives are quivalent to:
+```C++
+#if defined identifier
+#if !defined identifier
+```
+The `#ifdef` directive is useful for checking whether a definition exists, because a definition can be passed from the command line. For example:
+```C++
+// ifdef_ifndef.CPP
+// compile with: /Dtest /c
+#ifndef test
+#define final
+#endif
+```
 
 ### :books: *Keyword*
 ### *->*
