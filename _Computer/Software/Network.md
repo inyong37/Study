@@ -77,3 +77,4 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 - File Descriptor Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
 - URI vs. URL vs. URN Blog KR, https://nsinc.tistory.com/192, 2021-03-08-Mon.
 - Cloud Computing and Edge Computing, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-09-Tue.
+- React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
