@@ -62,6 +62,10 @@ Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 �
 ### Edge Computing
 Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
 
+## Framework
+### *[Deno](https://deno.land/)*
+A secure runtim for JavaScript and TypeScript.
+
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
@@ -81,3 +85,4 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 - React, https://reactjs.org/, 2021-04-29-Thu.
 - Spring, https://spring.io/ 2021-04-29-Thu.
 - Node.js, https://nodejs.org/en/, 2021-04-29-Thu.
+- Deno, https://deno.land/, 2021-04-29-Thu.
