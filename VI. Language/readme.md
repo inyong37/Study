@@ -81,6 +81,13 @@ In computing, Just In Time (JIT) compilation (also dynamic translation or run-ti
 
 JIT compilation is a combination of the two tranditional approaches to translation to machine code - ahead-fo-time compilation (AOT), and interpretation - and combines some advantages and drawbacks of both. Roughly, JIT compilation combines the speed of compiled code with the flexibility of interpretation, with the overhead of an interpreter and the additional overhead of compiling and linking (not just interpreting). JIT compilation is a form of dynamic compilation, and allows adaptive optimizatoin such as dynamic recompilation and microarchitecture-specific speedups. Interpretation and JIT compilation are particulary suited for dynamic programming languages, as the runtime system can handle late-bound data types and enforce security guarantees.
 
+### Interpreter | [Wiki](https://en.wikipedia.org/wiki/Interpreter_(computing))
+In computer science, an interpreter is a computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. An interpreter generally uses one of the following strategies for program execution: 1. Parse the source code and perform its behavior directly; 2. Translate source code into some efficient intermediate representation and immediately execute this; 3. Explicitly execute stored precompiled code made by a compiler which is part of the interpreter system.
+
+Early verisons of LISP programming language and minicomputer and microcomputer BASIC dialects would be examples of the first type. Perl, Python, MATLAB, and Ruby are examples of the second, while UCSD Pascal is an example of the third type. Source programs are compiled ahead of time and stored as machine independent code, which is then linked at run-time and executed by an interpreter and/or compiler (for JIT systems). Some systems, such as Smalltalk and contemporary versions of BASIC and Java may also combine two and three. Interpreters of various types have also been constructed for many languages tranditionally associated with compilation, such as Algol, Fortran, Cobol, C and C++.
+
+While interpretation and compilation are the two main means by which programming languages are implemented, they are not mutually exclusive, as most interpreting systems also perform some translation work, just like compilers. The terms "interpreted language" or "compiled language" signify that the canonical implementation of that language is an interpreter or a compiler, respectively. A high-level language is ideally an abstraction independent of particular implementations.
+
 ### Reference
 1. CSS, https://www.w3.org/Style/CSS/, 2020-04-01-Wed.
 2. Verilog, https://en.wikipedia.org/wiki/Verilog, 2020-04-01-Wed.
@@ -105,3 +112,4 @@ JIT compilation is a combination of the two tranditional approaches to translati
 - C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
 - JIT Wiki, https://en.wikipedia.org/wiki/Just-in-time_compilation, 2021-04-29-Thu.
 - AOT Wiki, https://en.wikipedia.org/wiki/Ahead-of-time_compilation, 2021-04-29-Thu.
+- Interpreter Wiki, https://en.wikipedia.org/wiki/Interpreter_(computing), 2021-04-29-Thu.
