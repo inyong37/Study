@@ -78,3 +78,6 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 - URI vs. URL vs. URN Blog KR, https://nsinc.tistory.com/192, 2021-03-08-Mon.
 - Cloud Computing and Edge Computing, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-09-Tue.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
+- React, https://reactjs.org/, 2021-04-29-Thu.
+- Spring, https://spring.io/ 2021-04-29-Thu.
+- Node.js, https://nodejs.org/en/, 2021-04-29-Thu.
