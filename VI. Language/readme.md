@@ -67,6 +67,20 @@ Objective-C is the primary programming language when writing software for OS X a
 ## Swift | [Homepage](https://developer.apple.com/swift/)
 Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyond.
 
+### Ahead Of Time (AOT) Compilation | [Wiki](https://en.wikipedia.org/wiki/Ahead-of-time_compilation)
+In computer science, Ahead-Of-Time (AOT) compilation is the act of compilting an (often) higher-level programming language into an (often) lower-level language before execution of a program, usually at build-time, to reduce the amount of work needed to be performed at run time.
+
+Most often, It is associated with the act of compiling a high-level programming language such as C or C++, or an intermediate representation such as Java bytecode or .NET Framework Common Intermediate Language (CIL) code, into a native (system-dependent) machine code so that the resulting binary file can execute natively, just like a standard native compiler. When being used in this specific context, it's often seen as an opposite of just-in-time (JIT) compiling.
+
+Speaking more generally, the taregt language of an AOT compilation are not necessarily specific to native machine code but are defined rather arbitarily. Some academic papers use this word to mean the act or compiling the Java bytecode to C or the timing when optimization pipeline are performed. An academin project uses this word to mean the act of pre-compiling JavaScript to a machine-dependent optimized IR for V8 (JavaScript engine) and to a machine independent bytecode for JavaScriptCore. Some industrial language implementations (e.g. Closure and Hermes JavaScript engine) use this work to mean the act of pre-compiling the source language to VM specific bytecode. Angular (web framework) uses this word to mean converting its HTML template and TypeScript to JavaScript.
+
+In fact, since all static compilation are technically performed ahead of time, this particular wording are often used to emphaszie some kind of performance advantages from the act of such pre-compiling. The act of compiling Java to Java bytecode is hence rarely referred to as AOT since it's usually a requirment, not an optimization.
+
+### Just In Time (JIT) Compilation | [Wiki](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+In computing, Just In Time (JIT) compilation (also dynamic translation or run-time compilations) is a way of executing computing code that involves compilation during execution of a program - at run time - rather than before execution. Most often, this consists of source code or more commoly bytecode translation to machine code, which is then executed directly. A system implementing a JIT compiler typically continuously analyses the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code.
+
+JIT compilation is a combination of the two tranditional approaches to translation to machine code - ahead-fo-time compilation (AOT), and interpretation - and combines some advantages and drawbacks of both. Roughly, JIT compilation combines the speed of compiled code with the flexibility of interpretation, with the overhead of an interpreter and the additional overhead of compiling and linking (not just interpreting). JIT compilation is a form of dynamic compilation, and allows adaptive optimizatoin such as dynamic recompilation and microarchitecture-specific speedups. Interpretation and JIT compilation are particulary suited for dynamic programming languages, as the runtime system can handle late-bound data types and enforce security guarantees.
+
 ### Reference
 1. CSS, https://www.w3.org/Style/CSS/, 2020-04-01-Wed.
 2. Verilog, https://en.wikipedia.org/wiki/Verilog, 2020-04-01-Wed.
@@ -89,3 +103,5 @@ Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyo
 - Objective-C, https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html, 2020-11-02-Mon.
 - Swift, https://developer.apple.com/swift/, 2020-11-02-Mon.
 - C++ Wiki KR-KO, https://ko.wikipedia.org/wiki/C%2B%2B, 2020-11-02-Mon.
+- JIT Wiki, https://en.wikipedia.org/wiki/Just-in-time_compilation, 2021-04-29-Thu.
+- AOT Wiki, https://en.wikipedia.org/wiki/Ahead-of-time_compilation, 2021-04-29-Thu.
