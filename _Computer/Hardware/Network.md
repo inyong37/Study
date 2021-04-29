@@ -24,24 +24,29 @@ Data networks are used extensively throughout the world for communication betwee
 ## Node | [Wiki](https://en.wikipedia.org/wiki/Node_(networking))
 In telecommunications networks, a node is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel. A passive distribution point such as a distribution frame or patch panel is consequently not a node.
 
-## Networking Hardware | [Wiki](https://en.wikipedia.org/wiki/Networking_hardware)
+# Networking Hardware | [Wiki](https://en.wikipedia.org/wiki/Networking_hardware)
 Networking hardware, also known as network equipment or computer networking devices, are electronic devices which are required for communication and interaction between devices on a computer network. Specially, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data termianl equipment.
-
 
 ## Core
 Core network components interconnect other network components.
 
 ### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+An interface providing a compatibliliy between networks by converting transmission speeds, protocols, codes, or security measures.
 
 ### Router | [Wiki](https://en.wikipedia.org/wiki/Router_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
+A networking device that forwards data packets between computer networks. Routers perform the "traffic directing" functions on the Internet. A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node. It works on OSI layer 3.
 
 ### Switch | [Wiki](https://en.wikipedia.org/wiki/Network_switch)
+A device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. It works on OSI layer 2.
 
 ### Bridge | [Wiki](https://en.wikipedia.org/wiki/Bridging_(networking))
+A device that connects multiple network segments. It works on OSI layers 1 and 2.
 
 ### Repeater | [Wiki](https://en.wikipedia.org/wiki/Repeater)
+An electronic device that receives a signal and retransmits it at a higher level or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances.
 
 ### Repeater Hub | [Wiki](https://en.wikipedia.org/wiki/Ethernet_hub)
+For connecting multiple Ethernet devices together and making them act as a single network segment. It has multiple input/output (I/O) ports, in which a signal introduced at the input of any port appears at the output of every port except the original incoming. A hub works at the physical layer (layer 1) of the OSI model. Repeater hubs also participate in collision detection, forwarding a jam signal to all ports if it detects a collision. Hubs are now largely obsolete, having been replaced by network switches except in very old installations or specialized applications.
 
 ### :bulb: Wireless Access Point (WAP) | [Wiki](https://en.wikipedia.org/wiki/Wireless_access_point) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다. 
