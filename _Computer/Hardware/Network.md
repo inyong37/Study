@@ -62,34 +62,46 @@ WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 �
 Hybrid components can be found in the core or border of a network.
 
 ### Multilayer Switch (MLS) | [Wiki](https://en.wikipedia.org/wiki/Multilayer_switch)
+A switch that, in addition to switching on OSI layer 2, provides functionality at higher protocol layers.
 
 ### Protocol Converter | [Wiki](https://en.wikipedia.org/wiki/Protocol_converter)
+A hardware device that converts between two differenct types of transmission, for interoperation.
 
 ### Bridge Router (Brouter) | [Wiki](https://en.wikipedia.org/wiki/Bridge_router)
+A device that works as a bridge and as a router. The brouter routes packets for known protocols and simply forwards all other packets as a bridge would.
 
 ## Border
 Hardware or software components which typically sit on the connection point of different networks (for example, between an internal network and en external network) include:
 
 ### Proxy Server | [Wiki](https://en.wikipedia.org/wiki/Proxy_server)
+Computer network service which allows client to make indirect network connections to other network services.
 
 ### Firewall | [Wiki](https://en.wikipedia.org/wiki/Firewall_(computing))
+A piece of hardware or software put on the network to prevent some communications forbidden by the network policy. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the Internet, that is assumed to not be secure or trusted.
 
 ### Network Address Translater (NAT) | [Wiki](https://en.wikipedia.org/wiki/Network_address_translation)
+Network service (provided as hardware or as software) that converts internal to external network addresses and vice versa.
 
 ### Residential Gateway | [Wiki](https://en.wikipedia.org/wiki/Residential_gateway)
+Interface between a WAN connection to an internet service provider and the home network.
 
 ## End Stations
 Other hardware devices used for establishing networks or dial-up connections include:
 
 ### Network Interface Controller (NIC) | [Wiki](https://en.wikipedia.org/wiki/Network_interface_controller)
+A device connecting a computer to a wire-based computer network.
 
 ### Wireless Network Interface Controller | [Wiki](https://en.wikipedia.org/wiki/Wireless_network_interface_controller)
+A device connecting the attached computer to a radio-biased computer network.
 
 ### Modem | [Wiki](https://en.wikipedia.org/wiki/Modem)
+Device that modulates an analog "carrier" signal (such as sound) to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information. Used (for example) when a computer communicates with another computer over a telephone network.
 
 ### ISDN Terminal Adapter (TA) | [Wiki](https://en.wikipedia.org/wiki/Terminal_adapter)
+A specialized gateway for ISDN.
 
 ### Line Driver | [Wiki](https://en.wikipedia.org/wiki/Line_driver)
+A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
 ## Server | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
