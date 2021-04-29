@@ -62,7 +62,14 @@ Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 �
 ### Edge Computing
 Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
 
-## Framework
+### *[React](https://reactjs.org/)*
+A JavaScript library for building user interfaces.
+
+### *[Spring](https://spring.io/)*
+
+### *[Node.js](https://nodejs.org/en/)*
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+
 ### *[Deno](https://deno.land/)*
 A secure runtim for JavaScript and TypeScript.
 
@@ -70,15 +77,15 @@ A secure runtim for JavaScript and TypeScript.
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
 - DNS Wiki, https://en.wikipedia.org/wiki/Domain_Name_System, 2020-10-06-Tue.
-- DNS Wiki Kor, https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C, 2020-10-06-Tue.
+- DNS Wiki KR, https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C, 2020-10-06-Tue.
 - DDNS Wiki, https://en.wikipedia.org/wiki/Dynamic_DNS, 2020-10-06-Tue.
-- DDNS Wiki Kor, https://ko.wikipedia.org/wiki/DDNS, 2020-10-06-Tue.
+- DDNS Wiki KR, https://ko.wikipedia.org/wiki/DDNS, 2020-10-06-Tue.
 - Internet
 - Anonymous Pipe Wiki, https://en.wikipedia.org/wiki/Anonymous_pipe, 2020-11-09-Mon.
-- Pipe blog KR-KO, https://12bme.tistory.com/226, 2020-11-09-Mon.
+- Pipe blog KR, https://12bme.tistory.com/226, 2020-11-09-Mon.
 - Named Pipe Wiki, https://en.wikipedia.org/wiki/Named_pipe, 2020-11-09-Mon.
-- Named Pipe blog KR-KO, https://mug896.github.io/bash-shell/named_pipe.html, 2020-11-09-Mon.
-- File Descriptor Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
+- Named Pipe blog KR, https://mug896.github.io/bash-shell/named_pipe.html, 2020-11-09-Mon.
+- File Descriptor Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90, 2020-11-09-Mon.
 - URI vs. URL vs. URN Blog KR, https://nsinc.tistory.com/192, 2021-03-08-Mon.
 - Cloud Computing and Edge Computing, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-09-Tue.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
