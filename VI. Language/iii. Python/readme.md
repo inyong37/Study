@@ -173,6 +173,12 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
+### CPython
+
+### PyPy
+
+### RPython
+
 ## Information
 ```python
 # Author      : Inyong Hwang (inyong1020@gmail.com).
