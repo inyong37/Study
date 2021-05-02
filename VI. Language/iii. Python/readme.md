@@ -1,4 +1,4 @@
-# Python | [Homepage](https://www.python.org/)
+# Python | [Homepage](https://www.python.org/) | [Documentation (3.7.10)](https://docs.python.org/3.7/)
 ```
 This page is from the "Language" page.
 ```
@@ -173,9 +173,26 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
-### CPython
+## :books: Implementation [docs](https://docs.python.org/3.7/reference/introduction.html)
 
-### PyPy
+### :bulb: CPython
+This is the original and most-maintained implementation of Python, wirtten in C. New language features generally appear here first.
+
+### Jython | [Homepage](https://www.jython.org)
+Python implemented in Java. This implementatin can be used as a scripting language for Java applications, or can be used to create applications using the Java class libraries. It is also often used to create tests for Java libraries. 
+
+### Python for .NET (pythonnet) | [Homepage](https://pythonnet.github.io)
+This implementation actually uses the CPython implementation, but is a managed .NET application and makes .NET libraries available. It was create by Brian Lloyd.
+
+### IronPython | [Homepage](https://ironpython.net)
+An alternate Python for .Net. Unlike Python.Net, this is a complete Python implementation that generates IL, and compiles Python code directly to .NET assemblies. It was created by Jim Hugunin, the original creator of Jython.
+
+### :bulb: PyPy | [Homepage](https://www.pypy.org)
+A fast, compliant alternative implementation of Python. On average, PyPy is 4.2 times faster than CPython.
+
+"If you want your code to run faster, you should probably just use PyPy." -- Guido van Rossum (creator of Python).
+
+An implementation of Python written completely in Python. It supports several advanced features not found in other implementations like stackless support and a Just in Time compiler. One of the goals of the project is to encourage experimentation with language itself by making it easier to modify the interpreter (since it is written in Python).
 
 ### RPython
 
@@ -218,3 +235,8 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python pytest, https://docs.pytest.org/en/stable/, 2021-02-15-Mon.
 - Parameter vs. Argument Blog KR, http://taewan.kim/tip/argument_parameter/, 2021-02-23-Tue.
 - Errors and Exceptions Python 3.7, https://docs.python.org/3.7/tutorial/errors.html, 2021-04-12-Mon.
+- PyPy, https://www.pypy.org, 2021-05-02-Sun.
+- Introduction, https://docs.python.org/3.7/reference/introduction.html, 2021-05-02-Sun.
+- Jython, https://www.jython.org, 2021-05-02-Sun.
+- Python.Net(pythonnet), https://pythonnet.github.io, 2021-05-02-Sun.
+- IronPython, https://ironpython.net, 2021-05-02-Sun.
