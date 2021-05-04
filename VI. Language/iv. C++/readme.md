@@ -6,11 +6,10 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-## *Types*
-
+## :books: *Types*
 ### *Built-in Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
 - Void type
-- std::nullpyt_t
+- std::nullptr_t
 - Boolean type
 - Character types
 - Floating-point types
@@ -52,7 +51,7 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |:-------:|:---------:|
 |-|-|
 
-### *Data Structure*
+## :books: *Data Structure*
 
 ### Standard Template Library(STL)
 Library that provides data structure and algorithm as template
