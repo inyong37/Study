@@ -1,4 +1,4 @@
-# C++ | [cpp reference](https://en.cppreference.com/w/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/C%2B%2B)
+# *C++* | [Standard C++](https://isocpp.org/) | [cppreference](https://en.cppreference.com/w/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/C%2B%2B)
 ```
 This page is from the "Language" page.
 ```
