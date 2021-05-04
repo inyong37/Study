@@ -6,13 +6,21 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-### *Data Types*
-|Type Name|Byte|Nickname|Value Range|
+### *Data Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
+|Type Name|Bytes|Other Names|Range of Value|
 |:-------:|:--:|:------:|:---------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
 |unsigned int|4|unsigned|0 to 4,294,967,295|
+|__int8|1|char|-128 to 127
+|unsigned __int8|1|unsigned char|0 to 255|
+|__int16|2|short, short int, signed short int|-32,768 to 32,767|
+|unsigned __int16|2|unsigned short, unsigned short int|0 to 65,535|
+|__int32|4|signed, signed int, int|-2,147,483,648 to 2,147,483,647|
+|unsigned __int32|4|unsigned, unsigned int|0 to 4,294,967,295|
+|__int64|8|long long, signed long long|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|unsigned __int64|8|unsigned long long|0 to 18,446,744,073,709,551,615|
 |bool|1|none|false or true|
-|char|1|none|-128 to 127|
+|char|1|none|-128 to 127 by default|
 |signed char|1|none|-128 to 127|
 |unsigned char|1|none|0 to 255|
 |short|2|short int, signed short int|-32,768 to 32,767|
@@ -21,13 +29,16 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |unsigned long|4|unsigned long int|0 to 4,294,967,295|
 |long long|8|none|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
 |unsigned long long|8|none|0 to 18,446,744,073,709,551,615|
-|enum|varies|none|varies|
+|enum|varies|none|-|
 |float|4|none|3.4E +/- 38 (7 digits)|
 |double|8|none|1.7E +/- 308 (15 digits)|
-|long double|8|none|1.7E +/- 308 (15 digits)|
+|long double|same as double|none|same as double|
+|wchar_t|2|__wchar_t|0 to 65,535|
 
 ### *Windows Data Types* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
-|Data Type|
+|Data Type|Description|
+|:-------:|:---------:|
+|-|-|
 
 ### *Data Structure*
 
@@ -91,7 +102,6 @@ C++ provides smart pointer to guarantee program's secure with memory leak. It is
 
 #### *boost::scoped_ptr*
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
-
 
 ### *typedef*
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
@@ -401,4 +411,5 @@ Syntax: `#pragma once`
 - C++ Keywords, https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160, 2021-04-28-Wed.
 - C++ Operators, https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160, 2021-04-28-Wed.
 - Preprocessor, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160, 2021-04-28-Wed.
+- Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019 2021-05-04-Tue.
 - Windows Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-05-04-Tue.
