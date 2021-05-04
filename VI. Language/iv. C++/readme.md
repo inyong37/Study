@@ -6,7 +6,7 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-### *Data Type*
+### *Data Types*
 |Type Name|Byte|Nickname|Value Range|
 |:-------:|:--:|:------:|:---------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
@@ -25,6 +25,9 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |float|4|none|3.4E +/- 38 (7 digits)|
 |double|8|none|1.7E +/- 308 (15 digits)|
 |long double|8|none|1.7E +/- 308 (15 digits)|
+
+### *Windows Data Types* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
+|Data Type|
 
 ### *Data Structure*
 
@@ -79,8 +82,6 @@ Same as `friend class`, it gives other to access `private` and `protected member
 
 #### Static Variable (`static` as local variable)
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
-
-
 
 ### *Template*
 It codes only `.h`s not `.cc`s.
@@ -400,3 +401,4 @@ Syntax: `#pragma once`
 - C++ Keywords, https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160, 2021-04-28-Wed.
 - C++ Operators, https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160, 2021-04-28-Wed.
 - Preprocessor, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160, 2021-04-28-Wed.
+- Windows Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-05-04-Tue.
