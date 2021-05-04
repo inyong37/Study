@@ -47,6 +47,8 @@ The code will run natively on any compatible OS. Different .Net implementations 
 ## *.NET Framework* | [MS Docs](https://docs.microsoft.com/en-us/dotnet/framework/)
 .NET Framework is a technology that supports building and running Windows apps and web services.
 
+----------
+
 ## *Interprocess Communications (IPC)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/ipc/interprocess-communications)
 The Windows operating system provides mechanism for facilitating communications and data sharing between applications. Typically, applications can use IPC categorized as clients or servers. A client is an application or a process that requests a servce from some other application or process. A server is an application or a process that responds to a client request. Many applications act as both a client and a server, depending on the situation. 
 
@@ -140,6 +142,8 @@ Windows Sockets is a protocol-independent interface. It takes advantage of the c
 
 **Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities.**
 
+----------
+
 ## *Signal* | [MS Docs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
 Sets interrupt signal handling
 
@@ -150,6 +154,8 @@ Sets interrupt signal handling
   - SIGINT: `Control` + `c` signal
   - SIGSEGV: Illegal storage access
   - SIGTERM: Termination request
+
+----------
 
 ### *Data Types* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 - LPARAM: A message parameter. This type is declared in WinDef.h as `typedef LONG_PTR LPARAM;`
@@ -199,6 +205,8 @@ The WPARAM is zero-extended, while LPARAM and LRESULT are sign-extended. WORD is
 
 ### *Working with Strings* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
 
+----------
+## *Window*
 ### *What Is a Window?* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/what-is-a-window-)
 Windows are central to Windows. They are so important that they named the operating system after them. This type of window is called an application window or main window. It typically has a frame with a title bar, Minimize and Maximize buttons, and other standard UI elements. The frame is called the non-client area of the window, so called because the operating system manages that portion of the window. The area within the frame is the client area. This is the part of the window that programmer manages.
 
@@ -361,10 +369,18 @@ Parse a Unicode command line string and returns an array of pointers to the comm
 
 ### *HWND to Sting* | [Stackoverflow](https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode)
 
+----------
+
+## Window Classes (Windows and Messages) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes)
+
+----------
+
 ## *Folder*
 
 ### *Program Files*
 Program Files 폴더에는 64-bit 프로그램들이 설치되고 Program Files (x86) 폴더에는 32-bit 프로그램들이 나눠서 설치된다. 옛날 컴퓨터는 Intel 의 8086 칩을 사용했는데 처음에는 16-bit 였고 그 이후 32-bit 가 되었다. 따라서 16-bit와 32-bit는 x86 이라 불리고 64-bit 는 x64 라 불린다. (지금 대부분의 컴퓨터는 16-bit 는 지원하지 않는다.) 현재 컴퓨터는 다양한 칩을 사용하는데 대부분 64-bit 를 지원한다. 32-bit 로 만들어진 응용 프로그램들은 'WOW64 (Windows on Windows 64-bit)' 를 통해 64-bit 에서도 실행이 가능하다. 따라서 Windows 에서는 32-bit 프로그램과 64-bit 프로그램을 섞이지 않고 나눠서 저장하고자 했다. 그래서 'C:/' 에는 'Program Files' 와 'Program Files (x86)' 2개의 폴더에 각각 나눠서 저장하게 설계되었다.
+
+----------
 
 ## *File*
 
@@ -424,6 +440,8 @@ Wine은 Linux, maxOS, BSD와 같은 POSIX 호환 운영체제에서 Windows 프�
 
 ### *Windows GDI* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi)
 The Microsoft Windows graphics device interface (GDI) enables applications to use graphics and formatted text on both the video display and the printer. Windows-based applications do not access the graphics hardware directly. Instead, GDI interacts with device drivers on behalf of applications.
+
+----------
 
 ## *Command*
 
@@ -486,8 +504,6 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Show symbolic links in a file: `> dumpbin /exports foo.dll` in Command Prompt for VS
 
 ### *HRESULT*
-
-### *HWND*
 
 ### Find Files, Command `dir`
 #### How to use command dir
@@ -623,3 +639,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - HWND to String, https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode, 2021-04-20-Tue.
 - STR Blog KR, http://pelican7.egloos.com/v/1768951, 2021-04-21-Wed.
 - Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-04-21-Wed.
+- Window Classes (Windows and Messages), https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes, 2021-05-04-Tue.
