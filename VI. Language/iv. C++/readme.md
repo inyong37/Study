@@ -6,6 +6,18 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
+## *Types*
+
+### *Built-in Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
+- Void type
+- std::nullpyt_t
+- Boolean type
+- Character types
+- Floating-point types
+- Integer types
+- Integer type synonyms
+- Sizes of built-int types
+
 ### *Data Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
 |Type Name|Bytes|Other Names|Range of Value|
 |:-------:|:--:|:------:|:---------:|
@@ -413,3 +425,4 @@ Syntax: `#pragma once`
 - Preprocessor, https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160, 2021-04-28-Wed.
 - Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019 2021-05-04-Tue.
 - Windows Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-05-04-Tue.
+- Built-in Types, https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-05-04-Tue.
