@@ -369,6 +369,11 @@ Parse a Unicode command line string and returns an array of pointers to the comm
 
 ### *HWND to Sting* | [Stackoverflow](https://stackoverflow.com/questions/27220/how-to-convert-stdstring-to-lpcwstr-in-c-unicode)
 
+### *SetWindowLongPtrA function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowlongptra)
+Change an attribute of the specified window. The function also sets a value at the specified offset in the extra window memory.
+
+### *SetWindowPos function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos)
+Changes the size, position, and Z order of a child, pop-up, or top-level window. These windows are ordered according to their appearance on the screen. The topmost window receives the highest rank and is the first window in the Z order.
 ----------
 
 ## Window Classes (Windows and Messages) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes)
@@ -640,3 +645,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - STR Blog KR, http://pelican7.egloos.com/v/1768951, 2021-04-21-Wed.
 - Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-04-21-Wed.
 - Window Classes (Windows and Messages), https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes, 2021-05-04-Tue.
+- SetWindowLongPtrA function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowlongptra, 2021-05-04-Tue.
+- SetWindowPos function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos, 2021-05-04-Tue.
