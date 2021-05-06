@@ -55,7 +55,8 @@ Hypertext Markup Language (HTML) is the standard markup language for documents d
 ## CSS: Cascading Style Sheets | [Homepage](https://www.w3.org/Style/CSS/)
 CSS is a simple mechanism for adding style to web documents.[1]
 
-## PHP
+## PHP | [Homepage](https://www.php.net/)
+PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
 
 ## XML: eXtensible Markup Language | [Homepage](https://www.w3.org/XML/)
 Extensible Markup Language (XML) is a simple. very flexible text format derived from SGML (ISO 8879). Originally designed to meet the challenges of large-scale electronic publishing.[5]
@@ -119,3 +120,4 @@ While interpretation and compilation are the two main means by which programming
 - JIT Wiki, https://en.wikipedia.org/wiki/Just-in-time_compilation, 2021-04-29-Thu.
 - AOT Wiki, https://en.wikipedia.org/wiki/Ahead-of-time_compilation, 2021-04-29-Thu.
 - Interpreter Wiki, https://en.wikipedia.org/wiki/Interpreter_(computing), 2021-04-29-Thu.
+- PHP, https://www.php.net/, 2021-05-06-Thu.
