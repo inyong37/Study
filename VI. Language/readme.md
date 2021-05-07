@@ -1,6 +1,6 @@
 # Langauge: Programming Language
 
-# Low-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/Low-level_programming_language)
+## Low-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/Low-level_programming_language)
 A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture-commands or functions in the language map that are structurally similar to processor's instructions. Generally, this refers to either machine code or assembly language. Because of the low (hence the word) abstarction between the language and machine language, low-level languages are sometimes described as being "close to the hardware". Programs written in low-level languages tend to be relatively non-portable, due to being optimized for a certain type of system architecture.
 
 ## Machine Code | [Wiki](https://en.wikipedia.org/wiki/Machine_code)
@@ -9,7 +9,7 @@ In computer programming, machine code, consisting of machine language instructio
 ## Assembly Language | [Wiki](https://en.wikipedia.org/wiki/Assembly_language)
 In computer programming, assembly language (or assembler language), often abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. Assembly language may also be called symbolic machine code.
 
-# High-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/High-level_programming_language)
+## High-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/High-level_programming_language)
 In computer science, a high-level programming language is a programming language with string abstraction from the details of the computer. In constrast to low-level programming language, it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computer systems (e.g memory management), making the process of developing a program simpler and more understandable than when using a low-level language. The amount of abstraction provided defines how "high-level" a programming language is.
 
 ## C | [Wiki](https://en.wikipedia.org/wiki/C_(programming_language))
