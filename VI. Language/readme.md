@@ -1,7 +1,18 @@
 # Langauge: Programming Language
 
-## C | [Wiki](https://en.wikipedia.org/wiki/C_(programming_language))
+# Low-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/Low-level_programming_language)
+A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture-commands or functions in the language map that are structurally similar to processor's instructions. Generally, this refers to either machine code or assembly language. Because of the low (hence the word) abstarction between the language and machine language, low-level languages are sometimes described as being "close to the hardware". Programs written in low-level languages tend to be relatively non-portable, due to being optimized for a certain type of system architecture.
 
+## Machine Code | [Wiki](https://en.wikipedia.org/wiki/Machine_code)
+In computer programming, machine code, consisting of machine language instructions, is a low-level programming language used ot directly control a computer's central processing unit (CPU). Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory.
+
+## Assembly Language | [Wiki](https://en.wikipedia.org/wiki/Assembly_language)
+In computer programming, assembly language (or assembler language), often abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. Assembly language may also be called symbolic machine code.
+
+# High-level Programming Language | [Wiki](https://en.wikipedia.org/wiki/High-level_programming_language)
+In computer science, a high-level programming language is a programming language with string abstraction from the details of the computer. In constrast to low-level programming language, it may use natural language elements, be easier to use, or may automate (or even hide entirely) significant areas of computer systems (e.g memory management), making the process of developing a program simpler and more understandable than when using a low-level language. The amount of abstraction provided defines how "high-level" a programming language is.
+
+## C | [Wiki](https://en.wikipedia.org/wiki/C_(programming_language))
 C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations. By design, C provides constructs that map efficiently to typical machine instructions and has found lasting use in applications previously coded in assembly language. Such applications include operating systems and various application software for computers, from supercomputers to embedded systems. C was originally developed at Bell Labs by Dennis Ritchie between 1972 and 1973 to make utilities running on Unix. Later, it was applied to re-implementing the kernel of the Unix operating system. During the 1980s, C gradually gained popularity. It has become one of the most widely used programming languages, with C compilers from various vendors available for the majority of existing computer architectures and operating systems. C has been standardized by the ANSI since 1989 (see ANSI C) and by the International Organization for Standardization. C is an imperative procedural language. It was designed to be compiled using a relatively straightforward compiler to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code. The language is available on various platforms, from embedded microcontrollers to supercomputers.[13]
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
@@ -97,6 +108,10 @@ Early verisons of LISP programming language and minicomputer and microcomputer B
 While interpretation and compilation are the two main means by which programming languages are implemented, they are not mutually exclusive, as most interpreting systems also perform some translation work, just like compilers. The terms "interpreted language" or "compiled language" signify that the canonical implementation of that language is an interpreter or a compiler, respectively. A high-level language is ideally an abstraction independent of particular implementations.
 
 ### Reference
+- Low-level Programming Language Wiki, https://en.wikipedia.org/wiki/Low-level_programming_language, 2021-05-07-Fri.
+- Machine Code Wiki, https://en.wikipedia.org/wiki/Machine_code, 2021-05-07-Fri.
+- Assembly Language Wiki, https://en.wikipedia.org/wiki/Assembly_language, 2021-05-07-Fri.
+- High-level Programming Language Wiki, https://en.wikipedia.org/wiki/High-level_programming_language, 2021-05-07-Fri.
 1. CSS, https://www.w3.org/Style/CSS/, 2020-04-01-Wed.
 2. Verilog, https://en.wikipedia.org/wiki/Verilog, 2020-04-01-Wed.
 3. VHDL, http://www.eda-twiki.org/cgi-bin/view.cgi/P1076/WebHome, 2020-04-01-Wed.
