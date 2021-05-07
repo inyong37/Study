@@ -2,10 +2,6 @@
 ```
 This page is from the "Language" page.
 ```
-Python is a programming language that lets you work quickly and integrate systems more effectively.
-
-- Tool: Anaconda (by Anaconda), PyCharm (by JetBrains), Jupyter Notebook (by Jupyter)
-
 ## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 ### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
