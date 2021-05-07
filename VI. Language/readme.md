@@ -10,8 +10,10 @@ C is a general-purpose, procedural computer programming language supporting stru
 Other parts of the "C" have been moved to the "C" page.
 ```
 
-## JAVA | [Homepage](https://docs.oracle.com/javase/7/docs/technotes/guides/language/)
+## JAVA | [Homepage](https://www.java.com/en/) | [Wiki](https://en.wikipedia.org/wiki/Java_(programming_language))
 The Java™ Programming Language is a general-purpose, concurrent, strongly typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.[10] Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.[9]
+
+- Tool: Eclipse (by IBM but now Eclipse), IntelliJ (by JetBrains)
 
 ```
 Other parts of the "Java" have been moved to the "Java" page.
