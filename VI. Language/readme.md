@@ -133,4 +133,3 @@ While interpretation and compilation are the two main means by which programming
 - AOT Wiki, https://en.wikipedia.org/wiki/Ahead-of-time_compilation, 2021-04-29-Thu.
 - Interpreter Wiki, https://en.wikipedia.org/wiki/Interpreter_(computing), 2021-04-29-Thu.
 - PHP, https://www.php.net/, 2021-05-06-Thu.
--
