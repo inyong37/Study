@@ -160,6 +160,8 @@ Parameter(매개 변수)는 function 또는 method 정의에 사용되는 variab
 ### Python `self` vs. C++ `this`
 C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
 
+### Type Hint
+
 ## :bulb: Error
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
 Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
