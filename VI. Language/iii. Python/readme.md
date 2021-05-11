@@ -185,7 +185,7 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
-## :books: Implementation [docs](https://docs.python.org/3.7/reference/introduction.html)
+## :books: Implementation | [Docs](https://docs.python.org/3.7/reference/introduction.html)
 
 ### :bulb: CPython
 This is the original and most-maintained implementation of Python, wirtten in C. New language features generally appear here first.
