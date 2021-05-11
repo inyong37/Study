@@ -374,6 +374,9 @@ Change an attribute of the specified window. The function also sets a value at t
 
 ### *SetWindowPos function (winuser.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos)
 Changes the size, position, and Z order of a child, pop-up, or top-level window. These windows are ordered according to their appearance on the screen. The topmost window receives the highest rank and is the first window in the Z order.
+
+### *GetCurrentDirectory function (winbase.h)* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getcurrentdirectory)
+GetCurrentDirectoryW used in UNICODE, GetCurrentDirectoryA in ANSI
 ----------
 
 ## Window Classes (Windows and Messages) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes)
@@ -647,3 +650,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - Window Classes (Windows and Messages), https://docs.microsoft.com/en-us/windows/win32/winmsg/window-classes, 2021-05-04-Tue.
 - SetWindowLongPtrA function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowlongptra, 2021-05-04-Tue.
 - SetWindowPos function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos, 2021-05-04-Tue.
+- GetCurrentDirectory function (winbase.h), https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getcurrentdirectory, 2021-05-11-Tue.
+- GetCurrentDirectory Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221276143283&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-05-11-Tue.
