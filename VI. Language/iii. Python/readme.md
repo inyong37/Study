@@ -161,6 +161,7 @@ Parameter(매개 변수)는 function 또는 method 정의에 사용되는 variab
 C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
 
 ## PEP 0 -- Index of Python Enhancement Proposals (PEPs) | [Homepage](https://www.python.org/dev/peps/)
+This PEP contains the index of all Python Enhancement Proposals, known as PEPs. PEP numbers are assigned by the PEP editors, and once assigned are never changed. The version control history of the PEP texts represent their historical record.
 
 ## typing - Support for type hints | [Docs](https://docs.python.org/3.7/library/typing.html)
 New in version 3.5.
