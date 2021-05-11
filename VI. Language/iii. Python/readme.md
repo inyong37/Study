@@ -163,6 +163,10 @@ C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터
 ## PEP 0 -- Index of Python Enhancement Proposals (PEPs) | [Homepage](https://www.python.org/dev/peps/)
 This PEP contains the index of all Python Enhancement Proposals, known as PEPs. PEP numbers are assigned by the PEP editors, and once assigned are never changed. The version control history of the PEP texts represent their historical record.
 
+### PEP 8 -- Style Guide for Python Code | [Docs](https://www.python.org/dev/peps/pep-0008/)
+
+### PEP 484 -- Type Hints | [Docs](https://www.python.org/dev/peps/pep-0484/)
+
 ## typing - Support for type hints | [Docs](https://docs.python.org/3.7/library/typing.html)
 New in version 3.5.
 
@@ -257,3 +261,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - IronPython, https://ironpython.net, 2021-05-02-Sun.
 - typing, https://docs.python.org/3.7/library/typing.html, 2021-05-12-Wed.
 - PEP 0, https://www.python.org/dev/peps/, 2021-05-12-Wed.
+- PEP 8, https://www.python.org/dev/peps/pep-0008/, 2021-05-12-Wed.
+- PEP 484, https://www.python.org/dev/peps/pep-0484/
