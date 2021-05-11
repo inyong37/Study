@@ -160,6 +160,8 @@ Parameter(매개 변수)는 function 또는 method 정의에 사용되는 variab
 ### Python `self` vs. C++ `this`
 C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
 
+## PEP 0 -- Index of Python Enhancement Proposals (PEPs) | [Homepage](https://www.python.org/dev/peps/)
+
 ## typing - Support for type hints | [Docs](https://docs.python.org/3.7/library/typing.html)
 New in version 3.5.
 
@@ -253,3 +255,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python.Net(pythonnet), https://pythonnet.github.io, 2021-05-02-Sun.
 - IronPython, https://ironpython.net, 2021-05-02-Sun.
 - typing, https://docs.python.org/3.7/library/typing.html, 2021-05-12-Wed.
+- PEP 0, https://www.python.org/dev/peps/, 2021-05-12-Wed.
