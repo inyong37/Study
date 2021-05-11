@@ -160,7 +160,21 @@ Parameter(매개 변수)는 function 또는 method 정의에 사용되는 variab
 ### Python `self` vs. C++ `this`
 C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
 
-### Type Hint
+## typing - Support for type hints | [Docs](https://docs.python.org/3.7/library/typing.html)
+New in version 3.5.
+
+Source code: Lib/typing.py
+
+The Python runtime does not enforce function and variable type annotations. They can be used by third party tools such as type checkers, IDEs, linters, etc.
+
+This module supports type hints as specified by PEP 484 and PEP 526. The most fundamental support consists of the types `Any`, `Union`, `Tuple`, `Callable`, `TypeVar`, and `Generic`. For full specification please see PEP 484. For a simplified introduction to type hints see PEP 483.
+
+The function below takes and returns a string and is annotated as follows:
+```Python
+def greeting(name: str) -> str:
+  return 'Hello ' + name
+```
+In the function `greeting`, the argument `name` is expected to be of type `str` and the return type `str`. Subtypes are accepted as arguments.
 
 ## :bulb: Error
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
@@ -238,3 +252,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Jython, https://www.jython.org, 2021-05-02-Sun.
 - Python.Net(pythonnet), https://pythonnet.github.io, 2021-05-02-Sun.
 - IronPython, https://ironpython.net, 2021-05-02-Sun.
+- typing, https://docs.python.org/3.7/library/typing.html, 2021-05-12-Wed.
