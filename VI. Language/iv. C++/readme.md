@@ -378,6 +378,11 @@ Specifices that the compiler includes the header file only once, when compiling 
 
 Syntax: `#pragma once`
 
+### TEXT macro (winnt.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-text)
+Identifies a string as Unicode when UNICODE is defined by a preprocessor directive during compilation. Otherwise, the macro identifies a string as an ANSI string.
+
+Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-16 or ANSI. Return value: None.
+
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
 - Friend Class, Friend Function, https://yeolco.tistory.com/116, 2020-06-11-Thu.
@@ -425,3 +430,4 @@ Syntax: `#pragma once`
 - Data Type Ranges, https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019 2021-05-04-Tue.
 - Windows Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-05-04-Tue.
 - Built-in Types, https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-05-04-Tue.
+- TEXT macro (winnt.h), https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-text, 2021-05-12-Wed.
