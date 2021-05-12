@@ -127,6 +127,17 @@ It used to save(output) string.
 ### *stringstream*
 It used to modifie data of string.
 
+### Working with Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
+Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as a 16-bit value. UTF-16 characters are called wide characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the build-in data type wchar_t for wide characters. The header file WinNT.h also defines the following typedef.
+```C++
+typedef wchar_t WCHAR;
+```
+You wil see both versions in MSDN example code. To declare a wide-character literal or a wide-character string literal, put L before the literal.
+```C++
+wchar_t a = L'a';
+wchar_t *str = L"hello";
+```
+
 ### :books: *Call*
 ### *Call by Value*
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
@@ -431,3 +442,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Windows Data Types, https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types, 2021-05-04-Tue.
 - Built-in Types, https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-05-04-Tue.
 - TEXT macro (winnt.h), https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-text, 2021-05-12-Wed.
+- Working with Strings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-05-12-Wed.
