@@ -95,7 +95,15 @@ It is a function similar to a pointer that points to an element in a container, 
 
 If the conditional statment is true, return value 1 if it is false, return value 2.
 
-### :books: *Class*
+## :books: Classes
+### Constructors and member initializer lists | [cppreference](https://en.cppreference.com/w/cpp/language/constructor)
+Constructor is a special non-static member function of a class that is used to initialize objects of its class type. In the definition of a constructor of a class, member initializer list specifies the initializers for direct and virtual bases and non-static data members. (Not to be confused with std::initializer_list.) A constructor must not be a coroutine. (since C++20)
+
+#### Syntax
+Constructors are declared using member function declarartors of the following form:
+`class-name (parameter-list(optional)) except-spec(optional) attr(optional)`
+Where class-name must name the current class (or current instantiaion of a class template), or, when declared at namespace scope or in a friend declaration, it must be a qualified class name.
+
 #### `friend` Class
 It can access to `private` and `protected member` to other `friend class`.
 
@@ -443,3 +451,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Built-in Types, https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160, 2021-05-04-Tue.
 - TEXT macro (winnt.h), https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-text, 2021-05-12-Wed.
 - Working with Strings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-05-12-Wed.
+- Constructors and member initializer lists, https://en.cppreference.com/w/cpp/language/constructor, 2021-05-14-Fri.
