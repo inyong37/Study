@@ -104,6 +104,36 @@ Constructors are declared using member function declarartors of the following fo
 `class-name (parameter-list(optional)) except-spec(optional) attr(optional)`
 Where class-name must name the current class (or current instantiaion of a class template), or, when declared at namespace scope or in a friend declaration, it must be a qualified class name.
 
+## :books: Functions
+### Coroutines (C++20) | [cppreference](https://en.cppreference.com/w/cpp/language/coroutines)
+A coroutine is a function that can suspend execution to be resumed later. Coroutines are stackless: they suspend execution by returning to the caller and the data that is required to resume execution is stored separately from the stack. This allows for sequential code that executes asynchronously (e.g. to handle non-blocking I/O without explicit callbacks), and also supports algorithms on lazy-computed infinite sequences and other uses.
+
+A function is a coroutine if its definition does any of the following:
+- uses the co_await operator to suspend execution until resumed
+```C++
+task<> tcp_echo_server() {
+    char data[1024];
+    for (;;) {
+        size_t n = co_await socket.async_read_some(buffer(data));
+        co_await async_write(socket, buffer(data, n));
+    }
+}
+```
+- uses the keyword co_yield to suspend execution returning a value
+```C++
+generator<int> iota(int n=0) {
+    while(ture)
+        co_yield n++;
+}
+```
+- uses the keyword to_return to complete execution returning a value
+```C++
+lazy<int> f() {
+    co_return 7;
+}
+```
+Every coroutine must have a return type that satifies a number of requirments.
+
 #### `friend` Class
 It can access to `private` and `protected member` to other `friend class`.
 
@@ -452,3 +482,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - TEXT macro (winnt.h), https://docs.microsoft.com/en-us/windows/win32/api/winnt/nf-winnt-text, 2021-05-12-Wed.
 - Working with Strings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-05-12-Wed.
 - Constructors and member initializer lists, https://en.cppreference.com/w/cpp/language/constructor, 2021-05-14-Fri.
+- Coroutines (C++20), https://en.cppreference.com/w/cpp/language/coroutines, 2021-05-14-Fri.
