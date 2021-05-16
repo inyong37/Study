@@ -11,7 +11,7 @@ This page is from the "Language" page.
 - Project View: `Alt` + `1`
 - Go to File: `Control` + `Shift` + `n`
 
-#### Custom Keymap
+### Custom Keymap
 Version 1
 - Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
 - Rerun: `Control` + `Shift` + `r`
