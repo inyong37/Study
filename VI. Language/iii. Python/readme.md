@@ -22,9 +22,15 @@ Versoin 2
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
+----------
+
 ## :books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
 
+----------
+
 ## :books: Built-in Constant | [Document Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
+
+----------
 
 ## :books: Libraries
 
@@ -109,7 +115,11 @@ The [shutil]() module offers a number of high-level operations on files and coll
 
 ### tempfile | [Document Python 3.7.9](https://docs.python.org/3.7/library/tempfile.html)
 
+----------
+
 ## :books: Built-in Exceptions | [Document Python 3.7.9](https://docs.python.org/3.7/library/exceptions.html)
+
+----------
 
 ## :pencil2: PIP
 pip is the package installer for Python.
