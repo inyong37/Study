@@ -26,7 +26,7 @@ Versoin 2
 
 ## :books: Built-in Constant | [Document Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
 
-## :books: Library
+## :books: Libraries
 
 ### argparse | [Document Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
 ```Python
