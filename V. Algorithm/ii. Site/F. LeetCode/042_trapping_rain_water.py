@@ -15,5 +15,5 @@ class Solution:
                 left += 1
             else:
                 volume += right_max - height[right]
-                right += 1
+                right -= 1
         return volume
