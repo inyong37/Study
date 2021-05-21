@@ -20,12 +20,22 @@ type with an empty set of values. It is an incomplete type that cannot be comple
 ### Integer Types
 
 ### Boolean Type
+- bool
+Type, capable of holding one of the two values: true or false. The value of siezof(bool) is implementation defined and might differ from 1.
 
 ### Character Types
 - signed char
+Types for signed character representation.
+
 - unsigned char
+Type for unsigned character representation. Also used to inspect object representation (raw memory).
+
 - char
+Type for character representation which can be most efficiently processed on the target system (has the same representation and alignment as either signed char or unsigned char, but is always a distinct type). Multibyte characters strings use this type to represent code units. For every value of type unsigned char in range [0, 255], converting the value to char and then back to unsigned char produces the original value. (since C++11). The signedness of char depends on the compiler and the target platformL the dafaults for ARM and PowerPC are typically unsigned, the defaults fir x86 and x64 are typically signed.
+
 - wchar_t
+Type for wide character representation (see wide strings). Required to be large enough to represent any supported character code point (32 bits on systems that support Unicode. A notable exception is Windows, where wchar_t is 16 bits and holds UTF-16 code units) It has the same size, signedness, and alignment as one of the integer types, but is a distinct type.
+
 - char16_t
 - char32_t
 - char8_t
