@@ -210,6 +210,18 @@ You wil see both versions in MSDN example code. To declare a wide-character lite
 wchar_t a = L'a';
 wchar_t *str = L"hello";
 ```
+### std::string | [cppreference](https://www.cplusplus.com/reference/string/string/)
+typedef basic_string<char> string;
+
+String class
+
+Strings are objects that represent sequences of characters.
+
+The standard string class provides support for such objects with an interface similar to that of a standard container of bytes, but adding features specifically designed to operate with strings of single-byte characters.
+
+The string class is an instantiation of the basic_string class template that uses char (i.e., bytes) as its character type, with its default char_traits and allocator types (see basic_string for more info on the template).
+
+Note that this class handles bytes independently of the encoding used: If used to handle sequences of multi-byte or variable-length characters (such as UTF-8), all members of this class (such as length or size), as well as its iterators, will still operate in terms of bytes (not actual encoded characters).
 
 ### :books: *Call*
 ### *Call by Value*
@@ -521,3 +533,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-05-21-Fri.
 - Unicode in the Windows API, https://docs.microsoft.com/en-us/windows/win32/intl/unicode-in-the-windows-api 2021-05-21-Fri.
 - Encoding Blog KR, https://onlywis.tistory.com/2 2021-05-21-Fri.
+- std::string, https://www.cplusplus.com/reference/string/string/, 2021-05-21-Fri.
