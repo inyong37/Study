@@ -51,6 +51,41 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |:-------:|:---------:|
 |-|-|
 
+### Windows Data Types for Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings)
+Most string operations can use the same logic for Unicode and for Windows code pages. The only difference is that the basic unit of operation is a 16-bit character (also known as a wide character) for Unicode and an 8-bit character for Windows code pages. The Windows header files provide several type definitions that make it easy to create sources that can be compiled for Unicode or for Windows code pages.
+
+Windows supports three sets of character and string data types: a set of generic type definitions that can compile for either Unicode for Windows code pages, and two sets of specific type definitions. One set of specific type definitions is for use with Unicode, and the other is for use with Windows code pages.
+
+An application using generic data types can be compiled for Unicode simply by defining "UNICODE" before the #include statements for the header files, or during compilation. New Windows applications should use Unicode to avoid the inconsistencies of varied code pages and to simplify localization. They should be written with generic data types, and should define "UNICODE" in order to compile these types into Unicode types. In the few places where an application must work with 8-bit character data, it can make explicit use of the types for Windows code pages.
+
+The ability to compile the generic types into types for Windows code pages exists mainly to support legacy applications. To compile for Windows code pages, the application just omits the UNICODE definition.
+
+The following example shows the method used in the Windows header files to define the three sets of data types. For the implementation, see the Winnt.h header file.
+
+```C++
+// Generic types
+#ifdef UNICODE
+    typedef wchar_t TCHAR;
+#else
+    typedef unsigned char TCHAR;
+#endif
+typedef TCHAR *LPTSTR, *LPTCH;
+// 8-bit character specific
+typedef unsigned char CHAR;
+typedef CHAR *LPSTR, *LPCH;
+// Unicode specific (wide characters)
+typedef unsigned wchar_t WCHAR;
+typedef WCHAR *LPWSTR, *LPWCH;
+```
+
+The letter "T" in a type definition, for example, TCHAR or LPTSTR, designates a generic type that can be compiled for either Windows code pages or Unicode. The letter "W" in a type definition, for example, WCHAR or LPWSTR, designates a Unicode type. Because Windows code pages are of the older form, they have simple type definitions, such as CHAR and LPSTR. For a complete description of data types in Windows, see Windows Data Types.
+
+### Unicode in the Windows API | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/intl/unicode-in-the-windows-api)
+Windows API functions that manipulate characters are generally implemented in one of three formats:
+1. A generic version that can be compiled for either Windows code pages or Unicode.
+2. A Windows code page verison with the letter "A" used to indicate "ANSI".
+3. A Unicode version with the letter "W" used to indiate "wide".
+
 ## :books: *Data Structure*
 
 ### Standard Template Library(STL)
@@ -483,3 +518,5 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Working with Strings, https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings, 2021-05-12-Wed.
 - Constructors and member initializer lists, https://en.cppreference.com/w/cpp/language/constructor, 2021-05-14-Fri.
 - Coroutines (C++20), https://en.cppreference.com/w/cpp/language/coroutines, 2021-05-14-Fri.
+- Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-05-21-Fri.
+- Unicode in the Windows API, https://docs.microsoft.com/en-us/windows/win32/intl/unicode-in-the-windows-api 2021-05-21-Fri.
