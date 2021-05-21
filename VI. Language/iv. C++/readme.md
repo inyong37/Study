@@ -22,8 +22,20 @@ type with an empty set of values. It is an incomplete type that cannot be comple
 ### Boolean Type
 
 ### Character Types
+- signed char
+- unsigned char
+- char
+- wchar_t
+- char16_t
+- char32_t
+- char8_t
 
 ### Floating Point Types
+- float
+- double
+- long double
+
+Keywords: void, bool, true, false, char, wchar_t, char8_t, char16_t, char32_t, int, short, long, signed, unsigned, float, double
 
 ## :books: Types in Windows
 ### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
