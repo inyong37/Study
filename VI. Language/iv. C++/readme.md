@@ -6,20 +6,52 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-## :books: *Types*
-### *Built-in Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
-- Void type
-- std::nullptr_t
+## :books: *Types* | [cppreference](https://en.cppreference.com/w/cpp/language/types)
+
+### Void type
+#### Void
+type with an empty set of values. It is an incomplete type that cannot be completed (consequently, objects of type void are disallowed). There are no arrays of void, nor references to void. However, pointers to void and functions returning type void (procedures in other languages) are permitted.
+
+#### std::nullptr_t
+
+### Data models
+
 - Boolean type
 - Character types
-- Floating-point types
-- Integer types
+### Floating-point Types
+
+### Integer Types
+
 - Integer type synonyms
 - Sizes of built-int types
 
-### *Data Types* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
+### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
+- Void Type
+- std::nullptr_t
+- Boolean Type
+- Character Types
+- Floating-point Types
+- Integer Types
+  - Integer Type synonyms
+- Sizes of Built-in Types
+
+### Data Type Ranges | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-160&viewFallbackFrom=vs-2019)
+The Microsoft C++ 32-bit and 64-bit compilers recognize the types in the table later in this article.
+
+- `int` (`unsigned int`)
+- `__int8` (`unsigned __int8`)
+- `__int16` (`unsigned __int16`)
+- `__int32` (`unsigned __int32`)
+- `__int64` (`unsigned __int64`)
+- `short` (`unsigned short`)
+- `long` (`unsigned long`)
+- `long long` (`unsigned long long`)
+
+If its name begins with two underscores (`__`), a data type is non-standard.
+
+The ranges that are specified in the following table are inclusive-inclusive.
 |Type Name|Bytes|Other Names|Range of Value|
-|:-------:|:--:|:------:|:---------:|
+|:-------:|:---:|:---------:|:------------:|
 |int|4|signed|-2,147,483,648 to 2,147,483,647|
 |unsigned int|4|unsigned|0 to 4,294,967,295|
 |__int8|1|char|-128 to 127
@@ -46,7 +78,7 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 |long double|same as double|none|same as double|
 |wchar_t|2|__wchar_t|0 to 65,535|
 
-### *Windows Data Types* | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
+### Windows Data Types | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types)
 |Data Type|Description|
 |:-------:|:---------:|
 |-|-|
@@ -534,3 +566,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Unicode in the Windows API, https://docs.microsoft.com/en-us/windows/win32/intl/unicode-in-the-windows-api 2021-05-21-Fri.
 - Encoding Blog KR, https://onlywis.tistory.com/2 2021-05-21-Fri.
 - std::string, https://www.cplusplus.com/reference/string/string/, 2021-05-21-Fri.
+- Fundamental Types, https://en.cppreference.com/w/cpp/language/types, 2021-05-21-Fri.
