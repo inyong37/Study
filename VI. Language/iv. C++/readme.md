@@ -520,3 +520,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Coroutines (C++20), https://en.cppreference.com/w/cpp/language/coroutines, 2021-05-14-Fri.
 - Windows Data Types for Strings, https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings, 2021-05-21-Fri.
 - Unicode in the Windows API, https://docs.microsoft.com/en-us/windows/win32/intl/unicode-in-the-windows-api 2021-05-21-Fri.
+- Encoding Blog KR, https://onlywis.tistory.com/2 2021-05-21-Fri.
