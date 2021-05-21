@@ -6,25 +6,26 @@ C++는 AT&T 벨 연구소의 비야네 스트롭스트룹이 C언어 기반으�
 
 - Tool: Visual Studio (by Microsoft), CLion (by JetBrains), CppCode (by Apple)
 
-## :books: *Types* | [cppreference](https://en.cppreference.com/w/cpp/language/types)
+----------
 
-### Void type
-#### Void
+## :books: Type | [cppreference](https://en.cppreference.com/w/cpp/language/types)
+### Void Type
+- Void
 type with an empty set of values. It is an incomplete type that cannot be completed (consequently, objects of type void are disallowed). There are no arrays of void, nor references to void. However, pointers to void and functions returning type void (procedures in other languages) are permitted.
 
-#### std::nullptr_t
+- std::nullptr_t
 
-### Data models
-
-- Boolean type
-- Character types
-### Floating-point Types
+### Data Models
 
 ### Integer Types
 
-- Integer type synonyms
-- Sizes of built-int types
+### Boolean Type
 
+### Character Types
+
+### Floating Point Types
+
+## :books: Types in Windows
 ### Built-in Types (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/fundamental-types-cpp?view=msvc-160)
 - Void Type
 - std::nullptr_t
@@ -83,6 +84,34 @@ The ranges that are specified in the following table are inclusive-inclusive.
 |:-------:|:---------:|
 |-|-|
 
+----------
+
+## :books: String
+### std::string | [cplusplus](https://www.cplusplus.com/reference/string/string/)
+typedef basic_string<char> string;
+
+String class
+
+Strings are objects that represent sequences of characters.
+
+The standard string class provides support for such objects with an interface similar to that of a standard container of bytes, but adding features specifically designed to operate with strings of single-byte characters.
+
+The string class is an instantiation of the basic_string class template that uses char (i.e., bytes) as its character type, with its default char_traits and allocator types (see basic_string for more info on the template).
+
+Note that this class handles bytes independently of the encoding used: If used to handle sequences of multi-byte or variable-length characters (such as UTF-8), all members of this class (such as length or size), as well as its iterators, will still operate in terms of bytes (not actual encoded characters).
+
+## :books: Strings in Windows
+### Working with Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
+Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as a 16-bit value. UTF-16 characters are called wide characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the build-in data type wchar_t for wide characters. The header file WinNT.h also defines the following typedef.
+```C++
+typedef wchar_t WCHAR;
+```
+You wil see both versions in MSDN example code. To declare a wide-character literal or a wide-character string literal, put L before the literal.
+```C++
+wchar_t a = L'a';
+wchar_t *str = L"hello";
+```
+
 ### Windows Data Types for Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/intl/windows-data-types-for-strings)
 Most string operations can use the same logic for Unicode and for Windows code pages. The only difference is that the basic unit of operation is a 16-bit character (also known as a wide character) for Unicode and an 8-bit character for Windows code pages. The Windows header files provide several type definitions that make it easy to create sources that can be compiled for Unicode or for Windows code pages.
 
@@ -118,7 +147,11 @@ Windows API functions that manipulate characters are generally implemented in on
 2. A Windows code page verison with the letter "A" used to indicate "ANSI".
 3. A Unicode version with the letter "W" used to indiate "wide".
 
+----------
+
 ## :books: *Data Structure*
+
+----------
 
 ### Standard Template Library(STL)
 Library that provides data structure and algorithm as template
@@ -231,29 +264,6 @@ It used to save(output) string.
 
 ### *stringstream*
 It used to modifie data of string.
-
-### Working with Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
-Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as a 16-bit value. UTF-16 characters are called wide characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the build-in data type wchar_t for wide characters. The header file WinNT.h also defines the following typedef.
-```C++
-typedef wchar_t WCHAR;
-```
-You wil see both versions in MSDN example code. To declare a wide-character literal or a wide-character string literal, put L before the literal.
-```C++
-wchar_t a = L'a';
-wchar_t *str = L"hello";
-```
-### std::string | [cppreference](https://www.cplusplus.com/reference/string/string/)
-typedef basic_string<char> string;
-
-String class
-
-Strings are objects that represent sequences of characters.
-
-The standard string class provides support for such objects with an interface similar to that of a standard container of bytes, but adding features specifically designed to operate with strings of single-byte characters.
-
-The string class is an instantiation of the basic_string class template that uses char (i.e., bytes) as its character type, with its default char_traits and allocator types (see basic_string for more info on the template).
-
-Note that this class handles bytes independently of the encoding used: If used to handle sequences of multi-byte or variable-length characters (such as UTF-8), all members of this class (such as length or size), as well as its iterators, will still operate in terms of bytes (not actual encoded characters).
 
 ### :books: *Call*
 ### *Call by Value*
