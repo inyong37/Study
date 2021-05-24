@@ -115,12 +115,25 @@ While interpretation and compilation are the two main means by which programming
 
 ----------
 
+### ASCII
+
+### ANSI
+
+### Multi Byte Character Sets
+
 ### Unicode | [Homepage](https://home.unicode.org/)
 Unicode provides a unique number for every character, no matter what the platform, program, or language is.
 
 ### UTF-8 | [Homepage](https://www.utf8.com/)
 Unicode Transformation Format 8-bit is a variable-width encoding that can represent every character in the Unicode character set. It was designed for backward compatibility with ASCII and to avoid the complications of endianness and byte order marks in UTF-16 and UTF-32.
 
+### Byte Order Mark (BOM)
+
+### UTF-16 Little Endian (LE)
+Load with backward, usually used in Microsoft Windows.
+
+### UTF-16 Big Endian (BE)
+Load with forward, usually used in Apple MacOS, and JAVA.
 
 ### Reference
 - Low-level Programming Language Wiki, https://en.wikipedia.org/wiki/Low-level_programming_language, 2021-05-07-Fri.
@@ -153,3 +166,4 @@ Unicode Transformation Format 8-bit is a variable-width encoding that can repres
 - Single-Byte and Multibyte Character Sets, https://docs.microsoft.com/en-us/cpp/c-runtime-library/single-byte-and-multibyte-character-sets?view=msvc-160, 2021-05-24-Mon.
 - Unicode, https://home.unicode.org/, 2021-05-24-Mon.
 - UTF-8, https://www.utf8.com/, 2021-05-24-Mon.
+- Encoding BOM Blog KR, https://118k.tistory.com/865, 2021-05-24-Mon.
