@@ -169,6 +169,10 @@ Windows API functions that manipulate characters are generally implemented in on
 2. A Windows code page verison with the letter "A" used to indicate "ANSI".
 3. A Unicode version with the letter "W" used to indiate "wide".
 
+### MultiByteToWideChar function (stringapiset.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-multibytetowidechar)
+
+### WideCharToMultiByte function (stringapiset.h) | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte)
+
 ----------
 
 ## :books: *Data Structure*
@@ -599,3 +603,5 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Encoding Blog KR, https://onlywis.tistory.com/2 2021-05-21-Fri.
 - std::string, https://www.cplusplus.com/reference/string/string/, 2021-05-21-Fri.
 - Fundamental Types, https://en.cppreference.com/w/cpp/language/types, 2021-05-21-Fri.
+- MultiByteToWideChar function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-multibytetowidechar, 2021-05-24-Mon.
+- WideCharToMultiByte function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte, 2021-05-24-Mon.
