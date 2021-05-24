@@ -113,6 +113,15 @@ Early verisons of LISP programming language and minicomputer and microcomputer B
 
 While interpretation and compilation are the two main means by which programming languages are implemented, they are not mutually exclusive, as most interpreting systems also perform some translation work, just like compilers. The terms "interpreted language" or "compiled language" signify that the canonical implementation of that language is an interpreter or a compiler, respectively. A high-level language is ideally an abstraction independent of particular implementations.
 
+----------
+
+### Unicode | [Homepage](https://home.unicode.org/)
+Unicode provides a unique number for every character, no matter what the platform, program, or language is.
+
+### UTF-8 | [Homepage](https://www.utf8.com/)
+Unicode Transformation Format 8-bit is a variable-width encoding that can represent every character in the Unicode character set. It was designed for backward compatibility with ASCII and to avoid the complications of endianness and byte order marks in UTF-16 and UTF-32.
+
+
 ### Reference
 - Low-level Programming Language Wiki, https://en.wikipedia.org/wiki/Low-level_programming_language, 2021-05-07-Fri.
 - Machine Code Wiki, https://en.wikipedia.org/wiki/Machine_code, 2021-05-07-Fri.
@@ -139,3 +148,8 @@ While interpretation and compilation are the two main means by which programming
 - AOT Wiki, https://en.wikipedia.org/wiki/Ahead-of-time_compilation, 2021-04-29-Thu.
 - Interpreter Wiki, https://en.wikipedia.org/wiki/Interpreter_(computing), 2021-04-29-Thu.
 - PHP, https://www.php.net/, 2021-05-06-Thu.
+- Unicode Encoding Blog KR, http://kopan84.blogspot.com/2012/07/unicode.html, 2021-05-24-Mon.
+- Encoding Blog KR, https://onlywis.tistory.com/2, 2021-05-24-Mon.
+- Single-Byte and Multibyte Character Sets, https://docs.microsoft.com/en-us/cpp/c-runtime-library/single-byte-and-multibyte-character-sets?view=msvc-160, 2021-05-24-Mon.
+- Unicode, https://home.unicode.org/, 2021-05-24-Mon.
+- UTF-8, https://www.utf8.com/, 2021-05-24-Mon.
