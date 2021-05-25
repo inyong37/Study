@@ -122,6 +122,14 @@ The string class is an instantiation of the basic_string class template that use
 
 Note that this class handles bytes independently of the encoding used: If used to handle sequences of multi-byte or variable-length characters (such as UTF-8), all members of this class (such as length or size), as well as its iterators, will still operate in terms of bytes (not actual encoded characters).
 
+### wcscmp() - Compare Wide Character Strings | [IMB i](https://www.ibm.com/docs/en//i/7.3?topic=functions-wcscmp-compare-wide-character-strings)
+Format
+```C++
+#include <wchar.h>
+int wcscmp(const whar_t *string1, const wchar_t *string2);
+```
+Language Level: ANSI. Threadsafe: Yes. The wcscmp() function compares two wide-character strings. The wcscmp() function operates on null-ended wchar_t strings; string arguments to this function should contain a wchar_t null character marking the end of the string. Boundary checking is not performed when a string is added to or copied.
+
 ## :books: Strings in Windows
 ### Working with Strings | [MS Docs](https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings)
 Windows natively supports Unicode strings for UI elements, file names, and so forth. Unicode is the preferred character encoding, because it supports all character sets and languages. Windows represents Unicode characters using UTF-16 encoding, in which each character is encoded as a 16-bit value. UTF-16 characters are called wide characters, to distinguish them from 8-bit ANSI characters. The Visual C++ compiler supports the build-in data type wchar_t for wide characters. The header file WinNT.h also defines the following typedef.
@@ -605,3 +613,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - Fundamental Types, https://en.cppreference.com/w/cpp/language/types, 2021-05-21-Fri.
 - MultiByteToWideChar function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-multibytetowidechar, 2021-05-24-Mon.
 - WideCharToMultiByte function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte, 2021-05-24-Mon.
+- wcscmp(), https://www.ibm.com/docs/en//i/7.3?topic=functions-wcscmp-compare-wide-character-strings, 2021-05-25-Tue.
