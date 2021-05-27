@@ -36,7 +36,7 @@ Spring, 2021
 
 #### Chapter 7. 배열
 - Problem 7. [두 수의 합](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P07_two_sum.py)
-- Problem 8. 빗물 트래핑
+- Problem 8. [빗물 트래핑](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P08_trapping_rain_water.py)
 - Problem 9. 세 수의 합
 - Problem 10. 배열 파티션 I
 - Problem 11. 자신을 제외한 배열의 곱
