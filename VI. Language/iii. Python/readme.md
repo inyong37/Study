@@ -48,6 +48,8 @@ parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_
 args = parser.parse_args()
 ```
 
+### dataclasses | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html)
+
 ### doctest | [Document Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
 The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
 - To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
@@ -117,6 +119,8 @@ The SciPy library is one of the core packages that make up the SciPy stack. It p
 
 ### shutil | [Document Python 3.7.9](https://docs.python.org/3.7/library/shutil.html)
 The [shutil]() module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the [os]() module.
+
+### subprocess | [Docs 3.7.10](https://docs.python.org/3.7/library/subprocess.html)
 
 ### tempfile | [Document Python 3.7.9](https://docs.python.org/3.7/library/tempfile.html)
 
