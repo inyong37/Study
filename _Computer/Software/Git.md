@@ -82,7 +82,12 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 해당 "path_name"이 사용 중인 경우, 예를 들어 안에 다른 folder 또는 file이 있는 경우에 발생한다. 해결책으로는 다른 path를 사용해야한다.
 - `git submodule add git@github.com:user_name/submodule_name path_name`
 
-### Hook
+## hooks
+Srcipts can use same shebang in Windows and UNIX.
+
+```Python
+#!/usr/bin/env python
+```
 
 ### Log
 commit log를 볼 수 있다.
@@ -341,3 +346,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - Setup GitHub Token Blog US, https://github.blog/2008-10-11-local-github-config/, 2021-01-13-Wed.
 - git subtree Blog KR, https://yh0921k.tistory.com/27, 2020-01-20-Wed.
 - git submodule vs. subtree Blog KR, https://blog.rhostem.com/posts/2020-01-03-code-sharing-with-git-subtree, 2020-01-20-Wed.
+- git hook shebang in Windows Blog, https://skoop.dev/blog/2018/12/12/git_hooks_on_Windows/, 2021-05-28-Fri.
