@@ -83,7 +83,7 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - `git submodule add git@github.com:user_name/submodule_name path_name`
 
 ## hooks
-Srcipts can use same shebang in Windows and UNIX.
+Srcipts can use same shebang in Windows as UNIX.
 
 ```Python
 #!/usr/bin/env python
