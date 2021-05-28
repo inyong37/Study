@@ -32,6 +32,11 @@ Versoin 2
 
 ----------
 
+## Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html)
+This module provides a decorator and functions for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. It was originally desribedin PEP 557.
+
+----------
+
 ## :books: Libraries
 
 ### argparse | [Document Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
