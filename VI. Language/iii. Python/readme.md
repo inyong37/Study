@@ -48,8 +48,6 @@ parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_
 args = parser.parse_args()
 ```
 
-### dataclasses | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html)
-
 ### doctest | [Document Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
 The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
 - To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
