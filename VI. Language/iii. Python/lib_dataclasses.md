@@ -1,4 +1,4 @@
-# dataclasses - Data Classes | [Docs (3.7.10)] | [lib/dataclasses.py](https://github.com/python/cpython/blob/3.7/Lib/dataclasses.py)
+# dataclasses - Data Classes | [Docs (3.7.10)](https://docs.python.org/3.7/library/dataclasses.html) | [lib/dataclasses.py](https://github.com/python/cpython/blob/3.7/Lib/dataclasses.py)
 This module provides a decorator and functions for automatically adding generated speical methods such as __init__() and __repr__() to user-defined classes. It was originally described in PEP 557.
 
 The member variables to use in these generated methods are defined using PEP 526 type annotations.
