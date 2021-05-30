@@ -258,8 +258,37 @@ An implementation of Python written completely in Python. It supports several ad
 
 ----------
 ## :books: Glossary | [Docs 3.7.10](https://docs.python.org/3.7/glossary.html)
-### Special Method
+
+### special method
 A method that is called implicitly by Python to execute a certain operation on a type, such as addition. Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.
+
+### type alias
+A synonym for a type, created by assigning the type to an identifier.
+
+Type aliases are useful for simplifying type hints. For example:
+```Python
+from typing import List, Tuple
+
+def remove_gray_shades(colors: List[Tuple[int, int, int]]) -> List[Tuple[int, int, int]]:
+  pass
+```
+could be made more readable like this:
+```Python
+from typing import List, Tuple
+
+Color = Tuple[int, int, int]
+
+def remove_gray_shades[colors: List[Color]] -> List[Color]:
+  pass
+```
+### type hind
+An annotation that specifies the expected type for a variable, a class attribute, or a function parameter or return value.
+
+Type hints are optional and are not enforced by Python but they are useful to static type analysis tools, and aid IDEs with code completion and refactoring.
+
+Type hints of global variables, class attributesm and functions, but not local variables, can be access using typing.get_type_hints().
+
+See typing and PEP 484, which describe this functionality.
 
 ----------
 
