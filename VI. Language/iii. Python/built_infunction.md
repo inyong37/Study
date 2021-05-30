@@ -1,4 +1,4 @@
-## :books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
+# :books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
 `This page is from 'iii. Python/readme.md'`
 
 ### **abs**(*x*)
@@ -136,8 +136,10 @@ Return `True` if the object argument is an instance of the classinfo argument, o
 ### *class* **range**(*start*, *stop*[, *step*])
 
 ### **repr**(*object*)
+Return a string containing a printable representation of an object. For many types, this function makes an attempt to return a string that would yield an object with the same value when passed to eval(), otherwise the representation is a string enclosed in angle brackets that contains the name of the type of the object together with additional information often including the name and address of the object. A class can control what this function returns for its instances by defining a __repr__() method.
 
 ### **reversed**(*seq*)
+Return a reverse iterator. seq must be an object which has a __reversed__() method or supports the sequence protocol (the __len__() method and the __getitem__() method with integer arguments starting at 0).
 
 ### **round**(*number*[, *ndigits*])
 
