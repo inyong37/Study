@@ -257,10 +257,28 @@ An implementation of Python written completely in Python. It supports several ad
 ```
 
 ----------
+
 ## :books: Glossary | [Docs 3.7.10](https://docs.python.org/3.7/glossary.html)
 
 ### special method
 A method that is called implicitly by Python to execute a certain operation on a type, such as addition. Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.
+
+### statement
+A statement is part of a suite (a "block" of code). A statement is either an expression or one of several constructs with a keyword, such as if, while or for.
+
+### text encoding
+A codec which encodes Unicode strings to bytes.
+
+### text file
+A file object able to read and write str objects. Often, a text file actually accesses a byte-oriented datastream and handles the text encoding automatically. Examples of text files are files opened in text mode (`'r'` or `'w'`), sys.stdin, sys.stdout, and instance of io.StringIO.
+
+See also binary file for a file object able to read and write bytes-like objects.
+
+### triple-quoted string
+A string which is bound by three instances of either a quotation mark (") or an apostrophe ('). While they don't provide any functionality not available with single-quoted strings, they are useful for a number of reasons. They allow you to include unescaped single and double quotes within a string and they can span multiple lines without the use of the continuation character, making them especially useful when writing docstrings.
+
+### type
+The type of a Python object determines what kind of object it is; every object has a type. An object's type is accessible as its __classes__ attribute or can be retrieved with `type(obj)`.
 
 ### type alias
 A synonym for a type, created by assigning the type to an identifier.
@@ -281,7 +299,8 @@ Color = Tuple[int, int, int]
 def remove_gray_shades[colors: List[Color]] -> List[Color]:
   pass
 ```
-### type hind
+
+### type hint
 An annotation that specifies the expected type for a variable, a class attribute, or a function parameter or return value.
 
 Type hints are optional and are not enforced by Python but they are useful to static type analysis tools, and aid IDEs with code completion and refactoring.
