@@ -32,11 +32,6 @@ Versoin 2
 
 ----------
 
-## Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
-This module provides a decorator and functions for automatically adding generated special methods such as __init__() and __repr__() to user-defined classes. It was originally desribedin PEP 557.
-
-----------
-
 ## :books: Libraries
 
 ### argparse | [Document Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
@@ -47,6 +42,7 @@ parser = argparse.ArgumentParser(description='Argument Parse')
 parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_1')
 args = parser.parse_args()
 ```
+### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
 
 ### doctest | [Document Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
 The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
