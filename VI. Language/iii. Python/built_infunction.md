@@ -174,4 +174,4 @@ Transform a method into a static method.
 
 ### **zip**(* *iterables*)
 
-## ** __import__ **(*name*, *globals=None*, *locals=None*, *fromlist=()*, *level=0*)
+## __import__(*name*, *globals=None*, *locals=None*, *fromlist=()*, *level=0*)
