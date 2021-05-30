@@ -256,6 +256,13 @@ An implementation of Python written completely in Python. It supports several ad
 # Reference   : None.
 ```
 
+----------
+## :books: Glossary | [Docs 3.7.10](https://docs.python.org/3.7/glossary.html)
+### Special Method
+A method that is called implicitly by Python to execute a certain operation on a type, such as addition. Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.
+
+----------
+
 #### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
