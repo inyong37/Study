@@ -25,3 +25,6 @@ def __init__(self, name: str, unit_price: float, quantity_on_hand: int=0):
   self.quantity_on_hand = quantity_on_hand
 ```
 Note that this method is anutomatically added to the class: it is not directly specified in the InventoryItem definition shown above.
+
+#### Reference
+- dataclasses Blog KR, https://www.daleseo.com/python-dataclasses/, 2021-05-30-Sun.
