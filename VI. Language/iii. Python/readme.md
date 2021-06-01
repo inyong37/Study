@@ -350,3 +350,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PEP 8, https://www.python.org/dev/peps/pep-0008/, 2021-05-12-Wed.
 - PEP 484, https://www.python.org/dev/peps/pep-0484/
 - Callback Wiki, https://en.wikipedia.org/wiki/Callback_(computer_programming), 2021-06-01-Tue.
+- Callback Blog KR, https://satisfactoryplace.tistory.com/18, 2021-06-01-Tue.
