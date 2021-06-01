@@ -211,7 +211,7 @@ In the function `greeting`, the argument `name` is expected to be of type `str` 
 
 ## :bulb: Error
 ### UnicodeEncodeError: 'ascii' codec can't encode characters in position: ordinal not in range(128)
-Python 2.x는 기본 인코딩이 ascii이라 Unix에서 인코딩이 안 맞아서 발생하는 에러이다. Python 3.x는 기본 "UTF-8"을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
+Python 2.x는 기본 인코딩이 ASCII이기 때문에 UNIX에서 encoding이 맞지 않아서 발생하는 에러이다. Python 3.x는 기본 인코딩으로 UTF-8을 사용하기 때문에 문제가 발생하지 않는다. 이를 Python 파일 내에서 기본 인코딩을 변경하는 방법을 통해 수정할 수 있다.
 ```Python
 import sys
 reload(sys)
@@ -309,6 +309,9 @@ Type hints of global variables, class attributesm and functions, but not local v
 
 See typing and PEP 484, which describe this functionality.
 
+### Callback | [Wiki](https://en.wikipedia.org/wiki/Callback_(computer_programming))
+A callback, also known as a "call after function", is any executable code that is passed as an arguemtn to other code; that other code is expected to call back (execute) the argument at a given time. This execution may be immediate as in a synchronous callback, or it might happen at a later point in time as in an asynchronous callback. Programming languages supports callbacks in different ways, often implementing them with subroutines, lambda expressions, blocks, or function pointers.
+
 ----------
 
 #### Reference
@@ -346,3 +349,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PEP 0, https://www.python.org/dev/peps/, 2021-05-12-Wed.
 - PEP 8, https://www.python.org/dev/peps/pep-0008/, 2021-05-12-Wed.
 - PEP 484, https://www.python.org/dev/peps/pep-0484/
+- Callback Wiki, https://en.wikipedia.org/wiki/Callback_(computer_programming), 2021-06-01-Tue.
