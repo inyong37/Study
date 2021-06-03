@@ -93,20 +93,20 @@ Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대�
 
 ----------
 
-## Create C/C++ DLLs in Visual Studio | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160)
+## *Create C/C++ DLLs in Visual Studio* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160)
 In Windows, a dynamic-link library(DLL) is a kind of executable file that acts as a shared library of functions and resources. Dynamic linking is an operating system capability. It enables an executable to call functions or use resources stored in a separate file. These functions and resources can be compiled and deployed separately from the executables that use them.
 
 A DLL isn't a stand-alone executable. DLLs run in the context of the applications that call them. The operating system loads the DLL into an application's memory space. It's done either when the application is loaded (implicit linking), or on demand at runtime (explicit linking). DLLs also make it easy to share functions and resources across executables. Multiple applications can access the contents of a single copy of a DLL in memory at the same time.
 
-### Differences between dynamic linking and static linking
+### *Differences between dynamic linking and static linking*
 Static linking copies all the object code in a static library into the executables that use it when they're built. Dynamic linking includes only the information needed by Windows at run time to locate and load the DLL that contains a data item or function. When you create a DLL, you also create an import library that contains this information. When you build an executable that calls the DLL, the linker uses the exported symbols in the import library to store this information for the Windows loader. When the loader loads a DLL, the DLL is mapped into the memort space of your application. If present, a special function in the DLL, DllMain, is called to do any initialization the DLL requires.
 
-### Differences between applications and DLLs
+### *Differences between applications and DLLs*
 Even thought DLLs and applications are both executable modules, they differ in several ways. The most obvious difference is that you can't run a DLL. From the system's point of view, there are two fundamental differences between applications and DLLs:
 - An application can have multiple instances of itself running in the system simultaneously. A DLL can have only one instance.
 - An application can be loaded as a process. It can own things such as a stack, threads of execution, global memory, file handles, and a message queue. A DLL can't own these things.
 
-### Advantages of using DLLs
+### *Advantages of using DLLs*
 Dynamic linking to code and resources offers several advantages over static linking:
 - Dynamic linking saves memory and reduces swapping. Many processes can use a DLL simultaneously, sharing a single copy of the read-only parts of a DLL in memory. In contrast, every application that is built by using a statically linked library has a complete copy of the library code that Windows must load into memory.
 - Dynamic linking saves disk space and bandwidth. Many applications can share a single copy of the DLL on disk. In contrast, each application built by using a static link library has the library code linked into its executable image. That uses more disk space, and takes more bandwidth to transfer.
