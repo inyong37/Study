@@ -91,6 +91,36 @@ Windows shared library 사용에는 Unix보다 엄격한 기준을 가지고 있
 
 Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대해서 가짜로 링크를 한다. LIB.EXE를 사용해서 X.LIB을 만든다. 이는 LINK.EXE를 사용해서 만드는 파일과 같아 보이지만 X.EXP 파일은 생략되어 있다. 그리고 일반적인 방법과 같이 라이브러리 Y를 링크한다. X.LIB를 pull하고 Y.DLL, Y.LIB 파일이 생성된다. 마지막으로 X를 일반적인 방법으로 링크한다. 하지만 첫 단계와 다른 점은 추가로 X.EXP 파일을 포함한다. 이 링크를 통해 Y.LIB을 pull하고 X.DLL을 만들게 된다. 이 때 일반적일 때와 달리 이미 생성되어 있는 X.LIB 파일 생성을 생략하게 된다.
 
+----------
+
+## Create C/C++ DLLs in Visual Studio | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160)
+In Windows, a dynamic-link library(DLL) is a kind of executable file that acts as a shared library of functions and resources. Dynamic linking is an operating system capability. It enables an executable to call functions or use resources stored in a separate file. These functions and resources can be compiled and deployed separately from the executables that use them.
+
+A DLL isn't a stand-alone executable. DLLs run in the context of the applications that call them. The operating system loads the DLL into an application's memory space. It's done either when the application is loaded (implicit linking), or on demand at runtime (explicit linking). DLLs also make it easy to share functions and resources across executables. Multiple applications can access the contents of a single copy of a DLL in memory at the same time.
+
+### Differences between dynamic linking and static linking
+Static linking copies all the object code in a static library into the executables that use it when they're built. Dynamic linking includes only the information needed by Windows at run time to locate and load the DLL that contains a data item or function. When you create a DLL, you also create an import library that contains this information. When you build an executable that calls the DLL, the linker uses the exported symbols in the import library to store this information for the Windows loader. When the loader loads a DLL, the DLL is mapped into the memort space of your application. If present, a special function in the DLL, DllMain, is called to do any initialization the DLL requires.
+
+### Differences between applications and DLLs
+Even thought DLLs and applications are both executable modules, they differ in several ways. The most obvious difference is that you can't run a DLL. From the system's point of view, there are two fundamental differences between applications and DLLs:
+- An application can have multiple instances of itself running in the system simultaneously. A DLL can have only one instance.
+- An application can be loaded as a process. It can own things such as a stack, threads of execution, global memory, file handles, and a message queue. A DLL can't own these things.
+
+### Advantages of using DLLs
+Dynamic linking to code and resources offers several advantages over static linking:
+- Dynamic linking saves memory and reduces swapping. Many processes can use a DLL simultaneously, sharing a single copy of the read-only parts of a DLL in memory. In contrast, every application that is built by using a statically linked library has a complete copy of the library code that Windows must load into memory.
+- Dynamic linking saves disk space and bandwidth. Many applications can share a single copy of the DLL on disk. In contrast, each application built by using a static link library has the library code linked into its executable image. That uses more disk space, and takes more bandwidth to transfer.
+- Maintenance, security fixes, and upgrades can be easier. When your applications use common functions in a DLL, you can implement bug fixes and deploy updates to the DLL. When DLLs are updated, the applications that use them don't need to be recompiled or relinked. They can make use of the new DLL as soon as it's deployed. In contrast, when you make fixes in statically linked object code, you must relink and redeploy every application that uses it.
+- You can use DLLs to provide after-market support. For example, a display driver DLL can be modified to support a display that wasn't available when the application was shipped.
+- You can use explicit linking to discover and load DLLS at runtime. For example, application extensions that add new functionally to your app without rebuilding or redeploying it.
+- Dynamic linking makes it easier to support applications written in different programming languages. Programs written in different programming languages can call the same DLL function as long as the programs follow the function's calling convention. The programs and the DLL function must be compatible in the following ways: The order in which the function expects its arguments to be pushed onto the stack. Wheter the function or the application is responsible for cleaning up the stack. And, whether any arguments are passed in registers.
+- Dynamic linking provides a mechanism to extend the Microsoft Foundation Class library (MFC) classes. You can derive classes from the existing MFC classes and place them in an MFC extension DLL for use by MFC applications.
+- Dynamic linking makes creation of international versions of your application easier. DLLs are a convenient way to suppy local-specific resources, which make it mush easier to create international versions of an application. Instead of shipping many localized versions of your application, you can place the strings and images for each language in a separate resource DLL. Then your application can load the appropriate resources for that local at runtime.
+
+A potential disadvantage to using DLLs is that the application isn't self-contained. It depends on the existence of a separate DLL module: one that you mush deploy or verify yourself as part of your installation.
+
+----------
+
 #### Reference
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
@@ -107,3 +137,4 @@ Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대�
 - Static Library Wiki, https://en.wikipedia.org/wiki/Static_library, 2021-03-29-Mon.
 - Beginner's Guide to Linkers, https://www.lurklurk.org/linkers/linkers.html#wincircular, 2021-03-30-Tue.
 - CMake Cyclic Dependencies of Static Libraries, https://cmake.org/cmake/help/latest/command/target_link_libraries.html#cyclic-dependencies-of-static-libraries, 2021-03-30-Tue.
+- Create C/C++ DLLs in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160, 2021-06-03-Thu.
