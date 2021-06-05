@@ -2,6 +2,7 @@
 ```
 This page is from the "Language" page.
 ```
+
 ## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 ### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
