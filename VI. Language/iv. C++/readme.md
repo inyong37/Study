@@ -277,38 +277,38 @@ Same as `friend class`, it gives other to access `private` and `protected member
 #### Static Variable (`static` as local variable)
 It can use as global variable in corresponding source code, and keep after scope is ended, plus it only initialized for once and keeps until program end. It has same scope as local variable but alive until program end as global variable. 
 
-### *Template*
+### Template
 It codes only `.h`s not `.cc`s.
 
 #### Smart pointer
 C++ provides smart pointer to guarantee program's secure with memory leak. It is class template works as pointer, it releases memory automatically when useless. There was `auto_ptr` before C++11, and after C++11, there are `unique_ptr`, `shared_ptr`, and `weak_ptr`.
 
-#### *boost::scoped_ptr*
+#### boost::scoped_ptr
 One of smart pointer, but restrained. It is same as `auto_ptr` without copying function.
 
 ### *typedef*
 It can make nickname of type. For example, `typedef double d` means `d` is nickname of type `double`. It can't define new type.
 
-### :books: *sstream*
+### :books: sstream
 ### *istringstream*
 It used to parse(input) string.
 
-### *ostringstream*
+### ostringstream
 It used to save(output) string.
 
-### *stringstream*
+### stringstream
 It used to modifie data of string.
 
-### :books: *Call*
-### *Call by Value*
+### :books: Call
+### Call by Value
 값에 의한 호출을 통해 메모리 공간에서는 함수를 위한 별도의 임시 공간 stack frame이 생성되고, 함수 호출 시 전달되는 변수의 값을 복사해서 함수의 인자로 전달한다. 복사된 인자는 함수 안에서 지역적으로 사용되는 local value의 특성을 가진다. 따라서 함수 안에서 인자의 값이 변경되어도, 외부의 변수 값은 변경되지 않는다.
 
 큰 구조체 또는 클래스를 함수에 전달할 때 값으로 전달하면 인수의 복사본을 함수 매개 변수로 만든다. 이 경우 복사하는데 큰 비용이 들어 성능이 저하될 수 있다. 그리고 값으로 인수를 전달할 경우 함수에서 호출자에게 값을 반환하는 유일한 방법은 함수의 반환 값을 사용하는 것이다. 이 방법도 좋지만, 함수에서 인수를 수정하는 것이 더 명확하고 효율적일 수 있다.
 
-### *Call by Reference (Pass by Reference)*
+### Call by Reference (Pass by Reference)
 call by reference/pass by reference 참조로 전달하면 함수를 위한 별도의 임시 공간은 생성되지만, 함수 호출 시 인자로 전달되는 변수의 레퍼런스를 전달 받아 해당 변수를 가르키기 때문에 인자의 값이 변경되면 argument로 전달된 object의 값도 함께 변경된다.
 
-### :books: *Cast*
+### :books: Cast
 ### *C Style Cast* | [Explicit type conversion](https://en.cppreference.com/w/cpp/language/explicit_cast)
 It can convert(cast) A type to B type, it can convert(cast) any type to any type.
 
@@ -321,20 +321,20 @@ It can convert(cast) A type to B type, it can convert(cast) any type to any type
 - `template-name(arg1, arg2, ...(optional))` since C++17
 - `template-name{arg1, arg2, ...(optional)}` since C++17
 
-### *C++ Style Cast*
+### C++ Style Cast
 It can convert(cast) A type to B type, it has to use right cast. `<type-id>(e-pression)`
 
-### *const_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/const_cast)
+### const_cast | [cppreference](https://en.cppreference.com/w/cpp/language/const_cast)
 Converts between types with difference cv-qualificaion. It removes or grant constness to expression. It rarley used to grant constness to expression.
 
 Syntax: `const_cast<new_type>(expression)`, returns a value of type new_type
 
-#### *dynamic_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/dynamic_cast)
+#### dynamic_cast | [cppreference](https://en.cppreference.com/w/cpp/language/dynamic_cast)
 Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy. It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting. It casts pointer or reference's base class instance to derived class or sibling class type. It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
 Syntax: `dynamic_cast<new_type>(expression)`, new_type: pointers to complete class type, reference to complete class type, or pointer to (optionally cv-qualified) void. expression: lvalue (until C++11) glvalue (since C++11) of a complete class type if new_type is a reference, prvalue of a pointer to complete class type if new_type is a pointer. If the cast is successful, dynamic_cast returns a value of type new_type. If the cast fails and new_type is a pointer type, it returns a null pointer of that type. If the cast fails and new_type is a reference type, it throws an exception that matches a handler of type std::bad_cast.
 
-### *reinterpret_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/reinterpret_cast)
+### reinterpret_cast | [cppreference](https://en.cppreference.com/w/cpp/language/reinterpret_cast)
 Converts between types by reinterpreting the underlying bit pattern. It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
 Syntax: `reinterpret_cast<new_type>(expression)`, returns a value of type new_type.
@@ -347,30 +347,30 @@ Syntax: `static_cast<new_type>(expression)` returns a value of type new_type.
 ### *Constant Member Variable*
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
-### *Constant Member Function*
+### Constant Member Function
 상수 멤버 함수란 호출한 객체의 데이터를 변경할 수 없는 멤버 함수이며 함수의 원형 마지막에 `const` 키워드를 사용하여 선언한다. 호출한 객체의 데이터를 단순히 읽기만 하는 멤버 함수는 상수 멤버 함수로 정의하는 것이 정보 보호 측면에서 좋다. `function_name const;`
 
-### *Function Name Mangling* | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=neokjc&logNo=60050291436&proxyReferer=https:%2F%2Fwww.google.com%2F)
+### Function Name Mangling | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=neokjc&logNo=60050291436&proxyReferer=https:%2F%2Fwww.google.com%2F)
 C++에서는 함수 중복을 하기 때문에 함수 이름이 같더라도 구별되는 인자열에 따라 다른 이름을 만들어준다. 컴파일러가 어떤 일관된 규칙에 따라 함수를 부호화하는 것이다. 방법은 컴파일러마다 다르지만 The Annotated C++ Reference Manual에 name encoding이라는 내용이다.
 
-### :books: *Function Keyword*
+### :books: Function Keyword
 
-### *virtual*
+### virtual
 It used to declare function virtually in parent class, and it make child class declare in real. It used to manage modules as component, as modules have one same parent and make class as themselves with specify along their property.
 
-### *override*
+### override
 This keyword used at child class's virtual function, as `virtual` keyword is used front of function and at parent class, but `override` keyword is used end of function and at child class. Plus, `final` keyword is used at the last child class, and it means there will be no more virtual function over riding.
 
-### *overloading*
+### overloading
 
-### *Initialize Function Argument*
+### Initialize Function Argument
 - foo.h
 ```C++
 void foo(int bar = 0);
 ```
 
-### :books: *Keyword*
-### *->*
+### :books: Keyword
+### ->
 포인터 변수의 값을 참조하기 위한 연산자이다.
 
 ```C++
@@ -389,7 +389,7 @@ struct foo_struct *a
 
 B는 포인터이므로 메모리에 주소만 가지고 있다. 따라서 `a.bar_arr`가 되지 않고 `a->bar_arr`가 된다.
 
-### *#if #elif #else #endif*
+### #if #elif #else #endif
 ```C++
 #if condition1
 function1();
@@ -403,19 +403,19 @@ function3();
 #endif
 ```
 
-### :books: *Namespaces* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160)
+### :books: Namespaces | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-160)
 A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it. Namespaces are used to organize code into logical groups and to prevent name collisions that can occur expecially when your code base includes multiple libraries. All identifiers at namespace scope can access the members by using the fully qualified name for each identifier, for example `std::vector<std::string> vec;` or else by a using Declaration for a single identifier (`using std::string`), or a using Directive for all the identifiers in the namespace (`using namespace std;`). Code in header files should always use the fully qualified namespace name.
 
-### *Using Directives*
+### Using Directives
 
-### *Declaring Namespaces and Namespace Members*
+### Declaring Namespaces and Namespace Members
 
-### *The Global Namespace*
+### The Global Namespace
 If an identifier is not declared in an explicit namespace, it is part of the implicit global namespace. In general, try to avoid making declarations at global scope when possible, except for the entry point main Function, which is required to be in the global namespace. To explicitly qualify a global identifier, use the scope resolution operator with no name, as in `::SomeFunction(x);`. This will differentiate the identifier from anything with the same name in any other namespace, and it will also help to make you code easier for others to understand.
 
-### *The std Namespace*
+### The std Namespace
 
-### *Nested Namespaces*
+### Nested Namespaces
 Namespaces may be nested. An ordinary nested namespace has unqualified access to its parent's members, but the parent members do not have unqualified access to the nested namespace (unless it is declared as inline), as shown in the following example:
 ```C++
 namespace ContosoDataServer
@@ -433,16 +433,16 @@ namespace ContosoDataServer
 ```
 Ordinary nested namespaces can be used to encapsulate internal implementation details that are not part of the public interface of the parent namespace.
 
-### *Namespace Aliases*
+### Namespace Aliases
 Namespace names need to be unique, which means that often they should not be too short. If the length of a name makes code difficult to read, or is tedious to type in a header file where using directives can't be used, then you can make a namespace alias which serves as an abbreviation for the actual name. For example:
 ```C++
 namespace a_very_long_namespace_name {class Foo {};}
 namespace AVLNN == a_very_long_namespace_name;
 void Bar(AVLNN::FOO foo){ }
 ```
-### *Inline namespaces (C++ 11)*
+### Inline namespaces (C++ 11)
 
-### *Anonymous or Unnamed Namespaces*
+### Anonymous or Unnamed Namespaces
 You can create an explicit namespace but not give it a name:
 ```C++
 namespace
@@ -457,10 +457,10 @@ This is called an unnamed or anonymous namespace and it is useful when you want 
 
 정적 멤버 변수에도 클래스 멤버의 접근 제한 규칙이 적용되므로, 클래스의 멤버 함수나 프렌드만이 접근할 수 있다. 하지만 외부에서도 접근할 수 있게 하고 싶으면, public 영역에 선언하면 된다.
 
-### *Static Member Function*
+### Static Member Function
 정적 멤버 함수는 해당 클래스의 객체를 생성하지 않고도, 클래스 이름만으로 호출할 수 있다. 문법으로는 `object_name.member_function_name();`는 일반 멤버 함수의 호출이고, `class_name.member_function_name();`으로도 호출 가능하다. 정적 멤버 함수는 정적 멤버 변수를 선언하는 방법과 같이 static 키워드를 사용해서 선언한다. 특징으로는 객체를 생성하지 않고 클래스 이름만으로 호출 가능하며, 객체를 생성하지 않으므로 this 포인터를 가지지 않고, 특정 객체와 결합하지 않으므로 정적 멤버 변수만 사용 가능하다.
 
-### *struct (C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-160)
+### struct (C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-160)
 The struct keyword defines a structure type and/or a variable of a structure type.
 ```C++
 [template-spec] struct [ms-decl-spec] [tag [: base-list ]]
@@ -484,23 +484,23 @@ The struct keyword defines a structure type and/or a variable of a structure typ
     
 ##### std::map<type, type>
 
-## :books: *C++ Language Reference* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
+## :books: C++ Language Reference | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
 
-### *Keywords* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
+### Keywords | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/keywords-cpp?view=msvc-160)
 Keywords are predefined reserved identifiers that have special meanings. They can't be used as identifiers in your program. The following keywords are reserved for Microsoft C++. Names with leading underscores and names specified for C++/CX and C++/CLI are Microsoft extensions.
 
-### *Operators* | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160)
+### Operators | [MS Docs](https://docs.microsoft.com/en-us/cpp/cpp/cpp-built-in-operators-precedence-and-associativity?view=msvc-160)
 The C++ language includes all C operators and adds several new operators. Operators specify an evaluation to be performed on one or more operands.
 
-## :books: *C/C++ Preprocessor Reference* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-160)
+## :books: C/C++ Preprocessor Reference | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/c-cpp-preprocessor-reference?view=msvc-160)
 The C/C++ preprocessor reference explains the preprocessor as it is implemented in Microsoft C/C++. The preprocessor performs preliminary operations on C and C++ files before they are passed to the compiler. You can use the preprocessor to conditionally compile code, insert files, specify compile-time error messages, and apply machine-specific rules to sections of code.
 
 In Visual Studio 2019 the /Zc:preprocessor compiler options provides a fully conformant C11 and C17 preprocessor. This is the default when you use the compiler flag `/std:c11` or `/std:c17`.
 
-### *Preprocessor* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160)
+### Preprocessor | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor?view=msvc-160)
 The preprocessor is a text processor that manipulates the text of a source file as part of the first phase of translation. The preprocessor doesn't parse the source text, but it does break it up into tokens to locate macro calls. Although the compiler ordinarily invokes the preprocessor in its first pass, the preprocessor can also be invoked separately to process text without compiling.
 
-### *Preprocessor Directives* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor-directives?view=msvc-160)
+### Preprocessor Directives | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/preprocessor-directives?view=msvc-160)
 Preprocessor directives, such as `#define` and `#ifdef`, are typically used to make source programs easy to change and easy to compile in different execution environments. Directives in the source file tell the preprocessor to take specific actions. For example, the preprocessor can replace tokens in the text, insert the contents of other files into the source file, or suppress compilation of part of the file by removing sections of text. Preprocessor lines are recognized and carried out before macro expansion. Therefore, if a macro expands into something that looks like a preprocessor command, it isn't recognized by the preprocessor.
 
 Preprocessor statements use the same character set as source file statements, with the exception that escape sequences aren't supported. The character set used in preprocessor statements is the same sa the execution character set. The preprocessor also recognizes negative character values.
@@ -511,14 +511,14 @@ The number sign (`#`) mush be the first nonwhite-space character on the line con
 
 Preprocessor directives can appear anywhere in a source file, but they apply only to the rest of the source file, after they apper.
 
-### *#if, #elif, #else, and #endif directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160)
+### #if, #elif, #else, and #endif directives (C/C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-if-hash-elif-hash-else-and-hash-endif-directives-c-cpp?view=msvc-160)
 The `#if` directive, with the `#elif`, `#else`, and `#endif` directives, controls compilation of portions of a source file. If the expression you write (after the `#if`) has a nonzero value, the line group immediately following the `#if` directives is kept in the translation unit.
 
-### *Preprocessor Operator defined* 
+### Preprocessor Operator defined
 
-### *Preprocessor Operator __has_include*
+### Preprocessor Operator __has_include
 
-### *#ifdef and #ifndef directives (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160)
+### #ifdef and #ifndef directives (C/C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/hash-ifdef-and-hash-ifndef-directives-c-cpp?view=msvc-160)
 The `#ifdef` and `#ifndef` preprocessor directives have the same effect as the `#if` directive when it's used with the `defined` operator.
 
 Syntax: 
@@ -540,12 +540,12 @@ The `#ifdef` directive is useful for checking whether a definition exists, becau
 #endif
 ```
 
-### *Macros (C/C++)* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160)
+### Macros (C/C++) | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?view=msvc-160)
 The preprocessor expands macros in all lines except preprocessor directives, lines that have a # as the first non-white-space character. It expands macros in parts of some directives that aren't skipped as part of a conditional compilation. Conditional compilation directives allow you to suppress compilation of parts of a source file. They test a constant expression or identifier to determine which text blocks to pass on the the compiler, and which ones to remove from the source file during preprocessing.
 
 The #define directive is typically used to associate meaningful identifiers with constant, keywords, and commonly used statements or expressions. Identifiers that represent constants are sometimes called symbolic constants or manifest constants. Identifiers that represent statements or expressions are called macros. In this preprocessor documentation, only the term "macro" is used.
 
-### *once pragma* | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/once?view=msvc-160)
+### once pragma | [MS Docs](https://docs.microsoft.com/en-us/cpp/preprocessor/once?view=msvc-160)
 Specifices that the compiler includes the header file only once, when compiling a source code file.
 
 Syntax: `#pragma once`
