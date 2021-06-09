@@ -2,6 +2,10 @@
 ```
 This page is from the "Language" page.
 ```
+## :computer: Anaconda | [Homepage](https://www.anaconda.com/) | [Document Individual Edition](https://docs.anaconda.com/anaconda/) | [Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf) | [Archive](https://repo.anaconda.com/archive/)
+The Most Trusted Distribution for Data Science.
+
+Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
 
 ## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
 ### Keymap
@@ -352,3 +356,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PEP 484, https://www.python.org/dev/peps/pep-0484/
 - Callback Wiki, https://en.wikipedia.org/wiki/Callback_(computer_programming), 2021-06-01-Tue.
 - Callback Blog KR, https://satisfactoryplace.tistory.com/18, 2021-06-01-Tue.
+- Anaconda, https://www.anaconda.com/, 2021-06-09-Wed.
+- Anaconda Document Individual Edition, https://docs.anaconda.com/anaconda/, 2021-06-09-Wed.
