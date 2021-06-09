@@ -29,6 +29,11 @@ Versoin 2
 - Python console: `Shift` + `Control` + `Alt` + `F6`
 - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
+### Settings>Tools>Terminal>Shell path:
+- cmd.exe: "C:\Windows\System32\cmd.exe"
+- git-bash: "C:\Program Files\Git\git-bash.exe"
+- git-cmd: "C:\Program Files\Git\git-cmd.exe"
+
 ----------
 
 ## :books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
