@@ -27,11 +27,12 @@ The Python IDE for Professional Developers.
   - Python console: `Shift` + `Control` + `Alt` + `F6`
   - Rerun: `Shift` + `Control` + `Alt` + `F7`
 
-### Settings>Tools>Terminal>Shell path: in Windows
-- cmd.exe: "C:\Windows\System32\cmd.exe"
-- git base.exe: "C:\Program Files\Git\bin"
-- git-bash: "C:\Program Files\Git\git-bash.exe"
-- git-cmd: "C:\Program Files\Git\git-cmd.exe"
+### Settings>Tools>Terminal
+- Shell Path:
+  - cmd.exe: "C:\Windows\System32\cmd.exe"
+  - git base.exe: "C:\Program Files\Git\bin"
+  - git-bash: "C:\Program Files\Git\git-bash.exe"
+  - git-cmd: "C:\Program Files\Git\git-cmd.exe"
 
 ----------
 
