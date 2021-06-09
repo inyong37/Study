@@ -1,4 +1,4 @@
-# Python | [Homepage](https://www.python.org/) | [Documentation (3.7.10)](https://docs.python.org/3.7/)
+# Python | [Homepage](https://www.python.org/) | [Document (3.7.10)](https://docs.python.org/3.7/)
 ```
 This page is from the "Language" page.
 ```
@@ -7,7 +7,9 @@ The Most Trusted Distribution for Data Science.
 
 Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
 
-## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/)
+## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/) | [Other Versions](https://www.jetbrains.com/pycharm/download/other.html)
+The Python IDE for Professional Developers.
+
 ### Keymap
 - Setting for Key mapping: `Control` + `Alt` + `s`.
 - Comment: `Control` + `/`.
