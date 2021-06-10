@@ -62,6 +62,45 @@ Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 �
 ### Edge Computing
 Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
 
+-----
+
+## The Web | [Wiki](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
+The World Wide Web (WWW), commonly known as The Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browswer, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon which technologies the Web is built.
+
+English scientist Sir Timothy Berners-Lee invented the World Wide Web in 1989. He wrote the first web brower in 1990 while employed at CERN near Geneva, Switzerland. The browser was released outside CERN to other research institutions starting in January 1991, and then to the general public in August 1991. The Web began to enter everyday use in 1993-4, when websites for general use started to become available. The World Wide Web has been central to the development of the Information Age, and is the primary tool bilions of people use to interact on the Internet.
+
+Web resources may be any type of downloaded media, but web pages are hypertext documents formatted in Hypertext Markup Language (HTML). Special HTML syntax displays embedded hyperlinks with URLs which permits users to navigate to other web resources. In addition to text, web pages may contain references to images, video, audio, and software components which are either displayed or internally executed in the user's web browser to render pages or streams of multimedia content.
+
+Multiple web resources with a common theme and usually a common domain name, make up a website. Websties are sotred in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's coimputer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myraid of informative, entertainment, commercial, and governmental reasons.
+
+### Web Browser | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
+A web browswer (commonly referred to as a browser) is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.
+
+A web browser is not the same thing as a search engine, though the two are often confused. A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.
+
+Web browsers are used on a range of devices, including desktops, laptops, and smartphones. In 2020, an estimated 4.9 billion people used a browser. The most used browser is Google Chrome, with a 64% global market share on all devices, followed by Safari with 19%.
+
+### Web Site | [Wiki](https://en.wikipedia.org/wiki/Website) | [Home of the first website](http://info.cern.ch/)
+A webste (also written as web site) is a collection of web pages and related content that is identified by a common domain name and published on at least on web server. Notable examples are wikipedia.org, google.com, and amazon.com.
+
+All publicly accessible websites collectively constitute the World Wide Web. There are also private websites that can only be accessed on a private network, such as a company's internal website for its employees.
+
+Websites are typically dedicated to a particular topic or purpose, such as news, education, commerce, entertainment, or social networking, Hyperlinking between web pages guides the navigation of the site, which often starts with a home page.
+
+Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The app used on these devices is called a web browser.
+
+### Web Page | [Wiki](https://en.wikipedia.org/wiki/Web_page)
+A web page(or webpage) is a hypertext document provided by a website and displayed to a user in a web browser. A website typically consists of many web pages linked together in a coherent fashion. The name "web page" is a metaphor of paper pages bound together into a book.
+
+### Web Server | [Wiki](https://en.wikipedia.org/wiki/Web_server)
+A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. A user agent, commonly a web browser or web crawler, initiates communication by making a request for a specific resource using HTTP, and the server responds with the content of that resource or an error message. The server can also accept and store resources sent from the user agent if configured to do so.
+
+A server can be a single computer, or even an embedded system such as a router with a built-in configuration interface, but high-traffic websites typically run web servers on fleets of computers designed to handle large numbers of requests for documents, multimedia files and interactive scripts. A resource sent from a web server can be a preexisting file available to the server, or it can be generated at the time of the request by another program that communicates with the server program. The former is often faster and more easily cached for repeated requests, which the latter supports a broader range of applications. Websites that server generated content usually incorporate stored files whenever possible.
+
+Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
+
+-----
+
 ### *[React](https://reactjs.org/)*
 A JavaScript library for building user interfaces.
 
@@ -94,3 +133,9 @@ A secure runtim for JavaScript and TypeScript.
 - Node.js, https://nodejs.org/en/, 2021-04-29-Thu.
 - Deno, https://deno.land/, 2021-04-29-Thu.
 - Roblox, https://www.roblox.com/, 2021-04-29-Thu.
+- Opentutorials WEBn KR, https://opentutorials.org/course/3083, 2021-06-10-Thu.
+- Web Wiki, https://en.wikipedia.org/wiki/World_Wide_Web, 2021-06-10-Thu.
+- Web Browser Wiki, https://en.wikipedia.org/wiki/Web_browser, 2021-06-10-Thu.
+- Web Site Wiki, https://en.wikipedia.org/wiki/Website, 2021-06-10-Thu.
+- Web Page Wiki, https://en.wikipedia.org/wiki/Web_page, 2021-06-10-Thu.
+- Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
