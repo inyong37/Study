@@ -6,7 +6,7 @@
 A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture-commands or functions in the language map that are structurally similar to processor's instructions. Generally, this refers to either machine code or assembly language. Because of the low (hence the word) abstarction between the language and machine language, low-level languages are sometimes described as being "close to the hardware". Programs written in low-level languages tend to be relatively non-portable, due to being optimized for a certain type of system architecture.
 
 ## Machine Code | [Wiki](https://en.wikipedia.org/wiki/Machine_code)
-In computer programming, machine code, consisting of machine language instructions, is a low-level programming language used ot directly control a computer's central processing unit (CPU). Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory.
+In computer programming, machine code, consisting of machine language instructions, is a low-level programming language used to directly control a computer's central processing unit (CPU). Each instruction causes the CPU to perform a very specific task, such as a load, a store, a jump, or an arithmetic logic unit (ALU) operation on one or more units of data in the CPU's registers or memory.
 
 ## Assembly Language | [Wiki](https://en.wikipedia.org/wiki/Assembly_language)
 In computer programming, assembly language (or assembler language), often abbreviated asm, is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. Assembly language may also be called symbolic machine code.
@@ -66,8 +66,10 @@ Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a har
 
 - Tool: Quartus II (by Altera but now Intel), ModelSim (by Mentor Graphics)
 
-## HTML: HyperText Markup Language | [Homepage](https://whatwg.org/)
+## HTML: HyperText Markup Language | [Homepage](https://whatwg.org/) | [Tutorial](https://www.w3schools.com/html/default.asp)
 Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
+
+HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 
 ## CSS: Cascading Style Sheets | [Homepage](https://www.w3.org/Style/CSS/)
 CSS is a simple mechanism for adding style to web documents.[1]
