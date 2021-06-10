@@ -99,6 +99,9 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
+### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
+A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
+
 -----
 
 ### *[React](https://reactjs.org/)*
@@ -139,3 +142,4 @@ A secure runtim for JavaScript and TypeScript.
 - Web Site Wiki, https://en.wikipedia.org/wiki/Website, 2021-06-10-Thu.
 - Web Page Wiki, https://en.wikipedia.org/wiki/Web_page, 2021-06-10-Thu.
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
+- Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
