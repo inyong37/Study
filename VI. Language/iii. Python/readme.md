@@ -11,21 +11,48 @@ Anaconda is a package manager, an environment manager, a Python/R data science d
 The Python IDE for Professional Developers.
 
 ### Settings>Keymap
-- Default
-  - Setting for Key mapping: `Control` + `Alt` + `s`.
-  - Comment: `Control` + `/`.
-  - Run: `Control` + `Shift` + `F5`.
-  - Search Everywhere: `Shift` + `Shift`
-  - Project View: `Alt` + `1`
-  - Go to File: `Control` + `Shift` + `n`
-- Custom Version 1
-  - Run file in console: `Control` + `r`, `Shift` + `Control` + `Alt` + `F5`, 
-  - Rerun: `Control` + `Shift` + `r`
-- Custom Versoin 2
-  - Settings: `Shift` + `Control` + `Alt` + `F4`
-  - Run file in console: `Shift` + `Control` + `Alt` + `F5`
-  - Python console: `Shift` + `Control` + `Alt` + `F6`
-  - Rerun: `Shift` + `Control` + `Alt` + `F7`
+- Settings: `Control` + `Alt` + `s`.
+- ~~Settings: `Shift` + `Control` + `Alt` + `F4`.~~
+- Main menu
+  - Code>Folding
+    - Comment with Line Comment: `Control` + `/`.
+    - Comment with Block Comment: `Control` + `Shift` + `/`.
+  - Navigate
+    - Search Everywhere: `Control` + `Shift` + `f`.
+    - ~~Search Everywhere: `Shift` + `Shift`.~~
+    - Go to File: `Control` + `Shift` + `n`.
+    - Go to Line/Column: `Control` + `g`.
+    - Next Highlighted Error: `F2`.
+    - Previous Highlighted Error: `Shift` + `F2`.
+  - Navigate>Navigate in File
+    - Go to Declaration or Usgae:
+    - Go to Implementation(s):
+    - Go to Type Declaration:
+    - Go to Super Method:
+    - Related Symbol
+  - Run
+    - Run: `F5`.
+    - ~~Run: `Control` + `Shift` + `F5`.~~
+    - Debug: `F6`.
+    - Step Over: `F10`.
+    - Step Into: `F11`.
+    - Step Out: `F12`.
+    - Pause Program: `F7`.
+    - Resume Program: `F8`.
+- Tool Windows
+  - Python console: `Alt` + `2`.
+  - Python console: ~~`Shift` + `Control` + `Alt` + `F6`.~~
+- Plug-ins
+  - Python Community Edition
+    - Run file in console: `Shift` + `F5`.
+    - ~~Run file in console: `Control` + `r`~~
+    - ~~Run file in console: `Shift` + `Control` + `Alt` + `F5`.~~
+    - ~~Run file in console: `Shift` + `Control` + `Alt` + `F5`.~~
+- Other
+  - Rerun: `Control` + `F5`.
+  - ~~Rerun: `Control` + `Shift` + `r`.~~
+  - ~~Rerun: `Shift` + `Control` + `Alt` + `F7`.~~
+  - Change View: `Alt` + `F1`.
 
 ### Settings>Tools>Terminal
 - Shell Path:
