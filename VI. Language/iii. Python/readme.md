@@ -40,6 +40,7 @@ The Python IDE for Professional Developers.
     - Pause Program: `F7`.
     - Resume Program: `F8`.
 - Tool Windows
+  - Terminal: `Alt` + `3`.
   - Python console: `Alt` + `2`.
   - Python console: ~~`Shift` + `Control` + `Alt` + `F6`.~~
 - Plug-ins
