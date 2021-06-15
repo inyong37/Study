@@ -66,15 +66,19 @@ Very High Speed Integrated Circuit Hardware Description Language (VHDL) is a har
 
 - Tool: Quartus II (by Altera but now Intel), ModelSim (by Mentor Graphics)
 
-## HTML: HyperText Markup Language | [Homepage](https://whatwg.org/) | [Tutorial](https://www.w3schools.com/html/default.asp) | [Tutorial (KR)](https://opentutorials.org/course/3084)
-Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
+## HTML: HyperText Markup Language | [Homepage](https://whatwg.org/) | [Wiki](https://en.wikipedia.org/wiki/HTML) | [Tutorial](https://www.w3schools.com/html/default.asp) | [Tutorial (KR)](https://opentutorials.org/course/3084)
+The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.[8]
+
+Web browswers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure or a web page semantically and originally included cues for the appearance of the document.
 
 HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
 
-## CSS: Cascading Style Sheets | [Homepage](https://www.w3.org/Style/CSS/) | [Tutorail (KR)](https://opentutorials.org/course/3086)
+## CSS: Cascading Style Sheets | [Homepage](https://www.w3.org/Style/CSS/) | [Wiki](https://en.wikipedia.org/wiki/CSS) | [Tutorail (KR)](https://opentutorials.org/course/3086)
 CSS is a simple mechanism for adding style to web documents.[1]
 
-## PHP | [Homepage](https://www.php.net/) | [Toturial (KR)](https://opentutorials.org/course/3130)
+Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
+## PHP | [Homepage](https://www.php.net/) | [Wiki](https://en.wikipedia.org/wiki/PHP) | [Toturial (KR)](https://opentutorials.org/course/3130)
 PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
 
 ## XML: eXtensible Markup Language | [Homepage](https://www.w3.org/XML/)
@@ -170,3 +174,4 @@ Load with forward, usually used in Apple MacOS, and JAVA.
 - UTF-8, https://www.utf8.com/, 2021-05-24-Mon.
 - Encoding BOM Blog KR, https://118k.tistory.com/865, 2021-05-24-Mon.
 - Open Tutorials KR, https://opentutorials.org/course/3084, 2021-06-10-Thu.
+- CSS Wiki, https://en.wikipedia.org/wiki/CSS, 2021-06-15-Tue.
