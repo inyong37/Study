@@ -175,3 +175,4 @@ Load with forward, usually used in Apple MacOS, and JAVA.
 - Encoding BOM Blog KR, https://118k.tistory.com/865, 2021-05-24-Mon.
 - Open Tutorials KR, https://opentutorials.org/course/3084, 2021-06-10-Thu.
 - CSS Wiki, https://en.wikipedia.org/wiki/CSS, 2021-06-15-Tue.
+- PHP Wiki, https://en.wikipedia.org/wiki/PHP, 2021-06-15-Tue.
