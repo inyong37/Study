@@ -555,6 +555,14 @@ Identifies a string as Unicode when UNICODE is defined by a preprocessor directi
 
 Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-16 or ANSI. Return value: None.
 
+----------
+  
+## :books: Pattern
+
+### Resource Acquisition Is Initialization (RAII)
+
+----------
+
 #### Reference
 - Ternary Operator, http://tcpschool.com/cpp/cpp_operator_etc, 2020-06-08-Mon.
 - Friend Class, Friend Function, https://yeolco.tistory.com/116, 2020-06-11-Thu.
@@ -614,3 +622,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - MultiByteToWideChar function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-multibytetowidechar, 2021-05-24-Mon.
 - WideCharToMultiByte function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte, 2021-05-24-Mon.
 - wcscmp(), https://www.ibm.com/docs/en//i/7.3?topic=functions-wcscmp-compare-wide-character-strings, 2021-05-25-Tue.
+- RAII Pattern Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kmc7468&logNo=220989121076, 2021-06-15-Tue.
