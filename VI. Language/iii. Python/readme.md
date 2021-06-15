@@ -55,6 +55,9 @@ The Python IDE for Professional Developers.
   - ~~Rerun: `Shift` + `Control` + `Alt` + `F7`.~~
   - Change View: `Alt` + `F1`.
 
+### Setting>Build, Execution, Deployment>Console>Python Console
+- Starting script: Add "!chcp 65001" for encoding utf-8
+
 ### Settings>Tools>Terminal
 - Shell Path:
   - cmd.exe: "C:\Windows\System32\cmd.exe"
@@ -393,3 +396,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Callback Blog KR, https://satisfactoryplace.tistory.com/18, 2021-06-01-Tue.
 - Anaconda, https://www.anaconda.com/, 2021-06-09-Wed.
 - Anaconda Document Individual Edition, https://docs.anaconda.com/anaconda/, 2021-06-09-Wed.
+- PyCharm Python console Blog KR, https://www.martinii.fun/76, 2021-06-15-Tue.
