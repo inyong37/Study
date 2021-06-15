@@ -121,7 +121,14 @@ While interpretation and compilation are the two main means by which programming
 
 ----------
 
-### ASCII
+### ASCII | [Wiki](https://en.wikipedia.org/wiki/ASCII)
+ASCII, abbreviated from American Standard Code for Information Interchange, is a character encoding standard for electronic commnunication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters.
+
+The Internet Assigned Numbers Authority (IANA) prefers the name US-ASCII for this character encoding.
+
+ASCII is one of the IEEE milestones.
+
+Work on the ASCII standard began in May 1961, with the first meeting of the American Standards Association's (ASA) (now the American National Standards Institute or ANSI) X3.2 subcommittee. The first edition of the standard was published in 1963, underwent a major revision during 1967, and experienced its most recent update during 1986. Compared to eariler telegraph codes, the proposed Bell code and ASCII were both ordered for more convenient sorting (i.e., alphabetization) of lists, and added features for devices other than teleprinters.
 
 ### ANSI
 
@@ -176,3 +183,4 @@ Load with forward, usually used in Apple MacOS, and JAVA.
 - Open Tutorials KR, https://opentutorials.org/course/3084, 2021-06-10-Thu.
 - CSS Wiki, https://en.wikipedia.org/wiki/CSS, 2021-06-15-Tue.
 - PHP Wiki, https://en.wikipedia.org/wiki/PHP, 2021-06-15-Tue.
+- ASCII Wiki, https://en.wikipedia.org/wiki/ASCII, 2021-06-15-Tue.
