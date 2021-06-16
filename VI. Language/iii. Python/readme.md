@@ -154,14 +154,17 @@ Pandas is a fast, powerful, flexible and easy to use open source data analysis a
 Access to underlying platform's identifying data
 
 - platform.**system**()
-
 Returns the system/OS name, such as `Linux`, `Darwin`, `Java`, `Windows`. An empty string is returned if the value cannot be determined.
+
+### pywin32
 
 ### Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
 Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
 
 ### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
+
+### selenium
 
 ### shutil | [Document Python 3.7.9](https://docs.python.org/3.7/library/shutil.html)
 The [shutil]() module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the [os]() module.
