@@ -7,19 +7,19 @@ import time
 
 @dataclass
 class Example:
-    name: str = '박인범'
-    birthday: str = '941022'
-    date: str = '20210603'
+    name: str = ''
+    birthday: str = ''
+    date: str = ''
 
 
 @dataclass
 class Data:
-    name: str = '황인용'
-    birthday: str = '931020'
-    date: str = '20210708'
-    sex: str = '1'
-    phone: str = '01020736181'
-    tool_dir = '..\\TmaxMenuBot\\tool\\'
+    name: str = ''
+    birthday: str = ''
+    date: str = ''
+    sex: str = ''
+    phone: str = ''
+    tool_dir = ''
     url = 'https://www.katc.mil.kr/katc/community/children.jsp'
 
 
