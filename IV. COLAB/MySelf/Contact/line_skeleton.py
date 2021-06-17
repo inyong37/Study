@@ -1,25 +1,22 @@
-import psutil
+﻿import psutil
 import os
 import subprocess
-import time
 from tqdm import tqdm
 from dataclasses import dataclass
 import pyautogui as pg
-import win32con
 import win32gui
-import win32process
+import time
 from typing import Tuple
-from platform import platform
 
 
 @dataclass
 class Data:
+    line_pw: str
+    kakaotalk_pw: str
     line: dict
     kakaotalk: dict
     paint: dict
-    line_pw: str = ''
-    kakaotalk_pw: str = ''
-    line_path: str = 'C:\\Users\\Inyong\\AppData\\Local\\LINE\\bin\\LineLauncher.exe'
+    line_path: str = 'C:\\Users\\Administrator\\AppData\\Local\\LINE\\bin\\LineLauncher.exe'
     kakaotalk_path: str = 'C:\\Program Files (x86)\\Kakao\\KakaoTalk\\KakaoTalk.exe'
     paint_path: str = 'C:\\Windows\\System32\\mspaint.exe'
     line_key: str = '2'
@@ -31,10 +28,7 @@ class Data:
     line_name: str = 'LINE'
     kakaotalk_name: str = ''
     paint_name: str = 'MSPaintApp'
-    capture_path: str = 'C:\\Users\\Inyong\\Capture'
-
-    def set_line_path(self) -> str:
-        return self.line_path.replace('Inyong', 'Administrator')
+    capture_path: str = 'C:\\Users\\Administrator\\Desktop\\Capture'
 
     def set_line_dict(self) -> dict:
         line = {
@@ -57,18 +51,10 @@ class Data:
         return paint
 
 
-@dataclass
-class PointsInyongLaptop:
-    line_chatroom: Tuple[int, int] = (1100, 650)
-    kakaotalk_chatmenu: Tuple[int, int] = (30, 510)
-    kakaotalk_chatroom: Tuple[int, int] = (100, 500)
-
-
-@dataclass
-class PointsMyNotebook:
-    line_chatroom: Tuple[int, int] = (1050, 520)
-    kakaotalk_chatmenu: Tuple[int, int] = (30, 320)
-    kakaotalk_chatroom: Tuple[int, int] = (100, 310)
+data = Data
+data.line = data.set_line_dict(data)
+data.kakaotalk = data.set_kakaotalk_dict(data)
+data.paint = data.set_paint_dict(data)
 
 
 def search_exe_path() -> Tuple[str, str, str]:
@@ -108,7 +94,6 @@ def turn_process_on_by_path(app: dict) -> None:
 
 def turn_process_on_by_win_key(app: dict) -> None:
     pg.hotkey('winleft', app['key'])
-    print('{:*^50}'.format(' wait for on 10 seconds '))
     return time.sleep(10)
 
 
@@ -121,32 +106,12 @@ def set_paint_on_the_top(app: dict) -> None:
     return time.sleep(0.5)
 
 
-def set_line_on_the_top(app: dict) -> any:
+def set_line_on_the_top(app: dict) -> None:
     """
     :param app: line text (window name). :return: None.
     """
     app_hwnd = win32gui.FindWindow(None, app['name'])
     win32gui.SetForegroundWindow(app_hwnd)
-    return time.sleep(0.5)
-
-
-def get_hwnd_by_pid(pid) -> None:
-    hwnd = win32gui.FindWindow(None, None)
-    while hwnd is not None:
-        if win32gui.GetParent(hwnd) is not None:
-            _, temp_pid = win32process.GetWindowThreadProcessId(hwnd)
-            if temp_pid == pid:
-                return hwnd
-            hwnd = win32gui.GetWindow(hwnd, win32con.GW_HWNDNEXT)
-    return None
-
-
-def set_kakaotalk_on_the_top() -> None:
-    for proc in psutil.process_iter():
-        if proc.name() == 'KakaoTalk.exe':
-            app_hwnd = get_hwnd_by_pid(proc.pid)
-            if app_hwnd is not None:
-                win32gui.SetForegroundWindow(app_hwnd)
     return time.sleep(0.5)
 
 
@@ -156,8 +121,9 @@ def login(app) -> None:
     return time.sleep(0.5)
 
 
-def check_line_messages(points) -> None:
-    pg.click(points.line_chatroom) # pg.click(x=1100, y=650)
+def check_line_messages() -> None:
+    # pg.click(x=1100, y=650)
+    pg.click(x=1050, y=520)
     pg.press('down', presses=6, interval=0.5)
     pg.press('up', presses=6, interval=0.5)
     return time.sleep(0.5)
@@ -167,20 +133,22 @@ def check_kakaotalk_chatroom() -> None:
     pg.hotkey('down', 'enter')
     time.sleep(1)
     pg.hotkey('esc')
-    return time.sleep(0.5)
+    return time.sleep(1)
 
 
-def check_kakaotalk_message(points) -> None:
-    pg.click(points.kakaotalk_chatmenu) # pg.click(x=30, y=510)
-    pg.click(points.kakaotalk_chatroom) # pg.doubleClick(x=100, y=500)
+def check_kakaotalk_message() -> None:
+    # pg.click(x=30, y=510)
+    pg.click(x=30, y=320)
+    # pg.doubleClick(x=100, y=500)
+    pg.doubleClick(x=100, y=310)
     pg.hotkey('esc')
-    for _ in range(40):
+    for _ in range(20):
         check_kakaotalk_chatroom()
-    pg.press('up', presses=50, interval=0.5)
+    pg.press('up', presses=25, interval=0.5)
     return time.sleep(0.5)
 
 
-def take_a_screen_shot(data, cnt: int) -> None:
+def take_a_screen_shot(cnt: int) -> None:
     pg.press('printscreen')
     turn_process_on_by_win_key(data.paint)
     set_paint_on_the_top(data.paint)
@@ -192,7 +160,7 @@ def take_a_screen_shot(data, cnt: int) -> None:
     elif cnt == 2:
         postfix: str = '_2 KakaoTalk'
     elif cnt == 3:
-        postfix: str = '_3 Python'
+        postfix: str = '_3 PyCharm'
     else:
         postfix: str = '_4 Test'
     file_name = prefix + postfix
@@ -223,7 +191,7 @@ def turn_process_off(app: dict) -> bool:
     return not check_process_alive(app)
 
 
-def turn_off_all(data) -> None:
+def turn_off_all() -> None:
     if turn_process_off(data.paint):
         print('Paint is off.')
         time.sleep(0.5)
@@ -236,34 +204,39 @@ def turn_off_all(data) -> None:
 
 
 def job():
-    data = Data
-    if 'Windows-10' in platform():
-        points = PointsInyongLaptop
-    else:
-        data.line_path = data.set_line_path(data)
-        points = PointsMyNotebook
-    data.line = data.set_line_dict(data)
-    data.kakaotalk = data.set_kakaotalk_dict(data)
-    data.paint = data.set_paint_dict(data)
+    # def main():
     count: int = 1
-    turn_off_all(data)
-    print('{:-^50}'.format(' Line '))
+    turn_off_all()
+    print('='*10 + 'Line' + '='*10)
     turn_process_on_by_win_key(data.line)
-    set_line_on_the_top(data.line)
+    # set_line_on_the_top(data.line)
     login(data.line)
-    print('{:-^50}'.format(' KakaoTalk '))
+    print('='*10 + 'KakaoTalk' + '='*10)
     turn_process_on_by_win_key(data.kakaotalk)
-    time.sleep(20)
+    time.sleep(10)
     login(data.kakaotalk)
-    print('{:-^50}'.format(' Paint - Print Screen #1 '))
-    take_a_screen_shot(data, count)
+    print('=' * 10 + 'Paint Before' + '=' * 10)
+    take_a_screen_shot(count)
     count += 1
-    set_line_on_the_top(data.line)
-    check_line_messages(points)
-    check_kakaotalk_message(points)
-    print('{:-^50}'.format(' Paint - Print Screen #2 '))
-    take_a_screen_shot(data, count)
+    check_line_messages()
+    check_kakaotalk_message()
+    print('='*10 + 'Paint After' + '='*10)
+    take_a_screen_shot(count)
     count += 1
-    turn_off_all(data)
-    print('{:-^50}'.format(' Paint - Print Screen #3 '))
-    take_a_screen_shot(data, count)
+    turn_off_all()
+    print('=' * 10 + 'Paint Ended' + '=' * 10)
+    take_a_screen_shot(count)
+
+
+# if __name__ == '__main__':
+#     main()
+
+
+"""
+output of taskkill:
+성공: PID 14776인 프로세스(PID 9012인 자식 프로세스)가 종료되었습니다.
+성공: PID 10224인 프로세스(PID 9012인 자식 프로세스)가 종료되었습니다.
+성공: PID 19148인 프로세스(PID 9012인 자식 프로세스)가 종료되었습니다.
+성공: PID 9012인 프로세스(PID 10148인 자식 프로세스)가 종료되었습니다.
+성공: PID 11340인 프로세스(PID 10652인 자식 프로세스)가 종료되었습니다.
+"""
