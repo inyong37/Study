@@ -11,6 +11,8 @@ import win32process
 from typing import Tuple
 from platform import platform
 
+import Key
+
 
 @dataclass
 class Data:
@@ -32,6 +34,9 @@ class Data:
     kakaotalk_name: str = ''
     paint_name: str = 'MSPaintApp'
     capture_path: str = 'C:\\Users\\Inyong\\Capture'
+
+    def set_password(self):
+        self.line_pw, self.kakaotalk_pw = Key.read()
 
     def set_line_path(self) -> str:
         return self.line_path.replace('Inyong', 'Administrator')
@@ -237,6 +242,7 @@ def turn_off_all(data) -> None:
 
 def job():
     data = Data
+    data.set_password(data)
     if 'Windows-10' in platform():
         points = PointsInyongLaptop
     else:
