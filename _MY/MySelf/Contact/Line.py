@@ -67,13 +67,20 @@ class PointsInyongLaptop:
     line_chatroom: Tuple[int, int] = (1100, 650)
     kakaotalk_chatmenu: Tuple[int, int] = (30, 510)
     kakaotalk_chatroom: Tuple[int, int] = (100, 500)
+    system_hide_icon: Tuple[int, int] = (1650, 1050)
+    system_right: Tuple[int, int] = (1700, 950)
+    system_left: Tuple[int, int] = (1600, 950)
 
 
 @dataclass
 class PointsMyNotebook:
     line_chatroom: Tuple[int, int] = (1050, 520)
+    line_disk: Tuple[int, int] = (1150, 600)
     kakaotalk_chatmenu: Tuple[int, int] = (30, 320)
     kakaotalk_chatroom: Tuple[int, int] = (100, 310)
+    system_hide_icon: Tuple[int, int] = ()
+    system_right: Tuple[int, int] = ()
+    system_left: Tuple[int, int] = ()
 
 
 def search_exe_path() -> Tuple[str, str, str]:
@@ -188,7 +195,7 @@ def check_kakaotalk_message(points) -> None:
 def take_a_screen_shot(data, cnt: int) -> None:
     pg.press('printscreen')
     turn_process_on_by_win_key(data.paint)
-    set_paint_on_the_top(data.paint)
+    # set_paint_on_the_top(data.paint)
     pg.hotkey('ctrl', 'v')
     pg.hotkey('ctrl', 's')
     prefix: str = str(time.strftime('%Y-%m-%d-%a', time.localtime(time.time())))
@@ -240,10 +247,20 @@ def turn_off_all(data) -> None:
         time.sleep(0.5)
 
 
+def clean(points) -> None:
+    pg.click(points.system_hide_icon)
+    time.sleep(0.5)
+    pg.moveTo(points.system_right)
+    pg.moveTo(points.system_left)
+    pg.click(points.system_hide_icon)
+    return time.sleep(0.5)
+
+
 def job():
     data = Data
     data.set_password(data)
-    if 'Windows-10' in platform():
+    system = platform()
+    if 'Windows-10' in system:
         points = PointsInyongLaptop
     else:
         data.line_path = data.set_line_path(data)
@@ -255,7 +272,10 @@ def job():
     turn_off_all(data)
     print('{:-^50}'.format(' Line '))
     turn_process_on_by_win_key(data.line)
-    set_line_on_the_top(data.line)
+    if 'Windows-10' in system:
+        set_line_on_the_top(data.line)
+    else:
+        pg.click(points.line_disk)
     login(data.line)
     print('{:-^50}'.format(' KakaoTalk '))
     turn_process_on_by_win_key(data.kakaotalk)
@@ -264,7 +284,8 @@ def job():
     print('{:-^50}'.format(' Paint - Print Screen #1 '))
     take_a_screen_shot(data, count)
     count += 1
-    set_line_on_the_top(data.line)
+    if 'Windows-10' in system:
+        set_line_on_the_top(data.line)
     check_line_messages(points)
     check_kakaotalk_message(points)
     print('{:-^50}'.format(' Paint - Print Screen #2 '))
@@ -273,3 +294,4 @@ def job():
     turn_off_all(data)
     print('{:-^50}'.format(' Paint - Print Screen #3 '))
     take_a_screen_shot(data, count)
+    clean(points)
