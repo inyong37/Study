@@ -67,7 +67,7 @@ class PointsInyongLaptop:
     line_chatroom: Tuple[int, int] = (1100, 650)
     kakaotalk_chatmenu: Tuple[int, int] = (30, 510)
     kakaotalk_chatroom: Tuple[int, int] = (100, 500)
-    system_hide_icon: Tuple[int, int] = (1650, 1050)
+    system_hide_icon: Tuple[int, int] = (1650, 1060)
     system_right: Tuple[int, int] = (1700, 950)
     system_left: Tuple[int, int] = (1600, 950)
 
@@ -78,9 +78,9 @@ class PointsMyNotebook:
     line_disk: Tuple[int, int] = (1150, 600)
     kakaotalk_chatmenu: Tuple[int, int] = (30, 320)
     kakaotalk_chatroom: Tuple[int, int] = (100, 310)
-    system_hide_icon: Tuple[int, int] = ()
-    system_right: Tuple[int, int] = ()
-    system_left: Tuple[int, int] = ()
+    system_hide_icon: Tuple[int, int] = (1380, 880)
+    system_right: Tuple[int, int] = (1420, 765)
+    system_left: Tuple[int, int] = (1340, 765)
 
 
 def search_exe_path() -> Tuple[str, str, str]:
@@ -251,9 +251,12 @@ def clean(points) -> None:
     pg.click(points.system_hide_icon)
     time.sleep(0.5)
     pg.moveTo(points.system_right)
+    time.sleep(0.5)
     pg.moveTo(points.system_left)
+    time.sleep(0.5)
     pg.click(points.system_hide_icon)
-    return time.sleep(0.5)
+    time.sleep(0.5)
+    return None
 
 
 def job():

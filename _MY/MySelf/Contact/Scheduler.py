@@ -25,6 +25,7 @@ def main():
     else:
         print('{: ^60}'.format('This computer is "UNKNOWN".'))
         print(' Nothing to do. ')
+        exit()
     while True:
         Print.work(count=cnt)
         cnt += 1
