@@ -195,18 +195,20 @@ def check_kakaotalk_message(points) -> None:
 def take_a_screen_shot(data, cnt: int) -> None:
     pg.press('printscreen')
     turn_process_on_by_win_key(data.paint)
-    # set_paint_on_the_top(data.paint)
+    if 'Windows-10' in platform():
+        set_paint_on_the_top(data.paint)
     pg.hotkey('ctrl', 'v')
     pg.hotkey('ctrl', 's')
-    prefix: str = str(time.strftime('%Y-%m-%d-%a', time.localtime(time.time())))
+    prefix_legacy: str = str(time.strftime('%Y-%m-%d-%a', time.localtime(time.time())))
+    prefix: str = str(time.strftime('%Y%m%d', time.localtime(time.time())))[2:]
     if cnt == 1:
-        postfix: str = '_1 Line'
+        postfix: str = '_91 Line'
     elif cnt == 2:
-        postfix: str = '_2 KakaoTalk'
+        postfix: str = '_92 KakaoTalk'
     elif cnt == 3:
-        postfix: str = '_3 Python'
+        postfix: str = '_93 Python'
     else:
-        postfix: str = '_4 Test'
+        postfix: str = '_94 Test'
     file_name = prefix + postfix
     print(file_name)
     pg.write(file_name)
