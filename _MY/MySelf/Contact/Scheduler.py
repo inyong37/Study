@@ -18,7 +18,7 @@ def main():
     system = platform()
     if 'Windows-10' in system:
         print('{: ^60}'.format('This computer is "InyongLaptop".'))
-        schedule.every().day.at('15:46').do(Line.job)
+        schedule.every().day.at('06:37').do(Line.job)
     elif 'Windows-7' in system:
         print('{: ^60}'.format('This computer is "MyNotebook".'))
         schedule.every().day.at('18:37').do(Line.job)

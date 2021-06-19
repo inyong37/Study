@@ -4,6 +4,8 @@ from selenium.webdriver.support.ui import Select
 import pyautogui as pg
 import time
 
+import Key
+
 
 @dataclass
 class Example:
@@ -19,12 +21,18 @@ class Data:
     date: str = ''
     sex: str = ''
     phone: str = ''
-    tool_dir = ''
+    tool_dir = '../../../IV. COLAB/Bot//tool/'
     url = 'https://www.katc.mil.kr/katc/community/children.jsp'
 
 
 ex = Example
 data = Data
+test = True
+if test:
+    [ex.name, ex.birthday, ex.date], [data.name, data.birthday, data.date, data.phone, data.sex] = Key.read(test)
+else:
+    [data.name, data.birthday, data.date, data.phone, data.sex] = Key.read(test)
+
 driver = webdriver.Chrome(data.tool_dir + 'chromedriver.exe')
 driver.maximize_window()
 driver.get(data.url)

@@ -55,10 +55,13 @@
   - schedule library 사용함.
 - python dataclass에서 dictionary 만드는 방법 :construction:
 - 그림판이 킨 이후에 foreground에서 background로 돌아감 :heavy_check_mark:
- - printscreen 후에 그림판이 들어감 순서가 꼬인 듯 싶음.
- - 2번 key를 부르고 있었음 -> 1번으로 변경함.
+  - printscreen 후에 그림판이 들어감 순서가 꼬인 듯 싶음.
+  - 2번 key를 부르고 있었음 -> 1번으로 변경함.
 - 그림판이 저장할 때 이미 저장되어 있으면 count를 해야하는가? :heavy_check_mark:
- - count에 따라서 3가지로 나눠서 하도록 함.
+  - count에 따라서 3가지로 나눠서 하도록 함.
+- task kill 실행해서 process(line, kakaotalk, paint)를 껐지만 숨겨진 아이콘에 남아있음. :heavy_check_mark:
+  - 한번 마우스로 휘저으면 바로 사라짐.
+  - 한번 돌도록 함수 구현함.
 - sending message to army -> BootCamp.py :construction:
   - 휴대폰 본인 인증을 해결할 방법을 찾아야함
     .- 맥이였으면 폰에 문자가 온 알림을 가져올 수 있었을 듯
