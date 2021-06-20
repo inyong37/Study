@@ -211,6 +211,7 @@ def take_a_screen_shot(data, cnt: int) -> None:
         postfix: str = '_94 Test'
     file_name = prefix + postfix
     print(file_name)
+    time.sleep(1)
     pg.write(file_name)
     time.sleep(1)
     pg.hotkey('enter')
