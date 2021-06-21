@@ -67,9 +67,10 @@
     .- 맥이였으면 폰에 문자가 온 알림을 가져올 수 있었을 듯
     - computer vision을 이용하는 방안
 
-## Blocking Update
-- Windows
+## Program Update Pop-up
+- Windows :heavy_check_mark:
   - 재시작하지 않으면 발생하지 않을 것으로 예상됨.
+  - 업데이트 중지 기간을 설정하는 방안: "설정>Windows 업데이트>고급 옵션>업데이트 일시 중지>날짜 선택"
 - Line
   - 방안 필요함.
 - KakaoTalk
@@ -78,5 +79,11 @@
     - 단, 업데이트를 하고 싶으면 수동으로 설치해야함 - 위험.
     - reference: https://stadrem.tistory.com/21
   - 다른 방안 필요함.
-- Paint
+- Paint :heavy_check_mark:
   - Windows 큰 변화 없으면 없을 것이라 예상됨.
+- Teamviewer :heavy_check_mark:
+  - 입소 전에 컴퓨터 2대의 Teamviwer를 종료하기.
+
+## Teamviewer Pop-up  :heavy_check_mark:
+- 다른 컴퓨터와 연결한 뒤, 종료하면 ["후원 세션"](Teamviewer_Donation_Session.JPG) 또는 ["세션 시간 초과"](Teamviewer_Session_Timeout.JPG) 팝업 window가 발생해서 enter, 화살표 등의 keyboard input이 원하는 window로 들어가지 않음.
+  - "Chrome Remote Desktop"을 사용하기
