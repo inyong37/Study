@@ -111,8 +111,10 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 
 -----
 
-### *[React](https://reactjs.org/)*
+### *[React](https://reactjs.org/)* | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 A JavaScript library for building user interfaces.
+
+React (also known as React.js or ReactJS) is an open-source front-end JavaScript library for building user interfaces or UI components. Is is maintained by Facebook and a community of individual developers and compaines. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
 
 ### *[Spring](https://spring.io/)* | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework)
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
@@ -162,3 +164,4 @@ Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript 
 - Deno Wiki, https://en.wikipedia.org/wiki/Deno_(software), 2021-06-22-Tue.
 - Node.js Wiki, https://en.wikipedia.org/wiki/Node.js, 2021-06-22-Tue.
 - Spring Wiki, https://en.wikipedia.org/wiki/Spring_Framework, 2021-06-22-Tue.
+- React Wiki, https://en.wikipedia.org/wiki/React_(JavaScript_library), 2021-06-22-Tue.
