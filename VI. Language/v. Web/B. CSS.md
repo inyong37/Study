@@ -21,3 +21,8 @@
 ### Positioning and styling the main page title
 
 ### Centering the image
+
+----------
+
+#### Reference
+- CSS basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics, 2021-06-22-Tue.
