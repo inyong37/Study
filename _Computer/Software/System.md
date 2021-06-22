@@ -89,7 +89,7 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 [A diagram showing the key Unix and Unix-like operating systems (Wiki)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 
-```Other parts of the "Uinx" have been moved to the "Linux" page.```
+```Other parts of the "Uinx" have been moved to the "Unix" page.```
 
 ### *Solaris* | [Homepage](https://www.oracle.com/solaris/solaris11/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
 
@@ -125,7 +125,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *Red Hat* | [Homepage](https://access.redhat.com/)
 
-```Other parts of the "Linux" have been moved to the "Linux" page.```
+```Other parts of the "Linux" have been moved to the "Unix" page.```
 
 ## *Macintosh* | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
 The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
