@@ -133,6 +133,9 @@ Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Mic
 ### *[Deno](https://deno.land/)* | [Wiki](https://en.wikipedia.org/wiki/Deno_(software))
 Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
 
+### *[Electron](https://www.electronjs.org/)* | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework))
+Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
+
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
@@ -165,3 +168,5 @@ Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript 
 - Node.js Wiki, https://en.wikipedia.org/wiki/Node.js, 2021-06-22-Tue.
 - Spring Wiki, https://en.wikipedia.org/wiki/Spring_Framework, 2021-06-22-Tue.
 - React Wiki, https://en.wikipedia.org/wiki/React_(JavaScript_library), 2021-06-22-Tue.
+- Electron, https://www.electronjs.org/, 2021-06-22-Tue.
+- Electron Wiki, https://en.wikipedia.org/wiki/Electron_(software_framework), 2021-06-22-Tue.
