@@ -21,14 +21,14 @@ Ego motion is a 3D motion of a system within an environment.
 ### visual odometry/odometry
 Visual odometry is the estimation of ego-motion using computer vision techniques.
 
-#### ego-motion vs odometry
+### ego-motion vs odometry
 Both words can be used interchangeably in general.
 
 ### HTTP: Hyper Text Transfer Protocol
 
 ### HTTPS: HTTP Secure
 
-#### HTTP vs HTTPS
+### HTTP vs HTTPS
 HTTPS is also referred to as HTTP over TLS or http over SSL
 
 ### FTP: File Transfer Protocol
@@ -109,7 +109,14 @@ Technologies such as REST and SOAP, which use HTTP as a basic for general comput
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
------
+----------
+
+## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
+
+Contents: [Installing basic software](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software), [What will your website look like?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like), [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files), [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics), [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics), [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics), [Publishing your website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website), [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+----------
 
 ### *[React](https://reactjs.org/)* | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 A JavaScript library for building user interfaces.
@@ -135,6 +142,8 @@ Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript 
 
 ### *[Electron](https://www.electronjs.org/)* | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework))
 Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
+
+----------
 
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
