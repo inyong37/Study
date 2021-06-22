@@ -116,11 +116,19 @@ A JavaScript library for building user interfaces.
 
 ### *[Spring](https://spring.io/)*
 
-### *[Node.js](https://nodejs.org/en/)*
+### *[Node.js](https://nodejs.org/en/)* | [Wiki](https://en.wikipedia.org/wiki/Node.js)
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
-### *[Deno](https://deno.land/)*
-A secure runtim for JavaScript and TypeScript.
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting-running scripts server-side to produce dynamic web page content before the page is sent the the user's web browswer. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
+
+Though .js is the standard filename extension for JavaScript code, the name "Node.js" doesn't refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).
+
+The Node.js distributed development project was previously governed by the Node.js Foundation, and has now merged with the JS Foundation to form the OpenJS Foundation, which is facilitated by the Linux Foundation's Collaborative Projects program.
+
+Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Microsoft, Netflix, PayPal, Rakuten, SAP, Voxer, Walmark, Yahoo!, and Amazon Web Services.
+
+### *[Deno](https://deno.land/)* | [Wiki](https://en.wikipedia.org/wiki/Deno_(software))
+Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
 
 #### Reference
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
@@ -150,3 +158,5 @@ A secure runtim for JavaScript and TypeScript.
 - Web Page Wiki, https://en.wikipedia.org/wiki/Web_page, 2021-06-10-Thu.
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
 - Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
+- Deno Wiki, https://en.wikipedia.org/wiki/Deno_(software), 2021-06-22-Tue.
+- Node.js Wiki, https://en.wikipedia.org/wiki/Node.js, 2021-06-22-Tue.
