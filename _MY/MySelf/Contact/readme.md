@@ -66,6 +66,8 @@
   - 휴대폰 본인 인증을 해결할 방법을 찾아야함
     .- 맥이였으면 폰에 문자가 온 알림을 가져올 수 있었을 듯
     - computer vision을 이용하는 방안
+- 프로그램(Line 또는 KakaoTalk)이 다른 컴퓨터에서 종료되지 않고 켜져있으면 로그인하겠냐는 팝업이 발생함.
+  - 꼭 프로그램을 종료하기.
 
 ## Program Update Pop-up
 - Windows :heavy_check_mark:
@@ -83,7 +85,10 @@
   - Windows 큰 변화 없으면 없을 것이라 예상됨.
 - Teamviewer :heavy_check_mark:
   - 입소 전에 컴퓨터 2대의 Teamviwer를 종료하기.
+- ipTIME의 "ipDISK Drive"와 "ipTIME NAS Utility"가 자꾸 시도때도 없이 업데이트 했는데, 하라고 팝업이 뜸. :heavy_check_mark:
+  - ipTIME NAS Utility 삭제하려고 했더니 ipDISK Drive가 종속성이 있음.
+  - 지금 삭제하고 나중에 다시 설치하기.
 
-## Teamviewer Pop-up  :heavy_check_mark:
+## Teamviewer Pop-up :heavy_check_mark:
 - 다른 컴퓨터와 연결한 뒤, 종료하면 ["후원 세션"](Teamviewer_Donation_Session.JPG) 또는 ["세션 시간 초과"](Teamviewer_Session_Timeout.JPG) 팝업 window가 발생해서 enter, 화살표 등의 keyboard input이 원하는 window로 들어가지 않음.
   - "Chrome Remote Desktop"을 사용하기
