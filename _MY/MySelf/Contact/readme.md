@@ -33,7 +33,8 @@
   - save 동작 전후로 time sleep 1초 하도록 함.
 - print screen 키가 제대로 동작 안 하지만 이건 paint save window 로딩이 완료되지 않아서 저장하면서 발생함. :heavy_check_mark:
   - save 동작 전후로 time sleep 1초 하도록 함.
-- LENOVO 정기 점검을 꺼야함.
+- LENOVO 하드웨어 테스트(정기 점검)가 자동으로 실행됨.
+  - "Lenovo Solution Center>하드웨어 검색>검사 스케줄>스케줄러 열기": 매월 17일 1:00 AM에서 매월 1일 1:00 AM으로 변경함(비활성도 있음).
 - Windows 7 업데이트를 꺼야함.
 
 ## 공통
