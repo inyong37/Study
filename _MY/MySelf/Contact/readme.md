@@ -33,9 +33,15 @@
   - save 동작 전후로 time sleep 1초 하도록 함.
 - print screen 키가 제대로 동작 안 하지만 이건 paint save window 로딩이 완료되지 않아서 저장하면서 발생함. :heavy_check_mark:
   - save 동작 전후로 time sleep 1초 하도록 함.
-- LENOVO 하드웨어 테스트(정기 점검)가 자동으로 실행됨.
+- LENOVO 하드웨어 테스트(정기 점검)가 자동으로 실행됨. :heavy_check_mark:
   - "Lenovo Solution Center>하드웨어 검색>검사 스케줄>스케줄러 열기": 매월 17일 1:00 AM에서 매월 1일 1:00 AM으로 변경함(비활성도 있음).
-- Windows 7 업데이트를 꺼야함.
+- Windows 7 업데이트 및 설치가 자동으로 됨. | [Blog (KR)](https://juncheol.tistory.com/244) :heavy_check_mark:
+  - "제어판>시스템 및 보안>Windows Update>자동 업데이트 켜기 또는 끄기>"
+    - "중요 업데이트": 업데이트 자동 설치(권장), 새 업데이트 설치: 매일, 시간: 오전 3:00 -> 업데이트를 확인하지 않음(권장하지 않음)
+    - "권장 업데이트": 중요 업데이트를 받을 떄와 같은 방식으로 권장 업데이트 제공 -> 해제
+    - "업데이트를 설치할 수 있는 사용자": 모든 사용자가 이 컴퓨터에 업데이트를 설치하도록 허용 -> 해제
+    - "Microsoft Update": Windows 업데이트 시 Microsoft 제품 업데이트 제공 및 새로운 선택적 Microsoft 소프트웨어 검색 -> 해제
+    - "소프트웨어 알림": 새 Microfost 소프트웨어 출시 시 자세한 알림 표시 해제 -> 해제
 
 ## 공통
 - get executable file path by finding(grep) :heavy_check_mark:
@@ -96,3 +102,8 @@
 ## Teamviewer Pop-up :heavy_check_mark:
 - 다른 컴퓨터와 연결한 뒤, 종료하면 ["후원 세션"](Teamviewer_Donation_Session.JPG) 또는 ["세션 시간 초과"](Teamviewer_Session_Timeout.JPG) 팝업 window가 발생해서 enter, 화살표 등의 keyboard input이 원하는 window로 들어가지 않음.
   - "Chrome Remote Desktop"을 사용하기
+
+----------
+
+#### Reference
+- Windows 7 Update, https://juncheol.tistory.com/244, 2021-06-23-Wed.
