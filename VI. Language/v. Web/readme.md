@@ -1,5 +1,7 @@
 # Web
 
+`Other parts of Network and Web is in the "Network" page.`
+
 ## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
 
