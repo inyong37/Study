@@ -71,6 +71,7 @@
     - computer vision을 이용하는 방안
 - 프로그램(Line 또는 KakaoTalk)이 다른 컴퓨터에서 종료되지 않고 켜져있으면 로그인하겠냐는 팝업이 발생함.
   - 꼭 프로그램을 종료하기.
+- 화상 키보드는 무조건 최상단으로 되기 때문에 조심(항상 연결 해제할 때 꺼야함).
 
 ## Program Update Pop-up
 - Windows :heavy_check_mark:
