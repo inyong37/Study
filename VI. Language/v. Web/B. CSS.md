@@ -46,8 +46,24 @@ p {
 ```
 
 ### Selecting multiple elements
+You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:
+```CSS
+p, li, h1 {
+  color: red;
+}
+```
 
 ### Different types of selectors
+There are many different types of selectors. The examples above use element selectors, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types of selectors:
+|Selector name|What does it select|Example|
+|:------------|:------------------|:------|
+|Element selector (sometimes called a tag or type selector)|All HTML elements of the sepcified type.|`p`<br/>`selects <p>`|
+|ID selector|The element on the page with the</br>specified ID. On a given HTML page, each</br>id value should be unique.|`#my-id`</br>`selects <p id='my-id'> or <a id='my-id'>`|
+|Class selector|The element(s) on the page with the</br>specified class. Multiple instances of the</br>same class can appear on a page.|`.my-class`</br>`selects <p class='my-class'> and <a class='my-class'>`|
+|Attribute selector|The element(s) on the page with the specified attribute.|`img[src]`</br>`selects <img src='myimage.png'> but not <img>`|
+|Pseudo-class selector|The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)|`a:hover`</br>`selects <a>, but only when the mouse pointer is hovering over the link.`|
+
+There are many more selectors to discover. :point_right: [CSS selectors](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 
 ## Fonts and text
 
@@ -65,3 +81,4 @@ p {
 
 #### Reference
 - CSS basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics, 2021-06-22-Tue.
+- CSS selectors, https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors, 2021-06-23-Wed.
