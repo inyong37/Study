@@ -77,6 +77,14 @@ The Python IDE for Professional Developers.
 
 ## :books: Libraries
 
+### __future__ - Future statement definitions | [Docs](https://docs.python.org/3.7/library/__future__.html#module-__future__)
+__future__ is a real module, and serves three purpose:
+- To avoid confusing existing tools that analyze import statements and expect to find the modules they're importing.
+- To ensure that future statements run under relases prior to 2.1 at least yield runtime exceptions (the import of __future__ will fail, because there was no module of that name prior to 2.1).
+- To document when incompatible changes were introduced, and when they will be - or were - made mandatory. This is a form of executable documentation, and can be inspected programmatically via importing __future__ and examping its contents.
+
+### __main__ - Top-level script environment | [Docs](https://docs.python.org/3.7/library/__main__.html#module-__main__)
+
 ### argparse | [Document Python 3.7.9](https://docs.python.org/3.7/howto/argparse.html)
 ```Python
 import argparse
@@ -400,3 +408,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Anaconda, https://www.anaconda.com/, 2021-06-09-Wed.
 - Anaconda Document Individual Edition, https://docs.anaconda.com/anaconda/, 2021-06-09-Wed.
 - PyCharm Python console Blog KR, https://www.martinii.fun/76, 2021-06-15-Tue.
+- __future__, https://docs.python.org/3.7/library/__future__.html#module-__future__, 2021-06-24-Thu.
+- __main__, https://docs.python.org/3.7/library/__main__.html#module-__main__, 2021-06-24-Thu.
