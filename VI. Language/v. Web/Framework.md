@@ -2,6 +2,21 @@
 `This page is from "Network.md".`
 
 ## Front End
+
+### Angular | [Homepage](https://angular.io/) | [Wiki](https://en.wikipedia.org/wiki/Angular_(web_framework))
+Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that build AngularJS.
+
+Angular is used as the frontend for the MEAN stack, consisting of MongoDB database, Express.js web application server framework, Angular itself (or AngularJS), and Node.js server runtime environment.
+
+### AngularJS | [Homepage](https://angularjs.org/) | [Wiki](https://en.wikipedia.org/wiki/AngularJS)
+AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model-view-controller (MVC) and model-view-viewmodel (MVVM) architectures, alogn with components commonly used in web applications and progressive web applications.
+
+AngularJS is used as the frontend of the MEAN stack, consisting of MongoDB database, Express.js web application server framework, AngularJS itself (or Angular), and Node.js server runtime environment.
+
+The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021. After that data Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues. The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options.
+
+### Vue.js
+
 ### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 A JavaScript library for building user interfaces.
 
@@ -30,6 +45,10 @@ Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript 
 
 
 #### Reference
+- Angular, https://angular.io/, 2021-06-24-Thu.
+- Angular Wiki, https://en.wikipedia.org/wiki/Angular_(web_framework), 2021-06-24-Thu.
+- AngularJS, https://angularjs.org/, 2021-06-24-Thu.
+- AngularJS Wiki, https://en.wikipedia.org/wiki/AngularJS, 2021-06-24-Thu.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
 - React, https://reactjs.org/, 2021-04-29-Thu.
 - Spring, https://spring.io/ 2021-04-29-Thu.
