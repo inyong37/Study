@@ -96,6 +96,11 @@ Objective-C is the primary programming language when writing software for OS X a
 ## Swift | [Homepage](https://developer.apple.com/swift/)
 Swift is a intuitive programming language for macOS, iOS, watchOS, tvOS and beyond.
 
+## [JavaScript](https://www.javascript.com/)
+
+## [TypeScript](https://www.typescriptlang.org/) | [Docs](https://www.typescriptlang.org/docs/)
+TypeScript is an open-source language which builds on JavaScript, one of the world's most used tools, by adding static type definition. Types provide a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly. Writing types can be optional in TypeScript, becuase type interface allows you to get a log of power without writing additional code.
+
 ----------
 
 ### Ahead Of Time (AOT) Compilation | [Wiki](https://en.wikipedia.org/wiki/Ahead-of-time_compilation)
@@ -150,3 +155,5 @@ While interpretation and compilation are the two main means by which programming
 - Open Tutorials KR, https://opentutorials.org/course/3084, 2021-06-10-Thu.
 - CSS Wiki, https://en.wikipedia.org/wiki/CSS, 2021-06-15-Tue.
 - PHP Wiki, https://en.wikipedia.org/wiki/PHP, 2021-06-15-Tue.
+- JavaScript, https://www.javascript.com/, 2021-06-24-Thu.
+- TypeScript, https://www.typescriptlang.org/, 2021-06-24-Thu.
