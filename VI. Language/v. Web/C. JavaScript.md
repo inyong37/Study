@@ -20,8 +20,22 @@ JavaScript("JS" for short) is a full
 ## Language basics crash course
 
 ### Variables
+Variables are containers that store values. You start by declaring a variable with the `var` (less recommended, dive deeper for the explanation) or the `let` keyword, followed by the name you give to the variable:
+```JavaScript
+let myVariable;
+```
+Note: A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons at the end of each statement. There are other rules for when you should and shouldn't use semicolons. [Your Guide to Semicolons in JavaScript](https://news.codecademy.com/your-guide-to-semicolons-in-javascript/)
+
+Note: you can name a variable nearly anything, but there are some restirctions. [naming rules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables), or [check your variable name](https://mothereff.in/js-variables) to see if it's valid.
+
+Note: JavaScript is case sensitive. This means `myVariable` is not the same as `myvariable`.
+
+Note: For more details about the difference between `var` and `let`, see [The difference between var and let](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#the_difference_between_var_and_let).
+
+After declaring a variable, you can give it a value. Also you can do both these operations on the same line. You retrieve the value by calling the variable name. After assigning a value to a variable, you can change it later in the code. Note that variables may hold values that have different data types.
 
 ### Comments
+Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS. `/* */`. If your commment contains no line breaks, it's an option to put it behind two slashs like this. `//`  
 
 ### Operators
 
@@ -95,3 +109,7 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Variable, https://developer.mozilla.org/en-US/docs/Glossary/Variable, 2021-06-24-Thu.
 - var, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var, 2021-06-24-Thu.
 - let, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let, 2021-06-24-Thu.
+- Semicolon guide, https://news.codecademy.com/your-guide-to-semicolons-in-javascript/, 2021-06-24-Thu.
+- naming rules, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables, 2021-06-24-Thu.
+- checking your varibale name, https://mothereff.in/js-variables, 2021-06-24-Thu.
+- The difference between var and let, https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#the_difference_between_var_and_let, 2021-06-24-Thu.
