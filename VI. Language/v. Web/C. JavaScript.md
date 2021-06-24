@@ -35,7 +35,7 @@ Note: For more details about the difference between `var` and `let`, see [The di
 After declaring a variable, you can give it a value. Also you can do both these operations on the same line. You retrieve the value by calling the variable name. After assigning a value to a variable, you can change it later in the code. Note that variables may hold values that have different data types.
 
 ### Comments
-Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS. `/* */`. If your commment contains no line breaks, it's an option to put it behind two slashs like this. `//`  
+Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS. `/* */`. If your commment contains no line breaks, it's an option to put it behind two slashs like `//`.
 
 ### Operators
 
