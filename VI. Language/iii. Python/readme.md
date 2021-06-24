@@ -314,6 +314,75 @@ An implementation of Python written completely in Python. It supports several ad
 
 ## :books: Glossary | [Docs 3.7.10](https://docs.python.org/3.7/glossary.html)
 
+### `>>>`
+The default Python prompt of the interactive shell. Often seen for code examples which can be executed interactively in the interpreter.
+
+### `...`
+The default Python prompt of the interactive shell when entering the code for an indented code block, when within a pair of matching left and right delimiters (parentheses, square brackets, curly braces or triple quotes), or after specifying a decorator.
+
+### 2to3
+A tool that tries to convert Python 2.x code to Python 3.x code by handling most of the incompatibilites which can be detected by parsing the source and traversing the parse tree.
+
+### class
+A template for creating user-defined objects. Class definition normally contain method definitions which operate on instances of the class.
+
+### class variable
+A variable defined in a class and intended to be modified only at class level (i.e., not in an instance of the class).
+
+### coercion
+The implicit conversion of an instance of one type to another during an operation which involves two arguments of the same type. For example, `int(3.15)` converts the floating point number to the integer `3`, but in `3+4.5`, each argument is of a different type (one int, one float), and both mush be converted to the same type before they can be added or it will raise a TypeError. Without coercion, all arguments of even compatible types would have to be normalized to the same value by the programmer, e.g., `float(3)+4.5` rather than just `3+4.5`.
+
+### decorator
+A function returning another function, usually applied as a function transformation using the `@wrapper` syntax. Common examples for decorators are `classmethod()` and `staticmethod()`.
+
+The decorator syntax is merely syntactic sugar, the following two function definitions are semantically equivalent:
+```Python
+def f(..):
+  ...
+f = staticmethod(f)
+@staticmethod
+def f(...):
+  ...
+```
+The same concept exists for classes, but is less commonly used there.
+
+### descriptor
+Any ob
+
+### garbage collection
+The process of freeing memory when it is not used anymore. Python performs garbage collection via reference counting and a cyclic garbage collector that is able to detect and break refernece cycles. The garbage collector can be controlled uising the `gc` module.
+
+### generator
+A function which returns a generator iterator. It looks like a normal function except that is contains `yield` expressions for producing a series of values usable in a for-loop or that can be retrieved one at a time with the `next()` function.
+
+### generator iterator
+An object created by a generator function.
+
+Each `yield` temporarily suspends processing, remembering the location execution state (including local variables and pending try-statements). When the generator iterator resumes, it picks up where it left off (in contrast to functions which start fresh on every invocation).
+
+### generator expression
+An expression that returns an iterator. It looks like a normal expression followed by a `for` clause defining a loop variable, range, and an optional `if` clause. The combined expression generates values for an enclosing function:
+```bash
+>>> sum(i*i for i in range(10)) # sum of suqares 0, 1, 4, ... 81
+285
+```
+
+### generic function
+A function composed of multiple functions implementing the same operation for different types. Which implementation should be used during a call is determined by the dispatch algorithm.
+
+### GIL
+see global interpreter lock.
+
+### global interpreter lock
+The mechanism used by the CPython interpreter to assure that only one thread executes Python bytecode at a time. This simplifies the CPython implementation by making the object model (including critical built-in types such as `dict`) implicitly safe against concurrent access. Locking the entire interpreter makes it easier for the interpreter to be multi-threaded, at the expense of much of the parallelism afforded by multi-processor machines.
+
+However, some extension modules, either standard or third-party, are desinged so as to release the GIL when doing computationally-intensive tasks such as compression or hasing. Also, the GIL is alwasy released when doing I/O.
+
+Past efforts to create a "free-threaded" interpreter (one which locks shared data at a much finer granularity) have not been successful because performance suffered in the common single-processor case. It is believed that overcoming this performance issue would make the implementation much more complicated and therefore costlier to maintain.
+
+### IDLE
+An Integrated Development Environment for Python. IDLE is a basic editor and interpreter environment which ships with the standard distribution of Python.
+
 ### special method
 A method that is called implicitly by Python to execute a certain operation on a type, such as addition. Such methods have names starting and ending with double underscores. Special methods are documented in Special method names.
 
