@@ -41,37 +41,39 @@ JavaScript("JS" for short) is a full
 
 ----------
 
-# Glossary
+## Glossary
 
-## Object | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Object)
+### Object | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Object)
 Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.
 
-## Primitive | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+### Primitive | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
 In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods. There are 7 primitive data types: string, number, bigint, boolean, undefined, symbol, and null.
 
 Most of the time, a primitive value is represented directly at the lowest level of the language implementation.
 
 All primitive are immutable, i.e., they cannot be altered. It is important not to confuse a primitive itself with a variabel assigned a primitive value. The variable may be reassigned a new value, but the existing value can not be changed in the ways that objects, arrays, and functions can be altered.
 
-## Property | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/property)
+### Property | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/property)
 The term property can have several meanings depending on the context. It may refer to:
 
 Property (CSS): A CSS property is a characteristic (like color) whose associated value defines one aspect of how the browser should display the element.
 
 Property (JavaScript): A JavaScript property is a characteristic of an object, often describing attributes associated with a data structure.
 
-## Value | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Value)
+### Value | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Value)
 In the context of data or an object wrapper around that data, the value is the primitive value that the object wrapper contains. In the context of a variable or property, the value can be either a primitive or an object reference.
 
-## Variable | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Variable)
+### Variable | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Variable)
 A variable is a named reference to a value. That way an unpredictable value can be accessed through a predetermined name.
 
-# Statements
+----------
 
-## var | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+## Statements
+
+### var | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 The `var` statement declares a function-scoped or globally-scoped variable, optionally initializing it to a value.
 
-## let | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+### let | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 The `let` statement declares a block-scoped local variable, optionally initializing it to a value.
 
 ----------
