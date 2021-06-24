@@ -21,13 +21,17 @@ AngularJS is used as the frontend of the MEAN stack, consisting of MongoDB datab
 
 The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021. After that data Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues. The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options.
 
-### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js)
-Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
+### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework))
+Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
 
-### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
-A JavaScript library for building user interfaces.
+### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | JavaScript
+jQuery is a JavaScript library designed ton simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage tha any other JavaScript library.
 
-React (also known as React.js or ReactJS) is an open-source front-end JavaScript library for building user interfaces or UI components. Is is maintained by Facebook and a community of individual developers and compaines. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
+jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced affects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applicatoins.
+
+The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API. Later, this style has been enhanced with a deeper algorithm-data fusion in an heir of jQuery, the D3.js framework.
+
+Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
 
 ### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework)
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
@@ -40,8 +44,13 @@ The Node.js distributed development project was previously governed by the Node.
 
 Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Microsoft, Netflix, PayPal, Rakuten, SAP, Voxer, Walmark, Yahoo!, and Amazon Web Services.
 
-### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework))
-Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
+### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
+A JavaScript library for building user interfaces.
+
+React (also known as React.js or ReactJS) is an open-source front-end JavaScript library for building user interfaces or UI components. Is is maintained by Facebook and a community of individual developers and compaines. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
+
+### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js)
+Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
 
 ## Back End
 ### Node.js | [Homepage](https://nodejs.org/en/) | [Wiki](https://en.wikipedia.org/wiki/Node.js)
@@ -62,6 +71,8 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 - Angular Wiki, https://en.wikipedia.org/wiki/Angular_(web_framework), 2021-06-24-Thu.
 - AngularJS, https://angularjs.org/, 2021-06-24-Thu.
 - AngularJS Wiki, https://en.wikipedia.org/wiki/AngularJS, 2021-06-24-Thu.
+- jQuery, https://jquery.com/, 2021-06-24-Thu.
+- jQuery Wiki, https://en.wikipedia.org/wiki/JQuery, 2021-06-24-Thu.
 - Vue.js, https://vuejs.org/index.html, 2021-06-24-Thu.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
 - React, https://reactjs.org/, 2021-04-29-Thu.
