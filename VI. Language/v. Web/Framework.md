@@ -1,7 +1,13 @@
-# Framework
+# Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
 `This page is from "Network.md".`
+A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse. Although they often target development of dynamice web sites, they are also applicable to static websites.
 
 ## Front End
+
+### Ajax | [Wiki](https://en.wikipedia.org/wiki/Ajax_(programming))
+Ajax (also AJAXl short for "Asynchronous JavaScript and XML") is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decouping the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly utilize JSON instead of XML.
+
+Ajax is not a single technology, but rather a group of technologies. HTML and CSS can be used in combination to mark up and style information. The webpage can then be modified by JavaScript to dynamically display - and allow the user to interact with - the new information. The built-in XMLHttpRequest object, or since 2017 the new fetch function within JavaScript, is commonly used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. Ajax is not a new technology, or a different language, just existing technologies used in new ways.
 
 ### Angular | [Homepage](https://angular.io/) | [Wiki](https://en.wikipedia.org/wiki/Angular_(web_framework))
 Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that build AngularJS.
@@ -15,7 +21,8 @@ AngularJS is used as the frontend of the MEAN stack, consisting of MongoDB datab
 
 The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021. After that data Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues. The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options.
 
-### Vue.js
+### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js)
+Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
 
 ### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library))
 A JavaScript library for building user interfaces.
@@ -43,12 +50,19 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 ### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software))
 Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
 
+### Express.js | [Wiki](https://en.wikipedia.org/wiki/Express.js)
+Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
+
+The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
 
 #### Reference
+- Web Framework Wiki, https://en.wikipedia.org/wiki/Web_framework, 2021-06-24-Thu.
+- Ajax Wiki, https://en.wikipedia.org/wiki/Ajax_(programming), 2021-06-24-Thu.
 - Angular, https://angular.io/, 2021-06-24-Thu.
 - Angular Wiki, https://en.wikipedia.org/wiki/Angular_(web_framework), 2021-06-24-Thu.
 - AngularJS, https://angularjs.org/, 2021-06-24-Thu.
 - AngularJS Wiki, https://en.wikipedia.org/wiki/AngularJS, 2021-06-24-Thu.
+- Vue.js, https://vuejs.org/index.html, 2021-06-24-Thu.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
 - React, https://reactjs.org/, 2021-04-29-Thu.
 - Spring, https://spring.io/ 2021-04-29-Thu.
@@ -59,3 +73,4 @@ Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript 
 - React Wiki, https://en.wikipedia.org/wiki/React_(JavaScript_library), 2021-06-22-Tue.
 - Electron, https://www.electronjs.org/, 2021-06-22-Tue.
 - Electron Wiki, https://en.wikipedia.org/wiki/Electron_(software_framework), 2021-06-22-Tue.
+- Express.js Wiki, https://en.wikipedia.org/wiki/Express.js, 2021-06-24-Thu.
