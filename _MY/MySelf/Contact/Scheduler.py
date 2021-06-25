@@ -9,8 +9,6 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))))
 import Print
-# sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
-# from BootCamp import Contribution
 
 
 def commit():
@@ -26,6 +24,8 @@ def main():
     if 'Windows-10' in system:
         print('{: ^60}'.format('This computer is "InyongLaptop".'))
         schedule.every().day.at('06:37').do(Line.job)
+        # sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+        # from BootCamp import Contribution
         # schedule.every().day.at('10:34').do(Contribution.job, False)
         schedule.every().day.at('01:00').do(commit)
     elif 'Windows-7' in system:

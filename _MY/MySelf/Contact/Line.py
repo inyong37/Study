@@ -137,8 +137,8 @@ def set_line_on_the_top(app: dict) -> any:
     """
     :param app: line text (window name). :return: None.
     """
-    app_hwnd = win32gui.FindWindow(None, app['name'])
-    win32gui.SetForegroundWindow(app_hwnd)
+    # app_hwnd = win32gui.FindWindow(None, app['name'])
+    # win32gui.SetForegroundWindow(app_hwnd)
     return time.sleep(0.5)
 
 
