@@ -46,7 +46,39 @@ TEST(fixture_sample, case_name)
     ... test content ...
 }
 ```
-### References
+
+# Lint | [Wiki](https://en.wikipedia.org/wiki/Lint_(software)) | [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs. The term originates from a Unix utility that examined C language source code.
+
+## C, C++
+Astree, BLAST (retired), Clang, Coccinelle, Coverity, CPAChecker, Cppcheck, Cppdepend, cpplint, ECLAIR, Eclipse, Fluctuat, Frama-C, Helix QAC, Inter, Lint, LDRA Testbed, Parasoft C/C++test, PC-Lint, Polyspace, SLAM project, Sparse, SonarQube, Splint, Visual Studio.
+
+## Fortran
+### Fortran-Lint (Information Processing Techniques, Inc)
+
+## Java
+Checkstyle, Coverity, Eclipse, FindBugs, Infer, IntelliJ IDEA, JArchitect, JTest, LDRA Testbed, PMD, RIPS, Semgrep, SemmleCode, Soot, Squale, SourceMeter, ThreadSafe,.
+
+## JavaScript
+### ESLint | [Wiki](https://en.wikipedia.org/wiki/ESLint)
+JavaScript syntax checker and formatter.
+
+## Python
+### PyCharm
+Cross-platform IDE with code inspections available for analyzing code on-the-fly in the editor and bulk analysis of the whole project.
+
+### PyDev
+Eclipse-based Python IDE with code analysis available on-the-fly in the editor or at save time.
+
+### Pylink
+Static code analyzer. Quite stringent; includes many stylistic warnings as well.
+
+### Semgrep
+Static code analyzer that helps expressing code standards and surfacing bugs early. A CI service and a rule library is also available.
+
+----------
+
+#### References
 - googletest(gtest) GitHub, https://github.com/google/googletest
 - gtest-demo GitHub, https://github.com/bast/gtest-demo
 - googltetest, https://github.com/google/googletest/blob/master/docs/primer.md
@@ -55,3 +87,6 @@ TEST(fixture_sample, case_name)
 - C++ 프로젝트에 단위 테스트 도입하기 Slide, https://www.slideshare.net/zone0000/c-7522148
 - 낡은 코드에 단위테스트 넣기 Slide, https://www.slideshare.net/parkpd/kgc2010
 - Google Test/Mock 정리 Blog, https://jacking75.github.io/cpp_GTest_Mock_CheatSeet/
+- Lint Wiki, https://en.wikipedia.org/wiki/Lint_(software), 2021-06-25-Fri.
+- List of tools for static code analysis, https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis, 2021-06-25-Fri.
+- ESLint, https://en.wikipedia.org/wiki/ESLint, 2021-06-25-Fri.
