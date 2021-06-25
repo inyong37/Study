@@ -1,6 +1,7 @@
 from time import sleep
 import schedule
 from platform import platform
+from subprocess import call
 
 import Line
 
@@ -12,6 +13,10 @@ import Print
 # from BootCamp import Contribution
 
 
+def commit():
+    call('cd ../BootCamp/ && python -c "from Contribution import job; job(True)"', shell=True)
+
+
 def main():
     print('{:*^60}'.format(' Checking Line & KakaoTalk and take screenshots '))
     schedule.every().day.at('00:10').do(Print.day)
@@ -21,7 +26,8 @@ def main():
     if 'Windows-10' in system:
         print('{: ^60}'.format('This computer is "InyongLaptop".'))
         schedule.every().day.at('06:37').do(Line.job)
-        # schedule.every().day.at('00:46').do(Contribution.job)
+        # schedule.every().day.at('10:34').do(Contribution.job, False)
+        schedule.every().day.at('01:00').do(commit)
     elif 'Windows-7' in system:
         print('{: ^60}'.format('This computer is "MyNotebook".'))
         schedule.every().day.at('18:37').do(Line.job)

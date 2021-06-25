@@ -103,7 +103,27 @@
 - 다른 컴퓨터와 연결한 뒤, 종료하면 ["후원 세션"](Teamviewer_Donation_Session.JPG) 또는 ["세션 시간 초과"](Teamviewer_Session_Timeout.JPG) 팝업 window가 발생해서 enter, 화살표 등의 keyboard input이 원하는 window로 들어가지 않음.
   - "Chrome Remote Desktop"을 사용하기
 
+## Contribution: auto-commit :heavy_check_mark:
+- Motivation: https://youtu.be/V9AGvwPmnZU
+- 훈련소에서 일기/후기를 수기로 작성하고, 돌아와서 정리할 markdown template 파일을 commit하기. :heavy_check_mark:
+  - 날짜에 따라 D-, D+가 나눠지도록 함, 계획 밖의 날짜에 대해서는 안하도록 함.
+  - 나와서 멈추거나 삭제 필요함.
+- Scheduler를 합칠지 분리할지 고민이 필요함.
+  - 합치면 submodule로 되어 있어서 경로 문제가 발생함:
+    - 해당 submodule인 BootCamp repo가 아닌, Study repo로 작업하게 됨.
+    - 이는 subprocess 등으로 change directory (`cd`) 이용하면 될 것으로 예상함.
+  - 분리하면 python `time.sleep()`이 GIL으로 동일 process에서는 thread를 나눠도 영향을 미칠 것이라 예상함.
+    - 다른 process인 경우에도 서로 영향을 미칠지 걱정됨.
+    - python test 결과(2개 process로 나눔): "IV. Language/iii. Python/sleep-*" 서로 영향은 없음.
+    - 하지만 computer 구조 상 CPU의 context change가 아무리 빨라도 오차는 발생할 수 있을 것이라 예상됨.
+    - 기간은 약 1달이지만 어떤 변수가 발생할지 몰라서 합치는 것이 좋을 것이라 판단함.
+  - schedule로 argument pass하는 [방법](https://stackoverflow.com/questions/40781062/pass-parameters-to-schedule) 
+    - schedule과 subprocess를 같이 쓰는 방안 중, 이를 함수로 다시 묶어서 하도록 함.
+    - `subprocess.call`이 cmd에서 에러 발생해서 [해결](https://stackoverflow.com/questions/24306205/file-not-found-error-when-launching-a-subprocess-containing-piped-commands).
+
 ----------
 
 #### Reference
 - Windows 7 Update, https://juncheol.tistory.com/244, 2021-06-23-Wed.
+- schedule.do() with argument, https://stackoverflow.com/questions/40781062/pass-parameters-to-schedule, 2021-06-25-Fri.
+- subprocess.call(shell=True), https://stackoverflow.com/questions/24306205/file-not-found-error-when-launching-a-subprocess-containing-piped-commands, 2021-06-25-Fri.
