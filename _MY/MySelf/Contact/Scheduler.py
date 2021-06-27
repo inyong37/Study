@@ -12,6 +12,7 @@ import Print
 
 
 def commit():
+    os.system('git submodule update --resursive')
     call('cd ../BootCamp/ && python -c "from Contribution import job; job(True)"', shell=True)
 
 
