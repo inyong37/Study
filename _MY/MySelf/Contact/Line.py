@@ -278,6 +278,7 @@ def job():
     turn_off_all(data)
     print('{:-^50}'.format(' Line '))
     turn_process_on_by_win_key(data.line)
+    time.sleep(20)
     if 'Windows-10' in system:
         set_line_on_the_top(data.line)
     else:
