@@ -13,7 +13,7 @@ import Print
 
 def commit():
     os.system('git submodule update --recursive')
-    call('cd ../BootCamp/ && python -c "from Contribution import job; job(True)"', shell=True)
+    call('cd ../BootCamp/ && git checkout master && python -c "from Contribution import job; job(True)"', shell=True)
 
 
 def main():
