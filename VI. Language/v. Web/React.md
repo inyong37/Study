@@ -2,6 +2,7 @@
 A JavaScript library for building user interfaces.
 
 ## Main Concepts
+
 1.[Hello World](https://reactjs.org/docs/hello-world.html) 
 
 2. [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
@@ -27,6 +28,7 @@ A JavaScript library for building user interfaces.
 12. [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
 ## Hooks
+
 1. [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 ### [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
