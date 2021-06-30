@@ -16,7 +16,7 @@ Chapter 21. 클래스 계층 구조
 
 Chapter 23. 템플릿
 
-Chapter 24. 일반화 프로그래밍
+Chapter 24. [일반화 프로그래밍](https://github.com/inyong37/Study/blob/master/VI.%20Language/iv.%20C%2B%2B/The%20C%2B%2B%20Programming%20Language/C24_GenericProgramming.md)
 
 Chapter 28. 메타프로그래밍
 
