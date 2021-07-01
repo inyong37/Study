@@ -31,8 +31,6 @@ A JavaScript library for building user interfaces.
 
 1. [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 
-### [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-
 ### [Modern JavaScript in React Documentation](https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c)
 If you haven’t worked with JavaScript in the last few years, these three points should give you enough knowledge to feel comfortable reading the React documentation:
 
