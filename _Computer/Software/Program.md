@@ -144,6 +144,10 @@ It depends on the programmer and the build settings they want to put into each t
 ## Execution | [Wiki](https://en.wikipedia.org/wiki/Execution_(computing))
 Keywords: code, translation, compiler, compile-time, optimizing compiler, intermediate representation (IR), execution, runtime system, runtime, executable, interpreter, virtual machine, source code, object code, bytecode, machine code, microcode, compilation strategies, just-in-time (JIT), tracing just-in-time, ahead-of-time (AOT), transcompilation, recompilation, notable runtimes, android runtime (ART), common language runtime (CLR) & Mono, crt0, HHVM, Java virtual machine (JVM), objective-c, v8, node.js, zend engine, notable compilers & toolchains, GNU compiler collection (GCC), LLVM, Clang
 
+### Difference Between Packing and Packaging | [QnA](https://keydifferences.com/difference-between-packing-and-packaging.html)
+While packing is more about protection, the packaging is focuses on the design and appearance of the product which makes it attractive. So, packing implies the act of covering up the item or product, to protect it from any damage, whereas packaging refers to a set of activities, which involves designing a proper cover for the product, which not only stores the product and protects it from any damage, but also attracts customers with its appearance and instigates them to buy it. 
+
+
 #### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
@@ -202,3 +206,4 @@ Keywords: code, translation, compiler, compile-time, optimizing compiler, interm
 - Ad hoc Wiki KR, https://ko.wikipedia.org/wiki/%EC%95%A0%EB%93%9C%ED%98%B9, 2021-04-09-Fri.
 - Distribution vs. Release, https://stackoverflow.com/questions/8380570/whats-the-difference-between-distribution-and-release-build-configurations, 2021-04-09-Fri.
 - Execution Wiki, https://en.wikipedia.org/wiki/Execution_(computing), 2021-04-29-Thu.
+- Difference Between Packing and Packaging, https://keydifferences.com/difference-between-packing-and-packaging.html, 2021-07-01-Thu.
