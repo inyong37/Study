@@ -67,9 +67,9 @@ class PointsInyongLaptop:
     line_chatroom: Tuple[int, int] = (1100, 650)
     kakaotalk_chatmenu: Tuple[int, int] = (30, 510)
     kakaotalk_chatroom: Tuple[int, int] = (100, 500)
-    system_hide_icon: Tuple[int, int] = (1650, 1060)
-    system_right: Tuple[int, int] = (1700, 950)
-    system_left: Tuple[int, int] = (1600, 950)
+    system_hide_icon: Tuple[int, int] = (1680, 1060)
+    system_right: Tuple[int, int] = (1730, 960)
+    system_left: Tuple[int, int] = (1630, 960)
 
 
 @dataclass
