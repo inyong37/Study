@@ -24,11 +24,11 @@ def main():
     system = platform()
     if 'Windows-10' in system:
         print('{: ^60}'.format('This computer is "InyongLaptop".'))
-        schedule.every().day.at('00:37').do(Line.job)
+        schedule.every().day.at('19:37').do(Line.job)
         # sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
         # from BootCamp import Contribution
         # schedule.every().day.at('10:34').do(Contribution.job, False)
-        schedule.every().day.at('00:30').do(commit)
+        schedule.every().day.at('19:00').do(commit)
     elif 'Windows-7' in system:
         print('{: ^60}'.format('This computer is "MyNotebook".'))
         schedule.every().day.at('18:37').do(Line.job)
