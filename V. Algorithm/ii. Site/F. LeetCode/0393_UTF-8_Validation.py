@@ -8,7 +8,7 @@ class Solution:
         start = 0
         while start < len(data):
             first = data[start]
-            if (first >> 3) == 0b1110 and check(3):
+            if (first >> 3) == 0b11110 and check(3):
                 start += 4
             elif (first >> 4) == 0b1110 and check(2):
                 start += 3
