@@ -56,6 +56,35 @@ Installation: `$ npm install @material-ui/core`
 
 ----------
 
+### 3. Rendering Elements | [Docs](https://reactjs.org/docs/rendering-elements.html)
+Elements are the smallest building blocks of React apps.
+
+An element describes what you want to see on the screen:
+```JavaScript
+const element = <h1>Hello, world</h1>;
+```
+Unlike browser DOM elements, React elements are plain objects, and are cheap to create. React DOM takes care of updating the DOM to match the React elements.
+
+#### Note:
+One might confuse elements with a more widely known concept of "components". ELements are what components are "made of".
+
+#### Rendering an Element into the DOM
+Let's say there is a `<div>` somewhere in your HTML file:
+```HTML
+<div id="root></div>
+```
+We call this a "root" DOM node because everything inside it will be managed by React DOM.
+
+Applications build with just React usually have a single root DOM node. If you are integrating React into an existing app, you may have as many isolated root DOM nodes as you like.
+
+To render a React element into a root DOM node, pass both to ReactDOM.render():
+```JavaScript
+const element = <h1>Hello, world</h1>;
+ReactDOM.render(element, document.getElementById('root'));
+
+It displays "Hello, world" on the page.
+```
+
 ### 4. Components and Props | [Docs](https://reactjs.org/docs/components-and-props.html)
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
 
@@ -257,3 +286,4 @@ Of course, application UIs are dynamic and change over time. In the next section
 - component Blog KR, https://hyogeun-android.tistory.com/entry/2-React-Component?category=944659, 2021-06-30-Wed.
 - Modern JavaScript in React Documentation, https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c, 2021-06-03-Wed.
 - Components and Props, https://reactjs.org/docs/components-and-props.html, 2021-08-20-Fri.
+- Rendering Elements, https://reactjs.org/docs/rendering-elements.html, 2021-08-20-Fri.
