@@ -27,6 +27,8 @@ A JavaScript library for building user interfaces.
 
 12. [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 
+----------
+
 ## Hooks
 
 1. [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
@@ -51,6 +53,8 @@ Installation: `$ npm install --save mobx`
 React components for faster and easier web development.
 
 Installation: `$ npm install @material-ui/core`
+
+----------
 
 ### 4. Components and Props | [Docs](https://reactjs.org/docs/components-and-props.html)
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
