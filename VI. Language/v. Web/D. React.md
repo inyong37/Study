@@ -3,7 +3,7 @@ A JavaScript library for building user interfaces.
 
 ## Main Concepts
 
-1.[Hello World](https://reactjs.org/docs/hello-world.html) 
+1. [Hello World](https://reactjs.org/docs/hello-world.html) 
 
 2. [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 
@@ -52,7 +52,7 @@ React components for faster and easier web development.
 
 Installation: `$ npm install @material-ui/core`
 
-### Components and Props | [Docs](https://reactjs.org/docs/components-and-props.html)
+### 4. Components and Props | [Docs](https://reactjs.org/docs/components-and-props.html)
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
 
 #### Function and Class Components
