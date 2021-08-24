@@ -81,9 +81,40 @@ To render a React element into a root DOM node, pass both to ReactDOM.render():
 ```JavaScript
 const element = <h1>Hello, world</h1>;
 ReactDOM.render(element, document.getElementById('root'));
-
-It displays "Hello, world" on the page.
 ```
+It displays "Hello, world" on the page.
+
+#### Updating the Rendered Element
+React elements are immutable. Once you create an element, you can't change its children or attributes. An element is like a single frame in a movie: it represents the UI at a certain point in time.
+
+With our knowledge so far, the only way to update the UI is to create a new element, and pass it to ReactDOM.render().
+
+Consider this ticking clock example:
+```JavaScript
+function tick() {
+  const element = (
+    <div>
+      <h1>Hello, world!</h1>
+      <h2>It is {new Date().toLocaleTimeString()}.</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById('root'));
+}
+
+setInterval(tick, 1000);    
+```
+
+It calls ReactDOM.render() every second from a setInterval() callback.
+
+#### Note:
+In practice, most React apps only call ReactDOM.render() once.
+
+#### React Only Updates What's Necessary
+React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state.
+
+Event through we create an element describing the whole UI tre on every tick, only the text node whose contents have changed gets updated by ReactDOM.
+
+In our experience, thinking about how the UI should look at any given moment, rather than how to change it over time, eliminates a whole class of bugs.
 
 ### 4. Components and Props | [Docs](https://reactjs.org/docs/components-and-props.html)
 Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
