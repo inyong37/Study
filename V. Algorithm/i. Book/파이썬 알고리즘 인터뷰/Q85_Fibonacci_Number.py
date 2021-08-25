@@ -1,3 +1,11 @@
+class Solution:
+    def fib(self, n: int) -> int:
+        x, y = 0, 1
+        for i in range(0, n):
+            x, y = y, x + y
+        return x
+
+'''
 import collections
 
 
@@ -46,3 +54,4 @@ def fib(n):
   vec = np.array([[0], [1]])
   
   return np.matmul(M ** n, vec)[0]
+'''
