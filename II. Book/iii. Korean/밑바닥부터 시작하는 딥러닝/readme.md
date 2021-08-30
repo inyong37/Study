@@ -36,7 +36,7 @@ Chapter 5. 오차역전파법
 
 Chapter 6. 학습 관련 기술들
 
-Chapter 7. 합성곱 신경망(CNN)
+Chapter 7. 합성곱 신경망 (CNN)
 
 Chapter 8. 딥러닝
 
