@@ -2,10 +2,12 @@
 
 `Other parts of Network, Internet, and Web is in the "Network" page.`
 
-## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) | [Wiki](https://en.wikipedia.org/wiki/Front-end_web_development)
 The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
 
-Contents:
+Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that user can view and interact with that website.
+
+MDN Contents:
 - [Installing basic software](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software)
 - [What will your website look like?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like)
 - [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
@@ -15,16 +17,28 @@ Contents:
 - [Publishing your website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website)
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
-## Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
-`Web Framework is from "Network.md".`
-A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse. Although they often target development of dynamice web sites, they are also applicable to static websites.
+## Technology
 
-## Front End
-
-### Ajax | [Wiki](https://en.wikipedia.org/wiki/Ajax_(programming)) | JavaScript
-Ajax (also AJAXl short for "Asynchronous JavaScript and XML") is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decouping the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly utilize JSON instead of XML.
+### Ajax | [Wiki](https://en.wikipedia.org/wiki/Ajax_(programming))
+Ajax (also AJAX; short for "Asynchronous JavaScript and XML") is a set of web development techniques using many web technologies on the client-side to create asynchronous web applications. With Ajax, web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behaviour of the existing page. By decouping the data interchange layer from the presentation layer, Ajax allows web pages and, by extension, web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly utilize JSON instead of XML.
 
 Ajax is not a single technology, but rather a group of technologies. HTML and CSS can be used in combination to mark up and style information. The webpage can then be modified by JavaScript to dynamically display - and allow the user to interact with - the new information. The built-in XMLHttpRequest object, or since 2017 the new fetch function within JavaScript, is commonly used to execute Ajax on webpages, allowing websites to load content onto the screen without refreshing the page. Ajax is not a new technology, or a different language, just existing technologies used in new ways.
+
+### Dynamic HTML | [Wiki](https://en.wikipedia.org/wiki/Dynamic_HTML)
+Dynamic HTML, or DHTML, is a colleciton of technologies used together to create interactive and animated websites by using a combination of a static markup language (such as HTML), a client-side scripting language (such as JavaScript), a presentation definition language (such as CSS), and the Document Object Model (DOM). The application of HTML was introduced by Microsoft with the release of Internet Explorer 4 in 1997.
+
+DHTML allows scripting languages to change variables in a web page's definition language, which in turn affects the look and function of otherwise "static" HTML page content, after the page has been fully loaded and during the viewing process. Thus the dynamic characteristic of DHTML is the way it functions while a page is veiwed, not in its ability to generate a unique page with page load.
+
+By contrast, a dynamic web page is a broader concept, covering any web page generated differently for each user, load occurence, or specific variable values. This includes pages created by client-side scripting, and ones created by server-side scripting (such as PHP, Python, JSP, and ASP.NET) where the web server generates content before sending it to the client.
+
+DHTML is differentiated from Ajax by the fact that a DHTML page is still request/reload-based. With DHTML, there may not be any interaction between the client and server after the page is loaded; all processing happens in JavaScript on the client side. By contrast, an Ajax page uses features of DHTML to initiate a request (or 'subrequest') to the server to perform additional actions. For example, if there are multiple tabs on a page, pure DHTML approach would load the contents of all tabs and then dynamically display only the one that is active, while AJAX could load each tab only when it is really needed.
+
+## Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
+`Web Framework is from "Network.md".`
+
+A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse. Although they often target development of dynamice web sites, they are also applicable to static websites.
+
+## Front End Framework
 
 ### Angular | [Homepage](https://angular.io/) | [Wiki](https://en.wikipedia.org/wiki/Angular_(web_framework)) | TypeScript
 Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that build AngularJS.
@@ -38,17 +52,8 @@ AngularJS is used as the frontend of the MEAN stack, consisting of MongoDB datab
 
 The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021. After that data Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues. The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options.
 
-### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework)) | JavaScript
+### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework)) | JavaScript | Web Application Software Framework
 Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
-
-### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | JavaScript
-jQuery is a JavaScript library designed ton simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage tha any other JavaScript library.
-
-jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced affects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applicatoins.
-
-The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API. Later, this style has been enhanced with a deeper algorithm-data fusion in an heir of jQuery, the D3.js framework.
-
-Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
 
 ### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework) | Java
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
@@ -63,9 +68,9 @@ React (also known as React.js or ReactJS) is an open-source front-end JavaScript
 ### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js) | JavaScript
 Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
 
-## Back End
+### Back-end
 
-### Node.js | [Homepage](https://nodejs.org/en/) | [Wiki](https://en.wikipedia.org/wiki/Node.js) | JavaScript
+### Node.js | [Homepage](https://nodejs.org/en/) | [Wiki](https://en.wikipedia.org/wiki/Node.js) | JavaScript Runtime Environment | Platform
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting-running scripts server-side to produce dynamic web page content before the page is sent the the user's web browswer. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
@@ -76,13 +81,24 @@ The Node.js distributed development project was previously governed by the Node.
 
 Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Microsoft, Netflix, PayPal, Rakuten, SAP, Voxer, Walmark, Yahoo!, and Amazon Web Services.
 
-### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software)) | JavaScript, and Rust
+### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software)) | JavaScript, and TypeScript Runtime Environment | Built in Rust
 Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
 
-### Express.js | [Wiki](https://en.wikipedia.org/wiki/Express.js) | JavaScript
+### Express.js | [Wiki](https://en.wikipedia.org/wiki/Express.js) | JavaScript | Web Server Framework for Node.js
 Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
 
 The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
+
+## Library
+
+### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | Library | JavaScript
+jQuery is a JavaScript library designed ton simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage tha any other JavaScript library.
+
+jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced affects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applicatoins.
+
+The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API. Later, this style has been enhanced with a deeper algorithm-data fusion in an heir of jQuery, the D3.js framework.
+
+Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
 
 ## Package Manager
 
@@ -114,6 +130,7 @@ Installation: `$ npm install -g yarn`
 
 #### Reference
 - Front-end web developer, https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer, 2021-06-30-Wed.
+- Front-end web developer Wiki, https://en.wikipedia.org/wiki/Front-end_web_development, 2021-08-31-Tue.
 - npm, https://www.npmjs.com/, 2021-06-30-Wed.
 - Yarn, https://yarnpkg.com/, 2021-06-30-Wed.
 - cdnjs, https://cdnjs.com/, 2021-06-30-Wed.
@@ -142,3 +159,4 @@ Installation: `$ npm install -g yarn`
 - Electron Wiki, https://en.wikipedia.org/wiki/Electron_(software_framework), 2021-06-22-Tue.
 - Express.js Wiki, https://en.wikipedia.org/wiki/Express.js, 2021-06-24-Thu.
 - Landing Page Wiki KR, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80, 2021-06-30-Wed.
+- Dynamic HTML Wiki, https://en.wikipedia.org/wiki/Dynamic_HTML, 2021-08-31-Tue.
