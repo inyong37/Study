@@ -1,5 +1,22 @@
-# Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
-`This page is from "Network.md".`
+# Web
+
+`Other parts of Network, Internet, and Web is in the "Network" page.`
+
+## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
+
+Contents:
+- [Installing basic software](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software)
+- [What will your website look like?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like)
+- [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
+- [HTML basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [CSS basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+- [Publishing your website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website)
+- [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
+## Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
+`Web Framework is from "Network.md".`
 A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse. Although they often target development of dynamice web sites, they are also applicable to static websites.
 
 ## Front End
@@ -41,6 +58,8 @@ A JavaScript library for building user interfaces.
 
 React (also known as React.js or ReactJS) is an open-source front-end JavaScript library for building user interfaces or UI components. Is is maintained by Facebook and a community of individual developers and compaines. React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.
 
+- Roadmap to become React developer | [Blog (KR)](https://medium.com/@mr.november11/react-%EB%B2%88%EC%97%AD-2020%EB%85%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A1%9C%EB%93%9C%EB%A7%B5-%EB%AA%A8%EB%8D%98-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-bedd9a0fed2f)
+
 ### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js) | JavaScript
 Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
 
@@ -65,7 +84,43 @@ Express.js, or simply Express, is a back end web application framework for Node.
 
 The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
 
+## Package Manager
+
+### npm | [Homepage](https://www.npmjs.com/)
+*"Build amazing things"*
+
+### Yarn | [Homepage](https://yarnpkg.com/)
+*"Safe, stable, reproducible projects"*
+
+*Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.*
+
+Installation: `$ npm install -g yarn`
+
+### cdnjs | [Homepage](https://cdnjs.com/)
+*"Simple. Fast. Reliable."*
+
+*Content delivery at its finest.*
+
+*cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.*
+
+*We make it faster and easier to load library files on your websites.*
+
+## Glossary of Web
+
+### Landing Page | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80)
+검색 엔진, 광고 등을 경유하여 접속하는 이용자가 최최로 보게 되는 웹페이지이다. 링크를 클릭하고 해당 웹페이지에 접속하면 마케터가 의도한 행위를 하도록 하는 페이지를 의미한다.
+
+----------
+
 #### Reference
+- Front-end web developer, https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer, 2021-06-30-Wed.
+- npm, https://www.npmjs.com/, 2021-06-30-Wed.
+- Yarn, https://yarnpkg.com/, 2021-06-30-Wed.
+- cdnjs, https://cdnjs.com/, 2021-06-30-Wed.
+- Roadmap to become React developer Blog KR, https://medium.com/@mr.november11/react-%EB%B2%88%EC%97%AD-2020%EB%85%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A1%9C%EB%93%9C%EB%A7%B5-%EB%AA%A8%EB%8D%98-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-bedd9a0fed2f, 2021-08-10-Tue.
+- UI Words Blog, https://ridicorp.com/story/react-native-1year-review/, 2021-08-19-Thu.
+- Wireframe Blog, https://brunch.co.kr/@cysstory/153, 2021-08-19-Thu.
+- Wireframe vs. Functional Specification Blog, https://mklab-co.medium.com/%EC%9E%91%EC%84%B1%EB%B2%95-%ED%99%94%EB%A9%B4%EC%84%A4%EA%B3%84%EC%84%9C-wireframe-%EC%99%80-%EA%B8%B0%EB%8A%A5%EB%AA%85%EC%84%B8%EC%84%9C-functional-specification-bbcff0071ea2, 2021-08-19-Thu.
 - Web Framework Wiki, https://en.wikipedia.org/wiki/Web_framework, 2021-06-24-Thu.
 - Ajax Wiki, https://en.wikipedia.org/wiki/Ajax_(programming), 2021-06-24-Thu.
 - Angular, https://angular.io/, 2021-06-24-Thu.
@@ -86,3 +141,4 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 - Electron, https://www.electronjs.org/, 2021-06-22-Tue.
 - Electron Wiki, https://en.wikipedia.org/wiki/Electron_(software_framework), 2021-06-22-Tue.
 - Express.js Wiki, https://en.wikipedia.org/wiki/Express.js, 2021-06-24-Thu.
+- Landing Page Wiki KR, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80, 2021-06-30-Wed.
