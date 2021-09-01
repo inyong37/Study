@@ -89,6 +89,18 @@ Express.js, or simply Express, is a back end web application framework for Node.
 
 The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
 
+## JavaScript/JScript Engine
+
+### Adobe Flash Player: Tamarin | [Archive (Mozilla)](https://www-archive.mozilla.org/projects/tamarin/) | [Wiki](https://en.wikipedia.org/wiki/Tamarin_(software))
+
+### Google Chrome: V8 | [Homepage](https://v8.dev/)
+
+### Mozilla Firefox: SpiderMonkey | [Homepage](https://spidermonkey.dev/)
+
+### Microsoft Explorer & Edge: Chakra | [Wiki](https://en.wikipedia.org/wiki/Chakra_(JScript_engine)) | [GitHub](https://github.com/chakra-core/ChakraCore)
+
+### Apple Safari: JavaScriptCore | [Documentaion (Apple)](https://developer.apple.com/documentation/javascriptcore)
+
 ## Library
 
 ### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | Library | JavaScript
@@ -160,3 +172,10 @@ Installation: `$ npm install -g yarn`
 - Express.js Wiki, https://en.wikipedia.org/wiki/Express.js, 2021-06-24-Thu.
 - Landing Page Wiki KR, https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80, 2021-06-30-Wed.
 - Dynamic HTML Wiki, https://en.wikipedia.org/wiki/Dynamic_HTML, 2021-08-31-Tue.
+- JavaScript History Youtube KR, https://youtu.be/wcsVjmHrUQg, 2021-09-01-Wed.
+- Chakra Wiki, https://en.wikipedia.org/wiki/Chakra_(JScript_engine), 2021-09-01-Wed.
+- JavaScriptCore, https://developer.apple.com/documentation/javascriptcore, 2021-09-01-Wed.
+- Tamarin, https://www-archive.mozilla.org/projects/tamarin/, 2021-09-01-Wed.
+- Tamarin Wiki, https://en.wikipedia.org/wiki/Tamarin_(software), 2021-09-01-Wed.
+- SpiderMonkey, https://spidermonkey.dev/, 2021-09-01-Wed.
+- V8, https://v8.dev/, 2021-09-01-Wed.
