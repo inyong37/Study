@@ -140,7 +140,7 @@ Installation: `$ npm install -g yarn`
 nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these plaforms: unix, macOS, and windows WSL.
 
 ### nvm for Windows | [GitHub](https://github.com/coreybutler/nvm-windows) | Version Manager | Written in Go
-Managin multiple installations of node.js on a Windows computer.
+Managing multiple installations of node.js on a Windows computer.
 
 ----------
 
