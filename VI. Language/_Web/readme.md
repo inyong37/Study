@@ -99,21 +99,21 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 
 ## JavaScript/JScript Engine
 
-### Adobe Flash Player: Tamarin | [Archive (Mozilla)](https://www-archive.mozilla.org/projects/tamarin/) | [Wiki](https://en.wikipedia.org/wiki/Tamarin_(software))
+### Chakra: Microsoft Explorer & Edge | [Wiki](https://en.wikipedia.org/wiki/Chakra_(JScript_engine)) | [GitHub](https://github.com/chakra-core/ChakraCore)
 
-### Google Chrome: V8 | [Homepage](https://v8.dev/)
+### JavaScriptCore: Apple Safari | [Documentaion (Apple)](https://developer.apple.com/documentation/javascriptcore)
 
-### Mozilla Firefox: SpiderMonkey | [Homepage](https://spidermonkey.dev/)
+### SpiderMonkey: Mozilla Firefox | [Homepage](https://spidermonkey.dev/)
 
-### Microsoft Explorer & Edge: Chakra | [Wiki](https://en.wikipedia.org/wiki/Chakra_(JScript_engine)) | [GitHub](https://github.com/chakra-core/ChakraCore)
+### Tamarin: Adobe Flash Player | [Archive (Mozilla)](https://www-archive.mozilla.org/projects/tamarin/) | [Wiki](https://en.wikipedia.org/wiki/Tamarin_(software))
 
-### Apple Safari: JavaScriptCore | [Documentaion (Apple)](https://developer.apple.com/documentation/javascriptcore)
+### V8: Google Chrome | [Homepage](https://v8.dev/)
 
 ----------
 
 ## Library
 
-### Flux | [Homepage](https://facebook.github.io/flux/)
+### Flux | [Homepage](https://facebook.github.io/flux/) | Data Flow
 Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidrectional data flow.
 
 ### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | Library | JavaScript
@@ -125,10 +125,10 @@ The set of jQuery core features - DOM element selections, traversal and manipula
 
 Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
 
-### MobX | [Homepage](https://mobx.js.org/README.html)
+### MobX | [Homepage](https://mobx.js.org/README.html) | State Management
 MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TRFP). The philosophy behind MobX is simple: straightforward, Effortless optimal rendering, and architectural freedom.
 
-### Redux | [Homepage](https://redux.js.org/) | [Wiki](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
+### Redux | [Homepage](https://redux.js.org/) | [Wiki](https://en.wikipedia.org/wiki/Redux_(JavaScript_library)) | State Management
 Redux is an open-source JavaScript library for managing application state. It is most commoly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Adnrew Clark.
 
 ----------
