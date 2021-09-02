@@ -89,6 +89,8 @@ Express.js, or simply Express, is a back end web application framework for Node.
 
 The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
 
+----------
+
 ## JavaScript/JScript Engine
 
 ### Adobe Flash Player: Tamarin | [Archive (Mozilla)](https://www-archive.mozilla.org/projects/tamarin/) | [Wiki](https://en.wikipedia.org/wiki/Tamarin_(software))
@@ -100,6 +102,8 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 ### Microsoft Explorer & Edge: Chakra | [Wiki](https://en.wikipedia.org/wiki/Chakra_(JScript_engine)) | [GitHub](https://github.com/chakra-core/ChakraCore)
 
 ### Apple Safari: JavaScriptCore | [Documentaion (Apple)](https://developer.apple.com/documentation/javascriptcore)
+
+----------
 
 ## Library
 
@@ -121,26 +125,24 @@ MobX is a battle tested library that makes state management simple and scalable 
 ### Redux | [Homepage](https://redux.js.org/) | [Wiki](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
 Redux is an open-source JavaScript library for managing application state. It is most commoly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Adnrew Clark.
 
-## Package Manager
-
-### npm | [Homepage](https://www.npmjs.com/)
+### npm | [Homepage](https://www.npmjs.com/) | Package Manager
 *"Build amazing things"*
 
-### Yarn | [Homepage](https://yarnpkg.com/)
-*"Safe, stable, reproducible projects"*
-
-*Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.*
+### Yarn | [Homepage](https://yarnpkg.com/) | Package Manager
+*"Safe, stable, reproducible projects"* *Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.*
 
 Installation: `$ npm install -g yarn`
 
-### cdnjs | [Homepage](https://cdnjs.com/)
-*"Simple. Fast. Reliable."*
+### cdnjs | [Homepage](https://cdnjs.com/) | Package Manager
+*"Simple. Fast. Reliable."* *Content delivery at its finest.* *cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.* *We make it faster and easier to load library files on your websites.*
 
-*Content delivery at its finest.*
+### nvm (Node Version Manager) | [GitHub](https://github.com/nvm-sh/nvm) | Version Manager
+nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these plaforms: unix, macOS, and windows WSL.
 
-*cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.*
+### nvm for Windows | [GitHub](https://github.com/coreybutler/nvm-windows) | Version Manager | Written in Go
+Managin multiple installations of node.js on a Windows computer.
 
-*We make it faster and easier to load library files on your websites.*
+----------
 
 ## Glossary of Web
 
@@ -155,6 +157,8 @@ Installation: `$ npm install -g yarn`
 - npm, https://www.npmjs.com/, 2021-06-30-Wed.
 - Yarn, https://yarnpkg.com/, 2021-06-30-Wed.
 - cdnjs, https://cdnjs.com/, 2021-06-30-Wed.
+- nvm GitHub, https://github.com/nvm-sh/nvm, 2021-09-02-Thu.
+- npm for Windows GitHub, https://github.com/coreybutler/nvm-windows, 2021-09-02-Thu.
 - Roadmap to become React developer Blog KR, https://medium.com/@mr.november11/react-%EB%B2%88%EC%97%AD-2020%EB%85%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A1%9C%EB%93%9C%EB%A7%B5-%EB%AA%A8%EB%8D%98-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-bedd9a0fed2f, 2021-08-10-Tue.
 - UI Words Blog, https://ridicorp.com/story/react-native-1year-review/, 2021-08-19-Thu.
 - Wireframe Blog, https://brunch.co.kr/@cysstory/153, 2021-08-19-Thu.
