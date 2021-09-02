@@ -103,14 +103,23 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 
 ## Library
 
+### Flux | [Homepage](https://facebook.github.io/flux/)
+Flux is the application architecture that Facebook uses for building client-side web applications. It complements React's composable view components by utilizing a unidrectional data flow.
+
 ### jQuery | [Homepage](https://jquery.com/) | [Wiki](https://en.wikipedia.org/wiki/JQuery) | Library | JavaScript
-jQuery is a JavaScript library designed ton simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage tha any other JavaScript library.
+jQuery is a JavaScript library designed ton simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin, having at least 3 to 4 times more usage than any other JavaScript library.
 
 jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced affects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applicatoins.
 
 The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API. Later, this style has been enhanced with a deeper algorithm-data fusion in an heir of jQuery, the D3.js framework.
 
 Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
+
+### MobX | [Homepage](https://mobx.js.org/README.html)
+MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TRFP). The philosophy behind MobX is simple: straightforward, Effortless optimal rendering, and architectural freedom.
+
+### Redux | [Homepage](https://redux.js.org/) | [Wiki](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
+Redux is an open-source JavaScript library for managing application state. It is most commoly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Adnrew Clark.
 
 ## Package Manager
 
@@ -156,8 +165,6 @@ Installation: `$ npm install -g yarn`
 - Angular Wiki, https://en.wikipedia.org/wiki/Angular_(web_framework), 2021-06-24-Thu.
 - AngularJS, https://angularjs.org/, 2021-06-24-Thu.
 - AngularJS Wiki, https://en.wikipedia.org/wiki/AngularJS, 2021-06-24-Thu.
-- jQuery, https://jquery.com/, 2021-06-24-Thu.
-- jQuery Wiki, https://en.wikipedia.org/wiki/JQuery, 2021-06-24-Thu.
 - Vue.js, https://vuejs.org/index.html, 2021-06-24-Thu.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
 - React, https://reactjs.org/, 2021-04-29-Thu.
@@ -180,3 +187,9 @@ Installation: `$ npm install -g yarn`
 - SpiderMonkey, https://spidermonkey.dev/, 2021-09-01-Wed.
 - V8, https://v8.dev/, 2021-09-01-Wed.
 - From React to Angular Blog KR, https://tech.kakao.com/2019/11/27/kakao-commerce-frontend-angular/, 2021-09-02-Thu.
+- Flux, https://facebook.github.io/flux/, 2021-09-02-Thu.
+- jQuery, https://jquery.com/, 2021-06-24-Thu.
+- jQuery Wiki, https://en.wikipedia.org/wiki/JQuery, 2021-06-24-Thu.
+- MobX, https://mobx.js.org/README.html, 2021-09-02-Thu.
+- Redux, https://redux.js.org/, 2021-09-02-Thu.
+- Redux Wiki, https://en.wikipedia.org/wiki/Redux_(JavaScript_library), 2021-09-02-Thu.
