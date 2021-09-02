@@ -59,7 +59,7 @@ class Machine:
         self.gan = GAN(ni_D=ni_D, nh_D=50, nh_G=50)
 
         self.n_batch = n_batch
-        # self.ni_D = ni_D
+        # MySelf.ni_D = ni_D
 
     def train_D(self):
         gan = self.gan
