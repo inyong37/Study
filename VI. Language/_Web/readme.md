@@ -17,6 +17,8 @@ MDN Contents:
 - [Publishing your website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website)
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
+----------
+
 ## Technology
 
 ### Ajax | [Wiki](https://en.wikipedia.org/wiki/Ajax_(programming))
@@ -32,6 +34,8 @@ DHTML allows scripting languages to change variables in a web page's definition 
 By contrast, a dynamic web page is a broader concept, covering any web page generated differently for each user, load occurence, or specific variable values. This includes pages created by client-side scripting, and ones created by server-side scripting (such as PHP, Python, JSP, and ASP.NET) where the web server generates content before sending it to the client.
 
 DHTML is differentiated from Ajax by the fact that a DHTML page is still request/reload-based. With DHTML, there may not be any interaction between the client and server after the page is loaded; all processing happens in JavaScript on the client side. By contrast, an Ajax page uses features of DHTML to initiate a request (or 'subrequest') to the server to perform additional actions. For example, if there are multiple tabs on a page, pure DHTML approach would load the contents of all tabs and then dynamically display only the one that is active, while AJAX could load each tab only when it is really needed.
+
+----------
 
 ## Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
 `Web Framework is from "Network.md".`
@@ -67,6 +71,8 @@ React (also known as React.js or ReactJS) is an open-source front-end JavaScript
 
 ### Vue.js | [Homepage](https://vuejs.org/index.html) | [Wiki](https://en.wikipedia.org/wiki/Vue.js) | JavaScript
 Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
+
+----------
 
 ### Back-end
 
@@ -125,22 +131,35 @@ MobX is a battle tested library that makes state management simple and scalable 
 ### Redux | [Homepage](https://redux.js.org/) | [Wiki](https://en.wikipedia.org/wiki/Redux_(JavaScript_library))
 Redux is an open-source JavaScript library for managing application state. It is most commoly used with libraries such as React or Angular for building user interfaces. Similar to (and inspired by) Facebook's Flux architecture, it was created by Dan Abramov and Adnrew Clark.
 
-### npm | [Homepage](https://www.npmjs.com/) | Package Manager
-*"Build amazing things"*
-
-### Yarn | [Homepage](https://yarnpkg.com/) | Package Manager
-*"Safe, stable, reproducible projects"* *Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.*
-
-Installation: `$ npm install -g yarn`
-
-### cdnjs | [Homepage](https://cdnjs.com/) | Package Manager
-*"Simple. Fast. Reliable."* *Content delivery at its finest.* *cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.* *We make it faster and easier to load library files on your websites.*
+----------
 
 ### nvm (Node Version Manager) | [GitHub](https://github.com/nvm-sh/nvm) | Version Manager
 nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these plaforms: unix, macOS, and windows WSL.
 
 ### nvm for Windows | [GitHub](https://github.com/coreybutler/nvm-windows) | Version Manager | Written in Go
 Managing multiple installations of node.js on a Windows computer.
+
+### npm | [Homepage](https://www.npmjs.com/) | Package Manager
+*"Build amazing things"*
+
+### npx | [Homepage](https://www.npmjs.com/package/npx) | Execute npm package binaries
+Execute `<command>` either from a local `node_modeuls/.bin`, or from a central cache, installing any packages needed in order for `<command>` to run. By default, `npx` will check wheter `<command>` exists in `$PATH`, or in the local project binaries, and execute that. If `<command>` is not found, it will be installed prior to execution. Unless a `--package` option is specified, `npx` will try to guess the name of the binary to invoke depending on the specifier provided. All package speciifers understood by `npm` may be used with `npx`, including git specifiers, remote tarballs, local directories, or scoped packages. If a full specifier is included, or if `--package` is used, npx will always use a freshly-installed, temporary version of the package. This can also be forced with the `--ignore-existing` flag.
+
+- Install: `$ npm install -g npx`
+
+- Synopsis
+  - `$ npx [options] <command>[@version] [command-arg]...`
+  - `$ npx [options] <-p|--package <pkg>]... <command> [command-arg]...`
+  - `$ npx [options] -c '<command-string>'`
+  - `$ npx --shell-auto-fallback [shell]`
+
+### Yarn | [Homepage](https://yarnpkg.com/) | Package Manager
+*"Safe, stable, reproducible projects"* *Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.*
+
+- Install: `$ npm install -g yarn`
+
+### cdnjs | [Homepage](https://cdnjs.com/) | Package Manager
+*"Simple. Fast. Reliable."* *Content delivery at its finest.* *cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.* *We make it faster and easier to load library files on your websites.*
 
 ----------
 
@@ -154,11 +173,12 @@ Managing multiple installations of node.js on a Windows computer.
 #### Reference
 - Front-end web developer, https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer, 2021-06-30-Wed.
 - Front-end web developer Wiki, https://en.wikipedia.org/wiki/Front-end_web_development, 2021-08-31-Tue.
+- nvm GitHub, https://github.com/nvm-sh/nvm, 2021-09-02-Thu.
+- nvm for Windows GitHub, https://github.com/coreybutler/nvm-windows, 2021-09-02-Thu.
 - npm, https://www.npmjs.com/, 2021-06-30-Wed.
+- npx, https://www.npmjs.com/package/npx, 2021-09-02-Thu.
 - Yarn, https://yarnpkg.com/, 2021-06-30-Wed.
 - cdnjs, https://cdnjs.com/, 2021-06-30-Wed.
-- nvm GitHub, https://github.com/nvm-sh/nvm, 2021-09-02-Thu.
-- npm for Windows GitHub, https://github.com/coreybutler/nvm-windows, 2021-09-02-Thu.
 - Roadmap to become React developer Blog KR, https://medium.com/@mr.november11/react-%EB%B2%88%EC%97%AD-2020%EB%85%84-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%A1%9C%EB%93%9C%EB%A7%B5-%EB%AA%A8%EB%8D%98-%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0-%EC%9C%84%ED%95%9C-%EA%B0%80%EC%9D%B4%EB%93%9C-bedd9a0fed2f, 2021-08-10-Tue.
 - UI Words Blog, https://ridicorp.com/story/react-native-1year-review/, 2021-08-19-Thu.
 - Wireframe Blog, https://brunch.co.kr/@cysstory/153, 2021-08-19-Thu.
