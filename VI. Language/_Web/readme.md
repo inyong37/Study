@@ -179,3 +179,4 @@ Installation: `$ npm install -g yarn`
 - Tamarin Wiki, https://en.wikipedia.org/wiki/Tamarin_(software), 2021-09-01-Wed.
 - SpiderMonkey, https://spidermonkey.dev/, 2021-09-01-Wed.
 - V8, https://v8.dev/, 2021-09-01-Wed.
+- From React to Angular Blog KR, https://tech.kakao.com/2019/11/27/kakao-commerce-frontend-angular/, 2021-09-02-Thu.
