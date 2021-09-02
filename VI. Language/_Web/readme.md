@@ -108,6 +108,7 @@ The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, 
 ### Tamarin: Adobe Flash Player | [Archive (Mozilla)](https://www-archive.mozilla.org/projects/tamarin/) | [Wiki](https://en.wikipedia.org/wiki/Tamarin_(software))
 
 ### V8: Google Chrome | [Homepage](https://v8.dev/)
+V8 is Google's open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements ECMAScript and WebAssembly, and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. V8 can run standalone, or can be embedded into C++ application.
 
 ----------
 
