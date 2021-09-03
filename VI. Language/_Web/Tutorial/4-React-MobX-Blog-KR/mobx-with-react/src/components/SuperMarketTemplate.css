@@ -1,0 +1,12 @@
+.SuperMarketTemplate h2 {
+	margin-top: 0;
+}
+
+.SuperMarketTemplate>div {
+	padding: 1rem;
+	flex: 1;
+}
+
+.SuperMarketTemplate .items-wrapper {
+	background: #f8f9fa;
+}
