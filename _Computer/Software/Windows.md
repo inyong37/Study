@@ -383,6 +383,18 @@ GetCurrentDirectoryW used in UNICODE, GetCurrentDirectoryA in ANSI
 
 ----------
 
+## WSL (Windows Subsystem for Linux) | [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/)
+The Windows Subsystem for Linux lets developers run a GNU/Linux environment -- including most command-line tools, utilites, and applications -- directly on Windows, unmodified, without the overhead of a tranditional virtual machine or dual-boot setup.
+
+### What is the Windows Subsystem for Linux? | [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/about)
+WSL 2 is a new verison of the WSL architecture that powers the WSL to run ELF64 Linux binaries on Windows. Its primary goals are to increase file system performance, as well as adding full system call compatiblilty.
+
+This new architecture chagnes how these Linux binaries interact with Windows and you computer's hardware, but still provides the same user experience as in WSL 1 (the current widely availbale version).
+
+Individual Linux distribution can be run with either the WSL 1 or WSL 2 architecture. Each distribution can be upgraded or downgraded at any time and you can run WSL 1 and WSL 2 distributions side by side. WSL 2 uses an entirely new architecture that benefits from running a real Linux kernel.
+
+----------
+
 ## *Folder*
 
 ### *Program Files*
@@ -652,3 +664,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - SetWindowPos function (winuser.h), https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setwindowpos, 2021-05-04-Tue.
 - GetCurrentDirectory function (winbase.h), https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getcurrentdirectory, 2021-05-11-Tue.
 - GetCurrentDirectory Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221276143283&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-05-11-Tue.
+- Windows Subsystem for Linux Documentation MS Docs, https://docs.microsoft.com/en-us/windows/wsl/ 2021-09-06-Mon.
+- What is the Windows Subsystems for Linux? MS Docs, https://docs.microsoft.com/en-us/windows/wsl/about, 2021-09-06-Mon.
