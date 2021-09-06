@@ -10,25 +10,11 @@ Summer, 2018 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
 
 ## Content
 
-Chapter 1. 헬로 파이썬
-- 파이썬은 간단하고 익히기 쉬운 프로그래밍 언어다.
-- 파이써은 오픈 소스여서 자유롭게 사용할 수 있다.
-- 이 책은 딥러닝 구현에 파이썬 3 버전을 이용한다.
-- 외부 라이브러리로는 numpy와 matplotlib을 이용한다.
-- 파이썬을 실행하는 방식에는 '언터프리터'와 '스크립트 파일' 두 가지가 있다.
-- 파이썬에서는 함수와 클래스 같은 모듈로 구현을 정리할 수 있다.
-- Numpy는 다차원 배열을 다루는 편리한 메서드를 많이 제공한다.
+Chapter 1. [헬로 파이썬](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C01_Hello_Python.md)
 
-Chapter 2. 퍼셉트론
-- 퍼셉트론은 입출력을 갖춘 알고리즘이다. 입력을 주면 정해진 규칙에 따른 값을 출력한다.
-- 퍼셉트론에서는 '가중치'와 '편향'을 매개변수로 설정한다.
-- 퍼셉트론으로 AND, OR, OR 게이트 등의 논리 회로를 표현할 수 있다.
-- XOR 게이트는 단층 퍼셉트론으로는 표현할 수 없다.
-- 2층 퍼셉트론을 이이용하면 XOR 게이트를 표현할 수 있다.
-- 단층 퍼셉트론은 직선형 영역만 표현할 수 있고, 다층 퍼셉트론은 비선형 영역도 표현할 수 있다.
-- 다층 퍼셉트론은 (이론상) 컴퓨터를 표현할 수 있다.
+Chapter 2. [퍼셉트론](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C02_Perceptron.md)
 
-Chapter 3. 신경망
+Chapter 3. [신경망](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C03_Neural_Network.md)
 
 Chapter 4. 신경망 학습
 
