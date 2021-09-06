@@ -8,6 +8,8 @@ Deep Learning from Scratch
 
 Summer, 2018 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
 
+Autumn, 2021
+
 ## Content
 
 Chapter 1. [헬로 파이썬](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C01_Hello_Python.md)
