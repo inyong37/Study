@@ -20,7 +20,7 @@ Chapter 3. [신경망](https://github.com/inyong37/Study/blob/master/II.%20Book/
 
 Chapter 4. [신경망 학습](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C04_Training_Network.md)
 
-Chapter 5. 오차역전파법
+Chapter 5. [오차역전파법](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C05_Backpropagation.md)
 
 Chapter 6. 학습 관련 기술들
 
