@@ -24,7 +24,7 @@ Chapter 5. [오차역전파법](https://github.com/inyong37/Study/blob/master/II
 
 Chapter 6. [학습 관련 기술들](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C06_Training_Techniques.md)
 
-Chapter 7. 합성곱 신경망 (CNN)
+Chapter 7. [합성곱 신경망 (CNN)](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%94%A5%EB%9F%AC%EB%8B%9D/C07_CNN.md)
 
 Chapter 8. 딥러닝
 
