@@ -16,13 +16,88 @@
 
 ## 5.2 연쇄법칙
 
+### 5.2.1 계산 그래프의 역전파
+역전파의 계산 절차는 신호 E에 노드의 국소적 미분(delta(y)/delta(x))을 곱한 후 다음 노드로 전달하는 것이다. 여기에서 말하는 국소적 미분은 순전파 때의 y = f(x) 계산의 미분을 구한다는 것이며, 이는 x에 대한 y의 미분(delta(y)/delta(x))을 구한다는 뜻이다. 그리고 이 국소적인 미분을 상류에서 전달된 값에 곱해 앞쪽 노드로 전달하는 것이다.
+
+### 5.2.2 연쇄법칙이란?
+합성 함수란 여러 함수로 구성된 함수이다. 예를 들어 z = (x + y)^2이라는 식은 [eq. 5.1]처럼 두 개의 식으로 구성된다.
+
+z = t^2
+
+t = x + y ... [eq. 5.1]
+
+연쇄법칙은 합성 함수의 미분에 대한 성질이며, 다음과 같이 정의된다.
+
+합성 함수의 미분은 합성 함수를 구성하는 각 함수의 미분의 곱으로 나타낼 수 있다.
+
+delta(z)/delta(x) (x에 대한 z의 미분)은 delta(z)/delta(t) (t에 대한 z의 미분)과 delta(t)/delta(x) (x에 대한 t의 미분)의 곱으로 나타낼 수 있다는 것이다.
+
+dz/dx = dz/dt * dt/dx ... [eq. 5.2]
+
+[eq. 5.2]는 dt를 서로 지울 수 있다.
+
+### 5.2.3 연쇄법칙과 계산 그래프
+역전파가 하는 일은 연쇄법칙의 원리와 같다.
+
 ## 5.3 역전파
+
+### 5.3.1 덧셈 노드의 역전파
+덧셈 노드 역전파는 입력 신호를 다음 노드로 출력할 뿐이므로 그대로 다음 노드로 전달한다.
+
+### 5.3.2 곱셈 노드의 역전파
+곱셈 노드 역전파는 상류의 값에 순전파 때의 입력 신호들을 서로 바꾼 값을 곱해서 하류로 보낸다.
+
+곱셈 노드를 구현할 때는 순전파의 입력 신호를 변수에 저장해둔다.
 
 ## 5.4 단순한 계층 구현하기
 
 ## 5.5 활성화 함수 계층 구현하기
 
+### 5.5.1 ReLU 계층
+```Python
+class Relu:
+  def __init__(self):
+    self.mask = None
+  
+  def forward(self, x):
+    self.mask = (x <= 0)
+    out = x.copy()
+    out[self.mask] = 0
+    return out
+  
+  def backward(self, dout):
+    dout[self.mask] = 0
+    dx = dout
+    return dx
+```
+Relu 클래스는 mask라는 인스턴스 변수를 가진다. mask는 True/False로 구성된 넘파이 배열로, 순전파의 입력인 x의 원소 값이 0 이하인 인덱스는 True, 그 외(0보다 큰 원소)는 False로 유지한다.
+
+순전파 때의 입력 값이 0 이하면 역전파 때의 값은 0이 돼야 한다. 그래서 역전파 때는 순전파 때 만들어둔 mask를 써서 mask의 원소가 True인 곳에서는 상류에서 전파된 dout을 0으로 설정한다.
+
+### 5.5.2 Sigmoid 계층
+```Python
+class Sigmoid:
+  def __init__(self):
+    self.out = None
+  
+  def forward(self, x):
+    out = 1 / (1 + np.exp(-x))
+    self.out = out
+    return out
+  
+  def backward(self, dout):
+    dx = dout * (1.0 - self.out) * self.out
+    return dx
+```
+
+이 구현에서는 순전파의 출력을 인스턴스 변수 out에 보관했다가, 역전파 계산 때 그 값을 사용한다.
+
 ## 5.6 Affine/Softmax 계층 구현하기
+
+### 5.6.1 Affine 계층
+
+### Note
+신경망의 순전파 때 수행하는 행렬의 내적은 기하학에서는 어파인 변환(affine transformation)이라고 한다.
 
 ## 5.7 오차역전파법 구현하기
 
