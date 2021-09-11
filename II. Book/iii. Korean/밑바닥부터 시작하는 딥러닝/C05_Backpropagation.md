@@ -99,6 +99,8 @@ class Sigmoid:
 ### Note
 신경망의 순전파 때 수행하는 행렬의 내적은 기하학에서는 어파인 변환(affine transformation)이라고 한다.
 
+### Softmax
+
 ## 5.7 오차역전파법 구현하기
 
 ## 5.8 정리
