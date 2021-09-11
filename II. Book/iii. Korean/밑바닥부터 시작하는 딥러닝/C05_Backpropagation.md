@@ -99,9 +99,71 @@ class Sigmoid:
 ### Note
 신경망의 순전파 때 수행하는 행렬의 내적은 기하학에서는 어파인 변환(affine transformation)이라고 한다.
 
-### Softmax
+### 5.6.2 배치용 Affine 계층
+```Python
+class Affine:
+  def __init__(self, W, b):
+    self.W = W
+    self.b = b
+    self.x = None
+    self.dW = None
+    self.db = None
+  
+  def forward(self, x):
+    self.x = x
+    out = np.dot(x, self.W) + self.b
+    return out
+  
+  def backward(self, dout):
+    dx = np.dot(dout, self.W.T)
+    self.dW = np.dot(self.x.T, dout)
+    self.db = np.sum(dout, axis=0)
+    return dx
+```
+
+### Softmax-with-Loss 계층
+소프트맥스 함수는 입력 값을 정규화하여 출력한다.
+
+### Note
+신경망에서 수행하는 작업은 학습과 추론 두 가지이다. 추론할 때는 일반적으로 Softmax 계층을 사용하지 않는다. 마지막 Affine 계층의 출력을 인식 결과로 이용한다. 또한, 신경망에서 정규화하지 않는 출력 결과(Softmax 앞의 Affine 계층의 출력)를 점수(score)라 한다. 즉, 신경망 추론에서 답을 하나만 내는 경우에는 가장 높은 점수만 알면 되니 Softmax 계층은 필요 없다는 것이다. 반면, 신경망을 학습할 때는 Softmax 계층이 필요하다.
+
+```Python
+class SoftmaxWithLoss:
+  def __init__(self):
+    self.loss = None
+    self.y = None
+    self.t = None
+  
+  def forward(self, x, t):
+    self.t = t
+    self.y = softmax(x)
+    self.loss = cross_entropy_error(self.y, self.t)
+    return self.loss
+  
+  def backward(self, dout=1):
+    batch_size = self.t.shape[0]
+    dx = (self.y - self.t) / batch_size
+    return dx
+```
 
 ## 5.7 오차역전파법 구현하기
+
+### 5.7.1 신경망 학습의 전쳬 그림
+-전제
+  - 신경망에는 적응 가능한 가중치와 편향이 있고, 이 가중치와 편향을 훈련 데이터에 적응하도록 조정하는 과정을 학습이라 한다. 신경망 학습은 다음과 같이 4단계로 수행한다.
+- 1단계 - 미니배치
+  - 훈련 데이터 중 일부를 무작위로 가져온다. 이렇게 선별한 데이터를 미니배치라 하며, 그 미니배치의 손실 함수 값을 줄이는 것이 목표이다.
+- 2단계 - 기울기 산출
+  - 미니배치의 손실 함수 값을 줄이기 위해 각 가중치 매개변수의 기울기를 구한다. 기울기는 손실 함수의 값을 가장 작게 하는 방향을 제시한다.
+- 3단계 - 매개변수 갱신
+  - 가중치 매개변수를 기울기 방향으로 아주 조금 갱신한다.
+- 4단계 - 반복
+  - 1~3단계를 반복한다.
+
+오차역전파법이 등장하는 단계인 두 번째인 기울기 산출이다. 앞 장에서는 이 기울기를 구하기 위해서 수치 미분을 사용했다. 그런데 수치 미분은 구현하기는 쉽지만 계산이 오래 걸렸다. 오차역전파법을 이용하면 느린 수치 미분과 달리 기울기를 효율적이고 빠르게 구할 수 있다.
+
+### Note
+수치 미분과 오차역전파법의 결과 오차가 0이 되는 일은 드물다. 이는 컴퓨터가 할 수 있는 계산의 정밀도가 유한하기 때문이다(가령 32비트 부동소수점). 이 정밀도의 한계 때문에 오차는 대부분 0이 되지는 않지만, 올바르게 구현했다면 0에 아주 가까운 작은 값이 된다. 만약 그 값이 크면 오차역전파법을 잘못 구현했다고 의심해봐야 한다.
 
 ## 5.8 정리
 - 계산 그래프를 이용하면 계산 과정을 시각적으로 파악할 수 있다.
