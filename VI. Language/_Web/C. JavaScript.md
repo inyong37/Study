@@ -368,8 +368,13 @@ This is also great counter to the lure of global variables. When writing complex
 
 ## Glossary
 
-### Object | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Object)
+### Object | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Object) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.
+
+The `Object` class represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. Objects can be created using the `Object()` constructor or the object initializer/literal syntax.
+
+### Object.entires() | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+The `Object.entries()` method returns an array of a given object's own enumerable string-keyed property [key, value] pairs. This is the same as iterating with a `for...in` loop, except that a `for...in` loop enumerates properties in the prototype chain as well.
 
 ### Primitive | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
 In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods. There are 7 primitive data types: string, number, bigint, boolean, undefined, symbol, and null.
@@ -426,3 +431,5 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - checking your varibale name, https://mothereff.in/js-variables, 2021-06-24-Thu.
 - The difference between var and let, https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#the_difference_between_var_and_let, 2021-06-24-Thu.
 - A re-introduction to JavaScript (JS tutorial), https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript, 2021-07-01-Thu.
+- Object MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object, 2021-09-17-Fri.
+- Object.entries() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-09-17-Fri.
