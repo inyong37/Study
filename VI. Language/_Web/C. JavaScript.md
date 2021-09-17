@@ -401,6 +401,17 @@ A variable is a named reference to a value. That way an unpredictable value can 
 
 ## Statements
 
+### Arrow function expressions | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+An arrow function expression is a compact alternative to a tranditional function expression, but is limited and can't be used in all situations.
+
+Differences & Limitations:
+
+- Does not have its own bindings to `this` or `super`, and should not be used as methods.
+- Does not have `new.target` keyword.
+- Not suitable for call, apply and bind methods, which generally rely on establishing a scope.
+- Can not be used as constructors.
+- Can not use yield, within its body.
+
 ### var | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 The `var` statement declares a function-scoped or globally-scoped variable, optionally initializing it to a value.
 
@@ -433,3 +444,4 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - A re-introduction to JavaScript (JS tutorial), https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript, 2021-07-01-Thu.
 - Object MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object, 2021-09-17-Fri.
 - Object.entries() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-09-17-Fri.
+- Arrow function expressions MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions 2021-09-17-Fri.
