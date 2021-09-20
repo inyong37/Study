@@ -6,7 +6,7 @@ Deep Learning from Scratch
 
 ## Date
 
-Summer, 2019 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
+Summer, 2018 with [team project BlueWay](https://github.com/BlueWay-KU/Study)
 
 Autumn, 2021
 
