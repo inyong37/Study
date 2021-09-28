@@ -1,6 +1,7 @@
 # Example is about 'First Come First Served (FCFS)' and the solution is 'Shorted Job First (SJF)' non-preemptive version.
 
 import heapq
+from math import floor
 
 def solution(jobs):
     time_cost = 0
@@ -20,4 +21,4 @@ def solution(jobs):
             i += 1
         else:
             current_time += 1
-    return int(time_cost/len(jobs))
+    return floor(time_cost/len(jobs))
