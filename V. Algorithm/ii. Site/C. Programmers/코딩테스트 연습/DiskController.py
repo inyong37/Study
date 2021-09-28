@@ -1,3 +1,5 @@
+# Example is about 'First Come First Served (FCFS)' and the solution is 'Shorted Job First (SJF)' non-preemptive version.
+
 import heapq
 
 def solution(jobs):
