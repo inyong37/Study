@@ -7,16 +7,16 @@ def solution(jobs):
     current_time = 0
     i = 0
     start = -1
-    heap = []
+    task_queue = []
     while i < len(jobs):
-        for in_time, end_time in jobs:
-            if start < in_time <= current_time:
-                heapq.heappush(heap, [end_time, in_time])
-        if len(heap) > 0:
-            current = heapq.heappop(heap)
+        for AT, BT in jobs:
+            if start < AT <= current_time:
+                heapq.heappush(task_queue, [BT, AT])
+        if task_queue:
+            task_BT, task_AT = heapq.heappop(task_queue)
             start = current_time
-            current_time += current[0]
-            time_cost += (current_time - current[1])
+            current_time += task_BT
+            time_cost += (current_time - task_AT)
             i += 1
         else:
             current_time += 1
