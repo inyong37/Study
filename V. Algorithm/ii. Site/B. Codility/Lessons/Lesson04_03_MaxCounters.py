@@ -77,3 +77,46 @@ def solution(N, A):
             if result[val - 1] > new:
                 new = result[val - 1]
     return result
+
+# 2021-09-30-Thu, 55%, https://app.codility.com/demo/results/training72KYVC-96A/
+def solution(N, A):
+    cnt = [0] * N
+    max_value = float('-inf')
+    for idx, ele in enumerate(A):
+        # increase(X) function
+        if 1 <= ele and ele <= N:
+            cnt[ele-1] += 1
+            if max_value < cnt[ele-1]:
+                max_value = cnt[ele-1]
+        # max counter function
+        elif ele == N + 1:
+            cnt = [max_value] * N
+    return cnt
+
+# 2021-09-30-Thu, 100%, https://app.codility.com/demo/results/training4TMFVN-CZ6/
+def solution(N, A):
+    cnt = [0] * N
+    # temporarly maximum value 'tmp'.
+    tmp = 0
+    # initiated the maximum value 'val' with 0 due to the smallest value in counters is 0.
+    val = 0
+    for ele in A:
+        # 'increase' operation.
+        if 1 <= ele <= N:
+            # 'max counter' operation for each elements.
+            if cnt[ele - 1] < val:
+                cnt[ele - 1] = val
+            # normal 'increase' operation.
+            cnt[ele - 1] += 1
+            # udpate the current maximum value in 'tmp'.
+            if cnt[ele - 1] > tmp + val:
+                tmp = cnt[ele - 1] - val
+        # update the maximum value for 'max counter' oepration.
+        elif ele == N + 1:
+            val += tmp
+            tmp = 0
+    # check for not updated after 'max counter' operation.
+    for idx, ele in enumerate(cnt):
+        if ele < val:
+            cnt[idx] = val
+    return cnt
