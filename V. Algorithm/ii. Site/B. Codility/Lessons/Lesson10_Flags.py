@@ -1,0 +1,25 @@
+# 2021-09-30-Thu, 20%, https://app.codility.com/demo/results/trainingM9VSF4-K9W/
+
+def solution(A):
+    # list of peaks.
+    peaks = []
+    val = 1
+    for i in range(1, len(A)-1):
+        if A[i] > A[i-1] and A[i] > A[i+1]:
+            peaks.append(i)
+    # if there is not peak as uphill or downhill.
+    if not peaks:
+        return 0
+    # if number of peaks is 1, return 1 without checking K limitation.
+    elif len(peaks) == 1:
+        return 1
+    # check for flags as number of peaks.
+    for i in range(2, len(peaks)+1):
+        cnt = 0
+        for j in range(1, len(peaks)):
+            # check distance is farther than number of flags: |P-Q| >= K.
+            if peaks[j] - peaks[j-1] >= i:
+                cnt += 1
+        if cnt > val:
+            val = cnt
+    return val
