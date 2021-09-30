@@ -107,3 +107,40 @@ def solution(A):
             return val
         val = max(flag, val)
     return val
+
+# 2021-09-30-Thu, 66%, https://app.codility.com/demo/results/trainingVN3PAX-2VB/
+
+import math
+
+def solution(A):
+    # list of peaks.
+    peaks = []
+    for i in range(1, len(A)-1):
+        if A[i] > A[i-1] and A[i] > A[i+1]:
+            peaks.append(i)
+    # if there is not peak as uphill or downhill.
+    if not peaks:
+        return 0
+    # if number of peaks is 1, return 1 without checking K limitation.
+    elif len(peaks) == 1:
+        return 1
+    val = 1
+    k_max = int((math.sqrt(4*(peaks[-1] - peaks[0]) + 1) + 1) / 2) + 1
+    for k in range(2, k_max):
+        p = 0
+        q = 1
+        # initiated with first peak flag.
+        flag = 1
+        while p < len(peaks) - 1:
+            if peaks[q] - peaks[p] >= k:
+                flag += 1
+                p = q
+                q += 1
+            else:
+                q += 1
+            if q == len(peaks) or flag == k:
+                break
+        if flag < val:
+            return val
+        val = max(flag, val)
+    return val
