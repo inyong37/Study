@@ -46,3 +46,30 @@ def solution(A):
         if cnt > val:
             val = cnt
     return val
+
+# 2021-09-30-Thu, 6%, https://app.codility.com/demo/results/trainingWRA7DP-A22/
+
+def solution(A):
+    if len(A) < 3:
+        return 0
+    peaks = []
+    for i in range(1, len(A)-1):
+        if A[i-1] < A[i] and A[i] > A[i+1]:
+            peaks.append(i)
+    if len(peaks) == 1:
+        return 1
+    val = 1
+    for k in range(2, len(peaks)+1):
+        cnt = 0
+        i = 0
+        while i < len(peaks) - 1:
+            for j in range(i, len(peaks)):
+                if peaks[j] - peaks[i] >= k:
+                    cnt += 1
+                    i = j
+                    break
+        if cnt > val:
+            val = cnt
+        if cnt < val:
+            return  val
+    return val
