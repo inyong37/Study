@@ -1,4 +1,5 @@
-# Example is about 'First Come First Served (FCFS)' and the solution is 'Shorted Job First (SJF)' non-preemptive version.
+# Example is 'First Come First Served (FCFS)' algorithm.
+# The solution is 'Shorted Job First (SJF)' non-preemptive algorithm.
 
 import heapq
 from math import floor
