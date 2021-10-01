@@ -73,6 +73,55 @@ It's just shorter.
 
 ----------
 
+## Data Type | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+The set if types in the JavaScript language consists of primitive values and objects. ECMAScript has two built-in numeric types: Number and BigInt.
+
+### Dynamic typing
+JavaScript is a loosely types and dynamic language. Variables in JavaScript are not directly associated with any particular value type, and any variable can be assigned (and re-assigned) values of all types.
+
+```JavaScript
+let foo = 42; // foo is now a number.
+foo = 'bar';  // foo is now a string.
+foo = true;   // foo is now a boolean. 
+```
+
+### Primitive Value
+Immutable datum represented directly at the lowest level of the language. All types except objects define immutable values (that is, values which can't be changed). For example (and unlike in C), Strings are ummutable. We refer to values of these types as "primitive values".
+
+### Boolean | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Boolean) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+Boolean represents a logical entity and can have two values: true and false.
+
+### Null | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Null) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null)
+The Null type has exactly one value: null.
+
+### Undefined | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/undefined) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+A variable that has not been assigned a value has the value undefined.
+
+### Number
+The Number type is a double-precision 64-bit binary format IEEE 754 value ( -(2^53)-1 ~ (2^53)-1). In addition to representing floating-point numbers, the number type has three symbolic values: +Infinity, -Infinity, and NaN (Not a Number)
+
+### BigInt
+The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary percision. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit for Numbers. A BigInt is created by appending n to the end of an integer or by calling the constructor.
+
+```JavaScript
+const x = 2n ** 53n; // 9007199254740992n
+const y = x + 1n; // 9007199254740993n
+```
+
+You can use the operators +, -, *, **, and % with BinInts - just like with Numbers. A BigInt is not strictly equal to a Number, but it is lossely so. A BigInt behaves like a Number in cases where it is converted to boolean: if, ||, &&, Boolean, !. BigInts cannot be operated on interchangeably with Numbers. Instead a TypeError will be thrown.
+
+### String
+JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index 0, the next at index 1, and so on. The length of a String is the number of elements in it. Unlike some programming languages (such as C), JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it. However, it is still possible to create another string based on operation on the original string. For example: a substring of the original by picking individual letters or using `String.substr()`. A concatenation of two strings using the concatenation operator (`+`) or `String.concat()`
+
+### Symbol | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+A symbol is a unique and immutable primitive value and may be used as the key of an Object property. In some programming languages, Symbols are called "atoms".
+
+### Objects
+Collections of properties. In computer science, an object is a value in memory which is possibly referenced by an identifier.
+
+
+----------
+
 ## [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 JavaScript was created in 1995 by Brendan Eich while he was an engineer at Netscape. JavaScript was first released with Netscape 2 early in 1996. It was originally going to be called LiveScript, but it was renamed in an ill-fated marketing decision that attempted to capitalize on the popularity of Sun Microsystem's Java language - despite the tow having very little in common. This has been a source of confusion ever since.
 
@@ -445,3 +494,12 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Object MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object, 2021-09-17-Fri.
 - Object.entries() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-09-17-Fri.
 - Arrow function expressions MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions 2021-09-17-Fri.
+- Data Types and Data Structures MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures, 2021-10-01-Fri.
+- Boolean MDN, https://developer.mozilla.org/en-US/docs/Glossary/Boolean, 2021-10-01-Fri.
+- Boolean MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean, 2021-10-01-Fri.
+- Null MDN, https://developer.mozilla.org/en-US/docs/Glossary/Null, 2021-10-01-Fri.
+- Null MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null, 2021-10-01-Fri.
+- Undefined MDN, https://developer.mozilla.org/en-US/docs/Glossary/undefined, 2021-10-01-Fri.
+- Undefined MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined, 2021-10-01-Fri.
+- Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-01-Fri.
+- Symbol MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol, 2021-10-01-Fri.
