@@ -9,7 +9,7 @@
 
 ----------
 
-## Data Type | [Docs](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+## Data Type | [Docs](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 In TypeScript, it supports the same types as in JavaScript, with an extra enumeration type thrown in to help things along.
 
 ### Boolean
@@ -52,4 +52,5 @@ I'll be ${age + 1} years old next month.`;
 
 #### Reference
 - TypeScript, https://www.typescriptlang.org/, 2021-07-01-Thu.
-- Data Type Docs, https://www.typescriptlang.org/docs/handbook/basic-types.html, 2021-10-01-Fri.
+- Data Type Docs (Deprecated), https://www.typescriptlang.org/docs/handbook/basic-types.html, 2021-10-01-Fri.
+- Data Type Docs, https://www.typescriptlang.org/docs/handbook/2/everyday-types.html, 2021-10-01-Fri.
