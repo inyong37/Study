@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 def solution(N, number):
     if N == number:
         return 1
@@ -11,6 +9,7 @@ def solution(N, number):
     for i in range(1, len(s)):
         for j in range(i):
             for x in s[j]:
+                # backward for '-'' and '/' operations.
                 for y in s[i-j-1]:
                     s[i].add(x + y)
                     s[i].add(x - y)
