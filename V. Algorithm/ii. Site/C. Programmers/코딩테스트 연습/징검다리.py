@@ -1,3 +1,5 @@
+# Tried to use combination and brute force method but didn't make it.
+
 from itertools import combinations
 
 def solution(distance, rocks, n):
@@ -17,6 +19,8 @@ def solution(distance, rocks, n):
     
     answer = 0
     return answer
+
+# Used binary search method.
 
 def solution(distance, rocks, n):
     rocks.sort()
