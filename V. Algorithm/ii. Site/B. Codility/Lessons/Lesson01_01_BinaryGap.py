@@ -27,3 +27,17 @@ def solution(N: int) -> int:
     for i in range(len(idx) - 1):
         results.append(idx[i + 1] - idx[i] - 1)
     return max(results)
+
+# 2021-10-02-Sat, 100%, https://app.codility.com/demo/results/trainingWR3MAQ-82R/
+
+def solution(N):
+    ans = 0
+    num = str(bin(N)[3:])
+    cnt = 0
+    for ele in num:
+        if ele == '1':
+            ans = max(cnt, ans)
+            cnt = 0
+        else:
+            cnt += 1
+    return ans
