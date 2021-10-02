@@ -144,3 +144,5 @@ def solution(A):
             return val
         val = max(flag, val)
     return val
+
+# 2021-10-02-Sat, 40%, https://app.codility.com/demo/results/trainingA35YEG-H8K/
