@@ -146,3 +146,33 @@ def solution(A):
     return val
 
 # 2021-10-02-Sat, 40%, https://app.codility.com/demo/results/trainingA35YEG-H8K/
+
+from math import sqrt
+
+def solution(A):
+    if len(A) <= 2:
+        return 0
+    
+    peaks = []
+    for i in range(1, len(A)):
+        if A[i-1] < A[i] and A[i] > A[i+1]:
+            peaks.append(i)
+    
+    if not peaks:
+        return 0
+    
+    if len(peaks) <= 2:
+        return 2
+    
+    max_flags = int(sqrt(peaks[-1] - peaks[0])) + 1
+
+    for i in range(max_flags, 0, -1):
+        cnt = 1
+        cur = peaks[0]
+        for j in range(1, len(peaks)):
+            if cur + i <= peaks[j]:
+                cur = peaks[j]
+                cnt += 1
+        if cnt >= i:
+            return i
+    return 2
