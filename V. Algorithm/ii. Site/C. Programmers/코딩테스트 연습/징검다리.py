@@ -17,3 +17,34 @@ def solution(distance, rocks, n):
     
     answer = 0
     return answer
+
+def solution(distance, rocks, n):
+    rocks.sort()
+    rocks.append(distance)
+    left, right = 0, distance
+    answer = 0
+    while left <= right:
+        # assumed max value.
+        mid = (left + right) // 2
+        # temp min value of min values.
+        tmp = float('inf') 
+        # current position.
+        cur = 0
+        # count of removed rocks.
+        cnt = 0
+        for pos in rocks:
+            dif = pos - cur
+            # remove the position to make mid is the min value.
+            if dif < mid:
+                cnt += 1
+            else:
+                cur = pos
+                tmp = min(tmp, dif)
+        # if count of removed rocks are bigger than given number n.
+        if cnt > n:
+            right = mid - 1
+        # else count of removed rocks are smaller than given number n.
+        else:
+            answer = tmp
+            left = mid + 1 
+    return answer
