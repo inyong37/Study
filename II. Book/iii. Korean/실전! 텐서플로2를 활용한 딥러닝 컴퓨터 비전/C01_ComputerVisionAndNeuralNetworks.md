@@ -45,3 +45,8 @@ perceptron = Neuron(num_inputs=x.size, activation_fn=step_fn)
 out = perceptron.forward(x)
 # > 1
 ```
+
+## 요약
+- 컴퓨터 비전, 그 도전 과제, SIFT, SVM 같은 역사적 기법을 소개
+- 신경망, 신경망을 구성하고 훈련시키고 적용하는 방법
+- MNIST 분류 네트워크 구현, 머신러닝 프레임워크 동작에 대한 이해
