@@ -50,7 +50,32 @@ I'll be ${age + 1} years old next month.`;
 
 ----------
 
+## Utility Type | [Docs](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+
+### Record<Keys, Type>
+Constructs an object type whose property keys are `Keys` and whose property values are `Type`. This utility can be used to map the properties of a type to another type.
+
+```TypeScript
+interface  CatInfo {
+  age: number;
+  breed: string;
+}
+
+type CatName = "miffy" | "boris" | "mordred";
+
+const cats: Record<CatName, CatInfo> = {
+  miffy: { age: 10, breed: "Persian" },
+  boris: { age: 5, breed: "Maine Coon" },
+  mordred: { age: 16, breed: "British Shorthair" },
+};
+
+cats.boris;
+```
+
+----------
+
 #### Reference
 - TypeScript, https://www.typescriptlang.org/, 2021-07-01-Thu.
 - Data Type Docs (Deprecated), https://www.typescriptlang.org/docs/handbook/basic-types.html, 2021-10-01-Fri.
 - Data Type Docs, https://www.typescriptlang.org/docs/handbook/2/everyday-types.html, 2021-10-01-Fri.
+- Utility Type Docs, https://www.typescriptlang.org/docs/handbook/utility-types.html, 2021-10-05-Tue.
