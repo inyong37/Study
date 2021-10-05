@@ -113,12 +113,37 @@ You can use the operators +, -, *, **, and % with BinInts - just like with Numbe
 ### String
 JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index 0, the next at index 1, and so on. The length of a String is the number of elements in it. Unlike some programming languages (such as C), JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it. However, it is still possible to create another string based on operation on the original string. For example: a substring of the original by picking individual letters or using `String.substr()`. A concatenation of two strings using the concatenation operator (`+`) or `String.concat()`
 
-### Symbol | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
+### Symbol | [Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Symbol) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol) | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Symbol)
 A symbol is a unique and immutable primitive value and may be used as the key of an Object property. In some programming languages, Symbols are called "atoms".
+
+A value having the data type Symbol can be referred to as a "Symbol value". In a JavaScript runtime environment, a symbol value is created by invoking the function Symbol, which dynamically produces an anonymous, unique value. A symbol may be used as an object property. Symbol can have an optional description, but for debugging purposes only. A Symbol value represents a unique identifier.
+
+```JavaScript
+// Here are two symbols with the same description:
+let Sym1 = Symbol("Sym")
+let Sym2 = Symbol("Sym")
+
+console.log(Sym1 === Sym2) // returns "false"
+// Symbols are guaranteed to be unique. Even if we create many symbols with same description, they are different values.
+```
+
+If you are familiar with Ruby (or another language) that also has a feature called "symbols", please don't be missed. JavaScript symbols are different. Symbol type is a new feature in ECMAScript 2015. There is no ECMAScript 5 equivalent for Symbol. 
 
 ### Objects
 Collections of properties. In computer science, an object is a value in memory which is possibly referenced by an identifier.
 
+### Properties
+In JavaScript, objects can be seen as a colleciton of properties. With the object literal syntax, a limited set of properties are initialized; then properties can be added and removed. Property values can be values of any type, including other objects, which enables building complex data structures. Properties are identified using key vales. A key value is either a String value or Symbol value.
+
+Each property has corresponding attributes. Attributes are used internally by the JavaScript engine, so you cannot directly access them. That's why attributes are listed in double square brackets(`[[]]`), rather than single(`[]`). 
+
+### Map | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.
+
+A Map object iterates its elements in insertion order - a `for...of` loop returns an array of `[key, value]` for each iteration.
+
+### Objects vs. Maps
+Object is similar to Map - both let you set keys to values, retrieve those values, delete keys, and detect whether something is stored at a key. For this reason (and because there were no built-in alternatives), Object has been used as Map historically. However, there are important differences that make Map preferable in some cases: Accidental Keys, Key Types, Key Order, Size, Iteration, Performance, Serialization and parsing.
 
 ----------
 
@@ -503,3 +528,5 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Undefined MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined, 2021-10-01-Fri.
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-01-Fri.
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol, 2021-10-01-Fri.
+- Map MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map, 2021-10-05-Tue.
+- Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-05-Tue.
