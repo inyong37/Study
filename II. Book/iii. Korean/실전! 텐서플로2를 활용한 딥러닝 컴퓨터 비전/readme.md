@@ -2,13 +2,9 @@
 
 벤자민 플랜치, 엘리엇 안드레스 지음, 김정인 옮김 | 위키북스 | 2020년 06월 02일 | [YES24](http://www.yes24.com/Product/Goods/90365150)
 
-원서 출판사 깃허브
+원서 출판사 [GitHub](https://github.com/PacktPublishing/Hands-On-Computer-Vision-with-TensorFlow-2)
 
-https://github.com/PacktPublishing/Hands-On-Computer-Vision-with-TensorFlow-2
-
-위키북스 깃허브
-
-https://github.com/wikibook/dl-vision
+위키북스 [GitHub](https://github.com/wikibook/dl-vision)
 
 ## Date
 
