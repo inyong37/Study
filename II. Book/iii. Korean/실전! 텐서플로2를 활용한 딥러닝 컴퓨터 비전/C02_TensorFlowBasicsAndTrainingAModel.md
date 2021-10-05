@@ -1,5 +1,11 @@
 # 02 텐서플로 기초와 모델 훈련
 
+## 기술적 요구사항
+
+## 텐서플로 2와 케라스 시작하기
+
+### 케라스를 사용한 간단한 컴퓨터 비전 모델
+
 ```Python
 import tensorflow as tf
 
@@ -24,3 +30,26 @@ model.compile(optimize='sgd',
 
 model.fit(x_train, y_train, epochs=5, verbose=1, validation_data=(x_test, y_test))
 ```
+
+## 텐서플로 2와 케라스 자세히 알아보기
+
+### 핵심개념
+
+#### 텐서 소개
+
+#### 텐서플로 그래프
+
+##### 느긋한 실행과 조급한 실행 비교
+
+##### 텐서플로 2에서 그래프 생성하기
+
+##### 텐서플로 오토그래프와 tf.function 소개
+```Python
+@tf.function
+def compute(a, b, c):
+    d = a * b + c
+    e = a * b * c
+    return d, e
+```
+
+#### 그래디언트 테이프를 사용해 오차 역전파하기
