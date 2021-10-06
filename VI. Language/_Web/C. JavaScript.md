@@ -137,6 +137,18 @@ In JavaScript, objects can be seen as a colleciton of properties. With the objec
 
 Each property has corresponding attributes. Attributes are used internally by the JavaScript engine, so you cannot directly access them. That's why attributes are listed in double square brackets(`[[]]`), rather than single(`[]`). 
 
+### Object.entires() | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+The Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs. This is the same as iterating with a for..in loop, except that a for...in loop enumerates properties in the prototype chain as well. 
+
+```JavaScript
+Object.entries(obj)
+```
+
+- Parameters
+  - obj: The object whose own enumerable string-keyed property [key, value] pairs are to be returned.
+- Return value
+  - An array of the given object's own enumerable string-keyed property [key, value] pairs.
+
 ### Map | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.
 
@@ -530,3 +542,4 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol, 2021-10-01-Fri.
 - Map MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map, 2021-10-05-Tue.
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-05-Tue.
+- Object.entires() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-10-06-Wed.
