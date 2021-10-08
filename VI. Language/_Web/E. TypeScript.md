@@ -30,6 +30,13 @@ let octal: number = 0o744;
 let big: bigint = 100n;
 ```
 
+- String to Number | [stackoverflow](https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript?rq=1):
+
+```TypeScript
+var x: string = "32";
+var y: number = +x;
+```
+
 ### String
 Another fundamental part of creating programs in JavaScript for webpages and servers alike is working with textual data. As in other languages, it uses the type `string` to refer to these textual datatypes. Just like JavaScript, TypeScript also uses double quotes (`"`) or single quotes (`'`) to surround string data.
 
@@ -79,3 +86,4 @@ cats.boris;
 - Data Type Docs (Deprecated), https://www.typescriptlang.org/docs/handbook/basic-types.html, 2021-10-01-Fri.
 - Data Type Docs, https://www.typescriptlang.org/docs/handbook/2/everyday-types.html, 2021-10-01-Fri.
 - Utility Type Docs, https://www.typescriptlang.org/docs/handbook/utility-types.html, 2021-10-05-Tue.
+- Convert String to Number, https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript?rq=1, 2021-10-08-Fri.
