@@ -30,11 +30,22 @@ let octal: number = 0o744;
 let big: bigint = 100n;
 ```
 
-- String to Number | [stackoverflow](https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript?rq=1):
+- Convert String to Number | [stackoverflow](https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript?rq=1):
 
 ```TypeScript
 var x: string = "32";
 var y: number = +x;
+```
+
+- Check the number is float or integer | [stackoverflow](https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer/20779354#20779354):
+```TypeScript
+function isInt(n){
+  return Number(n) === n && n % 1 === 0;
+}
+
+function isFloat(n){
+  return Number(n) === n && n % 1 !== 0;
+}
 ```
 
 ### String
@@ -87,3 +98,4 @@ cats.boris;
 - Data Type Docs, https://www.typescriptlang.org/docs/handbook/2/everyday-types.html, 2021-10-01-Fri.
 - Utility Type Docs, https://www.typescriptlang.org/docs/handbook/utility-types.html, 2021-10-05-Tue.
 - Convert String to Number, https://stackoverflow.com/questions/14667713/how-to-convert-a-string-to-number-in-typescript?rq=1, 2021-10-08-Fri.
+- Check the number is float or integer, https://stackoverflow.com/questions/3885817/how-do-i-check-that-a-number-is-float-or-integer/20779354#20779354, 2021-10-08-Fri.
