@@ -4,12 +4,12 @@
 
 ## II. Google Drive
 ### i. import and attach
-```
+```Python
 from google.colab import drive
 drive.mount('/content/drive/')
 ```
 ### ii. check directory
-```
+```Python
 !ls '/content/drive/My Drive/'
 !ls '/content/drive/My Drive/PUBLIC/GITHUB/Study/Book/C. Korean/실전 예제로 배우는 GAN/'
 ```
@@ -17,7 +17,7 @@ drive.mount('/content/drive/')
 ## III. Check Environment
 ### i. check development environment
 [IN]:
-```
+```Python
 import platform
 print(platform.platform())
 !python --version # python version
@@ -29,7 +29,7 @@ import torch
 print('Torch', torch.__version__)
 ```
 [OUT]:
-```
+```bash
 Linux-4.14.79+-x86_64-with-Ubuntu-18.04-bionic
 Python 3.6.7
 TensorFlow 1.13.1
@@ -39,7 +39,7 @@ Torch 1.1.0
 ```
 ### ii. check system environment
 [IN]:
-```
+```Python
 !cat /etc/issue.net # os
 !cat /proc/cpuinfo # cpu information
 !cat /proc/meminfo # memory information
@@ -47,7 +47,7 @@ Torch 1.1.0
 !df -h # storage
 ```
 [OUT]:
-```
+```bash
 Ubuntu 18.04.2 LTS
 processor	: 0
 vendor_id	: GenuineIntel
@@ -178,7 +178,7 @@ tmpfs           6.4G     0  6.4G   0% /sys/firmware
 Keras [Reference](https://yamalab.tistory.com/80)
 
 ## V. Annotation
-```
+```Python
 # -*- coding: utf-8 -*-
 # Author: Inyong Hwang (inyong1020@gmail.com)
 # Date: *-*-*-*
