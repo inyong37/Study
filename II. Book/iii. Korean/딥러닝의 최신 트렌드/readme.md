@@ -16,13 +16,13 @@ February, 2021
 
 ### Chapter 2. [딥러닝의 한계](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C02_Limits.md)
 
-### :star: Chapter 3. [딥러닝의 표현 학습](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C03_Representation.md)
+### Chapter 3. [딥러닝의 표현 학습](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C03_Representation.md) :star:
 
 ### Chapter 4. [딥마인드의 알파스타](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C04_AlphaStar.md)
 
-### :star: Chapter 5. [딥러닝의 한계를 뛰어넘는 최신 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C05_GoBeyond.md)
+### Chapter 5. [딥러닝의 한계를 뛰어넘는 최신 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C05_GoBeyond.md) :star:
 
-### :star: Chapter 6. [딥러닝의 효율을 향상시키는 다양한 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C06_ImproveEfficiency.md)
+### Chapter 6. [딥러닝의 효율을 향상시키는 다양한 기술](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/딥러닝의%20최신%20트렌드/C06_ImproveEfficiency.md) :star:
 
 ## Keywords
 meta learning, meta cognition, learning to learn, model agnostic meta learning, one shot learning, few shot learning, zero shot learning, continual learning, catastrophic forgetting, elastic weight consolidation, dynamically expandable network, neural architecture search, automl, spiking neural network, active learning, graph neural network, memory network, neural turing machine, bidirectional encoder representations from transformer, generative pre-traning, capsule network, dynamic routing, floating point, mobile network, depthwise separable convolution, depthwise convolution, pointwise convolution, network pruning, sub network, the lottery ticket hypothesis, deep compression, quantization, huffman coding, binary neural network, xnor-net, once for all, progressive shrinking, distilling the knowledge, ensemble, mlperf, floating point operations per second, 
