@@ -169,6 +169,9 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 ### Landing Page | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80)
 검색 엔진, 광고 등을 경유하여 접속하는 이용자가 최최로 보게 되는 웹페이지이다. 링크를 클릭하고 해당 웹페이지에 접속하면 마케터가 의도한 행위를 하도록 하는 페이지를 의미한다.
 
+### Web Assembly
+기존 브라우저에서 HTML, CSS, JS에 대해서만 인터프리터가 읽고 해석하는 것에서, C++, JAVA 등의 언어로 만들고 컴파일한 wasm이라는 웹 어셈블리 파일 또한 지원하는 내용이다. 웹 어셈블리는 기존 JS의 크롬 브라우저에서 일반 실행과 최적화 실행 중 안정적으로 상대적으로 많은 코드의 양이 최적화 실행되기 때문에 더 빠른 실행과 다양한 언어로 다양한 구현이 가능하다는 장점이 있다.
+
 ----------
 
 #### Reference
@@ -218,3 +221,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - MobX, https://mobx.js.org/README.html, 2021-09-02-Thu.
 - Redux, https://redux.js.org/, 2021-09-02-Thu.
 - Redux Wiki, https://en.wikipedia.org/wiki/Redux_(JavaScript_library), 2021-09-02-Thu.
+- Web Assembly Youtube KR, https://youtu.be/VJag_H2Cosc, 2021-10-15-Fri.
