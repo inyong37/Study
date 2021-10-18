@@ -221,10 +221,6 @@ CuDNN in ~/CUDA/include/cudnn.h
 - Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/11681152)
 - The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/29241448)
 - Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/77283734)
+- Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020)
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
-
-- Advanced Programming in the UNIX Environment 3rd Ed.
-- The Practice of Programming
-- Operating System Concepts
-- Operating System Concepts Essentials
