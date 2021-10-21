@@ -22,7 +22,7 @@ Spring, 2021
 
 #### Chapter 4. [빅오, 자료형](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C04_big_o_data_type.md)
 
-#### Chapter 5. 리스트, 딕셔너리
+#### Chapter 5. [리스트, 딕셔너리](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C05_list_dictionary.md)
 
 #### Chapter 6. 문자열 조작
 - Problem 1. [유효한 팰린드롬](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/P01_valid_palindrome.py)
