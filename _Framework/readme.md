@@ -36,7 +36,7 @@ Install `pip install keras`
 
 Setup(TensorFlow >=2.0) `from tensorflow import keras`
 
-## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch)
+## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/)
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 (with submodule or bazel)
@@ -65,6 +65,8 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 - OpenCV GitHub, https://github.com/opencv/opencv, 2020-07-16-Thu.
 - PyTorch, https://pytorch.org/, 2020-07-16-Thu.
 - PyTorch GitHub, https://github.com/pytorch/pytorch, 2020-07-16-Thu.
+- PyTorch Tutorial, https://pytorch.org/tutorials/, 2021-10-25-Mon.
+- PyTorch Tutorial KR, https://tutorials.pytorch.kr/, 2021-10-25-Mon.
 - Caffe, https://caffe.berkeleyvision.org/, 2020-07-16-Thu.
 - Caffe GitHub, https://github.com/BVLC/caffe, 2020-07-16-Thu.
 - Theano, http://www.deeplearning.net/software/theano/, 2020-07-16-Thu.
