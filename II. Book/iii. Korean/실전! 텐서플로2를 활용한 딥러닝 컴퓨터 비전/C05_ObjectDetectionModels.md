@@ -72,10 +72,29 @@ AP는 단일 클래스에 대한 모델 성능 정보를 제공한다. 전역 �
 :bulb: mAP는 최소 2개 이상의 객체를 탐지하는 대회인 PASCAL Visual Object Classes(일반적으로 Pascal VOC라고도 함)와 Common Objects in Context(일반적으로 COCO라고 함)에서 사용된다. COCO 데이터셋이 더 크고 많은 클래스를 포함하고 있으므로 여기에서 얻는 점수는 Pascal VOC보다 더 낮다.
 
 #### AP 임곗값
+TP과 FP가 실제 상자와 일치하거나 일치하지 않는 예측 개수에 의해 정의된다고 설명했다. 그렇지만 예측과 실제가 언제 일치하는지 어떻게 결정할까? 일반적으로 두 집합(여기에서는 상자로 표현되는 픽셀 집합)이 얼마나 겹치는지 측정하는 자카드 지표(Jaccard Index)를 메트릭으로 사용한다. IoT(Intersection over Union)라고도 알려진 이 지표는 다음과 같이 정의된다.
+
+IoU(A, B) = | intersection(A, B) | / | union(A, B) | = | intersection(A, B) | / (|A| +|B| - | intersection(A, B)|)
+
+|A|와 |B|는 각 집합의 카디널리티(Cardinality)로, 각 집합이 포함한 요소의 개수를 말한다. intersection(A, B)는 두 집합의 교집합으로 분자 |intersection(A, B)|는 두 집합이 공통으로 갖고 있는 요소 개수를 나타낸다. 마찬가지로 union(A, B)는 두 집합의 합집합으로 분모 |union(A, B)|는 두 집합이 함께 가지고 있는 전체 요소 개수를 나타낸다.
+
+교집합은 두 집합/상자가 얼마나 겹치는지를 보기에는 좋은 지표지만, 이 값은 절대적인 수치일 뿐 상대적이지 않다. 따라서 두 개의 큰 상자가 아마 두 개의 작은 상자보다 훨씬 많은 픽셀이 겹칠 것이다. 그렇기 때문에 이 비율을 사용한다. 이 비율은 항상 0(두 상자가 전혀 겹치지 않는 경우)과 1(두 상자가 완전히 겹치는 경우) 사이의 값을 갖는다.
+
+AP를 계산할 때 IoU가 특정 임곗값을 넘으면 두 상자가 겹친다고 말한다. 일반적으로 이 임곗값은 0.5로 정한다.
+
+:bulb: Pascal VOC 대회에서도 0.5를 사용하며 mAP@0.5라고 부른다. COCO 대회에서는 약간 다른 지표로 mAP@[0.5:0.95]를 사용한다. 이는 mAP@0.5, mAP@0.95를 계산해 평균을 구한다는 뜻이다. IoU를 평균하면 모델의 위치 측정 성능이 좋아진다.
 
 ## 빠른 객체 탐지 알고리즘 - YOLO
+최신 버전은 YOLOv3은 크기가 256x256인 이미지에 대해 최신 GPU에서 초당 170프레임(170FPS, frames per second)의 속도로 실행될 수 있다.
 
 ### YOLO 소개
+2015년에 최초로 공개된 YOLO는 속도와 정확도 측면 모두에서 거의 모든 객체 탐지 아키텍처를 능가했다. 그 이후로 이 아키텍처는 몇 차례 개선됐다.
+
+- You Only Look Once: Unified, real-time object detection (2015), Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhad
+- YOLO9000: Better, Faster, Stronger (2016), Joseph Redmon, Ali Farhadi
+- YOLOv3: An Incremental Improvement (2018), Joseph Redmon, Ali Farhadi
+
+:bulb: YOLO 논문의 1저자는 다크넷(Darknet)이라는 딥러닝 프레임워크를 관리한다. 이 프레임워크는 YOLO의 공식 구현을 제공하고 있어 논문의 결과를 재현하는 데 사용될 수 있다. 이 코드는 C++로 구현됐으며 텐서플로를 기반으로 하지 않는다.
 
 #### YOLO의 강점과 한계
 
