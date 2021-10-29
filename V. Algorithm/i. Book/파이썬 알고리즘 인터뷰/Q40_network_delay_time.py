@@ -1,6 +1,7 @@
-from Typing import List
+from typing import List
 import collections
 import heapq
+
 
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
