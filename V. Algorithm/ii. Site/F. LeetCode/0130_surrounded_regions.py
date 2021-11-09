@@ -67,3 +67,41 @@ class Solution:
           for j in range(1, len(board[i]) - 1):
             if board[i][j] == 'O':
               dfs(i, j)
+
+# Solution 3rd
+from collections import Counter
+
+class Solution:
+    def solve(self, board: List[List[str]]) -> None:
+        if not board: return board
+        
+        row, col = len(board), len(board[0])
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        visited = set()
+        
+        def dfs(x, y):
+            for delta_x, delta_y in directions:
+                new_x, new_y = x + delta_x, delta_y + y
+                if 0 <= new_x and new_x <= row - 1 \
+                and 0 <= new_y and new_y <= col - 1 \
+                and board[new_x][new_y] == 'O' \
+                and (new_x, new_y) not in visited:
+                    visited.add((new_x, new_y))
+                    board[new_x][new_y] = 'V'
+                    dfs(new_x, new_y)
+        
+        for x in range(row):
+            for y in range(col):
+                if (x == 0 or x == row - 1 or y == 0 or y == col - 1) and \
+                board[x][y] == 'O' and \
+                (x, y) not in visited:
+                    visited.add((x, y))
+                    board[x][y] = 'V'
+                    dfs(x, y)
+
+        for x in range(row):
+            for y in range(col):
+                if board[x][y] == 'O':
+                    board[x][y] = 'X'
+                elif board[x][y] == 'V':
+                    board[x][y] = 'O'
