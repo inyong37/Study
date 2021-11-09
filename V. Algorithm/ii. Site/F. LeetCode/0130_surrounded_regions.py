@@ -69,6 +69,10 @@ class Solution:
               dfs(i, j)
 
 # Solution 3rd
+# Reference: https://zhenyu0519.github.io/2020/03/07/lc130/
+# first find surrounded regions and mark them as 'visited',
+# second flip others and make back marked regions.
+
 from collections import Counter
 
 class Solution:
