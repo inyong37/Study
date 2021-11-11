@@ -16,4 +16,3 @@ class Solution:
                 missing += 1
                 left += 1
         return s[start:end]
-        
