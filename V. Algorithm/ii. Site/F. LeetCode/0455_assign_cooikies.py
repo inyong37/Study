@@ -11,8 +11,9 @@ class Solution:
                 child_i += 1
             cookie_j += 1
         return child_i
-        
 
+
+from typing import List
 import bisect
 
 
