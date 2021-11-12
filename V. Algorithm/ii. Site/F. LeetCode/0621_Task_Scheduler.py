@@ -1,3 +1,5 @@
+from collections import Counter
+
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         counter = collections.Counter(tasks)
@@ -13,4 +15,3 @@ class Solution:
                 break
             result += n - sub_count + 1
         return result
-        
