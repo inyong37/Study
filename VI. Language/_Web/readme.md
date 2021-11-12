@@ -2,6 +2,15 @@
 
 `Other parts of Network, Internet, and Web is in the "Network" page.`
 
+## Web Design | [Wiki](https://en.wikipedia.org/wiki/Web_design)
+Web design encompasses many different skills and disciplines in the production and maintenance of websites. THe differenct areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. 
+
+### Responsive Web Design | [Wiki](https://en.wikipedia.org/wiki/Responsive_web_design)
+Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.
+
+### Adaptive Web Design | [Wiki](https://en.wikipedia.org/wiki/Adaptive_web_design)
+Adaptive web design (AWD) promotes the creation of multiple versions of a web page to better fit the user's device, as opposed to a single static page which loads (and looks) the same on all devices or a single page which reorders and resizes content repsonsively based on the device/screen size/browswer of the user.
+
 ## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) | [Wiki](https://en.wikipedia.org/wiki/Front-end_web_development)
 The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
 
@@ -175,6 +184,9 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 ----------
 
 #### Reference
+- Web Design Wiki, https://en.wikipedia.org/wiki/Web_design, 2021-11-12-Fri.
+- Responsive Web Design Wiki, https://en.wikipedia.org/wiki/Responsive_web_design, 2021-11-12-Fri.
+- Adaptive Web Design Wiki, https://en.wikipedia.org/wiki/Adaptive_web_design, 2021-11-12-Fri.
 - Front-end web developer, https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer, 2021-06-30-Wed.
 - Front-end web developer Wiki, https://en.wikipedia.org/wiki/Front-end_web_development, 2021-08-31-Tue.
 - nvm GitHub, https://github.com/nvm-sh/nvm, 2021-09-02-Thu.
