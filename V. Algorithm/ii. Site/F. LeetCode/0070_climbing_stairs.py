@@ -1,5 +1,8 @@
+from collections import defaultdict
+
+
 class Solution:
-    dp = collections.defaultdict(int)
+    dp = defaultdict(int)
     def climbStairs(self, n: int) -> int:
         if n <= 2:
             return n
