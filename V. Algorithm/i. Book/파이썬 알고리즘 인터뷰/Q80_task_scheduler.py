@@ -15,4 +15,3 @@ class Solution:
                 break
             result += n - sub_count + 1
         return result
-        
