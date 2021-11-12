@@ -1,4 +1,4 @@
-from Typing import List
+from typing import List
 
 class Solution1:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
@@ -12,6 +12,7 @@ class Solution1:
         return child_i
 
 
+from typing import List
 import bisect
     
     
