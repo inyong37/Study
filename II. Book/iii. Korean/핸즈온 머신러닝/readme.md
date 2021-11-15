@@ -1,6 +1,6 @@
 # 핸즈온 머신러닝
 
-Hands-On Machine Learning with Scikit-Learn and TensorFlow
+Hands-On Machine Learning with Scikit-Learn and TensorFlow | [O'REILLY](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 
 사이킷런과 텐서플로를 활용한 머신러닝, 딥러닝 실무
 
