@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas exmpale 1</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script>
+        var init=false;
+        var myCanvas;
+        var Context;
+        var posX;
+        var posY;
+        var moveCount=0;
+        var image = new Image();
+
+        function Init() {
+            if (init == false) {
+                myCanvas = document.getElementById("MyCanvas");
+                Context = myCanvas.getContext("2d");
+                image.src = "test.jpg";
+                posX = myCanvas.width / 2;
+                posY = myCanvas.heigth / 2;
+                init = true;
+            }
+        }
+
+        function onDraw() {
+            if (init == false) return;
+            Context.strokeStyle = "#000";
+            Context.lineWidth = 1;
+            Context.strokeRect(0, 0, myCanvas.width-1, myCanvas.heigth-1);
+            Context.fillStyle = "#f8f8f8";
+            Context.fillRect(1, 1, myCanvas.width-2, myCanvas.height-2);
+            Context.drawImage(image, posX-image.width/2, posY-image.height/2);
+
+        }
+
+        function Run() {
+            if (moveCount < 100) posX += 2;
+            else if (moveCount < 300) posX -= 2;
+            else if (moveCount < 400) posX += 2;
+            else moveCount = 0;
+            moveCount++;
+
+            onDraw();
+        }
+
+        $(document).ready(function(){
+            Init();
+            setInterval(Run, 20);
+        });
+    </script>
+    <canvas id="MyCanvas" width=800 height=600>
+        canvas is not supported
+    </canvas>
+</body>
+</html>
