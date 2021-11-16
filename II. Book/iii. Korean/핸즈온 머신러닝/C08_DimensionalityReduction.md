@@ -26,7 +26,7 @@
 ### 8.4.1 커널 선택과 하이퍼파라미터 튜닝
 
 ## 8.5 LLE
-지역 선형 임베딩<sup>Locally Linear Embedding</sup>(LLE)은 또 다른 강력한 비선형 차원 축소<sup>nonlinear dimensionality reduction</sup>(NLDR) 기술입니다. 이전 알고리즘처럼 투영에 의존하지 않는 매니폴드 학습입니다.
+지역 선형 임베딩<sup>Locally Linear Embedding</sup>(LLE)은 또 다른 강력한 비선형 차원 축소<sup>nonlinear dimensionality reduction</sup>(NLDR) 기술입니다. 이전 알고리즘처럼 투영에 의존하지 않는 매니폴드 학습입니다. 간단히 말해 LLE는 먼저 각 훈련 샘플이 가장 가까운 이웃<sup>closest neighbor</sup>(c.n.)에 얼마나 선형적으로 연관되어 있는지 측정합니다. 그런 다음 국부적인 관계가 가장 잘 보존되는 훈련 세트의 저차원 표현을 찾습니다. 이는 특히 잡음이 너무 많지 않은 경우 꼬인 매니폴드를 펼치는 데 잘 작동합니다.
 
 ## 8.6 다른 차원 축소 기법
 사이킷런은 다양한 차원 축소 기법을 제공합니다. 다음은 그중에서 가장 널리 사용되는 것들입니다.
