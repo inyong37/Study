@@ -147,6 +147,9 @@ macOS is based on the Unix operating system and on technologies developed betwee
 
 Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that period. After Apple announced that they were switching to Intel CPUs from 2006 onwards, versions were released for Intel-based Macs with 32-bit and currently 64-bit processors. Versions from macOS 11 (2020) will support both 64-bit Intel and future Macs running 64-bit ARM processors.
 
+### Finder | [Wiki](https://en.wikipedia.org/wiki/Finder_(software))
+The Finder is the default file manager and graphical user interface shell used on all Machintosh operating systems. Described in its "About" window as "The Macintosh Desktop Experience", it is responsible for the launching of other applications, and for the overall user management of files, disks, and network volumes. It was introduced with the first Macintosh computer, and also exists as part of GS/OS on the Apple IIGS. It was rewritten completely with the release of Mac OS X in 2001. In a tradition dating back to the Classic Mac OS of the 1980s and 1990s, the FInder icon is the smiling screen of a computer, known as the Happy Mac logo.
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -202,3 +205,4 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 - UEFI Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%86%B5%EC%9D%BC_%ED%99%95%EC%9E%A5_%ED%8E%8C%EC%9B%A8%EC%96%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4, 2020-11-13-Fri.
 - POSIX Wiki, https://en.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
 - POSIX Wiki KR, https://ko.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
+- Finder Wiki, https://en.wikipedia.org/wiki/Finder_(software), 2021-11-18-Thu.
