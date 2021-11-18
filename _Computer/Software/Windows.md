@@ -395,6 +395,14 @@ Individual Linux distribution can be run with either the WSL 1 or WSL 2 architec
 
 ----------
 
+### File Explorer | [Wiki](https://en.wikipedia.org/wiki/File_Explorer)
+File Explorer, previously known as Windows Explorer, is a file manager application that is included with releases of the Microsoft Windows operating system from Windows 95 onwards. It provides a graphical user interface for accessing the file systems. It is also the component of the operating system that presents many user interface items on the screen such as the taskbar and desktop. Controlling the computer is possilbe without Windows Explorer running (for exapmle, the File > Run command in Task Manager on NT-derived versions of Windows will function without it, as will commands typed in a command prompt window).
+
+### Internet Explorer | [Wiki](https://en.wikipedia.org/wiki/Internet_Explorer)
+Internet Explorer (formerly Microsoft Internet Explorer and Windows Internet Explorer, ((from August 16, 1995 to March 30, 2021) commonly abbreviated IE or MSIE) is a discontinued series of graphical web browsers developed by Microsoft and included in the Microsoft Windows line of operating systems, starting in 1995.
+
+----------
+
 ## *Folder*
 
 ### *Program Files*
@@ -666,3 +674,5 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - GetCurrentDirectory Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221276143283&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-05-11-Tue.
 - Windows Subsystem for Linux Documentation MS Docs, https://docs.microsoft.com/en-us/windows/wsl/ 2021-09-06-Mon.
 - What is the Windows Subsystems for Linux? MS Docs, https://docs.microsoft.com/en-us/windows/wsl/about, 2021-09-06-Mon.
+- File Explorer Wiki, https://en.wikipedia.org/wiki/File_Explorer, 2021-11-18-Thu.
+- Internet Explorer Wiki, https://en.wikipedia.org/wiki/Internet_Explorer, 2021-11-18-Thu.
