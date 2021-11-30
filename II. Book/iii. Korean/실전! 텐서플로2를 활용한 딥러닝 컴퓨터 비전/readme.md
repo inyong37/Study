@@ -8,7 +8,7 @@
 
 ## Date
 
-February, 2021
+February, 2021 ~ November, 2021.
 
 ## Content
 
