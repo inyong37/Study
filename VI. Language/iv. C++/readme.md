@@ -324,17 +324,17 @@ It can convert(cast) A type to B type, it can convert(cast) any type to any type
 ### C++ Style Cast
 It can convert(cast) A type to B type, it has to use right cast. `<type-id>(e-pression)`
 
-### const_cast | [cppreference](https://en.cppreference.com/w/cpp/language/const_cast)
+### *const_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/const_cast)
 Converts between types with difference cv-qualificaion. It removes or grant constness to expression. It rarley used to grant constness to expression.
 
 Syntax: `const_cast<new_type>(expression)`, returns a value of type new_type
 
-#### dynamic_cast | [cppreference](https://en.cppreference.com/w/cpp/language/dynamic_cast)
+#### *dynamic_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/dynamic_cast)
 Safely converts pointers and references to classes up, down, and sideways along the inheritance hierarchy. It is casting operator used to traverse inheritance hierarchy dynamically at run time or when downcasting. It casts pointer or reference's base class instance to derived class or sibling class type. It can't be casted between nonpolymorphic objects, and a compliation error occurs when attempting.
 
 Syntax: `dynamic_cast<new_type>(expression)`, new_type: pointers to complete class type, reference to complete class type, or pointer to (optionally cv-qualified) void. expression: lvalue (until C++11) glvalue (since C++11) of a complete class type if new_type is a reference, prvalue of a pointer to complete class type if new_type is a pointer. If the cast is successful, dynamic_cast returns a value of type new_type. If the cast fails and new_type is a pointer type, it returns a null pointer of that type. If the cast fails and new_type is a reference type, it throws an exception that matches a handler of type std::bad_cast.
 
-### reinterpret_cast | [cppreference](https://en.cppreference.com/w/cpp/language/reinterpret_cast)
+### *reinterpret_cast* | [cppreference](https://en.cppreference.com/w/cpp/language/reinterpret_cast)
 Converts between types by reinterpreting the underlying bit pattern. It can convert/cast any type of pointer to any type of pointer, for example, pointer to integer or integer to pointer, everything is possible.
 
 Syntax: `reinterpret_cast<new_type>(expression)`, returns a value of type new_type.
@@ -343,7 +343,22 @@ Syntax: `reinterpret_cast<new_type>(expression)`, returns a value of type new_ty
 Converts between types using a combination of implicit and user-defined conversions. It is basic cast as having same meaning and same ability to convert/cast as C style cast. It has limit as can't convert/cast struct type to int/double or float to pointer, and can't remove constness. It's name is because it checks its' type at moment of compile not at run-time.
 
 Syntax: `static_cast<new_type>(expression)` returns a value of type new_type.
+  
+### :star: **dynamic vs. static vs. const vs. reinterpret**
+dynamic은 자식이 부모의 클래스로만 가능하고 빌드-타임이 아닌 런-타임에 확인을 하기 때문에 컴파일 에러가 발생하지 않는다.
+static은 자식<->부모 모두 가능하고 원시 자료형의 캐스팅으로도 사용되고 빌드 타임에 확인한다.
+const는 상수형을 없애는 경우에 사용할 수 있다.
+reinterpret는 제약 없이 자유롭게 사용할 수 있다. 예를 들어 주소 값을 정수형으로 변환하기도 가능하다.
 
+### :star: **malloc vs. calloc vs. realloc**
+malloc은 메모리를 할당할 때 바이트 크기 단위로 만들고 직접 초기화를 해야한다.
+calloc은 바이트 크기를 몇 개 만들지 인자로 넘겨 메모리를 할당하고 모두 0으로 초기화된다.
+realloc은 malloc을 이용해 할당 받은 메모리 크기를 다시 크거나 작게 재할당할 수 있다. 그런데 오류가 발생하면 null을 주게 되는데, 이러면 기존 주소값을 잃어버려 메모리 누수가 발생한다.
+
+### :star: **new vs. malloc**
+new는 키워드이고 생성자를 부르고 인자를 통해 초기화가 가능하다. 삭제할 때는 소멸자를 통해 삭제가 된다.
+malloc은 함수이고 메모리 할당만 하고 초기화는 직접해야 한다. 삭제 또한 메모리 자체를 삭제하게 된다.
+  
 ### *Constant Member Variable*
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
