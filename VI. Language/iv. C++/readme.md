@@ -359,6 +359,15 @@ realloc은 malloc을 이용해 할당 받은 메모리 크기를 다시 크거�
 new는 키워드이고 생성자를 부르고 인자를 통해 초기화가 가능하다. 삭제할 때는 소멸자를 통해 삭제가 된다.
 malloc은 함수이고 메모리 할당만 하고 초기화는 직접해야 한다. 삭제 또한 메모리 자체를 삭제하게 된다.
   
+### :star: **smart pointer** | [TCPSchool (KR)](http://tcpschool.com/cpp/cpp_template_smartPointer)
+스마트 포인터는 포인터처럼 동작하는 클래스 템플릿으로 사용이 끝난 메모리를 자동으로 해제한다.
+  
+### :star: **unique_ptr vs. shared_ptr vs. weak_ptr** | [TCPSchool (KR)])http://tcpschool.com/cpp/cpp_template_smartPointer_
+unique_ptr는 하나의 스마트 포인터만이 특정 객체를 소유한다. move로 소유권 이전이 가능하지만 복사는 불가하다.
+shared_ptr는 하나의 특정 객체를 참조하는 스마트 포인터가 총 몇 개인지 참조하는 스마트 포인터이다. Reference count를 하다 0이 되면 delete 키워드를 사용하여 메모리를 해제한다.
+weak_ptr는 하나 이상의 shared_ptr 인스턴스가 소유하는 객체에 대한 접근을 제공하지만 reference count에는 포함되지 않는다.
+
+  
 ### *Constant Member Variable*
 상수 멤버 변수란 한번 초기화하면, 그 값을 변경할 수 없는 멤버 변수이며 `const` 키워드를 사용한다. 문법으로는 `const type_name member_variable_name;`으로 쓴다.
 
@@ -638,3 +647,4 @@ Syntax: `void TEXT(quote);`. `quote`: Pointer to the string to interpret as UTF-
 - WideCharToMultiByte function (stringapiset.h), https://docs.microsoft.com/en-us/windows/win32/api/stringapiset/nf-stringapiset-widechartomultibyte, 2021-05-24-Mon.
 - wcscmp(), https://www.ibm.com/docs/en//i/7.3?topic=functions-wcscmp-compare-wide-character-strings, 2021-05-25-Tue.
 - RAII Pattern Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kmc7468&logNo=220989121076, 2021-06-15-Tue.
+- Smart Pointer TCPSchool KR, http://tcpschool.com/cpp/cpp_template_smartPointer, 2021-12-07-Tue.
