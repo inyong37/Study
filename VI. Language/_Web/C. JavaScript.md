@@ -515,6 +515,40 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 ### Hoisting | [MDN (KR)](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
 호이스팅이랑 인터프리터가 변수와 함수의 메모리 공간 선언 전에 미리 할당하는 것을 의미합니다. var로 선언한 변수의 경우 호이스팅 시 undefined로 변수를 초기화합니다. 반면 let과 const로 선언한 변수의 경우 호이스팅 시 변수를 초기화하지 않습니다. 따라서 변수를 정의하는 코드보다 사용하는 코드가 앞서 등장할 수 있습니다. 다만 선언와 초기화를 함께 수행하는 경우, 선언 코드까지 실행해야 변수가 초기화된 상태가 됨을 주의하세요.
 
+### Arrow Function | [MDN (KR)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+화살표 함수 표현(arrow function expression)은 전통적인 함수표현(function)의 간편한 대안입니다. 하지만, 화살표 함수는 몇 가지 제한점이 있고 모든 상황에 사용할 수는 없습니다.
+
+- this나 super에 대한 바인딩이 없고, methods로 사용될 수 없습니다.
+- new.target 키워드가 없습니다.
+- 일반적으로 스코프를 지정할 때 사용하는 call, apply, bind methods를 이용할 수 없습니다.
+- 생성자(Constructor)로 사용할 수 없습니다.
+- yield를 화살표 함수 내부에서 사용할 수 없습니다.
+
+```JavaScript
+(param1, param2, ..., paramN) => { statements }
+(param1, param2, ..., paramN) => expression
+// 다음과 동일함: => { return expression; }
+
+// 매개변수가 하나뿐인 경우 괄호는 선택사항:
+(singleParam) => { statements }
+singleParam => { statements }
+
+// 매개변수가 없는 함수는 괄호가 필요:
+() => { statements }
+
+// 객체 리터럴 표현을 반환하기 위해서는 함수 본문(body)을 괄호 속에 넣음:
+params => ({foo: bar})
+
+// 나머지 매개변수 및 기본 매개변수를 지원함
+(param1, param2, ...rest) => { statements }
+(param1 = defaultValue1, param2, ..., paramN = defaultValueN) => { statements }
+
+// 매개변수 목록 내 구조분해할당도 지원됨
+var f = ([a, b] = [1, 2], {x: c} = {x: a + b}) => a + b + c;
+f(); // 6
+```
+
+
 ----------
 
 #### Reference
@@ -549,3 +583,4 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-05-Tue.
 - Object.entires() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-10-06-Wed.
 - Hoisting MDN KR, https://developer.mozilla.org/ko/docs/Glossary/Hoisting, 2021-12-09-Thu.
+- Arrow Function MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions, 2021-12-09-Thu.
