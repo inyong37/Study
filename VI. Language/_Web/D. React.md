@@ -13,7 +13,7 @@ A JavaScript library for building user interfaces.
 
 5. [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 
-6. [Handling Events](https://reactjs.org/docs/handling-events.html)
+6. [Handling Events](https://reactjs.org/docs/handling-events.html) | [React (KR)](https://ko.reactjs.org/docs/handling-events.html)
 
 7. [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 
@@ -307,6 +307,67 @@ React is pretty flexible but it gas a single strict rule:
 **All React components must act like pure functions with respect to their props.**
 
 Of course, application UIs are dynamic and change over time. In the next section, we will introduce a new concept of "state". State allows React components to change their output over time in response to user actions, network responses, and anything else, without violating this rule.
+
+----------
+
+6. 이벤트 처리하기 | [React (KR)](https://ko.reactjs.org/docs/handling-events.html)
+React 엘리먼트에서 이벤트를 처리하는 방식은 DOM 엘리먼트에서 이벤트를 처리하는 방식과 매우 유사합니다. 몇 가지 문법 차이는 다음과 같습니다.
+
+- React의 이벤트는 소문자 대신 camelCase를 사용합니다.
+- JSX를 사용하여 문자열이 아닌 함수로 이벤트 핸들러를 전달합니다.
+
+```HTML
+<button
+  onClick="activaeLasers()">
+  Activate Lasers
+</button>
+```
+
+```React
+<button
+  onClick={activateLasers}>
+  Activate Lasers
+</button>
+```
+또 다른 차이점으로, React는 false를 반환해도 기본 동작을 방지할 수 없습니다. 반드시 preventDefault를 명시적으로 호출해야 합니다. 예를 들어, 일반 HTML에서 폼을 제출할 때 가지고 있는 기본 동작을 방지하기 위해 다음과 같은 코드를 작성할 수 있습니다.
+```HTML
+<form
+  onsubmit="console.log('You clicked submit.'); return false">
+  <button type="submit">
+    Submit
+  </button>
+</form>
+```
+
+```React
+function Form() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log('You clicked submit.');
+  }
+  
+  return (
+    <form onSubmit={handleSubmit}>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+여기서 e는 합성 이벤트입니다. React는 W3C 명세에 따라 합성 이벤트를 정의하기 때문에 브라우저 호환성에 대해 걱정할 필요가 없습니다. React 이벤트는 브라우저 고유 이벤트와 정확히 동일하게 동작하지는 않습니다.
+
+React를 사용할 때 DOM 엘리먼트가 생성된 후 리스너를 추가하기 위해 addEventListener를 호출할 필요가 없습니다. 대신, 엘리먼트가 처음 렌더링될 때 리스너를 제공하면 됩니다.
+
+루프 내부에서는 이벤트 핸들러에 추가적인 매개변수를 전달하는 것이 일반적입니다. 예를 들어, id가 행의 ID일 경우 다음 코드가 모두 작동합니다.
+
+```React
+<button onClick={(e) => this.deleteRow(id, e)}>Delete Row</button>
+<button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
+```
+
+위 두 줄은 동등하며 각각 화살표 함수와 Function.prototype.bind를 사용합니다.
+
+두 경우 모두 React 이벤트를 나타내는 e인자가 ID 뒤에 두 번째 인자로 전달됩니다. 화살표 함수를 사용하면 명시적으로 인자를 전달해야 하지만 bind를 사용할 경우 추가 인자가 자동으로 전달됩니다.
+
 ----------
 
 #### Reference
@@ -318,3 +379,4 @@ Of course, application UIs are dynamic and change over time. In the next section
 - Modern JavaScript in React Documentation, https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c, 2021-06-03-Wed.
 - Components and Props, https://reactjs.org/docs/components-and-props.html, 2021-08-20-Fri.
 - Rendering Elements, https://reactjs.org/docs/rendering-elements.html, 2021-08-20-Fri.
+- Handling Event KR, https://ko.reactjs.org/docs/handling-events.html, 2021-12-09-Thu.
