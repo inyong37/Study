@@ -512,6 +512,11 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 
 ----------
 
+### Hoisting | [MDN (KR)](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
+호이스팅이랑 인터프리터가 변수와 함수의 메모리 공간 선언 전에 미리 할당하는 것을 의미합니다. var로 선언한 변수의 경우 호이스팅 시 undefined로 변수를 초기화합니다. 반면 let과 const로 선언한 변수의 경우 호이스팅 시 변수를 초기화하지 않습니다. 따라서 변수를 정의하는 코드보다 사용하는 코드가 앞서 등장할 수 있습니다. 다만 선언와 초기화를 함께 수행하는 경우, 선언 코드까지 실행해야 변수가 초기화된 상태가 됨을 주의하세요.
+
+----------
+
 #### Reference
 - JavaScript, https://developer.mozilla.org/en-US/docs/Glossary/JavaScript, 2021-06-23-Wed.
 - JavaScript basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics, 2021-06-22-Tue.
@@ -543,3 +548,4 @@ JavaScript is one of the 3 languages all web developers must learn: HTML to defi
 - Map MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map, 2021-10-05-Tue.
 - Symbol MDN, https://developer.mozilla.org/en-US/docs/Glossary/Symbol, 2021-10-05-Tue.
 - Object.entires() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-10-06-Wed.
+- Hoisting MDN KR, https://developer.mozilla.org/ko/docs/Glossary/Hoisting, 2021-12-09-Thu.
