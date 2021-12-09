@@ -368,6 +368,45 @@ React를 사용할 때 DOM 엘리먼트가 생성된 후 리스너를 추가하�
 
 두 경우 모두 React 이벤트를 나타내는 e인자가 ID 뒤에 두 번째 인자로 전달됩니다. 화살표 함수를 사용하면 명시적으로 인자를 전달해야 하지만 bind를 사용할 경우 추가 인자가 자동으로 전달됩니다.
 
+### Ref and Dom | [React (KR)](https://ko.reactjs.org/docs/refs-and-the-dom.html)
+Ref는 render 메서드에서 생성된 DOM 노드나 React 엘리먼트에 접근하는 방법을 제공합니다.
+
+일반적인 React의 데이터 플로우에서 props는 부모 컴포넌트가 자식과 상호작용할 수 있는 유일한 수단입니다. 자식을 수정하려면 새로운 props를 전달하여 자식을 다시 렌더링해야 합니다. 그러나, 일반적인 데이터 플로우에서 벗어나 직접적으로 자식을 수정해야 하는 경우도 가끔씩 있습니다. 수정할 자식은 React 컴포넌트의 인스턴스일 수도 있고, DOM 엘리먼트일 수도 있습니다. React는 두 경우 모두를 위한 해결책을 제공합니다. 
+
+- 포커스, 텍스트 선택영역, 혹은 미디어의 재생을 관리할 때.
+- 애니메이션을 직접적으로 실행시킬 때.
+- 서드 파티 DOM 라이브러리를 React와 같이 사용할 때.
+
+선언적으로 해결될 수 있는 문제에서는 ref 사용을 지양하세요. 예를 들어, Dialog 컴포넌트에서 open()과 close() 메서드를 두는 대신, isOpen이라는 prop을 넘겨주세요.
+
+ref는 애플리케이션에 "어떤 일이 일어나게"할 때 사용될 수 있습니다. 그럴 때는 잠시 멈추고 어느 컴포넌트 계층에서 상태를 소유해야 하는지 신중하게 생각해보세요. 대부분의 경우, 상태를 소유해야 하는 적절한 장소가 더 높은 계층이라는 결론이 날 겁니다. 상태를 상위 계층으로 올리는 것에 대한 예스는 상태 끌어올리기 가이드에서 확인하실 수 있으십니다.
+
+#### Ref와 함수 컴포넌트
+- 함수 컴포넌트는 인스턴스가 없기 때문에 함수 컴포넌트에 ref 어트리뷰트를 사용할 수 없습니다.
+
+```React
+function MyFunctionComponent() {
+  return <input />;
+}
+
+class Parent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.textInput = React.createRef();
+  }
+  redner() {
+    // 이 코드는 동작하지 않습니다.
+    return (
+      <MyFunctionComponent ref={this.textInput} />
+    );
+  }
+}
+```
+
+함수 컴포넌트에 ref를 사용할 수 있도록 하려면, forwardRef(높은 확률로 useImpreativeHandler와 함께)를 사용하거나 클래스 컴포넌트로 변경할 수 있습니다.
+
+다만, DOM 엘리먼트나 클래스 컴포넌트의 인스턴스에 접근하기 위해 ref 어트리뷰트를 함수 컴포넌트에서 사용하는 것은 됩니다.
+
 ----------
 
 #### Reference
@@ -380,3 +419,4 @@ React를 사용할 때 DOM 엘리먼트가 생성된 후 리스너를 추가하�
 - Components and Props, https://reactjs.org/docs/components-and-props.html, 2021-08-20-Fri.
 - Rendering Elements, https://reactjs.org/docs/rendering-elements.html, 2021-08-20-Fri.
 - Handling Event KR, https://ko.reactjs.org/docs/handling-events.html, 2021-12-09-Thu.
+- Ref and Dom KR, https://ko.reactjs.org/docs/refs-and-the-dom.html, 2021-12-09-Thu.
