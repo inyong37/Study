@@ -454,6 +454,44 @@ This is also great counter to the lure of global variables. When writing complex
 
 ## Glossary
 
+### Falsy | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context.
+
+JavaScript uses type conversion to coerce any value to a Boolean in contexts that require it, such as conditionals and loops.
+
+The following table provides a complete list of JavaScript falsy values:
+
+|Value|Description|
+|:----|:----------|
+|false|The keyword false.|
+|0|The Number zero(so, also 0.0, etc., and 0x0).|
+|-0|The Number negative zero (so, also -0.0, etc., and -0x0).|
+|0n|The BigInt zero (so, also 0x0n). Note that there is no BigInt negative zero - the negation of 0n is 0n.|
+|" ", ' ', ` `|Empty string value.|
+|null|null-the absence of any value.|
+|undefined|undefined - the primitive value.|
+|NaN|NaN - not a number.|
+|document.all|Objects are falsy if and only if they have the IsHTMLDDA internal slot. That slot only exists in document.all and cannot be set using JavaScript.|
+
+```JavaScript
+// Examples of falsy values in JavaScript (which are coerced to false in Boolean contexts, and thus bypass the if block):
+if (false)
+if (null)
+if (undefined)
+if (0)
+if (-0)
+if (0n)
+if (NaN)
+if ("")
+```
+
+#### The logical AND operator, &&
+If the first object is falsy, it returns that object
+```JavaScript
+false && "dog" // false
+0 && "dog"     // 0
+```
+
 ### Object | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Object) | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 Object refers to a data structure containing data and instructions for working with the data. Objects sometimes refer to real-world things, for example a car or map object in a racing game. JavaScript, Java, C++, Python, and Ruby are examples of object-oriented programming languages.
 
@@ -476,6 +514,48 @@ Property (CSS): A CSS property is a characteristic (like color) whose associated
 
 Property (JavaScript): A JavaScript property is a characteristic of an object, often describing attributes associated with a data structure.
 
+### Truthy | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
+In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. (i.e., except for false, 0, -0, 0n, "", null, undefined, and NaN).
+
+JavaScript uses type coercion in Boolean contexts.
+
+```JavaScript
+// Examples of truthy values in JavaScript (which will be coerced to tru in boolean contexts, and thus execute the if block):
+if (true)
+if ({})
+if ([])
+if (42)
+if ("0")
+if ("false")
+if (new Data())
+if (-42)
+if (12n)
+if (3.14)
+if (-3.14)
+if (Infinity)
+if (-Infinity)
+```
+
+#### The logical AND operator, &&
+If the first object is truthy, the logical AND operator returns the second operand:
+```JavaScript
+true && "dog" // "dog"
+[] && "dog"   // "dog"
+```
+
+### Type Conversion | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion)
+Type conversion (or typecasting) means transfer of data from one data type to another. Implicit conversion happens when the compiler automatically assigns data types, but the source code can also explicitly require a conversion to take place. For example, given the instruction 5+2.0, the floating point 2.0 is implicitly typecasted into an integer, but given the instruction Number("0x11"), the string "0x11" is explicitly typecasted as the number 17.
+
+### Type Coercion | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion)
+Type coercion is the automatic or implicit conversion of values from one data type to another (such as strings to numbers). Type conversion is similar to type coercion because they both convert values from one data type to another with one key difference - type coercion is implicit whereas type conversion can be either implicit or explicit.
+
+```JavaScript
+const value1 = '5';
+const value9 = 9;
+let sum = value1 + value2; // 9 -> '9'
+console.log(sum);          // '59'
+// JavaScript had a choice between a string or a number and decided to use a string.
+```
 
 ### Value | [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Value)
 In the context of data or an object wrapper around that data, the value is the primitive value that the object wrapper contains. In the context of a variable or property, the value can be either a primitive or an object reference.
@@ -622,7 +702,6 @@ elements.map(({ length }) => length); // [8, 6, 7, 9]
 yield 키워드는 화살표 함수의 본문(그 안에 더 중첩된 함수 내에서 허용한 경우를 제외하고)에 사용될 수 없습니다. 그 결과, 화살표 함수는 생성기(generator)로서 사용될 수 없습니다.
 
 ### Rest Parameter | [MDN (KR)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters)
-
 나머지 매개변수 구문을 사용하면 함수가 정해지지 않은 수의 매개변수를 배열로 받을 수 있습니다.
 
 ```JavaScript
@@ -666,15 +745,68 @@ function f(a, b) {
 }
 ```
 
+### Default Parameter | [MDN (KR)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+기본값 함수 매개변수(default function parameter)를 사용하면 값이 없거나 undefined가 전달될 경우 이름붙은 매개변수를 기본값으로 초기화할 수 있습니다. 
+
+```JavaScript
+function fnName(param1 = defaultValue1, ..., paramN = defaultValueN) { ... }
+```
+
+JavaScript에서, 함수의 매개변수는 undefined가 기본입니다. 그러나, 일부 상황에서는 다른 기본 값을 설정하는 것이 유용할 수 있습니다. 이때가 바로 기본값 매개변수가 필요할 때 입니다.
+
+과거에 기본값 설정을 위한 일반적인 방법은 함수 내부(body)에서 매개변수 값을 검사해 undefined인 경우 값을 할당하는 것이었습니다.
+
+다음 예제에서, multiply 호출 시 b에 할당된 값이 없다면, b 값은 a * b를 평가할 때 undefined일 거고 multiply 호출은 NaN이 반환됩니다.
+
+```JavaScript
+function multiply(a, b) {
+  return a * b
+}
+
+multiply(5, 2) // 10
+multiply(5)    // NaN!
+```
+
+이를 방지하기 위해서, 아래 두 번째 줄과 같이 multiply 함수가 오직 한 개의 인수만 있다면 b를 1로 설정하는 방식을 사용하곤 했습니다.
+
+```JavaScript
+function multiply(a, b) {
+  b = (typeof b !== 'undefined') ? b : 1
+  return a * b
+}
+
+multiply(5, 2) // 10
+multiply(5)    // 5
+```
+
+ES2015의 기본값 매개변수로 함수 내부에서의 검사는 더 이상 필요치 않습니다. 이제, 간단히 함수 머리(head)에서 b의 기본값으로 1로 설정할 수 있습니다:
+
+```JavaScript
+function multiply(a, b = 1) {
+  return a * b
+}
+
+multiply(5, 2)         // 10
+multiply(5)            // 5
+multiply(5, undefined) // 5
+```
+
+#### undefined vs. 다른 거짓같은 값(falsy values) 전달하기
+아래 예제 중 두 번째 호출에서, 설사 두 번째 인수를 호출할 때 명시해서 undefined(null 혹은 falsy 값이 아니긴 하지만)로 설정하더라도, num 인수의 값은 여전히 기본값입니다.
+
 ----------
 
 #### Reference
 - JavaScript, https://developer.mozilla.org/en-US/docs/Glossary/JavaScript, 2021-06-23-Wed.
 - JavaScript basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics, 2021-06-22-Tue.
 - JavaScript Tutorial, https://www.w3schools.com/js/default.asp, 2021-06-23-Wed.
+- Falsy MDN, https://developer.mozilla.org/en-US/docs/Glossary/Falsy, 2021-12-09-Thu.
 - Object, https://developer.mozilla.org/en-US/docs/Glossary/Object, 2021-06-24-Thu.
 - Primitive, https://developer.mozilla.org/en-US/docs/Glossary/Primitive, 2021-06-24-Thu.
 - Property, https://developer.mozilla.org/en-US/docs/Glossary/property, 2021-06-24-Thu.
+- Truthy MDN, https://developer.mozilla.org/en-US/docs/Glossary/Truthy, 2021-12-09-Thu.
+- Type Conversion MDN, https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion, 2021-12-09-Thu.
+- Type Coercion MDN, https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion, 2021-12-09-Thu.
 - Value, https://developer.mozilla.org/en-US/docs/Glossary/Value, 2021-06-24-Thu.
 - Variable, https://developer.mozilla.org/en-US/docs/Glossary/Variable, 2021-06-24-Thu.
 - var, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var, 2021-06-24-Thu.
@@ -702,3 +834,4 @@ function f(a, b) {
 - Hoisting MDN KR, https://developer.mozilla.org/ko/docs/Glossary/Hoisting, 2021-12-09-Thu.
 - Arrow Function MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions, 2021-12-09-Thu.
 - Rest Parameter MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters, 2021-12-09-Thu.
+- Default Parameter MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters, 2021-12-09-Thu.
