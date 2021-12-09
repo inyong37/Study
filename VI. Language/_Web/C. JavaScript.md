@@ -625,6 +625,47 @@ yield 키워드는 화살표 함수의 본문(그 안에 더 중첩된 함수 �
 
 나머지 매개변수 구문을 사용하면 함수가 정해지지 않은 수의 매개변수를 배열로 받을 수 있습니다.
 
+```JavaScript
+function f(a, b, ...theArgs) {
+  // ...
+}
+```
+
+함수의 마지막 매개변수 앞에 "..."(세 개의 U+002E FULL STOP 문자)를 붙이면 (사용자가 제공한) 모든 후속 매개변수를 표준 JavaScript 배열에 넣도록 지정합니다. 마지막 매개변수만 나머지 매개변수로 설정할 수 있습니다.
+
+함수 정의에는 하나의 ...만 존재할 수 있습니다. 나머지 매개변수는 반드시 함수 정의의 마지막 매개변수여야 합니다.
+
+```JavaScript
+foo(...one, ...wrong, ...wrong) // X
+foo(...wrong, arg2, arg3)       // X
+foo(arg1, arg2, ...correct)     // O
+```
+
+#### 나머지 매개변수와 arguments 객체의 차이
+나머지 매개변수와 arguments 객체 사이에는 세 개의 주요 차이가 있습니다.
+
+- arguments 객체는 실제 배열이 아닙니다. 그러나 나머지 매개변수는 Array 인스턴스이므로 sort, map, forEach, pop 등의 메서드를 직접 적용할 수 있습니다.
+- arguments 객체는 callee 속성과 같은 추가 기능을 포함합니다.
+- ...restParam은 후속 매개변수만 배열에 포함하므로 ...restParam 이전에 직접 정의한 매개변수는 포함하지 않습니다. 그러나 arguments 객체는, ...restParam의 각 항목까지 더해 모든 매개변수를 포함합니다.
+
+#### 인수에서 배열로
+
+나머지 매개변수는 다수의 인수를 배열로 변환하는 과정의 보일러플레이트 코드를 줄이기 위해 도입됐습니다.
+
+```JavaScript
+// 나머지 매개변수 이전에 "arguments"를 일반 배열로 변환하던 방법
+function f(a, b) {
+  let normalArray = Array.prototype.slice.call(arguments)
+  // -- 또는 --
+  let normalArray = [].slice.call(arguments)
+  // -- 또는 --
+  let normalArray = Array.from(arguments)
+  
+  let first = normalArray.shift() // 동작, 첫 번째 매개변수 반환
+  let first = arguments.shift()   // 오류, arguments는 실제 배열이 아님
+}
+```
+
 ----------
 
 #### Reference
@@ -660,3 +701,4 @@ yield 키워드는 화살표 함수의 본문(그 안에 더 중첩된 함수 �
 - Object.entires() MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries, 2021-10-06-Wed.
 - Hoisting MDN KR, https://developer.mozilla.org/ko/docs/Glossary/Hoisting, 2021-12-09-Thu.
 - Arrow Function MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Arrow_functions, 2021-12-09-Thu.
+- Rest Parameter MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters, 2021-12-09-Thu.
