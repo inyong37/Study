@@ -621,6 +621,10 @@ elements.map(({ length }) => length); // [8, 6, 7, 9]
 
 yield 키워드는 화살표 함수의 본문(그 안에 더 중첩된 함수 내에서 허용한 경우를 제외하고)에 사용될 수 없습니다. 그 결과, 화살표 함수는 생성기(generator)로서 사용될 수 없습니다.
 
+### Rest Parameter | [MDN (KR)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+
+나머지 매개변수 구문을 사용하면 함수가 정해지지 않은 수의 매개변수를 배열로 받을 수 있습니다.
+
 ----------
 
 #### Reference
