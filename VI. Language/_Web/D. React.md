@@ -409,6 +409,34 @@ class Parent extends React.Component {
 
 ----------
 
+## Styling and CSS | [React (KR)](https://ko.reactjs.org/docs/faq-styling.html)
+`className` prop에 문자열을 넘겨 CSS 클래스를 컴포넌트에 추가합니다.
+
+```React
+render() {
+  return <span className="menu navigation-menu">Menu</span>
+}
+```
+
+컴포넌트의 props나 state에 CSS 클래스가 의존하는 것은 자주 사용되는 방식입니다.
+
+```React
+render() {
+  let className = 'menu';
+  if (this.props.isActive) {
+    className += ' menu-active';
+  }
+  return <span className={className}>Menu</span>
+}
+```
+
+### CSS-in-JS
+CSS-in-JS는 외부의 파일에 CSS를 정의하는 대신에 JavaScript와 결합하는 패턴을 의미합니다.
+
+React는 어떻게 스타일이 정의되는지에 대한 의견이 없습니다. 의구심이 생긴다면, 평소처럼 별도의 `*.css` 파일에 정의한 뒤 `className`을 통해 참조하는 것으로 시작해볼 수 있습니다.
+
+----------
+
 #### Reference
 - React, https://reactjs.org/, 2021-06-30-Wed.
 - MobX, https://mobx.js.org/README.html, 2021-06-30-Wed.
@@ -420,3 +448,4 @@ class Parent extends React.Component {
 - Rendering Elements, https://reactjs.org/docs/rendering-elements.html, 2021-08-20-Fri.
 - Handling Event KR, https://ko.reactjs.org/docs/handling-events.html, 2021-12-09-Thu.
 - Ref and Dom KR, https://ko.reactjs.org/docs/refs-and-the-dom.html, 2021-12-09-Thu.
+- Styling and CSS KR, https://ko.reactjs.org/docs/faq-styling.html, 2021-12-14-Tue.
