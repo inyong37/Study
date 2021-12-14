@@ -1,6 +1,7 @@
-# CSS
+# CSS: Cascading Style Sheets | [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
 
-# CSS basics | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+# CSS Basics | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
 CSS (Cascading Style Sheets) is the code that styles web content. CSS basics walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location in the (webpage) layout? How do I decorate my webpage with background images and colors?
 
 ## What is CSS?
@@ -183,5 +184,6 @@ Note: The instructions above assume that you're using an image smaller than the 
 ----------
 
 #### Reference
+- CSS, https://developer.mozilla.org/en-US/docs/Web/CSS, 2021-12-14-Tue.
 - CSS basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics, 2021-06-22-Tue.
 - CSS selectors, https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors, 2021-06-23-Wed.
