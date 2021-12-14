@@ -183,7 +183,106 @@ Note: The instructions above assume that you're using an image smaller than the 
 
 ----------
 
+## CSS Data Type | [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types)
+CSS data types define typical values (including keywords and units) accepted by CSS properties and functions. They are a special kind of component value type.
+
+The most commonly-used types are defined in the CSS Values and Units specification. This specification also defines functional notations, which allow for more complex types or processing. Other types are defined in the specifications to which they apply.
+
+### Syntax
+In formal CSS syntax, data types are denoted by a keyword placed between the inequality signs "`<`" and "`>`".
+
+### Numeric data types
+- `<integer>`: One or more decimal units 0 through 9.
+- `<number>`: Real numbers which may also have a fractional component, for example 1 or 1.34.
+- `<dimension>`: A number with a unit attached to it, for example 23px or 15em.
+- `<percentage>`: A number with a percentage sign attached to it, for example 10%.
+- `<ratio>`: A ratio, written with the syntax `<number> / <number>`.
+- `<flex>`: A flexible length introduced for CSS Grid Layout, written as a `<dimension>` with the `fr` unitl attached and used for grid track sizing.
+
+### Quantities
+- `<length>`: Lengths are a `<dimension>` and refer to distances.
+- `<angle>`: Angles are used in properties such as `linear-gradient()` and are a `<dimension>` with one of `deg`, `grad`, `rad`, or `turn` units attached.
+- `<time>`: Duration units are a `<dimension>` with an `s` or `ms` unit.
+- `<frequency>`: Frequencies are a `<dimension>` with a `Hz` or `kHz` unit attached.
+- `<resolution>`: Is a `<dimension>` with a unit identifier of `dpi`, `dpcm`, `dppx`, or `x`.
+
+### Combinations of types
+- `<length-percentage>`: A type that can accept a length or a percentage as a value.
+- `<frequency-percentage>`: A type that can accept a frequency or a percentage as a value.
+- `<angle-percentage>`: A type that can accept an angle or a percentage as a value.
+- `<time-percentage>`: A type that can accept a time or a percentage as a value.
+
+### Color
+- `<color>`: Specified as a keyword or a numerical color value.
+- `<alpha-value>`: Specifies the transparency of a color. May be a `<number>`, in which case 0 is fully transparent and 1 is fully opaque, or a `<percentage>`, in which case 0% is fully transparent and 100% fully opaque.
+
+### Images
+- `<image>`: A url reference to an image or a color gradient.
+- `<color-stop-list>`: A list of two or more color stops with optional transition information using a color hint
+- `<linear-color-stop>`: A `<color>` and a `<length-percentage>` to indicate the color stop for this part
+- `<linear-color-hint>`: A `<length-percentage>` to indicate how the color interpolates.
+- `<ending-shape>`: Used for radial gradients; can have a keyword value of `circle` or `ellipse`.
+- `<size>`: Determines the size of the radial gradient's ending shape. This accepts a value of a keyword or a `<length>` but not a percentage.
+
+### 2D positioning
+- `<position>`: Defines the position of an object area. Accepts a keyword value such as `top` or `left`, or a `<length-percentage>`.
+
+----------
+
+## CSS Value and Unit | [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units)
+Every CSS declaration includes a property / value pair. Depending on the property, the value can include a single integer or keyword, to a series of keywords and values with or without units. There are a common set of data types -- values and units -- that CSS properties accept.
+
+### Textual data types
+- `<custom-ident>`
+- Pre-defined keywords as an `<ident>`
+- `<string>`
+- `url()`
+
+Text data types are either `<string>`, a quoated series of characters, or an `<ident>`, a "CSS Identifier" which is an unquoted string. A `<string>` must be quited with either single or double quotes. CSS Identifiers, listed in the specifications as `<ident>` or `<custom-ident>`, must be unquoted.
+
+#### Pre-defined keyword values
+
+#### CSS-wide values
+
+#### URLs
+
+### Numeric data types
+
+#### Integers
+
+#### Numbers
+
+#### Dimensions
+
+#### Distance units
+
+#### Angle units
+
+#### Time units
+
+#### Frequency units
+
+#### Resolution unit
+
+#### Percentages
+
+#### Mixing percentages and dimensions
+
+#### Special data types (defined in other specs)
+
+#### Color
+
+#### Image
+
+#### Position
+
+#### Functional notation
+
+----------
+
 #### Reference
 - CSS, https://developer.mozilla.org/en-US/docs/Web/CSS, 2021-12-14-Tue.
 - CSS basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics, 2021-06-22-Tue.
 - CSS selectors, https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors, 2021-06-23-Wed.
+- CSS data types, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types, 2021-12-14-Tue.
+- CSS values and units, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units, 2021-12-14-Tue.
