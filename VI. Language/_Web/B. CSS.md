@@ -240,25 +240,17 @@ Every CSS declaration includes a property / value pair. Depending on the propert
 
 Text data types are either `<string>`, a quoated series of characters, or an `<ident>`, a "CSS Identifier" which is an unquoted string. A `<string>` must be quited with either single or double quotes. CSS Identifiers, listed in the specifications as `<ident>` or `<custom-ident>`, must be unquoted.
 
-#### Pre-defined keyword values
-
-#### CSS-wide values
-
-#### URLs
+- Pre-defined keyword values
+- CSS-wide values
+- URLs
 
 ### Numeric data types
-
-#### Integers
-
-#### Numbers
-
-#### Dimensions
-
-#### Distance units
-
-#### Angle units
-
-#### Time units
+- Integers
+- Numbers
+- Dimensions
+- Distance units
+- Angle units
+- Time units
 
 #### Frequency units
 
@@ -277,6 +269,26 @@ Text data types are either `<string>`, a quoated series of characters, or an `<i
 #### Position
 
 #### Functional notation
+----------
+
+## Class Selector | [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+The CSS class selector matches elements based on the contents of their class attribute.
+
+```CSS
+/* All elements with class="spacious" */
+.spacious { margin: 2em; }
+/* All <li> elements with class="spacious" */
+li.spacious { margin: 2em; }
+/* All <li> elements with a class list that includes both "spacious" and "elegant" */
+/* For example, class="elegant retro spacious" */
+li.spacious.elegant { margine: 2em; }
+```
+
+### Syntax
+```CSS
+.class_name { style properties }
+[class~=class_name] { style properties }
+```
 
 ----------
 
@@ -284,5 +296,6 @@ Text data types are either `<string>`, a quoated series of characters, or an `<i
 - CSS, https://developer.mozilla.org/en-US/docs/Web/CSS, 2021-12-14-Tue.
 - CSS basics, https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics, 2021-06-22-Tue.
 - CSS selectors, https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors, 2021-06-23-Wed.
+- CSS selectors, https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors, 2021-12-14-Tue.
 - CSS data types, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types, 2021-12-14-Tue.
 - CSS values and units, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units, 2021-12-14-Tue.
