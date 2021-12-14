@@ -150,6 +150,55 @@ Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that per
 ### Finder | [Wiki](https://en.wikipedia.org/wiki/Finder_(software))
 The Finder is the default file manager and graphical user interface shell used on all Machintosh operating systems. Described in its "About" window as "The Macintosh Desktop Experience", it is responsible for the launching of other applications, and for the overall user management of files, disks, and network volumes. It was introduced with the first Macintosh computer, and also exists as part of GS/OS on the Apple IIGS. It was rewritten completely with the release of Mac OS X in 2001. In a tradition dating back to the Classic Mac OS of the 1980s and 1990s, the FInder icon is the smiling screen of a computer, known as the Happy Mac logo.
 
+### Mac Keyboard Shortcuts | [Apple](https://support.apple.com/en-us/HT201236)
+By pressing cretain key combinations, you can do things that normally need a mouse, trackpad, or other input device.
+
+To use a keyboard shortcut, press and hold one or more modifier keys and then press the last key of the shortcut. For example, to use Command-C (copy), press and hold the Command key, then the C key, then release both keys. Mac menus and keyboards often use symbols for cretain keys, including modifier keys:
+
+- Command (or Cmd) ⌘
+- Option (or Alt) ⌥
+- Caps Lock ⇪
+- Shift ⇧
+- Control (or Ctrl) ⌃
+- Fn
+
+On keyboards made for Windows PCs, use the Alt key instead of Option, and the Windows logo key instead of Command.
+
+Some keys on some Apple keyboards have special symbols and functions, such as for display brightness, keyboard brightness, Mission Control, and more. If these functions aren't available on your keyboard, you might be able to reproduce some of them by creating your own keyboard shortcuts. To use these keys as F1, F2, F3, or other standard function keys, combine them with the Fn key.
+
+- Cut, copy, paste, and other common shortcuts
+  - Cut the selected item and copy it to the Clipboard: Command + x
+  - Copy the selected item to the Clipboard: Command + c
+  - Paste the contents of the Clipboard into the current document or app. This also works for files in the Finder: Command + p
+  - Undo the previous command: Command + z
+  - Redo, reversing the undo command: Shift + Command + z
+  - Select All items: Command + a
+  - Find items in a document or open a Find window: Command + f
+  - Find again; find the next occurrence of the item previously found: Command + g
+  - Find the previous occurrence: Shift + Command + g
+  - Hide the windows of the front app: Command + h
+  - To view the front app but hide all other apps: Option + Command + H
+  - Minimize the front window to the Dock: Command + m
+  - To minimize all windows of the front app: Option + Command + m
+  - Open the selected item, or open a dialog to select a file to open: Command + o
+  - Print the current document: Command + p
+  - Save the current document: Command + s
+  - Open a new tab: Command + t
+  - Close the front window: Command + w
+  - To close all windows of the app: Option + Command + w
+  - Force quit an app: Option + Command + ESC
+  - Show or hid the Spotlight search field: Command + Space bar
+  - To perform a Spotlight search from a Finder window: Command + Option + Space bar
+  - Show the Character Viewer: Control + Command + Space bar
+  - Use the app in full screen, if supported by the app: Control + Command + f
+  - Use Quick Look to preview the selected item: Space bar
+  - Switch to the next most recently used app among your open apps: Command + Tab
+  - ~~In macOS Mojave or later, take a screenshot or make a screen recording: Shift + Command + 5~~
+  - ~~Screenshots: Shift + Command + 3 or Shift + Command + 4~~
+  - *Screenshots: F13*
+  - Create a new folder in the Finder: Shift + Command + n
+  - Open preferences for the front app: Command + Comma
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -206,3 +255,4 @@ The Finder is the default file manager and graphical user interface shell used o
 - POSIX Wiki, https://en.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
 - POSIX Wiki KR, https://ko.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
 - Finder Wiki, https://en.wikipedia.org/wiki/Finder_(software), 2021-11-18-Thu.
+- Mac Keyboard Shortcuts, https://support.apple.com/en-us/HT201236, 2021-12-15-Wed.
