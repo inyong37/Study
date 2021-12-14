@@ -199,6 +199,26 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
   - Create a new folder in the Finder: Shift + Command + n
   - Open preferences for the front app: Command + Comma
 
+- My ShortCut (시스템 환경설정>키보드>단축키)
+  - Launchpad 및 Dock
+    - Dock 가리기 켜기/끄기: Option D ~~(Option Command D)~~
+    - Launchpad 보기: Option L ~~(없음)~~
+  - Mission Control
+    - Mission Control: Option M
+  - 키보드
+    - Dock으로 초점 이동: Option Tab ~~(Control F3)~~
+  - 입력 소스
+    - 이전 입력 소스 선택: F18 ~~(Control Spacebar)~~
+  - 스크린샷
+    - 화면 그림을 파일로 저장: F13 ~~(Shift Command 3)~~
+    - 화면 그림을 클립보드에 저장: Command 7 ~~(Control Shift Command 3)~~
+    - 선택한 영역의 그림을 파일로 저장 ~~(Shift Command 4)~~
+    - 선택한 영역의 그림을 클립보드에 복사: Command 8 ~~(Control Shift Command 4)~~
+    - 스크린샷 및 기록 옵션 ~~(Shift Command 5)~~
+  - Spotlight
+    - Spotlight 검색 보기: Control Spacebar ~~(Command Spacebar)~~
+    - Finder 검색 윈도우 보기 ~~(Option Command Spacebar)~~
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -256,3 +276,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - POSIX Wiki KR, https://ko.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
 - Finder Wiki, https://en.wikipedia.org/wiki/Finder_(software), 2021-11-18-Thu.
 - Mac Keyboard Shortcuts, https://support.apple.com/en-us/HT201236, 2021-12-15-Wed.
+
