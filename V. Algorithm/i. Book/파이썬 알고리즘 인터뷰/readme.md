@@ -42,7 +42,7 @@ Spring, 2021
 - Question 11. 자신을 제외한 배열의 곱
 - Question 12. 주식을 사고팔기 가장 좋은 시점
 
-#### Chapter 8. 연결 리스트
+#### Chapter 8. [연결 리스트](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C08_linked_list.md)
 
 #### Chapter 9. 스택, 큐
 
@@ -69,7 +69,7 @@ Spring, 2021
 
 ### :fire: **Part 5. 알고리즘**
 
-#### Chapter 17. 정렬
+#### Chapter 17. [정렬](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EC%9D%B8%ED%84%B0%EB%B7%B0/C17_sort.md)
 
 #### Chapter 18. 이진 검색
 - Question 65. [이진 검색](https://github.com/inyong37/Study/blob/master/V.%20Algorithm/i.%20Book/파이썬%20알고리즘%20인터뷰/Q65_binary_search.py)
