@@ -6,7 +6,8 @@ Python with OpenCV, Keras
 
 ## 1. Human Detection :runner:
 - ML
-  - HOG(Histogram of Oriented Gradient)
+  - Haar Cascade Clasification
+  - HOG (Histogram of Oriented Gradient) Discriptor
 - DL
   - R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN
   - YOLO, YOLO9000, YOLOv3
