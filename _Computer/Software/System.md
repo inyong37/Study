@@ -62,6 +62,9 @@ MS-DOS(MicroSoft Disk Operating System)은 DOS의 일종으로 마이크로소�
 ### *PC-DOS* | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PC-DOS)
 PC-DOS는 IBM 개인용 컴퓨터를 위한 클로즈드 소스 형태의 도스 운영 체제이며 1980년대에서 1990년대까지 판매되었다. 1981년에 IBM과 마이크로소프트 사이에서, 마이크로소프트는 기본 제품을 생산하고 두 회사는 합성 코드를 공유하여 더 강력하고 튼튼한 시스템으로 들어가는 서로 다른 부분을 개발하려고 했다. 또 MS-DOS와 PC-DOS는 별도로 시장화될 예정이었다. 다시 말해 PC-DOS는 IBM PC용으로만 판매하고 마이크로소프트는 오픈 마켓에 판매하려고 했다. 그러나 IBM은 자사의 개인용 컴퓨터를 위한 운영 체제의 소스 코드 소유권을 획득하려고 하지는 않았다. ThinkPad 제품은 현재 복구 파티션에 PC-DOS의 최신 버전의 복사본을 소유하고 있다.
 
+### Font
+- IBM 3270
+
 ## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
@@ -70,6 +73,9 @@ Microsoft introduced an operating environment named Windows on November 20, 1985
 As of February 2020, the most recent version of Windows for PCs, tablets and embedded devices is Windows 10, version 2004. The most recent version for server computers is Windows Server, version 2004. A specialized version of Windows also runs on the Xbox One video game console.
 
 ### Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
+
+### Font
+- Consolas
 
 ### MSDN (Microsoft Developer Network) | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
 Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
@@ -218,6 +224,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
   - Spotlight
     - Spotlight 검색 보기: Control Spacebar ~~(Command Spacebar)~~
     - Finder 검색 윈도우 보기 ~~(Option Command Spacebar)~~
+
+### Font
+- Monaco
+- Menlo
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
