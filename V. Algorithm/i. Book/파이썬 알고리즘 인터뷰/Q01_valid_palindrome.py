@@ -1,6 +1,8 @@
-# list
+import collections
+import re
 
-class Solution:
+
+class Solution1:
     def isPalindrome(self, s: str) -> bool:
         strs = []
         for char in s:
@@ -11,7 +13,8 @@ class Solution:
                 return False
         return True
 
-class Solution:
+
+class Solution2:
     def isPalindrome(self, s: str) -> bool:
         strs: Deque = collections.deque()
         for char in s:
@@ -22,7 +25,8 @@ class Solution:
                 return False
         return True
 
-class Solution:
+
+class Solution3:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
         s = re.sub('[^a-z0-9]', '', s)
