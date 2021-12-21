@@ -1,4 +1,7 @@
-class Solution:
+from typing import List
+
+
+class Solution1:
     def reverseString(self, s: List[str]) -> None:
         left, right = 0, len(s) - 1
         while left < right:
@@ -6,10 +9,12 @@ class Solution:
             left += 1
             right -= 1
 
-class Solution:
-    def reverseString(self, s: List[str]) -> None:
-        s[:] = s[::-1]
 
-class Solution:
+class Solution2:
     def reverseString(self, s: List[str]) -> None:
         s.reverse()
+
+
+class Solution3:
+    def reverseString(self, s: List[str]) -> None:
+        s[:] = s[::-1]
