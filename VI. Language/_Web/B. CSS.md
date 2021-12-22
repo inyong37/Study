@@ -290,6 +290,9 @@ li.spacious.elegant { margine: 2em; }
 [class~=class_name] { style properties }
 ```
 
+### Only opacity to Background without Text
+use `rgba()` alpha channel
+
 ----------
 
 #### Reference
