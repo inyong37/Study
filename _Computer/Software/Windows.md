@@ -553,6 +553,39 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - --help: `> move /?`
 - Move file foo.c under folder bar: `> move foo.c bar/`
 
+### Commands [Thomas-Krenn](https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows)
+|Category|Command Name|Description|
+|:------:|:----------:|:----------|
+|Basic|call|Calls a batch file from another file|
+||cd|change directory|
+||cls|clear screen|
+||start command prompt|
+||color|change console color|
+||date|show/set date|
+||dir|list directory content|
+||echo|text output|
+||exit|exits the command prompt or a batch file|
+||find|find files|
+||hostname|display host name|
+||pause|pauses the execution of a batch file and shows a message|
+||runas|start a program as another user|
+||shutdown|shutdown the computer|
+||sort|sort the screen output|
+||start|start on own window to execute a program or command|
+||taskkill|terminate a process or a application|
+||tasklist|display applications and related tasks|
+||time|display/edit the system time|
+||timeout|wait any time|
+||title|set title for prompt|
+||ver|display operating system version|
+||w32tm|setting time synchronisation/time server/time zone|
+|Network|||
+|File|||
+|Media|||
+|Miscellanceous|||
+
+----------
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
@@ -676,3 +709,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - What is the Windows Subsystems for Linux? MS Docs, https://docs.microsoft.com/en-us/windows/wsl/about, 2021-09-06-Mon.
 - File Explorer Wiki, https://en.wikipedia.org/wiki/File_Explorer, 2021-11-18-Thu.
 - Internet Explorer Wiki, https://en.wikipedia.org/wiki/Internet_Explorer, 2021-11-18-Thu.
+- cmd commands, https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows, 2021-12-25-Sat.
