@@ -559,7 +559,7 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 |Basic|call|Calls a batch file from another file|
 ||cd|change directory|
 ||cls|clear screen|
-||start command prompt|
+||cmd|start command prompt|
 ||color|change console color|
 ||date|show/set date|
 ||dir|list directory content|
