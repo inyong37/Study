@@ -45,6 +45,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |Title|MATERIAL|URL|URL|DATE|
 |:----|:------:|:-:|:-:|:--:|
 |**Deep Learning**|[PDF](-)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
+|**Deep Learning for Coders with Fastai and PyTorch**|[GITHUB](https://github.com/fastai/fastbook)|[O'REILLY](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)|[AMAZON](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)|-|
 |**Deep Learning for Computer Vision**|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-computer-vision?utm_source=github&utm_medium=repository&utm_campaign=9781788295628)|[AMAZON](https://www.amazon.com/Deep-Learning-Computer-Vision-techniques/dp/1788295625/ref=sr_1_2?keywords=deep+learning+for+computer+vision&qid=1564993587&s=gateway&sr=8-2)|-|
 |**Deep Learning with Python**|[PDF](-)|-|[AMAZON](https://www.amazon.com/gp/product/1617294438/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
 |**Deep Learning with PyTorch**|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-with-PyTorch)|[PACKT](https://www.packtpub.com/big-data-and-business-intelligence/deep-learning-pytorch?utm_source=github&utm_medium=repository&utm_campaign=9781788624336)|[AMAZON](https://www.amazon.com/gp/product/1788624335/ref=ox_sc_act_title_2?smid=ATVPDKIKX0DER&psc=1)|-|
@@ -66,6 +67,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |Title|Category|CODE|URL|ETC|DATE|
 |:----|:------:|:--:|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
+|fastai와 파이토치가 만나 꽃피운 딥러닝|fastai & PyTorch|[GITHUB](https://github.com/fastai/fastbook)|[YES24](http://www.yes24.com/Product/Goods/103025241)|-|-|
 |PyTorch로 시작하는 딥러닝|DL & PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
 |강화학습 첫걸음|RL & TF|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |딥러닝의 최신 트렌드|DL|-|[YES24](http://www.yes24.com/Product/Goods/91471013)|-|March, 2021|
