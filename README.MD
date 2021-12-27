@@ -70,8 +70,10 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |강화학습 첫걸음|RL & TF|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |딥러닝의 최신 트렌드|DL|-|[YES24](http://www.yes24.com/Product/Goods/91471013)|-|March, 2021|
 |러닝 텐서플로|DL & TF|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
+|머신러닝 디자인 패턴|ML|[GITHUB](https://github.com/GoogleCloudPlatform/ml-design-patterns)|[YES24](http://www.yes24.com/Product/Goods/104426143)|-|-|
 |밑바닥부터 시작하는 딥러닝|DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
 |밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
+|밑바닥부터 시작하는 딥러닝 3|Framework & Python|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-3)|[YES24](http://www.yes24.com/Product/Goods/95343845)|-|-|
 |실전 예제로 배우는 GAN|GAN & Keras|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|August, 2019|
 |실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF2|[GITHUB](https://github.com/wikibook/dl-vision)|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|February, 2021|
 |컴퓨터 비전과 딥러닝|CV & TF & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
