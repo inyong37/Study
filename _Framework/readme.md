@@ -23,14 +23,20 @@ TensorFlow was originally developed by researchers and engineers working on the 
 
 TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backward compatible API for other languages. [Ref]
 
+### [TensorFlow Hub](https://tfhub.dev/)
+The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-deploy machine learning models in one place.
+
+- Text Problem Domains: Embedding | Language model | Preprocessing | ...
+- Image Problem Domains: Classification | Feature vector | Object detection | ...
+- Video Problem Domains: Classification | Generation | Audio text | ...
+- Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ... 
+
 ## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras)
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
 
 Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).[Ref]
-
-
 
 Install `pip install keras`
 
@@ -59,6 +65,7 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
+- TensorFlow Hub, https://tfhub.dev/, 2021-12-28-Tue.
 - Keras, https://keras.io/, 2020-07-16-Thu.
 - Keras GitHub, https://github.com/keras-team/keras, 2020-07-16-Thu.
 - OpenCV, https://opencv.org/, 2020-07-16-Thu.
