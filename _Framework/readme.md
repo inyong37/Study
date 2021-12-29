@@ -38,9 +38,8 @@ Multi-backend Keras has been discontinued. At this time, we recommend that Keras
 
 Keras 2.2.5 was the last release of Keras implementing the 2.2.* API. It was the last release to only support TensorFlow 1 (as well as Theano and CNTK).[Ref]
 
-Install `pip install keras`
-
-Setup(TensorFlow >=2.0) `from tensorflow import keras`
+Install-TensorFlow < 2.0: `pip install keras`.
+Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow import keras`.
 
 ## [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/)
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
