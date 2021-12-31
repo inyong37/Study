@@ -68,9 +68,6 @@ The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021.
 ### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework)) | JavaScript | Web Application Software Framework
 Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
 
-### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework) | Java
-The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
-
 ### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library)) | JavaScript
 A JavaScript library for building user interfaces.
 
@@ -83,7 +80,15 @@ Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source m
 
 ----------
 
-### Back-end
+### Back End Framework
+
+### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software)) | JavaScript, and TypeScript Runtime Environment | Built in Rust
+Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
+
+### Express.js | [Wiki](https://en.wikipedia.org/wiki/Express.js) | JavaScript | Web Server Framework for Node.js
+Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
+
+The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
 
 ### Node.js | [Homepage](https://nodejs.org/en/) | [Wiki](https://en.wikipedia.org/wiki/Node.js) | JavaScript Runtime Environment | Platform
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -96,13 +101,8 @@ The Node.js distributed development project was previously governed by the Node.
 
 Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Microsoft, Netflix, PayPal, Rakuten, SAP, Voxer, Walmark, Yahoo!, and Amazon Web Services.
 
-### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software)) | JavaScript, and TypeScript Runtime Environment | Built in Rust
-Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
-
-### Express.js | [Wiki](https://en.wikipedia.org/wiki/Express.js) | JavaScript | Web Server Framework for Node.js
-Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
-
-The original author, TJ Holowaychuk, described it as a Sinatra-inspired server, meaning that it is relatively minimal with many features available as plugins. Express is the back-end component of popular development stacks like the MEAN, MERN or MEVN stack, together with the MongoDB database software and a JavaScript front-end framework or library.
+### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework) | Java
+The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
 
 ----------
 
