@@ -51,7 +51,7 @@ DHTML is differentiated from Ajax by the fact that a DHTML page is still request
 
 A web framework (WF) or web application framework (WAF) is a software framework that is designed to support the development of web applications including web services, web resources, and web APIs. Web frameworks provide a standard way to build and deploy web applications on the World Wide Web. Web frameworks aim to automate the overhead associated with common activities performed in web development. For example, many web frameworks provide libraries for database access, templating frameworks, and session management, and they often promote code reuse. Although they often target development of dynamice web sites, they are also applicable to static websites.
 
-## Front End Framework
+## Front-end/Client-side Framework
 
 ### Angular | [Homepage](https://angular.io/) | [Wiki](https://en.wikipedia.org/wiki/Angular_(web_framework)) | TypeScript
 Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that build AngularJS.
@@ -65,9 +65,6 @@ AngularJS is used as the frontend of the MEAN stack, consisting of MongoDB datab
 
 The AngularJS framework is on Long Term Support ("LTS") until December 31, 2021. After that data Google will no longer update AngularJS to fix security, browser compatibility, or jQuery issues. The Angular team recommends upgrading to Angular (v2+) as the best path forward, but they also provided some other options.
 
-### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework)) | JavaScript | Web Application Software Framework
-Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
-
 ### React | [Homepage](https://reactjs.org/) | [Wiki](https://en.wikipedia.org/wiki/React_(JavaScript_library)) | JavaScript
 A JavaScript library for building user interfaces.
 
@@ -80,7 +77,7 @@ Vue.js (commonly referred to as Vue; pronounced like "view") is an open-source m
 
 ----------
 
-### Back End Framework
+### Back-end/Server-side Framework
 
 ### Deno | [Homepage](https://deno.land/) | [Wiki](https://en.wikipedia.org/wiki/Deno_(software)) | JavaScript, and TypeScript Runtime Environment | Built in Rust
 Deno is a runtime for JavaScript and TypeScript that based on the V8 JavaScript engine and the Rust programming language. It was created by Ryan Dahl, original creator of Node.js, and is focuesd on productivity. It was announced by Dahl in 2018 during his talk "10 Things I Regret About Node.js". Deno explicitly takes on the role of both runtime and package manager within a single executable, rather than requiring a separate package-management program.
@@ -103,6 +100,15 @@ Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Mic
 
 ### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework) | Java
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
+
+----------
+
+### Native Framework
+
+### Electron | [Homepage](https://www.electronjs.org/) | [Wiki](https://en.wikipedia.org/wiki/Electron_(software_framework)) | JavaScript | Web Application Software Framework
+Electron (formerly known as Atom Shell) is an open-source software framework developed and maintained by GitHub. It allows for the development of desktop GUI applications using web technologies: it combines the Chromium rendering engine and the Node.js runtime. Electron is the main GUI framework behind several open-source projects including Atom, GitHub Desktop, Light Table, Visual Studio Code, Evernote, and WordPress Desktop.
+
+### [React Native](https://reactnative.dev/)
 
 ----------
 
@@ -208,6 +214,7 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Vue.js, https://vuejs.org/index.html, 2021-06-24-Thu.
 - React.js Blog KR, https://seokjun.kim/time-to-stop-react/ 2021-04-29-Thu.
 - React, https://reactjs.org/, 2021-04-29-Thu.
+- React Native, https://reactnative.dev/, 2021-12-31-Fri.
 - Spring, https://spring.io/ 2021-04-29-Thu.
 - Node.js, https://nodejs.org/en/, 2021-04-29-Thu.
 - Deno, https://deno.land/, 2021-04-29-Thu.- Deno Wiki, https://en.wikipedia.org/wiki/Deno_(software), 2021-06-22-Tue.
