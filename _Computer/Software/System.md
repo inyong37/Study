@@ -26,27 +26,33 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - PC-DOS (By IBM, at 1981)
 - Windows (By Microsoft)
 - Unix (by Bell Laboratory, at 1970's)
+  - AIX (by IBM)
   - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984)
   - SunOS (by Sun Microsystems)
   - Solaris (by Oracle)
   - NeXTSTEP (by NeXT)
-  - BSD (by Computer Systems Research Group in University of California, Berkeley, at 1977 ~ 1995)
+  - FreeBSD (by Computer Systems Research Group in University of California, Berkeley, at 1977 ~ 1995)
+- MINIX 3
 - Linux
-  - Ubuntu
-  - CentOS
   - Debian
-  - Fedora
-  - Mint
-  - Red Hat
+  - Ubuntu
+  - Ubuntu MATE
+  - Linux Mint
+  - Red Hat Enterprise Linux (by Red Hat of IBM)
+  - Fedora (by Red Hat of IBM)
+  - CentOS
 - macOS
   - Mac OS
   - OS X
   - macOS
+- z/OS (by IBM)
 
 ----------
 
 ## *CP/M* | [Homepage](https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CP/M)
 CP/M은 인텔 8080/85 마이크로프로세서를 기반으로 하는 처음 제작된 운영 체제이다. 디지털 리서치의 개리 킬달(Gary Kildall)이 만들었다. 게리 킬달은 커스텀 플로피 디스크 컨트롤러를 통해 접속되는 슈거트 어소시에이트(Shugart Associates) 8인치 플로피 디스크 드라이브가 장착된 인텔 인텔렉-8 개발 시스템에서 구동할 운영 체제로서 CP/M을 1974년에 처음 개발하였다. 최소 8비트의 CP/M 시스템은 다음 5개의 부품을 포함하고 있어야한다. 1. 아스키 문자열 집합을 사용하는 컴퓨터 터미널(매우 오래된 시스템은 텔레프린터를 사용하였다.), 2. 인텔 8080(나중에는 8085) 또는 자일로그 Z80 마이크로프로세서, 3. 최소 16킬로바이트인 램, 4. 디스켓 첫 섹터를 부트스트래핑할 수 있는 환경, 5. 최소 한 개의 플로피 디스크 드라이브. 8비트 버전에서 동작하는 동안 메모리에 로드된 CP/M 운영 체제에는 다음 3개의 구성요소가 있었다. 1. 기본 입출력 시스템, 곧 BIOS, 2. 기본 디스크 운영 체제, 곧 BDOS, 3. 콘솔 명령어 프로세서, 곧 CCP.
+
+----------
 
 ## *DOS: Disk Operating System* | [Wiki (KR) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [Wiki (KR) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
 DOS는 플로피 디스크, 하드 디스크 드라이브, 광 디스크와 같은 디스크 스토리지 장치를 사용할 수 있는 컴퓨터 운영 체제이다. 디스크 운영 체제는 스토리지 디스크의 파일 정리, 읽기, 쓰기를 위한 파일 시스템을 제공해야 한다. 이 정의는 현재 쓰이는 마이크로소프트 윈도우 버전 등 현 세대의 운영 체제에 적용되지는 않으며 더 오래된 세대의 운영 체제에 국한시키는 것이 더 적절하다. 디스크 운영 체제들은 메인프레임, 마이크로프로세서, 가정용 컴퓨터 용으로 이용이 가능했으며 부팅 과정의 일환으로 직접 디스크에서 로드되는 것이 보통이었다.
