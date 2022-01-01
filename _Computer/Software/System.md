@@ -43,6 +43,8 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - OS X
   - macOS
 
+----------
+
 ## *CP/M* | [Homepage](https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CP/M)
 CP/M은 인텔 8080/85 마이크로프로세서를 기반으로 하는 처음 제작된 운영 체제이다. 디지털 리서치의 개리 킬달(Gary Kildall)이 만들었다. 게리 킬달은 커스텀 플로피 디스크 컨트롤러를 통해 접속되는 슈거트 어소시에이트(Shugart Associates) 8인치 플로피 디스크 드라이브가 장착된 인텔 인텔렉-8 개발 시스템에서 구동할 운영 체제로서 CP/M을 1974년에 처음 개발하였다. 최소 8비트의 CP/M 시스템은 다음 5개의 부품을 포함하고 있어야한다. 1. 아스키 문자열 집합을 사용하는 컴퓨터 터미널(매우 오래된 시스템은 텔레프린터를 사용하였다.), 2. 인텔 8080(나중에는 8085) 또는 자일로그 Z80 마이크로프로세서, 3. 최소 16킬로바이트인 램, 4. 디스켓 첫 섹터를 부트스트래핑할 수 있는 환경, 5. 최소 한 개의 플로피 디스크 드라이브. 8비트 버전에서 동작하는 동안 메모리에 로드된 CP/M 운영 체제에는 다음 3개의 구성요소가 있었다. 1. 기본 입출력 시스템, 곧 BIOS, 2. 기본 디스크 운영 체제, 곧 BDOS, 3. 콘솔 명령어 프로세서, 곧 CCP.
 
@@ -65,6 +67,8 @@ PC-DOS는 IBM 개인용 컴퓨터를 위한 클로즈드 소스 형태의 도스
 ### Font
 - IBM 3270
 
+----------
+
 ## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
@@ -84,6 +88,8 @@ From January 2020, the website has been fully integrated with Microsoft Docs.
 
 ```Other parts of the "Windows" have been moved to the "Windows" page.```
 
+----------
+
 ## *Unix* | [Homepage](https://www.opengroup.org/membership/forums/platform/unix) | [Wiki](https://en.wikipedia.org/wiki/Unix)
 Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
 
@@ -97,16 +103,28 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 ```Other parts of the "Uinx" have been moved to the "Unix" page.```
 
-### *Solaris* | [Homepage](https://www.oracle.com/solaris/solaris11/) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%86%94%EB%9D%BC%EB%A6%AC%EC%8A%A4_(%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C))
+### *[AIX](https://www.ibm.com/it-infrastructure/power/os/aix)*
 
-### *HP-UX* | [Homepage](https://www.hpe.com/us/en/servers/hp-ux.html)
+### *[Solaris](https://www.oracle.com/solaris/solaris11/)*
+
+### *[HP-UX](https://www.hpe.com/us/en/servers/hp-ux.html)*
+
+### *[FreeBSD](https://www.freebsd.org/)*
+
+----------
 
 ### *POSIX, Portable Operating System Interface* | [Wiki](https://en.wikipedia.org/wiki/POSIX) | [Wiki (KR)](https://ko.wikipedia.org/wiki/POSIX)
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
 POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른 Unix OS의 공통 API를 정리하여 이식성이 높은 Unix application program을 개발하기 위한 목적으로 IEEE가 책정한 application interface 규격이다. POSIX의 마지막 글자 X는 Unix compatible OS에 보통 X가 붙는 것에서 유래한다. Unix 계열 외에 Microsoft Windows NT는 POSIX 1.0에 준하는 POSIX 서브 시스템을 탑재하고 있으며, POSIX application program을 서브 시스템에서 실행할 수 있다. 이는 주로 미국 정부기관의 컴퓨터 시스템 도입조건 (FIPS)에서 POSIX 준거할 것을 요구하기 때문이다. Windows 2000까지 POSIX 서브 시스템을 탑재하고 있었지만 Windows XP에서 폐지되었다. 이후 Windows 2003 R2부터 POSIX 2.0에 준하는 Subsystem for Unix-based Application (SUA)를 통해 POSIX를 지원하고 있다.
 
-## *Linux* | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [DOwnload](https://www.linux.org/pages/download/)
+----------
+
+## *[MINIX 3](https://www.minix3.org/)*
+
+----------
+
+## *[Linux](https://www.linux.org/)* | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
 Distributions include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project. Many Linux distributions use the word "Linux" in their name, but the Free Software Foundation uses the name GNU/Linux to emphasize the importance of GNU software, causing some controversy.
@@ -119,19 +137,23 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
-### *Ubuntu* | [Homepage](https://ubuntu.com/)
+### *[Debian](https://www.debian.org/)*
 
-### *CentOS* | [Homepage](https://wiki.centos.org/FrontPage)
+### *[Ubuntu](https://ubuntu.com/)*
 
-### *Debian* | [Homepage](https://www.debian.org/)
+### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
-### *Fedora* | [Homepage](https://getfedora.org/)
+### *[Linux Mint](https://www.linuxmint.com/)*
 
-### *Mint* | [Homepage](https://www.linuxmint.com/)
+### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
-### *Red Hat* | [Homepage](https://access.redhat.com/)
+### *[Fedora](https://getfedora.org/)*
+
+### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
 
 ```Other parts of the "Linux" have been moved to the "Unix" page.```
+
+----------
 
 ## *Macintosh* | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
 The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
@@ -228,6 +250,12 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 ### Font
 - Monaco
 - Menlo
+
+----------
+
+## *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
+
+----------
 
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
