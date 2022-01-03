@@ -174,6 +174,34 @@ tmpfs           6.4G   12K  6.4G   1% /var/colab
 shm             6.0G  4.0K  6.0G   1% /dev/shm
 tmpfs           6.4G     0  6.4G   0% /sys/firmware
 ```
+
+Update GPU (Graphics Processing Unit) from Tesla T4 to Tesla K80 (late 2021)
+
+```Python
+!nvidia-smi
+```
+```bash
+Mon Jan  3 16:39:34 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 495.44       Driver Version: 460.32.03    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla K80           Off  | 00000000:00:04.0 Off |                    0 |
+| N/A   56C    P8    31W / 149W |      0MiB / 11441MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+```
 ## IV. Others
 Keras [Reference](https://yamalab.tistory.com/80)
 
