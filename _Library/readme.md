@@ -62,6 +62,8 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 ## [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html)
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
 
+## [Weights & Biases](https://wandb.ai/site)
+
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
 - TensorFlow Hub, https://tfhub.dev/, 2021-12-28-Tue.
@@ -84,3 +86,4 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 - OpenVINO Docs, https://docs.openvinotoolkit.org/latest/index.html, 2020-12-10-Thu.
 - Inveresion of Control, https://martinfowler.com/bliki/InversionOfControl.html, 2021-08-10-Tue.
 - Framework vs. Library, https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/, 2021-08-10-Tue.
+- Weights & Biases, https://wandb.ai/site, 2022-01-05-Wed.
