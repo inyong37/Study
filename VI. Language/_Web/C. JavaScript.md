@@ -794,8 +794,14 @@ multiply(5, undefined) // 5
 #### undefined vs. 다른 거짓같은 값(falsy values) 전달하기
 아래 예제 중 두 번째 호출에서, 설사 두 번째 인수를 호출할 때 명시해서 undefined(null 혹은 falsy 값이 아니긴 하지만)로 설정하더라도, num 인수의 값은 여전히 기본값입니다.
 
-### for-in vs. for-of | [Blog KR](https://jsdev.kr/t/for-in-vs-for-of/2938)
+### for-in vs. for-of | [Blog (KR)](https://jsdev.kr/t/for-in-vs-for-of/2938)
 for-in은 object의 모든 열거 가능한 속성에 대해 반복이 가능하지만, for-of는 [Symbol.iterator] 속성을 가지는 collection만 사용할 수 있다.
+
+### Closure vs. Callback | [Stackoverflow](https://stackoverflow.com/questions/615907/how-is-a-closure-different-from-a-callback) | [Blog (KR)](https://poiemaweb.com/js-closure)
+Callback은 function pointer와 같이 사용되고 Closure는 function과 function 선언되었을 때 (declared) context (lexical environment)의 조합이다.
+
+### Closure | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 
 ----------
 
@@ -839,3 +845,6 @@ for-in은 object의 모든 열거 가능한 속성에 대해 반복이 가능하
 - Rest Parameter MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/rest_parameters, 2021-12-09-Thu.
 - Default Parameter MDN KR, https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/Default_parameters, 2021-12-09-Thu.
 - for-in vs. for-of Blog KR, https://jsdev.kr/t/for-in-vs-for-of/2938, 2022-01-07-Fri.
+- Closure vs. Callback Stackoverflow, https://stackoverflow.com/questions/615907/how-is-a-closure-different-from-a-callback, 2022-01-07-Fri.
+- Closure Blog KR, https://poiemaweb.com/js-closure, 2022-01-07-Fri.
+- Closuer MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures, 2022-01-07-Fri.
