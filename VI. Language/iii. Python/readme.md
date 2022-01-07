@@ -435,6 +435,9 @@ See typing and PEP 484, which describe this functionality.
 ### Callback | [Wiki](https://en.wikipedia.org/wiki/Callback_(computer_programming))
 A callback, also known as a "call after function", is any executable code that is passed as an arguemtn to other code; that other code is expected to call back (execute) the argument at a given time. This execution may be immediate as in a synchronous callback, or it might happen at a later point in time as in an asynchronous callback. Programming languages supports callbacks in different ways, often implementing them with subroutines, lambda expressions, blocks, or function pointers.
 
+### Closure | [Blog (KR)](https://shoark7.github.io/programming/python/closure-in-python)
+Function Nesting, First Class Object (can be Parameter/Argument, Return, Assign/Mutable), and refernce nonlocal (Global-scope and Outer-scope = not Inner-scope/namespace) variable.
+
 ----------
 
 #### Reference
@@ -479,3 +482,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PyCharm Python console Blog KR, https://www.martinii.fun/76, 2021-06-15-Tue.
 - __future__, https://docs.python.org/3.7/library/__future__.html#module-__future__, 2021-06-24-Thu.
 - __main__, https://docs.python.org/3.7/library/__main__.html#module-__main__, 2021-06-24-Thu.
+- Closure Blog KR, https://shoark7.github.io/programming/python/closure-in-python, 2022-01-07-Fri.
