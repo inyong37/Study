@@ -438,6 +438,17 @@ A callback, also known as a "call after function", is any executable code that i
 ### Closure | [Blog (KR)](https://shoark7.github.io/programming/python/closure-in-python)
 Function Nesting, First Class Object (can be Parameter/Argument, Return, Assign/Mutable), and refernce nonlocal (Global-scope and Outer-scope = not Inner-scope/namespace) variable.
 
+### Unpacking Operator * | [Blog](https://towardsdatascience.com/unpacking-operators-in-python-306ae44cd480)
+```Python
+l = [1, 2, 3, 4]
+print(l) # [1, 2, 3, 4]
+print(*l) # 1 2 3 4
+```
+
+```Python
+first, *middle, last = 'ma' # first = 'm', middle = [], last = 'a'
+```
+
 ----------
 
 #### Reference
@@ -483,3 +494,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - __future__, https://docs.python.org/3.7/library/__future__.html#module-__future__, 2021-06-24-Thu.
 - __main__, https://docs.python.org/3.7/library/__main__.html#module-__main__, 2021-06-24-Thu.
 - Closure Blog KR, https://shoark7.github.io/programming/python/closure-in-python, 2022-01-07-Fri.
+- Unpacking Operator * Blog, https://towardsdatascience.com/unpacking-operators-in-python-306ae44cd480, 2022-01-07-Fri.
