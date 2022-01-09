@@ -31,7 +31,7 @@ The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-de
 - Video Problem Domains: Classification | Generation | Audio text | ...
 - Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ... 
 
-## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras)
+## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged TensorFlow
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
@@ -51,7 +51,7 @@ Caffe is a deep learning framework made with expression, speed, and modularity i
 
 (with CMake and docker)
 
-## [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano)
+## [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) | Deprecated
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
 
 [MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)
