@@ -31,7 +31,7 @@ The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-de
 - Video Problem Domains: Classification | Generation | Audio text | ...
 - Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ... 
 
-## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged TensorFlow
+## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged to TensorFlow
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow.
 
 Multi-backend Keras has been discontinued. At this time, we recommend that Keras users who use multi-backend Keras with the TensorFlow backend switch to tf.keras in TensorFlow 2.0.
@@ -54,10 +54,12 @@ Caffe is a deep learning framework made with expression, speed, and modularity i
 ## [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) | Deprecated
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
 
-[MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)
+*[MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)*
 
-## [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK)
+## [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK) | Deprecated
 The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.[Ref]
+
+*[CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)*
 
 ## [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html)
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
