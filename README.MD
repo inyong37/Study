@@ -5,9 +5,9 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 
 ----------
 
-### [Framework](https://github.com/inyong37/Study/tree/master/_Framework)
+### Library
 #### a. TensorFlow | [Tutorial](https://www.tensorflow.org/tutorials) | January, 2017 | :pencil:
-#### b. Theano | [Homepage](http://deeplearning.net/software/theano/) | January, 2018 |
+#### b. Theano | [Homepage](http://deeplearning.net/software/theano/) | January, 2018 | Deprecated
 #### c. Keras | [Homepage](https://keras.io/) | January, 2018 | :pencil:
 #### d. Caffe | [Homepage](https://caffe.berkeleyvision.org/) | January, 2019 |
 #### e. PyTorch | [Tutorial](https://pytorch.org/tutorials/) | July, 2019 | :pencil:
@@ -94,7 +94,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
     
 ----------
 
-# III. Kaggle
+# III. [Kaggle](https://www.kaggle.com/)
 |Title|URL|DATASET|BYNAME|
 |:----|:-:|:-----:|-----:|
 |Titanic: Machine Learning from Disaster|[Competition](https://www.kaggle.com/c/titanic)|[Data](https://www.kaggle.com/c/titanic/data)|TITANIC|
@@ -103,7 +103,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 
 ----------
 
-# IV. COLAB
+# IV. [COLAB](https://colab.research.google.com/)
 - offical tutorial and explanation [welcome.ipynb](https://colab.research.google.com/notebooks/welcome.ipynb)
 - useful materials [URL](https://github.com/inyong37/Study/blob/master/iv.%20COLAB/readme.md)
 
