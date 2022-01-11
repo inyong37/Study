@@ -12,3 +12,18 @@ January, 2022
 
 ## Content
 
+Chapter 1. 머신러닝 디자인 패턴의 필요성
+
+Chapter 2. 데이터 표현 디자인 패턴
+
+Chapter 3. 문제 표현 디자인 패턴
+
+Chapter 4. 모델 학습 디자인 패턴
+
+Chapter 5. 탄력성 디자인 패턴
+
+Chapter 6. 재현성 디자인 패턴
+
+Chapter 7. 책임 있는 AI
+
+Chapter 8. 연결 
