@@ -189,8 +189,11 @@ Books about Programming Languages.
 #### a. How to delete | [Reference](https://brunch.co.kr/@topasvga/342)
 #### b. How to alarm for billing | [Reference](https://brunch.co.kr/@topasvga/96)
 
-### B. Docker | [Homepage](https://www.docker.com/)
+### B. [Docker](https://www.docker.com/) | [What is a Container?](https://www.docker.com/resources/what-container)
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
 #### a. Korean Tutorial | Blog (KR) [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
+
 #### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
 
 ### C. Version Check
@@ -232,3 +235,8 @@ CuDNN in ~/CUDA/include/cudnn.h
 | Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
 
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
+
+### G. Utility
+
+### H. [Kubernetes](https://kubernetes.io/)
+Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
