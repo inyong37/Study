@@ -143,7 +143,7 @@ file = io.open(file_name, 'r', encoding='utf-8')
 ```
 
 ### [json](https://docs.python.org/3/library/json.html) | [3.7.2](https://docs.python.org/3.7/library/json.html)
-dump, dumps, load, loads
+`from json import dump, dumps, load, loads`
 
 ### Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
 Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
