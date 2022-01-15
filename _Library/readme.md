@@ -66,6 +66,9 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 ## [Weights & Biases](https://wandb.ai/site)
 
+## [fastai](https://docs.fast.ai/)
+fastai simplifies training fast and accurate neural nets using modern best practices.
+
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
 - TensorFlow Hub, https://tfhub.dev/, 2021-12-28-Tue.
@@ -89,3 +92,4 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 - Inveresion of Control, https://martinfowler.com/bliki/InversionOfControl.html, 2021-08-10-Tue.
 - Framework vs. Library, https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/, 2021-08-10-Tue.
 - Weights & Biases, https://wandb.ai/site, 2022-01-05-Wed.
+- fastai, https://docs.fast.ai/, 2022-01-15-Sat.
