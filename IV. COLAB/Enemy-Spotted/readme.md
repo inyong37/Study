@@ -26,8 +26,8 @@ Case 3. Countries - US KR JP KP CN RU.
 ### Few-shot learning
 - Uniform detection
 
-### Super Resolution
-- Input Image -> Super Resolution -> Image Split -> Human Detection -> Uniform Gneration
+### Super Resolution, Object Detection, and GAN
+- Input Image -> Super Resolution -> Image Split -> Human Detection -> Uniform Generation
 
 ## 3. Firearm Detection :gun:
 
