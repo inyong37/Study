@@ -24,7 +24,10 @@ Case 4. Allies - US, KR, JP, vs. KP, CN, RU.
 Case 3. Countries - US KR JP KP CN RU.
 
 ### Few-shot learning
-- Uniform detection model
+- Uniform detection
+
+### Super Resolution
+- Input Image -> Super Resolution -> Image Split -> Human Detection -> Uniform Gneration
 
 ## 3. Firearm Detection :gun:
 
