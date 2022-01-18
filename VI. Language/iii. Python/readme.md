@@ -452,6 +452,8 @@ print(*l) # 1 2 3 4
 first, *middle, last = 'ma' # first = 'm', middle = [], last = 'a'
 ```
 
+### three dots | [Stackoverflow]
+
 ----------
 
 #### Reference
@@ -498,3 +500,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - __main__, https://docs.python.org/3.7/library/__main__.html#module-__main__, 2021-06-24-Thu.
 - Closure Blog KR, https://shoark7.github.io/programming/python/closure-in-python, 2022-01-07-Fri.
 - Unpacking Operator * Blog, https://towardsdatascience.com/unpacking-operators-in-python-306ae44cd480, 2022-01-07-Fri.
+- Three Dots Stackoverflow, https://stackoverflow.com/questions/42190783/what-does-three-dots-in-python-mean-when-indexing-what-looks-like-a-number, 2022-01-18-Tue.
