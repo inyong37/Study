@@ -805,6 +805,19 @@ Callback은 function pointer와 같이 사용되고 Closure는 function과 funct
 ### Closure | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
 
+### Destructuring Assignment | [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+The desturcturing assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct varaibles.
+
+#### Ignoring some returned values
+```JavaScript
+function f() {
+  return [1, 2, 3];
+}
+
+const [a, , b] = f(); // 1, , 3
+const [c] = f(); // 1, , 
+```
+
 ----------
 
 #### Reference
@@ -850,3 +863,4 @@ A closure is the combination of a function bundled together (enclosed) with refe
 - Closure vs. Callback Stackoverflow, https://stackoverflow.com/questions/615907/how-is-a-closure-different-from-a-callback, 2022-01-07-Fri.
 - Closure Blog KR, https://poiemaweb.com/js-closure, 2022-01-07-Fri.
 - Closuer MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures, 2022-01-07-Fri.
+- Desturcting Assignment MDN, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment, 2022-01-18-Tue.
