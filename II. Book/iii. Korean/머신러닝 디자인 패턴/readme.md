@@ -26,4 +26,4 @@ Chapter 6. 재현성 디자인 패턴
 
 Chapter 7. 책임 있는 AI
 
-Chapter 8. 연결 
+Chapter 8. 연결 패턴
