@@ -1,6 +1,6 @@
 # 머신러닝 디자인 패턴
 
-Machine Learning Design Patterns
+Machine Learning Design Patterns | [O'REILLY](https://www.oreilly.com/library/view/machine-learning-design/9781098115777/)
 
 효율적인 머신러닝 파이프라인과 MLOps를 구축하는 30가지 디자인 패턴
 
