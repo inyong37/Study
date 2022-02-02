@@ -237,7 +237,7 @@ CuDNN in ~/CUDA/include/cudnn.h
 ### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 
 ### G. Utility
-Scripts.
+Utility Scripts with Python.
 
 ### H. [Kubernetes](https://kubernetes.io/)
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
