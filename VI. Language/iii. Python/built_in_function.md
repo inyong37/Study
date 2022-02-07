@@ -85,6 +85,7 @@ The arguments are an object and a string. The result is `True` if the string is 
 ### **hex**(*x*)
 
 ### **id**(*object*)
+Return object's address in CPython.
 
 ### **input**([*prompt*])
 
