@@ -818,6 +818,8 @@ const [a, , b] = f(); // 1, , 3
 const [c] = f(); // 1, , 
 ```
 
+#### No pointer
+
 ----------
 
 #### Reference
