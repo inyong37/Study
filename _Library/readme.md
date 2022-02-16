@@ -69,6 +69,17 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 ## [fastai](https://docs.fast.ai/)
 fastai simplifies training fast and accurate neural nets using modern best practices.
 
+### [FAIR Detectron](https://github.com/facebookresearch/Detectron)
+Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including Mask R-CNN. It is written in Python and powered by the Caffe2 deep learning framework.
+
+*Detectron is deprecated. Please see detectron2, a ground-up rewrite of Detectron in PyTorch.*
+
+### [FAIR Detectron2](https://github.com/facebookresearch/detectron2)
+Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of Detectron and maskrcnn-benchmark. It supports a number of computer vision research projects and production applications in Facebook.
+
+### [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
+MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
+
 #### Reference
 - TensorFlow GitHub, https://github.com/tensorflow/tensorflow, 2020-07-16-Thu.
 - TensorFlow Hub, https://tfhub.dev/, 2021-12-28-Tue.
@@ -93,3 +104,6 @@ fastai simplifies training fast and accurate neural nets using modern best pract
 - Framework vs. Library, https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/, 2021-08-10-Tue.
 - Weights & Biases, https://wandb.ai/site, 2022-01-05-Wed.
 - fastai, https://docs.fast.ai/, 2022-01-15-Sat.
+- Detectron, https://github.com/facebookresearch/Detectron, 2022-02-16-Wed.
+- detectron2, https://github.com/facebookresearch/detectron2, 2022-02-16-Wed.
+- MMDetection, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
