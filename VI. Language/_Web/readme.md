@@ -101,6 +101,9 @@ Corporate users of Node.js software include GoDaddy, Groupon, IBM, LinkedIn, Mic
 ### Spring | [Homepage](https://spring.io/) | [Wiki](https://en.wikipedia.org/wiki/Spring_Framework) | Java
 The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprices Edition) platform. Although the framework does not impose any specific programming model, it has become popluar in the Java community as an addition to the Enterprice JavaBeans (EJB) model. The Spring Framework is open source.
 
+### [Spring Boot](https://spring.io/projects/spring-boot) | JAVA
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". We take an optionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need minimal Spring configuration.
+
 ----------
 
 ### Native Framework
@@ -223,6 +226,7 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - React, https://reactjs.org/, 2021-04-29-Thu.
 - React Native, https://reactnative.dev/, 2021-12-31-Fri.
 - Spring, https://spring.io/ 2021-04-29-Thu.
+- Spring Boot, https://spring.io/projects/spring-boot, 2022-02-24-Thu.
 - Node.js, https://nodejs.org/en/, 2021-04-29-Thu.
 - Deno, https://deno.land/, 2021-04-29-Thu.- Deno Wiki, https://en.wikipedia.org/wiki/Deno_(software), 2021-06-22-Tue.
 - Node.js Wiki, https://en.wikipedia.org/wiki/Node.js, 2021-06-22-Tue.
