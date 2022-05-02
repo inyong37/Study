@@ -214,7 +214,7 @@ Keras [Reference](https://yamalab.tistory.com/80)
 ```
 
 ## VI. Keep awake | [Blog](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573)
-```
+```Python
 %%javascript
 function ClickConnect(){
 console.log("Working");
