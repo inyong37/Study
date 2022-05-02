@@ -212,3 +212,12 @@ Keras [Reference](https://yamalab.tistory.com/80)
 # Date: *-*-*-*
 # Code Explanation
 ```
+
+## VI. Keep awake | [Blog](https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573)
+```
+%%javascript
+function ClickConnect(){
+console.log("Working");
+document.querySelector("colab-toolbar-button#connect").click()
+}setInterval(ClickConnect,60000)
+```
