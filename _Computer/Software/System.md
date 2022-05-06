@@ -252,6 +252,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
   - Spotlight
     - Spotlight 검색 보기: Control Spacebar ~~(Command Spacebar)~~
     - Finder 검색 윈도우 보기 ~~(Option Command Spacebar)~~
+- Bluetooth Keyborad
+  - Control -> Command
+  - Option -> Control
+  - Command -> Option
 
 ### Font
 - Monaco
