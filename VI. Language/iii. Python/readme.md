@@ -2,7 +2,7 @@
 ```
 This page is from the "Language" page.
 ```
-## :computer: Anaconda | [Homepage](https://www.anaconda.com/) | [Document Individual Edition](https://docs.anaconda.com/anaconda/) | [Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf) | [Archive](https://repo.anaconda.com/archive/)
+## :computer: Anaconda | [Homepage](https://www.anaconda.com/) | [Document Individual Edition](https://docs.anaconda.com/anaconda/) | [Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf) | [Archive](https://repo.anaconda.com/archive/) | [Uninstall](https://docs.anaconda.com/anaconda/install/uninstall/)
 The Most Trusted Distribution for Data Science.
 
 Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
