@@ -261,6 +261,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Monaco
 - Menlo
 
+### Application
+- Spectacle, AltTab, Karabiner, Snap
+- iTerm2, Homebrew
+
 ----------
 
 ## *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
