@@ -20,6 +20,8 @@ Zsh is a shell designed for interactive use, although it is also a powerful scri
 
 # I. Windows | [Windows Commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 ## i. Command-line Shells | CMD (Command Prompt)
+The Command shell was the first shell built into Windows to automate routine tasks, like user account management or nightly backups, with batch (.bat) files. With Windows Script Host, you could run more sophisticated scripts in the Command shell. For more information, see cscript or wscript. You can perform operations more efficiently by using scripts than you can by using the user interface. Scripts accept all commands that are available at the command line.
+
 ### A. Commands
 ```
 > exit # Exit Prompt
@@ -34,6 +36,10 @@ Zsh is a shell designed for interactive use, although it is also a powerful scri
 `doskey nn = cd D:\office\out\win && ninja`
 `doskey ls=dir`
 ## ii. PowerShell | [Homepage](https://powershell.org/) | [Documentation](https://docs.microsoft.com/en-us/powershell/) | [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)
+PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS.
+
+PowerShell was designed to extend the capabilities of the Command shell to run PowerShell commands called cmdlets. Cmdlets are similar to Windows Commands but provide a more extensible scripting language. You can run both Windows Commands and PowerShell cmdlets in PowerShell, but the Command shell can only run Windows Commands and not PowerShell cmdlets.
+
 ### A. Commands
 ```
 PS powershell # Turn off PowerShell and turn on CMD
