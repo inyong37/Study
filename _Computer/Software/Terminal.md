@@ -18,8 +18,8 @@ Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 B
 ### [Zsh](https://www.zsh.org/) | [Zsh Web Pages](https://zsh.sourceforge.io/)
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
 
-# I. Windows
-## i. CMD(Command Prompt)
+# I. Windows | [Windows Commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+## i. Command-line Shells | CMD (Command Prompt)
 ### A. Commands
 ```
 > exit # Exit Prompt
@@ -33,7 +33,7 @@ Zsh is a shell designed for interactive use, although it is also a powerful scri
 `doskey clear=cls`
 `doskey nn = cd D:\office\out\win && ninja`
 `doskey ls=dir`
-## ii. PowerShell | [Homepage](https://powershell.org/) | [Documentation](https://docs.microsoft.com/en-us/powershell/)
+## ii. PowerShell | [Homepage](https://powershell.org/) | [Documentation](https://docs.microsoft.com/en-us/powershell/) | [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)
 ### A. Commands
 ```
 PS powershell # Turn off PowerShell and turn on CMD
@@ -150,3 +150,5 @@ Search everything as a string. So it is faster than any other greps.
 - MinGW Wiki KR-KO, https://ko.wikipedia.org/wiki/MinGW, 2020-11-20-Fri.
 - Zsh, https://www.zsh.org/, 2022-05-14-Sat.
 - Zsh Web Pages, https://zsh.sourceforge.io/, 2022-05-14-Sat.
+- Windows Commands, https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands, 2022-05-14-Sat.
+- What is PowerShell?, https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2, 2022-05-14-Sat.
