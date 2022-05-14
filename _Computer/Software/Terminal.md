@@ -15,6 +15,9 @@ Bourne shell(sh)는 Unix version 7의 기본 Unix shell이었다. 톰프슨 shel
 ### Bash, Bourne-again Shell, Unix Shell | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8))
 Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 Brian Fox가 작성한 Unix shell이다. Bash는 1989년 발표되어 GNU OS와 Linux, mac os X 그리고 Dawin 등 OS의 기본 shell로 탑재되어 광범위하게 배포되었다. Bash는 또한 DJGPP와 노벨 넷웨어에 의해 DOS로 이식되었고 Cygwin과 MinGW의 배포로 Microsoft Windows로 이식되었다.
 
+### [Zsh](https://www.zsh.org/) | [Zsh Web Pages](https://zsh.sourceforge.io/)
+Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
+
 # I. Windows
 ## i. CMD(Command Prompt)
 ### A. Commands
@@ -145,3 +148,5 @@ Search everything as a string. So it is faster than any other greps.
 - Bash Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8), 2020-11-20-Fri.
 - Cygwin Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%8B%9C%EA%B7%B8%EC%9C%88, 2020-11-20-Fri.
 - MinGW Wiki KR-KO, https://ko.wikipedia.org/wiki/MinGW, 2020-11-20-Fri.
+- Zsh, https://www.zsh.org/, 2022-05-14-Sat.
+- Zsh Web Pages, https://zsh.sourceforge.io/, 2022-05-14-Sat.
