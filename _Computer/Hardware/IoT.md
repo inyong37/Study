@@ -45,6 +45,12 @@ Cloud technology is used for remote data storage and IoT device management - mak
 ### Machine learning
 Machine learning regers to the software and algorithms used to process data and make real-time decisions based on that data. These machine learning algorithms can be deployed in the cloud or at the edge.
 
+## Understanding the Internet of Things (IoT) | [RedHat](https://www.redhat.com/en/topics/internet-of-things)
+The Internet of Things (IoT) is made up of smart devices connected to a network, sending and receiving data to and from other devices. IoT creates new opportunities to gather data from the world around us and manage large numbers of devices in different physical locations. IoT also introduces the challenges of collecting, storing, and analyzing enourmous volumes of data.
+
+IoT is a related concept to edge computing, a strategy for computing on location where data is collected or used. Many edge computing use cases, such as manufacturing and utilities, involve the use of Industrial IoT (IIoT) devices.
+
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
 - What is IoT? AWS, https://aws.amazon.com/what-is/iot/?nc1=h_ls, 2022-06-21-Tue.
+- Understanding the Internet of Things (IoT) RedHat, https://www.redhat.com/en/topics/internet-of-things, 2022-06-22-Wed.
