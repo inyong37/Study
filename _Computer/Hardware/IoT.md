@@ -1,4 +1,8 @@
 # Internet of Things (IoT) | [Wiki](https://en.wikipedia.org/wiki/Internet_of_things)
+- Summary
+  - IoT는 네트워크에 연결된 클라우드부터 센서 등을 비롯한 기기들이 정보를 수집, 가공, 처리하여 유의미한 결과를 내는 시스템이다.
+  - 엣지 컴퓨팅, 클라우드 컴퓨팅, 머신러닝을 이용한 데이터 처리 방법이 있다.
+
 The Internet of Things (IoT) describes physical objects (or groups of such as objects) with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. Internet of things has been considered a misnoomer because devices do not need to be connected to the public internet, they only need to be connected to a network and be individually addressable.
 
 The field has evolved due to the convergence of multiple technologies, including ubiquitous computing, commodity sensors, increasingly powerful embedded systems, and machine learning. Tranditional fields of embedded systems, wireless sensor networks, control systems, automation (including home and building automation), independently and collectively enable the Internet of things. In the consumer market, IoT technology is most synonymous with products pertaining to the concept of the "smart home", including devices and appliances (such as lighting fixtures, thermostats, home security systems, cameras, and other home appliances) that support one or more common ecosystems, and can be controlled via devices associated with that ecosystem, such as smartphones and smart speakers. IoT is also used in healthcare systems.
@@ -12,7 +16,7 @@ The Internet of Things integrates everyday "things" with the internet. Computer 
 
 The cost of integrating computing power into small objects has now dropped considerably. For example, you can add connectivity with Alexa voice services capabilities to MCUs with less than 1MB embedded RAM, such as for light switches. A whole industry has sprung up with a focus on filling our homes, businesses, and offices with IoT devices. These smart objects can automatically transmit data to and from the Internet. All these "invisible computing devices" and the technology associated with them are collectively referred to as the Internet of Things.
 
-## How does Iot work?
+## How does IoT work?
 A typical IoT system works through the real-time collection and exchange of data. An IoT system has three components:
 
 ### Smart devices
@@ -24,16 +28,11 @@ An Iot application is a collection of services and software that integrates data
 ### A graphical user interface
 The IoT device or fleet of devices can be managed through a graphical user interface. Common examples include a mobile application or website that can be used to register and control smart devices.
 
-##  What are examples of IoT devices?
-### Connected cars, Connected homes, Smart cities, Smart buildings
+- What are examples of IoT devices? Connected cars, Connected homes, Smart cities, Smart buildings
+- What is Industrial IoT? Manufacturing, Automobile, Logistics and transport, Retail
+- How can IoT improve our lives?
 
-## What is Industrial IoT?
-### manufacturing, Automobile, Logistics and transport, Retail
-
-### How can IoT improve our lives?
-
-## What are the benefits of IoT for business?
-### Accelerate innovation, Turn data into insights and action with AI and ML, Increase security, Scale differentiated solutions
+- What are the benefits of IoT for business? Accelerate innovation, Turn data into insights and action with AI and ML, Increase security, Scale differentiated solutions
 
 ## What are IoT technologies?
 ### Edge computing
@@ -50,7 +49,13 @@ The Internet of Things (IoT) is made up of smart devices connected to a network,
 
 IoT is a related concept to edge computing, a strategy for computing on location where data is collected or used. Many edge computing use cases, such as manufacturing and utilities, involve the use of Industrial IoT (IIoT) devices.
 
+## What is the Internet of Things (IoT)? | [RedHat](https://www.redhat.com/en/topics/internet-of-things/what-is-iot)
+The Internet of Things (IoT) refers to the process of connecting everyday physical objects to the internet-from common household objects like lightbulbs; to healthcare assets like medical devices; to wearables, smart devices, and even smart cities.
+
+The Iot devices placed within those physical objects primarily fall into 1 to 2 categories: they are either a switch (that sends a command to a thing), or a sensor (that collects data and sends it elsewhere).
+
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
 - What is IoT? AWS, https://aws.amazon.com/what-is/iot/?nc1=h_ls, 2022-06-21-Tue.
-- Understanding the Internet of Things (IoT) RedHat, https://www.redhat.com/en/topics/internet-of-things, 2022-06-22-Wed.
+- Understanding the Internet of Things (IoT) RedHat, https://www.redhat.com/en/topics/internet-of-things, 2022-06-21-Tue.
+- What is the Internet of Things (IoT)? RedHat, https://www.redhat.com/en/topics/internet-of-things/what-is-iot, 2022-06-21-Tue.
