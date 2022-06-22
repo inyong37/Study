@@ -1,4 +1,10 @@
 # Embedded System | [Wiki](https://en.wikipedia.org/wiki/Embedded_system)
+- Summary
+  - Dedicated function system (contrast in general personal computer)
+  - Constraint in time
+  - 특정 기능을 위한 시스템이다(일반적인 용도의 PC와 차이가 있다).
+  - 시간 제약 조건을 포함한 시스템이 있다(i.e. 자동차 운전 시스템 등의 real-time deadline이 존재하는 시스템).
+
 An embedded system is a computer system-a combination of a computer processor, computer memory and input/output peripheral devices-that has a dedicated function within a larger mechanical or electronic system. It is embedded as part of a complete device often including eletrical or electronic hardware and mechanical parts. Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Embedded systems control many devices in common use today. In 2009, it was estimated that ninety-eight percent of all micorprocessors manufactured were used in embedded systems.
 
 Modern embedded systems are often based on microcontrollers (i.e. microprocessors with integrated memory and peripheral interfaces), but ordinary microprocessors (using external chips for memory and peripheral interface circuits) are also common, expecially in more complex systems. In either case, the processor(s) used may be types ranging from general purpose to those specialized in a certain class of computations, or even custom designed for the application at hand. A common standard class of dedicated processors is the digital signal processor (DSP).
@@ -9,14 +15,9 @@ Embedded systems range in size from portable personal devices such as digital wa
 
 Embedded systems range from those law in complexity, with a single microcontroller chip, to very high with multiple units, peripherals and networks, which may reside in equipment racks or across large geographical areas connected via long-distance communications lines.
 
-- Summary
-  - Dedicated function system (contrast in general personal computer)
-  - Constraint in time
+## [Book: Programming Embedded Systems](https://books.google.co.kr/books?id=nPZaPJrw_L0C&pg=PA1&redir_esc=y&hl=ko#v=onepage&q&f=false)
 
------
-# [Book: Programming Embedded Systems](https://books.google.co.kr/books?id=nPZaPJrw_L0C&pg=PA1&redir_esc=y&hl=ko#v=onepage&q&f=false)
-
-## What Is an Embedded System?
+### What Is an Embedded System?
 
 An embedded system is a combination of computer hardware and software-and perhaps additional parts, either mechanical or electronic-designed to perform a dedicated function. A good example os the microwave oven, Almost every household has one, and tens of millions of them are used every day, but very few people realize that a computer processor and software are involved in the preparation of their lunch or dinner.
 
@@ -28,9 +29,9 @@ It is important to point out that a general-purpose computer interfaces to numer
 
 The existence of the processor and software in an embedded system may be unnoticed by a user of the device. Such is the case for a microwave oven, MP3 player, or alarm clock. In some cases, it would even be possible to build a functionally equivalent device that does not contain the processor and software. This could be done by replacing the processor-software combination with a custom integrated circuit (IC) that performs the same functions in hardware. However, the processor and software combination typically offers more flexibility than a hardwired design. It is generally much easier, cheaper, and less poser intensive to use a processor and software in an embedded system.
 
-## History and Future
+- History and Future
 
-## Real-Time Systems
+### Real-Time Systems
 One subclass of embedded systems deserves an introduction at this point. A real-time system has timing constraints. The function of a real-time system is thus partly specified in terms of its ability to make certain calculations or decisions in a timely manner. These important calculations or activities have deadlines for completion.
 
 The crucial distinction among real-time systems lies in what happens if a deadline is missed. For example, if the real-time system is part of an airplane’s flight control system, the lives of the passengers and crew may be endangered by a single missed deadline. However, if instead the system involved in satellite communication, the damage could be limited to a single corrupt data packet (which may or may not have catastrophic consequences depending on the application and error recovery scheme). The more severe the consequence, the more likely it will be said that the deadline is “hard” and thus, that the system is a hard real-time system. Real-time systems at the other end of this continuum are said to have “soft” deadlines-a soft real-time system.
@@ -44,13 +45,8 @@ The architecture of the embedded software, and its interaction with the system h
 
 All of the topics and examples presented in this book are applicable to the designers of real-time systems. The designer of a real-time system must be more diligent in his work. He must guarantee reliable operation of the software and hardware under all possible conditions. And, to the degree that human lives depend upon the system’s proper execution, this guarantee must be backed by engineering calculations and descriptive paperwork.
 
------
-
-# [Book: Embedded System Design](https://books.google.co.kr/books?id=BjNZXwH7HlkC&pg=PA2&redir_esc=y#v=onepage&q&f=false)
-
-## What is an embedded system?
-
------
+## [Book: Embedded System Design](https://books.google.co.kr/books?id=BjNZXwH7HlkC&pg=PA2&redir_esc=y#v=onepage&q&f=false)
+- What is an embedded system?
 
 #### Reference
 - Embedded System Wiki, https://en.wikipedia.org/wiki/Embedded_system, 2022-06-22-Wed.
