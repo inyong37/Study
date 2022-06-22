@@ -1,9 +1,7 @@
 # Embedded System | [Wiki](https://en.wikipedia.org/wiki/Embedded_system)
 - Summary
-  - Dedicated function system (contrast in general personal computer)
-  - Constraint in time
-  - 특정 기능을 위한 시스템이다(일반적인 용도의 PC와 차이가 있다).
-  - 시간 제약 조건을 포함한 시스템이 있다(i.e. 자동차 운전 시스템 등의 real-time deadline이 존재하는 시스템).
+  - 특정 기능을 위한 시스템이다(일반적인 용도의 PC와 차이가 있다). Dedicated function system (contrast in general personal computer)
+  - 시간 제약 조건을 포함한 시스템이 있다(i.e. 자동차 운전 시스템 등의 real-time deadline이 존재하는 시스템). Constraint in time  
 
 An embedded system is a computer system-a combination of a computer processor, computer memory and input/output peripheral devices-that has a dedicated function within a larger mechanical or electronic system. It is embedded as part of a complete device often including eletrical or electronic hardware and mechanical parts. Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Embedded systems control many devices in common use today. In 2009, it was estimated that ninety-eight percent of all micorprocessors manufactured were used in embedded systems.
 
