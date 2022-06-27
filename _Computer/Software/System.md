@@ -3,6 +3,14 @@ Operating System(OS, 운영 체제는/조작 체계)는 시스템 하드웨어�
 
 OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다.
 
+## *What is a Real-Time Operating System?* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+When running a program, a normal operating system gives deterministic results but allows for a nondeterministic time to complete a task. In a real-time operating system both the results of program execution and the time take to get those results are (at least partially) deterministic.
+
+### *Hard Real-Time vs. Soft Real-Time* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+A hard real-time operating system is one where the time taken is deterministic to an exact moment. These operating systems are deployed in use cases where failure to get results on time represents a total system failure. Examples include microcontrollers within a car engine or airplane, printers, laser cutters, etc. Azure Real-Time OS is an example of such an OS.
+
+A soft real-time operating system is one where there is a small window of time for program completion rather than a precise moment due to a bit of jitter from the operating system. Soft real-time systems, though less precise, can be run on multiple cores and impose fewer restrictions on applications. This is the type of real-time performance that you can expect from Windows 10 IoT Enterprise.
+
 # *Firmware* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
 Firmware(펌웨어)는 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
 
@@ -328,4 +336,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - POSIX Wiki KR, https://ko.wikipedia.org/wiki/POSIX, 2021-03-29-Mon.
 - Finder Wiki, https://en.wikipedia.org/wiki/Finder_(software), 2021-11-18-Thu.
 - Mac Keyboard Shortcuts, https://support.apple.com/en-us/HT201236, 2021-12-15-Wed.
-
+- Real-Time Operating System MS Docs, https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time, 2022-06-27-Mon.
