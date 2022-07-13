@@ -127,6 +127,30 @@ Mesh topology may be contrasted with conventional star/tree local network topolo
 
 Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi를 제공하기 위해 설계된 가정용 WiFi시스템이다. Mesh 시스템은 네트워크에 연결된 디바이스가 더 빠른 속도, 더 넓은 커버리즈 그리고 신뢰할 수 있는 연결성을 갖도록 도와줍니다. 기존의 공유기가 단일 포인트 지점에서 WiFi를 전송했다면 Mesh WiFi 시스템은 여러 개의 액세스 포인트에 신호를 전달합니다. 하나의 디바이스가 모뎀에 연결되면 해당 디바이스는 메인 허브가 됩니다. 다른 디바이스(노드)는 공유기의 신호를 잡고 다시 신호를 보냅니다. 그 결과 사용자가 어디에 있든 강한 신호의 무선 네트워크를 이용할 수 있습니다.
 
+---
+
+### Bluetooth | [IEEE](https://ieeexplore.ieee.org/document/1368913)
+
+Bluetooth is a standard for short range, low power, and low cost wireless communication that uses radio technology. Over 2100 compaines around the world already support Bluetooth technology. The wireless personal area network (WPAN) technology, based on the Bluetooth specification, is now an IEEE standard under the denomination of 802.15 WPANs. This work presents an overview about the Bluetooth communication. Bluetooth wireless technology encompasses several key points that facilitate its widespread adoption: 1) it is an open specification that is publicly available and royalty free; 2) its short-range wireless capability allows peripheral devices to communicate over a single air-interface, replacing the cables that use connectors with a multitude of shapes, sizes and numbers of pins; 3) Bluetooth supports both voice and data, making it an ideal technology to enable many types of devices to communicate; and 4) Bluetooth uses an unregulated frequency band available anywhere in the world.. To fully realize the Bluetooth vision, full networking of multiple Bluetooth devices is required. This leads to the investigation of Bluetooth scatternets, which must address ascatternet formation and reconfiguration, scheduling, and routing issues.
+
+### Zigbee | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
+
+Zigbee is a standards-based wireless mesh network used widely in building automation, lighting, smart city, medical and asset tracking. Scalabe Zigbee offers the low power mesh solutions enabling multi-year coin cell use or battery-less operation across industrial temperatures. 
+
+### Z-Wave | [TechTarget](https://www.techtarget.com/iotagenda/definition/Z-Wave)
+
+### Bluetooth, WiFi, Zigbee, and Z-Wave in IoT | [Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
+
+- Bluetooth: transfer of voice and data; up to 2Mbps; 5.0 version 2.5 times less consume than the previous version; 2.402 and 2.480GHz without license; range depends on the emission power; point-to-point connection or mesh network of few nodes; difficult to cross obstacles; used mainly desktop computers, laptops, mobile or audio output devices, hands-free, sports of home automation devices, and toys, medical technology or industry.
+
+- WiFi (Wireless Fidelity): a wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telephony; 2.4GHz and 5GHz; 9.6Gbps (6.0); possible to extend its reach with the use of directional antennas or repeaters.
+
+- Zigbee: low-energy radio waves to allow certain devices to communicate with each other; possible to create a small wireless network with devices that connect to each other though a mesh or mesh network; without the need for each one to be connected to the router individually; necessary to use a bridge or hub, a device that will be the one that connects to the Internet and is responsible for distributing the signal among the other devices connected to it; helps avoid network saturation; simpler and less expensive than Bluetooth or WiFi; offers low energy consumption; need to use a device that acts as a bridge; the transmission distances are smaller between 10 and 20 meters; open protocol; only compatible with their own devices; very low data transfer speed 250Kbps; home automation, wireless network sensors, smoke or motion sensors, medical data collection and even specific industrial control systems; supports 65000 devices connection; uses 2.4GHz frequency.
+
+- Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
+
+---
+
 #### Reference
 - Access Point, https://m.blog.naver.com/PostView.nhn?blogId=twers&logNo=50118628879&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-17-Fri.
 - Wireless Access Point Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8, 2020-07-17-Fri.
@@ -166,3 +190,8 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 - Mesh Wi-Fi TP-Link KR, https://www.tp-link.com/kr/mesh-wifi/, 2022-07-13-Wed.
 - Gateway Wiki, https://en.wikipedia.org/wiki/Gateway_(telecommunications), 2022-07-13-Wed.
 - Mesh Networking Wiki, https://en.wikipedia.org/wiki/Mesh_networking, 2022-07-13-Wed.
+- Bluetooth IEEE, https://ieeexplore.ieee.org/document/1368913, 2022-07-13-Wed.
+- Samsung Electronics SmartThings Blog KR, https://wildchild.tistory.com/entry/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8B%B1%EC%8A%A4-%ED%97%88%EB%B8%8C-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8B%B1%EC%8A%A4-%ED%97%88%EB%B8%8C-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88, 2022-07-13-Wed.
+- Zigbee TI, https://www.ti.com/wireless-connectivity/zigbee/overview.html, 2022-07-13-Wed.
+- Z-Wave TechTarget, https://www.techtarget.com/iotagenda/definition/Z-Wave, 2022-07-13-Wed.
+- Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog, https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/, 2022-07-13-Wed.
