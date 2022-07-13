@@ -105,6 +105,28 @@ A device to increase transmission distance by amplifying the signal; used in bas
 
 ## Server | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
+### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks and can operate at any of the seven layers of the open systems interconnection model (OSI).
+
+The term gateway can also loosely refer to a computer or computer program configured to perform the tasks of a gateway, such as a default gateway or router, and in the case of HTTP, gateway is also often used as a synonym for reverse proxy.
+
+#### IoT gateway
+An Internet of things (IoT) gateway provides the bridge (protocol converter) between IoT devices in the field, the cloud, and user equipment such as smartphones. The IoT gateway provides a communication link between the field and the cloud, and may provide offline services and real-time control of devices in the field.
+
+To achieve sustainable interoperability in the Internet of things ecosystem, two dominant architectures for data exchange protocols are used: bus-based (DDS, REST, XMPP) and broker-based (AMQP, CoAP, MQTT, JMI). Protocols that support information exchange between interoperable domains are classified as message centric (AMQP, MQTT, JMS, REST) or data-centric (DDS, CoAP, XMPP). Interconnected devices communicate using lightweight protocols that don't require extensive CPU resources. C, Java, Python and some scripting languages are the preferred choices of IoT application developers. IoT nodes use separate IoT gateways to handle protocol conversion, database storage or decision making (e.g. collision handling), in order to supplement the low intelligence of devices.
+
+### Mesh Networking | [WiKi](https://en.wikipedia.org/wiki/Mesh_networking)
+A mesh networking (or simply meshnet) is a local area network topology in which the infrastructure nodes (i.e. bridges, swithces, and other infrastructure devices) connect directly, dynamically and non-hierarchially to as many other nodes as possible and cooperate with one another to efficiently route data to and from clients.
+
+This lack of dependency on one node allows for every node to participate in the relay of information. Mesh networks dynamically self-organize and self-configure, which can reduce installation overhead. The ability to self-configure enables dynamic distribution of workloads, particularly in the event a few nodes should fail. This in turn contributes to fault-tolerance and reduced maintenance costs.
+
+Mesh topology may be contrasted with conventional star/tree local network topologies in which the bridges/switches are directly linked to only a small subset of other bridges/switches, and the links between these infrastructure neighbours are hierarchical. While star-and-tree topologies are very well established, highly standardized and vendor-neutral, vendors of mesh network devices have not yet all agreed on common standards, and interoperability between devices from different vendors is not yet assured.
+
+### Mesh Wi-Fi | [TP-Link](https://www.tp-link.com/kr/mesh-wifi/)
+안정적인 네트워크가 중요한 비즈니스 상황에서만 사용되었다. 최근 소비자 시장에도 진출해 빠른 속도와 넓은 범위의 Wi-Fi 네트워크를 제공한다.
+
+Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi를 제공하기 위해 설계된 가정용 WiFi시스템이다. Mesh 시스템은 네트워크에 연결된 디바이스가 더 빠른 속도, 더 넓은 커버리즈 그리고 신뢰할 수 있는 연결성을 갖도록 도와줍니다. 기존의 공유기가 단일 포인트 지점에서 WiFi를 전송했다면 Mesh WiFi 시스템은 여러 개의 액세스 포인트에 신호를 전달합니다. 하나의 디바이스가 모뎀에 연결되면 해당 디바이스는 메인 허브가 됩니다. 다른 디바이스(노드)는 공유기의 신호를 잡고 다시 신호를 보냅니다. 그 결과 사용자가 어디에 있든 강한 신호의 무선 네트워크를 이용할 수 있습니다.
+
 #### Reference
 - Access Point, https://m.blog.naver.com/PostView.nhn?blogId=twers&logNo=50118628879&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-17-Fri.
 - Wireless Access Point Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8, 2020-07-17-Fri.
@@ -141,3 +163,6 @@ A device to increase transmission distance by amplifying the signal; used in bas
 - Modem Wiki, https://en.wikipedia.org/wiki/Modem, 2021-04-29-Thu.
 - TA Wiki, https://en.wikipedia.org/wiki/Terminal_adapter, 2021-04-29-Thu.
 - Line Driver Wiki, https://en.wikipedia.org/wiki/Line_driver, 2021-04-29-Thu.
+- Mesh Wi-Fi TP-Link KR, https://www.tp-link.com/kr/mesh-wifi/, 2022-07-13-Wed.
+- Gateway Wiki, https://en.wikipedia.org/wiki/Gateway_(telecommunications), 2022-07-13-Wed.
+- Mesh Networking Wiki, https://en.wikipedia.org/wiki/Mesh_networking, 2022-07-13-Wed.
