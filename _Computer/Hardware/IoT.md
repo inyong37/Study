@@ -70,7 +70,7 @@ IoT 게이트웨이는 연결된 디바이스의 데이터를 수집하고, 인�
 
 인텔은 쿼크(Quark)와 아톰(Atom) SoC를 기반으로 Wind River 디바이스 플랫폼과 맥아피(McAfee)의 임베디드 보안 기술을 탑재한 토탈 솔루션 형태로 IoT 게이트웨이를 선보이고 있습니다. 인텔의 IoT 게이트웨이는 로컬 의사결정, 전달한 데이터에 대한 필터링 및 전처리, 기존의 임베디드 기기 또는 클라우드와의 연결을 지원합니다. 인텔 프로세서와 Wind River, McAfee Embedded Control과 같은 이미 검증되고 정합된 솔루션을 바탕으로 구성된 것 역시 장점으로 내세우고 있습니다.
 
-프리스케일과 오라클 연합은 풍부한 SoC 경험과 Java라는 강력한 무기를 앞세워 'OneBox'라는 IoT 게이트웨이 플랫폼을 선보였습니다. OneBox 플랫폼은 Java 임베디드 기반의 IoT 기기와의 호환이 용이하고 손쉬운 디바이스 개발 환경을 제공하고 있습니다.
+FreeScale, ARM, Oracle 연합은 풍부한 SoC 경험과 Java라는 강력한 무기를 앞세워 'OneBox'라는 IoT 게이트웨이 플랫폼을 선보였습니다. OneBox 플랫폼은 Java 임베디드 기반의 IoT 기기와의 호환이 용이하고 손쉬운 디바이스 개발 환경을 제공하고 있습니다.
 
 이러한 게이트웨이 플랫폼은 상호 호환성을 확장성을 높이기 위해 MQTT, REST와 같은 표준화된 메시징 프로토콜과 지그비, 블루투스, 와이파이 등의 표준화된 인터페이스를 중심으로 구성되어 있습니다. 
 
@@ -84,3 +84,4 @@ IoT 게이트웨이는 사물의 부족한 부분을 채워주며 서비스를 �
 - 무선 통신 - 지그비 사용하기 Youtube, https://youtu.be/iquILj4CcaU, 2022-07-14-Thu.
 - IoT를 위한 네트워크 기술 소개 Youtube, https://youtu.be/X8wMvr5hL5E, 2022-07-14-Thu.
 - IoT Gateway LG CNS KR, https://blog.lgcns.com/1120, 2022-07-14-Thu.
+- IoT Platform OneBox, https://www.design-reuse.com/news/33189/freescale-arm-oracle-one-box-iot-gateway.html, 2022-07-14-Thu.
