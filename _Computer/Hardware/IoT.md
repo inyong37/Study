@@ -76,6 +76,10 @@ FreeScale, ARM, Oracle 연합은 풍부한 SoC 경험과 Java라는 강력한 �
 
 IoT 게이트웨이는 사물의 부족한 부분을 채워주며 서비스를 구성하는 다양한 사물 간의 정보 교환을 용이하게 함으로써 각각의 IoT 사물들을 더욱 똑똑하고 효율적으로 동작할 수 있도록 도와줍니다. 또한 어디서나 게이트웨이를 통해 IoT 사물들을 통합하여 제어할 수 있는 인터페이스를 제공함으로써 새로운 형태의 서비스를 가능하게 합니다.
 
+### Smart Dust | [Blog (KR)](https://www.itfind.or.kr/WZIN/jugidong/1140/114004.htm)
+
+스마트 더스크 기술이란 먼지 크기의 매우 작은 센서들을 건물, 도로, 의복, 인체 등 물리적 공간에 먼지처럼 뿌려 주위의 온도, 습도, 가속도, 압력 등의 정보를 무선 네트워크로 감지, 관리할 수 있는 기술을 말한다. 이러한 스마트 더스크 내에는 센서, 센서 제어 회로, 컴퓨터, 양방향 무선 통신 모듈, 전원 장치 등이 내장되며, 현재의 초고집적 반도체 기술과 MEMS 기술을 통해 작게 구현할 수 있다. 스마트 더스트(Smart Dust)라는 용어는 1997년부터 UC Berkely에서 소형 감지기 및 통신 패키지 개발 프로젝트를 이끌어 왔으며, 현재 미국 더스트 사의 CTO인 Kris Pister에 의해 처음으로 사용되었다. 기존의 컴퓨팅 기술의 개발은 작업 처리 시간의 단축에 많은 초점을 두어 온 반면, 스마트 더스트 기술은 주어진 작업의 에너지 소모를 최소화하고 최소화한 크기에 필요한 정보를 수집할 수 있는 센서를 탑재하는 데 주력하고 있다. 또한 스마트 더스트 상호 간의 통신을 위한 네트워크를 적용하여 각 스마트 더스트를 감지하고 서로 효율적으로 컴퓨팅 작용을 할 수 있도록 하고 있다. 
+
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
 - What is IoT? AWS, https://aws.amazon.com/what-is/iot/?nc1=h_ls, 2022-06-21-Tue.
@@ -85,3 +89,4 @@ IoT 게이트웨이는 사물의 부족한 부분을 채워주며 서비스를 �
 - IoT를 위한 네트워크 기술 소개 Youtube, https://youtu.be/X8wMvr5hL5E, 2022-07-14-Thu.
 - IoT Gateway LG CNS KR, https://blog.lgcns.com/1120, 2022-07-14-Thu.
 - IoT Platform OneBox, https://www.design-reuse.com/news/33189/freescale-arm-oracle-one-box-iot-gateway.html, 2022-07-14-Thu.
+- Smart Dust Blog KR, https://www.itfind.or.kr/WZIN/jugidong/1140/114004.htm, 2022-07-14-Thu.
