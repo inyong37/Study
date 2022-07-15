@@ -151,6 +151,23 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 ---
 
+### [NFC](http://nearfieldcommunication.org/)
+
+Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
+
+### [Bluetooth](https://www.bluetooth.com/)
+
+#### Bluetooth Classic
+
+The Bluetooth Classic radio, also referred to as Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR), is a low power radio that streams data over 79 channels in the 2.4GHz unlicensed industrial, scientific, and medical (ISM) frequency band. Supporting point-to-point device communication, Bluetooth Classic is mainly used to enable wireless audio streaming and has become the standard radio protocol behind wireless speakers, headphones, and in-car entertainment systems. The Bluetooth Classic radio also enables data transfer applications, including mobile printing.
+
+#### Bluetooth Low Energy (LE)
+
+The Bluetooth Low Energy (LE) radio is designed for very low power operation. Transmitting data over 40 channels in the 2.4GHz unlicensed ISM frequency band, the Bluetooth LE radio provides developers a tremendous amount of flexibility to build products that meet the unique connectivity requirements of their market. Bluetooth LE supports multiple communication topologies, expanding from point-to-point to broadcast and, most recently, mesh, enabling Bluetooth technology to support the creation of reliable, large-scale device networks. While initially known for its device communications capabilities, Bluetooth LE is now also widely used as a device positioning technology to address the increasing demand for high accuracy indoor location services. Bluetooth LE now includes features that enable one device to determine the presence, distance, and direction of another device.
+
+
+---
+
 #### Reference
 - Access Point, https://m.blog.naver.com/PostView.nhn?blogId=twers&logNo=50118628879&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-17-Fri.
 - Wireless Access Point Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8, 2020-07-17-Fri.
@@ -195,3 +212,5 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 - Zigbee TI, https://www.ti.com/wireless-connectivity/zigbee/overview.html, 2022-07-13-Wed.
 - Z-Wave TechTarget, https://www.techtarget.com/iotagenda/definition/Z-Wave, 2022-07-13-Wed.
 - Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog, https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/, 2022-07-13-Wed.
+- NFC, http://nearfieldcommunication.org/, 2022-07-15-Fri.
+- Bluetooth, https://www.bluetooth.com/, 2022-07-15-Fri.
