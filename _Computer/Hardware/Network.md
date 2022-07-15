@@ -105,6 +105,8 @@ A device to increase transmission distance by amplifying the signal; used in bas
 
 ## Server | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
+---
+
 ### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
 A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks and can operate at any of the seven layers of the open systems interconnection model (OSI).
 
@@ -129,9 +131,7 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 
 ---
 
-### Bluetooth | [IEEE](https://ieeexplore.ieee.org/document/1368913)
-
-Bluetooth is a standard for short range, low power, and low cost wireless communication that uses radio technology. Over 2100 compaines around the world already support Bluetooth technology. The wireless personal area network (WPAN) technology, based on the Bluetooth specification, is now an IEEE standard under the denomination of 802.15 WPANs. This work presents an overview about the Bluetooth communication. Bluetooth wireless technology encompasses several key points that facilitate its widespread adoption: 1) it is an open specification that is publicly available and royalty free; 2) its short-range wireless capability allows peripheral devices to communicate over a single air-interface, replacing the cables that use connectors with a multitude of shapes, sizes and numbers of pins; 3) Bluetooth supports both voice and data, making it an ideal technology to enable many types of devices to communicate; and 4) Bluetooth uses an unregulated frequency band available anywhere in the world.. To fully realize the Bluetooth vision, full networking of multiple Bluetooth devices is required. This leads to the investigation of Bluetooth scatternets, which must address ascatternet formation and reconfiguration, scheduling, and routing issues.
+## Wireless | [WiKi](https://en.wikipedia.org/wiki/Wireless)
 
 ### Zigbee | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
 
@@ -139,7 +139,7 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 ### Z-Wave | [TechTarget](https://www.techtarget.com/iotagenda/definition/Z-Wave)
 
-### Bluetooth, WiFi, Zigbee, and Z-Wave in IoT | [Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
+#### Bluetooth, WiFi, Zigbee, and Z-Wave in IoT | [Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
 
 - Bluetooth: transfer of voice and data; up to 2Mbps; 5.0 version 2.5 times less consume than the previous version; 2.402 and 2.480GHz without license; range depends on the emission power; point-to-point connection or mesh network of few nodes; difficult to cross obstacles; used mainly desktop computers, laptops, mobile or audio output devices, hands-free, sports of home automation devices, and toys, medical technology or industry.
 
@@ -149,13 +149,13 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 - Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
 
----
-
 ### [NFC](http://nearfieldcommunication.org/)
 
 Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
 
-### [Bluetooth](https://www.bluetooth.com/)
+### [Bluetooth](https://www.bluetooth.com/) | [IEEE](https://ieeexplore.ieee.org/document/1368913)
+
+Bluetooth is a standard for short range, low power, and low cost wireless communication that uses radio technology. Over 2100 compaines around the world already support Bluetooth technology. The wireless personal area network (WPAN) technology, based on the Bluetooth specification, is now an IEEE standard under the denomination of 802.15 WPANs. This work presents an overview about the Bluetooth communication. Bluetooth wireless technology encompasses several key points that facilitate its widespread adoption: 1) it is an open specification that is publicly available and royalty free; 2) its short-range wireless capability allows peripheral devices to communicate over a single air-interface, replacing the cables that use connectors with a multitude of shapes, sizes and numbers of pins; 3) Bluetooth supports both voice and data, making it an ideal technology to enable many types of devices to communicate; and 4) Bluetooth uses an unregulated frequency band available anywhere in the world.. To fully realize the Bluetooth vision, full networking of multiple Bluetooth devices is required. This leads to the investigation of Bluetooth scatternets, which must address ascatternet formation and reconfiguration, scheduling, and routing issues.
 
 #### Bluetooth Classic
 
@@ -164,7 +164,6 @@ The Bluetooth Classic radio, also referred to as Bluetooth Basic Rate/Enhanced D
 #### Bluetooth Low Energy (LE)
 
 The Bluetooth Low Energy (LE) radio is designed for very low power operation. Transmitting data over 40 channels in the 2.4GHz unlicensed ISM frequency band, the Bluetooth LE radio provides developers a tremendous amount of flexibility to build products that meet the unique connectivity requirements of their market. Bluetooth LE supports multiple communication topologies, expanding from point-to-point to broadcast and, most recently, mesh, enabling Bluetooth technology to support the creation of reliable, large-scale device networks. While initially known for its device communications capabilities, Bluetooth LE is now also widely used as a device positioning technology to address the increasing demand for high accuracy indoor location services. Bluetooth LE now includes features that enable one device to determine the presence, distance, and direction of another device.
-
 
 ---
 
@@ -214,3 +213,4 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog, https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/, 2022-07-13-Wed.
 - NFC, http://nearfieldcommunication.org/, 2022-07-15-Fri.
 - Bluetooth, https://www.bluetooth.com/, 2022-07-15-Fri.
+- Wireless Wiki, https://en.wikipedia.org/wiki/Wireless, 2022-07-15-Fri.
