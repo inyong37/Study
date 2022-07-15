@@ -149,7 +149,7 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 - Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
 
-### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/)
+### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock (NEWS)](https://www.mk.co.kr/news/it/view/2021/02/133597/)
 
 Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
 
@@ -158,6 +158,8 @@ NFC는 Wi-Fi, 3G, LTE, 전원 또는 수동 페어링이 필요 없는 기술인
 - 카드 모드(Card Mode): NFC 단말이 스마트 카드처럼 동작합니다. 예를 들어, 안드로이드 폰을 교통 카드로 사용하는 경우입니다.
 - 태그 읽기/쓰기(R/W Mode): NFC 단말이 NFC 태그로부터 데이터를 읽거나, NFC 태그에 데이터를 씁니다. 예를 들어 태그 읽어서 특정 웹 사이트로 연결하는 경우입니다.
 - P2P 모드(P2P Mode): NFC 단말이 다른 NFC 단말로부터 데이터를 읽어옵니다. 예를 들어, NFC 단말 사이에 연락처를 전달하는 경우입니다.
+
+주의할 점은 NFC를 활용한 도어록 해제방식은 피해야합니다. NFC의 경우, 한 개의 일련 번호를 대량으로 생산하기 때문에 내 휴대전화가 아닌 다른 사람의 휴대전화로도 열릴 수 있는 개연성이 충분합니다. 한국소비자원은 "교통카드, 신용카드, 휴대전화에 내장된 NFC 카드 등을 등록해 사용하지 말아햐 한다"고 강조했습니다.
 
 #### NFC 태그란?
 
@@ -247,3 +249,4 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - Bluetooth, https://www.bluetooth.com/, 2022-07-15-Fri.
 - Wireless Wiki, https://en.wikipedia.org/wiki/Wireless, 2022-07-15-Fri.
 - NFC NordVPN, https://nordvpn.com/ko/blog/nfc-ran/, 2022-07-15-Fri.
+- 도어락 NEWS KR, https://www.mk.co.kr/news/it/view/2021/02/133597/, 2022-07-15-Fri.
