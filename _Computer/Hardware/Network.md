@@ -149,7 +149,7 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 - Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
 
-### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock (NEWS)](https://www.mk.co.kr/news/it/view/2021/02/133597/)
+### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock NEWS (KR)](https://www.mk.co.kr/news/it/view/2021/02/133597/) | [Mobile Blog (KR)](https://m.blog.naver.com/shin6752/222129724466)
 
 Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
 
@@ -249,4 +249,5 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - Bluetooth, https://www.bluetooth.com/, 2022-07-15-Fri.
 - Wireless Wiki, https://en.wikipedia.org/wiki/Wireless, 2022-07-15-Fri.
 - NFC NordVPN, https://nordvpn.com/ko/blog/nfc-ran/, 2022-07-15-Fri.
-- 도어락 NEWS KR, https://www.mk.co.kr/news/it/view/2021/02/133597/, 2022-07-15-Fri.
+- Doorlock NEWS KR, https://www.mk.co.kr/news/it/view/2021/02/133597/, 2022-07-15-Fri.
+- Mobile NFC Blog KR, https://m.blog.naver.com/shin6752/222129724466, 2022-07-15-Fri.
