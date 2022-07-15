@@ -149,9 +149,41 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 
 - Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
 
-### [NFC](http://nearfieldcommunication.org/)
+### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/)
 
 Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
+
+NFC는 Wi-Fi, 3G, LTE, 전원 또는 수동 페어링이 필요 없는 기술인 RFID에서 발전했습니다. NFC 칩은 보안 카드 또는 각종 결제 및 여행 카드에서 찾을 수 있습니다. 오늘날 대부분의 스마트폰에도 NFC가 있으며 주로 비접촉 모바일 결제에 사용됩니다.
+
+- 카드 모드(Card Mode): NFC 단말이 스마트 카드처럼 동작합니다. 예를 들어, 안드로이드 폰을 교통 카드로 사용하는 경우입니다.
+- 태그 읽기/쓰기(R/W Mode): NFC 단말이 NFC 태그로부터 데이터를 읽거나, NFC 태그에 데이터를 씁니다. 예를 들어 태그 읽어서 특정 웹 사이트로 연결하는 경우입니다.
+- P2P 모드(P2P Mode): NFC 단말이 다른 NFC 단말로부터 데이터를 읽어옵니다. 예를 들어, NFC 단말 사이에 연락처를 전달하는 경우입니다.
+
+#### NFC 태그란?
+
+NFC 태그는 NFC 칩이라고 생각하면 쉽게 이해할 수 있습니다. NFC 태그는 전자 유도의 원리에 따라 작동하므로 충전을 할 필요는 없습니다. 칩 자체는 아주 작으므로 명함, 펜, 열쇠 고리, 손목 밴드 등 많은 곳에 쉽게 손쉽게 설치할 수 있습니다. 또한 마이크로 칩과 여러 겹의 구리선으로 연결되어 있으며 이를 통해 주파수를 발생합니다. 마이크로 칩은 NFC를 지원하는 장치에서 읽을 수 있는 정보를 포함합니다.
+
+또한 NFC 태그에 접촉하면 휴대폰이 매너 모드로 전환하거나, Wi-Fi를 켜기, 혹은 취침 모드로 들어가는 등의 지정한 동작을 수행하도록 할 수도 있습니다.
+
+태그의 복잡성은 다양할 수 있습니다. 단순한 태그는 읽기 및 쓰기 의미 체계만 제공하며 때로는 일회성 프로그래밍 가능한 영역을 사용하여 카드를 읽기 전용으로 설정합니다. 더 복잡한 태그는 수학 연산을 제공하며 섹터에 대한 접속을 인증하기 위해 암호화 하드웨어를 사용합니다. 가장 정교한 태그는 태그에서 실행되는 코드와 복잡한 상호작용이 가능하도록 하는 운영 환경을 포함합니다. 태그에 저장되는 데이터를 다양한 형식으로 작성할 수도 있지만, 다수의 안드로이드 프레임워크 API는 NDEF(NFC Data Exchange Format)라는 NFC Forum 표준을 기반으로 합니다.
+
+#### NFC와 RFID의 차이점
+
+- 수신 범위
+
+NFC는 고작 10cm 정도인 것에 비해 일반적으로 RFID가 NFC보다 수신 범위가 긴데다 RFID는 단방향 통신이고, NFC는 양방향 통신입니다.
+
+- 태그 및 리더 역할의 유동성
+
+RFID는 태그와 리더 역할이 고정되어 있습니다. 예를 들어 결제를 하는 상황에서 RFID는 태그의 역할로서 정보를 내주는 역할만 수행하고 카드 리더기는 RFID에서 정보를 읽는 역할을 수행합니다. 반면 NFC는 상황에 따라 태그와 리더 역할을 유동적으로 변경할 수 있습니다.
+
+#### NFC와 블루투스 차이점
+
+NFC와 Bluetooth는 모두 휴대폰에서 사용할 수 있는 비교적 단거리 통신 기술입니다.
+
+- NFC는 블루투스보다 느린 속도로 작동하고 범위가 훨씬 짧지만 전력을 훨씬 적게 소비하고 페어링이 필요하지 않는다. NFC는 일반적으로 블루투스보다 빠르게 설정되지만 블루투스의 저에너지보다 전송 속도가 낮습니다. 하지만 NFC를 사용하면 수동 구성을 수행하여 장치를 식별하는 대신 두 NFC 장치 간의 연결이 0.1초 이내에 자동으로 설정됩니다. NFC의 최대 데이터 전송 속도 또한 블루투스보다 느립니다.
+
+- 위에 서술되어 있듯이, NFC의 최대 수신 거리가 짧으므로 수신 거리 미만이면 연결이 자동으로 끊기기 때문에, 원치 않는 끼어들기의 가능성이 줄어듭니다. 신호를 전송하는 물리적 장치와의 상관 관계를 복잡하게 만드는 사람이 많고 혼잡한 지역에 특히 적합합니다.
 
 ### [Bluetooth](https://www.bluetooth.com/) | [IEEE](https://ieeexplore.ieee.org/document/1368913)
 
@@ -214,3 +246,4 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - NFC, http://nearfieldcommunication.org/, 2022-07-15-Fri.
 - Bluetooth, https://www.bluetooth.com/, 2022-07-15-Fri.
 - Wireless Wiki, https://en.wikipedia.org/wiki/Wireless, 2022-07-15-Fri.
+- NFC NordVPN, https://nordvpn.com/ko/blog/nfc-ran/, 2022-07-15-Fri.
