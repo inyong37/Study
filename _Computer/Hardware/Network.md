@@ -17,6 +17,12 @@ Data networks are used extensively throughout the world for communication betwee
 
 ### Compus Area Networks (CAN) | [Wiki](https://en.wikipedia.org/wiki/Campus_network)
 
+### Wireless Personal Area Network (WPAN) | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
+
+A small-scale wireless network that requires little or no infrastructure and operates within a short range. A WPAN is typically used by a few devices in a single room instead of connecting the devices with cables.
+
+### Personal Area Network (PAN) | [CSRC](https://csrc.nist.gov/glossary/term/personal_area_network)
+
 ### Virual Private Networks (VPN) | [Wiki](https://en.wikipedia.org/wiki/Virtual_private_network)
 
 ### Internet | [Wiki](https://en.wikipedia.org/wiki/Internet)
@@ -251,3 +257,5 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - NFC NordVPN, https://nordvpn.com/ko/blog/nfc-ran/, 2022-07-15-Fri.
 - Doorlock NEWS KR, https://www.mk.co.kr/news/it/view/2021/02/133597/, 2022-07-15-Fri.
 - Mobile NFC Blog KR, https://m.blog.naver.com/shin6752/222129724466, 2022-07-15-Fri.
+- Wireless Personal Area Network (WPAN) CSRC, https://csrc.nist.gov/glossary/term/wireless_personal_area_network, 2022-07-18-Mon.
+- Personal Area Network (PAN) CSRC, https://csrc.nist.gov/glossary/term/personal_area_network, 2022-07-18-Mon.
