@@ -146,7 +146,8 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 
 ## Wireless | [WiKi](https://en.wikipedia.org/wiki/Wireless) | [Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
 
-### Wireless Fidelity (Wi-Fi, WiFi)
+### Wireless Fidelity (Wi-Fi, WiFi) | [WiFi Alliance](https://www.wi-fi.org/) | [Papers](https://www.wi-fi.org/discover-wi-fi/papers)
+
 
 A wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telehony. The frequencies used are different, specifically the WiFi uses 2.4GHz and 5GHz.
 
@@ -292,3 +293,4 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - Mobile NFC Blog KR, https://m.blog.naver.com/shin6752/222129724466, 2022-07-15-Fri.
 - Wireless Personal Area Network (WPAN) CSRC, https://csrc.nist.gov/glossary/term/wireless_personal_area_network, 2022-07-18-Mon.
 - Personal Area Network (PAN) CSRC, https://csrc.nist.gov/glossary/term/personal_area_network, 2022-07-18-Mon.
+- Wi-Fi Alliance, https://www.wi-fi.org/, 2022-07-18-Mon.
