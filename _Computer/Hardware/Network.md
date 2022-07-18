@@ -241,6 +241,16 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 
 ---
 
+### [Matter](https://csa-iot.org/all-solutions/matter/) | [GitHub](https://github.com/project-chip/connectedhomeip)
+
+Matter (formerly Project Connected Home over IP, or Project CHIP) is a new Working Group within the Connectivity Standards Allicance (CSA, formerly Zigbee Alliance). This Working Group plans to develop and promote the adoption of a new, royalty-free connectivity standard to increase compatibility among smart home products, with security as a fundamental design tenet.
+
+The goal of the Matter project is to simplify development for manufacturers and increase compatibility for consumers. The project is built around a shared belief that smart home devices should be secure, reliable, and seamless to use. By building upon Internet Protocol (IP), the project aims to enable communication across smart home devices, mobile apps, and cloud services and to define a specific set of IP-based networking technologies for device certification.
+
+The CSA officially opened the Matter Working Group on January 17, 2020 and is in the process of drafting the specification.
+
+---
+
 #### Reference
 - Access Point, https://m.blog.naver.com/PostView.nhn?blogId=twers&logNo=50118628879&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-17-Fri.
 - Wireless Access Point Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8, 2020-07-17-Fri.
@@ -294,3 +304,5 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 - Wireless Personal Area Network (WPAN) CSRC, https://csrc.nist.gov/glossary/term/wireless_personal_area_network, 2022-07-18-Mon.
 - Personal Area Network (PAN) CSRC, https://csrc.nist.gov/glossary/term/personal_area_network, 2022-07-18-Mon.
 - Wi-Fi Alliance, https://www.wi-fi.org/, 2022-07-18-Mon.
+- Matter, https://csa-iot.org/all-solutions/matter/, 2022-07-18-Mon.
+- Matter GitHub, https://github.com/project-chip/connectedhomeip, 2022-07-18-Mon.
