@@ -37,24 +37,31 @@ Networking hardware, also known as network equipment or computer networking devi
 Core network components interconnect other network components.
 
 ### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+
 An interface providing a compatibliliy between networks by converting transmission speeds, protocols, codes, or security measures.
 
 ### Router | [Wiki](https://en.wikipedia.org/wiki/Router_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
+
 A networking device that forwards data packets between computer networks. Routers perform the "traffic directing" functions on the Internet. A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node. It works on OSI layer 3.
 
 ### Switch | [Wiki](https://en.wikipedia.org/wiki/Network_switch)
+
 A device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. It works on OSI layer 2.
 
 ### Bridge | [Wiki](https://en.wikipedia.org/wiki/Bridging_(networking))
+
 A device that connects multiple network segments. It works on OSI layers 1 and 2.
 
 ### Repeater | [Wiki](https://en.wikipedia.org/wiki/Repeater)
+
 An electronic device that receives a signal and retransmits it at a higher level or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances.
 
 ### Repeater Hub | [Wiki](https://en.wikipedia.org/wiki/Ethernet_hub)
+
 For connecting multiple Ethernet devices together and making them act as a single network segment. It has multiple input/output (I/O) ports, in which a signal introduced at the input of any port appears at the output of every port except the original incoming. A hub works at the physical layer (layer 1) of the OSI model. Repeater hubs also participate in collision detection, forwarding a jam signal to all ports if it detects a collision. Hubs are now largely obsolete, having been replaced by network switches except in very old installations or specialized applications.
 
 ### :bulb: Wireless Access Point (WAP) | [Wiki](https://en.wikipedia.org/wiki/Wireless_access_point) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
+
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다. 
 
 ### :bulb: Setup ipTIME AP (ex. N104T)
@@ -137,23 +144,42 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 
 ---
 
-## Wireless | [WiKi](https://en.wikipedia.org/wiki/Wireless)
+## Wireless | [WiKi](https://en.wikipedia.org/wiki/Wireless) | [Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
+
+### Wireless Fidelity (Wi-Fi, WiFi)
+
+A wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telehony. The frequencies used are different, specifically the WiFi uses 2.4GHz and 5GHz.
+
+- It operates in the 2.4GHz and 5GHz frequency band.
+- Its range depends on many factors but is much greater than Bluetooth.
+- It allows the Internet connection of different devices and can also be used to connect devices to each other within a network.
+- Maximum data transmission rate 9.6Gbps for WiFi 6.
+- Difficulty crossing certain obstacles and may find interference with other waves emitting at the same frequencies.
+- It use is perhaps the most widespread and hence we can find a lot of connected devices today.
 
 ### Zigbee | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
 
 Zigbee is a standards-based wireless mesh network used widely in building automation, lighting, smart city, medical and asset tracking. Scalabe Zigbee offers the low power mesh solutions enabling multi-year coin cell use or battery-less operation across industrial temperatures. 
 
+- Requires the use of a bridge or hub device.
+- Mesh network system.
+- The devices do not connect individually to the Internet.
+- It offers low energy consumption.
+- Reduced range, between 10 and 20 meters.
+- Very low data transfer speeds, defined speed of 250Kbps.
+- Mainly for home use, sensors, data collections that do not require high speeds, toys, etc.
+- It is an open protocol.
+
 ### Z-Wave | [TechTarget](https://www.techtarget.com/iotagenda/definition/Z-Wave)
 
-#### Bluetooth, WiFi, Zigbee, and Z-Wave in IoT | [Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
-
-- Bluetooth: transfer of voice and data; up to 2Mbps; 5.0 version 2.5 times less consume than the previous version; 2.402 and 2.480GHz without license; range depends on the emission power; point-to-point connection or mesh network of few nodes; difficult to cross obstacles; used mainly desktop computers, laptops, mobile or audio output devices, hands-free, sports of home automation devices, and toys, medical technology or industry.
-
-- WiFi (Wireless Fidelity): a wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telephony; 2.4GHz and 5GHz; 9.6Gbps (6.0); possible to extend its reach with the use of directional antennas or repeaters.
-
-- Zigbee: low-energy radio waves to allow certain devices to communicate with each other; possible to create a small wireless network with devices that connect to each other though a mesh or mesh network; without the need for each one to be connected to the router individually; necessary to use a bridge or hub, a device that will be the one that connects to the Internet and is responsible for distributing the signal among the other devices connected to it; helps avoid network saturation; simpler and less expensive than Bluetooth or WiFi; offers low energy consumption; need to use a device that acts as a bridge; the transmission distances are smaller between 10 and 20 meters; open protocol; only compatible with their own devices; very low data transfer speed 250Kbps; home automation, wireless network sensors, smoke or motion sensors, medical data collection and even specific industrial control systems; supports 65000 devices connection; uses 2.4GHz frequency.
-
-- Z-Wave: with Zigbee alternative to WiFi or Bluetooth; mesh network system; private protocol; compatible under it; greate range up to 100 meters; greater stability in connections; supports 200 devices connection; need a hub or a bridge to connecnt and manage the IoT devices; different radio frequencies in different countries; 100Kbps.
+- Requires the use of a bridge or hub device.
+- Mesh network system.
+- The devices do not connect individually to the Internet.
+- It offers low energy consumption.
+- Maximum reach 100m.
+- Very low data transfer speeds, maximum speed of 100Kbps.
+- Mainly for home use, control of household items, sensors, electronic security elements, start-up of electronic devices or entertainment.
+- It is a closed protocol.
 
 ### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock NEWS (KR)](https://www.mk.co.kr/news/it/view/2021/02/133597/) | [Mobile Blog (KR)](https://m.blog.naver.com/shin6752/222129724466)
 
@@ -204,6 +230,13 @@ The Bluetooth Classic radio, also referred to as Bluetooth Basic Rate/Enhanced D
 #### Bluetooth Low Energy (LE)
 
 The Bluetooth Low Energy (LE) radio is designed for very low power operation. Transmitting data over 40 channels in the 2.4GHz unlicensed ISM frequency band, the Bluetooth LE radio provides developers a tremendous amount of flexibility to build products that meet the unique connectivity requirements of their market. Bluetooth LE supports multiple communication topologies, expanding from point-to-point to broadcast and, most recently, mesh, enabling Bluetooth technology to support the creation of reliable, large-scale device networks. While initially known for its device communications capabilities, Bluetooth LE is now also widely used as a device positioning technology to address the increasing demand for high accuracy indoor location services. Bluetooth LE now includes features that enable one device to determine the presence, distance, and direction of another device.
+
+- It operates in the free ISM band between 2.402 and 2.480GHz, so it does not require a license.
+- Its range depends on the emission power available to the transmitting equipment and whether we are indoors or outdoors.
+- It is oriented to the point-to-point connection or mesh network of few nodes.
+- Maximum data transmission speed 2Mbps.
+- Difficulty crossing certain obstacles such as walls.
+- It use is mainly focused on desktop computers, laptops, mobile or audio output devices, hands-free, sports or home automation devices and even toys, medical technology or industry.
 
 ---
 
