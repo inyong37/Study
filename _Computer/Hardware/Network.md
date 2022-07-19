@@ -243,7 +243,7 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 
 ### [Matter](https://csa-iot.org/all-solutions/matter/) | [GitHub](https://github.com/project-chip/connectedhomeip)
 
-Matter (formerly Project Connected Home over IP, or Project CHIP) is a new Working Group within the Connectivity Standards Allicance (CSA, formerly Zigbee Alliance). This Working Group plans to develop and promote the adoption of a new, royalty-free connectivity standard to increase compatibility among smart home products, with security as a fundamental design tenet.
+Matter (formerly Project Connected Home over IP, or Project CHIP) is a new Working Group within the Connectivity Standards Alliance (CSA, formerly Zigbee Alliance). This Working Group plans to develop and promote the adoption of a new, royalty-free connectivity standard to increase compatibility among smart home products, with security as a fundamental design tenet.
 
 The goal of the Matter project is to simplify development for manufacturers and increase compatibility for consumers. The project is built around a shared belief that smart home devices should be secure, reliable, and seamless to use. By building upon Internet Protocol (IP), the project aims to enable communication across smart home devices, mobile apps, and cloud services and to define a specific set of IP-based networking technologies for device certification.
 
