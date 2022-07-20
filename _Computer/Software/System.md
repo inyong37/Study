@@ -47,7 +47,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
 - MINIX 3
 - Linux
   - Debian
-  - Ubuntu
+  - Ubuntu | Ubuntu Core
   - Ubuntu MATE
   - Linux Mint
   - Fedora (by Red Hat of IBM)
@@ -157,7 +157,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Debian](https://www.debian.org/)*
 
-### *[Ubuntu](https://ubuntu.com/)*
+### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core](https://ubuntu.com/core)
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
