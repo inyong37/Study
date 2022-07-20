@@ -143,7 +143,32 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
 - Updates:
   - RAUC for Over The Air (OTA) and USB updates
 - Security:
-  - AppArmor Linux kernel security module  
+  - AppArmor Linux kernel security module
+
+#### Home Assistant Core | [GitHub](https://github.com/home-assistant/core)
+
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+
+The system is built using a modular approach so support for other devices or actions can be implemented easily.
+
+##### Feature integrations
+
+- Amazon Alexa
+- ecobee
+- ESPHome
+- Google Assistant
+- Google Cast
+- HomeKit
+- IKEA TRÅDFRI
+- Lutron Caséta
+- MQTT
+- Philips Hue
+- Plex Media Server
+- Shelly
+- SmartThings
+- Sonos
+- Z-Wave JS
+- Zigbee Home Automation
 
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
@@ -164,3 +189,4 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
 - Home Assistant GitHub, https://github.com/home-assistant, 2022-07-20-Wed.
 - Home Assistant, https://www.home-assistant.io/, 2022-07-20-Wed.
 - Home Assistant Operating System GitHub, https://github.com/home-assistant/operating-system, 2022-07-20-Wed.
+- Home Assistant Core GitHub, https://github.com/home-assistant/core, 2022-07-20-Wed.
