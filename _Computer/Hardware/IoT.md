@@ -190,3 +190,5 @@ The system is built using a modular approach so support for other devices or act
 - Home Assistant, https://www.home-assistant.io/, 2022-07-20-Wed.
 - Home Assistant Operating System GitHub, https://github.com/home-assistant/operating-system, 2022-07-20-Wed.
 - Home Assistant Core GitHub, https://github.com/home-assistant/core, 2022-07-20-Wed.
+- 월패드 IoT 스마트홈과 차이점 Samsung Electronics, https://r1.community.samsung.com/t5/smartthings/%EC%9B%94%EA%B0%84%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9B%94%ED%8C%A8%EB%93%9C-iot-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90/td-p/3588879, 2022-07-20-Wed.
+- 삼성 SmartThings로 IoT 기능 활용하기, https://blog.naver.com/PostView.nhn?blogId=onlygod831&logNo=222008735703&parentCategoryNo=&categoryNo=38&viewDate=&isShowPopularPosts=true&from=search, 2022-07-20-Wed.
