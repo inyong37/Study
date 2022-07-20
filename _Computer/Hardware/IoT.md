@@ -137,3 +137,4 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - Samsung Electroncis SmartThings How to Connect, https://www.samsungsvc.co.kr/solution/22417, 2022-07-20-Wed.
 - Home Automation Wiki, https://en.wikipedia.org/wiki/Home_automation, 2022-07-20-Wed.
 - Home Assistant KR, https://hakorea.github.io/, 2022-07-20-Wed.
+- Collection of Home Assistant Postings KR, https://www.clien.net/service/board/cm_iot/14621402, 2022-07-20-Wed.
