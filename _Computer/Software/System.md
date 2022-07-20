@@ -50,8 +50,8 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - Ubuntu
   - Ubuntu MATE
   - Linux Mint
-  - Red Hat Enterprise Linux (by Red Hat of IBM)
   - Fedora (by Red Hat of IBM)
+  - Red Hat Enterprise Linux (by Red Hat of IBM)
   - CentOS
 - macOS
   - Mac OS
@@ -161,11 +161,11 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
+### *[Fedora](https://getfedora.org/)*
+
 ### *[Linux Mint](https://www.linuxmint.com/)*
 
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
-
-### *[Fedora](https://getfedora.org/)*
 
 ### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
 
