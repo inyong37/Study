@@ -120,7 +120,30 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 7. 가전제품의 종류(공기청정기, 냉장고, 에어컨, 세탁기, 에어드레서)에 따라 AP 모드로 설정하세요. 가전제품의 디스플레이에 AP가 표시되고 연결이 진행됩니다.
 8. 스마트폰과 가전제품의 연결이 완료되었습니다. 앱에서 연결 완료 메세지를 확인한 후 완료를 탭하세요.
 
-### Home Assistant | [KR](https://hakorea.github.io/)
+### [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
+
+#### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
+
+Home Assistant Operating System (formerly HassOS) is a Linux based operating system optimized to host Home Assistant and its Add-ons.
+
+Home Assistant Operating System uses Docker as Container engine. It by default deploys the Home Assistant Supervisor as a container. Home Assistant Supervisor in turn uses the Docer container engine to control Home Assistant Core and Add-Ons in seperate containers. Home Assistant Operating System is not based on a regular Linux distribution like Ubuntu. It is build using Buildroot and it is optimized to run Home Assistant. It targets single board copmute (SBC) devices like the Raspberry Pi or ODROID but also supports x84-64 systems with UEFI.
+
+##### Components
+
+- Bootloader:
+  - Barebox for devices that support UEFI
+  - U-Boot for devices that don't support UEFI
+- Operating System:
+  - Buildroot LTS Linux
+- File Systems:
+  - SquashFS for read-only file systems (using LZ4 compression)
+  - ZRAM for `/tmp`, `/var` and swap (using LZ4 compression)
+- Container Platform:
+  - Docker Engine for running Home Assistant components in containers
+- Updates:
+  - RAUC for Over The Air (OTA) and USB updates
+- Security:
+  - AppArmor Linux kernel security module  
 
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
@@ -138,3 +161,6 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - Home Automation Wiki, https://en.wikipedia.org/wiki/Home_automation, 2022-07-20-Wed.
 - Home Assistant KR, https://hakorea.github.io/, 2022-07-20-Wed.
 - Collection of Home Assistant Postings KR, https://www.clien.net/service/board/cm_iot/14621402, 2022-07-20-Wed.
+- Home Assistant GitHub, https://github.com/home-assistant, 2022-07-20-Wed.
+- Home Assistant, https://www.home-assistant.io/, 2022-07-20-Wed.
+- Home Assistant Operating System GitHub, https://github.com/home-assistant/operating-system, 2022-07-20-Wed.
