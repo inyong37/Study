@@ -91,6 +91,21 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 - setup_payload: QR code setup data encode / decode library
 - NFC Tag Reading
 
+### Samsung Electronics SmartThings | [How to Connect](https://www.samsungsvc.co.kr/solution/22417)
+
+1. SmartThings에 등록할 가전 제품의 전원을 켜세요.
+2. 스마트폰에서 SmartThings 앱을 실행하세요.
+3. SmartThings 홈 화면에서 + > 디바이스 추가를 탭하세요.
+4. 디바이스 추가 화면에서 다음과 같이 가전제품을 선택하세요.
+  - 직접 선택: 등록할 Samsung 가전제품 유형을 탭하세요.
+  - 자동 검색: 자동 검색을 탭한 후 연결 가능한 디바이스 목록에서 등록할 가전제품을 탭하세요.
+  - 스마트 홈 어댑터 선택: 외장형 동글을 사용하는 공기청정기, 냉장고, 에어컨의 경우 제품 종류 대신 스마트 홈 어댑터(동글)를 선택하세요.
+    - 참고: 일부 가전제품을 SmartThings에 연결하려면 외장형 동글을 별도로 설치해야 합니다. 가전제품과 함께 제공된 사용설명서를 참조하여 동글 설치 지원 여부 및 정확한 설치 위치를 확인하세요.  
+5. 디바이스 시작하기 화면에서 다음을 탭하세요.
+6. 가전제품이 설치된 장소와 방을 선택한 후 다음을 탭하세요.
+7. 가전제품의 종류(공기청정기, 냉장고, 에어컨, 세탁기, 에어드레서)에 따라 AP 모드로 설정하세요. 가전제품의 디스플레이에 AP가 표시되고 연결이 진행됩니다.
+8. 스마트폰과 가전제품의 연결이 완료되었습니다. 앱에서 연결 완료 메세지를 확인한 후 완료를 탭하세요.
+
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
 - What is IoT? AWS, https://aws.amazon.com/what-is/iot/?nc1=h_ls, 2022-06-21-Tue.
@@ -103,3 +118,4 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 - Smart Dust Blog KR, https://www.itfind.or.kr/WZIN/jugidong/1140/114004.htm, 2022-07-14-Thu.
 - Matter Blog, https://csa-iot.org/newsroom/testing-one-two-three/, 2022-07-19-Tue.
 - Matter src, https://github.com/project-chip/connectedhomeip/tree/master/src, 2022-07-19-Tue.
+- Samsung Electroncis SmartThings How to Connect, https://www.samsungsvc.co.kr/solution/22417, 2022-07-20-Wed.
