@@ -120,6 +120,8 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 7. 가전제품의 종류(공기청정기, 냉장고, 에어컨, 세탁기, 에어드레서)에 따라 AP 모드로 설정하세요. 가전제품의 디스플레이에 AP가 표시되고 연결이 진행됩니다.
 8. 스마트폰과 가전제품의 연결이 완료되었습니다. 앱에서 연결 완료 메세지를 확인한 후 완료를 탭하세요.
 
+### Home Assistant | [KR](https://hakorea.github.io/)
+
 #### Reference
 - Internet of Things Wiki, https://en.wikipedia.org/wiki/Internet_of_things, 2022-06-22-Wed.
 - What is IoT? AWS, https://aws.amazon.com/what-is/iot/?nc1=h_ls, 2022-06-21-Tue.
@@ -134,3 +136,4 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - Matter src, https://github.com/project-chip/connectedhomeip/tree/master/src, 2022-07-19-Tue.
 - Samsung Electroncis SmartThings How to Connect, https://www.samsungsvc.co.kr/solution/22417, 2022-07-20-Wed.
 - Home Automation Wiki, https://en.wikipedia.org/wiki/Home_automation, 2022-07-20-Wed.
+- Home Assistant KR, https://hakorea.github.io/, 2022-07-20-Wed.
