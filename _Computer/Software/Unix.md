@@ -132,6 +132,16 @@ $ nm foo.o
   - format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
 - Target acrchive file shows libraries as object files
 
+### [QEMU](https://www.qemu.org/)
+
+A generic and open source machine emulator and virtualizer
+
+### KVM | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
+
+Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specifically, KVM lets you turn Linux into a hypervision that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs).
+
+KVM is part of Linux. If you've got Linux 2.6.20 or newer, you've got KVM. KVM was first announced in 2006 and merged into the mainline Linux kernel version a year later. Because KVM is part of existing Linux code, it immediately benefits from every new Linux feature, fix, and advancement without additional engineering.
+
 #### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
@@ -162,3 +172,5 @@ $ nm foo.o
 - ln Blog KR, https://webdir.tistory.com/148, 2020-08-13-Thu.
 - Dependency Management, https://architecture101.blog/2008/12/07/dependency_managment/, 2020-08-13-Thu.
 - Command nm Blog KR, https://devanix.tistory.com/190, 2021-03-31-Wed.
+- QEMU, https://www.qemu.org/, 2022-07-20-Wed.
+- What is KVM Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2022-07-20-Wed.
