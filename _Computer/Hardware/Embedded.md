@@ -1,7 +1,11 @@
 # Embedded System | [Wiki](https://en.wikipedia.org/wiki/Embedded_system)
+
 - Summary
-  - 특정 기능을 위한 시스템이다(일반적인 용도의 PC와 차이가 있다). Dedicated function system (contrast in general personal computer)
-  - 시간 제약 조건을 포함한 시스템이 있다(i.e. 자동차 운전 시스템 등의 real-time deadline이 존재하는 시스템). Constraint in time  
+  - Dedicated function system (contrast in general personal computer).
+  - Constraint in time.
+- 요약
+  - 특정 기능을 위한 시스템이다(일반적인 용도의 PC와 차이가 있다). 
+  - 시간 제약 조건을 포함한 시스템이 있다(i.e. 자동차 운전 시스템 등의 real-time deadline이 존재하는 시스템). 
 
 An embedded system is a computer system-a combination of a computer processor, computer memory and input/output peripheral devices-that has a dedicated function within a larger mechanical or electronic system. It is embedded as part of a complete device often including eletrical or electronic hardware and mechanical parts. Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Embedded systems control many devices in common use today. In 2009, it was estimated that ninety-eight percent of all micorprocessors manufactured were used in embedded systems.
 
@@ -48,6 +52,16 @@ All of the topics and examples presented in this book are applicable to the desi
 
 ---
 
+## Embedded Operating System | [TechTarget](https://www.techtarget.com/iotagenda/definition/embedded-operating-system)
+
+An embedded operating system is a specialized operating system designated to perform a specific task for a device that is not a computer. The main job of an embedded OS is to run the code that allows the device to do its job. The embeded OS also makes the device's hardware accessible to software that is running on top of the OS.
+
+An embedded OS often works within an embedded system. An embedded system is a computer that supports a machine. It performs one task in the bigger machine. Examples include computer systems in cars, traffic lights, digital televisions, ATMs, airplane controls, point of sale (POS) terminals, digital cameras, GPS navigation systems, elevators and Smart meters.
+
+Networks of devices containing embedded systems make up the internet of things (IoT). THe embedded systems perform basic operations inside IoT devices, such as transferring data over a network without human interaction.
+
+---
+
 ### [Bootlin](https://bootlin.com/)
 
 Bootlin is an engineering company specialized in embedded Linux and more generally in Free and OPen Source software for embedded systems.
@@ -61,3 +75,4 @@ Bootlin is an engineering company specialized in embedded Linux and more general
 - bootlin, https://bootlin.com/company/about-us/, 2022-07-21-Thu.
 - bootlin, https://bootlin.com/, 2022-07-21-Thu.
 - Embedded Linux Conference, https://events.linuxfoundation.org/open-source-summit-europe/about/embedded-linux-conference/, 2022-07-21-Thu.
+- Embedded Operating System, https://www.techtarget.com/iotagenda/definition/embedded-operating-system, 2022-07-21-Thu.
