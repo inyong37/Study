@@ -274,7 +274,11 @@ The NFC standards offer support for many different protocols, and there are diff
 
 Android 4.4 and higher supports several protocols that are common in the market today. Many existing contactless cards are already based on these protocols, such as contactless payment cards. These protocols are also supported by many NFC readers in the market today, including Android NFC devices functioning as readers themselves (`IsoDep` class). This allows you to build and deploy an end-to-end NFC solution around the HCE using only Android-powered devices.
 
-Specifically, Android 4.4 and higher supports emulating cards that are based on the NFC-Forum ISO-DEP specification (based on ISO/IEC 14443-4) and 
+Specifically, Android 4.4 and higher supports emulating cards that are based on the NFC-Forum ISO-DEP specification (based on ISO/IEC 14443-4) and process Application Protocol Data Units (APDUs) as defined in the ISO/IEC 7816-4 specification. Android mandates emulating ISO-DEP only on top of the Nfc-A (ISO/IEC 14443-3 Type A) technology. Support for Nfc-B (ISO/IEC 14443-4 Type B) technology is optional.
+
+### HCE services
+
+The HCE architecture in Android is based around Android `Service` components (known as HCE services). One of the key advantages of a service is that it can run in the background without any user interface. This is a natural fit for many HCE applications, like loyality or transit cards, which the user shouldn't need to launch an app to use. Instead, tapping the device against the NFC reader starts the correct service if it is not already running and executes the transaction in the background. Of course, you are free to launch additional UI (such as user notifications) from your service when appropriate.
 
 ---
 
