@@ -41,22 +41,25 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - AIX (by IBM)
   - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984)
   - SunOS (by Sun Microsystems)
-  - Solaris (by Oracle)
-  - NeXTSTEP (by NeXT)
-  - FreeBSD (by Computer Systems Research Group in University of California, Berkeley, at 1977 ~ 1995)
+  - BSD (by Computer Systems Research Group in University of California, Berkeley, at 1977 ~ 1995)
+    - Solaris (by Oracle)
+    - FreeBSD (focused on processing power)
+    - OpenBSD (focused on security)
+    - NeXTSTEP (by NeXT)
+      - Darwin (by Apple, based on XNU: FreeBSD and Mach)
+      - Mac OS (not based on Darwin)
+      - OS X
+      - macOS 
 - MINIX 3
 - Linux
   - Debian
-  - Ubuntu | Ubuntu Core
-  - Ubuntu MATE
-  - Linux Mint
-  - Fedora (by Red Hat of IBM)
-  - Red Hat Enterprise Linux (by Red Hat of IBM)
-  - CentOS
-- macOS
-  - Mac OS
-  - OS X
-  - macOS
+    - Ubuntu (GNOME 3) | Ubuntu Core
+    - Ubuntu MATE (GNOME 2)
+    - Linux Mint
+    - Raspberry Pi OS (formely Raspbian)
+  - Fedora (by Red Hat of IBM, formely Red Hat Linux)
+    - Red Hat Enterprise Linux (by Red Hat of IBM)
+    - CentOS
 - z/OS (by IBM)
 
 ----------
