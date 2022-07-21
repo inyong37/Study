@@ -249,9 +249,36 @@ The goal of the Matter project is to simplify development for manufacturers and 
 
 The CSA officially opened the Matter Working Group on January 17, 2020 and is in the process of drafting the specification.
 
+
 ---
 
-#### Reference
+## Host-based card emulation overview | [Android](https://developer.android.com/guide/topics/connectivity/nfc/hce)
+
+Many Android-powered devices that offer NFC functionality already support NFC card emulation. In most cases, the card is emulated by a separate chip in the device, called a secure element. Many SIM cards provided by wireless carriers also contain a secure element.
+
+Android 4.4 and higher provide an additional method of card emulation that doesn't involve a secure element, called host-based card emulation. This allows any Android application to emulate a card and talk directly to the NFC reader. This topic describes how host-based card emulation (HCE) works on Android and how you can develop an app that emulates an NFC card using this technique.
+
+### Card emulation with a secure element
+
+When NFC card emulation is provided using a secure element, the card to be emulated is provisioned into the secure elemtn on the device through an Android application. Then, when the user holds the device over an NFC terminal, the NFC controller in the device routes all data from the reader directly to the secure element. 
+
+The secure element itself performs the communication with the NFC terminal, and no Android application is involved in the transaction. After the transaction is complete, an Android application can query the secure element directly for the transaction status and notify the user.
+
+### Host-based card emulation
+
+When an NFC card is emulated using host-based card emulation, the data is routed directly to the host CPU instead of being routed to a secure element.
+
+### Supported NFC cards and protocols
+
+The NFC standards offer support for many different protocols, and there are different types of cards that you can emulate.
+
+Android 4.4 and higher supports several protocols that are common in the market today. Many existing contactless cards are already based on these protocols, such as contactless payment cards. These protocols are also supported by many NFC readers in the market today, including Android NFC devices functioning as readers themselves (`IsoDep` class). This allows you to build and deploy an end-to-end NFC solution around the HCE using only Android-powered devices.
+
+Specifically, Android 4.4 and higher supports emulating cards that are based on the NFC-Forum ISO-DEP specification (based on ISO/IEC 14443-4) and 
+
+---
+
+### Reference
 - Access Point, https://m.blog.naver.com/PostView.nhn?blogId=twers&logNo=50118628879&proxyReferer=https:%2F%2Fwww.google.com%2F, 2020-07-17-Fri.
 - Wireless Access Point Wiki KR, https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8, 2020-07-17-Fri.
 - Access Point, http://www.ktword.co.kr/abbr_view.php?m_temp1=2237, 2020-07-17-Fri.
@@ -306,3 +333,4 @@ The CSA officially opened the Matter Working Group on January 17, 2020 and is in
 - Wi-Fi Alliance, https://www.wi-fi.org/, 2022-07-18-Mon.
 - Matter, https://csa-iot.org/all-solutions/matter/, 2022-07-18-Mon.
 - Matter GitHub, https://github.com/project-chip/connectedhomeip, 2022-07-18-Mon.
+- Host-based card emulation overview Anroid, https://developer.android.com/guide/topics/connectivity/nfc/hce, 2022-07-21-Thu.
