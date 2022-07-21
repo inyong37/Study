@@ -46,7 +46,17 @@ All of the topics and examples presented in this book are applicable to the desi
 ## [Book: Embedded System Design](https://books.google.co.kr/books?id=BjNZXwH7HlkC&pg=PA2&redir_esc=y#v=onepage&q&f=false)
 - What is an embedded system?
 
-#### Reference
+---
+
+### [Bootlin](https://bootlin.com/)
+
+Bootlin is an engineering company specialized in embedded Linux and more generally in Free and OPen Source software for embedded systems.
+
+---
+
+### Reference
 - Embedded System Wiki, https://en.wikipedia.org/wiki/Embedded_system, 2022-06-22-Wed.
 - Programming Embedded Systems with C and GNU Development Tools 2nd Ed., O’REILLY, 2006, https://books.google.co.kr/books?id=nPZaPJrw_L0C&pg=PA1&redir_esc=y&hl=ko#v=onepage&q&f=false, 2022-06-21-Tue.
 - Embedded Systems Design 2nd Ed., Newnes, 2003, https://books.google.co.kr/books?id=BjNZXwH7HlkC&pg=PA2&redir_esc=y#v=onepage&q&f=false, 2022-06-21-Tue.
+- bootlin, https://bootlin.com/company/about-us/, 2022-07-21-Thu.
+- bootlin, https://bootlin.com/, 2022-07-21-Thu.
