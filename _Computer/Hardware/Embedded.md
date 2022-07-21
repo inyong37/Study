@@ -60,3 +60,4 @@ Bootlin is an engineering company specialized in embedded Linux and more general
 - Embedded Systems Design 2nd Ed., Newnes, 2003, https://books.google.co.kr/books?id=BjNZXwH7HlkC&pg=PA2&redir_esc=y#v=onepage&q&f=false, 2022-06-21-Tue.
 - bootlin, https://bootlin.com/company/about-us/, 2022-07-21-Thu.
 - bootlin, https://bootlin.com/, 2022-07-21-Thu.
+- Embedded Linux Conference, https://events.linuxfoundation.org/open-source-summit-europe/about/embedded-linux-conference/, 2022-07-21-Thu.
