@@ -345,3 +345,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Mac Keyboard Shortcuts, https://support.apple.com/en-us/HT201236, 2021-12-15-Wed.
 - Real-Time Operating System MS Docs, https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time, 2022-06-27-Mon.
 - Hard and Soft Real-Time Operating System, https://www.javatpoint.com/hard-and-soft-real-time-operating-system, 2022-07-14-Thu.
+- Operating Systems Market Reports, https://w3techs.com/technologies/reportlist/operating_system, 2022-07-21-Thu.
