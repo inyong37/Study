@@ -15,6 +15,12 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
+### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
+
+The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
+
+How this works is by running the entire system from volatile memory (RAM). The operating system and all programs are usable, but run from memory. Because of this, you can boot the live system, test/use it for as long as you need, and then reboot the system (remembering to remove the live media) to return to your original system.
+
 ### *Manual Page (man page)* | [Wiki](https://en.wikipedia.org/wiki/Man_page)
 A man page (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system. Topics covered include computer programs (including library and system calls), formal standards and conventions, and even abstract concepts. A user may invoke a man page by issuing the man command.
 
@@ -132,6 +138,8 @@ $ nm foo.o
   - format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
 - Target acrchive file shows libraries as object files
 
+---
+
 ### KVM | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
 
 Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specifically, KVM lets you turn Linux into a hypervision that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs).
@@ -162,8 +170,9 @@ Snapcraft is the command and the framework used to build and publish snaps.
 
 A generic and open source machine emulator and virtualizer
 
+---
 
-#### Reference
+### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
 - Linux, https://www.linux.org/, 2020-08-05-Wed.
@@ -196,3 +205,5 @@ A generic and open source machine emulator and virtualizer
 - QEMU, https://www.qemu.org/, 2022-07-20-Wed.
 - What is KVM Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2022-07-20-Wed.
 - Snaps, https://snapcraft.io/, 2022-07-20-Wed.
+- Live Bootting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
+- List of live CSs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
