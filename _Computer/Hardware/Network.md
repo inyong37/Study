@@ -280,6 +280,22 @@ Specifically, Android 4.4 and higher supports emulating cards that are based on 
 
 The HCE architecture in Android is based around Android `Service` components (known as HCE services). One of the key advantages of a service is that it can run in the background without any user interface. This is a natural fit for many HCE applications, like loyality or transit cards, which the user shouldn't need to launch an app to use. Instead, tapping the device against the NFC reader starts the correct service if it is not already running and executes the transaction in the background. Of course, you are free to launch additional UI (such as user notifications) from your service when appropriate.
 
+## Core NFC | [Apple](https://developer.apple.com/documentation/corenfc)
+
+Detect NFC tags, read messages that contiain NDEF data, and save data to writable tags.
+
+Your app can read tags to give users more information about their physical environment and the real-world objects in it. Using Core NFC, you can read Near Field Communication (NFC) tags of types 1 through 5 that contain data in the NFC data Exchange Format (NDEF). For example, your app might give users information about products they find in a store or exhibits they visit in a museum.
+
+Your app can also write data to tags, and interact with protocol specific tag such as ISO 7816, ISO 15693, FeliCa, and MIFARE tags.
+
+Core NFC is not available for use in app extensions, and it requires a device that supports Near Field Communication. To determine if support is available, check the `readingAvailable` class property before starting a reader session.
+
+Core NFC doesn't support payment-realted Application IDs.
+
+## Tap to Pay | [Apple](https://developer.apple.com/tap-to-pay/)
+
+## ProximityReader | [Apple](https://developer.apple.com/documentation/ProximityReader)
+
 ---
 
 ### Reference
@@ -338,3 +354,6 @@ The HCE architecture in Android is based around Android `Service` components (kn
 - Matter, https://csa-iot.org/all-solutions/matter/, 2022-07-18-Mon.
 - Matter GitHub, https://github.com/project-chip/connectedhomeip, 2022-07-18-Mon.
 - Host-based card emulation overview Anroid, https://developer.android.com/guide/topics/connectivity/nfc/hce, 2022-07-21-Thu.
+- Core NFC Apple, https://developer.apple.com/documentation/corenfc, 2022-07-25-Mon.
+- Tap to Pay Apple, https://developer.apple.com/tap-to-pay/, 2022-07-25-Mon.
+- ProximityReader, Apple, https://developer.apple.com/documentation/ProximityReader, 2022-07-25-Mon.
