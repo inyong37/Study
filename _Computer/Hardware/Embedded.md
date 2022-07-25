@@ -17,6 +17,10 @@ Embedded systems range in size from portable personal devices such as digital wa
 
 Embedded systems range from those law in complexity, with a single microcontroller chip, to very high with multiple units, peripherals and networks, which may reside in equipment racks or across large geographical areas connected via long-distance communications lines.
 
+### Embedded Platform | [Blog (KR)](https://jeongchul.tistory.com/98?category=519468)
+
+임베디드 플랫폼이란 최적화된 하드웨어와 소프트웨어를 합친 것이다. CPU, OS, 개발 환경(Tool, IDE)를 일컫는다. 소프트웨어에는 운영체제 없이 동작하는 firmware, priority를 중요시하는 RTOS, Windows CE와 같은 non-RTOS가 있다. 같은 자원에 여러 개의 태스크가 동시에 접근해야 하는 경우 non-RTOS, 태스트 수는 그리 많지 않으나 태스트 간 우선 순위 보장이 반드시 필요한 경우 RTOS를 사용한다. 태스크 수가 많지 않으며, 동시 접근하거나 우선 순위 보장이 필요 없는 경우 firmware를 사용한다. 태스크란 독립적으로 실행 가능한 software의 단위로, process, thread가 이에 속한다.
+
 ## [Book: Programming Embedded Systems](https://books.google.co.kr/books?id=nPZaPJrw_L0C&pg=PA1&redir_esc=y&hl=ko#v=onepage&q&f=false)
 
 ### What Is an Embedded System?
@@ -326,3 +330,4 @@ Embedded Linux File System 비교
 - Board Support Package Wind River, https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf, 2022-07-25-Mon.
 - Board Support Package TechTarget, https://www.techtarget.com/whatis/definition/board-support-package, 2022-07-25-Mon.
 - BSP Blog KR, https://jeongchul.tistory.com/103, 2022-07-25-Mon.
+- Embedded Platform Blog KR, https://jeongchul.tistory.com/98?category=519468, 2022-07-25-Mon.
