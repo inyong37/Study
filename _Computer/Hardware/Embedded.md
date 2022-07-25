@@ -246,13 +246,20 @@ The system is built using a modular approach so support for other devices or act
 
 ---
 
-## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478)
+## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478) [Differences](https://askanydifference.com/difference-between-vxworks-and-linux/)
 
 It's the operating system behind nine different Mars missions, including the Mars Reconnaissance Orgiter as well as the Spirits and Opportunity Mars Exploration Rovers. It is also used in more than 2 billion other critical devices that are still on planet Earth. From automotive to manufacturing, if it's a deterministic, ultra-reliable, or multi-core embedded system, VxWorks is the operating system of choice.
 
 VxWorks is designed for multicore computing on embedded systems running on Arm, Intel, and Power architectures.
 
 Linux는 process끼리 pipe/message 방식으로 메모리를 동기화하지만, VxWorks는 memory를 함께 사용하여 동기화한다. 이 방식은 데이터 동기화 방식이 간편하지만, A task에서 데이터를 지우면 B task도 영향을 받는다.
+
+||VxWorks|Linux|
+|:-|:-|:-|
+|OS Family|Real-time operating system|Unix-like|
+|Targets|Embedded systems only|Personal computers, supercomputers, mobile devices, embedded devices, etc|
+|First Released|1987|1991|
+|Uses|Mars Rover 2020, Mars Reconnaissance Orbiter, Mars Sciecne Laboratory known as Curiosity Rover|Space X, Jet Propulsion Laboratiry in the development of spacecraft, etc.|
 
 ## Board Support Package (BSP) | [Wind River](https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf) | [TechTarget](https://www.techtarget.com/whatis/definition/board-support-package) | [Blog (KR)](https://jeongchul.tistory.com/103)
 
@@ -339,3 +346,4 @@ Embedded Linux File System 비교
 - Embedded Platform Blog KR, https://jeongchul.tistory.com/98?category=519468, 2022-07-25-Mon.
 - VxWorks, https://www.windriver.com/sites/default/files/2022-02/605577969.pdf, 2022-07-25-Mon.
 - VxWorks Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478, 2022-07-25-Mon.
+- Difference Between VxWorks and Linux, https://askanydifference.com/difference-between-vxworks-and-linux/, 2022-07-25-Mon.
