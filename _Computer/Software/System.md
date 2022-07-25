@@ -163,6 +163,10 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
+[From Earth to orbit with Linux and SpaceX](https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/)
+
+[SpaceX Used Linux To Send NASA Astronauts To International Space Station](https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/)
+
 ### *[Debian](https://www.debian.org/)*
 
 ### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core](https://ubuntu.com/core)
@@ -352,3 +356,5 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Real-Time Operating System MS Docs, https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time, 2022-06-27-Mon.
 - Hard and Soft Real-Time Operating System, https://www.javatpoint.com/hard-and-soft-real-time-operating-system, 2022-07-14-Thu.
 - Operating Systems Market Reports, https://w3techs.com/technologies/reportlist/operating_system, 2022-07-21-Thu.
+- From Earth to orbit with Linux and SpaceX, https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/, 2022-07-25-Mon.
+- SpaceX Used Linux To Send NASA Astronauts To International Space Station, https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/, 2022-07-25-Mon.
