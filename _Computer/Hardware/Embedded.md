@@ -246,7 +246,11 @@ The system is built using a modular approach so support for other devices or act
 
 ---
 
-## [VxWorks](https://www.windriver.com/products/vxworks)
+## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf)
+
+It's the operating system behind nine different Mars missions, including the Mars Reconnaissance Orgiter as well as the Spirits and Opportunity Mars Exploration Rovers. It is also used in more than 2 billion other critical devices that are still on planet Earth. From automotive to manufacturing, if it's a deterministic, ultra-reliable, or multi-core embedded system, VxWorks is the operating system of choice.
+
+VxWorks is designed for multicore computing on embedded systems running on Arm, Intel, and Power architectures.
 
 ## Board Support Package (BSP) | [Wind River](https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf) | [TechTarget](https://www.techtarget.com/whatis/definition/board-support-package) | [Blog (KR)](https://jeongchul.tistory.com/103)
 
@@ -331,3 +335,4 @@ Embedded Linux File System 비교
 - Board Support Package TechTarget, https://www.techtarget.com/whatis/definition/board-support-package, 2022-07-25-Mon.
 - BSP Blog KR, https://jeongchul.tistory.com/103, 2022-07-25-Mon.
 - Embedded Platform Blog KR, https://jeongchul.tistory.com/98?category=519468, 2022-07-25-Mon.
+- VxWorks, https://www.windriver.com/sites/default/files/2022-02/605577969.pdf, 2022-07-25-Mon.
