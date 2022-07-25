@@ -242,6 +242,57 @@ The system is built using a modular approach so support for other devices or act
 
 ---
 
+## [VxWorks](https://www.windriver.com/products/vxworks)
+
+## Board Support Package (BSP) | [Wind River](https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf) | [TechTarget](https://www.techtarget.com/whatis/definition/board-support-package) | [Blog (KR)](https://jeongchul.tistory.com/103)
+
+A board support package (BSP) is essential code for a given computer hardware device that will make device work with the computer's OS. The BSP contains a small program called a bootloader or boot manager that places the OS and device drivers into memory. The contents of the BSP depend on the particular hardware and OS.
+
+Specific tasks that the BPS performs include the following,in order:
+
+- Initialize the processor.
+- Initialize the bus.
+- Initialize the interrupt controller.
+- Initialize the clock.
+- Initialize the RAM settings.
+- Configure the segments (if applicable).
+- Run the boot loader.
+
+In addition to the foregoing, a BSP can contain directives, compilation parameters, and hardware parameters for configuring the OS.
+
+VxWorks(Wind River)와 같은 일부 상용 RTOS를 제외한 대부분의 RTOS와 Firmware에는 non-RTOS에서와 같은 file system이 없다. 컴파일이 끝나면 최종적으로 CPU에 종속적인 binary 실행 코드 하나만 생성된다. 따라서 firmware와 RTOS의 BSP는 제품의 기능이라 할 수 있는 코드(user application)와 그러한 제품의 기능을 실제 구현하기 위해 하드웨어를 직접적으로 제어하는 코드(firmware)가 하나의 파일로 묶여 BSP를 구성한다.
+
+그러나 Linux, Windows CE와 같은 non-RTOS들은 다음의 3가지 실행 코드들로 구성된다.
+
+|파일 타입|BSP 종류|기능|
+|:-:|:-:|:-|
+|Firmware|Boot Loader|HDD 혹은 Flash 메모리에 있는 kernel image를 메모리에 loading 역할|
+|OS Kernel|Kernel Image|OS 압축 이미지 파일|
+|User Application|File System Image|User Application이 실행되는 환경, 압축 이미지 파일|
+
+|Fireware/RTOS BSP|non-RTOS BSP|
+|:-:|:-:|
+|Firmware|Boot Loader 하드웨어 종속적인 kernel|
+|User Application|User Application 하드웨어 독립적인 kernel|
+
+ARM process 기반의 embedded Linuxdㅔ서 사용 가능한 boot loader는 크게 다음과 같다.
+
+|Boot Loader|배경|선택 기준|
+|:-:|:-|:-|
+|BLOB|Intel에서 개발한 XScale Core 기반의 CPU에 적용하기 위해 개발된 부트로더|Intel의 XScale Core 기반으로 개발하는 경우라면 기본적으로 제공되는 BLOB 사용|
+|ARMBOOT|XScale Core처럼 변형된 ARM Core 기반 CPU가 아니라, 변형되지 않은 ARM Core 기반 CPU에 적용하기 위해 개발된 부트로더|변형시키지 않은 순수 ARM 프로세서 기반으로 개발하는 경우 주로 선택되었으나, 최근엔 U-BOOT를 더 많이 사용하는 추세|
+|U-BOOT|ARM Core, PPC Core, MIPS Core 등 다양한 프로세서에 범용적으로 적용하기 위해 개발된 대부분의 ARM 프로세서에 적용되고 있다.|ARM 프로세서 기반으로 개발하는 경우라면 특별한 일이 없는 한 U-BOOT를 사용하는게 좋다.|
+
+Embedded Linux File System 비교
+
+|File System|특징|주요 사용 분야|
+|:-:|:-|:-|
+|CramFS|가장 사이즈가 작은 파일 시스템으로 ROM File System이기 때문에 부팅된 이후에는 파일 시스템에 별도의 데이터를 기록할 수 없다.|실행될 때마다 기존에 했던 일을 똑같이 단순 반복하는 분야에 적용(e.g. 산업용 로봇)|
+|RAMDISK|RAM의 일부를 파일 시스템으로 사용하는 방법으로 플래시 메모리부터 읽어오는 파일 시스템에 비해 실행 속도가 매우 빠르다는 장점이 있다. 그러나 RAM의 일부를 파일 시스템용으로 사용하다보니 RAM 사이즈가 줄어들어 실행시킬 수 있는 user application의 수가 많지 않다는 단점이 있다.|User application의 실행 속도는 빨라야 하나, 그 수가 비교적으로 적은 분야에 적용(e.g. 네트워크 장비)|
+|JFFS, YAFFS|BSP들을 저장하는 용도로 사용되는 flash 메모리 일부를 파일 시스템으로 사용하는 방법으로, RAM 사이즈에 영향을 주지 않기 때문에 매우 많은 user application을 실행시킬 수 있다는 장점이 있다. 다만, 속도가 비교적으로 느린 flash memory부터 읽어와야 하기 때문에 실행 속도가 RAMDISK에 비해 비교적 느리다.|User application의 실행 속도는 비교적 느려도 되나, 그 수가 매우 많은 분야에 적용하면 좋다. (e.g. 모바일 단말기)|
+
+---
+
 ### Reference
 - Embedded System Wiki, https://en.wikipedia.org/wiki/Embedded_system, 2022-06-22-Wed.
 - Programming Embedded Systems with C and GNU Development Tools 2nd Ed., O’REILLY, 2006, https://books.google.co.kr/books?id=nPZaPJrw_L0C&pg=PA1&redir_esc=y&hl=ko#v=onepage&q&f=false, 2022-06-21-Tue.
@@ -271,3 +322,7 @@ The system is built using a modular approach so support for other devices or act
 - Home Assistant Core GitHub, https://github.com/home-assistant/core, 2022-07-20-Wed.
 - 월패드 IoT 스마트홈과 차이점 Samsung Electronics, https://r1.community.samsung.com/t5/smartthings/%EC%9B%94%EA%B0%84%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%9B%94%ED%8C%A8%EB%93%9C-iot-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%99%88%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90/td-p/3588879, 2022-07-20-Wed.
 - 삼성 SmartThings로 IoT 기능 활용하기, https://blog.naver.com/PostView.nhn?blogId=onlygod831&logNo=222008735703&parentCategoryNo=&categoryNo=38&viewDate=&isShowPopularPosts=true&from=search, 2022-07-20-Wed.
+- VxWorks Wind River, https://www.windriver.com/products/vxworks, 2022-07-25-Mon.
+- Board Support Package Wind River, https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf, 2022-07-25-Mon.
+- Board Support Package TechTarget, https://www.techtarget.com/whatis/definition/board-support-package, 2022-07-25-Mon.
+- BSP Blog KR, https://jeongchul.tistory.com/103, 2022-07-25-Mon.
