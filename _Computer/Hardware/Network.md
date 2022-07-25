@@ -292,7 +292,11 @@ Core NFC is not available for use in app extensions, and it requires a device th
 
 Core NFC doesn't support payment-realted Application IDs.
 
-## Tap to Pay | [Apple](https://developer.apple.com/tap-to-pay/)
+## Tap to Pay on iPhone | [Apple](https://developer.apple.com/tap-to-pay/)
+
+Payment apps can now accpet contactless payments from contactless credit or debit cards, Apple Pay, Apple Watch, and smartphones with other digital wallets - right on iPhone and without any extra terminals or hardware.
+
+With over two thirds of all credit and debit cards in the U.S. issued as contactless - enabled cards, and rapidly increasing adoption of contactless payments, merchants will be able to seamlessly accept payments through a simple tap on their iPhone from most customers.
 
 ## ProximityReader | [Apple](https://developer.apple.com/documentation/ProximityReader)
 
@@ -363,5 +367,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Matter GitHub, https://github.com/project-chip/connectedhomeip, 2022-07-18-Mon.
 - Host-based card emulation overview Anroid, https://developer.android.com/guide/topics/connectivity/nfc/hce, 2022-07-21-Thu.
 - Core NFC Apple, https://developer.apple.com/documentation/corenfc, 2022-07-25-Mon.
-- Tap to Pay Apple, https://developer.apple.com/tap-to-pay/, 2022-07-25-Mon.
-- ProximityReader, Apple, https://developer.apple.com/documentation/ProximityReader, 2022-07-25-Mon.
+- Tap to Pay on iPhone Apple, https://developer.apple.com/tap-to-pay/, 2022-07-25-Mon.
+- ProximityReader Apple, https://developer.apple.com/documentation/ProximityReader, 2022-07-25-Mon.
