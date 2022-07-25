@@ -296,6 +296,14 @@ Core NFC doesn't support payment-realted Application IDs.
 
 ## ProximityReader | [Apple](https://developer.apple.com/documentation/ProximityReader)
 
+Read contactless physical and digital wallet cards using your iPhone.
+
+The ProximityReader framework supports Tap to Pay on iPhone, which allows a person's iPhone to act as a point-to-sale device without additional hardware. ProximityReader also supports the reading or loyalty cards from the Wallet app. Use this framework to initiate the payment process from your app.
+
+The use of this framework requires you to coordinate with a participating payment service provider that is Level 3 certified. Contact your payment provider and work with them to set up a workflow for handling payments. When you're ready, contact Apple and request the entitlement you need to integrate Tap to Pay on iPhone support into your app.
+
+Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified payment kernels and a user interface for eading contactless payment cards.
+
 ---
 
 ### Reference
