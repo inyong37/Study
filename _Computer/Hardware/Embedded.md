@@ -254,6 +254,8 @@ VxWorks is designed for multicore computing on embedded systems running on Arm, 
 
 Linux는 process끼리 pipe/message 방식으로 메모리를 동기화하지만, VxWorks는 memory를 함께 사용하여 동기화한다. 이 방식은 데이터 동기화 방식이 간편하지만, A task에서 데이터를 지우면 B task도 영향을 받는다.
 
+Single Board Computer (SBC)에 주로 사용된다. Priority scheduling, multitasking, fast interrupt 등의 장점이 있다.
+
 ||VxWorks|Linux|
 |:-|:-|:-|
 |OS Family|Real-time operating system|Unix-like|
