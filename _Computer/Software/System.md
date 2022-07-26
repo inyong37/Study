@@ -295,6 +295,22 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
+## IoT OS | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
+
+|IoT OS|Features|Use cases|
+|:-|:-:|-:|
+|Contiki NG|Open-source, free|Networked memory-constrained systems|
+|FreeRTOS|Open-source, free, uses AWS IoT Core|Devices with tiny amounts of memory|
+|Mbed OS|ARM-based, high-grade security|For portable code|
+|MicroPython|Uses standard Python, easy to learn, C++|Rapid deployment|
+|Embedded Linux|Linux kernel, free|Versatile - can be used for various use cases|
+|RIOT|Open-source, full multithreading|Can be run as MacOS process|
+|TinyOS|C language, open-source|Portability across similar devices|
+|Windows 10 IoT|Proprietary, high-grade security|Ideal for heavy-duty industrial use cases|
+|OpenWrt|Open-source, Linux-based|Primarily used in routers|
+
+---
+
 ### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -358,3 +374,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Operating Systems Market Reports, https://w3techs.com/technologies/reportlist/operating_system, 2022-07-21-Thu.
 - From Earth to orbit with Linux and SpaceX, https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/, 2022-07-25-Mon.
 - SpaceX Used Linux To Send NASA Astronauts To International Space Station, https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/, 2022-07-25-Mon.
+- IoT OS, https://ubidots.com/blog/iot-operating-systems/, 2022-07-26-Tue.
