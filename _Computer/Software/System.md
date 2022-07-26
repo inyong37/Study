@@ -41,7 +41,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - 86-DOS (aka QDOS, by Seattle Computer Products)
   - MS-DOS (By Microsoft, at 1981)
   - PC-DOS (By IBM, at 1981)
-- Windows (By Microsoft)
+- Windows (By Microsoft) | IoT
 - Unix (by Bell Laboratory, at 1970's)
   - AIX (by IBM)
   - HP-UX (by Hewlett Packard Enterprise, from Unix System V, at 1984)
@@ -62,10 +62,17 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Ubuntu MATE (GNOME 2)
     - Linux Mint
     - Raspberry Pi OS (formely Raspbian)
-  - Fedora (by Red Hat of IBM, formely Red Hat Linux) | Fedora IoT
+  - Fedora (by Red Hat of IBM, formely Red Hat Linux) | Workstation | Server | IoT
     - Red Hat Enterprise Linux (by Red Hat of IBM)
     - CentOS
+  - OpenWrt
 - z/OS (by IBM)
+- Contiki-NG
+- FreeRTOS
+- Mbed OS
+- MicroPython
+- TinyOS
+- RIOT
 
 ---
 
@@ -95,7 +102,8 @@ PC-DOS는 IBM 개인용 컴퓨터를 위한 클로즈드 소스 형태의 도스
 
 ---
 
-## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows)
+## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows) | [IoT](https://developer.microsoft.com/en-us/windows/iot/)
+
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
 Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs). Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984. Apple came to see Windows as an unfair encroachment on their innovation in GUI development as implemented on products such as the Lisa and Macintosh (eventually settled in court in Microsoft's favor in 1993). On PCs, Windows is still the most popular operating system. However, in 2014, Microsoft admitted losing the majority of the overall operating system market to Android, because of the massive growth in sales of Android smartphones. In 2014, the number of Windows devices sold was less than 25% that of Android devices sold. This comparison, however, may not be fully relevant, as the two operating systems traditionally target different platforms. Still, numbers for server use of Windows (that are comparable to competitors) show one third market share, similar to that for end user use.
@@ -173,7 +181,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
-### *[Fedora](https://getfedora.org/)*
+### *[Fedora](https://getfedora.org/)* | [Workstation](https://getfedora.org/en/workstation/) | [Server](https://getfedora.org/en/server/) | [IoT](https://getfedora.org/en/iot/)
 
 ### *[Linux Mint](https://www.linuxmint.com/)*
 
@@ -182,6 +190,8 @@ Linux is one of the most prominent examples of free and open-source software col
 ### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
 
 ```Other parts of the "Linux" have been moved to the "Unix" page.```
+
+### [OpenWrt](https://openwrt.org/)
 
 ---
 
@@ -309,6 +319,14 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 |Windows 10 IoT|Proprietary, high-grade security|Ideal for heavy-duty industrial use cases|
 |OpenWrt|Open-source, Linux-based|Primarily used in routers|
 
+### [Contiki-NG](https://www.contiki-ng.org/)
+### [FreeRTOS](https://www.freertos.org/)
+### [Mbed OS](https://os.mbed.com/mbed-os/)
+### [MicroPython](https://micropython.org/)
+
+### [TinyOS](http://www.tinyos.net/)
+### [RIOT](https://www.riot-os.org/)
+
 ---
 
 ### Reference
@@ -375,4 +393,14 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - From Earth to orbit with Linux and SpaceX, https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/, 2022-07-25-Mon.
 - SpaceX Used Linux To Send NASA Astronauts To International Space Station, https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/, 2022-07-25-Mon.
 - IoT OS, https://ubidots.com/blog/iot-operating-systems/, 2022-07-26-Tue.
+- Fedora Workstation, https://getfedora.org/en/workstation/, 2022-07-26-Tue.
+- Fedora Server, https://getfedora.org/en/server/, 2022-07-26-Tue.
 - Fedora IoT, https://getfedora.org/en/iot/, 2022-07-26-Tue.
+- Contiki-NG, https://www.contiki-ng.org/, 2022-07-26-Tue.
+- FreeRTOS, https://www.freertos.org/, 2022-07-26-Tue.
+- Mbed OS, https://os.mbed.com/mbed-os/, 2022-07-26-Tue.
+- MicroPython, https://micropython.org/, 2022-07-26-Tue.
+- OpenWrt, https://openwrt.org/, 2022-07-26-Tue.
+- TinyOS, http://www.tinyos.net/, 2022-07-26-Tue.
+- RIOT, https://www.riot-os.org/, 2022-07-26-Tue.
+- Windows IoT, https://developer.microsoft.com/en-us/windows/iot/, 2022-07-26-Tue.
