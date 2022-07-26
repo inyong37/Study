@@ -148,7 +148,6 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 
 ### Wireless Fidelity (Wi-Fi, WiFi) | [WiFi Alliance](https://www.wi-fi.org/) | [Papers](https://www.wi-fi.org/discover-wi-fi/papers)
 
-
 A wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telehony. The frequencies used are different, specifically the WiFi uses 2.4GHz and 5GHz.
 
 - It operates in the 2.4GHz and 5GHz frequency band.
@@ -157,6 +156,10 @@ A wireless data transmission technology used for Internet based on radio waves s
 - Maximum data transmission rate 9.6Gbps for WiFi 6.
 - Difficulty crossing certain obstacles and may find interference with other waves emitting at the same frequencies.
 - It use is perhaps the most widespread and hence we can find a lot of connected devices today.
+
+### [Wi-Fi Protected Setup (WPS)](https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup)
+
+Wi-Fi Protected Setup은 가정 및 소규모 사무실 환경에서 보안 적용된 Wi-Fi 네트워크를 간편하게 설정할 수 있도록 해주는 기술에 대한 인증 프로그램입니다. Wi-Fi Protected Setup은 소비자들이 익숙한 방법(버튼 누르기, PIN 입력)을 통해 네트워크를 구성하고 보안을 적용할 수 있도록 지원합니다.
 
 ### Zigbee | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
 
@@ -248,7 +251,6 @@ Matter (formerly Project Connected Home over IP, or Project CHIP) is a new Worki
 The goal of the Matter project is to simplify development for manufacturers and increase compatibility for consumers. The project is built around a shared belief that smart home devices should be secure, reliable, and seamless to use. By building upon Internet Protocol (IP), the project aims to enable communication across smart home devices, mobile apps, and cloud services and to define a specific set of IP-based networking technologies for device certification.
 
 The CSA officially opened the Matter Working Group on January 17, 2020 and is in the process of drafting the specification.
-
 
 ---
 
@@ -369,3 +371,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Core NFC Apple, https://developer.apple.com/documentation/corenfc, 2022-07-25-Mon.
 - Tap to Pay on iPhone Apple, https://developer.apple.com/tap-to-pay/, 2022-07-25-Mon.
 - ProximityReader Apple, https://developer.apple.com/documentation/ProximityReader, 2022-07-25-Mon.
+- WPS KR, https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup, 2022-07-26-Tue.
