@@ -62,7 +62,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Ubuntu MATE (GNOME 2)
     - Linux Mint
     - Raspberry Pi OS (formely Raspbian)
-  - Fedora (by Red Hat of IBM, formely Red Hat Linux)
+  - Fedora (by Red Hat of IBM, formely Red Hat Linux) | Fedora IoT
     - Red Hat Enterprise Linux (by Red Hat of IBM)
     - CentOS
 - z/OS (by IBM)
@@ -375,3 +375,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - From Earth to orbit with Linux and SpaceX, https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/, 2022-07-25-Mon.
 - SpaceX Used Linux To Send NASA Astronauts To International Space Station, https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/, 2022-07-25-Mon.
 - IoT OS, https://ubidots.com/blog/iot-operating-systems/, 2022-07-26-Tue.
+- Fedora IoT, https://getfedora.org/en/iot/, 2022-07-26-Tue.
