@@ -194,6 +194,14 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 7. 가전제품의 종류(공기청정기, 냉장고, 에어컨, 세탁기, 에어드레서)에 따라 AP 모드로 설정하세요. 가전제품의 디스플레이에 AP가 표시되고 연결이 진행됩니다.
 8. 스마트폰과 가전제품의 연결이 완료되었습니다. 앱에서 연결 완료 메세지를 확인한 후 완료를 탭하세요.
 
+#### [Smart Wallpad](https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko)
+
+- 도어록 연동: Zigbee, 447MHz
+- 기기간 통신 방식
+  - 공용부 연동: RS-485
+  - 플랫폼 연동: Wi-Fi
+  - 무선기기 연동: Zigbee 
+
 ### [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
 
 #### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
@@ -349,3 +357,4 @@ Embedded Linux File System 비교
 - VxWorks, https://www.windriver.com/sites/default/files/2022-02/605577969.pdf, 2022-07-25-Mon.
 - VxWorks Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478, 2022-07-25-Mon.
 - Difference Between VxWorks and Linux, https://askanydifference.com/difference-between-vxworks-and-linux/, 2022-07-25-Mon.
+- Smart Wallpad Samsung Electronics KR, https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko, 2022-07-26-Tue.
