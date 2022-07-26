@@ -177,11 +177,11 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Debian](https://www.debian.org/)*
 
-### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core](https://ubuntu.com/core)
+### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core](https://ubuntu.com/core) - IoT
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
-### *[Fedora](https://getfedora.org/)* | [Workstation](https://getfedora.org/en/workstation/) | [Server](https://getfedora.org/en/server/) | [IoT](https://getfedora.org/en/iot/)
+### *[Fedora](https://getfedora.org/)* | [Workstation](https://getfedora.org/en/workstation/) | [Server](https://getfedora.org/en/server/) | [IoT](https://getfedora.org/en/iot/) - IoT
 
 ### *[Linux Mint](https://www.linuxmint.com/)*
 
@@ -191,7 +191,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ```Other parts of the "Linux" have been moved to the "Unix" page.```
 
-### [OpenWrt](https://openwrt.org/)
+### [OpenWrt](https://openwrt.org/) - IoT
 
 ---
 
@@ -329,6 +329,54 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 ### [MicroPython](https://micropython.org/)
 ### [TinyOS](http://www.tinyos.net/)
 ### [RIOT](https://www.riot-os.org/)
+
+### Ubuntu Core
+
+- Boards: x86, ARM(Raspberry PI, NXP, Xilinx, Qualcomm, and more)
+- Apps: app embedding, strict application isolation for security, tamper-proof containerisation, automatic over-the-ar (OTA) updates
+- App store: private branded IoT app store, secured, hosted and managed, global CDN for software delivery, CI/CD pipeline integration
+- Software updates: Choose suitable update frequency, Automatic roll-backs on failure, Metered billing, Single secure source of updates
+- Service: knowledge transfer workshops, product trainings, engineering consulting
+- Support: 24/7 tech support - there when you need us! ticket resolution, Long term commercial partnership
+
+#### Features
+
+- Agile containerization: a clean separation between the kernel, OS image and applications.
+  - Secure, immutable and strictly confined containerization
+  - Consistent, independent, and reliable software updates
+  - Architectural flexibility with both Arm and x86 architectures supported
+- OTA updates
+  - Transactional updates for reliability
+  - Diffs only to minimise network traffic
+  - Digital signatures to guarantee integrity and provenance
+- Secure boot: authenticates the boot process by default based on verification of digital signatures
+  - Each component in the boot sequence cryptographicaly validates the authenticity of the subsequent component in the boot sequence.
+  - Every component is measured, before it is loaded in the runtime memory space
+  - If an improper or unsigned component is detected, the boot process is stopped
+  - Supports for both hardware and software Root of Trust
+- Full disk encryption: digital signatures to cryptographically ensure data integrity with:
+  - Disks are locked with private key based cryptography
+  - Private keys for hardware, TPM and other secure layers are securely stored
+  - Symmetric key encryption enabled by use of specialised software-enabled stores
+- Recovery mode
+  - A graphical user interface to manage recovery options
+  - Snapshots of configuration settings and software bills of materials are backed up in the recovery system
+- Validation sets
+- Remodelling: brand, model. IoT App Store ID, or version
+  - Enable resellers to rebrand devices
+  - Easy migration path between UC20 and UC22
+
+### Fedora IoT
+
+- Containerized applications
+- Reliable operating system
+  - OSTree technology to provide an immutable operating system with atomic updates
+  - greenboot health check framework for systemd, administractors can ensure the system boots into the expected state.
+- Security in mind
+  - TPM2, SecureBoot, and automated storage decryption with Clevis
+- Web-based provisioning 
+- Multiple architecture support
+  - x86_64, aarch64, and armhfp processors 
 
 ---
 
