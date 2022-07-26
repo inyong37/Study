@@ -307,6 +307,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ## IoT OS | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
+### TIZEN | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
+
+### webOS | [LG SmartTV OS](https://live.lge.co.kr/life-style-webos/)
+
 |IoT OS|Features|Use cases|
 |:-|:-:|-:|
 |Contiki NG|Open-source, free|Networked memory-constrained systems|
@@ -323,7 +327,6 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 ### [FreeRTOS](https://www.freertos.org/)
 ### [Mbed OS](https://os.mbed.com/mbed-os/)
 ### [MicroPython](https://micropython.org/)
-
 ### [TinyOS](http://www.tinyos.net/)
 ### [RIOT](https://www.riot-os.org/)
 
@@ -404,3 +407,5 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - TinyOS, http://www.tinyos.net/, 2022-07-26-Tue.
 - RIOT, https://www.riot-os.org/, 2022-07-26-Tue.
 - Windows IoT, https://developer.microsoft.com/en-us/windows/iot/, 2022-07-26-Tue.
+- SmartTV TIZEN Samsung Electronics, https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5, 2022-07-26-Tue.
+- SmartTV webOS LG Electronics, https://live.lge.co.kr/life-style-webos/, 2022-07-26-Tue.
