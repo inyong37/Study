@@ -201,6 +201,10 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
   - 공용부 연동: RS-485
   - 플랫폼 연동: Wi-Fi
   - 무선기기 연동: Zigbee 
+- 앱 서비스 가입: 스마트폰에서 다양한 추가기능을 사용할 수 있습니다.
+  - 모바일 앱 QR 코드 생성화면 표시 -> 사용자 정보 입력 -> 앱 서비스 가입 완료
+- 인터넷 공유기 연결
+  - 집에 설치된 무선 공유기의 WPS 버튼 누름 -> OK -> 연결 
 
 ### [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
 
