@@ -273,7 +273,7 @@ Single Board Computer (SBC)에 주로 사용된다. Priority scheduling, multita
 |OS Family|Real-time operating system|Unix-like|
 |Targets|Embedded systems only|Personal computers, supercomputers, mobile devices, embedded devices, etc|
 |First Released|1987|1991|
-|Uses|Mars Rover 2020, Mars Reconnaissance Orbiter, Mars Sciecne Laboratory known as Curiosity Rover|Space X, Jet Propulsion Laboratiry in the development of spacecraft, etc.|
+|Uses|Mars Rover 2020, Mars Reconnaissance Orbiter, Mars Science Laboratory known as Curiosity Rover|Space X, Jet Propulsion Laboratory in the development of spacecraft, etc.|
 
 ## Board Support Package (BSP) | [Wind River](https://cdn.windriver.com/products/bsp_web/what_is_a_bsp.pdf) | [TechTarget](https://www.techtarget.com/whatis/definition/board-support-package) | [Blog (KR)](https://jeongchul.tistory.com/103)
 
