@@ -127,6 +127,10 @@ From January 2020, the website has been fully integrated with Microsoft Docs.
 
 ## Multics | [Multicians](https://multicians.org/multics.html)
 
+Multics (Multiplexed Information and Computing Service) was a mainframe time-sharing operating system begun in 1965 and used until 2000. Multics began as a research project and was an important influence on operating system development. The system became a commercial product sold by Honeywell to education, government, and industry.
+
+Multics was a prototype of a Computer Utility, providing secure computing to remote users at their terminals. Multicians still miss the elegant, consistent, and powerful programming environment; some Multics features are only now being added to contemporary systems.
+
 ---
 
 ## *Unix* | [Homepage](https://www.opengroup.org/membership/forums/platform/unix) | [Wiki](https://en.wikipedia.org/wiki/Unix)
