@@ -258,6 +258,8 @@ The system is built using a modular approach so support for other devices or act
 
 ### [Integration Architecture](https://developers.home-assistant.io/docs/architecture_components)
 
+Home Assistant Core can be extended with integrations. Each integration is responsible for a specific domain within Home Assistant. Integrations can listen for or trigger events, offer services, and maintain states. Integrations are made up of a component (the base logic) and platforms (bits that integrate with other integrations). Integrations are written in Python and can do all the goodness that Python has to offer. Out of the box, Home Assistant offers a bunch of built-in integrations.
+
 ---
 
 ## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478) [Differences](https://askanydifference.com/difference-between-vxworks-and-linux/)
