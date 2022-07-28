@@ -206,15 +206,15 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - 인터넷 공유기 연결
   - 집에 설치된 무선 공유기의 WPS 버튼 누름 -> OK -> 연결 
 
-### [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
+## [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
 
-#### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
+### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
 
 Home Assistant Operating System (formerly HassOS) is a Linux based operating system optimized to host Home Assistant and its Add-ons.
 
 Home Assistant Operating System uses Docker as Container engine. It by default deploys the Home Assistant Supervisor as a container. Home Assistant Supervisor in turn uses the Docer container engine to control Home Assistant Core and Add-Ons in seperate containers. Home Assistant Operating System is not based on a regular Linux distribution like Ubuntu. It is build using Buildroot and it is optimized to run Home Assistant. It targets single board copmute (SBC) devices like the Raspberry Pi or ODROID but also supports x84-64 systems with UEFI.
 
-##### Components
+#### Components
 
 - Bootloader:
   - Barebox for devices that support UEFI
@@ -231,13 +231,13 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
 - Security:
   - AppArmor Linux kernel security module
 
-#### Home Assistant Core | [GitHub](https://github.com/home-assistant/core)
+### Home Assistant Core | [GitHub](https://github.com/home-assistant/core)
 
 Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 
 The system is built using a modular approach so support for other devices or actions can be implemented easily.
 
-##### Feature integrations
+#### Feature integrations
 
 - Amazon Alexa
 - ecobee
@@ -255,6 +255,8 @@ The system is built using a modular approach so support for other devices or act
 - Sonos
 - Z-Wave JS
 - Zigbee Home Automation
+
+### [Integration Architecture](https://developers.home-assistant.io/docs/architecture_components)
 
 ---
 
@@ -362,3 +364,4 @@ Embedded Linux File System 비교
 - VxWorks Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478, 2022-07-25-Mon.
 - Difference Between VxWorks and Linux, https://askanydifference.com/difference-between-vxworks-and-linux/, 2022-07-25-Mon.
 - Smart Wallpad Samsung Electronics KR, https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko, 2022-07-26-Tue.
+- HA Integration Architecture, https://developers.home-assistant.io/docs/architecture_components, 2022-07-28-Thu.
