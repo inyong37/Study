@@ -17,6 +17,14 @@ The Pi was designed to teach young people about physical computing and programmi
 
 On the other hand, NVIDIA had been producing its own line of AI computers for years, but they were priced out of reach for maker projects. This changed with the release of the Jetson Nano in March 2019. Now, it comes in two versions, the 2-GB and 4-GB developer kits, and is one of the most popular boards to compete with the Raspberry Pi.  After all, it comes with a full suite of ports and 40 GPIO pins on a relatively small form.
 
+As you can see, the primary features of the Raspberry Pi 4 and NVIDIA Jetson Nano are similar. But there is one unique distinction. The biggest difference lies in the graphics capabilities between the two boards, specifically their graphical processing units (GPU).
+
+GPUs have been around a long time, since early gaming applications in the 1970s. Later, GPUs were used to accelerate geometric calculations used in machine learning (ML). These days, GPUs are valued in machine learning due to their parallel processing ability.
+
+According to Oracle, GPUs are a safer bet for fast machine learning. This is because at its heart, data science model training is composed of simple matrix math calculations. Therefore, if these computations can be carried out in parallel, the speed of these calculations can be greatly enhanced!
+
+The NVIDIA Jetson Nano has a 128-core Maxwell GPU at 921 MHz. Compared side by side, the Jetson Nano has a much more capable GPU than the Raspberry Pi 4. This makes the Jetson Nano more suitable for AI and ML applications, which could be a specific advantage, depending on your intended end-use.
+
 |Component\Board|Nvidia Jetson Nano|Raspberry Pi 4|
 |:-:|:-|:-|
 |Processor|The Jetson Nano runs on a quad-core ARM Cortex-A57 64-bit @ 1.42 GHz.|The Raspberry Pi 4 has a Broadcom BCM2711 system-on-chip, and it runs on a 1.5-GHz quad-core 64-bit ARM Cortex-A72 CPU @ 1.5 GHz.|
