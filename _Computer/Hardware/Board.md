@@ -7,6 +7,27 @@ A backplane (or backplane system) is a group of electrical connectors in paralle
 ### Motherboard vs. Backplane
 A backplane is generally differentiated from a motherboard by the lack of on-board processing and storage elements. A backplane uses plug-in cards for storage and processing.
 
+### Single Board Computer (SBC)
+
+### Jetson Nano vs. Raspberry Pi 4 | [Blog](https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/)
+
+The Raspberry Pi was first released all the way back in 2012. With it, you could get into the heart of a computer, by being able to set up an operating system and then connect wires and circuits directly to the pins on the board!
+
+The Pi was designed to teach young people about physical computing and programming. Soon, it became popular with hobbyists and several models and clones have been released since. In June 2019, the Raspberry Pi 4 was released.
+
+On the other hand, NVIDIA had been producing its own line of AI computers for years, but they were priced out of reach for maker projects. This changed with the release of the Jetson Nano in March 2019. Now, it comes in two versions, the 2-GB and 4-GB developer kits, and is one of the most popular boards to compete with the Raspberry Pi.  After all, it comes with a full suite of ports and 40 GPIO pins on a relatively small form.
+
+|Component\Board|Nvidia Jetson Nano|Raspberry Pi 4|
+|:-:|:-|:-|
+|Processor|The Jetson Nano runs on a quad-core ARM Cortex-A57 64-bit @ 1.42 GHz.|The Raspberry Pi 4 has a Broadcom BCM2711 system-on-chip, and it runs on a 1.5-GHz quad-core 64-bit ARM Cortex-A72 CPU @ 1.5 GHz.|
+|Memory|The Jetson Nano comes in a 4-GB LPDDR4 version or a 2-GB alternative.|The Raspberry Pi 4 has four versions for RAM: 1-GB, 2-GB, 4-GB, and 8-GB LPDDR4-2400 SDRAM.|
+|Display|The Jetson Nano 4 GB supports HDMI 2.0 and DisplayPort (eDP 1.4). The 2-GB version only supports HDMI 2.0.|Through two micro-HDMI ports, the Raspberry Pi 4 offers 4K 60 fps with dual-screen functionality.|
+|I/O|The Jetson Nano 4-GB has four USB 3.0 ports, one USB 2.0 Micro-B port, two MIPI CSI-2 DPHY lanes, an HDMI 2.0 port, and a DisplayPort. The 2-GB model has one USB 3.0 port, two USB 2.0 ports, one USB 2.0 Micro-B port, a MIPI CSI-2 D-PHY lane, and an HDMI 2.0 port.|The Raspberry Pi 4 is equipped with two USB 3.0 ports, two USB 2.0 ports, a USB C port for power, a 3.5-mm analog audio-video jack, two micro-HDMI ports, Camera Serial Interface (CSI), and Display Serial Interface (DSI).
+|Ethernet|The Jetson Nano 4 GB supports Gigabit Ethernet and M.2 Key E for Wi-Fi support, while the 2-GB version includes a USB 802.11ac wireless adapter.|The Raspberry Pi 4 supports Gigabit Ethernet. It also has built-in Wi-Fi and Bluetooth functionality.|
+|OS|The official operating system for the Jetson Nano is the Linux4Tegra, based on Ubuntu 18.04. This is available via the included SD card image, which is designed to run NVIDIA hardware.|The Raspberry Pi 4 supports Raspberry Pi OS (formerly known as Raspbian), Ubuntu, OSMC, RetroPie, and other third-party images.|
+|Price|The Jetson Nano costs around $60 for the 2-GB kit, or about $100 for the 4-GB kit.|The Raspberry Pi 4’s 1-GB and 2-GB variants cost around $35, with the 4-GB version at around $55 and the 8-GB model available for about $75.|
+
 #### Reference
 - Motherboard Wiki, https://en.wikipedia.org/wiki/Motherboard, 2021-03-30-Tue.
 - Backplane Wiki, https://en.wikipedia.org/wiki/Backplane, 2021-03-30-Tue.
+- Jetson Nano vs. Raspberry Pi 4 Blog, https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/, 2022-08-02-Tue.
