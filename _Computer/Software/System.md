@@ -314,6 +314,16 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
+## Embedded System Firmware | RTOS | OS
+
+### [Yocto Project (YP)](https://www.yoctoproject.org/)
+
+THE YOCTO PROJECT.  IT'S NOT AN EMBEDDED LINUX DISTRIBUTION, IT CREATES A CUSTOM ONE FOR YOU.
+
+The Yocto Project (YP) is an open source collaboration project that helps developers create custom Linux-based systems regardless of the hardware architecture. 
+
+The project provides a flexible set of tools and a space where embedded developers worldwide can share technologies, software stacks, configurations, and best practices that can be used to create tailored Linux images for embedded and IOT devices, or anywhere a customized Linux OS is needed.
+
 ## IoT OS | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
 ### TIZEN | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
@@ -467,3 +477,4 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - SmartTV TIZEN Samsung Electronics, https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5, 2022-07-26-Tue.
 - SmartTV webOS LG Electronics, https://live.lge.co.kr/life-style-webos/, 2022-07-26-Tue.
 - Multics, https://multicians.org/multics.html, 2022-07-28-Thu.
+- yocto project, https://www.yoctoproject.org/, 20222-08-03-Wed.
