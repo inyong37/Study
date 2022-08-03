@@ -316,17 +316,21 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ## Embedded System: Firmware | RTOS | OS
 
-### [Buildroot](https://buildroot.org/)
-
-Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
-
 ### [Yocto Project (YP)](https://www.yoctoproject.org/)
+
+요약: 임베디드 시스템을 구성하는 툴, 지원하는 하드웨어/회사가 많고 커스터 마이징이 자유롭지만, 사용하기 상대적으로 까다롭다.
 
 THE YOCTO PROJECT.  IT'S NOT AN EMBEDDED LINUX DISTRIBUTION, IT CREATES A CUSTOM ONE FOR YOU.
 
 The Yocto Project (YP) is an open source collaboration project that helps developers create custom Linux-based systems regardless of the hardware architecture. 
 
 The project provides a flexible set of tools and a space where embedded developers worldwide can share technologies, software stacks, configurations, and best practices that can be used to create tailored Linux images for embedded and IOT devices, or anywhere a customized Linux OS is needed.
+
+### [Buildroot](https://buildroot.org/)
+
+요약: 임베디드 리눅스 시스템을 구성하는 툴, 사용하기 쉽고 간단하지만, 커스터 마이징과 지원하는 하드웨어/회사가 상대적으로 적다.
+
+Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
 
 ## IoT OS | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
