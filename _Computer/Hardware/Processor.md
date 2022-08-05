@@ -16,6 +16,26 @@ Micro processor는 페드리코 페긴이 1970년대에 발명한 것으로, CPU
 
 이렇게 여러 기능을 가진 반도체가 하나의 칩으로 통합되면 칩을 탑재하는 공간이 크게 줄어들어 제품 소형화가 가능하고, 여러 개의 반도체를 별도로 만드는 것 대비 제조 비용이 감소하는 등 여러 장점들이 있다.
 
+## Reduced Instruction Set Computer (RISC) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%B6%95%EC%86%8C_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9_%EC%BB%B4%ED%93%A8%ED%84%B0)
+
+축소 명령어 집합 컴퓨터(Reduced Instruction Set Computer, RISC, 리스크)는 CPU 명령어의 개수를 줄여 명령어 해석시간을 줄임으로서 명령어 실행속도를 빠르게 한 방식으로, 마이크로프로세서를 설계하는 방법 가운데 하나이며, 주로 신호처리나 실시간제어용으로 설계되며, SPARC, MIPS 등의 아키텍처에서 사용된다.
+
+전통적인 CISC CPU에는 프로그래밍을 돕기 위한 많은 수의 명령어와 주소 모드가 존재했다. 그러나 그중에서 실제로 쓰이는 명령어는 몇 개 되지 않는다는 사실을 바탕으로, 적은 수의 명령어만으로 명령어 집합을 구성한 것이 RISC이다. 그래서, RISC는 CISC보다 구조가 더 단순하다. 복잡한 연산도 적은 수의 명령어들을 조합하는 방식으로 수행이 가능하다.
+
+그리고 CISC 형식의 CPU내 ROM에 소프트웨어적으로 적재된 내부 명령어들을 하드웨어적으로 구성하여 제어기가 제거된 부분에 프로세서 레지스터 뱅크와 캐시를 둔다. 이렇게 함으로써 CPU가, 상대적으로 느린 메인 메모리에 접근하는 횟수를 줄여주어 파이프라이닝 등 시스템 수행속도가 전체적으로 향상된다.
+
+## Microprocessor without Interlocked Pipeline Stages (MIPS) | [WiKi (KR)](https://ko.wikipedia.org/wiki/MIPS_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98)
+
+MIPS(Microprocessor without Interlocked Pipeline Stages)는 밉스 테크놀로지에서 개발한 RISC ISA이다.
+
+MIPS 디자인은 실리콘 그래픽스 사의 컴퓨터 시스템, 많은 임베디드 시스템과 윈도우 CE 장치, 시스코 시스템즈 라우터에 사용되었다. 그 외에도 소니 플레이스테이션, 닌텐도 64, 플레이스테이션 2, 플레이스테이션 포터블 같은 게임 콘솔에도 사용되었다. 한편 국내에서는 아이스테이션 사의 아이스테이션 T43제품에 쓰인바 있다.
+
+초기 MIPS 아키텍처는 32비트를 사용하였다. 이들은 32비트 레지스터와 데이터 경로를 가지고 있었다. 그 이후의 MIPS 프로세서들은 64비트 구현을 사용하였다. 5종류의 하위 호환성 MIPS 동작 세트가 존재하며, 이들은 각각 MIPS I, MIPS II, MIPS III, MIPS IV, MIPS 32/64라고 불린다. MIPS 32/64 릴리즈 2에서는 동작 세트와 함께 컨트롤 레지스터 셋도 정의하고 있다. MIPS-3D 같은 3차원 그래픽을 위한 SIMD 확장 기능도 존재한다. MDMX(MaDMaX) 확장은 64비트 유동 소수점 레지스터를 활용하는 정수 연산 집합이다. 최근에는 MIPS MT라고 하는 인텔 펜티엄 4 프로세서의 하이퍼스레딩 같은 멀티스레딩 기능이 추가되었다.
+
+MIPS 디자이너들이 명령어 세트를 깔끔하게 설계했기 때문에 많은 대학의 컴퓨터 아키텍처 강좌에서 MIPS 아키텍처를 가르친다. MIPS 프로세서의 디자인은 후기 RISC 아키텍처에 큰 영향을 주었다.
+
+---
+
 ## Application Processor (AP) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)
 
 AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 등 사람의 두뇌 역할을 하는 핵심 부품이다. AP는 CPU와 달리 GPU와 설계에 따라 통신 칩(WiFi, Bluetooth, 3G 등)과 USB와 같은 기능까지 하나의 칩에 포함시켜 놓는 칩셋의 형태로 구성되었기 떄문이다. 칩셋은 SoC라 불리며 CPU, GPU 등 칩 한에 여러 기능을 집적시켜 모든 애플리케이션 구동과 시스템 장치, 여러 인터페이스 장치 등을 제어하고 관장하는 장치로, 부피를 줄이고 전력 소모를 최소화할 수 있게 한손에 들고 다닐 수 있는 초소형의 컴퓨터를 만들 수 있게 되었다고 한다.
@@ -88,6 +108,18 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 
 ---
 
+## PowerPC | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8CPC)
+
+파워PC(PowerPC, Performance Optimization With Enhanced RISC – Performance Computing의 약어, 간단히 PPC)는 1991년 애플, IBM, 모토로라 등이 제휴한 AIM 연합에서 발표한 RISC 방식의 명령 집합 아키텍처(Instruction Set Architecture)를 말한다. PowerPC 명령 집합은 지속적으로 진화하고 있으며, 2006년에 Power ISA로 이름을 바꾸었으나, 그 이후에도 파워PC는 파워 아키텍처 기반의 몇몇 프로세서를 통칭하는 명칭으로 사용되고 있다.
+
+파워PC 아키텍처 자체는 동작의 기본이 되는 명령 집합이나 레지스터 집합, 메모리 어드레싱, 캐시 모델 등을 규정하고 있지만 이들의 구현 방법에 대한 규정은 없다. 그러므로 극단적으로 파워 피씨 아키텍처에서 내부적으로 CISC 또는 소프트웨어를 구현해도 파워 피씨 프로세서라고 부를 수 있다. 이러한 특징으로 실제로 제조되는 모델은 고속화를 위해서 아키텍처 수준에서는 규정되어 있지 않은 부품(2차, 3차 캐시나 관련 레지스터 등)을 갖추고 있는 것이 보통이다.
+
+원래는 AIM(애플, IBM, 모토로라) 플랫폼의 CPU가 이런 의미로 개발된 것이지만, CPU 말고는 개발된 것이 없으므로 오늘날까지 남아 있는 파워피씨 계열 프로젝트의 유일한 성과물이기도 하다. 파워피씨는 애플 컴퓨터사의 파워맥에 사용되었다. 그 밖에는 IBM의 일부 워크스테이션, 서버나 BlueGene/L뿐만 아니라 슈퍼 컴퓨터에도 사용된다.
+
+또한 기판 크기가 작고 소비 전력이 낮으며 자일링스 FPGA용 IP 코어도 제공한다. 현재는 모토로라에서 분리된 프리스케일 세미컨덕터와 IBM에서 개발하여 제조하고 있다.
+
+---
+
 ### Reference
 - CPU Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
 - Intel, https://www.intel.com/content/www/us/en/homepage.html, 2020-11-07-Sat.
@@ -106,3 +138,6 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 - armel vs. armhf vs. arm64 Blog, https://ciksiti.com/ko/chapters/3066-difference-between-arm64-armel-and-armhf--linux-hint, 2022-08-02-Tue.
 - Nvidia, https://www.nvidia.com/en-us/, 2022-08-05-Fri.
 - Google Cloud TPU, https://cloud.google.com/tpu, 2022-08-05-Fri.
+- RISC WiKi KR, https://ko.wikipedia.org/wiki/%EC%B6%95%EC%86%8C_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9_%EC%BB%B4%ED%93%A8%ED%84%B0, 2022-08-05-Fri.
+- MIPS WiKi KR, https://ko.wikipedia.org/wiki/MIPS_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98, 2022-08-05-Fri.
+- PowerPC Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8CPC, 
