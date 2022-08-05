@@ -66,6 +66,28 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 
 ---
 
+## Graphics Processing Unit (GPU) | Videa Graphics Array (VGA)
+
+### [Nvidia](https://www.nvidia.com/en-us/)
+
+### [AMD](https://www.amd.com/en) (takeover ATI)
+
+---
+
+## General Purpose Graphics Processing Unit (GPGPU)
+
+---
+
+## Tensor Procssing Unit (TPU)
+
+### [Google](https://cloud.google.com/tpu)
+
+---
+
+## Nueral Processing Unit (NPU)
+
+---
+
 ### Reference
 - CPU Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-11-07-Sat.
 - Intel, https://www.intel.com/content/www/us/en/homepage.html, 2020-11-07-Sat.
@@ -82,3 +104,5 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 - SoC Samsung Electronics KR, https://www.samsungsemiconstory.com/kr/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9A%A9%EC%96%B4-%EC%82%AC%EC%A0%84-soc/, 2022-07-25-Mon.
 - Mobile AP Samsung Electronics KR, https://www.samsungsemiconstory.com/kr/%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%9a%a9%ec%96%b4-%ec%82%ac%ec%a0%84-%eb%aa%a8%eb%b0%94%ec%9d%bc-ap/, 2022-07-25-Mon.
 - armel vs. armhf vs. arm64 Blog, https://ciksiti.com/ko/chapters/3066-difference-between-arm64-armel-and-armhf--linux-hint, 2022-08-02-Tue.
+- Nvidia, https://www.nvidia.com/en-us/, 2022-08-05-Fri.
+- Google Cloud TPU, https://cloud.google.com/tpu, 2022-08-05-Fri.
