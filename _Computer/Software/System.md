@@ -564,3 +564,5 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Android TV, https://developer.android.com/training/tv, 2022-08-08-Mon.
 - Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
 - Android Auto vs. Apple Car Play Blog KR, https://dukwon.tistory.com/67, 2022-08-08-Mon.
+- Android vs. Linux distro Blog KR, https://mond.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EB%8A%94-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EB%B0%98%EC%9D%B4%EB%8B%A4, 2022-08-08-Mon.
+- Linux Smart Phone Blog KR, https://sergeswin.com/1247/, 2022-08-08-Mon.
