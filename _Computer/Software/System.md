@@ -75,9 +75,9 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - OpenWrt (by Linksys, from 2007, used for most of Router Platform)
   - Android (by Android of Google, from September 2008, used for Mobile Platform)
     - Wear OS (formerly Android Wear, from March 2014 with Android 4.4W, used for Android Smart Watch)
+    - Android TV (used for Smart TV)
     - Android Auto (from March 2015, used for connected vehicle by Android Phone)
     - Android Automotive OS (used for infortainment system of vehicle)
-    - Android TV (used for Smart TV)
 - z/OS (by IBM, from October 2000, used for Mainframe)
 - Contiki-NG
 - FreeRTOS
@@ -224,6 +224,10 @@ Linux is one of the most prominent examples of free and open-source software col
 With Wear OS by Google, you can write apps that enable users to stay connected, accomplish tasks, and express themselves.
 
 Wear OS is based on Android and is optimized for the wrist. If you have developed for Android, then features such as apps, notifications, and Actions on Google may be familiar to you. In addition, Wear OS offers new development options such as watch faces.
+
+### [Android TV](https://developer.android.com/training/tv)
+
+If you've got an Android app or game, Android TV can bring it to your users in their living room. Android TV apps use the same architecture as those for phones and tablets. This approach means you can build new TV apps based on what you already know about building apps for Android, or extend your existing apps to also run on TV devices.
 
 ### [Android for Cars](https://developer.android.com/training/cars) | Android Auto | Android Automotive OS
 
@@ -541,5 +545,6 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Raspberry Pi OS, https://www.raspberrypi.com/software/, 2022-08-08-Mon.
 - Android, https://developer.android.com/, 2022-08-08-Mon.
 - Android Wear, https://developer.android.com/training/wearables, 2022-08-08-Mon.
+- Android TV, https://developer.android.com/training/tv, 2022-08-08-Mon.
 - Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
 - Android Auto vs. Apple Car Play Blog KR, https://dukwon.tistory.com/67, 2022-08-08-Mon.
