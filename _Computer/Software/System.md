@@ -219,6 +219,31 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### [Android](https://developer.android.com/) - Mobile Platform
 
+### [Android for Cars](https://developer.android.com/training/cars) | Android Auto | Android Automotive OS
+
+- Supported app categories
+  - Media apps (audio)
+  - Messaging apps
+  - Navigation apps
+  - Point of Interest (POI) apps
+  - Vidoe apps
+
+### Android Auto
+
+요약: 스마트폰에 있는 앱을 자동차에서 사용가능케하는 OS, 자동차가 아닌 스마트폰에 앱을 설치함.
+
+Android Auto provides a driver-optimized app experience for users with an Android phone and the Android Auto app, but who do not have a vehicle that uses Android Automotive OS. If a user's car or aftermarket stereo system supports Android Auto, they can use your app directly on their car's display by connecting their phone.
+
+You enable Android Auto to connect with your phone app by creating services that Android Auto uses to display a driver-optimized interface to the driver. You reuse these services for your Android Automotive OS app, but users do not install your phone app on their cars.
+
+### Android Automotive OS
+
+요약: 자동차에 설치되는 infortainment 시스템을 위한 OS, 자동차에 직접 앱을 설치함.
+
+Android Automotive OS is an Android-based infotainment system that is built into vehicles. The car's system is a stand-alone Android device that is optimized for driving. With Android Automotive OS, users install your app directly onto the car instead of their phones.
+
+For media apps, your app must include a media browser service (see Build media apps for cars for instructions). You can use the same media browser service with both Android Automotive OS and Android Auto. However, there are some activities such as sign-in and settings that you must design specifically for Android Automotive OS. For more information, see Adapt sign-in flow and Design settings in the Android Automotive OS app design guidelines.
+
 ---
 
 ## *Macintosh* | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
@@ -509,3 +534,4 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Raspbian, https://www.raspbian.org/, 2022-08-08-Mon.
 - Raspberry Pi OS, https://www.raspberrypi.com/software/, 2022-08-08-Mon.
 - Android, https://developer.android.com/, 2022-08-08-Mon.
+- Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
