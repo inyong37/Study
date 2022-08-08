@@ -73,6 +73,11 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
     - Rocky Linux (by Rocky Enterprise Software Foundation (RESF), from April 2021)
   - OpenWrt (by Linksys, from 2007, used for most of Router Platform)
+  - Android (by Android of Google, from September 2008, used for Mobile Platform)
+    - Wear OS (formerly Android Wear, from March 2014 with Android 4.4W, used for Android Smart Watch)
+    - Android Auto (from March 2015, used for connected vehicle by Android Phone)
+    - Android Automotive OS (used for infortainment system of vehicle)
+    - Android TV (used for Smart TV)
 - z/OS (by IBM, from October 2000, used for Mainframe)
 - Contiki-NG
 - FreeRTOS
@@ -210,7 +215,9 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ```Other parts of the "Linux" have been moved to the "Unix" page.```
 
-### [OpenWrt](https://openwrt.org/) - IoT
+### [OpenWrt](https://openwrt.org/) - Router Platform
+
+### [Android](https://developer.android.com/) - Mobile Platform
 
 ---
 
@@ -501,3 +508,4 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Rocky Linux, https://rockylinux.org/, 2022-08-08-Mon.
 - Raspbian, https://www.raspbian.org/, 2022-08-08-Mon.
 - Raspberry Pi OS, https://www.raspberrypi.com/software/, 2022-08-08-Mon.
+- Android, https://developer.android.com/, 2022-08-08-Mon.
