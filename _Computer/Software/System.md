@@ -79,12 +79,12 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Android Auto (from March 2015, used for connected vehicle by Android Phone)
     - Android Automotive OS (used for infortainment system of vehicle)
 - z/OS (by IBM, from October 2000, used for Mainframe)
-- Contiki-NG
-- FreeRTOS
-- Mbed OS
-- MicroPython
-- TinyOS
-- RIOT
+- TinyOS (by TinyOS Alliance, from 2000)
+- FreeRTOS (by Real Time Engineers Ltd., from 2003)
+- Contiki-NG (from 2006, used for IoT devices)
+- Mbed OS (by	Collaborative project managed by Arm, from September 2009)
+- RIOT (by Free University of Berlin & French Institute for Research in Computer Science and Automation & Hamburg University of Applied Sciences, from October 2009, used for embedded systems)
+- MicroPython (by Damien P. George, from May 2014)
 
 ---
 
@@ -406,8 +406,24 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 ### [FreeRTOS](https://www.freertos.org/)
 ### [Mbed OS](https://os.mbed.com/mbed-os/)
 ### [MicroPython](https://micropython.org/)
+
+MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
+
+The MicroPython pyboard is a compact electronic circuit board that runs MicroPython on the bare metal, giving you a low-level Python operating system that can be used to control all kinds of electronic projects.
+
+MicroPython is packed full of advanced features such as an interactive prompt, arbitrary precision integers, closures, list comprehension, generators, exception handling and more. Yet it is compact enough to fit and run within just 256k of code space and 16k of RAM.
+
+MicroPython aims to be as compatible with normal Python as possible to allow you to transfer code with ease from the desktop to a microcontroller or embedded system.
+
 ### [TinyOS](http://www.tinyos.net/)
+
+TinyOS is an open source, BSD-licensed operating system designed for low-power wireless devices, such as those used in sensor networks, ubiquitous computing, personal area networks, smart buildings, and smart meters. A worldwide community from academia and industry use, develop, and support the operating system as well as its associated tools, averaging 35,000 downloads a year.
+
 ### [RIOT](https://www.riot-os.org/)
+
+RIOT powers the Internet of Things like Linux powers the Internet. RIOT is a free, open source operating system developed by a grassroots community gathering companies, academia, and hobbyists, distributed all around the world.
+
+RIOT supports most low-power IoT devices, microcontroller architectures (32-bit, 16-bit, 8-bit), and external devices. RIOT aims to implement all relevant open standards supporting an Internet of Things that is connected, secure, durable & privacy-friendly.
 
 ### Ubuntu Core
 
