@@ -197,15 +197,15 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Debian](https://www.debian.org/)*
 
-### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core](https://ubuntu.com/core) - IoT
+### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core (IoT)](https://ubuntu.com/core)
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
+### *[Linux Mint](https://www.linuxmint.com/)*
+
 ### [Raspbian](https://www.raspbian.org/) | [Raspberry Pi OS](https://www.raspberrypi.com/software/)
 
-### *[Fedora](https://getfedora.org/)* | [Workstation](https://getfedora.org/en/workstation/) | [Server](https://getfedora.org/en/server/) | [IoT](https://getfedora.org/en/iot/) - IoT
-
-### *[Linux Mint](https://www.linuxmint.com/)*
+### *[Fedora](https://getfedora.org/)* | [Fedora Workstation](https://getfedora.org/en/workstation/) | [Fedora Server](https://getfedora.org/en/server/) | [Fedora IoT](https://getfedora.org/en/iot/)
 
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
