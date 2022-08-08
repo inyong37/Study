@@ -56,20 +56,20 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - Mac OS (not based on Darwin)
       - OS X
       - macOS 
-- MINIX 3
-- Linux
+- MINIX 3 (by Andrew S. Tanenbaum et al., from October 2005, until 2018 with version 3.4.0 rc6)
+- Linux (by Linus Torvalds and community, from September 1991)
   - Debian (by Debian Project, from September 1993)
-    - Ubuntu (GNOME 3) | Ubuntu Core
-    - Ubuntu MATE (GNOME 2)
-    - Linux Mint
-    - Raspberry Pi OS (formely Raspbian)
+    - Ubuntu (by Canonical, from October 2004, based GNOME 3 in version 22) | Ubuntu Core
+      - Linux Mint (by community, from August 2006)
+      - Ubuntu MATE (by Ubuntu Mate Team, from October 2014, based on GNOME 2 in version 18)
+    - Raspberry Pi OS (formely Raspbian, by Mike Thompson, Peter Green and foundation, from June 2012)
   - Fedora (formely Red Hat Linux, by Red Hat of IBM, from November 2003) | Workstation | Server | IoT
     - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
-    - CentOS (by Red Hat of IBM & community, from May 2004, until December 2021 with version 8)
+    - CentOS (by Red Hat of IBM and community, from May 2004, until December 2021 with version 8)
     - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
     - Rocky Linux (by Rocky Enterprise Software Foundation (RESF), from April 2021)
-  - OpenWrt
-- z/OS (by IBM)
+  - OpenWrt (by Linksys, from 2007, used for most of Router Platform)
+- z/OS (by IBM, from October 2000, used for Mainframe)
 - Contiki-NG
 - FreeRTOS
 - Mbed OS
