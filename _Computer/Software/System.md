@@ -542,4 +542,4 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Android, https://developer.android.com/, 2022-08-08-Mon.
 - Android Wear, https://developer.android.com/training/wearables, 2022-08-08-Mon.
 - Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
-- Android 
+- Android Auto vs. Apple Car Play Blog KR, https://dukwon.tistory.com/67, 2022-08-08-Mon.
