@@ -219,6 +219,12 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### [Android](https://developer.android.com/) - Mobile Platform
 
+### [Android Wear OS by Google](https://developer.android.com/training/wearables)
+
+With Wear OS by Google, you can write apps that enable users to stay connected, accomplish tasks, and express themselves.
+
+Wear OS is based on Android and is optimized for the wrist. If you have developed for Android, then features such as apps, notifications, and Actions on Google may be familiar to you. In addition, Wear OS offers new development options such as watch faces.
+
 ### [Android for Cars](https://developer.android.com/training/cars) | Android Auto | Android Automotive OS
 
 - Supported app categories
@@ -534,4 +540,6 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Raspbian, https://www.raspbian.org/, 2022-08-08-Mon.
 - Raspberry Pi OS, https://www.raspberrypi.com/software/, 2022-08-08-Mon.
 - Android, https://developer.android.com/, 2022-08-08-Mon.
+- Android Wear, https://developer.android.com/training/wearables, 2022-08-08-Mon.
 - Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
+- Android 
