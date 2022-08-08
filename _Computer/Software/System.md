@@ -58,14 +58,16 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - macOS 
 - MINIX 3
 - Linux
-  - Debian
+  - Debian (by Debian Project, from September 1993)
     - Ubuntu (GNOME 3) | Ubuntu Core
     - Ubuntu MATE (GNOME 2)
     - Linux Mint
     - Raspberry Pi OS (formely Raspbian)
-  - Fedora (by Red Hat of IBM, formely Red Hat Linux) | Workstation | Server | IoT
-    - Red Hat Enterprise Linux (by Red Hat of IBM)
-    - CentOS
+  - Fedora (formely Red Hat Linux, by Red Hat of IBM, from November 2003) | Workstation | Server | IoT
+    - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
+    - CentOS (by Red Hat of IBM & community, from May 2004, until December 2021 with version 8)
+    - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
+    - Rocky Linux (by Rocky Enterprise Software Foundation (RESF), from April 2021)
   - OpenWrt
 - z/OS (by IBM)
 - Contiki-NG
@@ -190,6 +192,8 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
+### [Raspbian](https://www.raspbian.org/) | [Raspberry Pi OS](https://www.raspberrypi.com/software/)
+
 ### *[Fedora](https://getfedora.org/)* | [Workstation](https://getfedora.org/en/workstation/) | [Server](https://getfedora.org/en/server/) | [IoT](https://getfedora.org/en/iot/) - IoT
 
 ### *[Linux Mint](https://www.linuxmint.com/)*
@@ -197,6 +201,8 @@ Linux is one of the most prominent examples of free and open-source software col
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
 ### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
+
+### [Rocky Linux](https://rockylinux.org/)
 
 ```Other parts of the "Linux" have been moved to the "Unix" page.```
 
@@ -488,3 +494,6 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 - Buildroot, https://buildroot.org/, 2022-08-03-Wed.
 - Yocto Project, https://www.yoctoproject.org/, 20222-08-03-Wed.
 - IoT Linux Distros, https://techgenix.com/iot-linux-distros/, 2022-08-03-Wed.
+- Rocky Linux, https://rockylinux.org/, 2022-08-08-Mon.
+- Raspbian, https://www.raspbian.org/, 2022-08-08-Mon.
+- Raspberry Pi OS, https://www.raspberrypi.com/software/, 2022-08-08-Mon.
