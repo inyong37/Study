@@ -236,7 +236,7 @@ If you've got an Android app or game, Android TV can bring it to your users in t
   - Messaging apps
   - Navigation apps
   - Point of Interest (POI) apps
-  - Vidoe apps
+  - Video apps
 
 ### Android Auto
 
