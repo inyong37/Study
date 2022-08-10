@@ -167,7 +167,7 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
-## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/)
+## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) || [Naver Smart Home](https://clova.ai/ko/smarthome/)
 
 Home automation or domotics is building automation for a home, called a smart home or smart house. A home automation system will monitor and/or control home attributes such as lighting, climate, entertainment systems, and applicances. It may also include home security such as access control and alarm systems. When connected with the Internet, home devices are an important constituent of the the Internet of Things (IoT).
 
@@ -184,9 +184,18 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
   - Amazon Echo
   - Amazon Echo Dot
   - Amazon Echo Studio
-  - [Apple HomePod mini](https://www.apple.com/homepod-mini/)
+  - [Apple HomePod Mini](https://www.apple.com/homepod-mini/)
   - [Google Nest Audio](https://store.google.com/us/product/nest_audio?hl=en-US)
   - [Google Nest Mini](https://store.google.com/us/product/google_nest_mini?hl=en-US)
+  - Samsung Electronics Galaxy Home
+  - Samsung Electronics Galaxy Home Mini
+  - SK Telecom NUGU
+  - KT Giga Genie
+  - Naver Clova Wave
+  - Naver Clova Friends
+  - Kakao Mini
+  - Kakao MiniC
+  - 
 - Display
   - Amazon Echo Show
   - [Google Nset Hub Max](https://store.google.com/us/product/google_nest_hub_max?hl=en-US)
@@ -402,3 +411,5 @@ Embedded Linux File System 비교
 - Google Nest Hub (2nd gen), https://store.google.com/us/product/nest_hub_2nd_gen?hl=en-US, 2022-08-10-Wed.
 - Google Wifi, https://store.google.com/us/product/google_wifi_2nd_gen?hl=en-US, 2022-08-10-Wed.
 - Nest Wifi, https://store.google.com/us/product/nest_wifi?hl=en-US, 2022-08-10-Wed.
+- Naver Clova Wave, https://clova.ai/ko/ko-product-wave.html, 2022-08-10-Wed.
+- Naver Clova Friends, https://clova.ai/ko/ko-product-friends.html, 2022-08-10-Wed.
