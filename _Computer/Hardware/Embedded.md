@@ -416,3 +416,4 @@ Embedded Linux File System 비교
 - Naver Clova Wave, https://clova.ai/ko/ko-product-wave.html, 2022-08-10-Wed.
 - Naver Clova Friends, https://clova.ai/ko/ko-product-friends.html, 2022-08-10-Wed.
 - Kakao Mini, https://kakao.ai/product/kakaomini, 2022-08-10-Wed.
+- Amazon Echo Frames, https://www.amazon.com/All-new-Echo-Frames/dp/B083C58VDP?th=1, 2022-08-10-Wed.
