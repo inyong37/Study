@@ -7,7 +7,66 @@ A backplane (or backplane system) is a group of electrical connectors in paralle
 ### Motherboard vs. Backplane
 A backplane is generally differentiated from a motherboard by the lack of on-board processing and storage elements. A backplane uses plug-in cards for storage and processing.
 
-### Single Board Computer (SBC)
+---
+
+## Single Board Computer (SBC)
+
+## [Arduino](https://www.arduino.cc/)
+
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
+
+### Arduino Hardware
+
+Arduino senses the environment by receiving inputs from many sensors, and affects its surroundings by controlling lights, motors, and other actuators.
+
+### Arduino Software
+
+You can tell your Arduino what to do by writing code in the Arduino programming language and using the Arduino development environment.
+
+## [Raspberry Pi](https://www.raspberrypi.org/)
+
+Computing for everybody
+
+From industries large and small, to the kitchen table tinkerer, to the classroom coder, we make computing accessible and affordable for everybody.
+
+### Raspberry Pi Hardware
+- [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) (released November 2015)
+- [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) (released Febuary 2017)
+- [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) (released October 2021)
+- [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) (released January 2021)
+- [Raspberry Pi 1 Model A+](https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/) (released November 2014)
+- [Raspberry Pi 1 Model B+](https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/) (released July 2014)
+- [Raspberry Pi 3 Model A+](https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/) (released November 2018)
+- [Raspberry Pi 3 Model B](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/) (released Febuary 2016)
+- [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) (released March 2018)
+- [Raspberry Pi 4 (Model B)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (released June 2019)
+
+## [Nvidia Jetson](https://developer.nvidia.com/embedded-computing)
+
+The Platform for AI at the Edge
+
+NVIDIA® Jetson™ is used by professional developers to create breakthrough AI products across all industries, and by students and enthusiasts for hands-on AI learning and making amazing projects.
+
+The Jetson platform includes small, power-efficient developer kits and production modules that offer high-performance acceleration of the NVIDIA CUDA-X™ software stack.
+
+### Jetson Board
+- Jetson Nano 2GB Develop Kit
+- Jetson Nano Developer Kit
+- Jetson Nano
+- Jetson TX2 4GB
+- Jetson TX2i
+- Jetson TX2
+- Jetson TX2 NX
+- Jetson Xavier NX Developer Kit
+- Jetson Xavier NX
+- Jetson Xavier NX 16GB
+- Jetson AGX Xavier Developer Kit
+- Jetson AGX Xavier Industrial
+- Jetson AGX Xavier
+- Jetson AGX Xavier 64GB
+- Jetson AGX Orin Developer Kit
+- Jetson AGX Orin 32GB
+
 
 ### Jetson Nano vs. Raspberry Pi 4 | [Blog](https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/)
 
@@ -35,7 +94,17 @@ The NVIDIA Jetson Nano has a 128-core Maxwell GPU at 921 MHz. Compared side by s
 |OS|The official operating system for the Jetson Nano is the Linux4Tegra, based on Ubuntu 18.04. This is available via the included SD card image, which is designed to run NVIDIA hardware.|The Raspberry Pi 4 supports Raspberry Pi OS (formerly known as Raspbian), Ubuntu, OSMC, RetroPie, and other third-party images.|
 |Price|The Jetson Nano costs around $60 for the 2-GB kit, or about $100 for the 4-GB kit.|The Raspberry Pi 4’s 1-GB and 2-GB variants cost around $35, with the 4-GB version at around $55 and the 8-GB model available for about $75.|
 
-#### Reference
+## [Odroid](https://www.hardkernel.com/)
+
+Single board computer with a wide range of useful peripherals developed for use in a variety of embedded system applications.
+
+---
+
+### Reference
 - Motherboard Wiki, https://en.wikipedia.org/wiki/Motherboard, 2021-03-30-Tue.
 - Backplane Wiki, https://en.wikipedia.org/wiki/Backplane, 2021-03-30-Tue.
 - Jetson Nano vs. Raspberry Pi 4 Blog, https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/, 2022-08-02-Tue.
+- Arduino, https://www.arduino.cc/, 2022-08-10-Wed.
+- Raspberry Pi, https://www.raspberrypi.org/, 2022-08-10-Wed.
+- Nvidia Jetson, https://developer.nvidia.com/embedded-computing, 2022-08-10-Wed.
+- Odroid, https://www.hardkernel.com/, 2022-08-10-Wed.
