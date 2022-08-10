@@ -167,7 +167,7 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
-## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation)
+## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/)
 
 Home automation or domotics is building automation for a home, called a smart home or smart house. A home automation system will monitor and/or control home attributes such as lighting, climate, entertainment systems, and applicances. It may also include home security such as access control and alarm systems. When connected with the Internet, home devices are an important constituent of the the Internet of Things (IoT).
 
@@ -178,6 +178,32 @@ While there are many competing vendeors, there are increasing efforts towards op
 Home automation has high potential for sharing data between family members or trusted individuals for personal security and could lead to energy saving measures with a positive environmental impact in the future.
 
 The home automation market was worth US$5.77 billion in 2013, predicted to reach a market value of US$12.81 billion by 2020.
+
+### Device
+- Speaker
+  - Amazon Echo
+  - Amazon Echo Dot
+  - Amazon Echo Studio
+  - [Apple HomePod mini](https://www.apple.com/homepod-mini/)
+  - [Google Nest Audio](https://store.google.com/us/product/nest_audio?hl=en-US)
+  - [Google Nest Mini](https://store.google.com/us/product/google_nest_mini?hl=en-US)
+- Display
+  - Amazon Echo Show
+  - [Google Nset Hub Max](https://store.google.com/us/product/google_nest_hub_max?hl=en-US)
+  - [Google Nest Hub](https://store.google.com/us/product/nest_hub_2nd_gen?hl=en-US)
+- Wi-Fi AP
+  - [Google Wifi](https://store.google.com/us/product/google_wifi_2nd_gen?hl=en-US)
+  - [Google Nest Wifi](https://store.google.com/us/product/nest_wifi?hl=en-US)
+- Streaming
+- Gaming
+- Smoke & CO alarm
+- Door lock
+- Cameras
+- Doorbells
+- Thermostats
+- Glasses
+  - Amazon Echo Frames
+ 
 
 ### Samsung Electronics SmartThings | [How to Connect](https://www.samsungsvc.co.kr/solution/22417)
 
@@ -194,7 +220,7 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 7. 가전제품의 종류(공기청정기, 냉장고, 에어컨, 세탁기, 에어드레서)에 따라 AP 모드로 설정하세요. 가전제품의 디스플레이에 AP가 표시되고 연결이 진행됩니다.
 8. 스마트폰과 가전제품의 연결이 완료되었습니다. 앱에서 연결 완료 메세지를 확인한 후 완료를 탭하세요.
 
-#### [Smart Wallpad](https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko)
+### [Smart Wallpad](https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko)
 
 - 도어록 연동: Zigbee, 447MHz
 - 기기간 통신 방식
@@ -214,7 +240,7 @@ Home Assistant Operating System (formerly HassOS) is a Linux based operating sys
 
 Home Assistant Operating System uses Docker as Container engine. It by default deploys the Home Assistant Supervisor as a container. Home Assistant Supervisor in turn uses the Docer container engine to control Home Assistant Core and Add-Ons in seperate containers. Home Assistant Operating System is not based on a regular Linux distribution like Ubuntu. It is build using Buildroot and it is optimized to run Home Assistant. It targets single board copmute (SBC) devices like the Raspberry Pi or ODROID but also supports x84-64 systems with UEFI.
 
-#### Components
+### Components
 
 - Bootloader:
   - Barebox for devices that support UEFI
@@ -237,7 +263,7 @@ Open source home automation that puts local control and privacy first. Powered b
 
 The system is built using a modular approach so support for other devices or actions can be implemented easily.
 
-#### Feature integrations
+### Feature integrations
 
 - Amazon Alexa
 - ecobee
@@ -367,3 +393,12 @@ Embedded Linux File System 비교
 - Difference Between VxWorks and Linux, https://askanydifference.com/difference-between-vxworks-and-linux/, 2022-07-25-Mon.
 - Smart Wallpad Samsung Electronics KR, https://smarthome.samsungsds.com/smarthome/product/view?prdId=100&locale=ko, 2022-07-26-Tue.
 - HA Integration Architecture, https://developers.home-assistant.io/docs/architecture_components, 2022-07-28-Thu.
+- Building Smart Home News KR, https://www.ciokorea.com/news/114069, 2022-08-10-Wed.
+- Apple Homepod Mini, https://www.apple.com/homepod-mini/, 2022-08-10-Wed.
+- Google Home, https://home.google.com/welcome/, 2022-08-10-Wed.
+- Google Nest Audio, https://store.google.com/us/product/nest_audio?hl=en-US, 2022-08-10-Wed.
+- Google Nest Mini (2nd gen), https://store.google.com/us/product/google_nest_mini?hl=en-US, 2022-08-10-Wed.
+- Google Nest Hub Max, https://store.google.com/us/product/google_nest_hub_max?hl=en-US, 2022-08-10-Wed.
+- Google Nest Hub (2nd gen), https://store.google.com/us/product/nest_hub_2nd_gen?hl=en-US, 2022-08-10-Wed.
+- Google Wifi, https://store.google.com/us/product/google_wifi_2nd_gen?hl=en-US, 2022-08-10-Wed.
+- Nest Wifi, https://store.google.com/us/product/nest_wifi?hl=en-US, 2022-08-10-Wed.
