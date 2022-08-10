@@ -167,7 +167,9 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
-## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) || [Naver Smart Home](https://clova.ai/ko/smarthome/)
+## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) || [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
+
+요약: 집의 가전, 불, 센서들을 자동화 제어, 음성 비서를 이용해 제어, 또는 스마트폰으로 외부에서 제어(모니터)하는 시스템
 
 Home automation or domotics is building automation for a home, called a smart home or smart house. A home automation system will monitor and/or control home attributes such as lighting, climate, entertainment systems, and applicances. It may also include home security such as access control and alarm systems. When connected with the Internet, home devices are an important constituent of the the Internet of Things (IoT).
 
@@ -193,9 +195,9 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
   - KT Giga Genie
   - Naver Clova Wave
   - Naver Clova Friends
-  - Kakao Mini
-  - Kakao MiniC
-  - 
+  - [Kakao Mini](https://kakao.ai/product/kakaomini)
+  - [Kakao Mini Hexa](https://kakao.ai/product/minihexa)
+  - [Kakao Mini Link](https://kakao.ai/product/minilink)
 - Display
   - Amazon Echo Show
   - [Google Nset Hub Max](https://store.google.com/us/product/google_nest_hub_max?hl=en-US)
@@ -413,3 +415,4 @@ Embedded Linux File System 비교
 - Nest Wifi, https://store.google.com/us/product/nest_wifi?hl=en-US, 2022-08-10-Wed.
 - Naver Clova Wave, https://clova.ai/ko/ko-product-wave.html, 2022-08-10-Wed.
 - Naver Clova Friends, https://clova.ai/ko/ko-product-friends.html, 2022-08-10-Wed.
+- Kakao Mini, https://kakao.ai/product/kakaomini, 2022-08-10-Wed.
