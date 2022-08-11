@@ -167,7 +167,7 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
-## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) || [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
+## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) | [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
 
 요약: 집의 가전, 불, 센서들을 자동화 제어, 음성 비서를 이용해 제어, 또는 스마트폰으로 외부에서 제어(모니터)하는 시스템
 
@@ -243,7 +243,30 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - 인터넷 공유기 연결
   - 집에 설치된 무선 공유기의 WPS 버튼 누름 -> OK -> 연결 
 
-## [Home Assistant](https://www.home-assistant.io/) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
+## [Home Assistant](https://www.home-assistant.io/) | [Architecture](https://developers.home-assistant.io/docs/architecture_index) | [GitHub](https://github.com/home-assistant) | [KR](https://hakorea.github.io/)
+
+Home Assistant provides a platform for home control and home automation. Home Assistant is not just an application: it's an embedded system that provides an experience like other consumer off-the-shelf products: onboarding, configuration and updating is all done via an easy to use interface.
+
+- The operating system provides the bare minimal Linux environment to run Supervisor and Core.
+- The Supervisor manages the operating system.
+- The Core interacts with the user, the superviosr and IoT devices & services.
+
+### Home Assistant Core | [Architecture](https://developers.home-assistant.io/docs/architecture/core/) | [GitHub](https://github.com/home-assistant/core)
+
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+
+The system is built using a modular approach so support for other devices or actions can be implemented easily.
+
+The Home Assistant Core consists of four main parts. On top of this it includes many helper classes to deal with common scenarios, like providing an entity or dealing with locations.
+
+- Event Bus: facilitates the firing and listening of events -- the beating heart of Home Assistant.
+- State Machine: keeps track of the states of things and fires a `state_changed` event when a state has been changed.
+- Service Registry: listens on the event bus for `call_service` events and allows other code to register services.
+- Timer: sends a `time_changed` event every 1 second on the event bus.
+
+### Home Assistant Integration | [Architecture](https://developers.home-assistant.io/docs/architecture_components)
+
+Home Assistant Core can be extended with integrations. Each integration is responsible for a specific domain within Home Assistant. Integrations can listen for or trigger events, offer services, and maintain states. Integrations are made up of a component (the base logic) and platforms (bits that integrate with other integrations). Integrations are written in Python and can do all the goodness that Python has to offer. Out of the box, Home Assistant offers a bunch of built-in integrations.
 
 ### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
 
@@ -267,12 +290,6 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
   - RAUC for Over The Air (OTA) and USB updates
 - Security:
   - AppArmor Linux kernel security module
-
-### Home Assistant Core | [GitHub](https://github.com/home-assistant/core)
-
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-
-The system is built using a modular approach so support for other devices or actions can be implemented easily.
 
 ### Feature integrations
 
@@ -417,3 +434,6 @@ Embedded Linux File System 비교
 - Naver Clova Friends, https://clova.ai/ko/ko-product-friends.html, 2022-08-10-Wed.
 - Kakao Mini, https://kakao.ai/product/kakaomini, 2022-08-10-Wed.
 - Amazon Echo Frames, https://www.amazon.com/All-new-Echo-Frames/dp/B083C58VDP?th=1, 2022-08-10-Wed.
+- Home Assistant Architecture, https://developers.home-assistant.io/docs/architecture_index, 2022-08-11-Thu.
+- Home Assistant Core Architecture, https://developers.home-assistant.io/docs/architecture/core/, 2022-08-11-Thu.
+- Home Assistant Integration Architecture, https://developers.home-assistant.io/docs/architecture_components, 2022-08-11-Thu.
