@@ -167,7 +167,9 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
-## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation) | [Amazon Smart Home] | [Google Home](https://home.google.com/welcome/) | [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
+## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation)
+
+[Amazon Smart Home]() | [Google Home](https://home.google.com/welcome/) | [Samsung Electronics SmartThings]() | [LG Electronics ThinQ]() | [SK Telecom NUGU]() | [KT Giga Genie]() | [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
 
 요약: 집의 가전, 불, 센서들을 자동화 제어, 음성 비서를 이용해 제어, 또는 스마트폰으로 외부에서 제어(모니터)하는 시스템
 
