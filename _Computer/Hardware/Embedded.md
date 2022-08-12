@@ -251,24 +251,11 @@ Home Assistant provides a platform for home control and home automation. Home As
 - The Supervisor manages the operating system.
 - The Core interacts with the user, the superviosr and IoT devices & services.
 
-### Home Assistant Core | [Architecture](https://developers.home-assistant.io/docs/architecture/core/) | [GitHub](https://github.com/home-assistant/core)
+### [Home Assistant Operating System](https://developers.home-assistant.io/docs/operating-system/) | [GitHub](https://github.com/home-assistant/operating-system)
 
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+The Home Assistant Operating System is a purpose built operating system specifically designed to run Home Assistant on single board computers and x86-64 systems. It aims to provide a robust and maintenance free operating system to run Home Assistant.
 
-The system is built using a modular approach so support for other devices or actions can be implemented easily.
-
-The Home Assistant Core consists of four main parts. On top of this it includes many helper classes to deal with common scenarios, like providing an entity or dealing with locations.
-
-- Event Bus: facilitates the firing and listening of events -- the beating heart of Home Assistant.
-- State Machine: keeps track of the states of things and fires a `state_changed` event when a state has been changed.
-- Service Registry: listens on the event bus for `call_service` events and allows other code to register services.
-- Timer: sends a `time_changed` event every 1 second on the event bus.
-
-### Home Assistant Integration | [Architecture](https://developers.home-assistant.io/docs/architecture_components)
-
-Home Assistant Core can be extended with integrations. Each integration is responsible for a specific domain within Home Assistant. Integrations can listen for or trigger events, offer services, and maintain states. Integrations are made up of a component (the base logic) and platforms (bits that integrate with other integrations). Integrations are written in Python and can do all the goodness that Python has to offer. Out of the box, Home Assistant offers a bunch of built-in integrations.
-
-### Home Assistant Operating System | [GitHub](https://github.com/home-assistant/operating-system)
+Home Assistant Operating System (HAOS) is using the Buildroot build system. Buildroot is not a Linux distribution in the classic sense. It provides the infrastructure and build system to build a Linux distribution. Buildroot allows us to cross compile for different architectures which makes it especially useful when compiling for architectures which typically come with fewer resources such as Arm based systems. HAOS consists of a fairly regular stack of Linux and GNU software, using Linux, the GNU C library, systemd init daemon and the Docker container engine required by the Home Assistant Supervisor.
 
 Home Assistant Operating System (formerly HassOS) is a Linux based operating system optimized to host Home Assistant and its Add-ons.
 
@@ -280,7 +267,7 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
   - Barebox for devices that support UEFI
   - U-Boot for devices that don't support UEFI
 - Operating System:
-  - Buildroot LTS Linux
+  - Buildroot build system to generate Linux distributions
 - File Systems:
   - SquashFS for read-only file systems (using LZ4 compression)
   - ZRAM for `/tmp`, `/var` and swap (using LZ4 compression)
@@ -290,6 +277,48 @@ Home Assistant Operating System uses Docker as Container engine. It by default d
   - RAUC for Over The Air (OTA) and USB updates
 - Security:
   - AppArmor Linux kernel security module
+
+### [Home Assistant Supervisor](https://developers.home-assistant.io/docs/supervisor/)
+
+The Supervisor allows the user to manage their Home Assistant installation from Home Assistant. The Supervisor has the following responsibilities:
+
+- Run Home Assistant Core
+- Update Home Assistant Core. Automatically roll back if the update fails.
+- Make and restore backups
+- Add-ons
+- Unified audio system
+- Update the Home Assistant operating system (disabled in a Supervised installation)
+
+### Home Assistant Supervisor Architecture
+
+- Home Assistant Core: home automation platform
+- Add-ons: extra applications that the user wants to run on their server
+- DNS: allows core and add-ons to communicate among one another
+- Audio: allows core and add-ons to play audio
+- mDNS: help discover and connect to devices and services in the network
+- Supervisor: manages all parts of the system and keeps it up to date
+- Docker: container service to run applications.
+- Operating System: Linux based operating system
+- D-Bus: communication system to control parts of the operating system like the network manager
+
+### Home Assistant Core | [Architecture](https://developers.home-assistant.io/docs/architecture/core/) | [GitHub](https://github.com/home-assistant/core)
+
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+
+The system is built using a modular approach so support for other devices or actions can be implemented easily.
+
+### [Home Assistant Core Architecture](https://developers.home-assistant.io/docs/architecture/core/)
+
+The Home Assistant Core consists of four main parts. On top of this it includes many helper classes to deal with common scenarios, like providing an entity or dealing with locations.
+
+- Event Bus: facilitates the firing and listening of events -- the beating heart of Home Assistant.
+- State Machine: keeps track of the states of things and fires a `state_changed` event when a state has been changed.
+- Service Registry: listens on the event bus for `call_service` events and allows other code to register services.
+- Timer: sends a `time_changed` event every 1 second on the event bus.
+
+### Home Assistant Integration | [Architecture](https://developers.home-assistant.io/docs/architecture_components)
+
+Home Assistant Core can be extended with integrations. Each integration is responsible for a specific domain within Home Assistant. Integrations can listen for or trigger events, offer services, and maintain states. Integrations are made up of a component (the base logic) and platforms (bits that integrate with other integrations). Integrations are written in Python and can do all the goodness that Python has to offer. Out of the box, Home Assistant offers a bunch of built-in integrations.
 
 ### Feature integrations
 
@@ -437,3 +466,4 @@ Embedded Linux File System 비교
 - Home Assistant Architecture, https://developers.home-assistant.io/docs/architecture_index, 2022-08-11-Thu.
 - Home Assistant Core Architecture, https://developers.home-assistant.io/docs/architecture/core/, 2022-08-11-Thu.
 - Home Assistant Integration Architecture, https://developers.home-assistant.io/docs/architecture_components, 2022-08-11-Thu.
+- Home Assistant Operating System, https://developers.home-assistant.io/docs/operating-system/, 2022-08-12-Fri.
