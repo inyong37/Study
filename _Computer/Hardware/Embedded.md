@@ -217,8 +217,11 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - Glasses
   - Amazon Echo Frames
 - Gateway & Hub
-  - [Home Assistant](https://www.home-assistant.io/)
-  - [openHAB](https://www.openhab.org/)
+  - [Home Assistant](https://www.home-assistant.io/) (open source, written in Python)
+  - [openHAB](https://www.openhab.org/) (open source, written in Java)
+  - [ioBroker](https://www.iobroker.net/) (open source, written in JavaScript)
+  - [Domoticz](https://github.com/domoticz) (open source, written in C++)
+  - [Apple HomeKit](https://developer.apple.com/documentation/homekit) (closed source)
 
 ### Samsung Electronics SmartThings | [How to Connect](https://www.samsungsvc.co.kr/solution/22417)
 
@@ -406,6 +409,36 @@ Some of openHAB's strengths are:
 - To provide a uniform user interface and a common approach to automation rules across the entire system, regardless of the number of manufacturers and sub-systems involved
 - Giving you the most flexible tool available to make almost any home automation wish come true; if you can think it, odds are that you can implement it with openHAB.
 
+## [ioBroker](https://www.iobroker.net/) | [GitHub](https://github.com/ioBroker)
+
+ioBroker is a software solution to automate your home. It allows a wide variety of smart home systems, which would remain isolated solutions without ioBroker, to be connected and thus controlled comprehensively.
+
+ioBroker is therefore the integration platform for the Internet of Things and enables the integration of commercial products from almost all areas of life or the integration of a self-created solution.
+
+The ioBroker system has a modular structure and can be expanded to meet individual requirements by installing individual [adapters][].
+
+Over 450 adapters implement the integration of various platforms, systems and devices from A for Alexa to Z for Zigbee and many other automation options.
+
+## [HomeKit](https://developer.apple.com/documentation/homekit)
+
+HomeKit enables your app to coordinate and control home automation accessories from multiple vendors to present a coherent, user-focused interface.
+
+The diagram depicts a stylized phone emitting waves to indicate communication with a house pictured as a central icon. Four icons are arranged in a semi-circle to the right of the house icon, depicting connected accessories including a garage door, a thermometer, a sliding light switch, and a lamp.
+
+Using HomeKit, your app can:
+
+Discover HomeKit-compatible automation accessories and add them to a persistent, cross-device home configuration database.
+
+Display, edit, and act upon the data in the home configuration database.
+
+Communicate with configured accessories and services in order to perform actions like turning on the lights in the living room.
+
+Matter (formerly Connected Home over IP) is an industrywide standard for smart home accessories. HomeKit provides seamless integration with Matter accessories. For more information on how to enable Matter support in iOS, iPadOS, and macOS, sign in to your Apple Developer account.
+
+## [Domoticz](https://domoticz.com/) | [GitHub](https://github.com/domoticz)
+
+Domoticz is a Home Automation System that lets you monitor and configure various devices like: Lights, Switches, various sensors/meters like Temperature, Rain, Wind, UV, Electra, Gas, Water and much more. Notifications/Alters can be sent to any mobile device.
+
 ---
 
 ## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478) [Differences](https://askanydifference.com/difference-between-vxworks-and-linux/)
@@ -533,3 +566,7 @@ Embedded Linux File System 비교
 - Home Assistant Operating System Partitioning, https://developers.home-assistant.io/docs/operating-system/partition, 2022-08-12-Fri.
 - openHAB, https://www.openhab.org/, 2022-08-16-Tue.
 - openHAB GitHub, https://github.com/openhab, 2022-08-16-Tue.
+- ioBroker, https://www.iobroker.net/, 2022-08-16-Tue.
+- ioBroker GitHub, https://github.com/ioBroker, 2022-08-16-Tue.
+- HomeKit, https://developer.apple.com/documentation/homekit, 2022-08-16-Tue.
+- Domoticz, https://domoticz.com/, 2022-08-16-Tue.
