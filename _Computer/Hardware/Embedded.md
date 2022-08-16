@@ -216,7 +216,9 @@ The home automation market was worth US$5.77 billion in 2013, predicted to reach
 - Thermostats
 - Glasses
   - Amazon Echo Frames
- 
+- Gateway & Hub
+  - [Home Assistant](https://www.home-assistant.io/)
+  - [openHAB](https://www.openhab.org/)
 
 ### Samsung Electronics SmartThings | [How to Connect](https://www.samsungsvc.co.kr/solution/22417)
 
@@ -395,6 +397,17 @@ Home Assistant Core can be extended with integrations. Each integration is respo
 
 ---
 
+## [openHAB](https://www.openhab.org/) | [GitHub](https://github.com/openhab)
+
+The open Home Automation Bus (openHAB) is an open source, technology agnostic home automation platform which runs as the center of your smart home!
+
+Some of openHAB's strengths are:
+- Its ability to integrate a multitude of other devices and systems. openHAB includes other home automation systems, (smart) devices and other technologies into a single solution
+- To provide a uniform user interface and a common approach to automation rules across the entire system, regardless of the number of manufacturers and sub-systems involved
+- Giving you the most flexible tool available to make almost any home automation wish come true; if you can think it, odds are that you can implement it with openHAB.
+
+---
+
 ## [VxWorks](https://www.windriver.com/products/vxworks) | [PDF](https://www.windriver.com/sites/default/files/2022-02/605577969.pdf) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ygszzang11&logNo=50178390478) [Differences](https://askanydifference.com/difference-between-vxworks-and-linux/)
 
 It's the operating system behind nine different Mars missions, including the Mars Reconnaissance Orgiter as well as the Spirits and Opportunity Mars Exploration Rovers. It is also used in more than 2 billion other critical devices that are still on planet Earth. From automotive to manufacturing, if it's a deterministic, ultra-reliable, or multi-core embedded system, VxWorks is the operating system of choice.
@@ -518,3 +531,5 @@ Embedded Linux File System 비교
 - Home Assistant Integration Architecture, https://developers.home-assistant.io/docs/architecture_components, 2022-08-11-Thu.
 - Home Assistant Operating System, https://developers.home-assistant.io/docs/operating-system/, 2022-08-12-Fri.
 - Home Assistant Operating System Partitioning, https://developers.home-assistant.io/docs/operating-system/partition, 2022-08-12-Fri.
+- openHAB, https://www.openhab.org/, 2022-08-16-Tue.
+- openHAB GitHub, https://github.com/openhab, 2022-08-16-Tue.
