@@ -70,7 +70,13 @@ Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 �
 ### Edge Computing
 Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
 
------
+---
+
+### [MQTT](https://mqtt.org/)
+
+MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
+
+---
 
 ## The Web | [Wiki](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
 The World Wide Web (WWW), commonly known as The Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browswer, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon which technologies the Web is built.
@@ -110,9 +116,10 @@ Technologies such as REST and SOAP, which use HTTP as a basic for general comput
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
-----------
+---
 
-#### Reference
+### Reference
+
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
 - DNS Wiki, https://en.wikipedia.org/wiki/Domain_Name_System, 2020-10-06-Tue.
@@ -134,4 +141,5 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Web Site Wiki, https://en.wikipedia.org/wiki/Website, 2021-06-10-Thu.
 - Web Page Wiki, https://en.wikipedia.org/wiki/Web_page, 2021-06-10-Thu.
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
-- Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.=
+- Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
+- MQTT, https://mqtt.org/, 2022-08-18-Thu.
