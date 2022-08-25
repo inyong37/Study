@@ -75,7 +75,7 @@ The Python IDE for Professional Developers.
 
 ----------
 
-## :books: Libraries
+## :books: The Python Standard Libraries
 
 ### __future__ - Future statement definitions | [Docs](https://docs.python.org/3.7/library/__future__.html#module-__future__)
 __future__ is a real module, and serves three purpose:
@@ -93,6 +93,19 @@ parser = argparse.ArgumentParser(description='Argument Parse')
 parser.add_argument('--argument', '-a', type=str, help='an argument', dest='arg_1')
 args = parser.parse_args()
 ```
+
+### asyncio - Asynchronous I/O | [Docs 3.10.6](https://docs.python.org/3/library/asyncio.html)
+
+asyncio is a library to write concurrent code using the async/await syntax.
+
+asyncio is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc.
+
+asyncio is often a perfect fit for IO-bound and high-level structured network code.
+
+asyncio provides a set of high-level APIs to: run Python corountines concurrently and have full control over their execution; perform network IO and IPC; control subprocesses; distribute tasks via queues; synchronize concurrent code;
+
+Additionally, there are low-level APIs for library and framework developers to: create and manage event loops, which provide asynchronous APIs for networking, running subprocesses, handling OS signals, etc; implement efficient protocols using transports; bridge callback-based libraries and code with async/await syntax.
+
 ### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
 ```Python
 from dataclasses import dataclass
@@ -507,3 +520,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Install PyQt5 with pip, https://pypi.org/project/PyQt5/, 2022-07-12-Tue.
 - PyQt5 Tutorial KR, https://wikidocs.net/21849, 2022-07-12-Tue.
 - macOS Solution for installing PyQt5, https://www.clien.net/service/board/cm_app/17041820, 2022-07-12-Tue.
+- asyncio, https://docs.python.org/3/library/asyncio.html, 2022-08-25-Thu.
