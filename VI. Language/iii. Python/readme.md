@@ -521,3 +521,6 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PyQt5 Tutorial KR, https://wikidocs.net/21849, 2022-07-12-Tue.
 - macOS Solution for installing PyQt5, https://www.clien.net/service/board/cm_app/17041820, 2022-07-12-Tue.
 - asyncio, https://docs.python.org/3/library/asyncio.html, 2022-08-25-Thu.
+- Global Interpreter Lock Blog KR, https://dgkim5360.tistory.com/entry/understanding-the-global-interpreter-lock-of-cpython, 2022-08-26-Fri.
+- asyncio Blog KR, https://brownbears.tistory.com/540, 2022-08-26-Fri.
+- asyncio Event Loop Coroutine Blog KR, https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/, 2022-08-26-Fri.
