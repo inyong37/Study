@@ -77,7 +77,7 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 
 ---
 
-### [MQTT (aka MQ Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee)
+### [MQTT (aka MQ Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
 
 MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
 
@@ -158,3 +158,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - MQTT, https://mqtt.org/, 2022-08-18-Thu.
 - MQTT Blog KR, https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee, 2022-08-29-Mon.
 - Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
+- Home Assistant Integration MQTT, https://www.home-assistant.io/integrations/mqtt/, 2022-08-29-Mon.
