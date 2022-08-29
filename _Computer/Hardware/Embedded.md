@@ -424,6 +424,20 @@ Home Assistant contains a WebSocket API. This API can be used to stream informat
 
 ### [Examples](https://developers.home-assistant.io/docs/api/supervisor/examples)
 
+### [Add-On Communication](https://developers.home-assistant.io/docs/add-ons/communication/)
+
+Supervisor API
+
+Services API
+
+Supported services are: mqtt, mysql
+
+### [Default Config](https://www.home-assistant.io/integrations/default_config/)
+
+### [Automation Trigger](https://www.home-assistant.io/docs/automation/trigger/)
+
+### [Adding devices to Home Assistant](https://www.home-assistant.io/docs/configuration/devices/)
+
 ---
 
 ## [openHAB](https://www.openhab.org/) | [GitHub](https://github.com/openhab)
@@ -606,3 +620,7 @@ Embedded Linux File System 비교
 - Home Assistant Supervisor API Endpoints, https://developers.home-assistant.io/docs/api/supervisor/endpoints, 2022-08-29-Mon.
 - Home Assistant Supervisor API Models, https://developers.home-assistant.io/docs/api/supervisor/models, 2022-08-29-Mon.
 - Home Assistant Supervisor API Examples, https://developers.home-assistant.io/docs/api/supervisor/examples, 2022-08-29-Mon.
+- Add-On Communication Home Assistant, https://developers.home-assistant.io/docs/add-ons/communication/, 2022-08-29-Mon.
+- Default Config Home Assistant, https://www.home-assistant.io/integrations/default_config/, 2022-08-29-Mon.
+- Automation Trigger Home Assistant, https://www.home-assistant.io/docs/automation/trigger/, 2022-08-29-Mon.
+- Adding devices to Home Assistant, https://www.home-assistant.io/docs/configuration/devices/, 2022-08-29-Mon.
