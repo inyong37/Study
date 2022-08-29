@@ -77,6 +77,14 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 
 ---
 
+### SSDP (Simple Service Discovery Protocol) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853)
+
+SSDP는 네트워크 서비스나 정보를 찾기 위해서 사용하는 네트워크 protocol이며, 이를 이용하면 DHCP나 DNS와 같은 네트워크 서버 혹은 정적인 host 설정 없이 이런 일들을 수행할 수 있다. 일반 거주와 소규모 사무 환경에서 UPnP(Universal Plug and Play)를 위한 기본적인 protocol로 널리 사용된다(SSDP는 UPnP 표준에 포함된다). HTTPU(UDP 기반의 HTTP)를 이용하며, 모든 데이터는 TEXT로 통신한다. UDP 1900 port를 사용하며 IP Multicast 주소를 이용한다. SSDP는 Advertisement, Search 두 개의 타입이 있다.
+
+### UPnP (Universal Plug and Play) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853)
+
+홈 네트워크에 있는 네트워크 장치들이 서로 연동될 수 있도록 하는 범용 표준 protocol로 특정 운영체제나 프로그래밍 언어, 미디어와는 독립적으로 네트워크 상의 다바이스 간에 명령과 제어를 가능하게 한다. 사용자가 직접 네트워크 설정, 유지 관리를 하지 않고도 쉽게 디바이스와 서비스 연결을 제공한다. IP, TCP, UDP, HTTP, XML과 같은 기존의 protocol을 사용한다. Wire protocol에 기반을 두고 있으며, 디바이스 간의 교환하는 데이터는 XML로 표현되고 HTTP를 통해서 통신한다. IP 네트워킹을 채택한 이유는 다른 물리적 미디어로 확장이 용이하며 실제 여러 vendor 간의 상호 운용성을 가능케한다. UPnP를 통한 디바이스 간의 통신은 discovery, control, description, presentation, eventing 단계로 나누어지며, SSDP를 이용한 통신은 discovery 단계에서 이용된다.
+
 ### WebSocket | [Blog (KR)](https://duckdevelope.tistory.com/19)
 
 Transport protocol의 일종으로 웹 버전의 TCP 또는 Socket이다. WebSocket은 server와 client 간에 socket connection을 유지해서 언제든 양방향 통신 또는 데이터 전송이 가능하도록 하는 기술이다. Real-time web application 구현을 위해 널리 사용된다(Social Network applications, multiplayer games, Google Docs, video call, stock exchange).
@@ -170,3 +178,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
 - Home Assistant Integration MQTT, https://www.home-assistant.io/integrations/mqtt/, 2022-08-29-Mon.
 - WebSocket Blog KR, https://duckdevelope.tistory.com/19, 2022-08-29-Mon.
+- SSDP UPnP Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853, 2022-08-29-Mon.
