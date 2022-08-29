@@ -65,6 +65,14 @@ mDNS는 UDP 멀티캐스트를 기반으로, 로컬 네트워크 상에 있는 �
 
 예로, 컴퓨터에서 LAN 상에 있는 프린터를 검색하여 이를 사용할 수 있도록 만든 기능도 mDNS를 활용한 것이다. IoT에서 mDNS 기능을 활용하여 LAN 상에 있는 companion 기기를 검색하여 검색된 기기가 있으면 서로 유기적으로 정보를 교환하면서 시스템적으로 동작할 수 있도록 구현할 수 있다.
 
+### Device Discovery Protocol: SSDP vs. mDNS | [Blog (KR)](https://www.joinc.co.kr/w/Site/IOT/Discovery)
+
+IoT에서 네트워크 자동 설정을 위한 DHCP는 필수다.
+
+SSDP는 notify HTTP method를 announce하여 멀티캐스트 그룹 멤버에서 자신이 join했음을 알려줄 수 있다. SSDP는 두 가지 방식으로 찾을 수 있다. 첫 번째는 기기가 자신의 정보를 멀티캐스트 채널을 통해서 알리는 방식이다. Control point가 멀티캐스트 채널에 붙어 있다면, 연결할 수 있는 기기가 검색됐음을 알려줄 것이다. 두 번째는 control point에서 멀티캐스트 채널로 search 요청을 보내는 방식이다. 멀티캐스트 채널에 붙어 있는 기기가 있다면, search 요청에 응답할 것이다. 기기를 찾은 후에는 기기의 mac address와 IP address를 이용해서 유니캐스트 통신을 한다.
+
+mDNS는 로컬 네트워크 영역에서 설정 없이(zero configuration) 호스트 이름을 찾기 위해 사용하는 서비스이다. Unicast Domain Name System (DNS)와 유사한 프로그래밍 인터페이스와 패킷 형식을 사용한다. 소형 네트워크 환경에서 별도의 네임 서버를 사용하지 않고 호스트를 찾을 수 있다. mDNS는 멀티캐스트 기술을 이용한다. mDNS client는 호스트 이름을 알아야 할 경우 IP 멀티캐스트 쿼리 메세지를 전송한다. 이때 자신의 호스트 이름과 IP 주소 등, 자신을 확인할 수 있는 정보들을 함께 전송한다. 멀티캐스트 채널에 있던 모든 호스트들은 이 정보를 수신해서 mDNS 캐쉬에 업데이트한다. 패킷 구조를 제외하면 SSDP와 작동 방식이 매우 유사하다.
+
 ### DHCP (Dynamic Host Configuration Protocol) | [Blog (KR)](https://jwprogramming.tistory.com/35)
 
 DHCP란 호스트의 IP 주소와 각종 TCP/IP protocol의 기본 설정을 client에게 자동적으로 제공해주는 protocol이다. DHCP에 대한 표준은 RFC 문서에 정의되어 있으며, DHCP는 네트워크에 사용되는 IP 주소를 DHCP server가 중앙집중식으로 관리하는 client/server 모델을 사용한다. DHCP 지원 client는 네트워크 부팅 과정에서 DHCP server에 IP 주소를 요청하고 이를 얻을 수 있다. 즉, 네트워크 안에 컴퓨터에 자동으로 네임 서버 주소, IP 주소, 게이트웨이 주소를 할당해주고, 해당 client에게 일정 기간 임대하는 동적 주소 할당 프로토콜이다.
