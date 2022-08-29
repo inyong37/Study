@@ -111,6 +111,12 @@ Web Socket은 stateful protocol이기 때문에 client와 한 번 연결이 되�
 
 HTTP 통신 방법과 WebSocket의 차이점은 protocoldㅣ다. WebSocket protocol은 접속 확립에 HTTP를 사용하지만, 그 후 통신은 WebSocket 독자의 protocol로 이루어진다. 또한 header가 상당히 작아 overhead가 적은 특성이 있다. 장시간 접속을 전제로 하기 때문에, 접속한 상태라면 client라 server로부터 data 송신이 가능하다. 더불어 데이터의 송신과 수신에 각각 connection을 맺을 필요가 없어 하나의 connection으로 데이터를 송수신할 수 있다.
 
+### REST vs. WebSocket | [Blog (KR)](https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html)
+
+둘의 차이점은 Connection 유지 여부이다.
+
+WebSocket 이전의 양방향 통신 방법은 client가 server에게 HTTP request를 주기적으로 요청하는 Polling 방식, client가 server에게 HTTP request를 요청하면 server는 대기하다가 event 발생 시 client에게 reponse하는 Long Polling 방식, Long Polling 방식과 같이 client에서 server로 HTTP request를 보내고 server에서 event를 전달할 때 해당 request를 끊지 않고 필요한 메세지만 보내기(flush)를 반복하는 Streaming 방식이 있다. AJAX는 JavaScript의 XmlHttpRequest object를 기반으로, 비동기 JavaScript 및 XML의 축약된 양식으로 웹 페이지 일부만 송수신하는 반이중 통신 방식이다.
+
 ### [MQTT (aka MQ Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
 
 MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
@@ -197,3 +203,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - SSDP UPnP Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853, 2022-08-29-Mon.
 - mDNS MOMOIOT KR, https://momoiot.co.kr/iot-tech/mdns/, 2022-08-29-Mon.
 - DHCP Blog KR, https://jwprogramming.tistory.com/35, 2022-08-29-Mon.
+- REST vs. WebSocket Blog KR, https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html, 2022-08-29-Mon.
