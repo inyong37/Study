@@ -65,6 +65,14 @@ mDNS는 UDP 멀티캐스트를 기반으로, 로컬 네트워크 상에 있는 �
 
 예로, 컴퓨터에서 LAN 상에 있는 프린터를 검색하여 이를 사용할 수 있도록 만든 기능도 mDNS를 활용한 것이다. IoT에서 mDNS 기능을 활용하여 LAN 상에 있는 companion 기기를 검색하여 검색된 기기가 있으면 서로 유기적으로 정보를 교환하면서 시스템적으로 동작할 수 있도록 구현할 수 있다.
 
+### DHCP (Dynamic Host Configuration Protocol) | [Blog (KR)](https://jwprogramming.tistory.com/35)
+
+DHCP란 호스트의 IP 주소와 각종 TCP/IP protocol의 기본 설정을 client에게 자동적으로 제공해주는 protocol이다. DHCP에 대한 표준은 RFC 문서에 정의되어 있으며, DHCP는 네트워크에 사용되는 IP 주소를 DHCP server가 중앙집중식으로 관리하는 client/server 모델을 사용한다. DHCP 지원 client는 네트워크 부팅 과정에서 DHCP server에 IP 주소를 요청하고 이를 얻을 수 있다. 즉, 네트워크 안에 컴퓨터에 자동으로 네임 서버 주소, IP 주소, 게이트웨이 주소를 할당해주고, 해당 client에게 일정 기간 임대하는 동적 주소 할당 프로토콜이다.
+
+PC의 수가 많거나 PC 자체 변동사항이 많은 경우 IP 설정이 자동으로 되기 때문에 효율적으로 사용 가능하며 IP를 자동으로 할당해주기 때문에 IP 충돌을 막을 수 있다. 단, DHCP server에 의존되기 때문에 server가 다운되면 IP 할당이 제대로 이루어지지 않는다.
+
+DHCP를 통한 IP 주소 할당은 임대라는 개념을 가지고 있는데, 이는 DHCP server가 IP 주소를 영구적으로 단말에 할당하는 것이 아니고 임대기간(IP Lease Time)을 명시하여 그 기간 동안만 단말이 IP 주소를 사용하도록 하는 것이다. 단말은 임대기간 이우헤도 계속 해당 IP 주소를 사용하고자 한다면 IP 주소 임대기간 연장(IP Address Renewal)을 DHCP server에 요청해야 하고 또한 단말은 임대 받은 IP 주소가 더 이상 필요치 않게 되면 IP 주소 반납 절차(IP Address Release)를 수행하게 된다. DHCP server와 client 사이에 메세지는 1. DHCP Discover (by client), 2. DHCP Offer (by server), 3. DHCP Request (by client), 4. DHCP Ack (by server)로 이루어진다.
+
 ### Anonymous Pipe | [Wiki](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR-KO)](https://12bme.tistory.com/226)
 An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
 
@@ -188,3 +196,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - WebSocket Blog KR, https://duckdevelope.tistory.com/19, 2022-08-29-Mon.
 - SSDP UPnP Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853, 2022-08-29-Mon.
 - mDNS MOMOIOT KR, https://momoiot.co.kr/iot-tech/mdns/, 2022-08-29-Mon.
+- DHCP Blog KR, https://jwprogramming.tistory.com/35, 2022-08-29-Mon.
