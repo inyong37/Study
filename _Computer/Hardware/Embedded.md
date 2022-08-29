@@ -398,6 +398,32 @@ Home Assistant Core can be extended with integrations. Each integration is respo
 
 Home Assistant Core can be extended with integrations. Each integration is responsible for a specific domain within Home Assistant. Integrations can listen for or trigger events, offer services, and maintain states. Integrations are made up of a component (the base logic) and platforms (bits that integrate with other integrations). Integrations are written in Python and can do all the goodness that Python has to offer. Out of the box, Home Assistant offers a bunch of built-in integrations.
 
+### Home Assistant APIs
+
+### [Home Assistant REST API](https://developers.home-assistant.io/docs/api/rest)
+
+Home Assistant provides a RESTful API on the same port as the web frontend. (default port is port 8123).
+
+If you are not using the frontend in your setup then you need to add the api integration to your `configuration.yaml` file.
+- `http://IP_ADDRESS:8123/` is an interface to control Home Assistant.
+- `http://IP_ADDRESS:8123/api` is a RESTful API.
+
+The API accpets and returns only JSON encoded objects.
+
+All API calls have to be aommpained by the header `Authorization: Bearer ABCDEFGH`, where `ABCDEFGH` is replaced by your token. You can obtain a token ("Long-Lived Access Token") by logging into the frontend using a web browser, and going to your profile `http://IP_ADDRESS:8123/profile`.
+
+### [Home Assistant WebSocket API](https://developers.home-assistant.io/docs/api/websocket)
+
+Home Assistant contains a WebSocket API. This API can be used to stream information from a Home Assistant instance to any client that implements WebSockets. We maintain a JavaScript library which we use in our frontend.
+
+### Home Assistant Supervior API
+
+### [Endpoints](https://developers.home-assistant.io/docs/api/supervisor/endpoints)
+
+### [Models](https://developers.home-assistant.io/docs/api/supervisor/models)
+
+### [Examples](https://developers.home-assistant.io/docs/api/supervisor/examples)
+
 ---
 
 ## [openHAB](https://www.openhab.org/) | [GitHub](https://github.com/openhab)
@@ -575,3 +601,8 @@ Embedded Linux File System 비교
 - MQTT Blog KR, https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee, 2022-08-29-Mon.
 - Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
 - How to communicate between instances in Home Assistant, https://community.home-assistant.io/t/two-ha-instances-how-to-communicate-between-them/30877/8, 2022-08-29-Mon.
+- Home Assistant REST API, https://developers.home-assistant.io/docs/api/rest, 2022-08-29-Mon.
+- Home Assistant WebSocket API, https://developers.home-assistant.io/docs/api/websocket, 2022-08-29-Mon.
+- Home Assistant Supervisor API Endpoints, https://developers.home-assistant.io/docs/api/supervisor/endpoints, 2022-08-29-Mon.
+- Home Assistant Supervisor API Models, https://developers.home-assistant.io/docs/api/supervisor/models, 2022-08-29-Mon.
+- Home Assistant Supervisor API Examples, https://developers.home-assistant.io/docs/api/supervisor/examples, 2022-08-29-Mon.
