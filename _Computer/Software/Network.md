@@ -77,9 +77,17 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 
 ---
 
-### [MQTT](https://mqtt.org/)
+### [MQTT](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee)
 
 MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
+
+MQTT는 M2M, IoT를 위한 프로토콜로서, 최소한의 전력과 패킷량으로 통신하는 프로토콜이다. MQTT는 Http, TCP 등의 통신과 같이 client-server 구조로 이루어지지 않고 Broker, Publisher, Subscriber 구조로 이루어져있다.
+
+Publish는 topic을 발행(publish)하고, Subscriber는 topic에 구독(subsribe)한다. Brokers는 이들을 중계하는 역할을 하며, 단일 topic에 여러 Subscriber가 구독할 수 있기 떄문에 1:N통신도 가능하다. 계층을 구성할 수 있기 때문에 IoT 센서와 같은 데이터를 관리하기에 용이하다.
+
+MQTT는 QoS(Quality of Service)를 제공한다. 세 단계로 나누어져 있다. 메세지는 한번만 전달되며, 전달 이후 수신 과정을 확인하지 않는다. 메세지는 한번 이상 전달되고, hand shaking 과정을 추적하나 strict하게 추적하지 않기 때문에 중복 수신의 가능성이 있다. 메세지는 한번만 전달되고 hand shaking의 모든 과정을 확인한다. QoS의 단계가 높아질수록 통신의 품질은 향상되지만 성능 저하의 가능성이 있으므로 프로젝트 특성에 따라 결정되어야 한다.
+
+Broker의 종류는 Mosquitto, HiveMQ, mosca, ActiveMQ, RabbitMQ 등이 있다. 사용 예시로는, Docker를 이용해 Mosquitto broker를 생성한다. MQTT Explorer와 같은 도구로 Broker의 IP 주소를 입력하여 broker에 접속한다. 이 도구를 이용해 Publsih가 가능하다. Subsribe는 Python과 paho 라이브러리를 이용하여 client에 IP 주소로 접속하고 "/test/1"를 subscribe한다. MQTT Explorer에서 "/test/1" topic에 데이터를 publish하면, python 코드를 실행해놓은 곳에서 topic의 데이터를 받아 읽을 수 있다.
 
 ---
 
@@ -148,4 +156,5 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
 - Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
 - MQTT, https://mqtt.org/, 2022-08-18-Thu.
+- MQTT Blog KR, https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee, 2022-08-29-Mon.
 - Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
