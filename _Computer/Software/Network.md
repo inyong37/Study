@@ -41,6 +41,16 @@ HTTPS is also referred to as HTTP over TLS or http over SSL
 
 ### SSH: Secure SHell
 
+### Multicast | [Blog (KR)](https://softtone-someday.tistory.com/14)
+
+멀티캐스트는 같은 데이터를 특정 그룹에게 보내주어야 할 때 사용하는 인터넷 protocol이다. 멀티캐스트는 송신자는 한 채널에 자신의 데이터를 보내고 수신자는 그 데이터 중 자신이 조인한 채널만 수신한다. 1:N 통신 기술이다. 멀티캐스트는 상대방이 데이터를 제대로 받았는지 확인하지 않는 UDP(User Datagram Protocol) 방식을 사용한다. 멀티캐스트 주소는 224.0.0.0 ~ 239.255.255.255 범위를 갖고, 이 대역은 멀티캐스트 신호만 보내도록 규정되어 있다.
+
+멀티캐스트는 TTL(Time to Live)이라는 필드를 가진다. 이는 전송된 신호가 몇 번의 라우터를 거칠 동안 살아있게 할 거냐는 뜻이다. 멀티캐스트 신호가 라우터를 지날 때마다 TTL 값을 하나씩 감소시킨다. 만약, TTL=1이라면 라우터를 하나 지나면 TTL=0이 되면서 이후에 해당 신호는 더 이상 사용되지 않는다. 즉, 신호의 생존 주기이다.
+
+멀티캐스트는 보통 그룹과 IP address, port number가 정해져 있다. 수신자는 해당하는 그룹에 join해야 해당 주소로 보내지고 있는 신호를 받을 수 있다. 또한, 그룹에 참여한 후 실제 사용할 포트와 해당 주소를 묶는 bind 작업이 필요하다. 즉, 이 멀티캐스트 그룹의 신호들은 이 인터넷 주소로 듣겠다고 선언해야한다.
+
+브로드캐스트는 멀티캐스트에서 그룹을 뺀 개념이다. 모두에게 신호를 보내고, 모두가 모든 신호를 듣는다. 연결된 장치들 모두가 듣기 때문에 구현이 용이하지만, 원하지 않는 대상도 내 신호를 들을 수 있고 불필요한 트래픽이 발생한다.
+
 ### DNS: Domain Name System | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
@@ -212,3 +222,5 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - mDNS MOMOIOT KR, https://momoiot.co.kr/iot-tech/mdns/, 2022-08-29-Mon.
 - DHCP Blog KR, https://jwprogramming.tistory.com/35, 2022-08-29-Mon.
 - REST vs. WebSocket Blog KR, https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html, 2022-08-29-Mon.
+- Discovery Protocol SSDP vs. mDNS Blog KR, https://www.joinc.co.kr/w/Site/IOT/Discovery, 2022-08-29-Mon.
+- Multicast Blog KR, https://softtone-someday.tistory.com/14, 2022-08-29-Mon.
