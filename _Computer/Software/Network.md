@@ -42,6 +42,7 @@ HTTPS is also referred to as HTTP over TLS or http over SSL
 ### SSH: Secure SHell
 
 ### DNS: Domain Name System | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
+
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
 
 The Domain Name System delegates the responsibility of assigning domain names and mapping those names to Internet resources by designating authoritative name servers for each domain. Network administrators may delegate authority over sub-domains of their allocated name space to other name servers. This mechanism provides distributed and fault-tolerant service and was designed to avoid a single large central database.
@@ -53,9 +54,16 @@ The Internet maintains two principal namespaces, the domain name hierarchy and t
 The most common types of records stored in the DNS database are for Start of Authority (SOA), IP addresses (A and AAAA), SMTP mail exchangers (MX), name servers (NS), pointers for reverse DNS lookups (PTR), and domain name aliases (CNAME). Although not intended to be a general purpose database, DNS has been expanded over time to store records for other types of data for either automatic lookups, such as DNSSEC records, or for human queries such as responsible person (RP) records. As a general purpose database, the DNS has also been used in combating unsolicited email (spam) by storing a real-time blackhole list (RBL). The DNS database is traditionally stored in a structured text file, the zone file, but other database systems are common.
 
 ### DDNS: Dynamic DNS | [Wiki](https://en.wikipedia.org/wiki/Dynamic_DNS) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/DDNS)
+
 Dynamic DNS (DDNS) is a method of automatically updating a name server in the Domain Name System (DNS), often in real time, with the active DDNS configuration of its configured hostnames, addresses or other information.
 
 The term is used to describe two different concepts. The first is "dynamic DNS updating" which refers to systems that are used to update traditional DNS records without manual editing. These mechanisms are explained in RFC 2136, and use the TSIG mechanism to provide security. The second kind of dynamic DNS permits lightweight and immediate updates often using an update client, which do not use the RFC2136 standard for updating DNS records. These clients provide a persistent addressing method for devices that change their location, configuration or IP address frequently.
+
+### mDNS (Multi-cast Domain Name Service) | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
+
+mDNS는 UDP 멀티캐스트를 기반으로, 로컬 네트워크 상에 있는 어떤 호스트 또는 호스트의 IP를 찾기 위해 만들어진 protocol이다. mDNS를 지원하는 호스트는 확장 기능으로 자신이 제공할 수 있는 서비스를 알림으로써 LAN 상의 다른 호스트가 이를 discovery하여 활용할 수 있는 방안으로 제공하기도 한다.
+
+예로, 컴퓨터에서 LAN 상에 있는 프린터를 검색하여 이를 사용할 수 있도록 만든 기능도 mDNS를 활용한 것이다. IoT에서 mDNS 기능을 활용하여 LAN 상에 있는 companion 기기를 검색하여 검색된 기기가 있으면 서로 유기적으로 정보를 교환하면서 시스템적으로 동작할 수 있도록 구현할 수 있다.
 
 ### Anonymous Pipe | [Wiki](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR-KO)](https://12bme.tistory.com/226)
 An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
@@ -179,3 +187,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Home Assistant Integration MQTT, https://www.home-assistant.io/integrations/mqtt/, 2022-08-29-Mon.
 - WebSocket Blog KR, https://duckdevelope.tistory.com/19, 2022-08-29-Mon.
 - SSDP UPnP Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853, 2022-08-29-Mon.
+- mDNS MOMOIOT KR, https://momoiot.co.kr/iot-tech/mdns/, 2022-08-29-Mon.
