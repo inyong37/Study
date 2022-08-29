@@ -120,6 +120,14 @@ A device to increase transmission distance by amplifying the signal; used in bas
 
 ---
 
+### M2M (Machine to Machine) |  [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952)
+
+### IoT vs. M2M | [Article (KR)](https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design)
+
+IoT는 인터넷에 연결되는 장치의 네트워크인 반면, M2M은 두 개 이상의 전자 장치 지원 시스템, 기계, 또는 장치 간에 자동화된 방법으로 통신하는 방법이다. M2M는 지점 간 또는 다중 지점 간 연결을 한다. M2M은 IoT라는 용어가 생겨나기 이전에 있었고, 1990년 인터넷이 등장하기 이전에도 있었으며, 20세기 초 양방향 무선 통신이 발명된 이후에 등장했다.
+
+---
+
 ### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
 A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks and can operate at any of the seven layers of the open systems interconnection model (OSI).
 
@@ -372,3 +380,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Tap to Pay on iPhone Apple, https://developer.apple.com/tap-to-pay/, 2022-07-25-Mon.
 - ProximityReader Apple, https://developer.apple.com/documentation/ProximityReader, 2022-07-25-Mon.
 - WPS KR, https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup, 2022-07-26-Tue.
+- M2M Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952, 2022-08-29-Mon.
+- M2M vs. IoT Article KR, https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design, 2022-08-29-Mon.
