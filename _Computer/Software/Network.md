@@ -13,7 +13,12 @@ The Internet has no single centralized governance in either technological implem
 ### VPN: Virtual Private Network
 VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
 
+### Proxy | [Blog (KR)](https://brownbears.tistory.com/191)
+
+프록시란 대리라는 의미로, 주로 보안상의 이유로 직접 통신할 수 없는 두 점 사이에서 통신을 할 경우 그 사이에 있어서 중계기로서 대리로 통신을 수행하는 기능을 가리켜 프록시, 그 중계 기능을 하는 것을 프록시 서버라 한다.
+
 ### Proxy Server
+
 Proxy Server(프록시 서버)는 클라이언트가 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 시스템 또는 프로그램이다. 서버와 클라이언트 사이 중계기로서 대리로 통신하는 것을 "Proxy" 중계를 해주는 것을 "Proxy Server"라 한다.
 
 ### Ego Motion
@@ -143,3 +148,4 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
 - Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
 - MQTT, https://mqtt.org/, 2022-08-18-Thu.
+- Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
