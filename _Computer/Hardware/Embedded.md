@@ -570,3 +570,8 @@ Embedded Linux File System 비교
 - ioBroker GitHub, https://github.com/ioBroker, 2022-08-16-Tue.
 - HomeKit, https://developer.apple.com/documentation/homekit, 2022-08-16-Tue.
 - Domoticz, https://domoticz.com/, 2022-08-16-Tue.
+- M2M vs. IoT KR, https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design, 2022-08-29-Mon.
+- M2M Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952, 2022-08-29-Mon.
+- MQTT Blog KR, https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee, 2022-08-29-Mon.
+- Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
+- How to communicate between instances in Home Assistant, https://community.home-assistant.io/t/two-ha-instances-how-to-communicate-between-them/30877/8, 2022-08-29-Mon.
