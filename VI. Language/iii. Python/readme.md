@@ -197,6 +197,14 @@ The [shutil]() module offers a number of high-level operations on files and coll
 
 ### tempfile | [Document Python 3.7.9](https://docs.python.org/3.7/library/tempfile.html)
 
+### [paho](https://www.eclipse.org/paho/)
+
+The Eclipse Paho MQTT Python client library. This code provides a client class which enable applications to connect to an MQTT broker to publish messages, and to subscribe to topcis and receive published messages. It also provides some helper functions to make publishing one off messages to an MQTT server very straightforward.
+
+The MQTT protocol is a machine-to-machine (M2M)/Internet of Things connectivity protocol. Designed as an extremely lightweight publish/subscribe messaging transport, it is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
+
+Paho is an Eclipse Foundation project.
+
 ### PyQt
 There is an installation error with PyQt5 on macOS. The latest version is 5.15.7 in Jul. 2022. The solution is PyQt5 needs XCode to install and run PyQt5 on macOS.
 
@@ -524,3 +532,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Global Interpreter Lock Blog KR, https://dgkim5360.tistory.com/entry/understanding-the-global-interpreter-lock-of-cpython, 2022-08-26-Fri.
 - asyncio Blog KR, https://brownbears.tistory.com/540, 2022-08-26-Fri.
 - asyncio Event Loop Coroutine Blog KR, https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/, 2022-08-26-Fri.
+- paho Eclipse, https://www.eclipse.org/paho/, 2022-08-30-Tue.
