@@ -624,3 +624,4 @@ Embedded Linux File System 비교
 - Default Config Home Assistant, https://www.home-assistant.io/integrations/default_config/, 2022-08-29-Mon.
 - Automation Trigger Home Assistant, https://www.home-assistant.io/docs/automation/trigger/, 2022-08-29-Mon.
 - Adding devices to Home Assistant, https://www.home-assistant.io/docs/configuration/devices/, 2022-08-29-Mon.
+- Home Assistant Web Server aiohttp, https://community.home-assistant.io/t/what-is-the-web-server-of-home-assistant/67107, 2022-08-30-Tue.
