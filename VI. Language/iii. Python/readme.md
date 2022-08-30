@@ -106,6 +106,20 @@ asyncio provides a set of high-level APIs to: run Python corountines concurrentl
 
 Additionally, there are low-level APIs for library and framework developers to: create and manage event loops, which provide asynchronous APIs for networking, running subprocesses, handling OS signals, etc; implement efficient protocols using transports; bridge callback-based libraries and code with async/await syntax.
 
+### asyncio - Asynchronous I/O >> Event Loop | [Docs 3.10.6](https://docs.python.org/3/library/asyncio-eventloop.html)
+
+The event loop is the core of every asyncio application. Event loops run asynchronous tasks and callbacks, perform network IO operations, and run subprocesses.
+
+- Obtaining the Event Loop: the following low-level functions can be used to get, set, or create an event loop:
+  - `asyncio.get_running_loop()`: Return the running event loop in the current OS thread. If there is no running event loop a RuntimeError is raised. This function can only be called from a coroutine or a callback.
+  - `asyncio.get_event_loop()`: Get the current event loop. If there is no current event loop set in the current OS thread, the OS thread is main, and `set_event_loop()` has not yet been called, asyncio will create a new event loop and set it as the current one. Because this function has rather complex behavior (especially when custom event loop policies are in use), using the `get_running_loop()` function is preferred to `get_event_loop()` in corountines and callbacks. Consider also using the `asyncio.rin()` function instead of using lower level functions to manually create and close an event loop. Deprecated since version 3.10: Deprecation warning is emitted if there is no running event loop. In future Python releases, this function will be an alias of `get_running_loop()`.
+  - `asyncio.set_event_loop(loop)`: Set loop as a current event loop for the current OS thread.
+  - `asyncio.new_event_loop()`: Create and return a new event loop object.
+
+- `class asyncio.AbstractEventLoop`: Abstract base class for asyncio-compliant event loops. The Event Loop Methods section lists all methods that an alternative implementation of AbstractEventLoop should have defined.
+
+
+
 ### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
 ```Python
 from dataclasses import dataclass
@@ -533,3 +547,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - asyncio Blog KR, https://brownbears.tistory.com/540, 2022-08-26-Fri.
 - asyncio Event Loop Coroutine Blog KR, https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/, 2022-08-26-Fri.
 - paho Eclipse, https://www.eclipse.org/paho/, 2022-08-30-Tue.
+- asyncio event loop, https://docs.python.org/3/library/asyncio-eventloop.html, 2022-08-30-Tue.
