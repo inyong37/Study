@@ -438,6 +438,10 @@ Supported services are: mqtt, mysql
 
 ### [Adding devices to Home Assistant](https://www.home-assistant.io/docs/configuration/devices/)
 
+### [Home Assistant Default Database](https://www.home-assistant.io/docs/backend/database/)
+
+Home Assistant uses database to store events and parameters for history and tracking. The default database used is SQLite and the database file is stored in your configuration directory (e.g., `<path to config dir>/home-assistant_v2.db`); however, other databases can be used. If you prefer to run a database server (e.g., PostgreSQL), use the `recoder` component.
+
 ---
 
 ## [openHAB](https://www.openhab.org/) | [GitHub](https://github.com/openhab)
@@ -625,3 +629,4 @@ Embedded Linux File System 비교
 - Automation Trigger Home Assistant, https://www.home-assistant.io/docs/automation/trigger/, 2022-08-29-Mon.
 - Adding devices to Home Assistant, https://www.home-assistant.io/docs/configuration/devices/, 2022-08-29-Mon.
 - Home Assistant Web Server aiohttp, https://community.home-assistant.io/t/what-is-the-web-server-of-home-assistant/67107, 2022-08-30-Tue.
+- Home Assistant Default Database, https://www.home-assistant.io/docs/backend/database/, 2022-08-31-Wed.
