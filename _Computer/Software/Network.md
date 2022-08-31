@@ -135,7 +135,7 @@ HTTP 통신 방법과 WebSocket의 차이점은 protocoldㅣ다. WebSocket proto
 
 WebSocket 이전의 양방향 통신 방법은 client가 server에게 HTTP request를 주기적으로 요청하는 Polling 방식, client가 server에게 HTTP request를 요청하면 server는 대기하다가 event 발생 시 client에게 reponse하는 Long Polling 방식, Long Polling 방식과 같이 client에서 server로 HTTP request를 보내고 server에서 event를 전달할 때 해당 request를 끊지 않고 필요한 메세지만 보내기(flush)를 반복하는 Streaming 방식이 있다. AJAX는 JavaScript의 XmlHttpRequest object를 기반으로, 비동기 JavaScript 및 XML의 축약된 양식으로 웹 페이지 일부만 송수신하는 반이중 통신 방식이다.
 
-### [MQTT (aka MQ Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
+### [MQTT (Message Queuing Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
 
 MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
 
