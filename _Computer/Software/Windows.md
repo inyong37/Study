@@ -142,6 +142,10 @@ Windows Sockets is a protocol-independent interface. It takes advantage of the c
 
 **Windows Sockets is a protocol-independent interface capable of supporting current and emerging networking capabilities.**
 
+### I/O Completion Ports | [MS Docs](https://docs.microsoft.com/en-ca/windows/win32/fileio/i-o-completion-ports)
+
+I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiplrocessor system. When a process creates an I/O completion port, the system creates an associated queue object for threads whose sole purpose is to service these requests. Processes that handle many concurrent asynchronous I/O requests can do so more quickly and efficiently by using I/O completion ports in conjunction with a pre-allocated thread pool than by creating threads at the time they receive an I/O request.
+
 ----------
 
 ## *Signal* | [MS Docs](https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/signal?view=msvc-160)
@@ -710,3 +714,4 @@ The Microsoft COFF Binary File Dumper (DUMPBIN.EXE) displays information about C
 - File Explorer Wiki, https://en.wikipedia.org/wiki/File_Explorer, 2021-11-18-Thu.
 - Internet Explorer Wiki, https://en.wikipedia.org/wiki/Internet_Explorer, 2021-11-18-Thu.
 - cmd commands, https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows, 2021-12-25-Sat.
+- I/O Completion Ports, https://docs.microsoft.com/en-ca/windows/win32/fileio/i-o-completion-ports, 2022-09-01-Thu.
