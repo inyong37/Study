@@ -118,9 +118,43 @@ The event loop is the core of every asyncio application. Event loops run asynchr
 
 - `class asyncio.AbstractEventLoop`: Abstract base class for asyncio-compliant event loops. The Event Loop Methods section lists all methods that an alternative implementation of AbstractEventLoop should have defined.
 
+### asyncio - Event Loop Implementation | [Docs 3 (KR)](https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations)
 
+asyncio에는 두 가지 이벤트 루프 구현이 함께 제공됩니다: SelectorEventLoop 및 ProactorEventLoop.
+
+기본적으로 asyncio는 유닉스에서 SelectorEventLoop를, 윈도우에서 ProactorEventLoop를 사용하도록 구성됩니다.
+
+### asyncio - SelectorEventLoop
+
+selectors 모듈을 기반으로 하는 이벤트 루프.
+
+주어진 플랫폼에서 사용할 수 있는 가장 효율적인 selector를 사용합니다. 정확한 셀렉터 구현을 수동으로 구성하여 사용할 수도 있습니다:
+
+```Python
+import asyncio
+import selectors
+
+selector = selectors.SelectSelectors()
+loop = asyncio.SelectorEventLoop(selector)
+asyncio.set_event_loop(loop)
+```
+
+가용성: 유닉스, 윈도우.
+
+### asyncio - ProactorEventLoop
+
+"I/O 완료 포트"(IOCP)를 사용하는 윈도우용 이벤트 루프.
+
+가용성: 윈도우.
+
+### asyncio - AbstractEventLoop
+
+asyncio 호환 이벤트 루프의 추상 베이스 클래스.
+
+이벤트 루프 메서드 절은 AbstractEventLoop의 다른 구현이 정의해야 하는 모든 메서드를 나열합니다.
 
 ### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
+
 ```Python
 from dataclasses import dataclass
 
@@ -548,3 +582,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - asyncio Event Loop Coroutine Blog KR, https://tech.buzzvil.com/blog/asyncio-no-1-coroutine-and-eventloop/, 2022-08-26-Fri.
 - paho Eclipse, https://www.eclipse.org/paho/, 2022-08-30-Tue.
 - asyncio event loop, https://docs.python.org/3/library/asyncio-eventloop.html, 2022-08-30-Tue.
+- asyncio Event Loop Implementations KR, https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations, 2022-09-01-Thu.
