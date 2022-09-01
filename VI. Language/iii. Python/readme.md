@@ -236,6 +236,37 @@ Scikit-learn is a simple and efficient tools for predictive data analysis. It is
 ### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
+### selectors - High-level I/O multiplexing | [Docs 3](https://docs.python.org/3/library/selectors.html#module-selectors)
+
+This module allows high-level and efficient I/O multiplexing, built upon the select module primitives. Users are encouraged to use this module instead, unless they want precise control over the OS-level primitives used.
+
+It defines a `BaseSelector` abstarct base class, along with several concrete implementations (`KqueueSelector`, `EpollSelector`...), that can be used to wait for I/O readiness notification on multiple file objects. In the following, "file object" refers to any object with a fileno() method, or a raw file descriptor. See file object.
+
+`DefaultSelector` is an alias to the most efficient implementation available on the current platform: this should be the default choice for most users.
+
+Note: The type of file objects supported depends on the platform: on Windows, sockets are supported, but not pipes, whereas on Unix, both are supported (some other types may be supported as well, such as fifos or special file devices).
+
+See also: select - Low-level I/O multiplexing module.
+
+### selector - Classes
+
+Class hierarchy:
+
+```
+BaseSelector
++-- SelectSelector
++-- PollSelector
++-- EpollSelector
++-- DevpollSelector
++-- KqueueSelector
+```
+In the following, events is a bitwise mask indicating which I/O events should be waited for on a given file object. It can be a combination of the modules constants below:
+
+|Constant|Meaning|
+|:-|:-|
+|`EVENT_READ`|Available for read|
+|`EVENT_WRITE`|Available for write|
+
 ### selenium
 
 ### shutil | [Document Python 3.7.9](https://docs.python.org/3.7/library/shutil.html)
@@ -583,3 +614,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - paho Eclipse, https://www.eclipse.org/paho/, 2022-08-30-Tue.
 - asyncio event loop, https://docs.python.org/3/library/asyncio-eventloop.html, 2022-08-30-Tue.
 - asyncio Event Loop Implementations KR, https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations, 2022-09-01-Thu.
+- selectors, https://docs.python.org/3/library/selectors.html#module-selectors, 2022-09-01-Thu.
