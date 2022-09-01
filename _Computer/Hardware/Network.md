@@ -118,6 +118,20 @@ A device to increase transmission distance by amplifying the signal; used in bas
 
 ## Server | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
+### Multiplexing | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191)
+
+멀티플렉싱(다중화)은 단일 링크를 통해 여러 개의 신호를 동시에 전송할 수 있도록 해주는 기술이다. 핵심은 주어진 자원을 얼마나 효율적으로 쓰는가이다. 멀티플렉싱 방법은 크게 analog 주파수 분할 다중화(FDM), analog 파장 분할 다중화(WDM), digital 시분할 다중화(TDM) 3가지로 나뉘며, TDM 방식은 동기식 TDM, 비동기식 TDM으로 나뉜다.
+
+FDM(Frequency Division Multiplexing)은 주파수를 이용한 방식으로 주파수마다 채널을 할당해줘서 그것을 합쳐서 한 라인으로 보내는 것이다. 주파수들 사이에는 신호가 서로 겹치지 않게 하기 위해 보호 대역(guard band)이 있어서 보호 대역만큼 서로 떨어져 있다.
+
+WDM(Wavelength Division Multiplexing)은 광섬유 안에서 멀티플렉싱을 하는 것으로, 기본적으로 FDM과 개념이 같다. 빛의 경우, 주파수란 개념이 없고 대신 파장이 있는데, 여러 파장을 합쳐서 한 라인으로 보내는 것을 말한다.
+
+TDM(Time Division Multiplexing)은 시간에 따라 채널을 나눠주는 방법으로 디지털 네트워크에서 사용하는 방법이다. 실제 네트워크에서 FDM과 TDM을 섞어 쓴다.
+
+동기식 TDM은 송수신이 사이클 시간이 정해져 있어 동기화하기는 쉬우나 항상 데이터를 보내지 않기 때문에 자원의 낭비가 일어난다.
+
+비동기식 TDM은 통계적으로 peek 타임에 쓰는 사용량를 고려해서 비용을 절약할 수 있다. 통계적 TDM이라 하기도 한다.
+
 ---
 
 ### M2M (Machine to Machine) |  [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952)
@@ -382,3 +396,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - WPS KR, https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup, 2022-07-26-Tue.
 - M2M Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952, 2022-08-29-Mon.
 - M2M vs. IoT Article KR, https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design, 2022-08-29-Mon.
+- Network Multiplexing Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191, 2022-09-01-Thu.
