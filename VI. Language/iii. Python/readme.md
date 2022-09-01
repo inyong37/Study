@@ -236,6 +236,12 @@ Scikit-learn is a simple and efficient tools for predictive data analysis. It is
 ### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
+### select - Waiting for I/O completion | [Docs 3](https://docs.python.org/3/library/select.html#module-select)
+
+This module provides access to the `select()` and `poll()` functions available in most operating systems, `devpoll()` available on Solaris and derivates, `epoll()` available on Linux 2.5+ and `kqueue()` available on most BSD. Note that on Windows, it only works for sockets; on other operating systems, it also works for other file types (in particular, on Unix, it works on pipes). It cannot be used on regular files to determine whether a file has grown since it was last read.
+
+Note: The `selectors` module allows high-level and efficient I/O multiplexing, built upon the `select` module primitives. Users are encouraged to use the `selectors` module instead, unless they want precise control over the OS-level primitives used.
+
 ### selectors - High-level I/O multiplexing | [Docs 3](https://docs.python.org/3/library/selectors.html#module-selectors)
 
 This module allows high-level and efficient I/O multiplexing, built upon the select module primitives. Users are encouraged to use this module instead, unless they want precise control over the OS-level primitives used.
@@ -615,3 +621,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - asyncio event loop, https://docs.python.org/3/library/asyncio-eventloop.html, 2022-08-30-Tue.
 - asyncio Event Loop Implementations KR, https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations, 2022-09-01-Thu.
 - selectors, https://docs.python.org/3/library/selectors.html#module-selectors, 2022-09-01-Thu.
+- select, https://docs.python.org/3/library/select.html#module-select, 2022-09-01-Thu.
