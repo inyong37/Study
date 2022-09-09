@@ -567,6 +567,14 @@ first, *middle, last = 'ma' # first = 'm', middle = [], last = 'a'
 
 ## Web Framework
 
+### aiohttp | [AIOHTTP Docs](https://docs.aiohttp.org/en/stable/)
+
+Asynchronous HTTP Client/Server for asyncio and Python.
+
+- Supports both Client and HTTP Server.
+- Supports both Server WebSockets and Client WebSockets out-of-the-box without the Callback Hell.
+- Web-server has Middlewares, Signals and plugable routing.
+
 ### Flask | [Flask Docs 2.2.x](https://flask.palletsprojects.com/en/2.2.x/)
 
 ### [Django](https://www.djangoproject.com/)
@@ -632,5 +640,6 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - asyncio Event Loop Implementations KR, https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations, 2022-09-01-Thu.
 - selectors, https://docs.python.org/3/library/selectors.html#module-selectors, 2022-09-01-Thu.
 - select, https://docs.python.org/3/library/select.html#module-select, 2022-09-01-Thu.
+- AIOHTTP, https://docs.aiohttp.org/en/stable/, 2022-09-10-Sat.
 - Flask, https://flask.palletsprojects.com/en/2.2.x/, 2022-09-10-Sat.
 - Django, https://www.djangoproject.com/, 2022-09-10-Sat.
