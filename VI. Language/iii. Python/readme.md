@@ -563,9 +563,15 @@ first, *middle, last = 'ma' # first = 'm', middle = [], last = 'a'
 
 ### three dots | [Stackoverflow]
 
-----------
+---
 
-#### Reference
+### Flask | [Flask Docs 2.2.x](https://flask.palletsprojects.com/en/2.2.x/)
+
+### [Django](https://www.djangoproject.com/)
+
+---
+
+### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
 - C++, Deep Copy, Shallow Copy, https://wonjayk.tistory.com/256, 2020-05-31-Sun.
@@ -622,3 +628,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - asyncio Event Loop Implementations KR, https://docs.python.org/ko/3/library/asyncio-eventloop.html#event-loop-implementations, 2022-09-01-Thu.
 - selectors, https://docs.python.org/3/library/selectors.html#module-selectors, 2022-09-01-Thu.
 - select, https://docs.python.org/3/library/select.html#module-select, 2022-09-01-Thu.
+- Flask, https://flask.palletsprojects.com/en/2.2.x/, 2022-09-10-Sat.
+- Django, https://www.djangoproject.com/, 2022-09-10-Sat.
