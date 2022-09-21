@@ -643,3 +643,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - AIOHTTP, https://docs.aiohttp.org/en/stable/, 2022-09-10-Sat.
 - Flask, https://flask.palletsprojects.com/en/2.2.x/, 2022-09-10-Sat.
 - Django, https://www.djangoproject.com/, 2022-09-10-Sat.
+- Socket Blog KR, https://webnautes.tistory.com/1381, 2022-09-21-Wed.
