@@ -1,4 +1,4 @@
-# Python | [Homepage](https://www.python.org/) | [Document (3.7.10)](https://docs.python.org/3.7/)
+# *Python* | [Homepage](https://www.python.org/) | [Document (3.7.10)](https://docs.python.org/3.7/)
 ```
 This page is from the "Language" page.
 ```
