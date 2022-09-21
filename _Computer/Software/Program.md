@@ -178,7 +178,9 @@ XZ Utils consist of several components:
 
 While liblzma has a zlib-like API, liblzma doesn't include any file I/O functions. A separate I/O library is planned, which would abstract handling of .gz, .bz2, and .xz files with an esay to use API.
 
-#### Reference
+---
+
+### Reference
 - 사례를 통해 살펴보는 프로파일링과 최적화, https://www.slideshare.net/veblush/ss-19957544?from_action=save, 2020-09-11-Fri.
 - Instruction, https://kwonsye.github.io/computer%20science/2019/04/14/ca-4.html, 2020-09-14-Mon.
 - CI/CD, https://deveric.tistory.com/106, 2020-09-14-Mon.
@@ -240,3 +242,8 @@ While liblzma has a zlib-like API, liblzma doesn't include any file I/O function
 - UI vs. UX Blog, https://maze.co/blog/ui-vs-ux/, 2021-08-18-Wed.
 - CRUD Wiki, https://en.wikipedia.org/wiki/Create,_read,_update_and_delete, 2021-08-31-Tue.
 - XZ Utils, https://tukaani.org/xz/, 2022-07-20-Wed.
+- Unix Daemon Blog KR, https://blogger.pe.kr/770, 2022-09-21-Wed.
+- Unix Daemon vs. Windows Service Blog KR, https://hec-ker.tistory.com/323, 2022-09-21-Wed.
+- Unix Daemon Python Blog KR, https://oddpoet.net/blog/2013/09/24/python-daemon/, 2022-09-21-Wed.
+- Unix Daemon Python Blog KR, http://blog.cloudsys.co.kr/python-daemon-example-install/, 2022-09-21-Wed.
+- Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
