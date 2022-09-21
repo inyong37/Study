@@ -569,3 +569,8 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Android OS Architecture Blog KR, https://codingcoding.tistory.com/591, 2022-08-09-Tue.
 - Android on Raspberry Pi 4 Blog KR, https://leehands.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B44-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-10-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, 2022-08-10-Wed.
 - Android TV on Raspberry Pi 4 Blog KR, https://blog.naver.com/PostView.naver?blogId=cosmosjs&logNo=222262221050&parentCategoryNo=&categoryNo=56&viewDate=&isShowPopularPosts=false&from=postView, 2022-08-10-Wed.
+- Unix Daemon Blog KR, https://blogger.pe.kr/770, 2022-09-21-Wed.
+- Unix Daemon vs. Windows Service Blog KR, https://hec-ker.tistory.com/323, 2022-09-21-Wed.
+- Unix Daemon Python Blog KR, https://oddpoet.net/blog/2013/09/24/python-daemon/, 2022-09-21-Wed.
+- Unix Daemon Python Blog KR, http://blog.cloudsys.co.kr/python-daemon-example-install/, 2022-09-21-Wed.
+- Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
