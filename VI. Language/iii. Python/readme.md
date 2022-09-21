@@ -644,3 +644,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Flask, https://flask.palletsprojects.com/en/2.2.x/, 2022-09-10-Sat.
 - Django, https://www.djangoproject.com/, 2022-09-10-Sat.
 - Socket Blog KR, https://webnautes.tistory.com/1381, 2022-09-21-Wed.
+- FastAPI ASGI Blog KR, https://breezymind.com/start-asgi-framework/, 2022-09-21-Wed.
