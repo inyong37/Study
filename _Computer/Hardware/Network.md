@@ -116,7 +116,11 @@ A specialized gateway for ISDN.
 ### Line Driver | [Wiki](https://en.wikipedia.org/wiki/Line_driver)
 A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
-## Server | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
+## *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
+
+In computing, a server is a piece of computer hardware of software (computer program) that provides functionality for other programs of devices, called "clients". This architecture is called the client-server model. Servers can provide various functionalities, often called "services", such as sharing data or resources among multiple clients, or performing computation for a client. A single server can serve multiple clients, and a single client can use multiple servers. A client process may run on the same device or may connect over a network to a server on a different device. Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers.
+
+Client-server systems are usually most frequently implemented by (and often identified with) the request-response model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result for acknowledgment. Designating a computer as "server-class hardware" implies that is is specialized for running servers on it. This often implies that it is more powerful and relialbe than standard personal computers, but alternatively, large computing clusters may be composed of many relatively simple, replaceable server components.
 
 ### Multiplexing | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191)
 
@@ -397,3 +401,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - M2M Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952, 2022-08-29-Mon.
 - M2M vs. IoT Article KR, https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design, 2022-08-29-Mon.
 - Network Multiplexing Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191, 2022-09-01-Thu.
+- Server Wiki, https://en.wikipedia.org/wiki/Server_(computing), 2022-09-29-Thu.
