@@ -167,6 +167,18 @@ Matter is new, open, IP-based IoT protocol slated for release this fall and set 
 
 ---
 
+## *Drone*
+
+### *[ArduPilot](https://ardupilot.org/)* | [GitHub](https://github.com/ArduPilot/ardupilot)
+
+ArduPilot is a trusted, versatile, and open source autopilot system supporting many vehicle types: multi-copters, traditional helicopters, fixed wing aircraft, boats, submarines, rovers and more. THe source code is developed by a large community of professional and enthusiasts. New developers are always welcome! The bast way to start is by joining the Developer Team Forum, which is open to all and chock-full daily development goodness.
+
+### *DroneKit-Python* | [Docs](https://readthedocs.org/projects/dronekit-python/) | [GitHub](https://github.com/dronekit/dronekit-python)
+
+DroneKit-Python 2.x helps you create powerful apps for UAVs. These apps run on a UAV's Companion Computer, and augment the autopilot by performing tasks that are both computationally intensive and require a low-latency link (e.g. computer vision).
+
+---
+
 ## Smart Home | Home Automation | [Wiki](https://en.wikipedia.org/wiki/Home_automation)
 
 [Amazon Smart Home]() | [Google Home](https://home.google.com/welcome/) | [Samsung Electronics SmartThings]() | [LG Electronics ThinQ]() | [SK Telecom NUGU]() | [KT Giga Genie]() | [Naver Smart Home](https://clova.ai/ko/smarthome/) | [Kakao Home](https://kakao.ai/product/kakaohome)
@@ -630,3 +642,7 @@ Embedded Linux File System 비교
 - Adding devices to Home Assistant, https://www.home-assistant.io/docs/configuration/devices/, 2022-08-29-Mon.
 - Home Assistant Web Server aiohttp, https://community.home-assistant.io/t/what-is-the-web-server-of-home-assistant/67107, 2022-08-30-Tue.
 - Home Assistant Default Database, https://www.home-assistant.io/docs/backend/database/, 2022-08-31-Wed.
+- ArduPilot, https://ardupilot.org/, 2022-09-29-Thu.
+- ArduPilot GitHub, https://github.com/ArduPilot/ardupilot, 2022-09-29-Thu.
+- DroneKit-Python Docs, https://readthedocs.org/projects/dronekit-python/, 2022-09-29-Thu.
+- DroneKit-Python GitHub, https://github.com/dronekit/dronekit-python, 2022-09-29-Thu.
