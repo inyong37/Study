@@ -122,6 +122,11 @@ In computing, a server is a piece of computer hardware of software (computer pro
 
 Client-server systems are usually most frequently implemented by (and often identified with) the request-response model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result for acknowledgment. Designating a computer as "server-class hardware" implies that is is specialized for running servers on it. This often implies that it is more powerful and relialbe than standard personal computers, but alternatively, large computing clusters may be composed of many relatively simple, replaceable server components.
 
+### Server Hosting | [IBM](https://www.ibm.com/cloud/learn/server-hosting)
+
+### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
+A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
+
 ### Multiplexing | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191)
 
 멀티플렉싱(다중화)은 단일 링크를 통해 여러 개의 신호를 동시에 전송할 수 있도록 해주는 기술이다. 핵심은 주어진 자원을 얼마나 효율적으로 쓰는가이다. 멀티플렉싱 방법은 크게 analog 주파수 분할 다중화(FDM), analog 파장 분할 다중화(WDM), digital 시분할 다중화(TDM) 3가지로 나뉘며, TDM 방식은 동기식 TDM, 비동기식 TDM으로 나뉜다.
@@ -402,3 +407,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - M2M vs. IoT Article KR, https://www.digikey.kr/ko/articles/the-difference-between-iot-and-m2m-communication-and-design, 2022-08-29-Mon.
 - Network Multiplexing Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191, 2022-09-01-Thu.
 - Server Wiki, https://en.wikipedia.org/wiki/Server_(computing), 2022-09-29-Thu.
+- Server Hosting IBM, https://www.ibm.com/cloud/learn/server-hosting, 2022-09-30-Fri.
+- Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
