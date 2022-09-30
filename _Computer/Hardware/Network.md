@@ -124,6 +124,16 @@ Client-server systems are usually most frequently implemented by (and often iden
 
 ### Server Hosting | [IBM](https://www.ibm.com/cloud/learn/server-hosting)
 
+Server hosting is an IT service, typically offered by a cloud service provider, that provides remote access to off-premises virtual or physical servers and associated resources for a monthly subscription or usage-based price. Server hosting lets IT teams provision and start using application and data servers without the up-front cost, delays, and labor of purchasing, setting up, managing, and maintaining physical server hardware themselves, on-site.
+
+### Types of Server Hosting
+
+While smaller variations exist, server hosting offerings fall into three general categories:
+
+### Shared server hosting
+
+In shared hosting-the most basic and cost-effective form of server hosting-the resources of one physical server are virtualized and made available to multiple tenants (users or company accounts) in equal proportions. Shared hosting is ideal for basic, personal websites and web apps that have little traffic, few technical requirements, and limited performance or security requirments. But, because all tenants are allocated a finite amount of an individual server's capacity, providers do not allow websites to scale beyond a certain limit. And shared hosting is the server hosting model most susceptible to "noisy nieghbors"-tenants whose applications unexpectedly consume more than their share of resources, causing performance problems for other tenants. FOr more information about shared hosting, see "What is Cloud Hosting?" and "Web Hosting: An Introduction."
+
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
