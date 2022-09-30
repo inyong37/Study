@@ -184,11 +184,6 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
-### Server Hosting | [IBM](https://www.ibm.com/cloud/learn/server-hosting)
-
-### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
-A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
-
 ---
 
 ### Reference
@@ -214,7 +209,6 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - Web Site Wiki, https://en.wikipedia.org/wiki/Website, 2021-06-10-Thu.
 - Web Page Wiki, https://en.wikipedia.org/wiki/Web_page, 2021-06-10-Thu.
 - Web Server Wiki, https://en.wikipedia.org/wiki/Web_server, 2021-06-10-Thu.
-- Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
 - MQTT, https://mqtt.org/, 2022-08-18-Thu.
 - MQTT Blog KR, https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee, 2022-08-29-Mon.
 - Proxy Blog KR, https://brownbears.tistory.com/191, 2022-08-29-Mon.
@@ -226,4 +220,3 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 - REST vs. WebSocket Blog KR, https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html, 2022-08-29-Mon.
 - Discovery Protocol SSDP vs. mDNS Blog KR, https://www.joinc.co.kr/w/Site/IOT/Discovery, 2022-08-29-Mon.
 - Multicast Blog KR, https://softtone-someday.tistory.com/14, 2022-08-29-Mon.
-- Server Hosting IBM, https://www.ibm.com/cloud/learn/server-hosting, 2022-09-30-Fri.
