@@ -134,6 +134,22 @@ While smaller variations exist, server hosting offerings fall into three general
 
 In shared hosting-the most basic and cost-effective form of server hosting-the resources of one physical server are virtualized and made available to multiple tenants (users or company accounts) in equal proportions. Shared hosting is ideal for basic, personal websites and web apps that have little traffic, few technical requirements, and limited performance or security requirments. But, because all tenants are allocated a finite amount of an individual server's capacity, providers do not allow websites to scale beyond a certain limit. And shared hosting is the server hosting model most susceptible to "noisy nieghbors"-tenants whose applications unexpectedly consume more than their share of resources, causing performance problems for other tenants. FOr more information about shared hosting, see "What is Cloud Hosting?" and "Web Hosting: An Introduction."
 
+### VPS hosting
+
+VPS (virtual private server) hosting offers a kind of next-level multi-tenant hosting-each tenant shares some, but not all, of the resources of a single hardware server and gets a little more control over the hosting environment. Each VPS runs its own operating system (OS) and applications, and it reserves its own portion of the machine's resources (memory, compute, etc.).
+
+VPS provides more control over system specifications, guest operating systems, and the overall software stack. It's also the most easily and affordably scalable form of server hosting, making it an excellent choice for eCommerce systems, email servers, CRM, and other applications that typically bear moderate or spiky traffic.
+
+### Dedicated server hosting
+
+Dedicated server hosting is single-tenant hosting-the server has exclusive access ALL the resources of a single hardware server. Compared to the other forms of hosting listed above, dedicated hosting provides the greatest level of isolation from other servers and customers hosted by the cloud or IT service provider.
+
+- A dedicated host provides sustained single-tenant access to an entire hardware server and all the software installed on it. This model provides the maximum amount of harware flexibility, transparency, and control over workload placement, and it also offers some advantages for hosting bring-your-own licnese software.
+
+- A dedicated instance offers the same isolation and workload placement control but is not coupled with a specific machine. So, for example, if a dedicated instance is re-booted, it could wind up on a new physical machine-a machine dedicated to the same customer account, but nonetheless a new machine, potentially in a different physical location.
+
+- The term bare metal server hosting is often used interchangeably with dedicated servers, but bare metal hosting offerings typically include more clould-like characterisitcs, such as provisioning in minutes (vs. hours), billing in hourly increments (vs. monthly), and providing higher-end hardware, including graphic processing units (GPUs).
+
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
