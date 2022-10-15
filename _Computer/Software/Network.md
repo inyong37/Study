@@ -184,6 +184,14 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
+### *[nginx](https://nginx.org/en/)*
+
+nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UCP proxy server, originally written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VK, and Rambler. According to Netcraft, nginx served or proxied 21.48% busiest sites in September 2022. Here are some of the success stories: Dropbox, Netflix, Wordpress.com, FastMail.FM.
+
+The sources and documentation are distributed under the 2-clause BSD-like license.
+
+Commercial support is available from Nginx, Inc.
+
 ---
 
 ### Reference
@@ -220,3 +228,4 @@ Technologies such as REST and SOAP, which use HTTP as a basic for general comput
 - REST vs. WebSocket Blog KR, https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html, 2022-08-29-Mon.
 - Discovery Protocol SSDP vs. mDNS Blog KR, https://www.joinc.co.kr/w/Site/IOT/Discovery, 2022-08-29-Mon.
 - Multicast Blog KR, https://softtone-someday.tistory.com/14, 2022-08-29-Mon.
+- nginx, https://nginx.org/en/, 2022-10-15-Sat.
