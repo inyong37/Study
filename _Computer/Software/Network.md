@@ -192,6 +192,42 @@ The sources and documentation are distributed under the 2-clause BSD-like licens
 
 Commercial support is available from Nginx, Inc.
 
+### *[nip.io](https://nip.io/)*
+
+Dead simple wildcard DNS for any IP Address. Stop editing your `etc/hosts` file with custom hostname and IP address mappings. nip.io allows you to do that by mapping any IP Address to a hostname using the following formats:
+
+Without a name:
+
+10.0.0.1.nip.io maps to 10.0.0.1
+
+192-168-1-250.nip.io maps to 192.168.1.250
+
+0a000803.nip.io maps to 10.0.8.3
+
+With a name:
+
+app.10.8.0.1.nip.io maps to 10.8.0.1
+
+app-116-203-255-68.nip.io maps to 116.203.255.68
+
+app-c0a801fc.nip.io maps to 192.168.1.252
+
+customer1.app.10.0.0.1.nip.io maps to 10.0.0.1
+
+customer2-app-127-0-0-1.nip.io maps to 127.0.0.1
+
+customer3-app-7f000101.nip.io maps to 127.0.0.1
+
+nip.io maps <anything>[.-]<IP Address>.nip.io in "dot", "dash" or "hexadecimal" notation to the corresponding <IP Address>:
+  
+dot notation: magic.127.0.0.1.nip.io
+  
+dash notation: magic-127-0-0-1.nip.io
+  
+hexadecimal notation: magic-7f000001.nip.io
+
+The "dash" and "hexadecimal" notation is especially useful when using services like LetsEncrypt as it's just a regular sub-domain of nip.io
+
 ---
 
 ### Reference
@@ -229,3 +265,4 @@ Commercial support is available from Nginx, Inc.
 - Discovery Protocol SSDP vs. mDNS Blog KR, https://www.joinc.co.kr/w/Site/IOT/Discovery, 2022-08-29-Mon.
 - Multicast Blog KR, https://softtone-someday.tistory.com/14, 2022-08-29-Mon.
 - nginx, https://nginx.org/en/, 2022-10-15-Sat.
+- nip.io, https://nip.io/, 2022-10-15-Sat.
