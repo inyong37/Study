@@ -167,6 +167,14 @@ TDM(Time Division Multiplexing)은 시간에 따라 채널을 나눠주는 방�
 
 비동기식 TDM은 통계적으로 peek 타임에 쓰는 사용량를 고려해서 비용을 절약할 수 있다. 통계적 TDM이라 하기도 한다.
 
+### *Failover* | [WiKi](https://en.wikipedia.org/wiki/Failover) | [Create a failover cluster](https://learn.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster)
+
+Failover is switching to a redundatnt or standby computer server, system, hardware component or network upon the failure or abnormal termination of the previously active application, server, system, hardware component, or network in a computer network. Failover and switchover are essentially the same operation, except that failover is automatic and usually operates without warning, while switchover requires human intervention.
+
+### *Switchover* | [WiKi](https://en.wikipedia.org/wiki/Switchover)
+
+Switchover is the manual switch from one system to a redundant or standby computer server, system, or network upon the failure or abnormal termination of the previously active server, system, or network, or to perform system maintenance, such as installing patches, and upgrading software or hardware.
+
 ---
 
 ### M2M (Machine to Machine) |  [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=bonanet1661&logNo=40209624952)
@@ -435,3 +443,6 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Server Wiki, https://en.wikipedia.org/wiki/Server_(computing), 2022-09-29-Thu.
 - Server Hosting IBM, https://www.ibm.com/cloud/learn/server-hosting, 2022-09-30-Fri.
 - Web Hosting Wiki, https://en.wikipedia.org/wiki/Web_hosting_service, 2021-06-10-Thu.
+- Failover Wiki, https://en.wikipedia.org/wiki/Failover, 2022-10-16-Sun.
+- Create a failover cluster, https://learn.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster, 2022-10-16-Sun.
+- Switchover Wiki, https://en.wikipedia.org/wiki/Switchover, 2022-10-16-Sun.
