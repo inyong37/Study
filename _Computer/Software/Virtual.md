@@ -43,9 +43,13 @@ The Kubernetes Container Runtime Interface (CRI) defines the main gRPC protocol 
 
 ---
 
-# *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/)
+# *Container* | [What is a container (IBM)](https://www.ibm.com/cloud/learn/containers) | [What is a container (MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [What is a container (Google)](https://cloud.google.com/learn/what-are-containers) | [What is a container (Docker)](https://www.docker.com/resources/what-container/)
 
 A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+## *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 ## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes (KR)](https://kubernetes.io/docs/concepts/overview/)
 
@@ -104,3 +108,5 @@ Containers have become popular because they provide extra benefits, such as:
 - Container MicroSoft Cloud, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview, 2022-10-17-Mon.
 - Container Google Cloud, https://cloud.google.com/learn/what-are-containers, 2022-10-17-Mon.
 - Container Docker, https://www.docker.com/resources/what-container/, 2022-10-17-Mon.
+- Docker, https://www.docker.com/, 2022-10-17-Mon.
+- What is a Docker, What is a container, https://docs.docker.com/get-started/overview/, 2022-10-17-Mon.
