@@ -1,10 +1,20 @@
-# Profiling | [Wiki](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+# *Profiling* | [WiKi](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+
 ```
 This page is from the "Program" page.
 ```
+
 Profiling in computer science is a form of dynamic program analysis that measures, for example, the space(memory) or time complexity of a program, the usage of particular instructions, or frequency and duration of function calls. The most common use of profiling information is to aid program optimization.
 
 Profiling is achieved by instrumenting either the program source code or its binary executable form using a tool called a profiler (or code profiler). Profilers may use a number of different techniques, such as event-based, statistical, instrumented, and simulation methods.
+
+문제, 디자인, 코드, 컴파일, 어셈블리로 나눴을 때 문제, 디자인에서 가장 많은 효율을 볼 수 있다. 디자인 최적화, 코드 최적화가 중요하다. 레벨은 문제가 가장 어렵고, 여지가 가장 크며, 익숙도는 가장 크고, 툴 여부는 적다. 코드 레벨의 CPU 프로파일러는 Visual Studio Profiler, Very Sleepy, Glow Code가 있다.
+
+### *Hot Spot* | [WiKi](https://en.wikipedia.org/wiki/Hot_spot_(computer_programming))
+A Hot spot in computer science is most usually defined as a region of a program where a high proportion of executed instructions occur or where most time is spent during the program's execution (not necessarily the same thing since some instructions are faster than others).
+
+### *Bottleneck* | [WiKi](https://en.wikipedia.org/wiki/Bottleneck_(software))
+A bottleneck in computer science occurs when the capacity of an application or a computer system is limited by a single component, like the neck of a bottle slowing down the overall water flow. The bottleneck has lowest throughput of all parts of the transaction path.
 
 ## Profiler
 ### In-house Profiler | Code level
@@ -126,28 +136,39 @@ Polling profilers work by periodically inspecting the profiled program's state. 
 GlowCode is a complete real-time performance and memory profiler for Windows and .NET programmers who develop applications with C++, C#, or any .NET Framework-compliant language. GlowCode helps programmers optimize application performance, with tools to detect memory leaks and resource flaws, isolate performance bottlenecks, profile and tune code, trace real-time program execution, ensure code coverage, isolate boxing errors, identify excessive memory usage, and find hyperactive and loitering objects. For native, managed, and mixed code.
 
 ### Visual Studio Profiler | [MS Docs (Kor)](https://docs.microsoft.com/ko-kr/visualstudio/profiling/?view=vs-2019) | [Tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019) | CPU/Memory/GPU & Code/Instruction Level & Partial Paid Version & Windows
+
 #### [PerfTips](https://docs.microsoft.com/en-us/visualstudio/profiling/perftips?view=vs-2019) | [Examine performance using PerfTips](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#examine-performance-using-perftips)
 Visual Studio debugger PerfTips and the debugger-integrated Diagnostic Tools help you to monitor and analyze the performance of your app while you are debugging.
 
 Although the debugger-integrated diagnostic tools are a great way of becoming aware of performance issues while you are developing, the debugger can have a significant impact on the performance of your app. To collect more accurate performance data, consider using the tools in the Performance Profiler as an additional part of your performance investigations. See Run profiling tools with or without the debugger.
+
 #### CPU Usage | [Measure application performance by analyzing CPU usage](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2019) | [Analyze CPU usage](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-cpu-usage)
 Find performance issues while you're debugging with the debugger-integrated CPU Usage diagnostic tool. You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see Run profiling tools with or without the debugger.
 
 When the debugger pauses, the CPU Usage tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
+
 #### Memory Usage | [Measure memory usage in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2019) | [Analyze memory usage](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-memory-usage)
 Find memory leaks and inefficient memory while you're debugging with the debugger-integrated Memory Usage diagnostic tool. The Memory Usage tool lets you take one or more snapshots of the managed and native memory heap to help understand the memory usage impact of object types. You can also analyze memory usage without a debugger attached or by targeting a running app. For more information, see Run profiling tools with or without the debugger.
 
 Although you can collect memory snapshots at any time in the Memory Usage tool, you can use the Visual Studio debugger to control how your application executes while investigating performance issues. Setting breakpoints, stepping, Break All, and other debugger actions can help you focus your performance investigations on the code paths that are most relevant. Performing those actions while your app is running can eliminate the noise from the code that doesn't interest you and can significantly reduce the amount of time it takes you to diagnose an issue.
+
 #### .Net Object Allocation | [Analyze memory usage by using the .NET Object Allocation tool](https://docs.microsoft.com/en-us/visualstudio/profiling/dotnet-alloc-tool?view=vs-2019)
+
 #### [GPU Usage](https://docs.microsoft.com/en-us/visualstudio/profiling/gpu-usage?view=vs-2019) | [Analyze GPU Usage (Direct3D)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-gpu-usage-direct3d)
+
 #### Application Timeline | [Analyze resource consumption and UI thread activity (XAML)](https://docs.microsoft.com/en-us/visualstudio/profiling/application-timeline?view=vs-2019) | [Analyze resource consumption (XAML)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-resource-consumption-xaml)
 Use the Application Timeline profiler to find and fix application-interaction related performance issues in XAML applications. This tool helps improve the XAML application performance by showing a detailed view of the applications' resource consumption. You can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like Application Startup, Page Load, and Windows resize.
+
 #### [Events viewer](https://docs.microsoft.com/en-us/visualstudio/profiling/events-viewer?view=vs-2019) | [Examine application events](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#examine-application-events)
 The generic events viewer shows app activity through a list of events like module load, thread start, and system configuration. This view helps you better diagnose how your app is doing within the Visual Studio profiler.
+
 #### .Net Async | [Analyze performance of .NET asynchronous code](https://docs.microsoft.com/en-us/visualstudio/profiling/analyze-async?view=vs-2019)| [Analyze asynchronous code (.NET)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-asynchronous-code-net)
+
 #### Database | [Analyze database performance using the Database tool](https://docs.microsoft.com/en-us/visualstudio/profiling/analyze-database?view=vs-2019) | [Analyze database performance (.NET Core)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-database-performance-net-core)
+
 #### Performance Explorer | [Analyze performance (legacy tools)](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019#analyze-performance-legacy-tools)
 In Visual Studio 2019, the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using Debug > Performance Profiler. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
+
 #### IntelliTrace | [IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)](https://docs.microsoft.com/en-us/visualstudio/debugger/intellitrace?view=vs-2019)
 
 ### Intel® VTune™ Profiler | [Homepage](https://software.intel.com/content/www/us/en/develop/tools/vtune-profiler.html) | CPU/Memory/GPU & Instruction Level & Partial Paid Version & Almost all OSs
