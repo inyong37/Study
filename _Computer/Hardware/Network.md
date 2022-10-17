@@ -153,6 +153,32 @@ Dedicated server hosting is single-tenant hosting-the server has exclusive acces
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
+---
+
+## *Distributed Computing* | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
+
+Distributed computing is a field of computer science that studies distributed systems. A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another from any system. The components interact with one another in order to achieve a common goal. Three significant challenges of distributed systems are: maintaining concurrency of components, overcoming the lack of a global clock, and managing the independent failure of components. When a component of one system fails, the entire system does not fail. Examples of distributed systems vary from SOA-based systems to massively multiplayer online games to peer-to-peer applications.
+
+## *Parallel Computing* | [WiKi](https://en.wikipedia.org/wiki/Parallel_computing)
+
+Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism. Parallelism has long been employed in high-performance computing, but has gained broader interest due to the physical constraints preventing frequency scaling. As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors.
+
+### *Grid Computing* | [WiKi](https://en.wikipedia.org/wiki/Grid_computing)
+
+Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purpose. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large,
+
+### *Cluster* | [WiKi](https://en.wikipedia.org/wiki/Computer_cluster)
+
+A computer cluster is a set of computers that work together so that they can be viewed as a single system. Unlike grid computers, computer clusters have each node set to perform the same task, controlled and scheduled by software.
+
+The components of a cluster are usually connected to each other through fast local area networks, with each node (computer used as a server) running its own instance of an operating system. In most circumstances, all of the nodes use the same hardware and the same operating system, although in some setups, different operating systems can be used on each computer, or different hardware.
+
+### *Cloud Computing* | [WiKi](https://en.wikipedia.org/wiki/Cloud_computing)
+
+Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a "pay-as-you-go" model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
+
+---
+
 ### Multiplexing | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191)
 
 멀티플렉싱(다중화)은 단일 링크를 통해 여러 개의 신호를 동시에 전송할 수 있도록 해주는 기술이다. 핵심은 주어진 자원을 얼마나 효율적으로 쓰는가이다. 멀티플렉싱 방법은 크게 analog 주파수 분할 다중화(FDM), analog 파장 분할 다중화(WDM), digital 시분할 다중화(TDM) 3가지로 나뉘며, TDM 방식은 동기식 TDM, 비동기식 TDM으로 나뉜다.
@@ -446,3 +472,8 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Failover Wiki, https://en.wikipedia.org/wiki/Failover, 2022-10-16-Sun.
 - Create a failover cluster, https://learn.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster, 2022-10-16-Sun.
 - Switchover Wiki, https://en.wikipedia.org/wiki/Switchover, 2022-10-16-Sun.
+- Distributed Computing WiKi, https://en.wikipedia.org/wiki/Distributed_computing, 2022-10-17-Mon.
+- Parallel Computing WiKi, https://en.wikipedia.org/wiki/Parallel_computing, 2022-10-17-Mon.
+- Grid Computing WiKi, https://en.wikipedia.org/wiki/Grid_computing, 2022-10-17-Mon.
+- Cluster WiKi, https://en.wikipedia.org/wiki/Computer_cluster, 2022-10-17-Mon.
+- Cloud Computing WiKi, https://en.wikipedia.org/wiki/Cloud_computing, 2022-10-17-Mon.
