@@ -166,6 +166,8 @@ XZ Utils consist of several components:
 
 While liblzma has a zlib-like API, liblzma doesn't include any file I/O functions. A separate I/O library is planned, which would abstract handling of .gz, .bz2, and .xz files with an esay to use API.
 
+---
+
 # *DevOps* | [AWS Docs](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
 
 DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
@@ -203,6 +205,14 @@ Build more effective teams under a DevOps cultural model, which emphasizes value
 - Security
 
 Move quickly while retaining control and preserving compliance. You can adopt a DevOps model without sacrificing security by using automated compliance policies, find-grained controls, and configuration management techniques. For example, using infrastructure as code and policy as code, you can define and then track compliance at scale.
+
+### *Blue Green Deployment* | [RedHat](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
+
+Blue green deployment is an application release model that gradually transfers user traffic from a previous version of an app or microservice to a nearly identical new release-both of which are running in production.
+
+The old version can be called the blue environment while the new version can be known as the green environment. Once production traffic is fully transferred from blue to green, blue can standby in case of rollback or pulled from production and updated to become the template upon which the next update is made.
+
+There are downsides to this continuous deployment model. Not all environments have the same uptime requirements or the resources to properly perform CI/CD processes like blue green. But many apps evolve to support such continuous delivery as the enterprises supporting them digitally transform.
 
 ---
 
@@ -243,3 +253,4 @@ Move quickly while retaining control and preserving compliance. You can adopt a 
 - Unix Daemon Python Blog KR, http://blog.cloudsys.co.kr/python-daemon-example-install/, 2022-09-21-Wed.
 - Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
 - DevOps AWS, https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls, 2022-10-11-Tue.
+- Blue Green Deployment RedHad, https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment, 2022-10-17-Mon.
