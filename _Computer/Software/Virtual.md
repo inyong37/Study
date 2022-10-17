@@ -43,6 +43,10 @@ The Kubernetes Container Runtime Interface (CRI) defines the main gRPC protocol 
 
 ---
 
+# *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/)
+
+A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
 ## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes (KR)](https://kubernetes.io/docs/concepts/overview/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -96,3 +100,7 @@ Containers have become popular because they provide extra benefits, such as:
 - VMware Workstation Player for Linux Documentation, https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html, 2022-10-17-Mon.
 - VMware Workstation Player for Windows Documentation, https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html, 2022-10-17-Mon.
 - VMware Workstation Pro Documentation, https://docs.vmware.com/en/VMware-Workstation-Pro/index.html, 2022-10-17-Mon.
+- Container IBM Cloud, https://www.ibm.com/cloud/learn/containers, 2022-10-17-Mon.
+- Container MicroSoft Cloud, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview, 2022-10-17-Mon.
+- Container Google Cloud, https://cloud.google.com/learn/what-are-containers, 2022-10-17-Mon.
+- Container Docker, https://www.docker.com/resources/what-container/, 2022-10-17-Mon.
