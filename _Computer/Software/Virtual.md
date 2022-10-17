@@ -3,19 +3,19 @@
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
 
-## *[VMware](https://www.vmware.com/)*
+### *[VMware](https://www.vmware.com/)*
 
 [VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Local Virtual Machines. Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
-## *[VirtualBox](https://www.virtualbox.org/)*
+### *[VirtualBox](https://www.virtualbox.org/)*
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
 VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
 
-## Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
+### Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
 
 Hyper-V는 하드웨어 가상화를 제공합니다. 즉, 각 가상 컴퓨터가 가상 하드웨어에서 실행됩니다. Hyper-V를 통해 가상 하드 드라이브, 가상 스위치 및 가상 컴퓨터에 추가할 수 있는 각종 가상 디바이스를 만들 수 있습니다.
 
@@ -25,13 +25,17 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 ---
 
-### [Open Container Initiative (OCI)](https://opencontainers.org/)
+# *Container* | [(IBM)](https://www.ibm.com/cloud/learn/containers) | [(MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [(Google)](https://cloud.google.com/learn/what-are-containers) | [(Docker)](https://www.docker.com/resources/what-container/)
+
+A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+### *[Open Container Initiative (OCI)](https://opencontainers.org/)*
 
 The Open Container Initiative is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
 
 Established in June 2015 by Docker and other leaders in the container industry, the OCI currently contains two specifications: the Runtime Specification (runtime-spec) and the Image Specification (image-spec). The Runtime Specification outlines how to run a "filesystem bundle" that is unpacked on disk. At a high-level an OCI implementation would download an OCI Image then unpack that image into an OCI Runtime filesystem bundle. At this point the OCI Runtime Bundle would be run by an OCI Runtime.
 
-### Container Runtime Interface (CRI) | [Kubernetes](https://kubernetes.io/docs/concepts/architecture/cri/)
+### *Container Runtime Interface (CRI)* | [(Kubernetes)](https://kubernetes.io/docs/concepts/architecture/cri/)
 
 The CRI is a plugin interface which enables the kubelet to use a wide variety of container runtimes, without having a need to recomplile the cluster components.
 
@@ -41,17 +45,11 @@ The Container Runtime Interface (CRI) is the main protocol for the communication
 
 The Kubernetes Container Runtime Interface (CRI) defines the main gRPC protocol for the communication between the cluster components kubelet and container runtime.
 
----
-
-# *Container* | [What is a container (IBM)](https://www.ibm.com/cloud/learn/containers) | [What is a container (MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [What is a container (Google)](https://cloud.google.com/learn/what-are-containers) | [What is a container (Docker)](https://www.docker.com/resources/what-container/)
-
-A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
-
-## *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
+### *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes (KR)](https://kubernetes.io/docs/concepts/overview/)
+### *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
