@@ -25,9 +25,33 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 ---
 
-# *Container* | [(IBM)](https://www.ibm.com/cloud/learn/containers) | [(MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [(Google)](https://cloud.google.com/learn/what-are-containers) | [(Docker)](https://www.docker.com/resources/what-container/)
+# *Container* | [(IBM)](https://www.ibm.com/cloud/learn/containers) | [(MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [(Google)](https://cloud.google.com/learn/what-are-containers) | [(Docker)](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
-A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
+
+By design, a container is immutable: you cannot change the code of a container that is already running. If you have a containerized application and want to make changes, you need to build a new image that includes the change, then recreate the container to start from the updated image.
+
+A container is a standard unit of software that packages up code and all its dependencies so that application runs quickly and reliably from one computing envrionment to another.
+
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+## *Image* | [Kubernetes](https://kubernetes.io/docs/concepts/containers/images/)
+
+A container image represents binary data that encapsulates an application and all its software dependencies. Container images are executable software bundles that can run standalone and that make very well defined assumptions about their runtime environment.
+
+You typically create a container image of your application and push it to a registry before referring to it in a Pod.
+
+## *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+
+Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
+
+A Pod (as in a pod of whales or pea pod) is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. A Pod's contents are always co-located and co-scheduled, and run in a shared context. A Pod models an application-specific "logical host": it contains one or more application containers which are relatively tightly coupled. In non-cloud contexts, applications executed on the same physical or virtual machine are analogous to cloud applications executed on the same logical host.
+
+As well as application containers, a Pod can contain init containers that run during Pod startup. You can also inject ephmeral containers for debugging if your cluster offers this.
+
+### *[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)*
+
+### *[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)*
 
 ### *[Open Container Initiative (OCI)](https://opencontainers.org/)*
 
@@ -45,11 +69,21 @@ The Container Runtime Interface (CRI) is the main protocol for the communication
 
 The Kubernetes Container Runtime Interface (CRI) defines the main gRPC protocol for the communication between the cluster components kubelet and container runtime.
 
+## *Container Runtimes* | [Kubernetes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+
+The container runtime is the software that is responsible for running containers.
+
+Kubernetes supports container runtimes such as containerd, CRI-O, and any other implementation of the Kubernetes CRI (Container Runtime Interface).
+
+You need to install a container runtime into each node in the cluster so that Pods can run there.
+
+Kubernetes 1.25 requires that you use a runtime that conforms with the Container Runtime Interface (CRI).
+
 ### *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-### *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
+## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -108,3 +142,9 @@ Containers have become popular because they provide extra benefits, such as:
 - Container Docker, https://www.docker.com/resources/what-container/, 2022-10-17-Mon.
 - Docker, https://www.docker.com/, 2022-10-17-Mon.
 - What is a Docker, What is a container, https://docs.docker.com/get-started/overview/, 2022-10-17-Mon.
+- Container Runtimes Kubernetes, https://kubernetes.io/docs/setup/production-environment/container-runtimes/, 2022-10-18-Tue.
+- Container Kubernetes, https://kubernetes.io/docs/concepts/containers/, 2022-10-18-Tue.
+- Image Kubernetes, https://kubernetes.io/docs/concepts/containers/images/, 2022-10-18-Tue.
+- Pod Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/, 2022-10-18-Tue.
+- Init Containers Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/init-containers/, 2022-10-18-Tue.
+- Ephemeral Containers Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/, 2022-10-18-Tue.
