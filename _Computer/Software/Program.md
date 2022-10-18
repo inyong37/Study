@@ -214,6 +214,8 @@ The old version can be called the blue environment while the new version can be 
 
 There are downsides to this continuous deployment model. Not all environments have the same uptime requirements or the resources to properly perform CI/CD processes like blue green. But many apps evolve to support such continuous delivery as the enterprises supporting them digitally transform.
 
+### *Zero Downtime Deployment* | [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html)
+
 ---
 
 ### Reference
@@ -254,3 +256,4 @@ There are downsides to this continuous deployment model. Not all environments ha
 - Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
 - DevOps AWS, https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls, 2022-10-11-Tue.
 - Blue Green Deployment RedHad, https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment, 2022-10-17-Mon.
+- Zerp Downtime Deployment Samsung SDS, https://www.samsungsds.com/kr/insights/1256264_4627.html, 2022-10-18-Tue.
