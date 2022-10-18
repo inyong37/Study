@@ -193,6 +193,48 @@ TDM(Time Division Multiplexing)은 시간에 따라 채널을 나눠주는 방�
 
 비동기식 TDM은 통계적으로 peek 타임에 쓰는 사용량를 고려해서 비용을 절약할 수 있다. 통계적 TDM이라 하기도 한다.
 
+---
+
+## *Load Balancing* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
+
+Scale up:
+
+Scale out: 
+
+### *Round Robin Method*
+
+Allocates requests sequentially. Suitable for use when multiple servers have the same specifications and sessions do not last long.
+
+### *Weighted Round Robin Method*
+
+Each server is weighted and client requests are prioritized among the servers with higher weights.
+
+### *IP Hash Method*
+
+Handles requests by mapping the client's IP address to a specific server.
+
+### *Least Connection Method*
+
+Priority distribution of traffic to the server with the fewest connectinos at the time the request is received. Suitable for long sessions or inconsistent traffic distributed to the server.
+
+### *Least Response Time Method*
+
+Distributes traffic considering both the server's current connection state and response time. Prioritize load distribution to servers with the fewest connections and the shortest response times.
+
+## *Load Balancer* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
+
+The equipment used in the upper layer has all the functions of the equipment in the lower layer. Higher tiers enable more sophisticated load balancing.
+
+### *L4 Load Balancer*
+
+L4 load balancer distributes the load based on information from the network layer (IP, IPX) or transport layer (TCP, UDP). It is possible to divide traffic according to IP address, port number, MAC address, and transport protocol.
+
+### *L7 Load Balancer*
+
+L7 load balancer distributes the load at the application layer (HTTP, FTP, SMTP). It is possible to distribute traffic ti specific servers based on user requests such as HTTP headers, cookies, etc. It is possible to check the contents of a packet and distribute the load to a specific server according to the contents. In addition, it can detect viruses or filter out anomalous traffic such as DoS/DDoS.
+
+---
+
 ### *Failover* | [WiKi](https://en.wikipedia.org/wiki/Failover) | [Create a failover cluster](https://learn.microsoft.com/en-us/windows-server/failover-clustering/create-failover-cluster)
 
 Failover is switching to a redundatnt or standby computer server, system, hardware component or network upon the failure or abnormal termination of the previously active application, server, system, hardware component, or network in a computer network. Failover and switchover are essentially the same operation, except that failover is automatic and usually operates without warning, while switchover requires human intervention.
@@ -477,3 +519,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Grid Computing WiKi, https://en.wikipedia.org/wiki/Grid_computing, 2022-10-17-Mon.
 - Cluster WiKi, https://en.wikipedia.org/wiki/Computer_cluster, 2022-10-17-Mon.
 - Cloud Computing WiKi, https://en.wikipedia.org/wiki/Cloud_computing, 2022-10-17-Mon.
+- Load Balancing Blog KR, https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903, 2022-10-18-Tue.
