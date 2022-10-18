@@ -168,7 +168,9 @@ While liblzma has a zlib-like API, liblzma doesn't include any file I/O function
 
 ---
 
-# *DevOps* | [AWS Docs](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
+# *Deployment*
+
+## *DevOps* | [AWS Docs](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
 
 DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 
@@ -206,6 +208,22 @@ Build more effective teams under a DevOps cultural model, which emphasizes value
 
 Move quickly while retaining control and preserving compliance. You can adopt a DevOps model without sacrificing security by using automated compliance policies, find-grained controls, and configuration management techniques. For example, using infrastructure as code and policy as code, you can define and then track compliance at scale.
 
+### *Zero Downtime Deployment* | [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html) | [Blog (KR)](https://loosie.tistory.com/m/781)
+
+### *Rolling Update*
+
+Change running instance gradually.
+
+Pros:
+
+- easy to manage due to maintain resources
+- easy to roll back due to deploy gradually
+
+Cons: 
+
+- need to consider service capacity with stricted resources
+- may cause a compatibility problem due to co-existing different version of services
+
 ### *Blue Green Deployment* | [RedHat](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
 
 Blue green deployment is an application release model that gradually transfers user traffic from a previous version of an app or microservice to a nearly identical new release-both of which are running in production.
@@ -214,7 +232,32 @@ The old version can be called the blue environment while the new version can be 
 
 There are downsides to this continuous deployment model. Not all environments have the same uptime requirements or the resources to properly perform CI/CD processes like blue green. But many apps evolve to support such continuous delivery as the enterprises supporting them digitally transform.
 
-### *Zero Downtime Deployment* | [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html)
+Convert traffic to new services from old services at once.
+
+Pros:
+
+- easy to roll back
+- can test before deployment
+- can reuse old service environment
+- less possibility to cause overload
+
+Cons:
+
+- cost a lot: it needs resource as double
+  - Virtual/Cloud enviroment is recommended such as AWS, containers(docker), and virtually machines.
+
+### *Canary Release*
+
+Canary Release mehotd is a deployment strategy that detects problems fast as it can while it deploys new service. It can control versions with using load balancer and deploy gradually with monitoring and feedbacks.
+
+Pros:
+
+- test before deployment
+- minimize negative effects, enlarge traffic, easy rollback with phased deployment
+
+Cons:
+
+- need version control due to co-exist of different versions
 
 ---
 
@@ -256,4 +299,5 @@ There are downsides to this continuous deployment model. Not all environments ha
 - Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
 - DevOps AWS, https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls, 2022-10-11-Tue.
 - Blue Green Deployment RedHad, https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment, 2022-10-17-Mon.
-- Zerp Downtime Deployment Samsung SDS, https://www.samsungsds.com/kr/insights/1256264_4627.html, 2022-10-18-Tue.
+- Zero Downtime Deployment Samsung SDS, https://www.samsungsds.com/kr/insights/1256264_4627.html, 2022-10-18-Tue.
+- Zero Downtime Deployment 3 Methods Blog KR, https://loosie.tistory.com/m/781, 2022-10-18-Tue.
