@@ -239,5 +239,5 @@ CuDNN in ~/CUDA/include/cudnn.h
 ### G. Utility
 Utility Scripts with Python.
 
-### H. [Kubernetes](https://kubernetes.io/)
+### H. [Kubernetes](https://kubernetes.io/) | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
