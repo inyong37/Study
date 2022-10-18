@@ -25,7 +25,7 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 ---
 
-# *Container* | [(IBM)](https://www.ibm.com/cloud/learn/containers) | [(MS)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [(Google)](https://cloud.google.com/learn/what-are-containers) | [(Docker)](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
+# *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
 A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
 
@@ -59,7 +59,7 @@ The Open Container Initiative is an open governance structure for the express pu
 
 Established in June 2015 by Docker and other leaders in the container industry, the OCI currently contains two specifications: the Runtime Specification (runtime-spec) and the Image Specification (image-spec). The Runtime Specification outlines how to run a "filesystem bundle" that is unpacked on disk. At a high-level an OCI implementation would download an OCI Image then unpack that image into an OCI Runtime filesystem bundle. At this point the OCI Runtime Bundle would be run by an OCI Runtime.
 
-### *Container Runtime Interface (CRI)* | [(Kubernetes)](https://kubernetes.io/docs/concepts/architecture/cri/)
+### *Container Runtime Interface (CRI)* | [Kubernetes](https://kubernetes.io/docs/concepts/architecture/cri/)
 
 The CRI is a plugin interface which enables the kubelet to use a wide variety of container runtimes, without having a need to recomplile the cluster components.
 
