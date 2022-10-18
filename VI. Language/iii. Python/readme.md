@@ -1,8 +1,17 @@
-# *Python* | [Homepage](https://www.python.org/) | [Document (3.7.10)](https://docs.python.org/3.7/)
+# *[Python](https://www.python.org/)* | [Document (3.7.10)](https://docs.python.org/3.7/)
+
 ```
 This page is from the "Language" page.
 ```
-## :computer: Anaconda | [Homepage](https://www.anaconda.com/) | [Document Individual Edition](https://docs.anaconda.com/anaconda/) | [Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf) | [Archive](https://repo.anaconda.com/archive/) | [Uninstall](https://docs.anaconda.com/anaconda/install/uninstall/)
+
+:books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
+
+:books: Built-in Constant | [Document Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
+
+:books: Built-in Exceptions | [Document Python 3.7.9](https://docs.python.org/3.7/library/exceptions.html)
+
+## :computer: *[Anaconda](https://www.anaconda.com/)* | [Document Individual Edition](https://docs.anaconda.com/anaconda/) | [Cheat Sheet](https://docs.anaconda.com/_downloads/9ee215ff15fde24bf01791d719084950/Anaconda-Starter-Guide.pdf) | [Archive](https://repo.anaconda.com/archive/) | [Uninstall](https://docs.anaconda.com/anaconda/install/uninstall/)
+
 The Most Trusted Distribution for Data Science.
 
 Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
@@ -66,15 +75,7 @@ The Python IDE for Professional Developers.
   - git-bash: "C:\Program Files\Git\git-bash.exe"
   - git-cmd: "C:\Program Files\Git\git-cmd.exe"
 
-----------
-
-## :books: Built-in Function | [Document Python 3.7.9](https://docs.python.org/3.7/library/functions.html)
-
-----------
-
-## :books: Built-in Constant | [Document Python 3.7.9](https://docs.python.org/3.7/library/constants.html)
-
-----------
+---
 
 ## :books: The Python Standard Libraries
 
@@ -294,11 +295,8 @@ Paho is an Eclipse Foundation project.
 ### PyQt
 There is an installation error with PyQt5 on macOS. The latest version is 5.15.7 in Jul. 2022. The solution is PyQt5 needs XCode to install and run PyQt5 on macOS.
 
-----------
 
-## :books: Built-in Exceptions | [Document Python 3.7.9](https://docs.python.org/3.7/library/exceptions.html)
-
-----------
+---
 
 ## :pencil2: PIP
 pip is the package installer for Python.
@@ -319,10 +317,16 @@ pip is the package installer for Python.
 깊은 복사는 전체 복사로, 얕은 복사와 달리 객체가 가진 모든 멤버(값과 참조 형식 모두)를 복사하는 것, 객체가 참조 타입의 멤버를 포함할 경우 참조 값의 복사가 아닌 참조된 객체 자체가 복사됨.
 각자의 값을 참조하게 됨.
 
+---
+
 ## :pencil2: Special Method, Magic Method aka dunder method
+
 `__getitem()__`
 
-### :pencil2: Command python
+---
+
+### :pencil2: Command
+
 #### If python2 and python3 are both installed
 - In Unix
   - Python2: `$ python`
@@ -330,13 +334,19 @@ pip is the package installer for Python.
 - In Windows (cmd)
   - Python2: `$ py -2`
   - Python3: `$ py -3`
+
 #### If only one of python verison is installed
+
 `$ python`
 
 ### :pencil2: `;`
+
 multiple lines, but not pythonic
 
+---
+
 ## :fire: Python 2.X versus Python 3.X
+
 ### 2to3
 Coverting a Python 2 code to a Python 3 file.
 
@@ -349,16 +359,17 @@ Parameter(매개 변수)는 function 또는 method 정의에 사용되는 variab
 ### Python `self` vs. C++ `this`
 C++의 `this` 포인터는 Python의 self와 비슷한 개념이지만 포인터이기 때문에 객체 자기자신의 주소를 가리킨다는 차이점이 있다.
 
-----------
+---
 
 ## :books: PEP 0 -- Index of Python Enhancement Proposals (PEPs) | [Homepage](https://www.python.org/dev/peps/)
+
 This PEP contains the index of all Python Enhancement Proposals, known as PEPs. PEP numbers are assigned by the PEP editors, and once assigned are never changed. The version control history of the PEP texts represent their historical record.
 
 ### PEP 8 -- Style Guide for Python Code | [Docs](https://www.python.org/dev/peps/pep-0008/)
 
 ### PEP 484 -- Type Hints | [Docs](https://www.python.org/dev/peps/pep-0484/)
 
-----------
+---
 
 ## typing - Support for type hints | [Docs](https://docs.python.org/3.7/library/typing.html)
 New in version 3.5.
@@ -385,7 +396,7 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 ```
 
-----------
+---
 
 ## :books: Implementation | [Docs](https://docs.python.org/3.7/reference/introduction.html)
 
@@ -423,7 +434,7 @@ An implementation of Python written completely in Python. It supports several ad
 # Reference   : None.
 ```
 
-----------
+---
 
 ## :books: Glossary | [Docs 3.7.10](https://docs.python.org/3.7/glossary.html)
 
@@ -537,6 +548,7 @@ def remove_gray_shades[colors: List[Color]] -> List[Color]:
 ```
 
 ### type hint
+
 An annotation that specifies the expected type for a variable, a class attribute, or a function parameter or return value.
 
 Type hints are optional and are not enforced by Python but they are useful to static type analysis tools, and aid IDEs with code completion and refactoring.
@@ -546,12 +558,15 @@ Type hints of global variables, class attributesm and functions, but not local v
 See typing and PEP 484, which describe this functionality.
 
 ### Callback | [Wiki](https://en.wikipedia.org/wiki/Callback_(computer_programming))
+
 A callback, also known as a "call after function", is any executable code that is passed as an arguemtn to other code; that other code is expected to call back (execute) the argument at a given time. This execution may be immediate as in a synchronous callback, or it might happen at a later point in time as in an asynchronous callback. Programming languages supports callbacks in different ways, often implementing them with subroutines, lambda expressions, blocks, or function pointers.
 
 ### Closure | [Blog (KR)](https://shoark7.github.io/programming/python/closure-in-python)
+
 Function Nesting, First Class Object (can be Parameter/Argument, Return, Assign/Mutable), and refernce nonlocal (Global-scope and Outer-scope = not Inner-scope/namespace) variable.
 
 ### Unpacking Operator * | [Blog](https://towardsdatascience.com/unpacking-operators-in-python-306ae44cd480)
+
 ```Python
 l = [1, 2, 3, 4]
 print(l) # [1, 2, 3, 4]
@@ -566,9 +581,9 @@ first, *middle, last = 'ma' # first = 'm', middle = [], last = 'a'
 
 ---
 
-## Web Framework
+## *Web Framework*
 
-### aiohttp | [AIOHTTP Docs](https://docs.aiohttp.org/en/stable/)
+### *aiohttp* | [AIOHTTP Docs](https://docs.aiohttp.org/en/stable/)
 
 Asynchronous HTTP Client/Server for asyncio and Python.
 
@@ -576,9 +591,9 @@ Asynchronous HTTP Client/Server for asyncio and Python.
 - Supports both Server WebSockets and Client WebSockets out-of-the-box without the Callback Hell.
 - Web-server has Middlewares, Signals and plugable routing.
 
-### Flask | [Flask Docs 2.2.x](https://flask.palletsprojects.com/en/2.2.x/)
+### *Flask* | [Flask Docs 2.2.x](https://flask.palletsprojects.com/en/2.2.x/)
 
-### [Django](https://www.djangoproject.com/)
+### *[Django](https://www.djangoproject.com/)*
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.
 
