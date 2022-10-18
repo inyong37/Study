@@ -16,7 +16,7 @@ Open Source Computer Vision Library[Ref]
 
 (with CMake, cpp, h)
 
-## [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow)
+## *[TensorFlow](https://www.tensorflow.org/)* | [GitHub](https://github.com/tensorflow/tensorflow)
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
 TensorFlow was originally developed by researchers and engineers working on the Google Brain team within Google's Machine Intelligence Research organiztion to conduct machine learning and deep nural networks research. The system is general enough to be applicable in a wide variety of other domains, as well.
@@ -29,7 +29,14 @@ The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-de
 - Text Problem Domains: Embedding | Language model | Preprocessing | ...
 - Image Problem Domains: Classification | Feature vector | Object detection | ...
 - Video Problem Domains: Classification | Generation | Audio text | ...
-- Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ... 
+- Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ...
+
+### *[TensorFlow Certification](https://www.tensorflow.org/certificate)*
+
+Resources:
+
+- [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+- [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 
 ## [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged to TensorFlow
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
@@ -113,3 +120,6 @@ MMDetection is an open source object detection toolbox based on PyTorch. It is a
 - Detectron, https://github.com/facebookresearch/Detectron, 2022-02-16-Wed.
 - detectron2, https://github.com/facebookresearch/detectron2, 2022-02-16-Wed.
 - MMDetection, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
+- TensorFlow Certificate Program, https://www.tensorflow.org/certificate, 2022-10-18-Tue.
+- DeepLearning.AI TensorFlow Developer Professional Certificate Coursera, https://www.coursera.org/professional-certificates/tensorflow-in-practice, 2022-10-18-Tue.
+- Intro to TensorFlow for Deep Learning Udacity, https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187, 2022-10-18-Tue.
