@@ -7,7 +7,8 @@ The Most Trusted Distribution for Data Science.
 
 Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
 
-## :computer: PyCharm | [Homepage](https://www.jetbrains.com/pycharm/) | [Other Versions](https://www.jetbrains.com/pycharm/download/other.html) | [Share Setting (Professional Version)](https://www.jetbrains.com/help/pycharm/sharing-your-ide-settings.html)
+## :computer: *[PyCharm](https://www.jetbrains.com/pycharm/)* | [Other Versions](https://www.jetbrains.com/pycharm/download/other.html) | [Share Setting (Professional Version)](https://www.jetbrains.com/help/pycharm/sharing-your-ide-settings.html) | [Learn](https://www.jetbrains.com/pycharm/learn/)
+
 The Python IDE for Professional Developers.
 
 ### Settings>Keymap
@@ -645,3 +646,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Django, https://www.djangoproject.com/, 2022-09-10-Sat.
 - Socket Blog KR, https://webnautes.tistory.com/1381, 2022-09-21-Wed.
 - FastAPI ASGI Blog KR, https://breezymind.com/start-asgi-framework/, 2022-09-21-Wed.
+- Learn PyCharm, https://www.jetbrains.com/pycharm/learn/, 2022-10-18-Tue.
