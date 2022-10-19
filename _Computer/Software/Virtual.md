@@ -35,13 +35,13 @@ A container is a standard unit of software that packages up code and all its dep
 
 A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
-## *Image* | [Kubernetes](https://kubernetes.io/docs/concepts/containers/images/)
+### *Image* | [Kubernetes](https://kubernetes.io/docs/concepts/containers/images/)
 
 A container image represents binary data that encapsulates an application and all its software dependencies. Container images are executable software bundles that can run standalone and that make very well defined assumptions about their runtime environment.
 
 You typically create a container image of your application and push it to a registry before referring to it in a Pod.
 
-## *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+### *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
@@ -49,9 +49,6 @@ A Pod (as in a pod of whales or pea pod) is a group of one or more containers, w
 
 As well as application containers, a Pod can contain init containers that run during Pod startup. You can also inject ephmeral containers for debugging if your cluster offers this.
 
-### *[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)*
-
-### *[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)*
 
 ### *[Open Container Initiative (OCI)](https://opencontainers.org/)*
 
@@ -83,7 +80,7 @@ Kubernetes 1.25 requires that you use a runtime that conforms with the Container
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
+## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -120,6 +117,14 @@ Containers have become popular because they provide extra benefits, such as:
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
 
+### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+
+Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+
+### *[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)*
+
+### *[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)*
+
 ---
 
 ### Reference
@@ -148,3 +153,5 @@ Containers have become popular because they provide extra benefits, such as:
 - Pod Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/, 2022-10-18-Tue.
 - Init Containers Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/init-containers/, 2022-10-18-Tue.
 - Ephemeral Containers Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/, 2022-10-18-Tue.
+- Kubernetes Tutorial, https://kubernetes.io/docs/tutorials/, 2022-10-19-Wed.
+- Minikube, https://minikube.sigs.k8s.io/docs/, 2022-10-19-Wed.
