@@ -1,7 +1,10 @@
 # *Unix*
 
-# *Linux* | [Homepage](https://www.linux.org/) | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
-```This page is from the 'System' page.```
+`Other Part of Unix is on the "System" page.`
+
+# *[Linux](https://www.linux.org/)* | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
+
+`This page is from the 'System' page.`
 
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
