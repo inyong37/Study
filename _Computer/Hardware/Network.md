@@ -1,10 +1,13 @@
-# Network | [Wiki](https://en.wikipedia.org/wiki/Computer_network)
+# *Network* | [WiKi](https://en.wikipedia.org/wiki/Computer_network)
+
 A computer network is a group of computers that use a set of common communication protocols over digital interconnections for the purpose of sharing resources located on or provided by the network nodes. THe interconnections between nodes are formed from a broad spectrum of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
 # Telecommunications Network | [Wiki](https://en.wikipedia.org/wiki/Telecommunications_network)
+
 A telecommunications network is a group of nodes interconnected by links that are used to exchange messages between the nodes. The links my use a variety of technologies based on the methodologies of circuit switching, message switching, or packet switching, to pass messages and signals.
 
 ## Data Networks
+
 Data networks are used extensively throughout the world for communication between individuals and organizations. Data networks can be connected to allow users seamless access to resources that are hosted outside of the particular provider they are connected to. The Internet is the best example of many data networks from different organizations all operating under a single address space.
 
 ### Wide Area Networks (WAN) | [Wiki](https://en.wikipedia.org/wiki/Wide_area_network)
@@ -28,12 +31,15 @@ A small-scale wireless network that requires little or no infrastructure and ope
 ### Internet | [Wiki](https://en.wikipedia.org/wiki/Internet)
 
 ## Node | [Wiki](https://en.wikipedia.org/wiki/Node_(networking))
+
 In telecommunications networks, a node is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel. A passive distribution point such as a distribution frame or patch panel is consequently not a node.
 
 # Networking Hardware | [Wiki](https://en.wikipedia.org/wiki/Networking_hardware)
+
 Networking hardware, also known as network equipment or computer networking devices, are electronic devices which are required for communication and interaction between devices on a computer network. Specially, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data termianl equipment.
 
 ## Core
+
 Core network components interconnect other network components.
 
 ### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
@@ -65,6 +71,7 @@ For connecting multiple Ethernet devices together and making them act as a singl
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다. 
 
 ### :bulb: Setup ipTIME AP (ex. N104T)
+
 1. enter `http://192.168.0.1/` with internet browser
 2. click `무선마법사` setup
 3. click `설정마법사` and then setup
@@ -72,33 +79,43 @@ WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 �
 ### Structured Calbing | [Wiki](https://en.wikipedia.org/wiki/Structured_cabling)
 
 ## Hybrid
+
 Hybrid components can be found in the core or border of a network.
 
 ### Multilayer Switch (MLS) | [Wiki](https://en.wikipedia.org/wiki/Multilayer_switch)
+
 A switch that, in addition to switching on OSI layer 2, provides functionality at higher protocol layers.
 
 ### Protocol Converter | [Wiki](https://en.wikipedia.org/wiki/Protocol_converter)
+
 A hardware device that converts between two differenct types of transmission, for interoperation.
 
 ### Bridge Router (Brouter) | [Wiki](https://en.wikipedia.org/wiki/Bridge_router)
+
 A device that works as a bridge and as a router. The brouter routes packets for known protocols and simply forwards all other packets as a bridge would.
 
 ## Border
+
 Hardware or software components which typically sit on the connection point of different networks (for example, between an internal network and en external network) include:
 
 ### Proxy Server | [Wiki](https://en.wikipedia.org/wiki/Proxy_server)
+
 Computer network service which allows client to make indirect network connections to other network services.
 
 ### Firewall | [Wiki](https://en.wikipedia.org/wiki/Firewall_(computing))
+
 A piece of hardware or software put on the network to prevent some communications forbidden by the network policy. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the Internet, that is assumed to not be secure or trusted.
 
 ### Network Address Translater (NAT) | [Wiki](https://en.wikipedia.org/wiki/Network_address_translation)
+
 Network service (provided as hardware or as software) that converts internal to external network addresses and vice versa.
 
 ### Residential Gateway | [Wiki](https://en.wikipedia.org/wiki/Residential_gateway)
+
 Interface between a WAN connection to an internet service provider and the home network.
 
 ## End Stations
+
 Other hardware devices used for establishing networks or dial-up connections include:
 
 ### Network Interface Controller (NIC) | [Wiki](https://en.wikipedia.org/wiki/Network_interface_controller)
@@ -114,6 +131,7 @@ Device that modulates an analog "carrier" signal (such as sound) to encode digit
 A specialized gateway for ISDN.
 
 ### Line Driver | [Wiki](https://en.wikipedia.org/wiki/Line_driver)
+
 A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
 ## *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
@@ -151,6 +169,7 @@ Dedicated server hosting is single-tenant hosting-the server has exclusive acces
 - The term bare metal server hosting is often used interchangeably with dedicated servers, but bare metal hosting offerings typically include more clould-like characterisitcs, such as provisioning in minutes (vs. hours), billing in hourly increments (vs. monthly), and providing higher-end hardware, including graphic processing units (GPUs).
 
 ### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
+
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
 ---
@@ -242,6 +261,8 @@ Failover is switching to a redundatnt or standby computer server, system, hardwa
 ### *Switchover* | [WiKi](https://en.wikipedia.org/wiki/Switchover)
 
 Switchover is the manual switch from one system to a redundant or standby computer server, system, or network upon the failure or abnormal termination of the previously active server, system, or network, or to perform system maintenance, such as installing patches, and upgrading software or hardware.
+
+### Failover vs. Failback | [Blog (KR)](https://velog.io/@zxcvbnm5288/%ED%8E%98%EC%9D%BC%EC%98%A4%EB%B2%84Failover%EC%99%80-%ED%8E%98%EC%9D%BC%EB%B0%B1Failback)
 
 ---
 
@@ -520,3 +541,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Cluster WiKi, https://en.wikipedia.org/wiki/Computer_cluster, 2022-10-17-Mon.
 - Cloud Computing WiKi, https://en.wikipedia.org/wiki/Cloud_computing, 2022-10-17-Mon.
 - Load Balancing Blog KR, https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903, 2022-10-18-Tue.
+- Failover vs. Failback Blog KR, https://velog.io/@zxcvbnm5288/%ED%8E%98%EC%9D%BC%EC%98%A4%EB%B2%84Failover%EC%99%80-%ED%8E%98%EC%9D%BC%EB%B0%B1Failback, 2022-10-21-Fri.
