@@ -51,7 +51,7 @@ HTTPS is also referred to as HTTP over TLS or http over SSL
 
 브로드캐스트는 멀티캐스트에서 그룹을 뺀 개념이다. 모두에게 신호를 보내고, 모두가 모든 신호를 듣는다. 연결된 장치들 모두가 듣기 때문에 구현이 용이하지만, 원하지 않는 대상도 내 신호를 들을 수 있고 불필요한 트래픽이 발생한다.
 
-### DNS: Domain Name System | [Wiki](https://en.wikipedia.org/wiki/Domain_Name_System) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
+## *Domain Name System (DNS)* | [WiKi](https://en.wikipedia.org/wiki/Domain_Name_System) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
 
@@ -63,13 +63,13 @@ The Internet maintains two principal namespaces, the domain name hierarchy and t
 
 The most common types of records stored in the DNS database are for Start of Authority (SOA), IP addresses (A and AAAA), SMTP mail exchangers (MX), name servers (NS), pointers for reverse DNS lookups (PTR), and domain name aliases (CNAME). Although not intended to be a general purpose database, DNS has been expanded over time to store records for other types of data for either automatic lookups, such as DNSSEC records, or for human queries such as responsible person (RP) records. As a general purpose database, the DNS has also been used in combating unsolicited email (spam) by storing a real-time blackhole list (RBL). The DNS database is traditionally stored in a structured text file, the zone file, but other database systems are common.
 
-### DDNS: Dynamic DNS | [Wiki](https://en.wikipedia.org/wiki/Dynamic_DNS) | [Wiki (Kor)](https://ko.wikipedia.org/wiki/DDNS)
+### *Dynamic DNS (DDNS)* | [WiKi](https://en.wikipedia.org/wiki/Dynamic_DNS) | [WiKi (KR)](https://ko.wikipedia.org/wiki/DDNS)
 
 Dynamic DNS (DDNS) is a method of automatically updating a name server in the Domain Name System (DNS), often in real time, with the active DDNS configuration of its configured hostnames, addresses or other information.
 
 The term is used to describe two different concepts. The first is "dynamic DNS updating" which refers to systems that are used to update traditional DNS records without manual editing. These mechanisms are explained in RFC 2136, and use the TSIG mechanism to provide security. The second kind of dynamic DNS permits lightweight and immediate updates often using an update client, which do not use the RFC2136 standard for updating DNS records. These clients provide a persistent addressing method for devices that change their location, configuration or IP address frequently.
 
-### mDNS (Multi-cast Domain Name Service) | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
+### *multicast Domain Name Service (mDNS)* | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
 
 mDNS는 UDP 멀티캐스트를 기반으로, 로컬 네트워크 상에 있는 어떤 호스트 또는 호스트의 IP를 찾기 위해 만들어진 protocol이다. mDNS를 지원하는 호스트는 확장 기능으로 자신이 제공할 수 있는 서비스를 알림으로써 LAN 상의 다른 호스트가 이를 discovery하여 활용할 수 있는 방안으로 제공하기도 한다.
 
@@ -83,7 +83,7 @@ SSDP는 notify HTTP method를 announce하여 멀티캐스트 그룹 멤버에서
 
 mDNS는 로컬 네트워크 영역에서 설정 없이(zero configuration) 호스트 이름을 찾기 위해 사용하는 서비스이다. Unicast Domain Name System (DNS)와 유사한 프로그래밍 인터페이스와 패킷 형식을 사용한다. 소형 네트워크 환경에서 별도의 네임 서버를 사용하지 않고 호스트를 찾을 수 있다. mDNS는 멀티캐스트 기술을 이용한다. mDNS client는 호스트 이름을 알아야 할 경우 IP 멀티캐스트 쿼리 메세지를 전송한다. 이때 자신의 호스트 이름과 IP 주소 등, 자신을 확인할 수 있는 정보들을 함께 전송한다. 멀티캐스트 채널에 있던 모든 호스트들은 이 정보를 수신해서 mDNS 캐쉬에 업데이트한다. 패킷 구조를 제외하면 SSDP와 작동 방식이 매우 유사하다.
 
-### DHCP (Dynamic Host Configuration Protocol) | [Blog (KR)](https://jwprogramming.tistory.com/35)
+## *Dynamic Host Configuration Protocol (DHCP)* | [Blog (KR)](https://jwprogramming.tistory.com/35)
 
 DHCP란 호스트의 IP 주소와 각종 TCP/IP protocol의 기본 설정을 client에게 자동적으로 제공해주는 protocol이다. DHCP에 대한 표준은 RFC 문서에 정의되어 있으며, DHCP는 네트워크에 사용되는 IP 주소를 DHCP server가 중앙집중식으로 관리하는 client/server 모델을 사용한다. DHCP 지원 client는 네트워크 부팅 과정에서 DHCP server에 IP 주소를 요청하고 이를 얻을 수 있다. 즉, 네트워크 안에 컴퓨터에 자동으로 네임 서버 주소, IP 주소, 게이트웨이 주소를 할당해주고, 해당 client에게 일정 기간 임대하는 동적 주소 할당 프로토콜이다.
 
@@ -91,33 +91,38 @@ PC의 수가 많거나 PC 자체 변동사항이 많은 경우 IP 설정이 자�
 
 DHCP를 통한 IP 주소 할당은 임대라는 개념을 가지고 있는데, 이는 DHCP server가 IP 주소를 영구적으로 단말에 할당하는 것이 아니고 임대기간(IP Lease Time)을 명시하여 그 기간 동안만 단말이 IP 주소를 사용하도록 하는 것이다. 단말은 임대기간 이우헤도 계속 해당 IP 주소를 사용하고자 한다면 IP 주소 임대기간 연장(IP Address Renewal)을 DHCP server에 요청해야 하고 또한 단말은 임대 받은 IP 주소가 더 이상 필요치 않게 되면 IP 주소 반납 절차(IP Address Release)를 수행하게 된다. DHCP server와 client 사이에 메세지는 1. DHCP Discover (by client), 2. DHCP Offer (by server), 3. DHCP Request (by client), 4. DHCP Ack (by server)로 이루어진다.
 
-### Anonymous Pipe | [Wiki](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR-KO)](https://12bme.tistory.com/226)
-An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
-
-### Named Pipe | [Wiki](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR-KO)](https://mug896.github.io/bash-shell/named_pipe.html)
-A named pips(also known as a FIFO for its behavior) is an extension to the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of IPC. The concepth is also found in OS/2 and Microsoft Windows, althought the semantics differ substantially. A tranditional pipe is unnamed and lasts only as long as the process. A named pipe, however, can last as long as the system is up, beyond the life of the process. It can be deleted if no longer used, Usually a named pipe appears as a file, and generally processes attach to it for IPC.
-
-### File Descriptor | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
-File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
-
-### URI vs. URL vs. URN
-Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Resource Name(URN)는 각 네트워크 상에 존재하는 자원을 구분하는 ID(식별자), 네트워크 상에 존재하는 resource의 location, 중복되지 않는 유일한 resource name을 나타낸다. URN, URL은 URI에 포함된다. 따라서 URN, URL은 URI라 할 수 있다. URL은 where을 나타내는 것으로 자원에 접근하는 방법이나 네트워크 위치를 표현하고 있다. http://, https://, ftp:// 등이 포함되면 URL이다. URN은 what을 나타내는 것으로 해당 자원이 무엇인지 중복되지 않는 유일한 식별 가능한 이름이어야 한다.
-
-### Cloud Computing
-Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 처리하는 computing environment이다.
-
-### Edge Computing
-Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
-
----
-
-### SSDP (Simple Service Discovery Protocol) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853) | [Home Assistant Integration](https://www.home-assistant.io/integrations/ssdp/)
+### *Simple Service Discovery Protocol (SSDP)* | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853) | [Home Assistant Integration](https://www.home-assistant.io/integrations/ssdp/)
 
 SSDP는 네트워크 서비스나 정보를 찾기 위해서 사용하는 네트워크 protocol이며, 이를 이용하면 DHCP나 DNS와 같은 네트워크 서버 혹은 정적인 host 설정 없이 이런 일들을 수행할 수 있다. 일반 거주와 소규모 사무 환경에서 UPnP(Universal Plug and Play)를 위한 기본적인 protocol로 널리 사용된다(SSDP는 UPnP 표준에 포함된다). HTTPU(UDP 기반의 HTTP)를 이용하며, 모든 데이터는 TEXT로 통신한다. UDP 1900 port를 사용하며 IP Multicast 주소를 이용한다. SSDP는 Advertisement, Search 두 개의 타입이 있다.
 
 ### UPnP (Universal Plug and Play) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853)
 
 홈 네트워크에 있는 네트워크 장치들이 서로 연동될 수 있도록 하는 범용 표준 protocol로 특정 운영체제나 프로그래밍 언어, 미디어와는 독립적으로 네트워크 상의 다바이스 간에 명령과 제어를 가능하게 한다. 사용자가 직접 네트워크 설정, 유지 관리를 하지 않고도 쉽게 디바이스와 서비스 연결을 제공한다. IP, TCP, UDP, HTTP, XML과 같은 기존의 protocol을 사용한다. Wire protocol에 기반을 두고 있으며, 디바이스 간의 교환하는 데이터는 XML로 표현되고 HTTP를 통해서 통신한다. IP 네트워킹을 채택한 이유는 다른 물리적 미디어로 확장이 용이하며 실제 여러 vendor 간의 상호 운용성을 가능케한다. UPnP를 통한 디바이스 간의 통신은 discovery, control, description, presentation, eventing 단계로 나누어지며, SSDP를 이용한 통신은 discovery 단계에서 이용된다.
+
+---
+
+### *Anonymous Pipe* | [WiKi](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR)](https://12bme.tistory.com/226)
+
+An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
+
+### *Named Pipe* | [WiKi](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR)](https://mug896.github.io/bash-shell/named_pipe.html)
+A named pips(also known as a FIFO for its behavior) is an extension to the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of IPC. The concepth is also found in OS/2 and Microsoft Windows, althought the semantics differ substantially. A tranditional pipe is unnamed and lasts only as long as the process. A named pipe, however, can last as long as the system is up, beyond the life of the process. It can be deleted if no longer used, Usually a named pipe appears as a file, and generally processes attach to it for IPC.
+
+### *File Descriptor* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
+File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
+
+### URI vs. URL vs. URN
+Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Resource Name(URN)는 각 네트워크 상에 존재하는 자원을 구분하는 ID(식별자), 네트워크 상에 존재하는 resource의 location, 중복되지 않는 유일한 resource name을 나타낸다. URN, URL은 URI에 포함된다. 따라서 URN, URL은 URI라 할 수 있다. URL은 where을 나타내는 것으로 자원에 접근하는 방법이나 네트워크 위치를 표현하고 있다. http://, https://, ftp:// 등이 포함되면 URL이다. URN은 what을 나타내는 것으로 해당 자원이 무엇인지 중복되지 않는 유일한 식별 가능한 이름이어야 한다.
+
+### Cloud Computing
+
+Cloud computing은 여러 deivces에서 나온 정보들을 cloud에서 전부 처리하는 computing environment이다.
+
+### Edge Computing
+
+Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobile devices들이 직접 연산을 하거나 edge들에서 데이터 연산을 하여 cloud에 데이터를 뿌려주는 것이다.
+
+---
 
 ### WebSocket | [Blog (KR)](https://duckdevelope.tistory.com/19)
 
