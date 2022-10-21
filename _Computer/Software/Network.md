@@ -1,7 +1,8 @@
 # Network
+
 `Language and Framework of Web move to "Web" folder.`
 
-## Internet | [Wiki](https://en.wikipedia.org/wiki/Internet)
+### Internet | [Wiki](https://en.wikipedia.org/wiki/Internet)
 The Internet (or internet) is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing.
 
 The origins of the Internet date back to the development of packet switching and research commissioned by the United States Department of Defense in the 1960s to enable time-sharing of computers. The primary precursor network, the ARPANET, initially served as a backbone for interconnection of regional academic and military networks in the 1970s. The funding of the National Science Foundation Network as a new backbone in the 1980s, as well as private funding for other commercial extensions, led to worldwide participation in the development of new networking technologies, and the merger of many networks. The linking of commercial networks and enterprices by the early 1990s marked the beginning of the transiion to the modern Internet, and generated a sustained exponential growth as generations of institutional, personal, and mobile computers were connected to the network. Although the Internet was widely used by academia in the 1980s, commercialization incorporated its services and technologies into virtually every aspect of modern life.
@@ -10,10 +11,11 @@ Most traditional communication media, including telephony, radio, television, pa
 
 The Internet has no single centralized governance in either technological implementation or policies for access and usage; each constituent network sets its own policies. The overreaching definitions of the two principal name spaces in the Interent, the Internet Protocol address (IP address) space and the Domain Name System (DNS), are directed by a maintainer organization, the Internet Corporation for Assigned Names and Numbers (ICANN). The technical underpinning and standardization of the core protocols is an activity of the Internet Engineering Task Force (IETF), a non-profit organization of loosely affiliated international participants that anyone may associate with by contributing technical expertise. In November 2006, the Internet was included on USA Today's list of New Seven Wonders.
 
-### VPN: Virtual Private Network
+### *Virtual Private Network (VPN)*
+
 VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
 
-### Proxy | [Blog (KR)](https://brownbears.tistory.com/191)
+## *Proxy* | [Blog (KR)](https://brownbears.tistory.com/191)
 
 프록시란 대리라는 의미로, 주로 보안상의 이유로 직접 통신할 수 없는 두 점 사이에서 통신을 할 경우 그 사이에 있어서 중계기로서 대리로 통신을 수행하는 기능을 가리켜 프록시, 그 중계 기능을 하는 것을 프록시 서버라 한다.
 
@@ -22,34 +24,28 @@ VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신�
 Proxy Server(프록시 서버)는 클라이언트가 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해주는 시스템 또는 프로그램이다. 서버와 클라이언트 사이 중계기로서 대리로 통신하는 것을 "Proxy" 중계를 해주는 것을 "Proxy Server"라 한다.
 
 ### Ego Motion
+
 Ego motion is a 3D motion of a system within an environment.
 
 ### visual odometry/odometry
+
 Visual odometry is the estimation of ego-motion using computer vision techniques.
 
 ### ego-motion vs odometry
+
 Both words can be used interchangeably in general.
 
-### HTTP: Hyper Text Transfer Protocol
+### *Hyper Text Transfer Protocol (HTTP)*
 
-### HTTPS: HTTP Secure
+### *HTTP Secure (HTTPS)*
 
-### HTTP vs HTTPS
+### HTTP vs. HTTPS
+
 HTTPS is also referred to as HTTP over TLS or http over SSL
 
-### FTP: File Transfer Protocol
+### *File Transfer Protocol (FTP)*
 
-### SSH: Secure SHell
-
-### Multicast | [Blog (KR)](https://softtone-someday.tistory.com/14)
-
-멀티캐스트는 같은 데이터를 특정 그룹에게 보내주어야 할 때 사용하는 인터넷 protocol이다. 멀티캐스트는 송신자는 한 채널에 자신의 데이터를 보내고 수신자는 그 데이터 중 자신이 조인한 채널만 수신한다. 1:N 통신 기술이다. 멀티캐스트는 상대방이 데이터를 제대로 받았는지 확인하지 않는 UDP(User Datagram Protocol) 방식을 사용한다. 멀티캐스트 주소는 224.0.0.0 ~ 239.255.255.255 범위를 갖고, 이 대역은 멀티캐스트 신호만 보내도록 규정되어 있다.
-
-멀티캐스트는 TTL(Time to Live)이라는 필드를 가진다. 이는 전송된 신호가 몇 번의 라우터를 거칠 동안 살아있게 할 거냐는 뜻이다. 멀티캐스트 신호가 라우터를 지날 때마다 TTL 값을 하나씩 감소시킨다. 만약, TTL=1이라면 라우터를 하나 지나면 TTL=0이 되면서 이후에 해당 신호는 더 이상 사용되지 않는다. 즉, 신호의 생존 주기이다.
-
-멀티캐스트는 보통 그룹과 IP address, port number가 정해져 있다. 수신자는 해당하는 그룹에 join해야 해당 주소로 보내지고 있는 신호를 받을 수 있다. 또한, 그룹에 참여한 후 실제 사용할 포트와 해당 주소를 묶는 bind 작업이 필요하다. 즉, 이 멀티캐스트 그룹의 신호들은 이 인터넷 주소로 듣겠다고 선언해야한다.
-
-브로드캐스트는 멀티캐스트에서 그룹을 뺀 개념이다. 모두에게 신호를 보내고, 모두가 모든 신호를 듣는다. 연결된 장치들 모두가 듣기 때문에 구현이 용이하지만, 원하지 않는 대상도 내 신호를 들을 수 있고 불필요한 트래픽이 발생한다.
+### *Secure Shell (SSH)*
 
 ## *Domain Name System (DNS)* | [WiKi](https://en.wikipedia.org/wiki/Domain_Name_System) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 
@@ -68,6 +64,16 @@ The most common types of records stored in the DNS database are for Start of Aut
 Dynamic DNS (DDNS) is a method of automatically updating a name server in the Domain Name System (DNS), often in real time, with the active DDNS configuration of its configured hostnames, addresses or other information.
 
 The term is used to describe two different concepts. The first is "dynamic DNS updating" which refers to systems that are used to update traditional DNS records without manual editing. These mechanisms are explained in RFC 2136, and use the TSIG mechanism to provide security. The second kind of dynamic DNS permits lightweight and immediate updates often using an update client, which do not use the RFC2136 standard for updating DNS records. These clients provide a persistent addressing method for devices that change their location, configuration or IP address frequently.
+
+### *Multicast* | [Blog (KR)](https://softtone-someday.tistory.com/14)
+
+멀티캐스트는 같은 데이터를 특정 그룹에게 보내주어야 할 때 사용하는 인터넷 protocol이다. 멀티캐스트는 송신자는 한 채널에 자신의 데이터를 보내고 수신자는 그 데이터 중 자신이 조인한 채널만 수신한다. 1:N 통신 기술이다. 멀티캐스트는 상대방이 데이터를 제대로 받았는지 확인하지 않는 UDP(User Datagram Protocol) 방식을 사용한다. 멀티캐스트 주소는 224.0.0.0 ~ 239.255.255.255 범위를 갖고, 이 대역은 멀티캐스트 신호만 보내도록 규정되어 있다.
+
+멀티캐스트는 TTL(Time to Live)이라는 필드를 가진다. 이는 전송된 신호가 몇 번의 라우터를 거칠 동안 살아있게 할 거냐는 뜻이다. 멀티캐스트 신호가 라우터를 지날 때마다 TTL 값을 하나씩 감소시킨다. 만약, TTL=1이라면 라우터를 하나 지나면 TTL=0이 되면서 이후에 해당 신호는 더 이상 사용되지 않는다. 즉, 신호의 생존 주기이다.
+
+멀티캐스트는 보통 그룹과 IP address, port number가 정해져 있다. 수신자는 해당하는 그룹에 join해야 해당 주소로 보내지고 있는 신호를 받을 수 있다. 또한, 그룹에 참여한 후 실제 사용할 포트와 해당 주소를 묶는 bind 작업이 필요하다. 즉, 이 멀티캐스트 그룹의 신호들은 이 인터넷 주소로 듣겠다고 선언해야한다.
+
+브로드캐스트는 멀티캐스트에서 그룹을 뺀 개념이다. 모두에게 신호를 보내고, 모두가 모든 신호를 듣는다. 연결된 장치들 모두가 듣기 때문에 구현이 용이하지만, 원하지 않는 대상도 내 신호를 들을 수 있고 불필요한 트래픽이 발생한다.
 
 ### *multicast Domain Name Service (mDNS)* | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
 
@@ -106,12 +112,15 @@ SSDP는 네트워크 서비스나 정보를 찾기 위해서 사용하는 네트
 An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
 
 ### *Named Pipe* | [WiKi](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR)](https://mug896.github.io/bash-shell/named_pipe.html)
+
 A named pips(also known as a FIFO for its behavior) is an extension to the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of IPC. The concepth is also found in OS/2 and Microsoft Windows, althought the semantics differ substantially. A tranditional pipe is unnamed and lasts only as long as the process. A named pipe, however, can last as long as the system is up, beyond the life of the process. It can be deleted if no longer used, Usually a named pipe appears as a file, and generally processes attach to it for IPC.
 
 ### *File Descriptor* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
+
 File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
 
 ### URI vs. URL vs. URN
+
 Uniform Resource Identifier(URI), Uniform Resource Locator(URL), and Uniform Resource Name(URN)는 각 네트워크 상에 존재하는 자원을 구분하는 ID(식별자), 네트워크 상에 존재하는 resource의 location, 중복되지 않는 유일한 resource name을 나타낸다. URN, URL은 URI에 포함된다. 따라서 URN, URL은 URI라 할 수 있다. URL은 where을 나타내는 것으로 자원에 접근하는 방법이나 네트워크 위치를 표현하고 있다. http://, https://, ftp:// 등이 포함되면 URL이다. URN은 what을 나타내는 것으로 해당 자원이 무엇인지 중복되지 않는 유일한 식별 가능한 이름이어야 한다.
 
 ### Cloud Computing
@@ -154,7 +163,8 @@ Broker의 종류는 Mosquitto, HiveMQ, mosca, ActiveMQ, RabbitMQ 등이 있다. 
 
 ---
 
-## The Web | [Wiki](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
+# The Web | [Wiki](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
+
 The World Wide Web (WWW), commonly known as The Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browswer, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon which technologies the Web is built.
 
 English scientist Sir Timothy Berners-Lee invented the World Wide Web in 1989. He wrote the first web brower in 1990 while employed at CERN near Geneva, Switzerland. The browser was released outside CERN to other research institutions starting in January 1991, and then to the general public in August 1991. The Web began to enter everyday use in 1993-4, when websites for general use started to become available. The World Wide Web has been central to the development of the Information Age, and is the primary tool bilions of people use to interact on the Internet.
@@ -164,6 +174,7 @@ Web resources may be any type of downloaded media, but web pages are hypertext d
 Multiple web resources with a common theme and usually a common domain name, make up a website. Websties are sotred in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's coimputer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myraid of informative, entertainment, commercial, and governmental reasons.
 
 ### Web Browser | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
+
 A web browswer (commonly referred to as a browser) is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.
 
 A web browser is not the same thing as a search engine, though the two are often confused. A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.
@@ -180,9 +191,11 @@ Websites are typically dedicated to a particular topic or purpose, such as news,
 Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The app used on these devices is called a web browser.
 
 ### Web Page | [Wiki](https://en.wikipedia.org/wiki/Web_page)
+
 A web page(or webpage) is a hypertext document provided by a website and displayed to a user in a web browser. A website typically consists of many web pages linked together in a coherent fashion. The name "web page" is a metaphor of paper pages bound together into a book.
 
 ### Web Server | [Wiki](https://en.wikipedia.org/wiki/Web_server)
+
 A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. A user agent, commonly a web browser or web crawler, initiates communication by making a request for a specific resource using HTTP, and the server responds with the content of that resource or an error message. The server can also accept and store resources sent from the user agent if configured to do so.
 
 A server can be a single computer, or even an embedded system such as a router with a built-in configuration interface, but high-traffic websites typically run web servers on fleets of computers designed to handle large numbers of requests for documents, multimedia files and interactive scripts. A resource sent from a web server can be a preexisting file available to the server, or it can be generated at the time of the request by another program that communicates with the server program. The former is often faster and more easily cached for repeated requests, which the latter supports a broader range of applications. Websites that server generated content usually incorporate stored files whenever possible.
