@@ -30,6 +30,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 ## iii. Machine Learning 
 - CS156: Learning from Data | [Homepage](https://work.caltech.edu/telecourse.html) |
 - CS156 (Spring, 2012) | [Youtube](https://youtu.be/mbyG85GZ0PI) |
+- [Blog #1](https://www.mrdbourke.com/5-beginner-friendly-steps-to-learn-machine-learning/)
 ## iv. Korean
 - 모두를 위한 머신러닝/딥러닝 강의 | [Homepage](http://hunkim.github.io/ml/) |
 - Learning from Data 한글 정리 | [Homepage](http://theyearlyprophet.com/lfd.html) | [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf) |
