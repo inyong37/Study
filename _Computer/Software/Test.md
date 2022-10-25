@@ -133,7 +133,7 @@ Checkstyle, Coverity, Eclipse, FindBugs, Infer, IntelliJ IDEA, JArchitect, JTest
 
 ### *JavaScript*
 
-### *ESLint | [Wiki](https://en.wikipedia.org/wiki/ESLint)
+### *ESLint* | [Wiki](https://en.wikipedia.org/wiki/ESLint)
 
 JavaScript syntax checker and formatter.
 
