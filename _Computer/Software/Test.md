@@ -1,10 +1,29 @@
-# Test
+# *Test* | [IBM](https://www.ibm.com/topics/software-testing)
 
-## Google Test(gtest)
-### Google Test(gtest) 사용법
-unit test란 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증, 모든 함수와 메소드에 대한 테스트 케이스를 작성, 통합 테스트란 둘 이상의 모듈을 하나의 그룹으로 테스트하는 것, unit test하는 이유는 문제점 발견이 쉽고, 변경이 쉽고, 통합이 간단함, 테스트 도구에는 Cpp Unit, Google Test 등이 있음
+Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
 
-구글에서 만든 C++ 테스트 프레임워크, 통합 테스트, 단위 테스트(unit test), 시나리오 테스트 가능, 크로미윰, OpenCV에서 사용, 특징으로는 다양한 asssertion, user-defined assertions, death test, fatal and non-fatal, value-parameterized test, type-parameterized test, various options runtime test, xml test report 가능, 독립적, 실제 사용하는 것처럼 테스트 케이스 그룹 만들 수 있음, platform 독립적, test case 실패해도 계속 진행 가능, 일일이 지정하지 않아도 찾아줌, 반복 test는 자원을 공유하기 때문에 비용이 적음
+### *Types of Software Testing* | [Blog](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
+
+- Acceptance testing: Verifying whether the whole system works as intended.
+- Integration testing: Ensuring that software components or functions operate together.
+- Unit testing: validating that each software unit performs as expected. A unit is the smallest testable component of an application.
+- Functional testing: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions.
+- Performance testing: Testing how the software performs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions.
+- Regression testing: Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test.
+- Stress testing: Testing how much strain the system can take before it fails. Consdiered to be a type of non-functional testing.
+- Usability testing: Validating how well a customer can use a system or web application to complete a task.
+
+---
+
+## *Unit Test*
+
+Unit test란 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증, 모든 함수와 메소드에 대한 테스트 케이스를 작성, 통합 테스트란 둘 이상의 모듈을 하나의 그룹으로 테스트하는 것, unit test하는 이유는 문제점 발견이 쉽고, 변경이 쉽고, 통합이 간단함, 테스트 도구에는 Cpp Unit, Google Test 등이 있음
+
+### *GoogleTest (gtest)*
+
+gtest는 구글에서 만든 C++ 테스트 프레임워크, 통합 테스트, 단위 테스트(unit test), 시나리오 테스트 가능, 크로미윰, OpenCV에서 사용, 특징으로는 다양한 asssertion, user-defined assertions, death test, fatal and non-fatal, value-parameterized test, type-parameterized test, various options runtime test, xml test report 가능, 독립적, 실제 사용하는 것처럼 테스트 케이스 그룹 만들 수 있음, platform 독립적, test case 실패해도 계속 진행 가능, 일일이 지정하지 않아도 찾아줌, 반복 test는 자원을 공유하기 때문에 비용이 적음
+
+### GoogleTest 사용법
 
 `TEST(TestGroupName, TestCaseName){Test Content} ` 자동으로 프로그램 수행 시 실행될 테스트로 등록됨, 순서는 랜덤임, 사용하지 않을 경우 `DISABLED_` 키워드 사용, 필터로 원하는 테스트만 수행 가능, `ASSERT` 결과는 성공, 심각하지 않은 실패, 심각한 실패가 있음, 매크로처럼 사용, `ASSERT_*` 조건문이 참이 아닐 경우 실패를 출력하고 테스트 종료, `EXPECT_*` 조건문이 참이 아닐 경우 실패를 출력하고 다음 테스트 진행
 
@@ -14,7 +33,8 @@ Test Fixtures 여러 테스트에서 공통으로 사용하는 객체 설정 정
 
 `TEST(), TEST_F(), TEST_P()` 테스트 케이스의 Test Group Name과 Test Name을 지정한다. 여러 테스트가 있는 경우에는 이름의 조합이 중복되지 않도록 해야한다.(빌드 에러 발생) `TEST_F()`에서 첫번째 인자는 테스트 픽처로 정의된 클래스 이름으로 한다. `TEST_P()`는 하나의 테스트 매개 변수를 변경하면서 여러번 수행할 수 있다.
 
-### Google Test(gtest) Installation
+### GoogleTest Installation
+
 gtest 다운로드 및 빌드, 헤더 파일 인클루드, 라이브러리 링크
 
 ```C++
@@ -47,38 +67,51 @@ TEST(fixture_sample, case_name)
 }
 ```
 
-# Lint | [Wiki](https://en.wikipedia.org/wiki/Lint_(software)) | [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+---
+
+## *Lint* | [Wiki](https://en.wikipedia.org/wiki/Lint_(software)) | [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+
 Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs. The term originates from a Unix utility that examined C language source code.
 
-## C, C++
+### *C, C++*
+
 Astree, BLAST (retired), Clang, Coccinelle, Coverity, CPAChecker, Cppcheck, Cppdepend, cpplint, ECLAIR, Eclipse, Fluctuat, Frama-C, Helix QAC, Inter, Lint, LDRA Testbed, Parasoft C/C++test, PC-Lint, Polyspace, SLAM project, Sparse, SonarQube, Splint, Visual Studio.
 
-## Fortran
-### Fortran-Lint (Information Processing Techniques, Inc)
+### *Fortran*
 
-## Java
+Fortran-Lint (Information Processing Techniques, Inc)
+
+### *Java*
+
 Checkstyle, Coverity, Eclipse, FindBugs, Infer, IntelliJ IDEA, JArchitect, JTest, LDRA Testbed, PMD, RIPS, Semgrep, SemmleCode, Soot, Squale, SourceMeter, ThreadSafe,.
 
-## JavaScript
-### ESLint | [Wiki](https://en.wikipedia.org/wiki/ESLint)
+### *JavaScript*
+
+### *ESLint | [Wiki](https://en.wikipedia.org/wiki/ESLint)
+
 JavaScript syntax checker and formatter.
 
-## Python
-### PyCharm
+### *Python*
+
+### *PyCharm*
+
 Cross-platform IDE with code inspections available for analyzing code on-the-fly in the editor and bulk analysis of the whole project.
 
-### PyDev
+### _PyDev_
+
 Eclipse-based Python IDE with code analysis available on-the-fly in the editor or at save time.
 
-### Pylink
+### _Pylink_
+
 Static code analyzer. Quite stringent; includes many stylistic warnings as well.
 
-### Semgrep
+### _Semgrep_
+
 Static code analyzer that helps expressing code standards and surfacing bugs early. A CI service and a rule library is also available.
 
-----------
+---
 
-#### References
+### References
 - googletest(gtest) GitHub, https://github.com/google/googletest
 - gtest-demo GitHub, https://github.com/bast/gtest-demo
 - googltetest, https://github.com/google/googletest/blob/master/docs/primer.md
@@ -90,3 +123,5 @@ Static code analyzer that helps expressing code standards and surfacing bugs ear
 - Lint Wiki, https://en.wikipedia.org/wiki/Lint_(software), 2021-06-25-Fri.
 - List of tools for static code analysis, https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis, 2021-06-25-Fri.
 - ESLint, https://en.wikipedia.org/wiki/ESLint, 2021-06-25-Fri.
+- Types of Software Testing, https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing, 2022-10-25-Tue.
+- What is software testing IBM, https://www.ibm.com/topics/software-testing, 2022-10-25-Tue.
