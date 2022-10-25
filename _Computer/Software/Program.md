@@ -282,7 +282,7 @@ Cons:
 
 ### *Canary Release*
 
-Canary Release mehotd is a deployment strategy that detects problems fast as it can while it deploys new service. It can control versions with using load balancer and deploy gradually with monitoring and feedbacks.
+Canary Release method is a deployment strategy that detects problems fast as it can while it deploys new service. It can control versions with using load balancer and deploy gradually with monitoring and feedbacks.
 
 Pros:
 
