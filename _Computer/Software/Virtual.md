@@ -25,7 +25,7 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 ---
 
-# *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
+# :whale2: *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
 A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
 
@@ -76,7 +76,7 @@ You need to install a container runtime into each node in the cluster so that Po
 
 Kubernetes 1.25 requires that you use a runtime that conforms with the Container Runtime Interface (CRI).
 
-### *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
+### :whale: *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
