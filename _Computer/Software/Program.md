@@ -321,6 +321,10 @@ Regression test는 regression bug를 찾는 테스트 방식이다. Regression b
 
 스트레스 테스트가 사용자 수의 느린 증가를 통해 일정 기간 동안 시스템의 지속 가능성을 확인하는 것을 흡수 테스트라고 한다.
 
+[Load Testing Tools for Server](https://testguild.com/load-testing-tools/#P1)
+
+[Load Testing Tools for Server (KR)](https://goodsharp.tistory.com/10)
+
 ## *Security Test* | [Blog (KR)](https://ko.theastrologypage.com/security-testing)
 
 보안 테스트는 하드웨어, 소프트웨어, 네트워크 또는 IT/정보 시스템 환경의 정보 보안을 평가하고 테스트하는 프로세스이다.
@@ -372,3 +376,5 @@ Regression test는 regression bug를 찾는 테스트 방식이다. Regression b
 - Regression Test Blog KR, https://velog.io/@dahunyoo/Regression-Test, 2022-10-24-Mon.
 - Performance Test Blog KR, https://loosie.tistory.com/821, 2022-10-24-Mon.
 - Security Test Blog KR, https://ko.theastrologypage.com/security-testing, 2022-10-24-Mon.
+- Load Testing Tools for Server, https://testguild.com/load-testing-tools/#P1, 2022-10-25-Tue.
+- Load Testing Tools for Server Blog KR, https://goodsharp.tistory.com/10, 2022-10-25-Tue.
