@@ -80,6 +80,18 @@ Kubernetes 1.25 requires that you use a runtime that conforms with the Container
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
+### Docker Containers killed by system | [IBM](https://www.ibm.com/docs/en/doc/4.0.1?topic=docker-containers-killed-by-system)
+
+This problem is related to a lack of memory in the docker desktop configuration: the different docker containers have not enough space to be allocated causing either the application to start very slowly or for some services to be killed by docker during their startup.
+
+To correct this problem, go to the Docker Desktop Settings and increase the allocation of Memory to a valid value. We advise to allocate at least 6Gb for simple applications.
+
+### Causes | [Evidian](https://www.evidian.com/products/high-availability-software-for-application-clustering/docker-container-high-availability-cluster-synchronous-replication-failover/)
+
+- Hardware failures (20% of problems), including the complete failure of a computer room.
+- Software failures (40% of problems), including restart of critical processes.
+- Human errors (40% of problems).
+
 ## *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -125,6 +137,11 @@ Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 
 ### *[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)*
 
+### *Disruptions* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
+
+Pods do not disappear until someone (a person or a controller) destroy them, or there is an unavoidable hardware or system software error.
+
+
 ---
 
 ### Reference
@@ -155,3 +172,6 @@ Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 - Ephemeral Containers Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/, 2022-10-18-Tue.
 - Kubernetes Tutorial, https://kubernetes.io/docs/tutorials/, 2022-10-19-Wed.
 - Minikube, https://minikube.sigs.k8s.io/docs/, 2022-10-19-Wed.
+- Disruptions Kubernetes, https://kubernetes.io/docs/concepts/workloads/pods/disruptions/, 2022-10-25-Tue.
+- Docker Containers killed by system IBM, https://www.ibm.com/docs/en/doc/4.0.1?topic=docker-containers-killed-by-system, 2022-10-25-Tue.
+- SafeKit solves for Docker Evidian, https://www.evidian.com/products/high-availability-software-for-application-clustering/docker-container-high-availability-cluster-synchronous-replication-failover/, 2022-10-25-Tue.
