@@ -38,7 +38,9 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### apt
 
-### Change Ubuntu Package Repository | [Blog (KR)]
+### Change Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD)
+
+Edit `vim /etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-serve:port=g' /etc/apt/sources.list`
 
 ### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
 
@@ -247,4 +249,4 @@ A generic and open source machine emulator and virtualizer
 - Build Debian Package deb File Blog KR, https://devanix.tistory.com/314, 2022-10-27-Thu.
 - Build Debian Package deb File Blog KR, https://blog.djjproject.com/406, 2022-10-27-Thu.
 - dd Blog, https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/, 2022-10-27-Thu.
-- 
+- Change Ubuntu Package Repository Blog KR, https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD, 2022-10-27-Thu.
