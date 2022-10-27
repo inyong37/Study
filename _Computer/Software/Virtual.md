@@ -98,7 +98,25 @@ To correct this problem, go to the Docker Desktop Settings and increase the allo
 - Software failures (40% of problems), including restart of critical processes.
 - Human errors (40% of problems).
 
-### | [Blog (KR)](https://sleepyeyes.tistory.com/67)
+### Ubuntu Image Container | [Blog (KR)](https://sleepyeyes.tistory.com/67)
+
+Method 1.
+
+```bash
+sudo docker pull ubuntu
+sudo docker create -it --name u1 ubuntu # without '-it': exited right away
+sudo docker start u1
+sudo docker exec -it u1 /bin/bash # not attach
+exit # in container
+sudo docker rm u1
+```
+
+Method 2.
+
+```bash
+sudo docker run it name u1 ubuntu # attach
+# KEY: CONTROL & P or CONTROL & Q # in container
+```
 
 ## :whale: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
