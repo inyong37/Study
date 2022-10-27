@@ -118,6 +118,16 @@ sudo docker run it name u1 ubuntu # attach
 # KEY: CONTROL & P or CONTROL & Q # in container
 ```
 
+### Network among the Containers | [Blog (KR)](https://jeongchul.tistory.com/636)
+
+80 port는 host의 ip를 그대로 사용할 수 있다.
+
+### Send a file to/from Container | [Stackoverflow](https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container)
+
+to: `sudo docker cp foofile {container_id/name}:/`
+
+from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{username}/`
+
 ## :whale: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -203,3 +213,6 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 - SafeKit solves for Docker Evidian, https://www.evidian.com/products/high-availability-software-for-application-clustering/docker-container-high-availability-cluster-synchronous-replication-failover/, 2022-10-25-Tue.
 - Ubuntu Container Image Blog KR, https://sleepyeyes.tistory.com/67, 2022-10-27-Thu.
 - Container vs. Image Blog, https://circleci.com/blog/docker-image-vs-container/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--japac-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQjwteOaBhDuARIsADBqReilj0_xL4-DCdjzB9-nBAf7OgqEETNDrDTGgfwE2kbLPGVzl62tyXYaAlY4EALw_wcB, 2022-10-27-Thu.
+- Network among the Containers Blog KR, https://jeongchul.tistory.com/636, 2022-10-27-Thu.
+- Send a file to/from Container Stackoverfliw, https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container, 2022-10-27-Thu.
+- 
