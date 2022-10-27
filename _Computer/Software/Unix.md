@@ -26,6 +26,12 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### Build Debian Package deb File | [Blog (KR)](https://devanix.tistory.com/314) | [Blog (KR)](https://blog.djjproject.com/406)
 
+1. package folder 생성 `mkdir {package_name}_{version}-{revision}` such as `mkdir dummydeb_0.0.1-1`
+2. DEBIAN folder 생성 `mkdir {package_name}/DEBIAN`
+3. control file 생성 및 content 기입
+4. content 생성 such as `cd {package_name}/ && dd if=/dev/zero of=dummyfile bs=1024 count=102400`
+5. build: `dpkg -b {package_folder_name} {package_name}` 
+
 ## Debian Package Management Tool
 
 ### dpkg
@@ -127,17 +133,29 @@ $ sudo systemctl enable ssh
 ### *Symbolic Link*
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.
 
+### dd | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
+
+Create 1MB dummyfile: `dd if=/dev/zero of=dummyfile bs=1024 count=1024`
+
+Create 100MB dummyfile: `dd if=/dev/zero of=dummyfile bs=1024 count=102400`
+
+Create 1GB dummyfile: `dd of=/dev/zero pf=dummyfile bs=1024 count=10240000`
+
 ### *Fuzzy Finder*
-#### Install
+
+### Install
   - `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
   - `~/.fzf/install`
-#### Usage
+
+### Usage
   - `Control` + `t`
 
 ### *htop* | [Wiki](https://en.wikipedia.org/wiki/Htop) | Unix
+
 htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about processor, swap and memory status. htop can also display the processes as a tree.
 
 ### *top* | [Wiki](https://en.wikipedia.org/wiki/Top_(software)) | Unix
+
 top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
 
 ### *hostname*
@@ -228,3 +246,5 @@ A generic and open source machine emulator and virtualizer
 - List of live CSs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
 - Build Debian Package deb File Blog KR, https://devanix.tistory.com/314, 2022-10-27-Thu.
 - Build Debian Package deb File Blog KR, https://blog.djjproject.com/406, 2022-10-27-Thu.
+- dd Blog, https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/, 2022-10-27-Thu.
+- 
