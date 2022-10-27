@@ -116,26 +116,33 @@ alias ta='tmux attach'
 ```
 
 ### *tmux*
-#### Install
-```
+
+### Install
+
+```bash
 $ sudo apt-get install tmux
 ```
 
 ### *openssh server*
-#### Install
-```
+
+### Install
+
+```bash
 $ sudo apt-get install openssh-server
 ```
-#### Usage
-```
+
+### Usage
+
+```bash
 $ sudo service ssh start
 $ sudo systemctl enable ssh
 ```
 
 ### *Symbolic Link*
+
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.
 
-### dd | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
+### *dd* | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
 
 Create 1MB dummyfile: `dd if=/dev/zero of=dummyfile bs=1024 count=1024`
 
@@ -150,6 +157,7 @@ Create 1GB dummyfile: `dd of=/dev/zero pf=dummyfile bs=1024 count=10240000`
   - `~/.fzf/install`
 
 ### Usage
+
   - `Control` + `t`
 
 ### *htop* | [Wiki](https://en.wikipedia.org/wiki/Htop) | Unix
@@ -159,6 +167,12 @@ htop is an interactive system-monitor process-viewer and process-manager. It is 
 ### *top* | [Wiki](https://en.wikipedia.org/wiki/Top_(software)) | Unix
 
 top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
+
+### sed | [Stackoverflow](https://unix.stackexchange.com/questions/211834/slash-and-backslash-in-sed)
+
+Replace content without saving `sed 's/foo/bar/g' output.txt`
+
+Replace content with saving `sed 's/foo/bar/g' output.txt`
 
 ### *hostname*
 - How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
