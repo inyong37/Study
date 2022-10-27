@@ -18,6 +18,12 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
+### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
+
+The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
+
+How this works is by running the entire system from volatile memory (RAM). The operating system and all programs are usable, but run from memory. Because of this, you can boot the live system, test/use it for as long as you need, and then reboot the system (remembering to remove the live media) to return to your original system.
+
 ## Package
 
 ## Debian Package
@@ -42,13 +48,18 @@ Linux is one of the most prominent examples of free and open-source software col
 
 Edit `vim /etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-serve:port=g' /etc/apt/sources.list`
 
-### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
+## Repository
 
-The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
+### aptly | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/)
 
-How this works is by running the entire system from volatile memory (RAM). The operating system and all programs are usable, but run from memory. Because of this, you can boot the live system, test/use it for as long as you need, and then reboot the system (remembering to remove the live media) to return to your original system.
+Create repo: `aptly repo create {repo_name}`
+
+Add package to the repo: `aptly repo add {repo_name} {package_name}`
+
+Publish repo: `aptly publish repo {repo_name}`
 
 ### *Manual Page (man page)* | [Wiki](https://en.wikipedia.org/wiki/Man_page)
+
 A man page (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system. Topics covered include computer programs (including library and system calls), formal standards and conventions, and even abstract concepts. A user may invoke a man page by issuing the man command.
 
 By default, man typically uses a terminal pager program such as more or less to display its output.
@@ -264,3 +275,7 @@ A generic and open source machine emulator and virtualizer
 - Build Debian Package deb File Blog KR, https://blog.djjproject.com/406, 2022-10-27-Thu.
 - dd Blog, https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/, 2022-10-27-Thu.
 - Change Ubuntu Package Repository Blog KR, https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD, 2022-10-27-Thu.
+- Aptly create, https://www.aptly.info/doc/aptly/repo/create/, 2022-10-27-Thu.
+- Aptly add, https://www.aptly.info/doc/aptly/repo/add/, 2022-10-27-Thu.
+- Aptly publish, https://www.aptly.info/doc/aptly/publish/repo/, 2022-10-27-Thu.
+- 
