@@ -18,6 +18,22 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
+## Package
+
+## Debian Package
+
+### deb
+
+### Build Debian Package deb File | [Blog (KR)](https://devanix.tistory.com/314) | [Blog (KR)](https://blog.djjproject.com/406)
+
+## Debian Package Management Tool
+
+### dpkg
+
+### apt
+
+### Change Ubuntu Package Repository | [Blog (KR)]
+
 ### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
 
 The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
@@ -210,3 +226,5 @@ A generic and open source machine emulator and virtualizer
 - Snaps, https://snapcraft.io/, 2022-07-20-Wed.
 - Live Bootting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
 - List of live CSs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
+- Build Debian Package deb File Blog KR, https://devanix.tistory.com/314, 2022-10-27-Thu.
+- Build Debian Package deb File Blog KR, https://blog.djjproject.com/406, 2022-10-27-Thu.
