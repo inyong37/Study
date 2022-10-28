@@ -57,13 +57,15 @@ sudo add-apt-repository "deb http://my-repo-server:port distribution main" -y
 
 ## Repository
 
-### aptly | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/)
+### aptly | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/) | [publish drop](https://www.aptly.info/doc/aptly/publish/drop/)
 
 Create repo: `aptly repo create {repo_name}`
 
 Add package to the repo: `aptly repo add {repo_name} {package_name}`
 
-Publish repo: `aptly publish repo {repo_name}`
+Publish repo: `aptly publish repo -distribution='jammy' -architectures='all' {repo_name}`
+
+Drop published repo: `aptly publish drop jammy`
 
 ### *Manual Page (man page)* | [Wiki](https://en.wikipedia.org/wiki/Man_page)
 
@@ -287,4 +289,5 @@ A generic and open source machine emulator and virtualizer
 - Aptly publish, https://www.aptly.info/doc/aptly/publish/repo/, 2022-10-27-Thu.
 - Add Custom Repo Server Stackoverflow, https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list, 2022-10-28-Fri.
 - Install add-apt-repo tool Blog KR, https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001, 2022-10-28-Fri.
-
+- Aptly publish drop, https://www.aptly.info/doc/aptly/publish/drop/, 2022-10-28-Fri.
+- 
