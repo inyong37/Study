@@ -44,9 +44,16 @@ How this works is by running the entire system from volatile memory (RAM). The o
 
 ### apt
 
-### Change Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD)
+### Edit Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
 
-Edit `vim /etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-serve:port=g' /etc/apt/sources.list`
+Change main repo: edit `/etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-repo-serve:port=g' /etc/apt/sources.list`
+
+Add custom repo: add file under `/etc/apt/sources.list.d` with following commands
+
+```bash
+sudo apt-get update && sudo apt-get install software-properties-common -y
+sudo add-apt-repository "deb http://my-repo-server:port distribution main" -y
+```
 
 ## Repository
 
@@ -278,4 +285,6 @@ A generic and open source machine emulator and virtualizer
 - Aptly create, https://www.aptly.info/doc/aptly/repo/create/, 2022-10-27-Thu.
 - Aptly add, https://www.aptly.info/doc/aptly/repo/add/, 2022-10-27-Thu.
 - Aptly publish, https://www.aptly.info/doc/aptly/publish/repo/, 2022-10-27-Thu.
-- 
+- Add Custom Repo Server Stackoverflow, https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list, 2022-10-28-Fri.
+- Install add-apt-repo tool Blog KR, https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001, 2022-10-28-Fri.
+
