@@ -133,7 +133,7 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 
 ---
 
-### WebSocket | [Blog (KR)](https://duckdevelope.tistory.com/19)
+### *WebSocket* | [Blog (KR)](https://duckdevelope.tistory.com/19)
 
 Transport protocol의 일종으로 웹 버전의 TCP 또는 Socket이다. WebSocket은 server와 client 간에 socket connection을 유지해서 언제든 양방향 통신 또는 데이터 전송이 가능하도록 하는 기술이다. Real-time web application 구현을 위해 널리 사용된다(Social Network applications, multiplayer games, Google Docs, video call, stock exchange).
 
@@ -191,11 +191,11 @@ Websites are typically dedicated to a particular topic or purpose, such as news,
 
 Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The app used on these devices is called a web browser.
 
-### Web Page | [Wiki](https://en.wikipedia.org/wiki/Web_page)
+### _Web Page_ | [Wiki](https://en.wikipedia.org/wiki/Web_page)
 
 A web page(or webpage) is a hypertext document provided by a website and displayed to a user in a web browser. A website typically consists of many web pages linked together in a coherent fashion. The name "web page" is a metaphor of paper pages bound together into a book.
 
-### Web Server | [Wiki](https://en.wikipedia.org/wiki/Web_server)
+### _Web Server_ | [Wiki](https://en.wikipedia.org/wiki/Web_server)
 
 A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. A user agent, commonly a web browser or web crawler, initiates communication by making a request for a specific resource using HTTP, and the server responds with the content of that resource or an error message. The server can also accept and store resources sent from the user agent if configured to do so.
 
@@ -212,9 +212,12 @@ The sources and documentation are distributed under the 2-clause BSD-like licens
 Commercial support is available from Nginx, Inc.
 
 - $750: 2 CPU Cores (Intel Xeon CPU E5-2690 v3 @2.60GHz) & 4 GB RAM & 2x1 GbE NIC & 500 GB HDD: 90,000 RPS, 4,000 SSL TPS (RSA), 4,500 SSL TPS (ECC) 1Gbps throughput
-  - Requests per second (RPS): Measures the ability of NGINX Plus to process HTTP requests. The client sends connections. NGINX Plus processes each request and forwards it to a web server over a separate keepalive connection.
-  - SSL transactions per second (SSL TPS): Measures the ability of NGINX Plus to process new SSL/TLS connections. Clients send a series of HTTPS requests, each on a new connection. NGINX Plus parses the requests and forwards them to a web server over an established keepalive connection. The web server sends back a 0-byte response for each request.
-  - Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NGINX Plus can sustain when serving large files over HTTP.
+
+Requests per second (RPS): Measures the ability of NGINX Plus to process HTTP requests. The client sends connections. NGINX Plus processes each request and forwards it to a web server over a separate keepalive connection.
+
+SSL transactions per second (SSL TPS): Measures the ability of NGINX Plus to process new SSL/TLS connections. Clients send a series of HTTPS requests, each on a new connection. NGINX Plus parses the requests and forwards them to a web server over an established keepalive connection. The web server sends back a 0-byte response for each request.
+
+Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NGINX Plus can sustain when serving large files over HTTP.
 
 ### *[nip.io](https://nip.io/)*
 
