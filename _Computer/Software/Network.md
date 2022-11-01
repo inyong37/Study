@@ -173,7 +173,7 @@ Web resources may be any type of downloaded media, but web pages are hypertext d
 
 Multiple web resources with a common theme and usually a common domain name, make up a website. Websties are sotred in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's coimputer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myraid of informative, entertainment, commercial, and governmental reasons.
 
-### Web Browser | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
+### *Web Browser* | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
 
 A web browswer (commonly referred to as a browser) is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.
 
@@ -181,7 +181,8 @@ A web browser is not the same thing as a search engine, though the two are often
 
 Web browsers are used on a range of devices, including desktops, laptops, and smartphones. In 2020, an estimated 4.9 billion people used a browser. The most used browser is Google Chrome, with a 64% global market share on all devices, followed by Safari with 19%.
 
-### Web Site | [Wiki](https://en.wikipedia.org/wiki/Website) | [Home of the first website](http://info.cern.ch/)
+### *Web Site* | [Wiki](https://en.wikipedia.org/wiki/Website) | [Home of the first website](http://info.cern.ch/)
+
 A webste (also written as web site) is a collection of web pages and related content that is identified by a common domain name and published on at least on web server. Notable examples are wikipedia.org, google.com, and amazon.com.
 
 All publicly accessible websites collectively constitute the World Wide Web. There are also private websites that can only be accessed on a private network, such as a company's internal website for its employees.
@@ -202,13 +203,18 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
-### *[nginx](https://nginx.org/en/)*
+### *[NGINX](https://nginx.org/en/)* | [HW Specification](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf) | [HW Specification (KR)](https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/)
 
 nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UCP proxy server, originally written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VK, and Rambler. According to Netcraft, nginx served or proxied 21.48% busiest sites in September 2022. Here are some of the success stories: Dropbox, Netflix, Wordpress.com, FastMail.FM.
 
 The sources and documentation are distributed under the 2-clause BSD-like license.
 
 Commercial support is available from Nginx, Inc.
+
+- $750: 2 CPU Cores (Intel Xeon CPU E5-2690 v3 @2.60GHz) & 4 GB RAM & 2x1 GbE NIC & 500 GB HDD: 90,000 RPS, 4,000 SSL TPS (RSA), 4,500 SSL TPS (ECC) 1Gbps throughput
+  - Requests per second (RPS): Measures the ability of NGINX Plus to process HTTP requests. The client sends connections. NGINX Plus processes each request and forwards it to a web server over a separate keepalive connection.
+  - SSL transactions per second (SSL TPS): Measures the ability of NGINX Plus to process new SSL/TLS connections. Clients send a series of HTTPS requests, each on a new connection. NGINX Plus parses the requests and forwards them to a web server over an established keepalive connection. The web server sends back a 0-byte response for each request.
+  - Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NGINX Plus can sustain when serving large files over HTTP.
 
 ### *[nip.io](https://nip.io/)*
 
@@ -282,5 +288,7 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - REST vs. WebSocket Blog KR, https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html, 2022-08-29-Mon.
 - Discovery Protocol SSDP vs. mDNS Blog KR, https://www.joinc.co.kr/w/Site/IOT/Discovery, 2022-08-29-Mon.
 - Multicast Blog KR, https://softtone-someday.tistory.com/14, 2022-08-29-Mon.
-- nginx, https://nginx.org/en/, 2022-10-15-Sat.
+- NGINX, https://nginx.org/en/, 2022-10-15-Sat.
 - nip.io, https://nip.io/, 2022-10-15-Sat.
+- NGINX Server Hardware Specification, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf, 2022-11-01-Tue.
+- NGINX Server Hardware Specification KR, https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/, 2022-11-01-Tue.
