@@ -20,6 +20,21 @@ Anaconda is a package manager, an environment manager, a Python/R data science d
 
 The Python IDE for Professional Developers.
 
+### non-project file issue | [Solution](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010640479-all-files-in-my-project-became-non-project)
+
+Edit `.idea/modules.xml` to contain such as below.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Project.iml" filepath="$PROJECT_DIR$/.idea/Project.iml" />
+    </modules>
+  </component>
+</project>
+```
+
 ### Settings>Keymap
 - Settings: `Control` + `Alt` + `s`.
 - ~~Settings: `Shift` + `Control` + `Alt` + `F4`.~~
@@ -662,3 +677,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Socket Blog KR, https://webnautes.tistory.com/1381, 2022-09-21-Wed.
 - FastAPI ASGI Blog KR, https://breezymind.com/start-asgi-framework/, 2022-09-21-Wed.
 - Learn PyCharm, https://www.jetbrains.com/pycharm/learn/, 2022-10-18-Tue.
+- PyCharm non-project file, https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010640479-all-files-in-my-project-became-non-project, 2022-11-01-Tue.
