@@ -22,7 +22,7 @@ The Python IDE for Professional Developers.
 
 ### non-project file issue | [Solution](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010640479-all-files-in-my-project-became-non-project)
 
-Edit `.idea/modules.xml` to contain such as below.
+Edit `.idea/modules.xml` to contain its iml file such as below.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
