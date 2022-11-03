@@ -40,6 +40,14 @@ How this works is by running the entire system from volatile memory (RAM). The o
 4. content 생성 such as `cd {package_name}/ && dd if=/dev/zero of=dummyfile bs=1024 count=102400`
 5. build: `dpkg -b {package_folder_name} {package_name}` 
 
+## _[Debian Package Management](https://wiki.debian.org/PackageManagement)_
+
+Much of why Debian is a strong Linux distribution comes from its package management. Everything in Debian - every application, every component - everything - is built into a package.
+
+There are many software packages available for Debian - everything from the Linux kernel to games. And their number has been growing with every release.
+
+The Apt (Advanced Package Tool) package management system is a set of tools to download, install, remove, upgrade, configure and manage Debian packages, and therefore all software installed on a Debian system.
+
 ## Debian Package Management Tool
 
 ### dpkg
@@ -58,6 +66,10 @@ sudo add-apt-repository "deb http://my-repo-server:port distribution main" -y
 ```
 
 ## Repository
+
+### _[Debian Repository](https://wiki.debian.org/DebianRepository)_
+
+A Debian repository is a set of Debian binary or source packages organized in a special directory tree and with various infrastructure files - checksums, indices, signatures, descriptions translations, ... - added. Client computers can connect to the repository to download and install the package using an Apt-based PackageManagement tool.
 
 ### aptly | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/) | [publish drop](https://www.aptly.info/doc/aptly/publish/drop/)
 
@@ -298,4 +310,6 @@ A generic and open source machine emulator and virtualizer
 - Add Custom Repo Server Stackoverflow, https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list, 2022-10-28-Fri.
 - Install add-apt-repo tool Blog KR, https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001, 2022-10-28-Fri.
 - Aptly publish drop, https://www.aptly.info/doc/aptly/publish/drop/, 2022-10-28-Fri.
+- Debian Repository, https://wiki.debian.org/DebianRepository, 2022-11-03-Thu.
+- Debian Package Management, https://wiki.debian.org/PackageManagement, 2022-11-03-Thu.
 - 
