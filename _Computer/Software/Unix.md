@@ -77,12 +77,14 @@ By default, man typically uses a terminal pager program such as more or less to 
 
 Because man pages are distributed together with the software they document, they are a more favourable means of documenting software compared to out-of-band documentation like web pages, as there is a higher likelihood for a match between the actual features of the software to the documented ones.[1] It is for this reason that man-pages are often referred to as an on-line or online form of software documentation, even though the man command does not require internet access, dating back to the times when printed out-of-band manuals were the norm.
 
-### *Executable and Linkable Format (ELF)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
+### *Executable and Linkable Format (ELF)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
+
 Executable and Linkable Format(ELF)는 실행 파일, 목적 파일, 공유 라이브러리 그리고 코어 덤프를 위한 표준 파일 형식이다. 1999년 86open 프로젝트에 의해 x86 기반 유닉스, 유닉스 계열 시스템들의 표준 바이너리 파일 형식으로 선택되었다.
 
 ELF은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 유닉스 계열 운영체제 (리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스)에서 a.out과 COFF 포맷을 대체했으며, 유닉스 계열이 아닌 운영체제 (OpenVMS 아이테니엄 버전, BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전)에서도 사용하고, 게임 콘솔 (플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U)에서도 사용한다.
 
 ### *ELF Symbol Visibility*
+
 Dynamic linker의 symbol resolution을 도와주는 역할을 한다. `readelf`로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
 - default는 visibilty를고려하지 않고 해당 symbol binding이 global인지 local(static)인지를 이용한다.
 - hidden은 주로 사용되는 속성으로 해당 symbol을 외부로 공개하지 않게 만든다.
@@ -92,15 +94,19 @@ Dynamic linker의 symbol resolution을 도와주는 역할을 한다. `readelf`�
 default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 사용할 symbol은 static으로 선언하면 된다. static으로 선언한 symbol은 항상 해당 파일 내의 symbol을 접근하는 것이므로 간접 접근이 필요없이 직접 접근이 가능하므로 컴파일러가 더 빠른 코드를 만들어 낼 수 있다. 또한 symbol이 외부로 공개되지 않으므로 relocation 및 symbol resolution 시에도 고려해야할 요소가 적어지므로 추가적인 성능 향상이 있다.
 
 ### Link `ln`
+
 `ln`은 Link의 약어로 Linux 파일 시스템에서 링크 파일을 만드는 명령어이다. Linux에서는 symbolic link와 hard link 2가지 링크 파일이 존재한다.
 
 ### Symbolic Link
+
 단순히 원본 파일을 가리키도록 링크만 시켜둔 것으로 Windows의 shortcut과 같은 것이며, 원본 파일을 가리키고만 있으므로 원본 파일의 크기와는 무관하다. 그리고 symbolic link에서는 원본 파일이 삭제되어 존재하지 않을 경우에 링크 파일은 깜박거리면서 링크 파일의 원본 파일이 없다는 것을 알려준다.
 
 ### Hard Link
+
 원본 파일과 다른 이름으로 존재하는 동일한 파일이며 원본 파일과 동일한 내용의 다른 파일이다. 그리고 hard link에서는 원본 파일과 링크 파일 2개가 서로 다른 파일이기 때문에 둘 중 하나를 삭제하더라도 나머지 하나는 그대로 남아 있다. 또한 hard link에서는 원본 파일의 내용이 변경될 경우에는 링크 파일의 내용 또한 자동으로 변경된다.
 
-#### Usage
+### Usage
+
 - `ln -s /tmp /var/tmp`
 - `ln hard_source hard_link`
 - `--backup`: 대상 파일이 이미 존재할 경우에 백업 파일을 만든 후에 링크 파일 생성
