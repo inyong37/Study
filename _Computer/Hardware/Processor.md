@@ -1,4 +1,4 @@
-# Central Processing Unit (CPU) | [Wiki KR-KO](https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
+# *Central Processing Unit (CPU)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
 
 CPU(중앙 처리 장치)는 컴퓨터 시스템을 통제하고 프로그램의 연산을 실행하고 처리하는 가장 핵심적인 컴퓨터의 제어 장치, 혹은 그 기능을 내장한 칩을 말한다. 컴퓨터 안의 중앙 처리 장치는 외부에서 정보를 입력 받고, 기억하고, 컴퓨터 프로그램의 명령어를 해석하여 연산하고, 외부로 출력하는 역할을 한다. CPU는 컴퓨터 부품과 정보를 교환하면서 컴퓨터 시스템 전체를 제어하는 장치로, 모든 컴퓨터의 작동 과정이 CPU의 제어를 받기 때문에 컴퓨터의 두뇌의 해당한다고 할 수 있다. CPU chip에는 실행 부분뿐만 아니라 캐시 등의 부가 장치가 통합된 경우가 많다. CPU에는 MCU(Micro Control Unit)와 주변 장치(외부 확장 장치에 관한 IC)가 다 들어있는 SoC(System On Chip)가 있다. 주변 IC가 따로 달려 있을 경우에는 MCU이다. CPU의 구성으로는 처리할 명령어를 저장하는 역할을 하는 프로세서 레지스터와 비교, 판단, 연산을 담당하는 산술논리연산장치(ALU), 그리고 명령어의 해석과 올바른 실행을 위하여 CPU를 내부적으로 제어하는 제어부의 내부 버스 등이 있다.
 
