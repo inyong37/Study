@@ -48,11 +48,34 @@ There are many software packages available for Debian - everything from the Linu
 
 The Apt (Advanced Package Tool) package management system is a set of tools to download, install, remove, upgrade, configure and manage Debian packages, and therefore all software installed on a Debian system.
 
-## Debian Package Management Tool
+## _[Debian Package Management Tool](https://wiki.debian.org/PackageManagementTools)_
+
+Many tools available on a Debian system can be used for Package management. Commonly used ones include:
+
+- Command-line
+  - apt: The main command-line package management tool
+  - aptitude: command-line and text-based interface (ncurses) for Apt
+- Graphical
+  - Synaptic: Graphical package manager
+  - gdebi: Graphical installer for standalone Debian Packages
+  - gnome-software: Software Center for GNOME
+
+### apt
+
+The apt package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: 
+
+- apt: high-level commandline interface for the package management system.
+- apt-cache: performs a variety of operations on APT's package cache.
+- apt-cdrom: used to add a new CD-ROM to APT's list of available sources.
+- apt-config: This program is used by the other apt utilities to provide a standard interface to the apt configuration settings.
+- apt-get: command-line tool for handling packages
+- apt-key: manage the list of keys used by apt to authenticate packages. This command is deprecated!
 
 ### dpkg
 
-### apt
+The dpkg package provides low-level infrastructure for handling the installation and removal of Debian software packages:
+
+- dpkg: a tool to install, build, remove and manage Debian packages.
 
 ### Edit Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
 
@@ -312,4 +335,5 @@ A generic and open source machine emulator and virtualizer
 - Aptly publish drop, https://www.aptly.info/doc/aptly/publish/drop/, 2022-10-28-Fri.
 - Debian Repository, https://wiki.debian.org/DebianRepository, 2022-11-03-Thu.
 - Debian Package Management, https://wiki.debian.org/PackageManagement, 2022-11-03-Thu.
+- Debian Package Management Tools, https://wiki.debian.org/PackageManagementTools, 2022-11-03-Thu.
 - 
