@@ -88,33 +88,39 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
 
 ---
 
-## *CP/M* | [Homepage](https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM) | [Wiki (KR)](https://ko.wikipedia.org/wiki/CP/M)
+## *[CP/M](https://web.archive.org/web/20080515232659/http://www.digitalresearch.biz/CPM.HTM)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/CP/M)
+
 CP/M은 인텔 8080/85 마이크로프로세서를 기반으로 하는 처음 제작된 운영 체제이다. 디지털 리서치의 개리 킬달(Gary Kildall)이 만들었다. 게리 킬달은 커스텀 플로피 디스크 컨트롤러를 통해 접속되는 슈거트 어소시에이트(Shugart Associates) 8인치 플로피 디스크 드라이브가 장착된 인텔 인텔렉-8 개발 시스템에서 구동할 운영 체제로서 CP/M을 1974년에 처음 개발하였다. 최소 8비트의 CP/M 시스템은 다음 5개의 부품을 포함하고 있어야한다. 1. 아스키 문자열 집합을 사용하는 컴퓨터 터미널(매우 오래된 시스템은 텔레프린터를 사용하였다.), 2. 인텔 8080(나중에는 8085) 또는 자일로그 Z80 마이크로프로세서, 3. 최소 16킬로바이트인 램, 4. 디스켓 첫 섹터를 부트스트래핑할 수 있는 환경, 5. 최소 한 개의 플로피 디스크 드라이브. 8비트 버전에서 동작하는 동안 메모리에 로드된 CP/M 운영 체제에는 다음 3개의 구성요소가 있었다. 1. 기본 입출력 시스템, 곧 BIOS, 2. 기본 디스크 운영 체제, 곧 BDOS, 3. 콘솔 명령어 프로세서, 곧 CCP.
 
 ---
 
-## *DOS: Disk Operating System* | [Wiki (KR) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [Wiki (KR) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
+## *DOS: Disk Operating System* | [WiKi (KR) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [Wiki (KR) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
+
 DOS는 플로피 디스크, 하드 디스크 드라이브, 광 디스크와 같은 디스크 스토리지 장치를 사용할 수 있는 컴퓨터 운영 체제이다. 디스크 운영 체제는 스토리지 디스크의 파일 정리, 읽기, 쓰기를 위한 파일 시스템을 제공해야 한다. 이 정의는 현재 쓰이는 마이크로소프트 윈도우 버전 등 현 세대의 운영 체제에 적용되지는 않으며 더 오래된 세대의 운영 체제에 국한시키는 것이 더 적절하다. 디스크 운영 체제들은 메인프레임, 마이크로프로세서, 가정용 컴퓨터 용으로 이용이 가능했으며 부팅 과정의 일환으로 직접 디스크에서 로드되는 것이 보통이었다.
 
 운영 체제의 확장 기능이었던 DOS로는 다음 8개 예시가 있다. 1. Apple DOS, 2. 코모도어 DOS, 3. 아타리 DOS, 4. MSX-DOS, 5. 디스크 파일링 시스템, 6. 어드밴스드 디스크 파일링 시스템(ADFS), 7. AMSDOS, 8. GDOS/G+DOS. 메인 운영 체제였던 DOS로는 다음 4개 예시가 있다. 1. IBM 시스템/360 계열의 메인프로엠 컴퓨터를 위한 DOS/360 초기/단순 운영 체제(나중에 DOS/VSE가 되었으며 그 뒤로 간단히 VSE로 불렸다.), 2. DEC PDP-11 미니 컴퓨터용 DOS-11 운영 체제, 3. TRSDOS는 탠디의 TRS-80 계열의 컴퓨터용 운영 체제였다. 4. 인텔 x86 CPU와 호환되는 IBM PC용 MS-DOS.
 
 DOS는 디스크 운영 체제의 일종으로서 디스크에 읽고 쓰기 등의 명령을 수행하는 프로그램이다. 명령어를 직접치는 명령 줄 기반이다. 1981년부터 1995년까지, 또 부분적으로 MS-DOS 기반인 마이크로소프트 Windows(95, 98, ME)를 포함한 2000년까지는 MS-DOS가 IBM PC 호환 기종 시장을 장악하였다. DOS는 MS-DOS, PC-DOS, DR-DOR, Free-DOS, ROM-DOS, PTS-DOS를 포함한 비슷한 명령 줄 시스템의 계열이다. 이 시스템 중 어느 것도 간단히 DOS라고 불리진 않았다. (1960년대의 이와 관련이 없는 IBM 메인프레임 운영 체제에만 사용되었음) 이와 무관한 수많은 비x86 마이크로컴퓨터 디스크 운영 체제는 DOS라는 이름을 그대로 사용했으며 이들을 사용하는 컴퓨터에대해 논할 때 단순히 DOS라고 부르곤 했다. (아미가 도스, AMSDOS, Apple DOS, 아타리 DOS, 코모도어 DOS, CSI-DOS, 프로도스, TRSDOS)
 
-### *86-DOS (aka QDOS)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/86-%EB%8F%84%EC%8A%A4)
+### *86-DOS (aka QDOS)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/86-%EB%8F%84%EC%8A%A4)
+
 86-DOS는 시애틀 컴퓨터 프로덕트(SCP)에서 팀 패터슨에 의하여 Intel 8086 기반 컴퓨터 키트 용으로 개발되어 판매된 운영 체제로 현재는 단종되었다. 초기에는 QDOS(Quick and Dirty Operating System)로 알려졌으나, 1980년에 SCP가 운영 체제를 라이센스하기 시작하면서 86-DOS로 이름이 변경되었다. 86-DOS에는 디지털 리서치의 CP/M 운영 체제를 모방한 명령 구조 및 응용 프로그래밍 인터페이스가 있어 프로그램을 후자로부터 쉽게 이식할 수 있었다. 마이크로소프트에게 라이센스 되었다가 그 후 판매되어 MS-DOS 및 PC-DOS로 개발되었다.
 
-### *MS-DOS* | [GitHub](https://github.com/Microsoft/MS-DOS) | [Wiki (KR)](https://ko.wikipedia.org/wiki/MS-DOS)
+### *MS-DOS* | [GitHub](https://github.com/Microsoft/MS-DOS) | [WiKi (KR)](https://ko.wikipedia.org/wiki/MS-DOS)
+
 MS-DOS(MicroSoft Disk Operating System)은 DOS의 일종으로 마이크로소프트가 IBM의 의뢰를 받아 시애틀 컴퓨터 프로덕트로부터 사들여 개발한 IBM PC용 운영 체제(CP/M-86 호환의 DOS)로 사상 최초로 대중화된 운영 체제이다. 1981년 8월 처음 PC에 올려져서 제공되었으며 1995년 개발이 중단될 때까지 몇 차례의 판올림이 있었다. MS-DOS라는 독립 제품으로서의 최종 버전은 6.22이며 Windows 95가 출시된 이후부터는 윈도 제품의 일부로 제공되었고 Windows ME에 기본 내장되어있는 8.0까지 나왔다. 이후에는 더 이상 개발되지 않는다. 마이크로소프트는 이 제품의 인기에 힘입어 조그마한 프로그래밍 언어 회사에서 다양한 소프트웨어를 제공하는 회사로 자리잡게 된다.
 
-### *PC-DOS* | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/PC-DOS)
+### *PC-DOS* | [WiKi (KR)](https://ko.wikipedia.org/wiki/PC-DOS)
+
 PC-DOS는 IBM 개인용 컴퓨터를 위한 클로즈드 소스 형태의 도스 운영 체제이며 1980년대에서 1990년대까지 판매되었다. 1981년에 IBM과 마이크로소프트 사이에서, 마이크로소프트는 기본 제품을 생산하고 두 회사는 합성 코드를 공유하여 더 강력하고 튼튼한 시스템으로 들어가는 서로 다른 부분을 개발하려고 했다. 또 MS-DOS와 PC-DOS는 별도로 시장화될 예정이었다. 다시 말해 PC-DOS는 IBM PC용으로만 판매하고 마이크로소프트는 오픈 마켓에 판매하려고 했다. 그러나 IBM은 자사의 개인용 컴퓨터를 위한 운영 체제의 소스 코드 소유권을 획득하려고 하지는 않았다. ThinkPad 제품은 현재 복구 파티션에 PC-DOS의 최신 버전의 복사본을 소유하고 있다.
 
 ### Font
-- IBM 3270
+
+IBM 3270
 
 ---
 
-## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Windows) | [IoT](https://developer.microsoft.com/en-us/windows/iot/)
+## *Windows* | [Windows 10 Homepage](https://www.microsoft.com/en-us/windows/) | [WiKi](https://en.wikipedia.org/wiki/Microsoft_Windows) | [IoT](https://developer.microsoft.com/en-us/windows/iot/)
 
 Microsoft Windows, commonly referred to as Windows, is a group of several proprietary graphical operating system families, all of which are developed and marketed by Microsoft. Each family caters to a certain sector of the computing industry. Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE). Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
 
@@ -127,7 +133,7 @@ As of February 2020, the most recent version of Windows for PCs, tablets and emb
 ### Font
 - Consolas
 
-### MSDN (Microsoft Developer Network) | [Homepage](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
+### [MSDN (Microsoft Developer Network)](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
 Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
@@ -136,7 +142,7 @@ From January 2020, the website has been fully integrated with Microsoft Docs.
 
 ---
 
-## Multics | [Multicians](https://multicians.org/multics.html)
+## _[Multics](https://multicians.org/multics.html)_
 
 Multics (Multiplexed Information and Computing Service) was a mainframe time-sharing operating system begun in 1965 and used until 2000. Multics began as a research project and was an important influence on operating system development. The system became a commercial product sold by Honeywell to education, government, and industry.
 
@@ -144,7 +150,7 @@ Multics was a prototype of a Computer Utility, providing secure computing to rem
 
 ---
 
-## *Unix* | [Homepage](https://www.opengroup.org/membership/forums/platform/unix) | [Wiki](https://en.wikipedia.org/wiki/Unix)
+## *[Unix](https://www.opengroup.org/membership/forums/platform/unix)* | [Wiki](https://en.wikipedia.org/wiki/Unix)
 Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
 
 Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including University of California, Berkeley (BSD), Microsoft (Xenix), Sun Microsystems (SunOS/Solaris), HP/HPE (HP-UX), and IBM (AIX). In the early 1990s, AT&T sold its rights in Unix to Novell, which then sold its Unix business to the Santa Cruz Operation (SCO) in 1995. The UNIX trademark passed to The Open Group, a neutral industry consortium founded in 1996, which allows the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). However, Novell continues to own the Unix copyrights, which the SCO Group, Inc. v. Novell, Inc. court case (2010) confirmed.
@@ -167,7 +173,8 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 ----------
 
-### *POSIX, Portable Operating System Interface* | [Wiki](https://en.wikipedia.org/wiki/POSIX) | [Wiki (KR)](https://ko.wikipedia.org/wiki/POSIX)
+### *POSIX, Portable Operating System Interface* | [WiKi](https://en.wikipedia.org/wiki/POSIX) | [WiKi (KR)](https://ko.wikipedia.org/wiki/POSIX)
+
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
 POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른 Unix OS의 공통 API를 정리하여 이식성이 높은 Unix application program을 개발하기 위한 목적으로 IEEE가 책정한 application interface 규격이다. POSIX의 마지막 글자 X는 Unix compatible OS에 보통 X가 붙는 것에서 유래한다. Unix 계열 외에 Microsoft Windows NT는 POSIX 1.0에 준하는 POSIX 서브 시스템을 탑재하고 있으며, POSIX application program을 서브 시스템에서 실행할 수 있다. 이는 주로 미국 정부기관의 컴퓨터 시스템 도입조건 (FIPS)에서 POSIX 준거할 것을 요구하기 때문이다. Windows 2000까지 POSIX 서브 시스템을 탑재하고 있었지만 Windows XP에서 폐지되었다. 이후 Windows 2003 R2부터 POSIX 2.0에 준하는 Subsystem for Unix-based Application (SUA)를 통해 POSIX를 지원하고 있다.
@@ -178,7 +185,8 @@ POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른
 
 ----------
 
-## *[Linux](https://www.linux.org/)* | [Wiki](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
+## *[Linux](https://www.linux.org/)* | [WiKi](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
+
 Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds. Linux is typically packaged in a Linux distribution.
 
 Distributions include the Linux kernel and supporting system software and libraries, many of which are provided by the GNU Project. Many Linux distributions use the word "Linux" in their name, but the Free Software Foundation uses the name GNU/Linux to emphasize the importance of GNU software, causing some controversy.
@@ -256,7 +264,8 @@ For media apps, your app must include a media browser service (see Build media a
 
 ---
 
-## *Macintosh* | [Wiki](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
+## *Macintosh* | [WiKi](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
+
 The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
 
 In 1984, Apple debuted the operating system that is now known as the "Classic" Mac OS with its release of the original Macintosh System Software. The system, rebranded "Mac OS" in 1996, was preinstalled on every Macintosh until 2002 and offered on Macintosh clones for a short time in the 1990s. Noted for its ease of use, it was also criticized for its lack of modern technologies compared to its competitors.
@@ -267,7 +276,8 @@ Prior to the introduction of Mac OS X, Apple experimented with several other con
 
 Although they have different architectures, the Macintosh operating systems share a common set of GUI principles, including a menu bar across the top of the screen; the Finder shell, featuring a desktop metaphor that represents files and applications using icons and relates concepts like directories and file deletion to real-world objects like folders and a trash can; and overlapping windows for multitasking.
 
-## *macOS* | [Catalina](https://www.apple.com/macos/catalina/) | [Wiki](https://en.wikipedia.org/wiki/MacOS)
+## *macOS* | [Catalina](https://www.apple.com/macos/catalina/) | [WiKi](https://en.wikipedia.org/wiki/MacOS)
+
 macOS (previously Mac OS X and later OS X) is a series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001. It is the primary operating system for Apple's Mac computers. Within the market of desktop, laptop and home computers, and by web usage, it is the second most widely used desktop OS, after Microsoft Windows.
 
 macOS is the second major series of Macintosh operating systems. The first is colloquially called the classic Mac OS, introduced in 1984, the final release of which was Mac OS 9 in 1999. The first desktop version, Mac OS X 10.0, was released in March 2001, with its first update, 10.1, arriving later that year. After this, Apple began naming its releases after big cats, which lasted until OS X 10.8 Mountain Lion. Since OS X 10.9 Mavericks, releases have been named after locations in California. Apple shortened the name to "OS X" in 2012 and then changed it to "macOS" in 2016, adopting the nomenclature that they were using for their other operating systems, iOS, watchOS, and tvOS. The latest version is macOS Catalina, which was publicly released in October 2019.
@@ -276,10 +286,12 @@ macOS is based on the Unix operating system and on technologies developed betwee
 
 Releases of Mac OS X from 1999 to 2005 ran on the PowerPC-based Macs of that period. After Apple announced that they were switching to Intel CPUs from 2006 onwards, versions were released for Intel-based Macs with 32-bit and currently 64-bit processors. Versions from macOS 11 (2020) will support both 64-bit Intel and future Macs running 64-bit ARM processors.
 
-### Finder | [Wiki](https://en.wikipedia.org/wiki/Finder_(software))
+### Finder | [WiKi](https://en.wikipedia.org/wiki/Finder_(software))
+
 The Finder is the default file manager and graphical user interface shell used on all Machintosh operating systems. Described in its "About" window as "The Macintosh Desktop Experience", it is responsible for the launching of other applications, and for the overall user management of files, disks, and network volumes. It was introduced with the first Macintosh computer, and also exists as part of GS/OS on the Apple IIGS. It was rewritten completely with the release of Mac OS X in 2001. In a tradition dating back to the Classic Mac OS of the 1980s and 1990s, the FInder icon is the smiling screen of a computer, known as the Happy Mac logo.
 
 ### Mac Keyboard Shortcuts | [Apple](https://support.apple.com/en-us/HT201236)
+
 By pressing cretain key combinations, you can do things that normally need a mouse, trackpad, or other input device.
 
 To use a keyboard shortcut, press and hold one or more modifier keys and then press the last key of the shortcut. For example, to use Command-C (copy), press and hold the Command key, then the C key, then release both keys. Mac menus and keyboards often use symbols for cretain keys, including modifier keys:
