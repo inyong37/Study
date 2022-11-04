@@ -220,7 +220,7 @@ SSL transactions per second (SSL TPS): Measures the ability of NGINX Plus to pro
 
 Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NGINX Plus can sustain when serving large files over HTTP.
 
-### NGINX Tunning | [Blog (KR)]
+### NGINX Tunning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor)
 
 ### *[nip.io](https://nip.io/)*
 
