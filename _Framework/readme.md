@@ -16,7 +16,7 @@ OpenCV supports a wide variety of programming languages such as C++, Python, Jav
 
 Open Source Computer Vision Library[Ref]
 
-OpenCV is biult with CMake, cpp, and h.
+OpenCV is built with CMake, cpp, and h.
 
 ## *[TensorFlow](https://www.tensorflow.org/)* | [GitHub](https://github.com/tensorflow/tensorflow)
 
