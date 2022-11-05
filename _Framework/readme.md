@@ -70,15 +70,16 @@ PyTorch is built with submodule or bazel.
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
 
-Caffe is built with CMake and docker.
+Caffe is built with CMake and Docker.
 
-## **Deprecated** _[Theano](http://www.deeplearning.net/software/theano/)_ | [GitHub](https://github.com/Theano/Theano)
+## **Deprecated** | _[Theano](http://www.deeplearning.net/software/theano/)_ | [GitHub](https://github.com/Theano/Theano)
 
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
 
 *[MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)*
 
-## **Deprecated** _[CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/)_ | [GitHub](https://github.com/microsoft/CNTK)
+## **Deprecated** | _[CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/)_ | [GitHub](https://github.com/microsoft/CNTK)
+
 The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.[Ref]
 
 *[CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)*
@@ -95,17 +96,17 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 fastai simplifies training fast and accurate neural nets using modern best practices.
 
-### [FAIR Detectron](https://github.com/facebookresearch/Detectron)
+### _[FAIR Detectron](https://github.com/facebookresearch/Detectron)_
 
 Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including Mask R-CNN. It is written in Python and powered by the Caffe2 deep learning framework.
 
 *Detectron is deprecated. Please see detectron2, a ground-up rewrite of Detectron in PyTorch.*
 
-### [FAIR Detectron2](https://github.com/facebookresearch/detectron2)
+### _[FAIR Detectron2](https://github.com/facebookresearch/detectron2)_
 
 Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of Detectron and maskrcnn-benchmark. It supports a number of computer vision research projects and production applications in Facebook.
 
-### [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
+### _[OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)_
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
