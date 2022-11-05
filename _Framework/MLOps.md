@@ -1,4 +1,4 @@
-# MLOps | [Google Cloud](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
+# *MLOps* | [Google Cloud](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
 
 Continuous delivery and automation pipelines in machine learning
 
