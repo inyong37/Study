@@ -260,6 +260,43 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 
 ---
 
+# File Server
+
+
+### _[Common Internet File System (CIFS)](https://cifs.com/)_
+
+Common Internet File System (CIFS) is a network filesystem protocol used for providing shared access to files and printers between machines on the network. A CIFS client application can read, write, edit and even remove files on the remote server. CIFS client can communicate with any server that is set up to receive a CIFS client request. Microsoft implementations are the de facto CIFS standards. As Wikipedia indicates, the CIPS protocol was developed back in the 1980's by Barry Feigenbaum at IBM. Then known as Server Message Block (SMB). SMB was originally designed to run top of the NetBIOS / NetBEUI API (typically implemented with NBF, NetBIOS over IPX/SPX, or NBT) with the aim of tuning local file access to network file system.
+
+With the release of Windows 95 in the early 1990’s, Microsoft has made considerable modifications to the most commonly used SMB version. Microsoft then merged the updated version of the SMB protocol (and rebranded it as CIFS) with the LAN Manager product bringing both client and server support. This application (CIFS) helps a client make a specific request and server responds according to needs hence exchange data with authenticated computers. However, over years there have been several usage models where CIFS was initially for file sharing and later has been used for network management and other network services - with networks becoming larger the need for privilege separation and scale of use.
+
+Over time CIFS has had various versions to facilitate usage for various operating systems.
+
+DOS: This is case where the original model was simply for file-sharing in a NETBIOS- environment and this basically worked by specifying the directories list to be shared and name to be shared under and eventually one sets up a password per share.
+
+Windows NT: A concept of grouping computers into domains was developed. Such terms as DC (Domain Controller), PDC (Primary Domain Controller) and Domain Membership were first introduced.
+
+Windows 2000: This came as the first operating system that came with a support for Active Directory. This was implemented using modified open protocols. Active domain means there are now central points of authority and there are fewer limits to the domain size e.g., - several domains can exist.
+
+CIFS / SMB1.0 is used in Windows 2000, Windows XP, Windows Server 2003 and Windows Server 2002 R2. Its redesign to SMB 2.0 has increased the scale of sharing files, boosting performance for compounding request, enhancing larger reads and writes, has become more secure and robust in case of small command setting and that its signature uses HMACSHA-256 instead of MD5. Since the change was radical and Microsoft had to change the concept users had on the buggy CIFS it was decided to drop the name CIFS, and rename it SMB2.
+
+SMB 2.0 which was integrated in Windows Vista and Windows Server 2008 was much more durable. Its redesign to SMB2.1 in Windows 7 and Windows Server 2008 R2 made improvements in file leasing, ensured large MTU support and Branch Cache.
+
+SMB 3.0 version is commonly used with Windows 8 and Windows Server 2012, granting SMB multi-channeling, SMBDirect, witnessing and transparent failover that improved performance and scaling-out. It still has more features for back-up, security and management, for SQL Server, Power Shell and others. It also introduces several security enhancements, such as end-to-end encryption and a new AES based signing algorithm. In Windows 8.1 and Windows Server 2012 R2 the SMB 3.02 was implemented where Microsoft introduced the option to completely disable CIFS/SMB1 support, including the actual removal of the related binaries. While this is not the default configuration, MS recommend disabling this older version of the protocol in scenarios where it is useless, like Hyper-V over SMB.
+
+SMB 3.1.1 was introduced with Windows 10 and Windows Server 2016. This version supports AES-128-GCM encryption in addition to existing AES-128-CCM encryption and implements pre-authentication integrity check using SHA-512 hash. SMB 3.1.1 also makes secure negotiation mandatory when connecting to clients using SMB 2.x and higher.
+
+### _[Samba](https://www.samba.org/)}
+
+Samba is the standard Windows interoperability suite of programs for Linux and Unix.
+
+Samba is Free Software licensed under the GNU General Public License, the Samba project is a member of the Software Freedom Conservancy.
+
+Since 1992, Samba has provided secure, stable and fast file print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2. Linux and many others.
+
+Samba is an important component to seamlessly integrate Linux/Unix Servers and Desktops into Active Directory environments. It can function both as a domain controller or as a regular domain member.
+
+---
+
 ### Reference
 
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
@@ -299,4 +336,6 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - NGINX Server Hardware Specification, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf, 2022-11-01-Tue.
 - NGINX Server Hardware Specification KR, https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/, 2022-11-01-Tue.
 - NGINX Tuning Blog KR, https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor, 2022-11-04-Fri.
-  
+- CIFS, https://cifs.com/, 2022-11-07-Mon.
+- Samba, https://www.samba.org/, 2022-11-07-Mon.
+
