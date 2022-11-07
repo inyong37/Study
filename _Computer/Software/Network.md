@@ -36,7 +36,13 @@ Visual odometry is the estimation of ego-motion using computer vision techniques
 
 Both words can be used interchangeably in general.
 
-### *Hyper Text Transfer Protocol (HTTP)*
+---
+
+# Protocol
+
+### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+
+Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, buit it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
 
 ### *HTTP Secure (HTTPS)*
 
@@ -344,3 +350,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - CIFS, https://cifs.com/, 2022-11-07-Mon.
 - Samba, https://www.samba.org/, 2022-11-07-Mon.
 - NFS IBM, https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system, 2022-11-07-Mon.
+- HTTP MDN, https://developer.mozilla.org/en-US/docs/Web/HTTP, 2022-11-07-Mon.
