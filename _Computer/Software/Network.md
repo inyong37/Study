@@ -50,7 +50,9 @@ Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmit
 
 HTTPS is also referred to as HTTP over TLS or http over SSL
 
-### *File Transfer Protocol (FTP)*
+### *File Transfer Protocol (FTP)*| [WiKi](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+
+The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
 
 ### *Secure Shell (SSH)*
 
@@ -351,3 +353,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - Samba, https://www.samba.org/, 2022-11-07-Mon.
 - NFS IBM, https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system, 2022-11-07-Mon.
 - HTTP MDN, https://developer.mozilla.org/en-US/docs/Web/HTTP, 2022-11-07-Mon.
+- FTP WiKi, https://en.wikipedia.org/wiki/File_Transfer_Protocol, 2022-11-07-Mon.
