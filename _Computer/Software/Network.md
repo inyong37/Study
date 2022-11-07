@@ -260,8 +260,7 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 
 ---
 
-# File Server
-
+# File System
 
 ### _[Common Internet File System (CIFS)](https://cifs.com/)_
 
@@ -285,7 +284,7 @@ SMB 3.0 version is commonly used with Windows 8 and Windows Server 2012, grantin
 
 SMB 3.1.1 was introduced with Windows 10 and Windows Server 2016. This version supports AES-128-GCM encryption in addition to existing AES-128-CCM encryption and implements pre-authentication integrity check using SHA-512 hash. SMB 3.1.1 also makes secure negotiation mandatory when connecting to clients using SMB 2.x and higher.
 
-### _[Samba](https://www.samba.org/)}
+### _[Samba](https://www.samba.org/)_
 
 Samba is the standard Windows interoperability suite of programs for Linux and Unix.
 
@@ -294,6 +293,10 @@ Samba is Free Software licensed under the GNU General Public License, the Samba 
 Since 1992, Samba has provided secure, stable and fast file print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2. Linux and many others.
 
 Samba is an important component to seamlessly integrate Linux/Unix Servers and Desktops into Active Directory environments. It can function both as a domain controller or as a regular domain member.
+
+### _Network File System (NFS)_ | [IBM](https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system)
+
+The Network File System (NFS) is a mechanism for storing files on a network. It is a distributed file system that allows users to access files and directories located on remote computers and treat those files and directories as if they were local.
 
 ---
 
@@ -338,4 +341,4 @@ Samba is an important component to seamlessly integrate Linux/Unix Servers and D
 - NGINX Tuning Blog KR, https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor, 2022-11-04-Fri.
 - CIFS, https://cifs.com/, 2022-11-07-Mon.
 - Samba, https://www.samba.org/, 2022-11-07-Mon.
-
+- NFS IBM, https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system, 2022-11-07-Mon.
