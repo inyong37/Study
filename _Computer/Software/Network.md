@@ -164,7 +164,7 @@ Broker의 종류는 Mosquitto, HiveMQ, mosca, ActiveMQ, RabbitMQ 등이 있다. 
 
 ---
 
-# The Web | [Wiki](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
+# *The Web* | [WiKi](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
 
 The World Wide Web (WWW), commonly known as The Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browswer, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon which technologies the Web is built.
 
@@ -226,6 +226,7 @@ Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NG
 
 Dead simple wildcard DNS for any IP Address. Stop editing your `etc/hosts` file with custom hostname and IP address mappings. nip.io allows you to do that by mapping any IP Address to a hostname using the following formats:
 
+```
 Without a name:
 
 10.0.0.1.nip.io maps to 10.0.0.1
@@ -257,10 +258,11 @@ dash notation: magic-127-0-0-1.nip.io
 hexadecimal notation: magic-7f000001.nip.io
 
 The "dash" and "hexadecimal" notation is especially useful when using services like LetsEncrypt as it's just a regular sub-domain of nip.io
+```
 
 ---
 
-# File System
+# *File System*
 
 ### _[Common Internet File System (CIFS)](https://cifs.com/)_
 
