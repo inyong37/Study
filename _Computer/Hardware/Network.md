@@ -98,11 +98,11 @@ A device that works as a bridge and as a router. The brouter routes packets for 
 
 Hardware or software components which typically sit on the connection point of different networks (for example, between an internal network and en external network) include:
 
-### Proxy Server | [Wiki](https://en.wikipedia.org/wiki/Proxy_server)
+### Proxy Server | [WiKi](https://en.wikipedia.org/wiki/Proxy_server)
 
 Computer network service which allows client to make indirect network connections to other network services.
 
-### Firewall | [Wiki](https://en.wikipedia.org/wiki/Firewall_(computing))
+### Firewall | [WiKi](https://en.wikipedia.org/wiki/Firewall_(computing))
 
 A piece of hardware or software put on the network to prevent some communications forbidden by the network policy. A firewall typically establishes a barrier between a trusted, secure internal network and another outside network, such as the Internet, that is assumed to not be secure or trusted.
 
@@ -134,13 +134,23 @@ A specialized gateway for ISDN.
 
 A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
-## *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
+---
+
+# *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
 In computing, a server is a piece of computer hardware of software (computer program) that provides functionality for other programs of devices, called "clients". This architecture is called the client-server model. Servers can provide various functionalities, often called "services", such as sharing data or resources among multiple clients, or performing computation for a client. A single server can serve multiple clients, and a single client can use multiple servers. A client process may run on the same device or may connect over a network to a server on a different device. Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers.
 
 Client-server systems are usually most frequently implemented by (and often identified with) the request-response model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result for acknowledgment. Designating a computer as "server-class hardware" implies that is is specialized for running servers on it. This often implies that it is more powerful and relialbe than standard personal computers, but alternatively, large computing clusters may be composed of many relatively simple, replaceable server components.
 
-### Server Hosting | [IBM](https://www.ibm.com/cloud/learn/server-hosting)
+## *File Server* | [WiKi](https://en.wikipedia.org/wiki/File_server)
+
+In computing, a file server (or fileserver) is a computer attached to a network that provides a location for shared disk access, i.e. storage of computer files (such as text, image, sound, video) that can be accessed by the workstations that are able to reach the computer that shares the access through a computer network. The term server highlights the role of the machine in the tranditional client-server scheme, where the clients are the workstations using the storage. A file server does not normally perform computational tasks or run programs on behalf of its client workstations.
+
+## _Database Server_ | [WiKi](https://en.wikipedia.org/wiki/Database_server)
+
+A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client-server model. Database management systems (DBMSs) frequently provide database-server functionality, and some database management systems (such as MySQL) rely exclusively on the client-server model for database access (while others, like SQLite, are meant for use as an ebmedded database).
+
+## *Server Hosting* | [IBM](https://www.ibm.com/cloud/learn/server-hosting)
 
 Server hosting is an IT service, typically offered by a cloud service provider, that provides remote access to off-premises virtual or physical servers and associated resources for a monthly subscription or usage-based price. Server hosting lets IT teams provision and start using application and data servers without the up-front cost, delays, and labor of purchasing, setting up, managing, and maintaining physical server hardware themselves, on-site.
 
@@ -168,7 +178,7 @@ Dedicated server hosting is single-tenant hosting-the server has exclusive acces
 
 - The term bare metal server hosting is often used interchangeably with dedicated servers, but bare metal hosting offerings typically include more clould-like characterisitcs, such as provisioning in minutes (vs. hours), billing in hourly increments (vs. monthly), and providing higher-end hardware, including graphic processing units (GPUs).
 
-### Web Hosting | [Wiki](https://en.wikipedia.org/wiki/Web_hosting_service)
+### *Web Hosting* | [WiKi](https://en.wikipedia.org/wiki/Web_hosting_service)
 
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
@@ -298,9 +308,9 @@ Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi
 
 ---
 
-## Wireless | [WiKi](https://en.wikipedia.org/wiki/Wireless) | [Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
+## _Wireless_ | [WiKi](https://en.wikipedia.org/wiki/Wireless) | [Bluetooth, WiFi, Zigbee, and Z-Wave in IoT Blog](https://itigic.com/wifi-bluetooth-zigbee-z-wave-differences/)
 
-### Wireless Fidelity (Wi-Fi, WiFi) | [WiFi Alliance](https://www.wi-fi.org/) | [Papers](https://www.wi-fi.org/discover-wi-fi/papers)
+### _Wireless Fidelity (Wi-Fi, WiFi)_ | [WiFi Alliance](https://www.wi-fi.org/) | [Papers](https://www.wi-fi.org/discover-wi-fi/papers)
 
 A wireless data transmission technology used for Internet based on radio waves such as the radio, television, mobile telehony. The frequencies used are different, specifically the WiFi uses 2.4GHz and 5GHz.
 
@@ -315,7 +325,7 @@ A wireless data transmission technology used for Internet based on radio waves s
 
 Wi-Fi Protected Setup은 가정 및 소규모 사무실 환경에서 보안 적용된 Wi-Fi 네트워크를 간편하게 설정할 수 있도록 해주는 기술에 대한 인증 프로그램입니다. Wi-Fi Protected Setup은 소비자들이 익숙한 방법(버튼 누르기, PIN 입력)을 통해 네트워크를 구성하고 보안을 적용할 수 있도록 지원합니다.
 
-### Zigbee | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
+### _Zigbee_ | [TI](https://www.ti.com/wireless-connectivity/zigbee/overview.html)
 
 Zigbee is a standards-based wireless mesh network used widely in building automation, lighting, smart city, medical and asset tracking. Scalabe Zigbee offers the low power mesh solutions enabling multi-year coin cell use or battery-less operation across industrial temperatures. 
 
@@ -339,7 +349,7 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 - Mainly for home use, control of household items, sensors, electronic security elements, start-up of electronic devices or entertainment.
 - It is a closed protocol.
 
-### [NFC](http://nearfieldcommunication.org/) | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock NEWS (KR)](https://www.mk.co.kr/news/it/view/2021/02/133597/) | [Mobile Blog (KR)](https://m.blog.naver.com/shin6752/222129724466)
+### *[NFC](http://nearfieldcommunication.org/)* | [NordVPN](https://nordvpn.com/ko/blog/nfc-ran/) | [Doorlock NEWS (KR)](https://www.mk.co.kr/news/it/view/2021/02/133597/) | [Mobile Blog (KR)](https://m.blog.naver.com/shin6752/222129724466)
 
 Near field communication, abbreviated NFC, is a form of contactless communication between devices like smartphones or tablets. Contactless communication allows a user to wave the smartphone onver a NFC compatible device to send information without needing to touch the devices together or go throught multiple steps setting up a connection.
 
@@ -351,7 +361,7 @@ NFC는 Wi-Fi, 3G, LTE, 전원 또는 수동 페어링이 필요 없는 기술인
 
 주의할 점은 NFC를 활용한 도어록 해제방식은 피해야합니다. NFC의 경우, 한 개의 일련 번호를 대량으로 생산하기 때문에 내 휴대전화가 아닌 다른 사람의 휴대전화로도 열릴 수 있는 개연성이 충분합니다. 한국소비자원은 "교통카드, 신용카드, 휴대전화에 내장된 NFC 카드 등을 등록해 사용하지 말아햐 한다"고 강조했습니다.
 
-#### NFC 태그란?
+### NFC 태그란?
 
 NFC 태그는 NFC 칩이라고 생각하면 쉽게 이해할 수 있습니다. NFC 태그는 전자 유도의 원리에 따라 작동하므로 충전을 할 필요는 없습니다. 칩 자체는 아주 작으므로 명함, 펜, 열쇠 고리, 손목 밴드 등 많은 곳에 쉽게 손쉽게 설치할 수 있습니다. 또한 마이크로 칩과 여러 겹의 구리선으로 연결되어 있으며 이를 통해 주파수를 발생합니다. 마이크로 칩은 NFC를 지원하는 장치에서 읽을 수 있는 정보를 포함합니다.
 
@@ -359,7 +369,7 @@ NFC 태그는 NFC 칩이라고 생각하면 쉽게 이해할 수 있습니다. N
 
 태그의 복잡성은 다양할 수 있습니다. 단순한 태그는 읽기 및 쓰기 의미 체계만 제공하며 때로는 일회성 프로그래밍 가능한 영역을 사용하여 카드를 읽기 전용으로 설정합니다. 더 복잡한 태그는 수학 연산을 제공하며 섹터에 대한 접속을 인증하기 위해 암호화 하드웨어를 사용합니다. 가장 정교한 태그는 태그에서 실행되는 코드와 복잡한 상호작용이 가능하도록 하는 운영 환경을 포함합니다. 태그에 저장되는 데이터를 다양한 형식으로 작성할 수도 있지만, 다수의 안드로이드 프레임워크 API는 NDEF(NFC Data Exchange Format)라는 NFC Forum 표준을 기반으로 합니다.
 
-#### NFC와 RFID의 차이점
+### NFC와 RFID의 차이점
 
 - 수신 범위
 
@@ -369,7 +379,7 @@ NFC는 고작 10cm 정도인 것에 비해 일반적으로 RFID가 NFC보다 수
 
 RFID는 태그와 리더 역할이 고정되어 있습니다. 예를 들어 결제를 하는 상황에서 RFID는 태그의 역할로서 정보를 내주는 역할만 수행하고 카드 리더기는 RFID에서 정보를 읽는 역할을 수행합니다. 반면 NFC는 상황에 따라 태그와 리더 역할을 유동적으로 변경할 수 있습니다.
 
-#### NFC와 블루투스 차이점
+### NFC와 블루투스 차이점
 
 NFC와 Bluetooth는 모두 휴대폰에서 사용할 수 있는 비교적 단거리 통신 기술입니다.
 
@@ -377,7 +387,7 @@ NFC와 Bluetooth는 모두 휴대폰에서 사용할 수 있는 비교적 단거
 
 - 위에 서술되어 있듯이, NFC의 최대 수신 거리가 짧으므로 수신 거리 미만이면 연결이 자동으로 끊기기 때문에, 원치 않는 끼어들기의 가능성이 줄어듭니다. 신호를 전송하는 물리적 장치와의 상관 관계를 복잡하게 만드는 사람이 많고 혼잡한 지역에 특히 적합합니다.
 
-### [Bluetooth](https://www.bluetooth.com/) | [IEEE](https://ieeexplore.ieee.org/document/1368913)
+### _[Bluetooth](https://www.bluetooth.com/)_ | [IEEE](https://ieeexplore.ieee.org/document/1368913)
 
 Bluetooth is a standard for short range, low power, and low cost wireless communication that uses radio technology. Over 2100 compaines around the world already support Bluetooth technology. The wireless personal area network (WPAN) technology, based on the Bluetooth specification, is now an IEEE standard under the denomination of 802.15 WPANs. This work presents an overview about the Bluetooth communication. Bluetooth wireless technology encompasses several key points that facilitate its widespread adoption: 1) it is an open specification that is publicly available and royalty free; 2) its short-range wireless capability allows peripheral devices to communicate over a single air-interface, replacing the cables that use connectors with a multitude of shapes, sizes and numbers of pins; 3) Bluetooth supports both voice and data, making it an ideal technology to enable many types of devices to communicate; and 4) Bluetooth uses an unregulated frequency band available anywhere in the world.. To fully realize the Bluetooth vision, full networking of multiple Bluetooth devices is required. This leads to the investigation of Bluetooth scatternets, which must address ascatternet formation and reconfiguration, scheduling, and routing issues.
 
@@ -542,3 +552,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Cloud Computing WiKi, https://en.wikipedia.org/wiki/Cloud_computing, 2022-10-17-Mon.
 - Load Balancing Blog KR, https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903, 2022-10-18-Tue.
 - Failover vs. Failback Blog KR, https://velog.io/@zxcvbnm5288/%ED%8E%98%EC%9D%BC%EC%98%A4%EB%B2%84Failover%EC%99%80-%ED%8E%98%EC%9D%BC%EB%B0%B1Failback, 2022-10-21-Fri.
+- File Server WiKi, https://en.wikipedia.org/wiki/File_server, 2022-11-07-Mon.
+- Database Server WiKi, https://en.wikipedia.org/wiki/Database_server, 2022-11-07-Mon.
