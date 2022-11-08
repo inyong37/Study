@@ -1,6 +1,6 @@
 # _Network_
 
-`Language and Framework of Web move to "Web" folder.`
+`Language and Framework of Web moved to "Web" folder.`
 
 # _Internet_ | [WiKi](https://en.wikipedia.org/wiki/Internet)
 
@@ -39,6 +39,25 @@ Both words can be used interchangeably in general.
 ---
 
 # Protocol
+
+### _TCP_
+
+### TCP 3-Way Handshake | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
+
+TCP 3-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
+
+SYN: Used to initiate and establish a connection. It also helps you to synchronize sequence numbers between devices.
+
+ACK: Helps to confirm to the other side that it has received the SYN.
+
+SYN-ACK: SYN message from local device and ACK of the earlier packet.
+
+FIN: Used to terminate a connection.
+
+1. The client establishes a connection with a server
+2. The server responds to the client request with SYN-ACK signal set
+3. The client acknowledges the response of the Server
+4. TCP automatically terminates the connection between two separate endpoints
 
 ### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
@@ -354,3 +373,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - NFS IBM, https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system, 2022-11-07-Mon.
 - HTTP MDN, https://developer.mozilla.org/en-US/docs/Web/HTTP, 2022-11-07-Mon.
 - FTP WiKi, https://en.wikipedia.org/wiki/File_Transfer_Protocol, 2022-11-07-Mon.
+- TCP 3-Way Handshake Guru99, https://www.guru99.com/tcp-3-way-handshake.html, 2022-11-08-Tue.
