@@ -126,7 +126,7 @@ A device connecting a computer to a wire-based computer network.
 ### Wireless Network Interface Controller | [Wiki](https://en.wikipedia.org/wiki/Wireless_network_interface_controller)
 A device connecting the attached computer to a radio-biased computer network.
 
-### _MODEM_ | [WiKi](https://en.wikipedia.org/wiki/Modem) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8E%80#:~:text=%EB%AA%A8%EB%8E%80(MODEM%2C%20MOdulator%20and%20DEModulator,%EC%A3%BC%EB%B3%80%EA%B8%B0%EA%B8%B0%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4.)
+### _MODEM_ | [WiKi](https://en.wikipedia.org/wiki/Modem)
 
 Device that modulates an analog "carrier" signal (such as sound) to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information. Used (for example) when a computer communicates with another computer over a telephone network.
 
