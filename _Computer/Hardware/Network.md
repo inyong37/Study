@@ -48,7 +48,7 @@ Core network components interconnect other network components.
 
 An interface providing a compatibliliy between networks by converting transmission speeds, protocols, codes, or security measures.
 
-### Router | [Wiki](https://en.wikipedia.org/wiki/Router_(computing)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
+### _Router_ | [WiKi](https://en.wikipedia.org/wiki/Router_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
 
 A networking device that forwards data packets between computer networks. Routers perform the "traffic directing" functions on the Internet. A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node. It works on OSI layer 3.
 
@@ -126,13 +126,15 @@ A device connecting a computer to a wire-based computer network.
 ### Wireless Network Interface Controller | [Wiki](https://en.wikipedia.org/wiki/Wireless_network_interface_controller)
 A device connecting the attached computer to a radio-biased computer network.
 
-### Modem | [Wiki](https://en.wikipedia.org/wiki/Modem)
+### _MODEM_ | [WiKi](https://en.wikipedia.org/wiki/Modem) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8E%80#:~:text=%EB%AA%A8%EB%8E%80(MODEM%2C%20MOdulator%20and%20DEModulator,%EC%A3%BC%EB%B3%80%EA%B8%B0%EA%B8%B0%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4.)
+
 Device that modulates an analog "carrier" signal (such as sound) to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information. Used (for example) when a computer communicates with another computer over a telephone network.
 
-### ISDN Terminal Adapter (TA) | [Wiki](https://en.wikipedia.org/wiki/Terminal_adapter)
+### _ISDN Terminal Adapter (TA)_ | [WiKi](https://en.wikipedia.org/wiki/Terminal_adapter)
+
 A specialized gateway for ISDN.
 
-### Line Driver | [Wiki](https://en.wikipedia.org/wiki/Line_driver)
+### _Line Driver_ | [WiKi](https://en.wikipedia.org/wiki/Line_driver)
 
 A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
@@ -561,3 +563,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - File Server WiKi, https://en.wikipedia.org/wiki/File_server, 2022-11-07-Mon.
 - Database Server WiKi, https://en.wikipedia.org/wiki/Database_server, 2022-11-07-Mon.
 - Content Delivery Network Clourflare, https://www.cloudflare.com/learning/cdn/what-is-a-cdn/, 2022-11-08-Tue.
+- Modem WiKi KR, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8E%80#:~:text=%EB%AA%A8%EB%8E%80(MODEM%2C%20MOdulator%20and%20DEModulator,%EC%A3%BC%EB%B3%80%EA%B8%B0%EA%B8%B0%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4., 2022-11-08-Tue.
