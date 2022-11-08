@@ -153,15 +153,15 @@ Set associative cache는 direct mapped cache 방식과 fully associative cache �
 - DDR SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/DDR_SDRAM, 2020-11-09-Mon.
 - GDDR SDRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/GDDR_SDRAM, 2020-11-09-Mon.
 - Multi Channel Memory Architecture Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%A4%91_%EC%B1%84%EB%84%90_%EB%A9%94%EB%AA%A8%EB%A6%AC_%EA%B5%AC%EC%A1%B0, 2020-11-09-Mon.
-- Parity Bit Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
-- ECC emory Wiki KR-KO, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
-- Hamming Code Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8, 2020-11-10-Tue.
-- CPU Cache Wiki KR-KO, https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C, 2020-11-11-Wed.
-- NVM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
-- MRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
-- PRAM Wiki KR-KO, https://ko.wikipedia.org/wiki/PRAM, 2020-11-13-Fri.
-- HDD Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C, 2020-11-11-Wed.
-- HDD Platter Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0, 2020-11-11-Wed.
-- Floppy disk Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-11-Wed.
+- Parity Bit Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%A8%EB%A6%AC%ED%8B%B0_%EB%B9%84%ED%8A%B8, 2020-11-09-Mon.
+- ECC Memory Wiki KR, https://ko.wikipedia.org/wiki/ECC_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-09-Mon.
+- Hamming Code Wiki KR, https://ko.wikipedia.org/wiki/%ED%95%B4%EB%B0%8D_%EB%B6%80%ED%98%B8, 2020-11-10-Tue.
+- CPU Cache Wiki KR, https://ko.wikipedia.org/wiki/CPU_%EC%BA%90%EC%8B%9C, 2020-11-11-Wed.
+- NVM Wiki KR, https://ko.wikipedia.org/wiki/%EB%B9%84%ED%9C%98%EB%B0%9C%EC%84%B1_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
+- MRAM Wiki KR, https://ko.wikipedia.org/wiki/%EC%9E%90%EA%B8%B0_%EC%A0%80%ED%95%AD_%EB%A9%94%EB%AA%A8%EB%A6%AC, 2020-11-13-Fri.
+- PRAM Wiki KR, https://ko.wikipedia.org/wiki/PRAM, 2020-11-13-Fri.
+- HDD Wiki KR, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C, 2020-11-11-Wed.
+- HDD Platter Wiki KR, https://ko.wikipedia.org/wiki/%ED%95%98%EB%93%9C_%EB%94%94%EC%8A%A4%ED%81%AC_%ED%94%8C%EB%9E%98%ED%84%B0, 2020-11-11-Wed.
+- Floppy disk Wiki KR, https://ko.wikipedia.org/wiki/%ED%94%8C%EB%A1%9C%ED%94%BC_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-11-Wed.
 - OD Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B4%91_%EB%94%94%EC%8A%A4%ED%81%AC, 2020-11-13-Fri.
-- CPU Cache Blog KR-KO, https://gyoogle.dev/blog/computer-science/computer-architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.html, 2020-11-17-Tue.
+- CPU Cache Blog KR, https://gyoogle.dev/blog/computer-science/computer-architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.html, 2020-11-17-Tue.
