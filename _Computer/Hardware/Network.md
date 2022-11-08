@@ -206,6 +206,10 @@ The components of a cluster are usually connected to each other through fast loc
 
 Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a "pay-as-you-go" model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
 
+### _Content Delivery Network (CDN)_ | [Cloudflare](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+
 ---
 
 ### Multiplexing | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ljh0326s&logNo=220860314191)
@@ -554,3 +558,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Failover vs. Failback Blog KR, https://velog.io/@zxcvbnm5288/%ED%8E%98%EC%9D%BC%EC%98%A4%EB%B2%84Failover%EC%99%80-%ED%8E%98%EC%9D%BC%EB%B0%B1Failback, 2022-10-21-Fri.
 - File Server WiKi, https://en.wikipedia.org/wiki/File_server, 2022-11-07-Mon.
 - Database Server WiKi, https://en.wikipedia.org/wiki/Database_server, 2022-11-07-Mon.
+- Content Delivery Network Clourflare, https://www.cloudflare.com/learning/cdn/what-is-a-cdn/, 2022-11-08-Tue.
+- 
