@@ -2,39 +2,41 @@
 
 A computer network is a group of computers that use a set of common communication protocols over digital interconnections for the purpose of sharing resources located on or provided by the network nodes. THe interconnections between nodes are formed from a broad spectrum of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
-# Telecommunications Network | [Wiki](https://en.wikipedia.org/wiki/Telecommunications_network)
+## _Telecommunications Network_ | [Wiki](https://en.wikipedia.org/wiki/Telecommunications_network)
 
 A telecommunications network is a group of nodes interconnected by links that are used to exchange messages between the nodes. The links my use a variety of technologies based on the methodologies of circuit switching, message switching, or packet switching, to pass messages and signals.
 
-## Data Networks
+## _Data Networks_
 
 Data networks are used extensively throughout the world for communication between individuals and organizations. Data networks can be connected to allow users seamless access to resources that are hosted outside of the particular provider they are connected to. The Internet is the best example of many data networks from different organizations all operating under a single address space.
 
-### Wide Area Networks (WAN) | [Wiki](https://en.wikipedia.org/wiki/Wide_area_network)
+### _Wide Area Networks (WAN)_ | [Wiki](https://en.wikipedia.org/wiki/Wide_area_network)
 
-### Metropolitan Area Networks (MAN) | [Wiki](https://en.wikipedia.org/wiki/Metropolitan_area_network)
+### _Metropolitan Area Networks (MAN)_ | [Wiki](https://en.wikipedia.org/wiki/Metropolitan_area_network)
 
-### Local Area Networks (LAN) | [Wiki](https://en.wikipedia.org/wiki/Local_area_network)
+### _Local Area Networks (LAN)_ | [Wiki](https://en.wikipedia.org/wiki/Local_area_network)
 
-### Internet Area Networks (IAN) | [Wiki](https://en.wikipedia.org/wiki/Internet_area_network)
+### _Internet Area Networks (IAN)_ | [Wiki](https://en.wikipedia.org/wiki/Internet_area_network)
 
-### Compus Area Networks (CAN) | [Wiki](https://en.wikipedia.org/wiki/Campus_network)
+### _Campus Area Networks (CAN)_ | [Wiki](https://en.wikipedia.org/wiki/Campus_network)
 
-### Wireless Personal Area Network (WPAN) | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
+### _Wireless Personal Area Network (WPAN)_ | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
 
 A small-scale wireless network that requires little or no infrastructure and operates within a short range. A WPAN is typically used by a few devices in a single room instead of connecting the devices with cables.
 
-### Personal Area Network (PAN) | [CSRC](https://csrc.nist.gov/glossary/term/personal_area_network)
+### _Personal Area Network (PAN)_ | [CSRC](https://csrc.nist.gov/glossary/term/personal_area_network)
 
-### Virual Private Networks (VPN) | [Wiki](https://en.wikipedia.org/wiki/Virtual_private_network)
+### _Virual Private Networks (VPN)_ | [Wiki](https://en.wikipedia.org/wiki/Virtual_private_network)
 
-### Internet | [Wiki](https://en.wikipedia.org/wiki/Internet)
+---
 
-## Node | [Wiki](https://en.wikipedia.org/wiki/Node_(networking))
+## _Internet_ | [Wiki](https://en.wikipedia.org/wiki/Internet)
+
+## _Node_ | [Wiki](https://en.wikipedia.org/wiki/Node_(networking))
 
 In telecommunications networks, a node is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel. A passive distribution point such as a distribution frame or patch panel is consequently not a node.
 
-# Networking Hardware | [Wiki](https://en.wikipedia.org/wiki/Networking_hardware)
+# _Networking Hardware_ | [WiKi](https://en.wikipedia.org/wiki/Networking_hardware)
 
 Networking hardware, also known as network equipment or computer networking devices, are electronic devices which are required for communication and interaction between devices on a computer network. Specially, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data termianl equipment.
 
@@ -559,4 +561,3 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - File Server WiKi, https://en.wikipedia.org/wiki/File_server, 2022-11-07-Mon.
 - Database Server WiKi, https://en.wikipedia.org/wiki/Database_server, 2022-11-07-Mon.
 - Content Delivery Network Clourflare, https://www.cloudflare.com/learning/cdn/what-is-a-cdn/, 2022-11-08-Tue.
-- 
