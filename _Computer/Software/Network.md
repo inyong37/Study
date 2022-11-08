@@ -59,6 +59,10 @@ FIN: Used to terminate a connection.
 3. The client acknowledges the response of the Server
 4. TCP automatically terminates the connection between two separate endpoints
 
+### Round Trip Time (RTT) | [Blog (KR)](https://melonicedlatte.com/2020/12/21/215100.html)
+
+RTT는 패킷망(인터넷)에서 패킷을 보내고자 하는 측에서 패킷을 목적지에 보낼 때, 패킷이 목적지에 도달하고 나서 해당 패킷에 대한 응답이 출발지로 다시 돌아오기까지의 시간, 패킷 왕복 시간이다. RTT는 네트워크 성능을 측정할 때 네트워크 연결의 속도와 안정성을 진단할 때 사용된다.
+
 ### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, buit it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
@@ -374,3 +378,5 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - HTTP MDN, https://developer.mozilla.org/en-US/docs/Web/HTTP, 2022-11-07-Mon.
 - FTP WiKi, https://en.wikipedia.org/wiki/File_Transfer_Protocol, 2022-11-07-Mon.
 - TCP 3-Way Handshake Guru99, https://www.guru99.com/tcp-3-way-handshake.html, 2022-11-08-Tue.
+- Round Trip Time (RTT) Blog KR, https://melonicedlatte.com/2020/12/21/215100.html, 2022-11-08-Tue.
+- 
