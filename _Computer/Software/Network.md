@@ -69,13 +69,21 @@ Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmit
 
 ### *HTTP Secure (HTTPS)*
 
-### HTTP vs. HTTPS
-
-HTTPS is also referred to as HTTP over TLS or http over SSL
-
 ### *File Transfer Protocol (FTP)*| [WiKi](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
 
 The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
+
+### _Secure Sockets Layer (SSL)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+
+SSL, or Secure Sockets Layer, is an encryption-based Internet security protocol. It was first developed by Netscape in 1995 for the purpose of ensuring privacy, authentication, and data integrity in Internet communications. SSL is the predecessor to the modern TLS encryption used today.
+
+A website that implements SSL/TLS has "HTTPS" in its URL instead of "HTTP".
+
+### _Transport Layer Security (TLS)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
+
+Transport Layer Security, or TLS, is a widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet. A primary use case of TLS is encrypting the communication between web applications and servers, such as web browsers loading a website. TLS can also be used to encrypt other communications such as email, messaging, and voice over IP (VoIP).
+
+TLS was proposed by the Internet Engineering Task Force (IETF), an international standards organization, and the first version of the protocol was published in 1999.
 
 ### *Secure Shell (SSH)*
 
@@ -379,4 +387,5 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - FTP WiKi, https://en.wikipedia.org/wiki/File_Transfer_Protocol, 2022-11-07-Mon.
 - TCP 3-Way Handshake Guru99, https://www.guru99.com/tcp-3-way-handshake.html, 2022-11-08-Tue.
 - Round Trip Time (RTT) Blog KR, https://melonicedlatte.com/2020/12/21/215100.html, 2022-11-08-Tue.
-- 
+- SSL Cloudflare, https://www.cloudflare.com/learning/ssl/what-is-ssl/, 2022-11-09-Wed.
+- TLS Cloudflare, https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/, 2022-11-09-Wed.
