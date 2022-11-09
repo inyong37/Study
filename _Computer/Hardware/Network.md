@@ -70,21 +70,19 @@ The OSI Model can be seen as a universal language for computing networking. It's
 
 ---
 
-## _Internet_ | [WiKi](https://en.wikipedia.org/wiki/Internet)
-
 ## _Node_ | [WiKi](https://en.wikipedia.org/wiki/Node_(networking))
 
 In telecommunications networks, a node is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel. A passive distribution point such as a distribution frame or patch panel is consequently not a node.
 
-# _Networking Hardware_ | [WiKi](https://en.wikipedia.org/wiki/Networking_hardware)
+## _Networking Hardware_ | [WiKi](https://en.wikipedia.org/wiki/Networking_hardware)
 
 Networking hardware, also known as network equipment or computer networking devices, are electronic devices which are required for communication and interaction between devices on a computer network. Specially, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data termianl equipment.
 
-## Core
+## _Core_
 
 Core network components interconnect other network components.
 
-### Gateway | [WiKi](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+### _Gateway_ | [WiKi](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
 
 An interface providing a compatibliliy between networks by converting transmission speeds, protocols, codes, or security measures.
 
@@ -92,7 +90,7 @@ An interface providing a compatibliliy between networks by converting transmissi
 
 A networking device that forwards data packets between computer networks. Routers perform the "traffic directing" functions on the Internet. A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node. It works on OSI layer 3.
 
-### Switch | [WiKi](https://en.wikipedia.org/wiki/Network_switch)
+### _Switch_ | [WiKi](https://en.wikipedia.org/wiki/Network_switch)
 
 A device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. It works on OSI layer 2.
 
@@ -100,15 +98,15 @@ A device that connects devices together on a computer network, by using packet s
 
 A device that connects multiple network segments. It works on OSI layers 1 and 2.
 
-### Repeater | [WiKi](https://en.wikipedia.org/wiki/Repeater)
+### _Repeater_ | [WiKi](https://en.wikipedia.org/wiki/Repeater)
 
 An electronic device that receives a signal and retransmits it at a higher level or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances.
 
-### Repeater Hub | [WiKi](https://en.wikipedia.org/wiki/Ethernet_hub)
+### _Repeater Hub_ | [WiKi](https://en.wikipedia.org/wiki/Ethernet_hub)
 
 For connecting multiple Ethernet devices together and making them act as a single network segment. It has multiple input/output (I/O) ports, in which a signal introduced at the input of any port appears at the output of every port except the original incoming. A hub works at the physical layer (layer 1) of the OSI model. Repeater hubs also participate in collision detection, forwarding a jam signal to all ports if it detects a collision. Hubs are now largely obsolete, having been replaced by network switches except in very old installations or specialized applications.
 
-### :bulb: Wireless Access Point (WAP) | [WiKi](https://en.wikipedia.org/wiki/Wireless_access_point) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
+### _Wireless Access Point (WAP)_ | [WiKi](https://en.wikipedia.org/wiki/Wireless_access_point) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
 
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다. 
 
@@ -161,9 +159,11 @@ Interface between a WAN connection to an internet service provider and the home 
 Other hardware devices used for establishing networks or dial-up connections include:
 
 ### Network Interface Controller (NIC) | [WiKi](https://en.wikipedia.org/wiki/Network_interface_controller)
+
 A device connecting a computer to a wire-based computer network.
 
 ### Wireless Network Interface Controller | [WiKi](https://en.wikipedia.org/wiki/Wireless_network_interface_controller)
+
 A device connecting the attached computer to a radio-biased computer network.
 
 ### _MODEM_ | [WiKi](https://en.wikipedia.org/wiki/Modem)
@@ -180,17 +180,17 @@ A device to increase transmission distance by amplifying the signal; used in bas
 
 ---
 
-# *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
+## *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
 In computing, a server is a piece of computer hardware of software (computer program) that provides functionality for other programs of devices, called "clients". This architecture is called the client-server model. Servers can provide various functionalities, often called "services", such as sharing data or resources among multiple clients, or performing computation for a client. A single server can serve multiple clients, and a single client can use multiple servers. A client process may run on the same device or may connect over a network to a server on a different device. Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers.
 
 Client-server systems are usually most frequently implemented by (and often identified with) the request-response model: a client sends a request to the server, which performs some action and sends a response back to the client, typically with a result for acknowledgment. Designating a computer as "server-class hardware" implies that is is specialized for running servers on it. This often implies that it is more powerful and relialbe than standard personal computers, but alternatively, large computing clusters may be composed of many relatively simple, replaceable server components.
 
-## *File Server* | [WiKi](https://en.wikipedia.org/wiki/File_server)
+### *File Server* | [WiKi](https://en.wikipedia.org/wiki/File_server)
 
 In computing, a file server (or fileserver) is a computer attached to a network that provides a location for shared disk access, i.e. storage of computer files (such as text, image, sound, video) that can be accessed by the workstations that are able to reach the computer that shares the access through a computer network. The term server highlights the role of the machine in the tranditional client-server scheme, where the clients are the workstations using the storage. A file server does not normally perform computational tasks or run programs on behalf of its client workstations.
 
-## _Database Server_ | [WiKi](https://en.wikipedia.org/wiki/Database_server)
+### _Database Server_ | [WiKi](https://en.wikipedia.org/wiki/Database_server)
 
 A database server is a server which uses a database application that provides database services to other computer programs or to computers, as defined by the client-server model. Database management systems (DBMSs) frequently provide database-server functionality, and some database management systems (such as MySQL) rely exclusively on the client-server model for database access (while others, like SQLite, are meant for use as an ebmedded database).
 
@@ -226,6 +226,10 @@ Dedicated server hosting is single-tenant hosting-the server has exclusive acces
 
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
+### _Content Delivery Network (CDN)_ | [Cloudflare](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+
+A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+
 ---
 
 ## *Distributed Computing* | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
@@ -249,10 +253,6 @@ The components of a cluster are usually connected to each other through fast loc
 ### *Cloud Computing* | [WiKi](https://en.wikipedia.org/wiki/Cloud_computing)
 
 Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a "pay-as-you-go" model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
-
-### _Content Delivery Network (CDN)_ | [Cloudflare](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
-
-A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
 
 ---
 
@@ -332,24 +332,27 @@ IoT는 인터넷에 연결되는 장치의 네트워크인 반면, M2M은 두 �
 
 ---
 
-### Gateway | [Wiki](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+### _Gateway_ | [WiKi](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
 A gateway is a piece of networking hardware or software used in telecommunications networks that allows data to flow from one discrete network to another. Gateways are distinct from routers or switches in that they communicate using more than one protocol to connect multiple networks and can operate at any of the seven layers of the open systems interconnection model (OSI).
 
 The term gateway can also loosely refer to a computer or computer program configured to perform the tasks of a gateway, such as a default gateway or router, and in the case of HTTP, gateway is also often used as a synonym for reverse proxy.
 
-#### IoT gateway
+### _IoT Gateway_
+
 An Internet of things (IoT) gateway provides the bridge (protocol converter) between IoT devices in the field, the cloud, and user equipment such as smartphones. The IoT gateway provides a communication link between the field and the cloud, and may provide offline services and real-time control of devices in the field.
 
 To achieve sustainable interoperability in the Internet of things ecosystem, two dominant architectures for data exchange protocols are used: bus-based (DDS, REST, XMPP) and broker-based (AMQP, CoAP, MQTT, JMI). Protocols that support information exchange between interoperable domains are classified as message centric (AMQP, MQTT, JMS, REST) or data-centric (DDS, CoAP, XMPP). Interconnected devices communicate using lightweight protocols that don't require extensive CPU resources. C, Java, Python and some scripting languages are the preferred choices of IoT application developers. IoT nodes use separate IoT gateways to handle protocol conversion, database storage or decision making (e.g. collision handling), in order to supplement the low intelligence of devices.
 
-### Mesh Networking | [WiKi](https://en.wikipedia.org/wiki/Mesh_networking)
+### _Mesh Networking_ | [WiKi](https://en.wikipedia.org/wiki/Mesh_networking)
+
 A mesh networking (or simply meshnet) is a local area network topology in which the infrastructure nodes (i.e. bridges, swithces, and other infrastructure devices) connect directly, dynamically and non-hierarchially to as many other nodes as possible and cooperate with one another to efficiently route data to and from clients.
 
 This lack of dependency on one node allows for every node to participate in the relay of information. Mesh networks dynamically self-organize and self-configure, which can reduce installation overhead. The ability to self-configure enables dynamic distribution of workloads, particularly in the event a few nodes should fail. This in turn contributes to fault-tolerance and reduced maintenance costs.
 
 Mesh topology may be contrasted with conventional star/tree local network topologies in which the bridges/switches are directly linked to only a small subset of other bridges/switches, and the links between these infrastructure neighbours are hierarchical. While star-and-tree topologies are very well established, highly standardized and vendor-neutral, vendors of mesh network devices have not yet all agreed on common standards, and interoperability between devices from different vendors is not yet assured.
 
-### Mesh Wi-Fi | [TP-Link](https://www.tp-link.com/kr/mesh-wifi/)
+### _Mesh Wi-Fi_ | [TP-Link](https://www.tp-link.com/kr/mesh-wifi/)
+
 안정적인 네트워크가 중요한 비즈니스 상황에서만 사용되었다. 최근 소비자 시장에도 진출해 빠른 속도와 넓은 범위의 Wi-Fi 네트워크를 제공한다.
 
 Mesh Wi-Fi는 사각지대를 제거하고 가정 전체에서 중단없는 WiFi를 제공하기 위해 설계된 가정용 WiFi시스템이다. Mesh 시스템은 네트워크에 연결된 디바이스가 더 빠른 속도, 더 넓은 커버리즈 그리고 신뢰할 수 있는 연결성을 갖도록 도와줍니다. 기존의 공유기가 단일 포인트 지점에서 WiFi를 전송했다면 Mesh WiFi 시스템은 여러 개의 액세스 포인트에 신호를 전달합니다. 하나의 디바이스가 모뎀에 연결되면 해당 디바이스는 메인 허브가 됩니다. 다른 디바이스(노드)는 공유기의 신호를 잡고 다시 신호를 보냅니다. 그 결과 사용자가 어디에 있든 강한 신호의 무선 네트워크를 이용할 수 있습니다.
@@ -369,7 +372,7 @@ A wireless data transmission technology used for Internet based on radio waves s
 - Difficulty crossing certain obstacles and may find interference with other waves emitting at the same frequencies.
 - It use is perhaps the most widespread and hence we can find a lot of connected devices today.
 
-### [Wi-Fi Protected Setup (WPS)](https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup)
+### _[Wi-Fi Protected Setup (WPS) (KR)](https://www.wi-fi.org/ko/discover-wi-fi/wi-fi-protected-setup)_
 
 Wi-Fi Protected Setup은 가정 및 소규모 사무실 환경에서 보안 적용된 Wi-Fi 네트워크를 간편하게 설정할 수 있도록 해주는 기술에 대한 인증 프로그램입니다. Wi-Fi Protected Setup은 소비자들이 익숙한 방법(버튼 누르기, PIN 입력)을 통해 네트워크를 구성하고 보안을 적용할 수 있도록 지원합니다.
 
@@ -386,7 +389,7 @@ Zigbee is a standards-based wireless mesh network used widely in building automa
 - Mainly for home use, sensors, data collections that do not require high speeds, toys, etc.
 - It is an open protocol.
 
-### Z-Wave | [TechTarget](https://www.techtarget.com/iotagenda/definition/Z-Wave)
+### _Z-Wave_ | [TechTarget](https://www.techtarget.com/iotagenda/definition/Z-Wave)
 
 - Requires the use of a bridge or hub device.
 - Mesh network system.
@@ -439,11 +442,11 @@ NFC와 Bluetooth는 모두 휴대폰에서 사용할 수 있는 비교적 단거
 
 Bluetooth is a standard for short range, low power, and low cost wireless communication that uses radio technology. Over 2100 compaines around the world already support Bluetooth technology. The wireless personal area network (WPAN) technology, based on the Bluetooth specification, is now an IEEE standard under the denomination of 802.15 WPANs. This work presents an overview about the Bluetooth communication. Bluetooth wireless technology encompasses several key points that facilitate its widespread adoption: 1) it is an open specification that is publicly available and royalty free; 2) its short-range wireless capability allows peripheral devices to communicate over a single air-interface, replacing the cables that use connectors with a multitude of shapes, sizes and numbers of pins; 3) Bluetooth supports both voice and data, making it an ideal technology to enable many types of devices to communicate; and 4) Bluetooth uses an unregulated frequency band available anywhere in the world.. To fully realize the Bluetooth vision, full networking of multiple Bluetooth devices is required. This leads to the investigation of Bluetooth scatternets, which must address ascatternet formation and reconfiguration, scheduling, and routing issues.
 
-#### Bluetooth Classic
+### Bluetooth Classic
 
 The Bluetooth Classic radio, also referred to as Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR), is a low power radio that streams data over 79 channels in the 2.4GHz unlicensed industrial, scientific, and medical (ISM) frequency band. Supporting point-to-point device communication, Bluetooth Classic is mainly used to enable wireless audio streaming and has become the standard radio protocol behind wireless speakers, headphones, and in-car entertainment systems. The Bluetooth Classic radio also enables data transfer applications, including mobile printing.
 
-#### Bluetooth Low Energy (LE)
+### Bluetooth Low Energy (LE)
 
 The Bluetooth Low Energy (LE) radio is designed for very low power operation. Transmitting data over 40 channels in the 2.4GHz unlicensed ISM frequency band, the Bluetooth LE radio provides developers a tremendous amount of flexibility to build products that meet the unique connectivity requirements of their market. Bluetooth LE supports multiple communication topologies, expanding from point-to-point to broadcast and, most recently, mesh, enabling Bluetooth technology to support the creation of reliable, large-scale device networks. While initially known for its device communications capabilities, Bluetooth LE is now also widely used as a device positioning technology to address the increasing demand for high accuracy indoor location services. Bluetooth LE now includes features that enable one device to determine the presence, distance, and direction of another device.
 
@@ -456,7 +459,7 @@ The Bluetooth Low Energy (LE) radio is designed for very low power operation. Tr
 
 ---
 
-### [Matter](https://csa-iot.org/all-solutions/matter/) | [GitHub](https://github.com/project-chip/connectedhomeip)
+### _[Matter](https://csa-iot.org/all-solutions/matter/)_ | [GitHub](https://github.com/project-chip/connectedhomeip)
 
 Matter (formerly Project Connected Home over IP, or Project CHIP) is a new Working Group within the Connectivity Standards Alliance (CSA, formerly Zigbee Alliance). This Working Group plans to develop and promote the adoption of a new, royalty-free connectivity standard to increase compatibility among smart home products, with security as a fundamental design tenet.
 
@@ -466,7 +469,7 @@ The CSA officially opened the Matter Working Group on January 17, 2020 and is in
 
 ---
 
-## Host-based card emulation overview | [Android](https://developer.android.com/guide/topics/connectivity/nfc/hce)
+### _Host-based card emulation overview_ | [Android](https://developer.android.com/guide/topics/connectivity/nfc/hce)
 
 Many Android-powered devices that offer NFC functionality already support NFC card emulation. In most cases, the card is emulated by a separate chip in the device, called a secure element. Many SIM cards provided by wireless carriers also contain a secure element.
 
@@ -494,7 +497,7 @@ Specifically, Android 4.4 and higher supports emulating cards that are based on 
 
 The HCE architecture in Android is based around Android `Service` components (known as HCE services). One of the key advantages of a service is that it can run in the background without any user interface. This is a natural fit for many HCE applications, like loyality or transit cards, which the user shouldn't need to launch an app to use. Instead, tapping the device against the NFC reader starts the correct service if it is not already running and executes the transaction in the background. Of course, you are free to launch additional UI (such as user notifications) from your service when appropriate.
 
-## Core NFC | [Apple](https://developer.apple.com/documentation/corenfc)
+### _Core NFC_ | [Apple](https://developer.apple.com/documentation/corenfc)
 
 Detect NFC tags, read messages that contiain NDEF data, and save data to writable tags.
 
@@ -506,13 +509,13 @@ Core NFC is not available for use in app extensions, and it requires a device th
 
 Core NFC doesn't support payment-realted Application IDs.
 
-## Tap to Pay on iPhone | [Apple](https://developer.apple.com/tap-to-pay/)
+### Tap to Pay on iPhone | [Apple](https://developer.apple.com/tap-to-pay/)
 
 Payment apps can now accpet contactless payments from contactless credit or debit cards, Apple Pay, Apple Watch, and smartphones with other digital wallets - right on iPhone and without any extra terminals or hardware.
 
 With over two thirds of all credit and debit cards in the U.S. issued as contactless - enabled cards, and rapidly increasing adoption of contactless payments, merchants will be able to seamlessly accept payments through a simple tap on their iPhone from most customers.
 
-## ProximityReader | [Apple](https://developer.apple.com/documentation/ProximityReader)
+### ProximityReader | [Apple](https://developer.apple.com/documentation/ProximityReader)
 
 Read contactless physical and digital wallet cards using your iPhone.
 
