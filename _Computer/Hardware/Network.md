@@ -10,23 +10,29 @@ A telecommunications network is a group of nodes interconnected by links that ar
 
 Data networks are used extensively throughout the world for communication between individuals and organizations. Data networks can be connected to allow users seamless access to resources that are hosted outside of the particular provider they are connected to. The Internet is the best example of many data networks from different organizations all operating under a single address space.
 
-### _Wide Area Networks (WAN)_ | [WiKi](https://en.wikipedia.org/wiki/Wide_area_network)
+### _Wide Area Networks (WAN)_ | [WiKi](https://en.wikipedia.org/wiki/Wide_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html)
 
-### _Metropolitan Area Networks (MAN)_ | [WiKi](https://en.wikipedia.org/wiki/Metropolitan_area_network)
+In its simplest form, a wide-area network (WAN) is a collection of local-area networks (LANs) or other networks that communicate with one another. A WAN is essentially a network of networks, with the Internet of world's largest WAN.
 
-### _Local Area Networks (LAN)_ | [WiKi](https://en.wikipedia.org/wiki/Local_area_network)
+Metropolitan Area Networks (MAN) | [WiKi](https://en.wikipedia.org/wiki/Metropolitan_area_network)
 
-### _Internet Area Networks (IAN)_ | [WiKi](https://en.wikipedia.org/wiki/Internet_area_network)
+### _Local Area Networks (LAN)_ | [WiKi](https://en.wikipedia.org/wiki/Local_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html)
 
-### _Campus Area Networks (CAN)_ | [WiKi](https://en.wikipedia.org/wiki/Campus_network)
+A local area network (LAN) is a collection of devices connected together in one physical location, such as a building, office, or home. A LAN can be small or large, ranging from a home network with one user to an enterprise network with thousands of users and devices in an office or school.
+
+Regardless of size, a LAN's single defining characteristic is that it connects devices that are in a single, limited area. In contrast, a wide area network (WAN) or metropolitan area network (MAN) covers larger geographic areas. Some WANs and MANs connect many LANs together.
+
+Internet Area Networks (IAN) | [WiKi](https://en.wikipedia.org/wiki/Internet_area_network)
+
+Campus Area Networks (CAN) | [WiKi](https://en.wikipedia.org/wiki/Campus_network)
 
 ### _Wireless Personal Area Network (WPAN)_ | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
 
 A small-scale wireless network that requires little or no infrastructure and operates within a short range. A WPAN is typically used by a few devices in a single room instead of connecting the devices with cables.
 
-### _Personal Area Network (PAN)_ | [CSRC](https://csrc.nist.gov/glossary/term/personal_area_network)
+Personal Area Network (PAN) | [CSRC](https://csrc.nist.gov/glossary/term/personal_area_network)
 
-### _Virual Private Networks (VPN)_ | [WiKi](https://en.wikipedia.org/wiki/Virtual_private_network)
+Virual Private Networks (VPN) | [WiKi](https://en.wikipedia.org/wiki/Virtual_private_network)
 
 ## _Open Systems Interconnection (OSI) Model_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 
@@ -599,4 +605,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Content Delivery Network Clourflare, https://www.cloudflare.com/learning/cdn/what-is-a-cdn/, 2022-11-08-Tue.
 - Modem WiKi KR, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8E%80#:~:text=%EB%AA%A8%EB%8E%80(MODEM%2C%20MOdulator%20and%20DEModulator,%EC%A3%BC%EB%B3%80%EA%B8%B0%EA%B8%B0%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4., 2022-11-08-Tue.
 - OSI Model Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/, 2022-11-09-Wed.
-- 
+- LAN Cisco, https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html, 2022-11-09-Wed.
+- WAN Cisco, https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html, 2022-11-09-Wed.
