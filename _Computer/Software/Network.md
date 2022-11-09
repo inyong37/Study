@@ -42,6 +42,12 @@ Both words can be used interchangeably in general.
 
 In networking, a protocol is a set of rules for formatting and processing data. Network protocols are like a common language for computers. The computers within a network may use vastly different software and hardware; however, the use of protocols enables them to communicate with each other regardless.
 
+### _Internet Protocol (IP)_ | [Cloudflare](https://www.cloudflare.com/learning/network-layer/internet-protocol/)
+
+The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets. IP information is attached to each packet, and this information helps routers to send packets to the right places. Every device or domain that connects to the Internet is assigned an IP address, and as packets are directed to the IP address attached to them, data arrives where it is needed.
+
+Once the packets arrive at their destination, they are handled differently depending on which transport protocol is used in combination with IP. The most common transport protocols are TCP and UDP.
+
 ### _TCP_
 
 ### TCP 3-Way Handshake | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
@@ -410,3 +416,5 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - HTTP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/, 2022-11-09-Wed.
 - UDP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/, 2022-11-09-Wed.
 - Protocol Cloudflare, https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/, 2022-11-09-Wed.
+- IP Cloudflare, https://www.cloudflare.com/learning/network-layer/internet-protocol/, 2022-11-09-Wed.
+- 
