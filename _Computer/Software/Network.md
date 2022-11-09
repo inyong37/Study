@@ -48,9 +48,13 @@ The Internet Protocol (IP) is a protocol, or set of rules, for routing and addre
 
 Once the packets arrive at their destination, they are handled differently depending on which transport protocol is used in combination with IP. The most common transport protocols are TCP and UDP.
 
+### _IPv4 vs. IPv6_
+
+The fourth version of IP (IPv4 for short) was introduced in 1983. However, just as there are only so many possible permutations for automoblie license plate numbers and they have to be reformatted periodically, the supply of available IPv4 addresses has become depleted. IPv6 addresses have many more characters and thus more permutations; however, IPv6 is not yet completely adopted, and most domains and devices still have IPv4 addresses.
+
 ### _TCP_
 
-### TCP 3-Way Handshake | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
+### _TCP 3-Way Handshake_ | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
 
 TCP 3-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
 
