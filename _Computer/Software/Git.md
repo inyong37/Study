@@ -1,7 +1,16 @@
-# Git | [Homepage](https://git-scm.com/)
+# _[Git](https://git-scm.com/)_
+
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.[Ref]
+Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
+
+## _[Github](https://github.com/)_
+
+GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
+
+## _[GitLab](https://about.gitlab.com/)_ | [GitHub](https://github.com/gitlabhq)
+
+GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다.
 
 ### Status
 
@@ -30,6 +39,7 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 - Commit: Unmodified <- Staged
 
 ### Branch
+
 #### Make branch
 - `git branch branch_name`
 #### Make and change branch
@@ -173,17 +183,10 @@ git 2.23.0 부터 branch를 switch하기 위한 command이다. 이전의 checkou
 - How to setup GitHub token in config file
   - `git config --global github.token`
 
-----------------------------------------------------------------------------------------------------
+---
 
-## Github | [Homepage](https://github.com/)
-GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
+## [Git Tutorial Game](https://learngitbranching.js.org/)
 
-## GitLab| [Homepage](https://about.gitlab.com/) | [Source Code](https://github.com/gitlabhq)
-GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다. [Ref]
-
-----------------------------------------------------------------------------------------------------
-
-## Git Tutorial Game | [Homepage](https://learngitbranching.js.org/)
 - See tutorials command: `levels`
 ### i. Local
 ### A. Intro
@@ -327,7 +330,9 @@ git describe master; git describe side; git describe bugFix; git commit
 - My Solution: `git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push`
 - Solution: `git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push`
 
-#### Reference
+---
+
+### Reference
 - Git Log Quit, https://stackoverrun.com/ko/q/2483042, 2020-03-10-Tue.
 - Git, https://opentutorials.org/course/785/4933, 2020-07-06-Mon.
 - GitLab, https://about.gitlab.com/, 2020-07-06-Mon.
