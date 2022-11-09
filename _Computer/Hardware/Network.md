@@ -34,19 +34,33 @@ The open systems interconnection (OSI) model is a conceptual model created by th
 
 The OSI Model can be seen as a universal language for computing networking. It's based on the concept of splitting up a communication system into seven abstract layers, each one stacked upon the last.
 
-Application Layer 7: Human-computer interaction layer, where applications can access the network services.
+- Application Layer 7
+  - Human-computer interaction layer, where applications can access the network services.
+  - Request content <-> Return content in required format
 
-Presentation Layer 6: Ensures that data is in a usable format and is where data encryption occurs.
+- Presentation Layer 6
+  - Ensures that data is in a usable format and is where data encryption occurs.
+  - Encryption -> Compression -> Translation
 
-Session Layer 5: Maintains connections and is responsible for controlling ports and sessions.
+- Session Layer 5
+  - Maintains connections and is responsible for controlling ports and sessions. 
+  - Session of communication
 
-Transport Layer 4: Transmits data using transmission protocols including TCP and UDP.
+- Transport Layer 4
+  - Transmits data using transmission protocols including TCP and UDP.
+  - Segmentation -> Transport -> Reassembly
 
-Network Layer 3: Decides which physical path the data will take.
+- Network Layer 3
+  - Decides which physical path the data will take.
+  - Packets Creations -> Transport -> Packets Assembly
 
-Datalink Layer 2: Defines the format of data on the network.
+- Datalink Layer 2
+  - Defines the format of data on the network.
+  - Frame Creation -> Transport -> Transfer frames betweennet
 
-Physical Layer 1: Transmits raw bit stream over the physical medium.
+- Physical Layer 1
+  - Transmits raw bit stream over the physical medium.
+  - Sending cable -> Bitstream -> Receiving cable
 
 ---
 
