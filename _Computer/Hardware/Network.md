@@ -28,6 +28,26 @@ A small-scale wireless network that requires little or no infrastructure and ope
 
 ### _Virual Private Networks (VPN)_ | [WiKi](https://en.wikipedia.org/wiki/Virtual_private_network)
 
+## _Open Systems Interconnection (OSI) Model_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+
+The open systems interconnection (OSI) model is a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In plain English, the OSI provides a standard for different computer systems to be able to communicate with each other.
+
+The OSI Model can be seen as a universal language for computing networking. It's based on the concept of splitting up a communication system into seven abstract layers, each one stacked upon the last.
+
+Application Layer 7: Human-computer interaction layer, where applications can access the network services.
+
+Presentation Layer 6: Ensures that data is in a usable format and is where data encryption occurs.
+
+Session Layer 5: Maintains connections and is responsible for controlling ports and sessions.
+
+Transport Layer 4: Transmits data using transmission protocols including TCP and UDP.
+
+Network Layer 3: Decides which physical path the data will take.
+
+Datalink Layer 2: Defines the format of data on the network.
+
+Physical Layer 1: Transmits raw bit stream over the physical medium.
+
 ---
 
 ## _Internet_ | [WiKi](https://en.wikipedia.org/wiki/Internet)
@@ -564,3 +584,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Database Server WiKi, https://en.wikipedia.org/wiki/Database_server, 2022-11-07-Mon.
 - Content Delivery Network Clourflare, https://www.cloudflare.com/learning/cdn/what-is-a-cdn/, 2022-11-08-Tue.
 - Modem WiKi KR, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8E%80#:~:text=%EB%AA%A8%EB%8E%80(MODEM%2C%20MOdulator%20and%20DEModulator,%EC%A3%BC%EB%B3%80%EA%B8%B0%EA%B8%B0%EB%A1%9C%20%EB%A7%8E%EC%9D%B4%20%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4., 2022-11-08-Tue.
+- OSI Model Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/, 2022-11-09-Wed.
+- 
