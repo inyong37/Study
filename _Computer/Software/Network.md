@@ -38,7 +38,9 @@ Both words can be used interchangeably in general.
 
 ---
 
-# Protocol
+## _Protocol_ | [Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/)
+
+In networking, a protocol is a set of rules for formatting and processing data. Network protocols are like a common language for computers. The computers within a network may use vastly different software and hardware; however, the use of protocols enables them to communicate with each other regardless.
 
 ### _TCP_
 
@@ -407,3 +409,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - HTTPS Cloudflare, https://www.cloudflare.com/learning/ssl/what-is-https/, 2022-11-09-Wed.
 - HTTP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/, 2022-11-09-Wed.
 - UDP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/, 2022-11-09-Wed.
+- Protocol Cloudflare, https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/, 2022-11-09-Wed.
