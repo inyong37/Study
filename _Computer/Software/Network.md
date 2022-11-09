@@ -54,6 +54,10 @@ The fourth version of IP (IPv4 for short) was introduced in 1983. However, just 
 
 ### _TCP_
 
+### _TCP/IP_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
+
+The IP is the address system of the Internet and has the core function of delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made, and it established the basis of the Internet. IP does not handle packet ordering or error checking. Such functionality requires another protocol, typically TCP.
+
 ### _TCP 3-Way Handshake_ | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
 
 TCP 3-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
@@ -66,9 +70,9 @@ SYN-ACK: SYN message from local device and ACK of the earlier packet.
 
 FIN: Used to terminate a connection.
 
-1. The client establishes a connection with a server
-2. The server responds to the client request with SYN-ACK signal set
-3. The client acknowledges the response of the Server
+1. The client establishes a connection with a server (1) SYN
+2. The server responds to the client request with (2) SYN-ACK signal set
+3. The client acknowledges the response of the Server (3) ACK
 4. TCP automatically terminates the connection between two separate endpoints
 
 ### _User Datagram Protocol (UDP)_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
@@ -421,4 +425,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - UDP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/, 2022-11-09-Wed.
 - Protocol Cloudflare, https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/, 2022-11-09-Wed.
 - IP Cloudflare, https://www.cloudflare.com/learning/network-layer/internet-protocol/, 2022-11-09-Wed.
-- 
+- TCP/IP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/, 2022-11-09-Wed.
