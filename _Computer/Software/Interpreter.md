@@ -1,4 +1,5 @@
-# Interpreter | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C)
+# _Interpreter_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C)
+
 Interpreter(인터프리터/해석기)는 프로그래밍 언어의 소스 코드를 바로 실행하는 컴퓨터 프로그램 또는 환경을 말한다. 원시 코드를 기계어로 번역하는 compiler와는 대비된다. Interpreter는 다음의 과정 3개 가운데 적어도 1가지 기능을 가진 프로그램이다. 1. 소스 코드를 직접 실행한다. 2. 소스 코드를 효율적인 다른 중간 코드로 변환하고, 변환한 것을 바로 실행한다. 3. Interpreter 시스템의 일부인 compiler가 만든, 미리 complied 저장 코드의 실행을 호출한다.
 
 Interpreter는 고급 언어로 작성된 원시 코드 명령어들을 한번에 한 줄씩 읽어들여서 실행하는 프로그램이다. 고급 언어로 작성된 프로그램들을 실행하는 데에는 2가지 방법이 있다. 1. 가장 일반적인 방법은 프로그램을 compile하는 것이고, 다른 1가지는 프로그램을 interpreter에 통과시키는 방법이다. Interpreter는 고급 명령어들을 중간 형태로 번역한 다음, 그것을 실행한다. 이와는 대조적으로 compilter는 고급 명령어들을 직접 기계어로 번역한다.
@@ -9,5 +10,7 @@ Interpreter와 compiler 둘 다 대부분의 고급 언어에 적용이 가능�
 
 최초의 interpreter 방식의 고급 언어는 LISP였다. LISP는 1958년 스티브 러셀이 IBM 704 컴퓨터에 최초로 구현하였다. 러셀은 존 매카시의 논문을 읽고 LISP의 eval 함수가 기계어로 구현될 수 있었다는 것을 발견했는데, 이는 맥캐시를 놀라게 했다. 작업 중인 LISP interpreter가 그 결과 만들어졌으며 LISP 프로그램의 실행, 더 정확히 말해, "LISP 식의 평가"에 사용될 수 있었다.
 
-#### Reference
+---
+
+### Reference
 - Interpreter Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%EB%B9%8C%EB%93%9C, 2020-11-12-Thu.
