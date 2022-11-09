@@ -67,6 +67,15 @@ RTT는 패킷망(인터넷)에서 패킷을 보내고자 하는 측에서 패킷
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, buit it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
 
+HTTP status code:
+- 1xx Informational
+- 2xx Success
+- 3xx Redirection
+- 4xx Client Error
+- 5xx Server Error
+
+HTTP is a stateless protocol, which means that each command runs independent of any other command. In the original spec, HTTP requests each created and closed a TCP connection. In newer versions of the HTTP protocol (HTTP 1.1 and above), persistent connections allows for multiple HTTP requests to pass over a persistent TCP connection, improving resource consumption. 
+
 ### *Hypertext Transfer Protocol Secure (HTTPS)* | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-https/)
 
 Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particuluarly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
