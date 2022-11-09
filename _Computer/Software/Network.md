@@ -63,15 +63,13 @@ FIN: Used to terminate a connection.
 
 RTT는 패킷망(인터넷)에서 패킷을 보내고자 하는 측에서 패킷을 목적지에 보낼 때, 패킷이 목적지에 도달하고 나서 해당 패킷에 대한 응답이 출발지로 다시 돌아오기까지의 시간, 패킷 왕복 시간이다. RTT는 네트워크 성능을 측정할 때 네트워크 연결의 속도와 안정성을 진단할 때 사용된다.
 
-### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, buit it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
 
-### *HTTP Secure (HTTPS)*
+### *Hypertext Transfer Protocol Secure (HTTPS)* | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-https/)
 
-### *File Transfer Protocol (FTP)*| [WiKi](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-
-The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particuluarly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
 
 ### _Secure Sockets Layer (SSL)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 
@@ -84,6 +82,10 @@ A website that implements SSL/TLS has "HTTPS" in its URL instead of "HTTP".
 Transport Layer Security, or TLS, is a widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet. A primary use case of TLS is encrypting the communication between web applications and servers, such as web browsers loading a website. TLS can also be used to encrypt other communications such as email, messaging, and voice over IP (VoIP).
 
 TLS was proposed by the Internet Engineering Task Force (IETF), an international standards organization, and the first version of the protocol was published in 1999.
+
+### *File Transfer Protocol (FTP)* | [WiKi](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+
+The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
 
 ### *Secure Shell (SSH)*
 
@@ -389,3 +391,5 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - Round Trip Time (RTT) Blog KR, https://melonicedlatte.com/2020/12/21/215100.html, 2022-11-08-Tue.
 - SSL Cloudflare, https://www.cloudflare.com/learning/ssl/what-is-ssl/, 2022-11-09-Wed.
 - TLS Cloudflare, https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/, 2022-11-09-Wed.
+- HTTPS Cloudflare, https://www.cloudflare.com/learning/ssl/what-is-https/, 2022-11-09-Wed.
+- HTTP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/, 2022-11-09-Wed.
