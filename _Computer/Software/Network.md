@@ -75,6 +75,14 @@ FIN: Used to terminate a connection.
 3. The client acknowledges the response of the Server (3) ACK
 4. TCP automatically terminates the connection between two separate endpoints
 
+### _TCP/IP Socket Connection_ | [IBM](https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm)
+
+A socket programming interface provides the routines required for interprocess communication between applications, either on the local system or spread in a distributed, TCP/IP based network environment. Once a peer-to-peer connection is established, a socket descriptor is used to uniquely identify the connection. The socket descriptor itself is a task specific numerical value.
+
+One end of a peer-to-peer connection of a TCP/IP based distributed network application described by a socket is uniquely defined by Internet address(IPv4 or IPv6), Communication protocol(UDP or TCP), and Port (a numerical value, identifying an application).
+
+Besides TCP/IP based sockets, UNIX systems provide socket interfaces for interprocess communiction (IPC) within the local UNIX host itself. Those UNIX sockets use the local file system for interprocess communication.
+
 ### _User Datagram Protocol (UDP)_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
 The User Datagram Protocol, or UDP, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit - and create opportunities for exploitation in the form of DDoS attacks.
@@ -426,3 +434,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - Protocol Cloudflare, https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/, 2022-11-09-Wed.
 - IP Cloudflare, https://www.cloudflare.com/learning/network-layer/internet-protocol/, 2022-11-09-Wed.
 - TCP/IP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/, 2022-11-09-Wed.
+- TCP/IP Socket Connection IBM, https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm, 2022-11-09-Wed.
