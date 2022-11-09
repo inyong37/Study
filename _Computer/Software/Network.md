@@ -59,6 +59,10 @@ FIN: Used to terminate a connection.
 3. The client acknowledges the response of the Server
 4. TCP automatically terminates the connection between two separate endpoints
 
+### _User Datagram Protocol (UDP)_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+
+The User Datagram Protocol, or UDP, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit - and create opportunities for exploitation in the form of DDoS attacks.
+
 ### Round Trip Time (RTT) | [Blog (KR)](https://melonicedlatte.com/2020/12/21/215100.html)
 
 RTT는 패킷망(인터넷)에서 패킷을 보내고자 하는 측에서 패킷을 목적지에 보낼 때, 패킷이 목적지에 도달하고 나서 해당 패킷에 대한 응답이 출발지로 다시 돌아오기까지의 시간, 패킷 왕복 시간이다. RTT는 네트워크 성능을 측정할 때 네트워크 연결의 속도와 안정성을 진단할 때 사용된다.
@@ -402,3 +406,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - TLS Cloudflare, https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/, 2022-11-09-Wed.
 - HTTPS Cloudflare, https://www.cloudflare.com/learning/ssl/what-is-https/, 2022-11-09-Wed.
 - HTTP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/, 2022-11-09-Wed.
+- UDP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/, 2022-11-09-Wed.
