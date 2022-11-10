@@ -170,6 +170,12 @@ egrep:
 fgrep: 
 Search everything as a string. So it is faster than any other greps.
 
+### _Terminal Pager_ | [WiKi](https://en.wikipedia.org/wiki/Terminal_pager)
+
+A terminal pager, or paging program, is a computer program used to veiw (but not modify) the contents of a text file moving down the file one line or one screen at a tome. Some, but not all, pagers allow movement up a file. A popular cross-platform terminal pager is more, which can move forwards and backwards in text files but cannot move backwards in pipes. less is a more advanced pager that allows movement forward and backward, and contains extra functions such as search.
+
+Some programs incorporate their own paging function, for example bash's tab completion function.
+
 ---
 
 ### Reference
@@ -198,3 +204,4 @@ Search everything as a string. So it is faster than any other greps.
 - Zsh Web Pages, https://zsh.sourceforge.io/, 2022-05-14-Sat.
 - Windows Commands, https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands, 2022-05-14-Sat.
 - What is PowerShell?, https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2, 2022-05-14-Sat.
+- Terminal Pager WiKi, https://en.wikipedia.org/wiki/Terminal_pager, 2022-11-10-Thu.
