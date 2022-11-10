@@ -14,7 +14,7 @@ Linux also runs on embedded systems, i.e. devices whose operating system is typi
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License.
 
-### Live Booting Linux | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
+### _Live Booting Linux_ | [List of live CDs Wiki](https://en.wikipedia.org/wiki/List_of_live_CDs)
 
 The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
 
@@ -34,7 +34,7 @@ How this works is by running the entire system from volatile memory (RAM). The o
 4. content 생성 such as `cd {package_name}/ && dd if=/dev/zero of=dummyfile bs=1024 count=102400`
 5. build: `dpkg -b {package_folder_name} {package_name}` 
 
-## _[Debian Package Management](https://wiki.debian.org/PackageManagement)_
+### _[Debian Package Management](https://wiki.debian.org/PackageManagement)_
 
 Much of why Debian is a strong Linux distribution comes from its package management. Everything in Debian - every application, every component - everything - is built into a package.
 
@@ -42,7 +42,7 @@ There are many software packages available for Debian - everything from the Linu
 
 The Apt (Advanced Package Tool) package management system is a set of tools to download, install, remove, upgrade, configure and manage Debian packages, and therefore all software installed on a Debian system.
 
-## _[Debian Package Management Tool](https://wiki.debian.org/PackageManagementTools)_
+### _[Debian Package Management Tool](https://wiki.debian.org/PackageManagementTools)_
 
 Many tools available on a Debian system can be used for Package management. Commonly used ones include:
 
@@ -54,7 +54,7 @@ Many tools available on a Debian system can be used for Package management. Comm
   - gdebi: Graphical installer for standalone Debian Packages
   - gnome-software: Software Center for GNOME
 
-### apt
+### _apt_
 
 The apt package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: 
 
@@ -65,7 +65,7 @@ The apt package provides commandline tools for searching, managing, and querying
 - apt-get: command-line tool for handling packages
 - apt-key: manage the list of keys used by apt to authenticate packages. This command is deprecated!
 
-### dpkg
+### _dpkg_
 
 The dpkg package provides low-level infrastructure for handling the installation and removal of Debian software packages:
 
@@ -73,32 +73,38 @@ The dpkg package provides low-level infrastructure for handling the installation
 
 ### Edit Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
 
-Change main repo: edit `/etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-repo-serve:port=g' /etc/apt/sources.list`
+Change main repo:
+- edit `/etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-repo-serve:port=g' /etc/apt/sources.list`
 
-Add custom repo: add file under `/etc/apt/sources.list.d` with following commands
+Add custom repo:
+- add file under `/etc/apt/sources.list.d` with following commands
 
 ```bash
 sudo apt-get update && sudo apt-get install software-properties-common -y
 sudo add-apt-repository "deb http://my-repo-server:port distribution main" -y
 ```
 
-## Repository
+## _Repository_
 
 ### _[Debian Repository](https://wiki.debian.org/DebianRepository)_
 
 A Debian repository is a set of Debian binary or source packages organized in a special directory tree and with various infrastructure files - checksums, indices, signatures, descriptions translations, ... - added. Client computers can connect to the repository to download and install the package using an Apt-based PackageManagement tool.
 
-### aptly | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/) | [publish drop](https://www.aptly.info/doc/aptly/publish/drop/)
+### _aptly_ | [Create](https://www.aptly.info/doc/aptly/repo/create/) | [add](https://www.aptly.info/doc/aptly/repo/add/) | [publish](https://www.aptly.info/doc/aptly/publish/repo/) | [publish drop](https://www.aptly.info/doc/aptly/publish/drop/)
 
-Create repo: `aptly repo create {repo_name}`
+Create repo:
+- `aptly repo create {repo_name}`
 
-Add package to the repo: `aptly repo add {repo_name} {package_name}`
+Add package to the repo:
+- `aptly repo add {repo_name} {package_name}`
 
-Publish repo: `aptly publish repo -distribution='jammy' -architectures='all' {repo_name}`
+Publish repo:
+- `aptly publish repo -distribution='jammy' -architectures='all' {repo_name}`
 
-Drop published repo: `aptly publish drop jammy`
+Drop published repo:
+- `aptly publish drop jammy`
 
-### *Manual Page (man page)* | [Wiki](https://en.wikipedia.org/wiki/Man_page)
+### *Manual Page (man page)* | [WiKi](https://en.wikipedia.org/wiki/Man_page)
 
 A man page (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system. Topics covered include computer programs (including library and system calls), formal standards and conventions, and even abstract concepts. A user may invoke a man page by issuing the man command.
 
@@ -134,8 +140,7 @@ default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 
 
 원본 파일과 다른 이름으로 존재하는 동일한 파일이며 원본 파일과 동일한 내용의 다른 파일이다. 그리고 hard link에서는 원본 파일과 링크 파일 2개가 서로 다른 파일이기 때문에 둘 중 하나를 삭제하더라도 나머지 하나는 그대로 남아 있다. 또한 hard link에서는 원본 파일의 내용이 변경될 경우에는 링크 파일의 내용 또한 자동으로 변경된다.
 
-### Usage
-
+Usage: 
 - `ln -s /tmp /var/tmp`
 - `ln hard_source hard_link`
 - `--backup`: 대상 파일이 이미 존재할 경우에 백업 파일을 만든 후에 링크 파일 생성
@@ -148,6 +153,7 @@ default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 
 - `-t`: 링크 파일을 생성할 디렉토리를 지정
 
 ### *.a*
+
 Linux의 정적 라이브러리로, 동적 라이브러리에 비해 실행 속도가 빠르고 배포에 제약이 없지만, 링크 되기에 실행 파일 또는 배포 파일의 사이즈가 커진다. 그러나 유닉스의 경우 필요한 부분만 메모리에 로딩하는 demand paging을 사용하기 때문에 정적인 라이브러리의 메모리와 공유 라이브러리의 메모리 사용량 차이가 크지 않다.
 
 Shared library와 dynamic link library는 다르다. 그러나 대부분 shard library를 만들 때 dynamic link library를 사용한다.
@@ -155,13 +161,15 @@ Shared library와 dynamic link library는 다르다. 그러나 대부분 shard l
 .a에서 .o(object)를 뽑아낸 다음 ld로 so 타켓으로 만들면 된다.
 
 ### *.so*
+
 Linux의 동적 라이브러리이다.
 
 ### *Alias*
-#### Usage
+
+Usage:
 - show: `alias`
 - setup at '.bashrc'
-```
+```bash
 alias ll='ls -al'
 alias ls='ls --color=auto'
 alias egrep='egrep --color=auto'
@@ -174,22 +182,19 @@ alias ta='tmux attach'
 
 ### *tmux*
 
-### Install
-
+Install:
 ```bash
 $ sudo apt-get install tmux
 ```
 
 ### *openssh server*
 
-### Install
-
+Install: 
 ```bash
 $ sudo apt-get install openssh-server
 ```
 
-### Usage
-
+Usage:
 ```bash
 $ sudo service ssh start
 $ sudo systemctl enable ssh
@@ -201,27 +206,29 @@ $ sudo systemctl enable ssh
 
 ### *dd* | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
 
-Create 1MB dummyfile: `dd if=/dev/zero of=dummyfile bs=1024 count=1024`
+Create 1MB dummyfile:
+- `dd if=/dev/zero of=dummyfile bs=1024 count=1024`
 
-Create 100MB dummyfile: `dd if=/dev/zero of=dummyfile bs=1024 count=102400`
+Create 100MB dummyfile:
+- `dd if=/dev/zero of=dummyfile bs=1024 count=102400`
 
-Create 1GB dummyfile: `dd of=/dev/zero pf=dummyfile bs=1024 count=10240000`
+Create 1GB dummyfile:
+- `dd of=/dev/zero pf=dummyfile bs=1024 count=10240000`
 
 ### *Fuzzy Finder*
 
-### Install
-  - `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
-  - `~/.fzf/install`
+Install:
+- `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
+- `~/.fzf/install`
 
-### Usage
+Usage:
+- `Control` + `t`
 
-  - `Control` + `t`
-
-### *htop* | [Wiki](https://en.wikipedia.org/wiki/Htop) | Unix
+### *htop* | [WiKi](https://en.wikipedia.org/wiki/Htop) | Unix
 
 htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about processor, swap and memory status. htop can also display the processes as a tree.
 
-### *top* | [Wiki](https://en.wikipedia.org/wiki/Top_(software)) | Unix
+### *top* | [WiKi](https://en.wikipedia.org/wiki/Top_(software)) | Unix
 
 top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
 
@@ -232,51 +239,56 @@ Replace content without saving `sed 's/foo/bar/g' output.txt`
 Replace content with saving `sed 's/foo/bar/g' output.txt`
 
 ### *hostname*
+
 - How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
 
 ### Show Symbolic Link, Command `$ nm`
+
 A command nm shows a list of symbolic links in object files.
 
-#### How to use command nm
-- Default
+### How to use command nm
+
+Default:
 ```bash
 $ nm foo.o
           U _IO_getc
 00000000  Y main
 ```
-- Options
-  - format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
-- Target acrchive file shows libraries as object files
+
+Option:
+- format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
+
+Target acrchive file shows libraries as object files
 
 ---
 
-### KVM | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
+### _KVM_ | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
 
 Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specifically, KVM lets you turn Linux into a hypervision that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs).
 
 KVM is part of Linux. If you've got Linux 2.6.20 or newer, you've got KVM. KVM was first announced in 2006 and merged into the mainline Linux kernel version a year later. Because KVM is part of existing Linux code, it immediately benefits from every new Linux feature, fix, and advancement without additional engineering.
 
-### [Snaps](https://snapcraft.io/)
+### _[Snaps](https://snapcraft.io/)_
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free. Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
 
-#### Snap
+### Snap
 
 A snap is a bundle of an app and its dependencies that works without modification across Linux distributions.
 
-#### Snapd
+### Snapd
 
 Snapd is the background service that manages and maintains your snaps, automatically.
 
-#### Snap Store
+### Snap Store
 
 The Snap Store provides a place to upload snaps, and for users to browse and install the software they want.
 
-#### Snapcraft
+### Snapcraft
 
 Snapcraft is the command and the framework used to build and publish snaps.
 
-### [QEMU](https://www.qemu.org/)
+### _[QEMU](https://www.qemu.org/)_
 
 A generic and open source machine emulator and virtualizer
 
