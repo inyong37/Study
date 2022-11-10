@@ -1,4 +1,4 @@
-# *System (Operating System)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
+# *System (Operating System)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
 
 Operating System(OS, 운영 체제는/조작 체계)는 시스템 하드웨어를 관리할 뿐 아니라 application을 실행하기 위하여 하드웨어 추상화 플팻폼과 공통 시스템 서비스를 제공하는 시스템 소프트웨어이다. 최근에는 가상화 기술의 발전에 힘입어 실제 하드웨어가 아닌 하이퍼바이저 위에서 실행되기도 한다. 또한 입출력과 메모리 할당과 같은 하드웨어 기능의 경우 운영 체제는 application과 컴퓨터 하드웨어 사이의 중재 역할을 한다. 그러나 application 코드는 일반적으로 하드웨어에서 직접 실행된다. OS는 휴대 전화, 게임기에서부터 슈퍼컴퓨터, 웹 서버에 이르기까지 컴퓨터를 포함하는 거의 모든 장치에서 볼 수 있다. OS는 한 면으로는 소비자를, 다른 한 면으로는 프로그램 개발자를 함께 하나의 시장으로 데려다 놓을 수 있는 양면 플랫폼이다. 잘 알려진 현대의 PC OS에는 Microsoft Windows, Mac OS X, Linux가 있다. 이 밖에 BSD, Unix 등의 PC용 OS가 있다.
 
@@ -180,7 +180,7 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 ----------
 
-### *POSIX, Portable Operating System Interface* | [WiKi](https://en.wikipedia.org/wiki/POSIX) | [WiKi (KR)](https://ko.wikipedia.org/wiki/POSIX)
+### *Portable Operating System Interface (POSIX)* | [WiKi](https://en.wikipedia.org/wiki/POSIX) | [WiKi (KR)](https://ko.wikipedia.org/wiki/POSIX)
 
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems. POSIX defines the application programming interface (API), along with command line shells and utility interfaces, for software compatibility with variants of Unix and other operating systems.
 
@@ -212,15 +212,15 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Debian](https://www.debian.org/)*
 
-### *[Ubuntu](https://ubuntu.com/)* | [Ubuntu Core (IoT)](https://ubuntu.com/core)
+### *[Ubuntu](https://ubuntu.com/)* | _[Ubuntu Core](https://ubuntu.com/core)_
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
 
 ### *[Linux Mint](https://www.linuxmint.com/)*
 
-### [Raspbian](https://www.raspbian.org/) | [Raspberry Pi OS](https://www.raspberrypi.com/software/)
+### [Raspbian](https://www.raspbian.org/) | _[Raspberry Pi OS](https://www.raspberrypi.com/software/)_
 
-### *[Fedora](https://getfedora.org/)* | [Fedora Workstation](https://getfedora.org/en/workstation/) | [Fedora Server](https://getfedora.org/en/server/) | [Fedora IoT](https://getfedora.org/en/iot/)
+### *[Fedora](https://getfedora.org/)* | _[Fedora Workstation](https://getfedora.org/en/workstation/)_ | _[Fedora Server](https://getfedora.org/en/server/)_ | _[Fedora IoT](https://getfedora.org/en/iot/)_
 
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
