@@ -176,6 +176,14 @@ A terminal pager, or paging program, is a computer program used to veiw (but not
 
 Some programs incorporate their own paging function, for example bash's tab completion function.
 
+### _more_ | [WiKi](https://en.wikipedia.org/wiki/More_(command))
+
+In computing, more is a command to view (but not modify) the contents of a text file one screen at a time. It is available on Unix and Unix-lie systems, DOS, Digital Research FlexOS, IBM/Toshiba 4690 OS, IBM OS/2, Microsoft Windows and ReactOS. Programs of this sort are called pagers. more is a very basic pager, originally allowing only forward navigation through a file, though newer implementations do allow for limited backward movement.
+
+### _less_ | [WiKi](https://en.wikipedia.org/wiki/Less_(Unix))
+
+less is a terminal pager program on Unix, Windows, and Unix-like systems used to view (but not change) the contents of a text file one screen at a time. It is similar to more, but has the extended capability of allowing both forward and backward navigation through the file. Unlike most Unix text editors/viewers, less does not need to read the entire file before starting, allowing for immediate viewing regardless of file size.
+
 ---
 
 ### Reference
@@ -205,3 +213,5 @@ Some programs incorporate their own paging function, for example bash's tab comp
 - Windows Commands, https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands, 2022-05-14-Sat.
 - What is PowerShell?, https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2, 2022-05-14-Sat.
 - Terminal Pager WiKi, https://en.wikipedia.org/wiki/Terminal_pager, 2022-11-10-Thu.
+- more WiKi, https://en.wikipedia.org/wiki/More_(command), 2022-11-10-Thu.
+- less WiKi, https://en.wikipedia.org/wiki/Less_(Unix), 2022-11-10-Thu.
