@@ -339,6 +339,18 @@ Maximize file count:
     - `sysctl fs.file-nr`
 
 Backlogs:
+- in-bound queue를 증가시켜 버려지는 packet을 최소화
+- Kernel의 packet 처리 속도가 queue에 추가되는 packet 속도보다 느리면, queue에 추가되지 못한 packet들은 버려짐
+- Trade-off: memory <-> queue size
+  - `sysctl -w net.core.netdev_max_backlog="30000"`
+- Increase hard limit of accept socket count (ESTABLISHED, connection completed)
+  - `sysctl -w net.core.somaxconn="1024"` # default=128, match with application count
+- Increase hard limit of listen socket count (SYN_RECEIVED, connection incompleted)
+  - `sysctl -w net.ipv4.tcp_max_syn_backlog="1024"`
+  - Kernel parameter를 변경해도, 실제 server application에서 listen backlog를 증가시키려면 listen() 시스템 콜 호출 시 매개변수 backlog에 필요한 값을 전달해야함
+
+Port Range:
+- 
 
 ---
 
