@@ -152,18 +152,6 @@ Usage:
 - `-S`: 백업 파일 생성 시에 원하는 suffix 지정
 - `-t`: 링크 파일을 생성할 디렉토리를 지정
 
-### *.a*
-
-Linux의 정적 라이브러리로, 동적 라이브러리에 비해 실행 속도가 빠르고 배포에 제약이 없지만, 링크 되기에 실행 파일 또는 배포 파일의 사이즈가 커진다. 그러나 유닉스의 경우 필요한 부분만 메모리에 로딩하는 demand paging을 사용하기 때문에 정적인 라이브러리의 메모리와 공유 라이브러리의 메모리 사용량 차이가 크지 않다.
-
-Shared library와 dynamic link library는 다르다. 그러나 대부분 shard library를 만들 때 dynamic link library를 사용한다.
-
-.a에서 .o(object)를 뽑아낸 다음 ld로 so 타켓으로 만들면 된다.
-
-### *.so*
-
-Linux의 동적 라이브러리이다.
-
 ### *Alias*
 
 Usage:
@@ -259,6 +247,26 @@ Option:
 - format: `-f`, POSIX `-f posix`, BSD `-f bsd`, sysv `-f sysv`
 
 Target acrchive file shows libraries as object files
+
+---
+
+## File | Extension
+
+### *.a*
+
+Linux의 정적 라이브러리로, 동적 라이브러리에 비해 실행 속도가 빠르고 배포에 제약이 없지만, 링크 되기에 실행 파일 또는 배포 파일의 사이즈가 커진다. 그러나 유닉스의 경우 필요한 부분만 메모리에 로딩하는 demand paging을 사용하기 때문에 정적인 라이브러리의 메모리와 공유 라이브러리의 메모리 사용량 차이가 크지 않다.
+
+Shared library와 dynamic link library는 다르다. 그러나 대부분 shard library를 만들 때 dynamic link library를 사용한다.
+
+.a에서 .o(object)를 뽑아낸 다음 ld로 so 타켓으로 만들면 된다.
+
+`Other part of 'a' is at the 'Library' page.`
+
+### *.so*
+
+Linux의 동적 라이브러리이다.
+
+`Other part of 'so' is at the 'Library' page.`
 
 ---
 
