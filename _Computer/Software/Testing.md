@@ -1,4 +1,4 @@
-# *Test* | [IBM](https://www.ibm.com/topics/software-testing) | [Blog (KR)](https://angel927.tistory.com/150)
+# *Testing* | [IBM](https://www.ibm.com/topics/software-testing) | [Blog (KR)](https://angel927.tistory.com/150)
 
 Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
 
