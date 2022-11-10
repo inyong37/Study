@@ -300,28 +300,46 @@ A generic and open source machine emulator and virtualizer
 
 ---
 
+## _Tuning Kernel_
+
 ### _TCP Kernel Parameter_ | [NHN (KR)](https://meetup.toast.com/posts/53)
 
-- __Enable TCP window scaling__
-  - `sysctl -w net.ipv4.tcp_window_scaling="1"` (Windows, macOS, iOS, Android는 default enabled)
-- Increase TCP socket buffer size
-  - Auto-tuned by Linux kernel, but usually 128KB which is for general purpose PC
-  - Trand-off: Bandwidth <-> memory usage
-    - `sysctl -w net.core.rmem_default="253952"`
-    - `sysctl -w net.core.wmem_default="253952"`
-    - `sysctl -w net.core.rmem_max="16777216"`
-    - `sysctl -w net.core.wmem_max="16777216"`
-  - Memory for per individual TCP socket
-  - ipv4의 옵션이 ipv6에서도 같이 사용됨(ip_, ip_local_portrange, tcp, ipv4.icmp_)
-    - `sysctl -w net.ipv4.tcp_rmem="253952 253952 16777216"` # min / default / max
-    - `sysctl -w net.ipv4.tcp_wmem="253952 253952 16777216"` # min / default / max
-  - Memory for all TCP sockets
-  - TCP socket 전체에서 사용되는 메모리가 이 값을 초과하면 TCP memory pressure 상태가 되어 min memory buffer size를 갖게 됨
-    - 부팅 시 system memory에 맞추어 auto-tuned 최적화 되었기 때문에, 수정하지 말 것
-    - 구글링 검색 내용들이 말도 안되는 값을 가이드함
-      - 예: `systcl -w net.ipv4.tcp_mem="8388608 8388608 8388608"`: 단위가 page(4096byte)이므로 32GB
-    - `sysctl net.ipv4.tcp_mem`
-    
+Enable TCP window scaling:
+- `sysctl -w net.ipv4.tcp_window_scaling="1"` (Windows, macOS, iOS, Android는 default enabled)
+
+Increase TCP socket buffer size:
+- Auto-tuned by Linux kernel, but usually 128KB which is for general purpose PC
+- Trand-off: Bandwidth <-> memory usage
+  - `sysctl -w net.core.rmem_default="253952"`
+  - `sysctl -w net.core.wmem_default="253952"`
+  - `sysctl -w net.core.rmem_max="16777216"`
+  - `sysctl -w net.core.wmem_max="16777216"`
+- Memory for per individual TCP socket
+- ipv4의 옵션이 ipv6에서도 같이 사용됨(ip_, ip_local_portrange, tcp, ipv4.icmp_)
+  - `sysctl -w net.ipv4.tcp_rmem="253952 253952 16777216"` # min / default / max
+  - `sysctl -w net.ipv4.tcp_wmem="253952 253952 16777216"` # min / default / max
+- Memory for all TCP sockets
+- TCP socket 전체에서 사용되는 메모리가 이 값을 초과하면 TCP memory pressure 상태가 되어 min memory buffer size를 갖게 됨
+  - 부팅 시 system memory에 맞추어 auto-tuned 최적화 되었기 때문에, 수정하지 말 것
+  - 구글링 검색 내용들이 말도 안되는 값을 가이드함
+    - 예: `systcl -w net.ipv4.tcp_mem="8388608 8388608 8388608"`: 단위가 page(4096byte)이므로 32GB
+  - `sysctl net.ipv4.tcp_mem`
+
+### _Network Capacity Parameter_ | [NHN (KR)](https://meetup.toast.com/posts/54)
+
+Maximize file count:
+- Unix/Linux socket is treated as a file
+  - Check maximum file count for system 
+    - `sysctl fs.file-max`
+  - Check maximum file count for user/process
+    - `ulimit -a` 
+  - Change maximum file count for user/process
+    - `ulimit -SHn @@@`
+  - Check opened-file opened-unusing-file max-openable-file
+    - `sysctl fs.file-nr`
+
+Backlogs:
+
 ---
 
 ### Reference
@@ -373,3 +391,4 @@ A generic and open source machine emulator and virtualizer
 - Debian Package Management, https://wiki.debian.org/PackageManagement, 2022-11-03-Thu.
 - Debian Package Management Tools, https://wiki.debian.org/PackageManagementTools, 2022-11-03-Thu.
 - Linux TCP Kernel Parameter NHN KR, https://meetup.toast.com/posts/53, 2022-11-10-Thu.
+- Network Capacity Parameter NHN KR, https://meetup.toast.com/posts/54, 2022-11-10-Thu.
