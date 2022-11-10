@@ -350,7 +350,17 @@ Backlogs:
   - Kernel parameter를 변경해도, 실제 server application에서 listen backlog를 증가시키려면 listen() 시스템 콜 호출 시 매개변수 backlog에 필요한 값을 전달해야함
 
 Port Range:
-- 
+- TCP 연결을 맺을 때, client socket은 하나의 port를 선점, bind() system call로 source port를 지정하지 않으면 임의 port 할당 - ephemeral port
+- TCP 연결은 source address/port, destination address/port를 갖음
+- Client는 연결할 때, port를 소모
+- 일반적으로 listen()하는 server는 추가적인 port 소모하지 않음
+  - Proxy server는 다른 backend server로 전달을 위해 client port가 필요
+  - Port 확인
+    - `sysctl net.ipv4.ip_local_port_range` # 3278 61000 - 28232개의 ephemeral port 할당 가능
+  - 가용한 port 설정
+    - `sysctl -w net.ipv4.ip_local_port_range="1024 65535"` # well-known port는 제외해야함
+  - TCP socket 종료 시, gracefully shutdown 하기 때문에 자원을 늦게 반환
+  - Client socket에서 close()로 socket을 닫는 경우 socket은 TIME_WAIT 상태에 머뭄 - ephemeral port 사용 불가, socket 수 제한
 
 ---
 
