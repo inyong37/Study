@@ -170,7 +170,9 @@ egrep:
 fgrep: 
 Search everything as a string. So it is faster than any other greps.
 
-### _Terminal Pager_ | [WiKi](https://en.wikipedia.org/wiki/Terminal_pager)
+---
+
+## _Terminal Pager_ | [WiKi](https://en.wikipedia.org/wiki/Terminal_pager)
 
 A terminal pager, or paging program, is a computer program used to veiw (but not modify) the contents of a text file moving down the file one line or one screen at a tome. Some, but not all, pagers allow movement up a file. A popular cross-platform terminal pager is more, which can move forwards and backwards in text files but cannot move backwards in pipes. less is a more advanced pager that allows movement forward and backward, and contains extra functions such as search.
 
