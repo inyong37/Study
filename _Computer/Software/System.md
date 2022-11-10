@@ -4,6 +4,12 @@ Operating System(OS, 운영 체제는/조작 체계)는 시스템 하드웨어�
 
 OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다.
 
+Related books (in Study Repository's main readme.md):
+- Operating System Concepts (10th Ed.)
+- Operating System Concepts Essential (2nd Ed.)
+- Advanced Programming in the UNIX Environment (3rd Ed.)
+- Unix: A History and a Memoir
+
 ### *What is a Real-Time Operating System?* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
 
 When running a program, a normal operating system gives deterministic results but allows for a nondeterministic time to complete a task. In a real-time operating system both the results of program execution and the time take to get those results are (at least partially) deterministic.
