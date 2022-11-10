@@ -362,6 +362,8 @@ Port Range:
   - TCP socket 종료 시, gracefully shutdown 하기 때문에 자원을 늦게 반환
   - Client socket에서 close()로 socket을 닫는 경우 socket은 TIME_WAIT 상태에 머뭄 - ephemeral port 사용 불가, socket 수 제한
 
+### _Time Wait_ | [NHN (KR)](https://meetup.toast.com/posts/55)
+
 ---
 
 ### Reference
@@ -414,3 +416,4 @@ Port Range:
 - Debian Package Management Tools, https://wiki.debian.org/PackageManagementTools, 2022-11-03-Thu.
 - Linux TCP Kernel Parameter NHN KR, https://meetup.toast.com/posts/53, 2022-11-10-Thu.
 - Network Capacity Parameter NHN KR, https://meetup.toast.com/posts/54, 2022-11-10-Thu.
+- Time Wait NHN KR, https://meetup.toast.com/posts/55, 2022-11-10-Thu.
