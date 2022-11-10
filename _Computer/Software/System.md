@@ -168,7 +168,7 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 [A diagram showing the key Unix and Unix-like operating systems (WiKi)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 
-```Other parts of the "Uinx" have been moved to the "Unix" page.```
+~~```Other parts of the "Uinx" have been moved to the "Unix" page.```~~
 
 ### *[AIX](https://www.ibm.com/it-infrastructure/power/os/aix)*
 
@@ -228,7 +228,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### [Rocky Linux](https://rockylinux.org/)
 
-```Other parts of the "Linux" have been moved to the "Unix" page.```
+```Other parts of the "Linux" have been moved to the "Linux" page.```
 
 ### [OpenWrt](https://openwrt.org/) - Router Platform
 
