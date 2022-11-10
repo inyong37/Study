@@ -1,9 +1,11 @@
 # *System (Operating System)* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C)
+
 Operating System(OS, 운영 체제는/조작 체계)는 시스템 하드웨어를 관리할 뿐 아니라 application을 실행하기 위하여 하드웨어 추상화 플팻폼과 공통 시스템 서비스를 제공하는 시스템 소프트웨어이다. 최근에는 가상화 기술의 발전에 힘입어 실제 하드웨어가 아닌 하이퍼바이저 위에서 실행되기도 한다. 또한 입출력과 메모리 할당과 같은 하드웨어 기능의 경우 운영 체제는 application과 컴퓨터 하드웨어 사이의 중재 역할을 한다. 그러나 application 코드는 일반적으로 하드웨어에서 직접 실행된다. OS는 휴대 전화, 게임기에서부터 슈퍼컴퓨터, 웹 서버에 이르기까지 컴퓨터를 포함하는 거의 모든 장치에서 볼 수 있다. OS는 한 면으로는 소비자를, 다른 한 면으로는 프로그램 개발자를 함께 하나의 시장으로 데려다 놓을 수 있는 양면 플랫폼이다. 잘 알려진 현대의 PC OS에는 Microsoft Windows, Mac OS X, Linux가 있다. 이 밖에 BSD, Unix 등의 PC용 OS가 있다.
 
 OS는 실행되는 application들이 메모리와 CPU, IO 등의 자원들을 사용할 수 있도록 만들어 주고, 이들을 추상화하여 파일 시스템 등의 서비스를 제공한다. 또한 멀티태스킹을 지원하는 경우, 여러 개의 applications를 실행하고 있는 동안, OS는 이런한 모든 porcessors를 스케쥴링하여 마치 그들이 동시에 수행되는 것처럼 보이는 효과를 낸다.
 
-## *What is a Real-Time Operating System?* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+### *What is a Real-Time Operating System?* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time)
+
 When running a program, a normal operating system gives deterministic results but allows for a nondeterministic time to complete a task. In a real-time operating system both the results of program execution and the time take to get those results are (at least partially) deterministic.
 
 ### *Hard Real-Time vs. Soft Real-Time* | [MS Docs](https://docs.microsoft.com/en-us/windows/iot/iot-enterprise/soft-real-time/soft-real-time) | [JavatPoint](https://www.javatpoint.com/hard-and-soft-real-time-operating-system) | [Blog (KR)](https://velog.io/@joosing/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9CRealtime-OS%EC%9D%98-%EA%B0%9C%EB%85%90-vxWorks-realtime-Linux)
@@ -18,7 +20,7 @@ Hard Real-Time System must generate accurate responses to the evnets within the 
 
 In a soft real-time system, the meeting of deadline is not compulsory for every task, but the process should get processed and give the result: personal computer, auido and video systems.
 
-## *Firmware* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
+## *Firmware* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8E%8C%EC%9B%A8%EC%96%B4)
 
 Firmware(펌웨어)는 특정 하드웨어 장치에 포함된 소프트웨어로, 소프트웨어를 읽어 실행하거나, 수정하는 것도 가능한 장치를 뜻한다. 하드웨어의 제어(low level control)와 구동을 담당하는 일종의 OS이다. Firmware는 ROM이나 PROM에 저장되며, 하드웨어보다는 교환하기가 쉽지만, 소프트웨어보다는 어렵다. Ashcer Opler는 firmware라는 용어를 1967년 "데이터메이션" 기사에서 만들어냈다. 원래는 마이크로코드를 담고 있는 컴퓨터의 명령 집합을 구현한, 쓰기 가능한 컨트롤 스토어(크기가 작은 특수 고속 메모리)의 내용물을 의미했는데 CPU가 실행할 수 있는 명령을 수정하기 위해 다시 로드할 수 있었다. 1990년대 중순까지 firmware를 업데이트하는 일은 일반적으로 소켓 형태의 ROM IC였던, firmware를 포함하는 기억 매체를 교체하는 일이 수반되었다. Flasy memorysms 시스템으로부터 물리적으로 IC를 제거하지 않고 firmware를 업데이트할 수 있게 해준다.
 
@@ -28,12 +30,14 @@ Micro processor가 리셋 상태에서 빠져 나오면 맨 먼저 리셋 벡터
 
 PC처럼 큰 시스템에서 OS는 메모리가 아닌 HDD 또는 SDD와 같은 보조 기억 장치에 저장되어 있는데 CPU는 이에 저장되어 있는 프로그램을 직접 실행할 수 없다. PC 전원이 들어오면 ROM에 저장되어 있는 bootloader가 제일 먼저 실행되어 저장되어 있는 kernel을 RAM으로 읽어 들여 CPU가 kernel을 실행시키는데 필요한 준비 작업을 한다. HDD, SDD가 없는 임베디드 시스템의 경우에도 flasy memory에 저장된 OS 실행 코드를 RAM으로 옮기는 일을 bootloader가 한다. 경우에 따라서는 flasy memory를 절약하기 위해 실행 코드를 압축해서 저장하기도 하는데 이 떄에는 bootloader가 압축을 푸는 일 또한 한다. 그러나 AVR이나 8051 같은 8bit micro controller들은 규모가 큰 OS를 구동할 수 없기도 하거니와 flasy memory에 저장되어 있는 실행 코드를 직접 실행하므로 앞에서 설명한 역할을 하는 bootloader는 필요로 하지 않다. 그러나 이런 간단한 processor에서도 bootloader를 사용할 수 있는데 이 때 bootloader의 주역할은 호스트 컴퓨터와의 직렬 통신을 통해 실행 코드를 받아서 내부 flasy memory에 기록하는 것이다.
 
-## *BIOS: Basic Input Output System* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EC%98%A4%EC%8A%A4)
+## *BIOS: Basic Input Output System* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%EC%98%A4%EC%8A%A4)
+
 BISO(바이오스)는 OS 중 가장 기본적인 컴퓨터의 입출력을 처리하는 소프트웨어이다. 사용자가 컴퓨터를 켜면 시작되는 프로그램의 주변 장치와 컴퓨터 OS 사이의 데이터의 흐름을 관리한다. Firmware의 한 종류로 IBM 호환 컴퓨터의 경우에 전원이 공급되면 시작되는 부팅 절차에서 하드웨어 초기화를 수행하고, OS나 application에게 run-time 서비스(컴퓨터 프로그램의 실행을 지원하는 서비스)를 제공한다. BISO firmware는 PC에 내장되어 있어서 전원이 인가되면 실행이 시작되는 최초의 프로그램이다. BIOS라는 이름은 1975년도에 사용된 CP/M OS의 Basic Input/Output System에서 유래했다. 원래는 IBM 소유였으나 많은 회사들이 원본 프로그램을 분석(reverse engineering)하여 호환 프로그램을 개발하였다. 현대 PC에서 BIOS는 하드웨어 부품을 초기화하고 검사하는 역할, 부트로더 또는 대용량 저장장치에 저장된 OS를 RAM으로 읽어오는 기능을 수행한다.
 
 넓은 의미로 컴퓨터에 탑재된 프로그램 중에서 하드웨어와 가장 낮은 수준에서 입출력을 담당하는 프로그램을 가리킨다. 좁은 의미의 정의에선 IMB-PC 호환 기종에 탑재된 것을 말하며, 보통 이 뜻으로 쓰인다. BIOS는 컴퓨터에서 하드웨어와 소프트웨어의 중간 형태를 가지는 firmware의 일종으로 대부분 소프트웨어가 하드웨어를 제어하고 하드웨어에 의해 변경되거나 생성된 정보를 소프트웨어에서 처리할 수 있도록 전달하는 등 인간의 신경망과 같은 기능을 수행한다.
 
-## *UEFI: Unified Extensible Firmware Interface* | [Wiki (KR)](https://ko.wikipedia.org/wiki/%ED%86%B5%EC%9D%BC_%ED%99%95%EC%9E%A5_%ED%8E%8C%EC%9B%A8%EC%96%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+## *UEFI: Unified Extensible Firmware Interface* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%86%B5%EC%9D%BC_%ED%99%95%EC%9E%A5_%ED%8E%8C%EC%9B%A8%EC%96%B4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+
 UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 사이의 소프트웨어 인터페이스를 정의하는 규격이다. IBM PC 호환기종에서 사용되는 BIOS interface를 대체할 목적으로 개발되었다. Intel이 개발한 EFI(Extensible Firmware Interface) 규격에서 출발하였다. EFI의 관행과 데이터 포맷 중 일부는 Microsoft Windows의 것과 동일하게 사용된다. 2005년 UEFI는 EFI 1.10의 사용을 권장치 않기로 했다. 통일 EFI 포럼은 UEFI 사양을 관리하는 산업체이다.
 
 - CP/M (by Digital Research, at 1974)
@@ -94,7 +98,7 @@ CP/M은 인텔 8080/85 마이크로프로세서를 기반으로 하는 처음 �
 
 ---
 
-## *DOS: Disk Operating System* | [WiKi (KR) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [Wiki (KR) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
+## *DOS: Disk Operating System* | [WiKi (KR) 디스크 운영 체제](https://ko.wikipedia.org/wiki/%EB%94%94%EC%8A%A4%ED%81%AC_%EC%9A%B4%EC%98%81_%EC%B2%B4%EC%A0%9C) | [WiKi (KR) 도스](https://ko.wikipedia.org/wiki/%EB%8F%84%EC%8A%A4)
 
 DOS는 플로피 디스크, 하드 디스크 드라이브, 광 디스크와 같은 디스크 스토리지 장치를 사용할 수 있는 컴퓨터 운영 체제이다. 디스크 운영 체제는 스토리지 디스크의 파일 정리, 읽기, 쓰기를 위한 파일 시스템을 제공해야 한다. 이 정의는 현재 쓰이는 마이크로소프트 윈도우 버전 등 현 세대의 운영 체제에 적용되지는 않으며 더 오래된 세대의 운영 체제에 국한시키는 것이 더 적절하다. 디스크 운영 체제들은 메인프레임, 마이크로프로세서, 가정용 컴퓨터 용으로 이용이 가능했으며 부팅 과정의 일환으로 직접 디스크에서 로드되는 것이 보통이었다.
 
@@ -128,12 +132,14 @@ Microsoft introduced an operating environment named Windows on November 20, 1985
 
 As of February 2020, the most recent version of Windows for PCs, tablets and embedded devices is Windows 10, version 2004. The most recent version for server computers is Windows Server, version 2004. A specialized version of Windows also runs on the Xbox One video game console.
 
-### Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
+Download | [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10) | [Windows 8.1 Download](https://www.microsoft.com/en-us/software-download/windows8ISO) | [Windows 7 Download](https://www.microsoft.com/en-us/software-download/windows7)
 
 ### Font
-- Consolas
 
-### [MSDN (Microsoft Developer Network)](https://social.msdn.microsoft.com/forums/en-us/home) | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
+Consolas
+
+### [MSDN (Microsoft Developer Network)](https://social.msdn.microsoft.com/forums/en-us/home) | [WiKi](https://en.wikipedia.org/wiki/Microsoft_Developer_Network) | [Docs](https://docs.microsoft.com/en-us/) | [GitHub](https://github.com/MicrosoftDocs)
+
 Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management is situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
 
 From January 2020, the website has been fully integrated with Microsoft Docs.
@@ -150,7 +156,8 @@ Multics was a prototype of a Computer Utility, providing secure computing to rem
 
 ---
 
-## *[Unix](https://www.opengroup.org/membership/forums/platform/unix)* | [Wiki](https://en.wikipedia.org/wiki/Unix)
+## *[Unix](https://www.opengroup.org/membership/forums/platform/unix)* | [WiKi](https://en.wikipedia.org/wiki/Unix)
+
 Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others.
 
 Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including University of California, Berkeley (BSD), Microsoft (Xenix), Sun Microsystems (SunOS/Solaris), HP/HPE (HP-UX), and IBM (AIX). In the early 1990s, AT&T sold its rights in Unix to Novell, which then sold its Unix business to the Santa Cruz Operation (SCO) in 1995. The UNIX trademark passed to The Open Group, a neutral industry consortium founded in 1996, which allows the use of the mark for certified operating systems that comply with the Single UNIX Specification (SUS). However, Novell continues to own the Unix copyrights, which the SCO Group, Inc. v. Novell, Inc. court case (2010) confirmed.
@@ -159,7 +166,7 @@ Unix systems are characterized by a modular design that is sometimes called the 
 
 Unix distinguishes itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language, which allows Unix to operate on numerous platforms.
 
-[A diagram showing the key Unix and Unix-like operating systems (Wiki)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
+[A diagram showing the key Unix and Unix-like operating systems (WiKi)](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg)
 
 ```Other parts of the "Uinx" have been moved to the "Unix" page.```
 
@@ -380,7 +387,7 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ## Embedded System: Firmware | RTOS | OS
 
-### [Yocto Project (YP)](https://www.yoctoproject.org/)
+### _[Yocto Project (YP)](https://www.yoctoproject.org/)_
 
 요약: 임베디드 시스템을 구성하는 툴, 지원하는 하드웨어/회사가 많고 커스터 마이징이 자유롭지만, 사용하기 상대적으로 까다롭다.
 
@@ -390,17 +397,17 @@ The Yocto Project (YP) is an open source collaboration project that helps develo
 
 The project provides a flexible set of tools and a space where embedded developers worldwide can share technologies, software stacks, configurations, and best practices that can be used to create tailored Linux images for embedded and IOT devices, or anywhere a customized Linux OS is needed.
 
-### [Buildroot](https://buildroot.org/)
+### _[Buildroot](https://buildroot.org/)_
 
 요약: 임베디드 리눅스 시스템을 구성하는 툴, 사용하기 쉽고 간단하지만, 커스터 마이징과 지원하는 하드웨어/회사가 상대적으로 적다.
 
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
 
-## IoT OS | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
+## _IoT OS_ | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
-### TIZEN | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
+### _TIZEN_ | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
 
-### webOS | [LG SmartTV OS](https://live.lge.co.kr/life-style-webos/)
+### _webOS_ | [LG SmartTV OS](https://live.lge.co.kr/life-style-webos/)
 
 |IoT OS|Features|Use cases|
 |:-|:-:|-:|
@@ -414,10 +421,13 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 |Windows 10 IoT|Proprietary, high-grade security|Ideal for heavy-duty industrial use cases|
 |OpenWrt|Open-source, Linux-based|Primarily used in routers|
 
-### [Contiki-NG](https://www.contiki-ng.org/)
-### [FreeRTOS](https://www.freertos.org/)
-### [Mbed OS](https://os.mbed.com/mbed-os/)
-### [MicroPython](https://micropython.org/)
+### _[Contiki-NG](https://www.contiki-ng.org/)_
+
+### _[FreeRTOS](https://www.freertos.org/)_
+
+### _[Mbed OS](https://os.mbed.com/mbed-os/)_
+
+### _[MicroPython](https://micropython.org/)_
 
 MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.
 
@@ -427,11 +437,11 @@ MicroPython is packed full of advanced features such as an interactive prompt, a
 
 MicroPython aims to be as compatible with normal Python as possible to allow you to transfer code with ease from the desktop to a microcontroller or embedded system.
 
-### [TinyOS](http://www.tinyos.net/)
+### _[TinyOS](http://www.tinyos.net/)_
 
 TinyOS is an open source, BSD-licensed operating system designed for low-power wireless devices, such as those used in sensor networks, ubiquitous computing, personal area networks, smart buildings, and smart meters. A worldwide community from academia and industry use, develop, and support the operating system as well as its associated tools, averaging 35,000 downloads a year.
 
-### [RIOT](https://www.riot-os.org/)
+### _[RIOT](https://www.riot-os.org/)_
 
 RIOT powers the Internet of Things like Linux powers the Internet. RIOT is a free, open source operating system developed by a grassroots community gathering companies, academia, and hobbyists, distributed all around the world.
 
@@ -439,51 +449,52 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 
 ### Ubuntu Core
 
-- Boards: x86, ARM(Raspberry PI, NXP, Xilinx, Qualcomm, and more)
-- Apps: app embedding, strict application isolation for security, tamper-proof containerisation, automatic over-the-ar (OTA) updates
-- App store: private branded IoT app store, secured, hosted and managed, global CDN for software delivery, CI/CD pipeline integration
-- Software updates: Choose suitable update frequency, Automatic roll-backs on failure, Metered billing, Single secure source of updates
-- Service: knowledge transfer workshops, product trainings, engineering consulting
-- Support: 24/7 tech support - there when you need us! ticket resolution, Long term commercial partnership
+- Characteristic
+  - Boards: x86, ARM(Raspberry PI, NXP, Xilinx, Qualcomm, and more)
+  - Apps: app embedding, strict application isolation for security, tamper-proof containerisation, automatic over-the-ar (OTA) updates
+  - App store: private branded IoT app store, secured, hosted and managed, global CDN for software delivery, CI/CD pipeline integration
+  - Software updates: Choose suitable update frequency, Automatic roll-backs on failure, Metered billing, Single secure source of updates
+  - Service: knowledge transfer workshops, product trainings, engineering consulting
+  - Support: 24/7 tech support - there when you need us! ticket resolution, Long term commercial partnership
 
-#### Features
-
-- Agile containerization: a clean separation between the kernel, OS image and applications.
-  - Secure, immutable and strictly confined containerization
-  - Consistent, independent, and reliable software updates
-  - Architectural flexibility with both Arm and x86 architectures supported
-- OTA updates
-  - Transactional updates for reliability
-  - Diffs only to minimise network traffic
-  - Digital signatures to guarantee integrity and provenance
-- Secure boot: authenticates the boot process by default based on verification of digital signatures
-  - Each component in the boot sequence cryptographicaly validates the authenticity of the subsequent component in the boot sequence.
-  - Every component is measured, before it is loaded in the runtime memory space
-  - If an improper or unsigned component is detected, the boot process is stopped
-  - Supports for both hardware and software Root of Trust
-- Full disk encryption: digital signatures to cryptographically ensure data integrity with:
-  - Disks are locked with private key based cryptography
-  - Private keys for hardware, TPM and other secure layers are securely stored
-  - Symmetric key encryption enabled by use of specialised software-enabled stores
-- Recovery mode
-  - A graphical user interface to manage recovery options
-  - Snapshots of configuration settings and software bills of materials are backed up in the recovery system
-- Validation sets
-- Remodelling: brand, model. IoT App Store ID, or version
-  - Enable resellers to rebrand devices
-  - Easy migration path between UC20 and UC22
+- Features
+  - Agile containerization: a clean separation between the kernel, OS image and applications.
+    - Secure, immutable and strictly confined containerization
+    - Consistent, independent, and reliable software updates
+    - Architectural flexibility with both Arm and x86 architectures supported
+  - OTA updates
+    - Transactional updates for reliability
+    - Diffs only to minimise network traffic
+    - Digital signatures to guarantee integrity and provenance
+  - Secure boot: authenticates the boot process by default based on verification of digital signatures
+    - Each component in the boot sequence cryptographicaly validates the authenticity of the subsequent component in the boot sequence.
+    - Every component is measured, before it is loaded in the runtime memory space
+    - If an improper or unsigned component is detected, the boot process is stopped
+    - Supports for both hardware and software Root of Trust
+  - Full disk encryption: digital signatures to cryptographically ensure data integrity with:
+    - Disks are locked with private key based cryptography
+    - Private keys for hardware, TPM and other secure layers are securely stored
+    - Symmetric key encryption enabled by use of specialised software-enabled stores
+  - Recovery mode
+    - A graphical user interface to manage recovery options
+    - Snapshots of configuration settings and software bills of materials are backed up in the recovery system
+  - Validation sets
+  - Remodelling: brand, model. IoT App Store ID, or version
+    - Enable resellers to rebrand devices
+    - Easy migration path between UC20 and UC22
 
 ### Fedora IoT
 
-- Containerized applications
-- Reliable operating system
-  - OSTree technology to provide an immutable operating system with atomic updates
-  - greenboot health check framework for systemd, administractors can ensure the system boots into the expected state.
-- Security in mind
-  - TPM2, SecureBoot, and automated storage decryption with Clevis
-- Web-based provisioning 
-- Multiple architecture support
-  - x86_64, aarch64, and armhfp processors 
+- Characteristic
+  - Containerized applications
+  - Reliable operating system
+    - OSTree technology to provide an immutable operating system with atomic updates
+    - greenboot health check framework for systemd, administractors can ensure the system boots into the expected state.
+  - Security in mind
+    - TPM2, SecureBoot, and automated storage decryption with Clevis
+  - Web-based provisioning 
+  - Multiple architecture support
+    - x86_64, aarch64, and armhfp processors 
 
 ---
 
