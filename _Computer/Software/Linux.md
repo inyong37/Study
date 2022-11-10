@@ -172,6 +172,10 @@ $ sudo systemctl enable ssh
 
 리눅스 심볼릭 링크는 특정 파일이나 디렉토리에 대하여 참조를 하는 특수한 파일이다. 윈도우에서 바로가기와 동일하다고 할 수 있다.
 
+---
+
+## _Command_
+
 ### *dd* | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
 
 Create 1MB dummyfile:
