@@ -375,8 +375,8 @@ Backlogs:
 - QEMU, https://www.qemu.org/, 2022-07-20-Wed.
 - What is KVM Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2022-07-20-Wed.
 - Snaps, https://snapcraft.io/, 2022-07-20-Wed.
-- Live Bootting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
-- List of live CSs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
+- Live Booting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
+- List of live CDs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
 - Build Debian Package deb File Blog KR, https://devanix.tistory.com/314, 2022-10-27-Thu.
 - Build Debian Package deb File Blog KR, https://blog.djjproject.com/406, 2022-10-27-Thu.
 - dd Blog, https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/, 2022-10-27-Thu.
