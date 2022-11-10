@@ -27,6 +27,8 @@ Zsh is a shell designed for interactive use, although it is also a powerful scri
 
 # I. _Windows_ | [Windows Commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
+`This contents are from the 'Windows' page and the 'System' page.`
+
 ## i. _Command-line Shells_ | CMD (Command Prompt)
 
 The Command shell was the first shell built into Windows to automate routine tasks, like user account management or nightly backups, with batch (.bat) files. With Windows Script Host, you could run more sophisticated scripts in the Command shell. For more information, see cscript or wscript. You can perform operations more efficiently by using scripts than you can by using the user interface. Scripts accept all commands that are available at the command line.
@@ -93,9 +95,9 @@ MinGW(과거 mingw32, Minimalist GNU for Windows 32-bit)는 Microsoft Windows로
 
 ---
 
-# II. Unix/Linux
+# II. _Unix & Linux & macOS_
 
-`This contents are from the 'Linux' page and the 'System page'.`
+`This contents are from the 'Linux' page and the 'System' page.`
 
 Get root right:
 - `su`
