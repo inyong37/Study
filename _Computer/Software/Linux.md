@@ -325,7 +325,7 @@ Increase TCP socket buffer size:
     - 예: `systcl -w net.ipv4.tcp_mem="8388608 8388608 8388608"`: 단위가 page(4096byte)이므로 32GB
   - `sysctl net.ipv4.tcp_mem`
 
-### _Network Capacity Parameter_ | [NHN (KR)](https://meetup.toast.com/posts/54)
+### _Network Capacity Kernel Parameter_ | [NHN (KR)](https://meetup.toast.com/posts/54)
 
 Maximize file count:
 - Unix/Linux socket is treated as a file
@@ -363,6 +363,20 @@ Port Range:
   - Client socket에서 close()로 socket을 닫는 경우 socket은 TIME_WAIT 상태에 머뭄 - ephemeral port 사용 불가, socket 수 제한
 
 ### _Time Wait_ | [NHN (KR)](https://meetup.toast.com/posts/55)
+
+TCP socket states:
+- ESTABLISHED -> CLOSE/FIN (close() system call)-> Active CLOSE -> FIN WAIT 1 -> FIN WAIT 2 -> "TIME WAIT"
+  - TIME_WAIT 상태에서 RFC793 정의로 2MSL(Maximum Segment Lifetime, 2분 대기)
+  - 실제로 대부분의 OS에서는 최적화를 위해 1분 정도 TIME_WAIT 상태에서 대기
+    - Linux 또한 1분으로 kernel에 상수로 정해져있음
+  - `net.ipv4.fin_timeout`은 FIN_WAIT_2 상태의 timeout 시간
+    - 대부분의 시스템에서 FIN_WAIT_2 상태에서 머무르는 socket은 드뭄
+    - 대부분 TIME_WAIT로 전이됨
+    - 수정해도 변화 거의 없음
+  - TIME_WAIT는 gracefully shutdown을 위해 필요
+    - 데이터 유실 문제 등 방지
+
+- ESTABLISHED -> FIN/ACK -> Passive CLOSE -> CLOSE WAIT -> LAST ACK -> CLOSED
 
 ---
 
