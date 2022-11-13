@@ -1,5 +1,17 @@
 # _File Extension_
 
+`Some contents are from the 'Linux' page and the 'Windows' page.`
+
+### *a*
+
+Linux의 정적 라이브러리로, 동적 라이브러리에 비해 실행 속도가 빠르고 배포에 제약이 없지만, 링크 되기에 실행 파일 또는 배포 파일의 사이즈가 커진다. 그러나 유닉스의 경우 필요한 부분만 메모리에 로딩하는 demand paging을 사용하기 때문에 정적인 라이브러리의 메모리와 공유 라이브러리의 메모리 사용량 차이가 크지 않다.
+
+Shared library와 dynamic link library는 다르다. 그러나 대부분 shard library를 만들 때 dynamic link library를 사용한다.
+
+.a에서 .o(object)를 뽑아낸 다음 ld로 so 타켓으로 만들면 된다.
+
+`Other part of 'a' is at the 'Library' page.`
+
 ### _DAT_ | Data File
 
 A DAT file is a generic data file created by a specific application. It may contain data in binary or text format. DAT files are typically accessed only by the application that created them.
@@ -7,6 +19,24 @@ A DAT file is a generic data file created by a specific application. It may cont
 ### _DTB_ | Device Tree Blob File
 
 A DTB file is a device tree (or devicetree) blob file used by the Linux kernel. It contains binary data that describes a computer's hardware. DTB files allow operating systems to manage a computer's components by telling the operating system what hardware the computer includes.
+
+### _deb_
+
+### *Executable and Linkable Format (ELF)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D)
+
+Executable and Linkable Format(ELF)는 실행 파일, 목적 파일, 공유 라이브러리 그리고 코어 덤프를 위한 표준 파일 형식이다. 1999년 86open 프로젝트에 의해 x86 기반 유닉스, 유닉스 계열 시스템들의 표준 바이너리 파일 형식으로 선택되었다.
+
+ELF은 다양한 환경들에서 오래된 실행 파일 포맷을 대체했다. 유닉스 계열 운영체제 (리눅스, 솔라리스, IRIX, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, Syllable, HP-UX, QNX Neutrino, 미닉스)에서 a.out과 COFF 포맷을 대체했으며, 유닉스 계열이 아닌 운영체제 (OpenVMS 아이테니엄 버전, BeOS Revions 4 이후 x86 기반, 하이쿠, RISC OS, Stratus VOS, Pa-RISC와 x86 버전)에서도 사용하고, 게임 콘솔 (플레이스테이션 포터블, 플레이스테이션 비타, 플레이스테이션 2, 플레이스테이션 3, 플레이스테이션 4, GP2X, 드림캐스트, 닌텐도 게임큐브, Wii, Wii U)에서도 사용한다.
+
+### *ELF Symbol Visibility*
+
+Dynamic linker의 symbol resolution을 도와주는 역할을 한다. `readelf`로 읽는 표에서 Vis 항목은 4가지 default, hidden, protected, internal 4종류가 있다.
+- default는 visibilty를고려하지 않고 해당 symbol binding이 global인지 local(static)인지를 이용한다.
+- hidden은 주로 사용되는 속성으로 해당 symbol을 외부로 공개하지 않게 만든다.
+- protected는 잘 사용되지 않는 속성으로 공개하지만 다른 모듈에 의해 대체되지 않는다.
+- internal은 잘 사용되지 않는 속성으로 해당 symbol을 공개하지 않으며 각 architecture 별로 약간씩 다른 효과를 가질 수 있다.
+
+default는 외부로 공개할 symbol은 전역 변수, 함수, 내부에서만 사용할 symbol은 static으로 선언하면 된다. static으로 선언한 symbol은 항상 해당 파일 내의 symbol을 접근하는 것이므로 간접 접근이 필요없이 직접 접근이 가능하므로 컴파일러가 더 빠른 코드를 만들어 낼 수 있다. 또한 symbol이 외부로 공개되지 않으므로 relocation 및 symbol resolution 시에도 고려해야할 요소가 적어지므로 추가적인 성능 향상이 있다.
 
 ### _IMG_ | Disc Image Data File
 
@@ -20,6 +50,12 @@ An IMG file is a disk image used to mount a file system. It can be mounted like 
 
 An ISO file is a common CD or DVD disc image format based on the ISO-9660 standard. It contains an exact duplicate of data from the original disc, which includes the data saved on the disc as well as the filesystem information, such as directory structures, file attributes, and boot code. ISO files are often used for making copies of CDs and DVDs.
 
+### *so*
+
+Linux의 동적 라이브러리이다.
+
+`Other part of 'so' is at the 'Library' page.`
+
 ---
 
 ### Reference
@@ -27,3 +63,13 @@ An ISO file is a common CD or DVD disc image format based on the ISO-9660 standa
 - DTB, https://fileinfo.com/extension/dtb, 2022-07-21-Thu.
 - IMG, https://fileinfo.com/extension/img, 2022-07-21-Thu.
 - ISO, https://fileinfo.com/extension/iso, 2022-07-21-Thu.
+- ELF Wiki (Kor), https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D, 2020-08-06-Thu.
+- EXE Wiki (Kor), https://ko.wikipedia.org/wiki/EXE, 2020-08-06-Thu.
+- 실행 파일 Wiki (Kor), https://ko.wikipedia.org/wiki/%EC%8B%A4%ED%96%89_%ED%8C%8C%EC%9D%BC, 2020-08-06-Thu.
+- - Windows vs. Linux, http://tmmse.xyz/2020/04/22/linuxandwindows/, 2021-03-29-Mon.
+- Library Visibility, https://cmake.org/cmake/help/latest/command/target_link_libraries.html, 2020-08-14-Fri.
+- ELF Symbol Visibility Blog KR, http://egloos.zum.com/studyfoss/v/5257309, 2020-08-12-Wed.
+- What is the DLL?, https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll, 2020-08-06-Thu.
+- DLL, https://goddaehee.tistory.com/185, 2020-08-06-Thu.
+- Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
+- Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
