@@ -52,9 +52,7 @@ Once the packets arrive at their destination, they are handled differently depen
 
 The fourth version of IP (IPv4 for short) was introduced in 1983. However, just as there are only so many possible permutations for automoblie license plate numbers and they have to be reformatted periodically, the supply of available IPv4 addresses has become depleted. IPv6 addresses have many more characters and thus more permutations; however, IPv6 is not yet completely adopted, and most domains and devices still have IPv4 addresses.
 
-### _TCP_
-
-### _TCP/IP_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
+### _TCP_ | _TCP/IP_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
 
 The IP is the address system of the Internet and has the core function of delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made, and it established the basis of the Internet. IP does not handle packet ordering or error checking. Such functionality requires another protocol, typically TCP.
 
