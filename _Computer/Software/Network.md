@@ -104,6 +104,9 @@ HTTP status code:
 
 HTTP is a stateless protocol, which means that each command runs independent of any other command. In the original spec, HTTP requests each created and closed a TCP connection. In newer versions of the HTTP protocol (HTTP 1.1 and above), persistent connections allows for multiple HTTP requests to pass over a persistent TCP connection, improving resource consumption. 
 
+Default Port | [Blog (KR)](https://johngrib.github.io/wiki/why-http-80-https-443/):
+- 80
+
 ### *Hypertext Transfer Protocol Secure (HTTPS)* | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-https/)
 
 Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particuluarly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
@@ -113,6 +116,9 @@ Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which 
 SSL, or Secure Sockets Layer, is an encryption-based Internet security protocol. It was first developed by Netscape in 1995 for the purpose of ensuring privacy, authentication, and data integrity in Internet communications. SSL is the predecessor to the modern TLS encryption used today.
 
 A website that implements SSL/TLS has "HTTPS" in its URL instead of "HTTP".
+
+Default Port | [Blog (KR)](https://johngrib.github.io/wiki/why-http-80-https-443/):
+- 443
 
 ### _Transport Layer Security (TLS)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
 
@@ -435,3 +441,5 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - IP Cloudflare, https://www.cloudflare.com/learning/network-layer/internet-protocol/, 2022-11-09-Wed.
 - TCP/IP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/, 2022-11-09-Wed.
 - TCP/IP Socket Connection IBM, https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm, 2022-11-09-Wed.
+- HTTP HTTPS Port Blog KR, https://johngrib.github.io/wiki/why-http-80-https-443/, 2022-11-14-Mon.
+- 
