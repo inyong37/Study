@@ -1,4 +1,4 @@
-# *Profiling* | [WiKi](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
+# :microscope: *Profiling* | [WiKi](https://en.wikipedia.org/wiki/Profiling_(computer_programming))
 
 ```
 This page is from the "Program" page.
