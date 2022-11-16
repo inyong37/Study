@@ -128,7 +128,7 @@ Regression test는 regression bug를 찾는 테스트 방식이다. Regression b
 
 ---
 
-## *Lint* | [Wiki](https://en.wikipedia.org/wiki/Lint_(software)) | [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+## *Lint* | [WiKi](https://en.wikipedia.org/wiki/Lint_(software)) | [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
 
 Lint, or a linter, is a static code analysis tool used to flag programming errors, bugs, stylistic errors and suspicious constructs. The term originates from a Unix utility that examined C language source code.
 
@@ -146,7 +146,7 @@ Checkstyle, Coverity, Eclipse, FindBugs, Infer, IntelliJ IDEA, JArchitect, JTest
 
 ### *JavaScript*
 
-### *ESLint* | [Wiki](https://en.wikipedia.org/wiki/ESLint)
+### *ESLint* | [WiKi](https://en.wikipedia.org/wiki/ESLint)
 
 JavaScript syntax checker and formatter.
 
