@@ -5,13 +5,13 @@
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
 
-### :package: *[VMware](https://www.vmware.com/)*
+## :package: *[VMware](https://www.vmware.com/)*
 
 [VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Local Virtual Machines. Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
-### :package: *[VirtualBox](https://www.virtualbox.org/)*
+## :package: *[VirtualBox](https://www.virtualbox.org/)*
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
