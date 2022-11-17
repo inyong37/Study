@@ -177,6 +177,7 @@ Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 
 Pods do not disappear until someone (a person or a controller) destroy them, or there is an unavoidable hardware or system software error.
 
+### _[Using sysctls in a Kubernetes Cluster](https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/)_
 
 ---
 
@@ -215,4 +216,4 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 - Container vs. Image Blog, https://circleci.com/blog/docker-image-vs-container/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--japac-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQjwteOaBhDuARIsADBqReilj0_xL4-DCdjzB9-nBAf7OgqEETNDrDTGgfwE2kbLPGVzl62tyXYaAlY4EALw_wcB, 2022-10-27-Thu.
 - Network among the Containers Blog KR, https://jeongchul.tistory.com/636, 2022-10-27-Thu.
 - Send a file to/from Container Stackoverfliw, https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container, 2022-10-27-Thu.
-- 
+- Using sysctls in a Kubernetes Cluster, https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/, 2022-11-17-Thu.
