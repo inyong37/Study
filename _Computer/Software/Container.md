@@ -14,14 +14,6 @@ A container image represents binary data that encapsulates an application and al
 
 You typically create a container image of your application and push it to a registry before referring to it in a Pod.
 
-### *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
-
-Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
-
-A Pod (as in a pod of whales or pea pod) is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. A Pod's contents are always co-located and co-scheduled, and run in a shared context. A Pod models an application-specific "logical host": it contains one or more application containers which are relatively tightly coupled. In non-cloud contexts, applications executed on the same physical or virtual machine are analogous to cloud applications executed on the same logical host.
-
-As well as application containers, a Pod can contain init containers that run during Pod startup. You can also inject ephmeral containers for debugging if your cluster offers this.
-
 ### Container vs. Image | [Blog](https://circleci.com/blog/docker-image-vs-container/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--japac-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQjwteOaBhDuARIsADBqReilj0_xL4-DCdjzB9-nBAf7OgqEETNDrDTGgfwE2kbLPGVzl62tyXYaAlY4EALw_wcB)
 
 Image ~~ Program
@@ -54,6 +46,8 @@ Kubernetes supports container runtimes such as containerd, CRI-O, and any other 
 You need to install a container runtime into each node in the cluster so that Pods can run there.
 
 Kubernetes 1.25 requires that you use a runtime that conforms with the Container Runtime Interface (CRI).
+
+---
 
 ## :whale: *[Docker](https://www.docker.com/)* | [Docs](https://docs.docker.com/get-started/overview/)
 
@@ -101,6 +95,8 @@ to: `sudo docker cp foofile {container_id/name}:/`
 
 from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{username}/`
 
+---
+
 ## :whale: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -137,6 +133,14 @@ Containers have become popular because they provide extra benefits, such as:
 - Loosely coupled, distributed, elastic, liberated micro-services: applications are broken into smaller, independent pieces and can be deployed and managed dynamically – not a monolithic stack running on one big single-purpose machine.
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
+
+### *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+
+Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
+
+A Pod (as in a pod of whales or pea pod) is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers. A Pod's contents are always co-located and co-scheduled, and run in a shared context. A Pod models an application-specific "logical host": it contains one or more application containers which are relatively tightly coupled. In non-cloud contexts, applications executed on the same physical or virtual machine are analogous to cloud applications executed on the same logical host.
+
+As well as application containers, a Pod can contain init containers that run during Pod startup. You can also inject ephmeral containers for debugging if your cluster offers this.
 
 ### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
 
