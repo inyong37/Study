@@ -2,7 +2,8 @@
 
 `Other parts of Network, Internet, and Web is in the "Network" page.`
 
-## Web Design | [Wiki](https://en.wikipedia.org/wiki/Web_design)
+## Web Design | [WiKi](https://en.wikipedia.org/wiki/Web_design)
+
 Web design encompasses many different skills and disciplines in the production and maintenance of websites. THe differenct areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. 
 
 ### Responsive Web Design | [Wiki](https://en.wikipedia.org/wiki/Responsive_web_design)
@@ -12,6 +13,7 @@ Responsive web design (RWD) or responsive design is an approach to web design th
 Adaptive web design (AWD) promotes the creation of multiple versions of a web page to better fit the user's device, as opposed to a single static page which loads (and looks) the same on all devices or a single page which reorders and resizes content repsonsively based on the device/screen size/browswer of the user.
 
 ## Front-end web developer | [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer) | [Wiki](https://en.wikipedia.org/wiki/Front-end_web_development)
+
 The subjects covered are: Basic setup and learning how to learn. Web standards and best practices (such as accessibility and cross-browser compatibility). HTML, the languages that gives web content structure and meaning. CSS, the language used to style web pages. JavaScript, the scripting language used to create dynamic functionality on the web. Tooling that is used to facilitate modern client-side web development.
 
 Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that user can view and interact with that website.
@@ -44,7 +46,7 @@ By contrast, a dynamic web page is a broader concept, covering any web page gene
 
 DHTML is differentiated from Ajax by the fact that a DHTML page is still request/reload-based. With DHTML, there may not be any interaction between the client and server after the page is loaded; all processing happens in JavaScript on the client side. By contrast, an Ajax page uses features of DHTML to initiate a request (or 'subrequest') to the server to perform additional actions. For example, if there are multiple tabs on a page, pure DHTML approach would load the contents of all tabs and then dynamically display only the one that is active, while AJAX could load each tab only when it is really needed.
 
-----------
+---
 
 ## Web Framework | [Wiki](https://en.wikipedia.org/wiki/Web_framework)
 `Web Framework is from "Network.md".`
@@ -157,18 +159,22 @@ Redux is an open-source JavaScript library for managing application state. It is
 ### [Storybook](https://storybook.js.org/) | [Introduction to Storybook for React](https://storybook.js.org/docs/react/get-started/introduction) | [Install](https://storybook.js.org/docs/react/get-started/install)
 Storybook is an open source tool for building UI components and pages in isolation. It streamliness UI development, testing, and documentation.
 
-----------
+---
 
 ### nvm (Node Version Manager) | [GitHub](https://github.com/nvm-sh/nvm) | Version Manager
+
 nvm is a version manager for node.js, designed to be installed per-user, and invoked per-shell. nvm works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these plaforms: unix, macOS, and windows WSL.
 
 ### nvm for Windows | [GitHub](https://github.com/coreybutler/nvm-windows) | Version Manager | Written in Go
+
 Managing multiple installations of node.js on a Windows computer.
 
-### npm | [Homepage](https://www.npmjs.com/) | Package Manager
+### [npm](https://www.npmjs.com/) | Package Manager
+
 *"Build amazing things"*
 
-### npx | [Homepage](https://www.npmjs.com/package/npx) | Execute npm package binaries
+### [npx](https://www.npmjs.com/package/npx) | Execute npm package binaries
+
 Execute `<command>` either from a local `node_modeuls/.bin`, or from a central cache, installing any packages needed in order for `<command>` to run. By default, `npx` will check wheter `<command>` exists in `$PATH`, or in the local project binaries, and execute that. If `<command>` is not found, it will be installed prior to execution. Unless a `--package` option is specified, `npx` will try to guess the name of the binary to invoke depending on the specifier provided. All package speciifers understood by `npm` may be used with `npx`, including git specifiers, remote tarballs, local directories, or scoped packages. If a full specifier is included, or if `--package` is used, npx will always use a freshly-installed, temporary version of the package. This can also be forced with the `--ignore-existing` flag.
 
 - Install: `$ npm install -g npx`
@@ -187,19 +193,21 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 ### cdnjs | [Homepage](https://cdnjs.com/) | Package Manager
 *"Simple. Fast. Reliable."* *Content delivery at its finest.* *cdnjs is a free and open-source CDN service trusted by over 11% of all websites, powered by Cloudflare.* *We make it faster and easier to load library files on your websites.*
 
-----------
+---
 
 ## Glossary of Web
 
-### Landing Page | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80)
+### Landing Page | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9E%9C%EB%94%A9_%ED%8E%98%EC%9D%B4%EC%A7%80)
+
 검색 엔진, 광고 등을 경유하여 접속하는 이용자가 최최로 보게 되는 웹페이지이다. 링크를 클릭하고 해당 웹페이지에 접속하면 마케터가 의도한 행위를 하도록 하는 페이지를 의미한다.
 
 ### Web Assembly
+
 기존 브라우저에서 HTML, CSS, JS에 대해서만 인터프리터가 읽고 해석하는 것에서, C++, JAVA 등의 언어로 만들고 컴파일한 wasm이라는 웹 어셈블리 파일 또한 지원하는 내용이다. 웹 어셈블리는 기존 JS의 크롬 브라우저에서 일반 실행과 최적화 실행 중 안정적으로 상대적으로 많은 코드의 양이 최적화 실행되기 때문에 더 빠른 실행과 다양한 언어로 다양한 구현이 가능하다는 장점이 있다.
 
-----------
+---
 
-#### Reference
+### Reference
 - Web Design Wiki, https://en.wikipedia.org/wiki/Web_design, 2021-11-12-Fri.
 - Responsive Web Design Wiki, https://en.wikipedia.org/wiki/Responsive_web_design, 2021-11-12-Fri.
 - Adaptive Web Design Wiki, https://en.wikipedia.org/wiki/Adaptive_web_design, 2021-11-12-Fri.
