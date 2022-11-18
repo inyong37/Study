@@ -1,4 +1,4 @@
-# _Universial Serial Bus (USB)_ | [WiKi](https://en.wikipedia.org/wiki/USB)
+# :package: _Universial Serial Bus (USB)_ | [WiKi](https://en.wikipedia.org/wiki/USB)
 
 Universal Serial Bus (USB) is an industry standard that establishes specifications for cables and connectors and protocols for connection, communication and power supply (interfacing) between computers, peripherals and other computers. A broad variety of USB hardware exists, including several different connectors, of which USB-C is the most recent.
 
