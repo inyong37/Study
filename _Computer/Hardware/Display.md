@@ -1,8 +1,8 @@
-# :desktop: _Display_ | [WiKi](https://en.wikipedia.org/wiki/Display_device)
+# :desktop_computer: _Display_ | [WiKi](https://en.wikipedia.org/wiki/Display_device)
 
 A display device is an output device for presentation of information in visual or tactile form (the latter used for example in tactile electronic displays for blind people). When the input information that is supplied has an electrical signal the display is called an electronic display.
 
-# :desktop: _Monitor_ | [WiKi](https://en.wikipedia.org/wiki/Computer_monitor)
+# :desktop_computer: _Monitor_ | [WiKi](https://en.wikipedia.org/wiki/Computer_monitor)
 
 A computer monitor is an output device that displays information in pictorial form.
 
