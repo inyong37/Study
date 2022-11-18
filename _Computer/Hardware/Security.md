@@ -1,6 +1,8 @@
-### Hardware Security Module | [WiKi](https://en.wikipedia.org/wiki/Hardware_security_module)
+# :closed_lock_with_key: _Security_
 
-### Trusted Platform Module Technology Overview | [MS Docs](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview)
+### _Hardware Security Module_ | [WiKi](https://en.wikipedia.org/wiki/Hardware_security_module)
+
+### _Trusted Platform Module Technology Overview_ | [MS Docs](https://docs.microsoft.com/en-us/windows/security/information-protection/tpm/trusted-platform-module-overview)
 
 ---
 
