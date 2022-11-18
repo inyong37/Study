@@ -194,7 +194,7 @@ Books about Programming Languages.
 #### a. How to delete | [Reference](https://brunch.co.kr/@topasvga/342)
 #### b. How to alarm for billing | [Reference](https://brunch.co.kr/@topasvga/96)
 
-### B. [Docker](https://www.docker.com/) | [What is a Container?](https://www.docker.com/resources/what-container)
+### B. [Docker](https://www.docker.com/) | [What is a Container?](https://www.docker.com/resources/what-container) :whale2:
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
 `More contents are at the 'Container' page.`
@@ -224,9 +224,11 @@ CuDNN in ~/CUDA/include/cudnn.h
 #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 ```
 
-### D. Virtual Environment
+### D. [Virtual Environment](https://github.com/inyong37/Study/blob/master/_Computer/Software/Virtualization.md) :bento:
 - Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
 - VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
+
+`More contents are at the 'Virtualization' page.`
 
 ### E. Computer Science
 |Title|AMAZON (US)|YES24 (KR)|
