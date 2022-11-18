@@ -1,4 +1,4 @@
-# Video Graphics Array (VGA) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EB%B9%84%EB%94%94%EC%98%A4_%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4_%EC%96%B4%EB%A0%88%EC%9D%B4)
+# _Video Graphics Array (VGA)_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%B9%84%EB%94%94%EC%98%A4_%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4_%EC%96%B4%EB%A0%88%EC%9D%B4)
 
 비디오 그래픽스 어레이는 IBM이 1987년에 제정한 아날로그 방식의 컴퓨터 디스플레이 표준이다.
 
@@ -8,7 +8,7 @@ VGA라는 용어는 하드웨어와 관계 없이 영상의 640x480 해상도를
 
 VGA는 공식적으로 IBM의 XGA 표준으로 대체되었지만, 실제로는 VGA를 개선해 여러 호환 하드웨어 제조사에서 제조하던 SVGA로 대체되었다.
 
-# Graphics Processing Unit (GPU) | [Wiki (KR-KO)](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
+# _Graphics Processing Unit (GPU)_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
 
 그래픽 처리 장치는 메모리를 빠르게 처리하고 바꾸어 화면으로 출력할 프레임 버터 안의 영상 생성을 가속하도록 설계된, 전문화된 전자 회로이다. VPU(Visual Processing Unit)이라고 하기도 한다.
 
@@ -18,8 +18,10 @@ GPU라는 용어는 1999년 엔비디아에서 지포스 256을 세계 최초의
 
 GPU는 그래픽과 관련된 연산을 할 때에 CPU의 부담을 크게 줄일 수 있다. macOS는 10.6부터 최초로 운영 체제 수준에서 GPU를 사용하기 시작했다.
 
-#### Reference
+---
+
+### Reference
 - VGA and GPU blog KR-KO, https://intel-ryzen.tistory.com/20, 2020-10-21-Wed.
 - VGA Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%B9%84%EB%94%94%EC%98%A4_%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4_%EC%96%B4%EB%A0%88%EC%9D%B4, 2020-10-21-Wed.
-- GPU Wiki KR_KO, https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-10-21-Wed.
+- GPU Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98, 2020-10-21-Wed.
 - AMD Radeon, https://www.amd.com/en/graphics/radeon-rx-graphics, 2020-11-07-Sat.
