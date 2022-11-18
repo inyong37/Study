@@ -224,7 +224,7 @@ CuDNN in ~/CUDA/include/cudnn.h
 #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 ```
 
-### D. [Virtual Environment](https://github.com/inyong37/Study/blob/master/_Computer/Software/Virtualization.md) :bento:
+### D. Virtual Environment :bento:
 - Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
 - VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
