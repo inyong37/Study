@@ -189,19 +189,19 @@ Books about Programming Languages.
 
 ---
 
-## VIII. ETC 
+## ETC 
 ### A. Amazon Web Services (AWS)
 #### a. How to delete | [Reference](https://brunch.co.kr/@topasvga/342)
 #### b. How to alarm for billing | [Reference](https://brunch.co.kr/@topasvga/96)
 
-### B. [Docker](https://www.docker.com/) | [What is a Container?](https://www.docker.com/resources/what-container) :whale2:
+### B. [Docker](https://www.docker.com/) :whale: | [What is a Container?](https://www.docker.com/resources/what-container)
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
-
-`More contents are at the 'Container' page.`
 
 #### a. Korean Tutorial | Blog (KR) [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 
 #### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
+
+`More contents are at the 'Container' page.`
 
 ### C. Version Check
 Python, and CUDA
@@ -249,5 +249,7 @@ CuDNN in ~/CUDA/include/cudnn.h
 ### G. Utility
 Utility Scripts with Python.
 
-### H. [Kubernetes](https://kubernetes.io/) | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
+### H. [Kubernetes](https://kubernetes.io/) :whale: | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+`More contents are at the 'Container' page.`
