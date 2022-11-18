@@ -37,4 +37,8 @@ tmp
 "_MY/MySelf/BootCamp"
 
 # Web
-'VI. Language/_Web/Tutorial/*'
+# 'VI. Language/_Web/Tutorial/*'
+'VII_Web/Tutorial/*'
+
+# macOS
+.DS_STORE
