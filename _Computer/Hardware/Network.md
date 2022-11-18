@@ -230,6 +230,27 @@ A web hosting service (often shorted to web host) is a type of Internet hosting 
 
 A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
 
+### _Scaling Up vs. Scaling Out_ | [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview) | [Blog (KR)](https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/)
+
+### _Scale Up_
+
+Vertical scaling, or scaling up or down, where you increase or decrease computing power or databases as needed-either by changing performance levels or by using elastic database pools to automatically adjust to your workload demands.
+
+When:
+- Workloads are hitting some performance limit such as CPU or I/O limits.
+- Need to quickly react to fix performance issues that can't be solved with classic database optimization.
+- Need a solution that allows you to change service tiers to adapt to changing latency requirements.
+
+### _Scale Out_
+
+Horizontal scaling, or scaling out or in, where you add more databases or divide your large database into smaller nodes, using a data partitioning approach called sharding, which can be managed faster and more easily across servers.
+
+When:
+- Geo-distributed applications where every app should access part of the data in the region.
+- Each app will access only the shard associated to that region without affecting other shards.
+- A global sharding scenario-such as load balancing-where you have a large number of geo-distributed clients that insert data in their own dedicated shards.
+- Maxed out your performance requirements, even in the highest performance tiers of your service, or if your data cannot fit into a single database.
+
 ---
 
 ## *Distributed Computing* | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
@@ -610,3 +631,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - OSI Model Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/, 2022-11-09-Wed.
 - LAN Cisco, https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html, 2022-11-09-Wed.
 - WAN Cisco, https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html, 2022-11-09-Wed.
+- Scaling Up vs. Scaling Out Azure, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview, 2022-11-18-Fri.
+- Scaling Up vs. Scaling Out Blog KR, https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/, 2022-11-18-Fri.
