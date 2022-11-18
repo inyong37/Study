@@ -1,5 +1,11 @@
 # :hammer_and_wrench: Infrastructure
 
+Components:
+- Network
+- Hardware
+- Operating System
+- Middleware
+
 ---
 
 ### Reference
