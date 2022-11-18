@@ -1,10 +1,12 @@
-# Display | [Wiki](https://en.wikipedia.org/wiki/Display_device)
+# :desktop: _Display_ | [WiKi](https://en.wikipedia.org/wiki/Display_device)
+
 A display device is an output device for presentation of information in visual or tactile form (the latter used for example in tactile electronic displays for blind people). When the input information that is supplied has an electrical signal the display is called an electronic display.
 
-# Monitor | [Wiki](https://en.wikipedia.org/wiki/Computer_monitor)
+# :desktop: _Monitor_ | [WiKi](https://en.wikipedia.org/wiki/Computer_monitor)
+
 A computer monitor is an output device that displays information in pictorial form.
 
-## Resolution
+Resolution:
 - VGA: 640 * 480   (Video Graphics Array)
 - HD : 1280 * 720  (High Definition)
 - FHD: 1920 * 1080 (Full HD)
@@ -13,8 +15,7 @@ A computer monitor is an output device that displays information in pictorial fo
 - 4K : 4096 * 2160
 - 5K : 5120 * 2880
 
-### PPI vs DPI
-[PPI Calculator](https://www.sven.de/dpi/)
+### _PPI vs DPI_ | [PPI Calculator](https://www.sven.de/dpi/)
 
 - PPI: Pixel Per Inch
   - 10PPI = 100 pixels in 1 inch**2
@@ -30,10 +31,12 @@ A computer monitor is an output device that displays information in pictorial fo
 |32/81.28|UHD(3840*2160)|137.68|16:9|
 |24/60.96|FHD(1920*1200)|94.34|16:10|
 
-### i vs p
+### i vs. p
 - 1080i vs 1080p
 
-#### Reference
+---
+
+### Reference
 - PPI vs DPI Blog KR, https://blank2.tistory.com/3, 2020-03-27-Fri.
 - Display Wiki, https://en.wikipedia.org/wiki/Display_device, 2021-03-30-Tue.
 - Monitor Wiki, https://en.wikipedia.org/wiki/Computer_monitor, 2021-03-30-Tue.
