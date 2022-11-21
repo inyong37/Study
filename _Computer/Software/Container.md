@@ -133,6 +133,68 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
       ```
     - If you want to see the containers running on other nodes, ssh into those nodes and run the `docker ps` command.
 
+### _[Apply rolling updates to a service](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/)_
+
+1. If you haven't already, open a terminal and ssh into the machine where you run your manage node. For example, the tutorial uses a machine named `manager1`.
+2. Deploy your Redis tag to the swarm and configure the swarm with a 10 second update delay. Note that the following example shows an older Redis tag:
+    - ```bash
+      $ docker service create --replicas 3 --name redis --update-delay 10s redis:3.0.6
+      ```
+3. Inspect the `redis` service:
+    - ```bash
+      $ docker service inspect --pretty redis
+      
+      ...
+      UpdateConfig:
+       Parallelism: 1
+       Delay:       10s
+      ...
+      ```
+4. Now you can update the container image for `redis`. The swarm manager applies the update to nodes according to the `UpdateConfig` policy:
+    - ```bash
+      $ docker service update --image redis:3.0.7 redis
+      ```
+    - The scheduler applies rolling updates as follows by default:
+      - Stop the first task.
+      - Schedule update for the stopped task.
+      - Start the container for the updated task.
+      - If the update to a task returns `RUNNING`, wait for the specified delay period then start the next task.
+      - If, at any time during the update, a task returns `FAILED`, pause the update.
+5. Run `docker service inspect --pretty redis` to see the new image in the desired state:
+    - ```bash
+      $ docker service inspect --pretty redis
+      ```
+    - The output of `service inspect` shows if your update paused due to failure:
+    - ```bash
+      $ docker service inspect --pretty redis
+
+      ID:             0u6a4s31ybk7yw2wyvtikmu50
+      Name:           redis
+      ...snip...
+      Update status:
+       State:      paused
+       Started:    11 seconds ago
+       Message:    update paused due to failure or early termination of task 9p7ith557h8ndf0ui9s0q951b
+      ...snip...
+      ```
+    - To restart a paused update run `docker service update <SERVICE-ID>`. For example:
+    - ```bash
+      $ docker service update redis
+      ```
+    - To avoid repeating certain update failures, you may need to reconfigure the service by passing flags to `docker service update`.
+6. Run `docker service ps <SERVICE-ID>` to watch the rolling update:
+    - ```bash
+      $ docker service ps redis
+
+      NAME                                   IMAGE        NODE       DESIRED STATE  CURRENT STATE            ERROR
+      redis.1.dos1zffgeofhagnve8w864fco      redis:3.0.7  worker1    Running        Running 37 seconds
+       \_ redis.1.88rdo6pa52ki8oqx6dogf04fh  redis:3.0.6  worker2    Shutdown       Shutdown 56 seconds ago
+      redis.2.9l3i4j85517skba5o7tn5m8g0      redis:3.0.7  worker2    Running        Running About a minute
+       \_ redis.2.66k185wilg8ele7ntu8f6nj6i  redis:3.0.6  worker1    Shutdown       Shutdown 2 minutes ago
+      redis.3.egiuiqpzrdbxks3wxgn8qib1g      redis:3.0.7  worker1    Running        Running 48 seconds
+       \_ redis.3.ctzktfddb2tepkr45qcmqln04  redis:3.0.6  mmanager1  Shutdown       Shutdown 2 minutes ago
+      ```
+
 ## :whale2: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
@@ -223,4 +285,5 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 - Using sysctls in a Kubernetes Cluster, https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/, 2022-11-17-Thu.
 - Orchestration Docker Docs, https://docs.docker.com/get-started/orchestration/, 2022-11-21-Mon.
 - Swarm Docker Docs, https://docs.docker.com/engine/swarm/, 2022-11-21-Mon.
-- Scale the service in the swarm Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/, 2022-11-21-Mon.
+- Scale the service in the swarm Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/, 2022-11-21-Mon.
+- Apply rolling updates to a service Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/, 2022-11-21-Mon.
