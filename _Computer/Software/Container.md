@@ -103,7 +103,7 @@ Tools to manage, scale, and maintain containerized applications are called orche
 
 ## :whale2: _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
 
-### _[Scale the service in the swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)_
+### _[Scale the service in the swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1775-docker-19)
 
 Once you have deployed a service to a swarm, you are ready to use the Docker CLI to scale the number of containers in the service. Continers running in a service are called "tasks".
 
@@ -133,7 +133,7 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
       ```
     - If you want to see the containers running on other nodes, ssh into those nodes and run the `docker ps` command.
 
-### _[Apply rolling updates to a service](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/)_
+### _[Apply rolling updates to a service](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1759-docker-18-rolling-update)
 
 1. If you haven't already, open a terminal and ssh into the machine where you run your manage node. For example, the tutorial uses a machine named `manager1`.
 2. Deploy your Redis tag to the swarm and configure the swarm with a 10 second update delay. Note that the following example shows an older Redis tag:
@@ -286,4 +286,6 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 - Orchestration Docker Docs, https://docs.docker.com/get-started/orchestration/, 2022-11-21-Mon.
 - Swarm Docker Docs, https://docs.docker.com/engine/swarm/, 2022-11-21-Mon.
 - Scale the service in the swarm Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/, 2022-11-21-Mon.
+- Scaling Blog KR, https://sarc.io/index.php/cloud/1775-docker-19, 2022-11-21-Mon.
 - Apply rolling updates to a service Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/, 2022-11-21-Mon.
+- Rolling updates Blog KR, https://sarc.io/index.php/cloud/1759-docker-18-rolling-update, 2022-11-21-Mon.
