@@ -254,6 +254,10 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 
 ### _[Using sysctls in a Kubernetes Cluster](https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/)_
 
+### _[ReplicaSet](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)_
+
+A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarntee the availablilty of a specified number of identical Pods.
+
 ### _[Horizontal Pod Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)_
 
 In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment or StatefulSet), with the aim of automatically scaling the workload to match demand.
@@ -302,4 +306,4 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 - Apply rolling updates to a service Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/, 2022-11-21-Mon.
 - Rolling updates Blog KR, https://sarc.io/index.php/cloud/1759-docker-18-rolling-update, 2022-11-21-Mon.
 - Horizontal Pod Autoscale Kubernetes, https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/, 2022-11-21-Mon.
-- 
+- ReplicaSet, https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/, 2022-11-21-Mon.
