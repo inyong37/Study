@@ -242,7 +242,7 @@ CuDNN in ~/CUDA/include/cudnn.h:
 
 `More contents are at the 'Virtualization' page.`
 
-### v. Computer Science
+### v. Computer Science :books:
 
 |Title|AMAZON (US)|YES24 (KR)|
 |:----|:---------:|:--------:|
