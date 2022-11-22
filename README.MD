@@ -199,7 +199,7 @@ How to delete | [Blog (KR)](https://brunch.co.kr/@topasvga/342)
 
 How to alarm for billing | [Blog (KR)](https://brunch.co.kr/@topasvga/96)
 
-### ii. Container :whale:
+### ii. Container :whale: & Orchestration :whale2:
 
 - [Docker](https://www.docker.com/) :whale: | [What is a Container?](https://www.docker.com/resources/what-container)
 
@@ -208,6 +208,12 @@ A container is a standard unit of software that packages up code and all its dep
 Korean Tutorial | [Blog 1 (KR)](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html) | [Blog 2 (KR)](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html) | [Blog 3 (KR)](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 
 [NVIDIA Docker](https://github.com/nvidia/nvidia-docker)
+
+- [Kubernetes](https://kubernetes.io/) :whale2: | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
+
+Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+`More contents are at the 'Container' page.`
 
 `More contents are at the 'Container' page.`
 
@@ -262,11 +268,3 @@ CuDNN in ~/CUDA/include/cudnn.h:
 ### vii. Utility
 
 Utility Scripts with Python.
-
-### viii. Orchestration :whale2:
-
-- [Kubernetes](https://kubernetes.io/) | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
-
-Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
-
-`More contents are at the 'Container' page.`
