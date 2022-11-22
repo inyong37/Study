@@ -272,6 +272,13 @@ Horizontal pod autoscaling does not apply to objects that can't be scaled (for e
 
 The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a controller. The resource determines the behavior of the controller. The horizontal pod autoscaling controller, running within the Kubernetes control plane, periodically adjusts the desired scale of its target (for example, a Deployment) to match observed metrics such as average CPU utilization, average memory utilization, or any other custom metric you specify.
 
+### _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+
+App의 YAML 파일들의 집합을 chart로 관리
+
+### _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+
+
 ---
 
 ### Reference
@@ -312,3 +319,5 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 - Objects Kubernetes, https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/, 2022-11-22-Tue.
 - Kubernetes HPA Saramin KR, https://saramin.github.io/2022-05-17-kubernetes-autoscaling/, 2022-11-22-Tue.
 - Kubernetes CD Saramin KR, https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4, 2022-11-22-Tue.
+- HELM, https://helm.sh/, 2022-11-22-Tue.
+- Rancher, https://www.rancher.com/, 2022-11-22-Tue.
