@@ -20,7 +20,6 @@ Image ~~ Program
 
 Container ~~ Process
 
-
 ### *[Open Container Initiative (OCI)](https://opencontainers.org/)*
 
 The Open Container Initiative is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
