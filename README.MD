@@ -215,8 +215,6 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 
 `More contents are at the 'Container' page.`
 
-`More contents are at the 'Container' page.`
-
 ### iii. Version Check
 
 Python, and CUDA:
