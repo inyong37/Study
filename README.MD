@@ -190,20 +190,28 @@ Books about Programming Languages.
 ---
 
 ## ETC 
-### A. Amazon Web Services (AWS)
-#### a. How to delete | [Reference](https://brunch.co.kr/@topasvga/342)
-#### b. How to alarm for billing | [Reference](https://brunch.co.kr/@topasvga/96)
 
-### B. [Docker](https://www.docker.com/) :whale: | [What is a Container?](https://www.docker.com/resources/what-container)
+### i. Cloud Computing
+
+### A. Amazon Web Services (AWS)
+
+### a. How to delete | [Blog (KR)](https://brunch.co.kr/@topasvga/342)
+
+### b. How to alarm for billing | [Blog (KR)](https://brunch.co.kr/@topasvga/96)
+
+### ii. Container :whale:
+
+### A. [Docker](https://www.docker.com/) :whale: | [What is a Container?](https://www.docker.com/resources/what-container)
+
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
-#### a. Korean Tutorial | Blog (KR) [1](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html), [2](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html), [3](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
+### a. Korean Tutorial | [Blog 1 (KR)](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html) | [Blog 2 (KR)](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html) | [Blog 3 (KR)](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 
-#### b. NVIDIA Docker | [Homepage](https://github.com/nvidia/nvidia-docker)
+### b. [NVIDIA Docker](https://github.com/nvidia/nvidia-docker)
 
 `More contents are at the 'Container' page.`
 
-### C. Version Check
+### iii. Version Check
 Python, and CUDA
 ```cmd
 $ python --versioin
@@ -224,13 +232,16 @@ CuDNN in ~/CUDA/include/cudnn.h
 #define CUDNN_VERSION (CUDNN_MAJOR * 1000 + CUDNN_MINOR * 100 + CUDNN_PATCHLEVEL)
 ```
 
-### D. Virtual Environment :bento:
-- Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
-- VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
+### iv. Virtual Environment :bento:
+
+### A. Virtual Box | [Download VirtualBox 6.0.14 latest (2019-11-15-Fri)](https://www.virtualbox.org/wiki/Downloads)
+
+### B. VMware | [Download VMware Workstation Player 15.5.1 lateset (2019-11-15-Fri)](https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0)
 
 `More contents are at the 'Virtualization' page.`
 
-### E. Computer Science
+### v. Computer Science
+
 |Title|AMAZON (US)|YES24 (KR)|
 |:----|:---------:|:--------:|
 | Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |
@@ -244,12 +255,16 @@ CuDNN in ~/CUDA/include/cudnn.h
 | Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
 | Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198)
 
-### F. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
+### vi. Lambda GPU Cloud for Deep Learning | [Homepage](https://lambdalabs.com/service/gpu-cloud)
 
-### G. Utility
+### vii. Utility
+
 Utility Scripts with Python.
 
-### H. [Kubernetes](https://kubernetes.io/) :whale: | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
+### viii. Orchestration :whale2:
+
+### A. [Kubernetes](https://kubernetes.io/) | [Katacode (Deprecated)](https://www.katacoda.com/courses/kubernetes/playground)
+
 Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
 
 `More contents are at the 'Container' page.`
