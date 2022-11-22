@@ -232,6 +232,8 @@ Containers have become popular because they provide extra benefits, such as:
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
 
+### _[Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)_
+
 ### *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
@@ -258,7 +260,7 @@ Pods do not disappear until someone (a person or a controller) destroy them, or 
 
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarntee the availablilty of a specified number of identical Pods.
 
-### _[Horizontal Pod Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)_
+### _[Horizontal Pod Autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)_ | [Saramin (KR)](https://saramin.github.io/2022-05-17-kubernetes-autoscaling/)
 
 In Kubernetes, a HorizontalPodAutoscaler automatically updates a workload resource (such as a Deployment or StatefulSet), with the aim of automatically scaling the workload to match demand.
 
@@ -307,3 +309,6 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 - Rolling updates Blog KR, https://sarc.io/index.php/cloud/1759-docker-18-rolling-update, 2022-11-21-Mon.
 - Horizontal Pod Autoscale Kubernetes, https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/, 2022-11-21-Mon.
 - ReplicaSet, https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/, 2022-11-21-Mon.
+- Objects Kubernetes, https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/, 2022-11-22-Tue.
+- Kubernetes HPA Saramin KR, https://saramin.github.io/2022-05-17-kubernetes-autoscaling/, 2022-11-22-Tue.
+- Kubernetes CD Saramin KR, https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4, 2022-11-22-Tue.
