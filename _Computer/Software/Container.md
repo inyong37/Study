@@ -350,11 +350,43 @@ Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows
 ### _[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)_ | [Blog (KR)](https://hyeo-noo.tistory.com/m/362)
 
 1. _[Create a Kubernetes cluster](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)_
+    - ```bash
+      minikube version
+      minikube start
+      kubectl version
+      kubectl cluster-info
+      kubectl get nodes
+      ```
 2. _[Deploy an app](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)_
+    - ```bash
+      kubectl version
+      kubectl get nodes
+      kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
+      kubectl get deployments
+      echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n";
+      kubectl proxy
+      curl http://localhost:8001/version
+      export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+      echo Name of the Pod: $POD_NAME
+      curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/
+      
+      ```
 3. _[Explore your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)_
+    - ```bash
+      
+      ```
 4. _[Expose your app publicly](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)_
+    - ```bash
+      
+      ```
 5. _[Scale up your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/)_
+    - ```bash
+      
+      ```
 6. _[Update your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)_
+    - ```bash
+      
+      ```
 
 ---
 
