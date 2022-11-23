@@ -233,7 +233,7 @@ Containers have become popular because they provide extra benefits, such as:
 
 ### _[Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)_
 
-### _[Pod](https://kubernetes.io/docs/concepts/workloads/pods/)_
+### _[Pods](https://kubernetes.io/docs/concepts/workloads/pods/)_
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
@@ -247,7 +247,7 @@ The shared context of a Pod is a set of Linux namespaces, cgroups, and potential
 
 A Pod is similar to a set of containers with shared namespaces and shared filesystem volumes.
 
-Pod Lifecycle:
+_[Pod Lifecycle](https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/)_:
 - `Pending`
   - The Pod has been accepted by the Kubernetes cluster, but one or more of the containers has not been set up and made ready to run.
   - This includes time a Pod spends waiting to be scheduled as well as the time spent downloading container images over the network.
@@ -264,8 +264,36 @@ Pod Lifecycle:
 
 Container states:
 - `Waiting`
+  - A container in the `Waiting` state is still running the operations it requires in order to complete start up:
+    - for example, pulling the container image from a container image registry,
+    - or applying Secret data.
+  - When you use `kubectl` to query a Pod with a container that is `Waiting`, you also see a Reason field to summarize why the container is in that state.
 - `Running`
+  - The `Running` status indicates that a container is executing without issues.
+  - If there was a `postStart` hook configured, it has already executed and finished.
+  - When you use `kubectl` to query a Pod with a container that is `Running`, you also see information about when the container entered the `Running` state.
 - `Terminated`
+  - A container in the `Terminated` state began execution and then either ran to completion or failed for some reason.
+  - When you use `kubectl` to query a Pod with a container that is `Terminated`, you see a reason, an exit code, and the start and finish time for that container's period of execution.
+  - If a container has a `preStop` hook configured, this hook runs before the container enters the `Terminated` state.
+
+Pod conditions:
+- `PodScheduled`
+  - the Pod has been scheduled to a node.
+- `PodHasNetwork`
+  - (alpha feature; must be enabled explicitly) the Pod sandbox has been successfully created and networking configured.
+- `ContainersReady`
+  - all containers in the Pod are ready.
+- `Initialized`
+  - all init containers have completed successfully.
+- `Ready`
+  - the Pod is able to serve requests and should be added to the load balancing pools of all matching Services.
+
+### _[Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)_
+
+### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
+
+### 
 
 ### _[Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
 
@@ -278,10 +306,6 @@ While PersistentVolumeClaims allow a user to consume abstract storage resources,
 - emptyDir
 - hostpath
 - Network Volume
-
-### _[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)_
-
-### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
 
 ### *Disruptions* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
 
@@ -359,4 +383,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Rancher, https://www.rancher.com/, 2022-11-22-Tue.
 - PV Blog KR, https://waspro.tistory.com/580, 2022-11-22-Tue.
 - PV, https://kubernetes.io/docs/concepts/storage/persistent-volumes/, 2022-11-22-Tue.
-- 
+- Pod Lifecycle, https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/, 2022-11-22-Tue.
