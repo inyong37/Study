@@ -275,6 +275,10 @@ A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar 
 
 While PersistentVolumeClaims allow a user to consume abstract storage resources, it is common that users need PersistentVolumes with varying properties, such as performance, for different problems. Cluster administrators need to be able to offer a variety of PersistentVolumes that differ in more ways than size and access modes, without exposing users to the details of how those volumes are implemented. For these needs, there is the StoargeClass resource.
 
+- emptyDir
+- hostpath
+- Network Volume
+
 ### _[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)_
 
 ### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
