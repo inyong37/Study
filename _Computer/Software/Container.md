@@ -340,9 +340,23 @@ Horizontal pod autoscaling does not apply to objects that can't be scaled (for e
 
 The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a controller. The resource determines the behavior of the controller. The horizontal pod autoscaling controller, running within the Kubernetes control plane, periodically adjusts the desired scale of its target (for example, a Deployment) to match observed metrics such as average CPU utilization, average memory utilization, or any other custom metric you specify.
 
+---
+
+
 ### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
 
 Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+
+### _[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)_
+
+1. _[Create a Kubernetes cluster](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)_
+2. _[Deploy an app](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)_
+3. _[Explore your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)_
+4. _[Expose your app publicly](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)_
+5. _[Scale up your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/)_
+6. _[Update your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)_
+
+---
 
 ### _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
@@ -396,3 +410,10 @@ App의 YAML 파일들의 집합을 chart로 관리
 - PV, https://kubernetes.io/docs/concepts/storage/persistent-volumes/, 2022-11-22-Tue.
 - Pod Lifecycle, https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/, 2022-11-22-Tue.
 - Deployments, https://kubernetes.io/docs/concepts/workloads/controllers/deployment/, 2022-11-22-Tue.
+- Learn Kubernetes Basics, https://kubernetes.io/docs/tutorials/kubernetes-basics/, 2022-11-22-Tue.
+- Using Minikube to Create a Cluster, https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/, 2022-11-22-Tue.
+- Using kubectl to Create a Deployment, https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/, 2022-11-22-Tue.
+- Viewing Pods and Nodes, https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/, 2022-11-22-Tue.
+- Using a Service to Expose Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/, 2022-11-22-Tue.
+- Running Multiple Instances of Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/, 2022-11-22-Tue.
+- Performing a Rolling Update, https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/, 2022-11-22-Tue.
