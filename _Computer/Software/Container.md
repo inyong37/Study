@@ -347,7 +347,7 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 
 Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
 
-### _[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)_
+### _[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)_ | [Blog (KR)](https://hyeo-noo.tistory.com/m/362)
 
 1. _[Create a Kubernetes cluster](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)_
 2. _[Deploy an app](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)_
@@ -417,3 +417,5 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Using a Service to Expose Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/, 2022-11-22-Tue.
 - Running Multiple Instances of Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/, 2022-11-22-Tue.
 - Performing a Rolling Update, https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/, 2022-11-22-Tue.
+- YAML Configuration Blog KR, https://hyeo-noo.tistory.com/m/362, 2022-11-22-Tue.
+- 
