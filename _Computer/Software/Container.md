@@ -233,6 +233,19 @@ Containers have become popular because they provide extra benefits, such as:
 
 ### _[Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)_
 
+Required fields:
+- In the `.yaml` file for the Kubernetes object you want to create, you'll need to set values for the following fields:
+- `apiVersion`
+  - Which version of the Kubernetes API you're using to create this object
+- `kind`
+  - What kind of object you want to create
+- `metadata`
+  - Data that helps uniquely identify the object, including a `name` string, `UID`, and optional `namespace`
+- `spec`
+  - What state you desire for the object
+
+### _[Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)_
+
 ### _[Pods](https://kubernetes.io/docs/concepts/workloads/pods/)_
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
@@ -292,8 +305,6 @@ Pod conditions:
 ### _[Init Containers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)_
 
 ### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
-
-### 
 
 ### _[Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
 
@@ -384,3 +395,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - PV Blog KR, https://waspro.tistory.com/580, 2022-11-22-Tue.
 - PV, https://kubernetes.io/docs/concepts/storage/persistent-volumes/, 2022-11-22-Tue.
 - Pod Lifecycle, https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/, 2022-11-22-Tue.
+- Deployments, https://kubernetes.io/docs/concepts/workloads/controllers/deployment/, 2022-11-22-Tue.
