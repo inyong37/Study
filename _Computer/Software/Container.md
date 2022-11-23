@@ -233,7 +233,7 @@ Containers have become popular because they provide extra benefits, such as:
 
 ### _[Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)_
 
-### *Pod* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/)
+### _[Pod](https://kubernetes.io/docs/concepts/workloads/pods/)_
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
@@ -241,13 +241,35 @@ A Pod (as in a pod of whales or pea pod) is a group of one or more containers, w
 
 As well as application containers, a Pod can contain init containers that run during Pod startup. You can also inject ephmeral containers for debugging if your cluster offers this.
 
-### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+While Kubernetes supports more container runtimes than just Docker, Docker is the most commonly known runtime, and it helps to describe Pods using some terminology from Docker.
 
-Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+The shared context of a Pod is a set of Linux namespaces, cgroups, and potentially other facets of isolation - the same things that isolate a container. Within a Pod's context, the individual applications may have further sub-isolations applied.
 
-### *[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)*
+A Pod is similar to a set of containers with shared namespaces and shared filesystem volumes.
 
-### *[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)*
+Pod Lifecycle:
+- `Pending`
+  - The Pod has been accepted by the Kubernetes cluster, but one or more of the containers has not been set up and made ready to run.
+  - This includes time a Pod spends waiting to be scheduled as well as the time spent downloading container images over the network.
+- -> `Running`
+  - The Pod has been bound to a node, and all of the containers have been created.
+  - At least one container is still running, or is in the process of starting of restarting.
+- -> `Succeeded` or `Failed`
+  - All Containers in the Pod have terminated in success, and will not be restarted.
+  - All containers in the Pod have terminated, and at least one container has terminated in failure.
+  - That is, the container either exited with non-zero status or was terminated by the system.
+- `Unknown`
+  - For some reason the state of the Pod could not be obtained. This phase typically occures due to an error in communicating with the node where the Pod should be running.
+- When a Pod is being deleted, it is shown as `Terminating` by some kubectl commands. This `Terminating` status is not one of the Pod phases. A Pod is granted a term to terminated gracefully, which defaults to 30 seconds. You can use the flag `--force` to terminate a Pod by force.
+
+Container states:
+- `Waiting`
+- `Running`
+- `Terminated`
+
+### _[Init Continers](https://kubernetes.io/docs/concepts/workloads/pods/init-containers/)_
+
+### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
 
 ### *Disruptions* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
 
@@ -271,12 +293,15 @@ Horizontal pod autoscaling does not apply to objects that can't be scaled (for e
 
 The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a controller. The resource determines the behavior of the controller. The horizontal pod autoscaling controller, running within the Kubernetes control plane, periodically adjusts the desired scale of its target (for example, a Deployment) to match observed metrics such as average CPU utilization, average memory utilization, or any other custom metric you specify.
 
+### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+
+Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+
 ### _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
 App의 YAML 파일들의 집합을 chart로 관리
 
 ### _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
-
 
 ---
 
