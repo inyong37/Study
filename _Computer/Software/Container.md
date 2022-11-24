@@ -396,6 +396,7 @@ Windows:
       kubectl cluster-info
       kubectl get nodes
       ```
+      
 2. _[Deploy an app](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)_
     - ```bash
       kubectl version
@@ -410,18 +411,52 @@ Windows:
       curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/
       
       ```
+      
 3. _[Explore your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)_
     - ```bash
-      
+      kubectl get pods
+      kubectl describe pods
+      echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; kubectl proxy
+      export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+      echo Name of the Pod: $POD_NAME
+      curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/
+      kubectl logs $POD_NAME
+      kubectl exec $POD_NAME -- env
+      kubectl exec -ti $POD_NAME -- bash
+      cat server.js
+      curl localhost:8080
+      exit
       ```
+      
 4. _[Expose your app publicly](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)_
     - ```bash
-      
+      # 
+      kubectl get pods
+      kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
+      kubectl get services
+      kubectl describe services/kubernetes-bootcamp
+      export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')
+      echo NODE_PORT=$NODE_PORT
+      curl $(minikube ip):$NODE_PORT
+      # Step 2: Using labels
+      kubectl describe deployment
+      kubectl get pods -l app=kubernetes-bootcamp
+      kubectl get services -l app=kubernetes-bootcamp
+      export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+      echo Name of the Pod: $POD_NAME
+      kubectl label pods $POD_NAME version=v1
+      # Step 3 Deleting a service
+      kubectl delete service -l app=kubernetes-bootcamp
+      kubectl get services
+      curl $(minikube ip):$NODE_PORT
+      kubectl exec -ti $POD_NAME -- curl localhost:8080
       ```
+      
 5. _[Scale up your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/)_
     - ```bash
       
       ```
+      
 6. _[Update your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)_
     - ```bash
       
