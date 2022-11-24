@@ -347,6 +347,34 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 
 Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
 
+### _[Drivers](https://minikube.sigs.k8s.io/docs/drivers/)_
+
+Linux:
+- Docker - container-based (preferred)
+- KVM2 - VM-based (preferred)
+- VirtualBox - VM
+- QEMU - VM (experimental
+- None - bare-metal
+- Podman - container (experimental)
+- SSH - remote ssh
+
+macOS:
+- Docker - VM + Container (preferred)
+- Hyperkit - VM
+- VirtualBox - VM
+- Parallels - VM
+- VMware Fusion - VM
+- QEMU - VM (experimental)
+- SSH - remote ssh
+
+Windows:
+- Hyper-V - VM (perferred)
+- Docker - VM + Container (preferred)
+- VirutalBox - VM
+- VMware Workstation - VM
+- QEMU - VM (experimental)
+- SSH - remote ssh
+
 ### _[Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)_ | [Blog (KR)](https://hyeo-noo.tistory.com/m/362)
 
 1. _[Create a Kubernetes cluster](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)_
@@ -450,4 +478,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Running Multiple Instances of Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/, 2022-11-22-Tue.
 - Performing a Rolling Update, https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/, 2022-11-22-Tue.
 - YAML Configuration Blog KR, https://hyeo-noo.tistory.com/m/362, 2022-11-22-Tue.
-- 
+- Minikube Drivers, https://minikube.sigs.k8s.io/docs/drivers/, 2022-11-24-Thu.
