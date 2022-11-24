@@ -390,37 +390,46 @@ Windows:
 
 1. _[Create a Kubernetes cluster](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)_
     - ```bash
+      # Step 1: Cluster up and running
       minikube version
       minikube start
+      # Step 2: Cluster version
       kubectl version
+      # Step 3: Cluster details
       kubectl cluster-info
       kubectl get nodes
       ```
       
 2. _[Deploy an app](https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)_
     - ```bash
+      # Step 1: kubectl basics
       kubectl version
       kubectl get nodes
+      # Step 2: Deploy our app
       kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kubernetes-bootcamp:v1
       kubectl get deployments
+      # Step 3: View our app
       echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n";
       kubectl proxy
       curl http://localhost:8001/version
       export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
       echo Name of the Pod: $POD_NAME
-      curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/
-      
+      curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/ 
       ```
       
 3. _[Explore your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/)_
     - ```bash
+      # Step 1: Check application configuration
       kubectl get pods
       kubectl describe pods
+      # Step 2: Show the app in the terminal
       echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; kubectl proxy
       export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
       echo Name of the Pod: $POD_NAME
       curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/
+      # Step 3: View the container logs
       kubectl logs $POD_NAME
+      # Step 4: Executing command on the container
       kubectl exec $POD_NAME -- env
       kubectl exec -ti $POD_NAME -- bash
       cat server.js
@@ -430,7 +439,7 @@ Windows:
       
 4. _[Expose your app publicly](https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/)_
     - ```bash
-      # 
+      # Step 1: Create a new service
       kubectl get pods
       kubectl expose deployment/kubernetes-bootcamp --type="NodePort" --port 8080
       kubectl get services
