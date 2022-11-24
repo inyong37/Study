@@ -454,7 +454,22 @@ Windows:
       
 5. _[Scale up your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/)_
     - ```bash
-      
+      # Step 1: Scaling a deployment
+      kubectl get deployments
+      kubectl get rs
+      kubectl scale deployments/kubernetes-bootcamp --replicas=4
+      kubectl get deployments
+      kubectl get pods -o wide
+      kubectl describe deployments/kubernetes-bootcamp
+      # Step 2: Load Balancing
+      kubectl describe services/kubernetes-bootcamp
+      export NODE_PORT=$(kubectl get services/kubernetes-bootcamp -o go-template='{{(index .spec.ports 0).nodePort}}')
+      echo NODE_PORT=$NODE_PORT
+      curl $(minikube ip):$NODE_PORT
+      # Step 3: Scale Down
+      kubectl scale deployments/kubernetes-bootcamp --replicas=2
+      kubectl get deployments
+      kubectl get pods -o wide
       ```
       
 6. _[Update your app](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/)_
