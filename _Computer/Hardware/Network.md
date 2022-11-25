@@ -291,6 +291,50 @@ TDM(Time Division Multiplexing)은 시간에 따라 채널을 나눠주는 방�
 
 비동기식 TDM은 통계적으로 peek 타임에 쓰는 사용량를 고려해서 비용을 절약할 수 있다. 통계적 TDM이라 하기도 한다.
 
+### _[Multi Processing- vs. Multi Threading- vs. Multi Plexing- Server](https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/)_
+
+Multi Processing Server:
+1. 부모 프로세스는 리스닝 소켓으로 accept 함수를 호출해서 연결 요청을 수락한다.
+2. 이때 얻는 소켓의 파일 디스크립터(클라이언트와 연결된 연결 소켓)를 자식 프로세스를 생성해 넘겨준다.
+3. 자식 프로세스는 전달받은 파일 디스크립터를 바탕으로 서비스를 제공한다.
+
+- Pros
+  - 프로그램 흐름이 단순하기 때문에 이해하기 쉽다.
+  - 안정적인 동작이 가능하다.
+    - 운영 체제에서 프로세스는 독립된 실행 객체로 존재한다.
+    - 서로 독립된 메모리 공간을 갖고 각 프로세스는 서로 영향을 미치지 않기 때문에 독립적으로 수행이 가능하다.
+- Cons:
+  - 프로세스 복사가 필요하기 떄문에 리소스를 많이 사용한다.
+  - 병렬로 처리해야 하는 수만큼 프로세스를 생성해야 한다.
+  - 서로 다른 독립적인 메모리 공간을 갖기 때문에 프로세스 간 정보 교환이 어렵다.
+
+Multi Threading Server:
+1. 메인 스레드는 리스닝 소켓으로 accept 함수를 호출해서 연결 요청을 수락한다.
+2. 이 때 얻는 소켓의 파일 디스크립터(클라이언트와 연결된 연결 소켓)를 별도 워커 스레드를 생성해 넘겨준다.
+3. 워커 스레드는 전달받은 파일 디스크립터를 바탕으로 서비스를 제공한다.
+
+- Pros
+  - 프로세스 복사 비용보다 스레드 생성 비용이 적다.
+  - 서로 공유하는 메모리가 있기 때문에 스레드간 정보 교환이 쉽다.
+- Cons
+  - 하나의 프로세스 내에 다수의 스레드가 존재하기 때문에 하나의 스레드에서 발생한 문제가 프로세스 전체에 영향을 미쳐 나머지 다수의 스레드에 영향을 끼칠 수 있다.
+  - 멀티프로세싱 방식보다는 비용이 적게 들지만 스레드 관리에 여전히 많은 리소스가 필요하다.
+  - 일정 크기의 스레드를 생성해 풀로 관리하며 운영할 수 있지만 요청마다 스레드를 무한정 생성할 수 없기 때문에 많은 수의 요청을 동시에 처리할 수 없다(C10k problem을 해결하지 못한다).
+
+Multi Plexing Server: 블로킹 I/O 모델 -> I/O 멀티플렉싱 모델
+1. 애플리케이션에서 I/O 작업을 할 때, 스레드는 데이터가 사용할 수 있는 상태로 준비될 때까지 대기합니다.
+2. 커널 내 버퍼에 복사된 데이터를 애플리케이션에서 사용하기 위해서는 커널 공간에서 사용자 공간으로 복사해야 합니다. 애플리케이션은 사용자 모드에서 사용자 공간에만 접근할 수 있기 떄문입니다.
+
+- Pros
+  - 단일 프로세스/스레드에서 여러 파일의 입출력 처리가 가능한 덕분에 동시에 수만 개의 커넥션도 처리할 수 있다. 이를 바탕으로 C10k problem을 해결할 수 있다.
+  - POSIX 표준을 따르기 때문에 지원하는 운영 체제가 많아 이식성이 좋다.
+  - 클라이언트 요청마다 처리하기 위한 별도 스레드를 만들지 않기 때문에 컨텍스트 전환(context switching) 오버헤드가 발생하지 않는다.
+- Cons
+  - select 함수를 호출해서 전달된 정보는 커널에 등록되지 않은 것이기 때문에 select 함수를 호출할 때마다 매번 관련 정보를 전달해야 한다.
+  - select 함수의 호출 결과가 이벤트가 발생한 파일 디스크립터의 개수이기 때문에 어떤 파일 디스크립터에서 이벤트가 발생했는지 확인하기 위해서는 매번 fd_set 테이블 전체를 검사해야 한다.
+  - 검사할 수 있는 파일 디스크립터 개수에 제한이 있다(최대 1024개).
+  - select 함수를 호출할 때마다 데이터를 복사해야 한다(select 함수를 호출한 후 이벤트를 처리할 때 fd_set 테이블 변경이 필요하기 때문에 미리 복사가 필요하다).
+
 ---
 
 ## *Load Balancing* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
@@ -633,3 +677,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - WAN Cisco, https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html, 2022-11-09-Wed.
 - Scaling Up vs. Scaling Out Azure, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview, 2022-11-18-Fri.
 - Scaling Up vs. Scaling Out Blog KR, https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/, 2022-11-18-Fri.
+- Server Event Loop Line KR, https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/, 2022-11-25-Fri.
