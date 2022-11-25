@@ -362,7 +362,7 @@ While PersistentVolumeClaims allow a user to consume abstract storage resources,
 - hostpath
 - Network Volume
 
-### *Disruptions* | [Kubernetes](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)
+### _[Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)_
 
 Pods do not disappear until someone (a person or a controller) destroy them, or there is an unavoidable hardware or system software error.
 
