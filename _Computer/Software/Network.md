@@ -304,6 +304,8 @@ Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NG
 
 NGINX Tuning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor)
 
+### _[Nginx vs. Apache]_ | [Blog KR)](https://cornswrold.tistory.com/429)
+
 ### *[nip.io](https://nip.io/)*
 
 Dead simple wildcard DNS for any IP Address. Stop editing your `etc/hosts` file with custom hostname and IP address mappings. nip.io allows you to do that by mapping any IP Address to a hostname using the following formats:
@@ -440,4 +442,4 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 - TCP/IP Cloudflare, https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/, 2022-11-09-Wed.
 - TCP/IP Socket Connection IBM, https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm, 2022-11-09-Wed.
 - HTTP HTTPS Port Blog KR, https://johngrib.github.io/wiki/why-http-80-https-443/, 2022-11-14-Mon.
-- 
+- Nginx vs. Apache Blog KR, https://cornswrold.tistory.com/429, 2022-11-25-Fri.
