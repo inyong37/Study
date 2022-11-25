@@ -204,12 +204,12 @@ The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an 
 
 ### Going back in time
 
-Tranditional Deployment:
+:desktop_computer: Tranditional Deployment:
 - Hardware
 - Operating System
 - App
 
-Virtualized Deployment:
+:bento: Virtualized Deployment:
 - Hardware
 - Operating System
 - Hypervisor
@@ -218,7 +218,7 @@ Virtualized Deployment:
   - Bin/Library
   - App
 
-Container Deployment:
+:whale: Container Deployment:
 - Hardware
 - Operating System
 - Container Runtime
