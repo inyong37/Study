@@ -204,6 +204,28 @@ The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an 
 
 ### Going back in time
 
+Tranditional Deployment:
+- Hardware
+- Operating System
+- App
+
+Virtualized Deployment:
+- Hardware
+- Operating System
+- Hypervisor
+- Virtual Machine
+  - Operating Syste,
+  - Bin/Library
+  - App
+
+Container Deployment:
+- Hardware
+- Operating System
+- Container Runtime
+- Container
+  - Bin/Library
+  - App
+
 - Tranditional deployment era
 
 Early on, organizations ran applications on physical servers. There was no way to define resource boundaries for applications in a physical server, and this caused resource allocation issues. For example, if multiple applications run on a physical server, there can be instances where one application would take up most of the resources, and as a result, the other applications would underperform. A solution for this would be to run each application on a different physical server. But this did not scale as resources were underutilized, and it was expensive for organizations to maintain many physical servers.
@@ -221,7 +243,6 @@ Each VM is a full machine running all the components, including its own operatin
 Containers are similar to VMs, but they have relaxed isolation properties to share the Operating System (OS) among the applications. Therefore, containers are considered lightweight. Similar to a VM, a container has its own filesystem, share of CPU, memory, process space, and more. As they are decoupled from the underlying infrastructure, they are portable across clouds and OS distributions.
 
 Containers have become popular because they provide extra benefits, such as:
-
 - Agile application creation and deployment: increased ease and efficiency of container image creation compared to VM image use.
 - Continuous development, integration, and deployment: provides for reliable and frequent container image build and deployment with quick and efficient rollbacks (due to image immutability).
 - Dev and Ops separation of concerns: create application container images at build/release time rather than deployment time, thereby decoupling applications from infrastructure.
