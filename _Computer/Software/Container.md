@@ -202,14 +202,16 @@ Kubernetes is a portable, extensible, open source platform for managing containe
 
 The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the "K" and the "s". Google open-sourced the Kubernetes project in 2014. Kubernetes combines ovver 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community.
 
-### Going back in time
+### :desktop_computer: Tranditional deployment era
 
-Tranditional Deployment
 - Hardware
 - Operating System
 - App
 
-Virtualized Deployment
+Early on, organizations ran applications on physical servers. There was no way to define resource boundaries for applications in a physical server, and this caused resource allocation issues. For example, if multiple applications run on a physical server, there can be instances where one application would take up most of the resources, and as a result, the other applications would underperform. A solution for this would be to run each application on a different physical server. But this did not scale as resources were underutilized, and it was expensive for organizations to maintain many physical servers.
+
+### :bento: Virtualized deployment era
+
 - Hardware
 - Operating System
 - Hypervisor
@@ -218,28 +220,20 @@ Virtualized Deployment
   - Bin/Library
   - App
 
-Container Deployment
-- Hardware
-- Operating System
-- Container Runtime
-- Container
-  - Bin/Library
-  - App
-
-
-### Tranditional deployment era
-
-Early on, organizations ran applications on physical servers. There was no way to define resource boundaries for applications in a physical server, and this caused resource allocation issues. For example, if multiple applications run on a physical server, there can be instances where one application would take up most of the resources, and as a result, the other applications would underperform. A solution for this would be to run each application on a different physical server. But this did not scale as resources were underutilized, and it was expensive for organizations to maintain many physical servers.
-
-### Virtualized deployment era
-
 As a solution, virtualization was introduced. It allows you to run multiple Virtual Machines (VMs) on a single physical server's CPU. Virtualization allows applications to be isolated between VMs and provides a level of security as the information of one application cannot be freely accessed by another application.
 
 Virtualization allows better utilization of resources in a physical server and allows better scalability because an application can be added or updated easily, reduces hardware costs, and much more. With virtualization you can present a set of physical resources as a cluster of disposable virtual machines.
 
 Each VM is a full machine running all the components, including its own operating system, on top of the virtualized hardware.
 
-### Container deployment era
+### :whale: Container deployment era
+
+- Hardware
+- Operating System
+- Container Runtime
+- Container
+  - Bin/Library
+  - App
 
 Containers are similar to VMs, but they have relaxed isolation properties to share the Operating System (OS) among the applications. Therefore, containers are considered lightweight. Similar to a VM, a container has its own filesystem, share of CPU, memory, process space, and more. As they are decoupled from the underlying infrastructure, they are portable across clouds and OS distributions.
 
