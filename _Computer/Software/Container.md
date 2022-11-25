@@ -271,6 +271,13 @@ A Kubernetes cluster consists of a set of worker machines, called nodes, that ru
 
 ### _[Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/)_
 
+```bash
+kubectl get node
+kubectl get node -o wide
+kubectl top nodes
+kubectl describe node <insert-node-name-here>
+```
+
 ### _[Controllers](https://kubernetes.io/docs/concepts/architecture/controller/)_
 
 ### _[Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)_
@@ -291,6 +298,13 @@ Required fields:
 ### _[Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)_
 
 ### _[Pods](https://kubernetes.io/docs/concepts/workloads/pods/)_
+
+```bash
+kubectl get pods
+kubectl get pods -all-namespaces
+kubectl get pods -o wide
+kubectl describe pods ${POD_NAME}
+```
 
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.
 
