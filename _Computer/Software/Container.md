@@ -254,6 +254,32 @@ Containers have become popular because they provide extra benefits, such as:
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
 
+### _[Components](https://kubernetes.io/docs/concepts/overview/components/)_
+
+A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
+
+- Control Pane Components
+  - kube-apiserver: The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane.
+  - etcd: Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+  - kube-scheduler
+  - kube-controller-manager
+  - cloud-controller-manager
+- Node Components
+  - kubelet
+  - kube-proxy
+  - Container runtime
+- Addons
+  - DNS
+  - Web UI (Dashboard)
+  - Container Resource Monitoring
+  - Cluster-level Logging
+
+### _[Nodes](https://kubernetes.io/docs/concepts/architecture/nodes/)_
+
+### _[Controllers](https://kubernetes.io/docs/concepts/architecture/controller/)_
+
+### _[Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)_
+
 ### _[Objects](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/)_
 
 Required fields:
@@ -590,3 +616,7 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Performing a Rolling Update, https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/, 2022-11-22-Tue.
 - YAML Configuration Blog KR, https://hyeo-noo.tistory.com/m/362, 2022-11-22-Tue.
 - Minikube Drivers, https://minikube.sigs.k8s.io/docs/drivers/, 2022-11-24-Thu.
+- Kubernetes Components, https://kubernetes.io/docs/concepts/overview/components/, 2022-11-25-Fri.
+- Nodes, https://kubernetes.io/docs/concepts/architecture/nodes/, 2022-11-25-Fri.
+- Controllers, https://kubernetes.io/docs/concepts/architecture/controller/, 2022-11-25-Fri.
+- Kubernetes Scheduler, https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/, 2022-11-25-Fri.
