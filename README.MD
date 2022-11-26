@@ -191,13 +191,15 @@ Books about Programming Languages.
 
 ## ETC 
 
-### i. Cloud Computing
+### i. Cloud Computing :cloud:
 
 ### A. Amazon Web Services (AWS)
 
 How to delete | [Blog (KR)](https://brunch.co.kr/@topasvga/342)
 
 How to alarm for billing | [Blog (KR)](https://brunch.co.kr/@topasvga/96)
+
+### B. [Lambda GPU Cloud for Deep Learning](https://lambdalabs.com/service/gpu-cloud)
 
 ### ii. Container :whale: & Orchestration :whale2:
 
@@ -215,7 +217,7 @@ Kubernetes, also known as K8s, is an open-source system for automating deploymen
 
 `More contents are at the 'Container' page.`
 
-### iii. Version Check
+### iii. Version Check :computer:
 
 Python, and CUDA:
 ```cmd
@@ -261,8 +263,6 @@ CuDNN in ~/CUDA/include/cudnn.h:
 | Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
 | Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198)
 
-### vi. [Lambda GPU Cloud for Deep Learning](https://lambdalabs.com/service/gpu-cloud)
-
-### vii. Utility
+### vi. Utility :hammer_and_wrench:
 
 Utility Scripts with Python.
