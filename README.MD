@@ -150,9 +150,9 @@ Books about Data Structure and Algorithm.
 ----------
 
 # VI. Language :books:
-```
-Books about Programming Languages.
-```
+
+`Books about Programming Languages.`
+
 ## i. C
 |Title|URL|URL|DATE|
 |:----|:-:|:-:|:--:|
