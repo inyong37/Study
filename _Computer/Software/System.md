@@ -184,7 +184,7 @@ Unix distinguishes itself from its predecessors as the first portable operating 
 
 ### *[FreeBSD](https://www.freebsd.org/)*
 
-----------
+---
 
 ### *Portable Operating System Interface (POSIX)* | [WiKi](https://en.wikipedia.org/wiki/POSIX) | [WiKi (KR)](https://ko.wikipedia.org/wiki/POSIX)
 
@@ -192,11 +192,11 @@ The Portable Operating System Interface (POSIX) is a family of standards specifi
 
 POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른 Unix OS의 공통 API를 정리하여 이식성이 높은 Unix application program을 개발하기 위한 목적으로 IEEE가 책정한 application interface 규격이다. POSIX의 마지막 글자 X는 Unix compatible OS에 보통 X가 붙는 것에서 유래한다. Unix 계열 외에 Microsoft Windows NT는 POSIX 1.0에 준하는 POSIX 서브 시스템을 탑재하고 있으며, POSIX application program을 서브 시스템에서 실행할 수 있다. 이는 주로 미국 정부기관의 컴퓨터 시스템 도입조건 (FIPS)에서 POSIX 준거할 것을 요구하기 때문이다. Windows 2000까지 POSIX 서브 시스템을 탑재하고 있었지만 Windows XP에서 폐지되었다. 이후 Windows 2003 R2부터 POSIX 2.0에 준하는 Subsystem for Unix-based Application (SUA)를 통해 POSIX를 지원하고 있다.
 
-----------
+---
 
 ## *[MINIX 3](https://www.minix3.org/)*
 
-----------
+---
 
 ## *[Linux](https://www.linux.org/)* | [WiKi](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
 
@@ -274,6 +274,13 @@ You enable Android Auto to connect with your phone app by creating services that
 Android Automotive OS is an Android-based infotainment system that is built into vehicles. The car's system is a stand-alone Android device that is optimized for driving. With Android Automotive OS, users install your app directly onto the car instead of their phones.
 
 For media apps, your app must include a media browser service (see Build media apps for cars for instructions). You can use the same media browser service with both Android Automotive OS and Android Auto. However, there are some activities such as sign-in and settings that you must design specifically for Android Automotive OS. For more information, see Adapt sign-in flow and Design settings in the Android Automotive OS app design guidelines.
+
+### Ubuntu Server vs. Desktop | [Blog](https://www.makeuseof.com/tag/difference-ubuntu-desktop-ubuntu-server/) | [Blog](https://linuxhint.com/ubuntu-desktop-ubuntu-server-difference/) | [Blog (KR)](https://developer-kus.tistory.com/33#:~:text=ubuntu%20%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91%EA%B3%BC%20%EC%84%9C%EB%B2%84%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80%3F&text=%EA%B2%B0%EB%A1%A0%EC%9D%80%20GUI%EA%B0%80%20%EC%9E%88%EB%83%90,%EC%84%A4%EC%B9%98%ED%95%B4%EB%8F%84%20%EC%A2%8B%EC%9D%84%20%EA%B2%83%20%EA%B0%99%EB%8B%A4.) | [Blog (KR)](https://www.morenice.kr/119)
+
+- Desktop includes a graphical user interface (GUI), Server does not.
+  - Most Servers run headless
+- Server can run as an email server, file server, web server, and Samba server. While Desktop applications are geared towards use on the host machine. 
+  - Server packages concentrate on establishing connectivity with clients and security
 
 ---
 
@@ -387,11 +394,11 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
-## *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
+## _Main Frame_ | *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
 
 ---
 
-## Embedded System: Firmware | RTOS | OS
+## _Embedded System_ | Firmware | RTOS | OS
 
 ### _[Yocto Project (YP)](https://www.yoctoproject.org/)_
 
@@ -409,7 +416,9 @@ The project provides a flexible set of tools and a space where embedded develope
 
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux systems through cross-compilation.
 
-## _IoT OS_ | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
+---
+
+## _Internet of Things (IoT)_ | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
 ### _TIZEN_ | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
 
@@ -598,3 +607,7 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Android OS Architecture Blog KR, https://codingcoding.tistory.com/591, 2022-08-09-Tue.
 - Android on Raspberry Pi 4 Blog KR, https://leehands.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B44-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-10-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, 2022-08-10-Wed.
 - Android TV on Raspberry Pi 4 Blog KR, https://blog.naver.com/PostView.naver?blogId=cosmosjs&logNo=222262221050&parentCategoryNo=&categoryNo=56&viewDate=&isShowPopularPosts=false&from=postView, 2022-08-10-Wed.
+- Ubuntu Server vs. Desktop Blog, https://www.makeuseof.com/tag/difference-ubuntu-desktop-ubuntu-server/, 2022-11-29-Tue.
+- Ubuntu Server vs. Desktop Blog, https://linuxhint.com/ubuntu-desktop-ubuntu-server-difference/, 2022-11-29-Tue.
+- Ubuntu Server vs. Desktop Blog KR, https://developer-kus.tistory.com/33#:~:text=ubuntu%20%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91%EA%B3%BC%20%EC%84%9C%EB%B2%84%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80%3F&text=%EA%B2%B0%EB%A1%A0%EC%9D%80%20GUI%EA%B0%80%20%EC%9E%88%EB%83%90,%EC%84%A4%EC%B9%98%ED%95%B4%EB%8F%84%20%EC%A2%8B%EC%9D%84%20%EA%B2%83%20%EA%B0%99%EB%8B%A4., 2022-11-29-Tue.
+- Ubuntu Server vs. Desktop Blog KR, https://www.morenice.kr/119, 2022-11-29-Tue.
