@@ -278,6 +278,33 @@ kubectl top nodes
 kubectl describe node <insert-node-name-here>
 ```
 
+- 컨테이너 app이 작동하는 서버로, master API에 의해 node로 명령을 받고 실제 워크로드를 생성하여 서비스가 실행된다.
+- Node에는 kubelet, kube-proxy, cAdvisor, container runtime이 배포된다.
+- Kubernetes의 기본 container runtime은 Docker이지만 다른 runtime을 사용할 수 있다.
+- Node를 여러개 구성해 하나의 cluster를 구성하며, 여러개로 구성하면 서비스 가용성이 향상된다.
+
+Kubelet:
+- Node에 배포되는 agent로, master의 API 서버와 통신한다.
+    - Node가 수행해야 할 명령을 받아 수행한다.
+    - Node의 상태 등을 master로 전달하는 역할을 한다.
+- Pod의 manifest file에 따라 컨테이너를 실행, 중지, 또는 마운트의 기능을 한다.
+- Node의 상태를 정기적으로 health-check하고, data를 API 서버로 전송한다.
+
+Kube-proxy:
+- Node로 들어오는 network traffic을 적절하게 container로 라우팅한다.
+- Load balancing 등 node로 들어오고 나가는 network traffic을 프록시한다.
+- Node와 master 간의 다양한 중계 및 network 통신을 관리한다.
+
+Container Runtime:
+- Pod을 통해 배포된 컨테이너를 실행하는 container runtime 역할을 한다.
+- Container runtime은 기본적으로 Docker를 사용한다.
+    - 다른 runtime을 사용할 수 있다.
+
+cAdvisor:
+- 각 node에서 기동되는 모니터링 agent이다.
+- Node 내에서 가동되는 containers의 상태와 성능 등의 정보를 수집하여 master의 API 서버로 전달한다.
+    - 전송된 데이터들은 주로 모니터링을 위해서 사용된다.
+
 ### _[Controllers](https://kubernetes.io/docs/concepts/architecture/controller/)_
 
 ### _[Scheduler](https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/)_
