@@ -254,8 +254,11 @@ Containers have become popular because they provide extra benefits, such as:
 A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
 
 - Control Pane Components
-  - kube-apiserver: The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane.
-  - etcd: Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+  - kube-apiserver
+    - The API server is a component of the Kubernetes control plane that exposes the Kubernetes API.
+    - The API server is the front end for the Kubernetes control plane.
+  - etcd
+    - Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
   - kube-scheduler
   - kube-controller-manager
   - cloud-controller-manager
@@ -283,7 +286,7 @@ kubectl describe node <insert-node-name-here>
 - Kubernetes의 기본 container runtime은 Docker이지만 다른 runtime을 사용할 수 있다.
 - Node를 여러개 구성해 하나의 cluster를 구성하며, 여러개로 구성하면 서비스 가용성이 향상된다.
 
-Kubelet:
+kubelet:
 - Node에 배포되는 agent로, master의 API 서버와 통신한다.
     - Node가 수행해야 할 명령을 받아 수행한다.
     - Node의 상태 등을 master로 전달하는 역할을 한다.
