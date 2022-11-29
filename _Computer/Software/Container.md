@@ -249,7 +249,7 @@ Containers have become popular because they provide extra benefits, such as:
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
 
-### _[Components](https://kubernetes.io/docs/concepts/overview/components/)_
+### _[Components](https://kubernetes.io/docs/concepts/overview/components/)_ | [Blog (KR)](https://wiki.webnori.com/display/kubernetes/Architecture)
 
 A Kubernetes cluster consists of a set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
 
@@ -629,3 +629,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Nodes, https://kubernetes.io/docs/concepts/architecture/nodes/, 2022-11-25-Fri.
 - Controllers, https://kubernetes.io/docs/concepts/architecture/controller/, 2022-11-25-Fri.
 - Kubernetes Scheduler, https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/, 2022-11-25-Fri.
+- Kubernetes Architecture Blog KR, https://wiki.webnori.com/display/kubernetes/Architecture, 2022-11-29-Tue.
