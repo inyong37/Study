@@ -394,11 +394,11 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
-## :tv: _Main Frame_ :floppy_disk: | *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
+## :tv: _Main Frame_ | *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
 
 ---
 
-## :radio: _Embedded System_ :vds: | Firmware | RTOS | OS
+## :floppy_disk: _Embedded System_ | Firmware | RTOS | OS
 
 ### _[Yocto Project (YP)](https://www.yoctoproject.org/)_
 
