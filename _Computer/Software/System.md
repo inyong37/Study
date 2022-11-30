@@ -51,7 +51,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - 86-DOS (aka QDOS, by Seattle Computer Products)
   - MS-DOS (By Microsoft, at 1981)
   - PC-DOS (By IBM, at 1981)
-- Windows (By Microsoft) | IoT
+- Windows (By Microsoft) | Server | IoT
 - Multics (By MIT, from 1965)
 - Unix (by Bell Laboratory, at 1970's)
   - AIX (by IBM)
