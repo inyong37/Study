@@ -284,7 +284,7 @@ For media apps, your app must include a media browser service (see Build media a
 
 ---
 
-## *Macintosh* | [WiKi](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
+## :computer: *Macintosh* | [WiKi](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
 
 The family of Macintosh operating systems developed by Apple Inc. includes the graphical user interface-based operating systems it has designed for use with its Macintosh series of personal computers since 1984, as well as the related system software it once created for compatible third-party systems.
 
@@ -394,11 +394,11 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
-## _Main Frame_ | *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
+## :tv: _Main Frame_ :floppy_disk: | *[z/OS](https://www.ibm.com/it-infrastructure/z/zos)*
 
 ---
 
-## _Embedded System_ | Firmware | RTOS | OS
+## :radio: _Embedded System_ :vds: | Firmware | RTOS | OS
 
 ### _[Yocto Project (YP)](https://www.yoctoproject.org/)_
 
