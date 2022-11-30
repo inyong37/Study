@@ -73,8 +73,19 @@ IT 인프라의 컴포넌트는 상호 종속적인 요소들로 구성되어 �
 
 ---
 
+### Hardware Development | Infra Engineering | [Naver (KR)](https://recruit.navercorp.com/cnts/tech)
+
+### Hardware
+
+### Infra Engineering
+
+### Data Center Engineering
+
+---
+
 ### Reference
 - Infrastructure Blog KR, https://velog.io/@yon3115/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%9D%B8%ED%94%84%EB%9D%BC-%EB%9E%80, 2022-11-18-Fri.
 - Middleware Blog KR, https://velog.io/@unyoi/%EC%9D%B8%ED%94%84%EB%9D%BC-%EB%BF%8C%EC%8B%9C%EA%B8%B01-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4-%EA%B0%9C%EB%85%90%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90, 2022-11-18-Fri.
 - IT 인프라란 IBM KR, https://www.ibm.com/kr-ko/topics/infrastructure, 2022-11-21-Mon.
 - IT 인프라란? Red Hat KR, https://www.redhat.com/ko/topics/cloud-computing/what-is-it-infrastructure, 2022-11-21-Mon.
+- Hardware Development Infra Engineering Naver KR, https://recruit.navercorp.com/cnts/tech, 2022-11-30-Wed.
