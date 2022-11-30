@@ -232,9 +232,7 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
 
-### [Rocky Linux](https://rockylinux.org/)
-
-```Other parts of the "Linux" have been moved to the "Linux" page.```
+### _[Rocky Linux](https://rockylinux.org/)_
 
 ### [OpenWrt](https://openwrt.org/) - Router Platform
 
@@ -281,6 +279,8 @@ For media apps, your app must include a media browser service (see Build media a
   - Most Servers run headless
 - Server can run as an email server, file server, web server, and Samba server. While Desktop applications are geared towards use on the host machine. 
   - Server packages concentrate on establishing connectivity with clients and security
+
+`Other parts of the "Linux" have been moved to the "Linux" page.`
 
 ---
 
