@@ -77,9 +77,73 @@ IT 인프라의 컴포넌트는 상호 종속적인 요소들로 구성되어 �
 
 ### Hardware
 
+기술을 통해 새로운 물리적 경험을 제공합니다. 자율 주행 로봇, 다관절 로봇 등 완성도 높은 로봇들을 설계하고 개발하며 제작, 실증하는 NAVER LABS HW, 클라우드 서비스의 데이터 트래픽 및 지연 시간을 단축하고 성능을 향상시킬 수 있도록 지원하며 HW 가속화 기술을 적용한 가상화 기술을 연구 개발하는 클라우드 HW가 있습니다.
+
 ### Infra Engineering
 
+사용자가 가장 안정적인 서비스를 경험할 수 있는 환경을 구축합니다. 대규모 서버, 스토리지, 네트워크 등의 인프라를 관리하며 프로그램과 서비스의 안정적인 운영을 지원하고, 적합한 솔루션을 제공합니다. 시스템 엔지니어링, 데이터 엔지니어링, 네트워크 엔지니어링, CDN 엔지니어링, 서비스 엔지니어 등의 영역을 포괄합니다.
+
+[무선 네트워크 엔지니어](https://recruit.navercorp.com/rcrt/view.do?annoId=30000281&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=):
+- 역할
+  - 무선 네트워크 설계/구축/운영/최적화
+  - 무선 단말기 인증 시스템 설계/구축/운영/최적화
+- Requirements
+  - 무선 네트워크 기술
+    - TCP/IP, Switching, Routing 네트워크 인프라에 대한 이해
+    - 무선 네트워크 표준 이해
+    - 무선 네트워크 주파수 특성 및 전송/변조 기술 관련 지식
+    - 대규모 무선 네트워크 설계, 구축 경험
+    - 무선 네트워크 품질 관리 & Troubleshooting & 장애대응 경험
+  - 네트워크 인증 기술
+    - 무선 네트워크 사용자 인증 시스템 구축 경험
+  - Preferred
+    - Aruba Solution(Controller & AP) 설계, 구축, 운영 경험
+    - Aruba Clearpass Solution 구축, 운영 경험
+    - 네트워크 자동화 Scripts 활용 능력
+    - 무선 관련 자격증
+
+[시스템 엔지니어](https://recruit.navercorp.com/rcrt/view.do?annoId=30000280&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=):
+- 역할
+  - 시스템 운영 플랫폼 개발 및 운영
+  - 운영 자동화를 위한 아키텍쳐 설계 및 구축
+  - 리눅스 기반 시스템 운영 및 트러블슈팅
+- Requirements
+  - 리눅스 기반 서버 운영 플랫폼 개발 역량
+  - CI/CD를 통한 소스 형상관리 기술 (GitHub, Jenkins)
+  - 자동화 개발 경험 및 기술 (PHP 혹은 Python, Bash)
+  - 시스템 운영 플랫폼 트러블슈팅 및 기술지원
+  - 오픈소스를 활용한 다양한 운영 플랫폼 구축 기술
+  - 클라우드 관련 요소 기술 (가상화, K8S)
+  - 리눅스 시스템 운영 경험 (CentOS, RHEL)
+  - Linux OS 구성 및 운영
+  - Linux 튜닝 및 트러블슈팅
+
+[Cloud Network Engineering](https://recruit.navercorp.com/rcrt/view.do?annoId=30000733&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=):
+- 역할
+  - 상시 운영/서스테이닝
+    - 네트워크 이슈에 대한 트러블 슈팅 및 고객 대응
+    - 운영 및 정책 가이드 작성 및 배포
+    - OS Upgrade 및 H/W Fault 대응
+  - 설계/구축/개선
+    - 각 종 상품 관련 네트워크 설계/구축/개선
+    - VPC 네트워크 설계/구축/개선
+    - 네트워크 관련 최신 기술/솔루션 도입
+- Requirements
+  - TCP/IP, Switching, Routing 네트워크 인프라에 대한 이해
+  - IPSec VPN 및 전용회선 서비스에 대한 이해
+  - 네트워크 이슈 Troubleshooting & 장애 대응 경험
+  - Preferred
+    - Cloud 및 네트워크 관련 지식
+    - Public Cloud 사용 경험
+    - 네트워크 관련 구축/운영 경험
+    - MPLS L2/L3 VPN 사용 경험
+    - EVPN 사용 경험
+    - 패킷 분석 경험
+    - Python, Ansible 등 사용 능력
+
 ### Data Center Engineering
+
+다양한 서비스가 안정적으로 공급될 수 있도록 데이터센터를 운영하고 지원합니다. 데이터센터와 임대 IDC의 인프라 설비부터 건축/전기/기계/소방/안전 관리까지 다방면의 관리 업무를 수행하며 IT 인프라 구축에 필요한 최적의 환경을 지원합니다.
 
 ---
 
@@ -89,3 +153,6 @@ IT 인프라의 컴포넌트는 상호 종속적인 요소들로 구성되어 �
 - IT 인프라란 IBM KR, https://www.ibm.com/kr-ko/topics/infrastructure, 2022-11-21-Mon.
 - IT 인프라란? Red Hat KR, https://www.redhat.com/ko/topics/cloud-computing/what-is-it-infrastructure, 2022-11-21-Mon.
 - Hardware Development Infra Engineering Naver KR, https://recruit.navercorp.com/cnts/tech, 2022-11-30-Wed.
+- 무선 네트워크 엔지니어 Naver KR, https://recruit.navercorp.com/rcrt/view.do?annoId=30000281&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=, 2022-11-30-Wed.
+- 시스템 엔지니어 Naver KR, https://recruit.navercorp.com/rcrt/view.do?annoId=30000280&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=, 2022-11-30-Wed.
+- Cloud Network Enginerring Naver KR, https://recruit.navercorp.com/rcrt/view.do?annoId=30000733&sw=&subJobCdArr=1030001&sysCompanyCdArr=&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=, 2022-11-30-Wed.
