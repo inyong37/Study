@@ -282,6 +282,24 @@ For media apps, your app must include a media browser service (see Build media a
 
 `Other parts of the "Linux" have been moved to the "Linux" page.`
 
+### Ubuntu vs. CentOS | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=changfen15&logNo=221414926213) | [Blog (KR)](https://coconuts.tistory.com/175) | [Blog (KR)](https://velog.io/@imok-_/CentOS%EC%99%80-Ubuntu-%EC%B0%A8%EC%9D%B4)
+
+패키지 수:
+- Ubuntu가 desktop 환경의 유틸, 오피스 및 게임이 많다.
+  - 동일 하드웨어일 때 성능이 낮다.
+- CentOS는 웹 호스팅 툴이 더 많다.
+
+배포 및 지원:
+- CentOS의 업데이트가 길어 안정적이다.
+- Ubuntu의 업데이트가 잦아 불안정해 버그가 발생할 확률이 더 높다.
+  - Out of date가 되기 쉽다.
+
+보안:
+- CentOS의 패키지가 적어 보안 취약점이 적다. 
+
+
+### Ubuntu vs. Rocky Linux | [Blog (KR)](https://tech.osci.kr/2022/07/05/centos%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%8C%80%EC%95%88-rocky-linux%EC%99%80-ubuntu/)
+
 ---
 
 ## :computer: *Macintosh* | [WiKi](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
