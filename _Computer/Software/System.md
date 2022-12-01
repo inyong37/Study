@@ -218,6 +218,9 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### *[Debian](https://www.debian.org/)*
 
+Download:
+- [11.5.0-amd64-netinst](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.5.0-amd64-netinst.iso)
+
 ### *[Ubuntu](https://ubuntu.com/)* | _[Ubuntu Core](https://ubuntu.com/core)_
 
 ### *[Ubuntu MATE](https://ubuntu-mate.org/)*
