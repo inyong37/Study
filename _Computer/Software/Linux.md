@@ -50,7 +50,7 @@ Many tools available on a Debian system can be used for Package management. Comm
   - gdebi: Graphical installer for standalone Debian Packages
   - gnome-software: Software Center for GNOME
 
-### _apt_
+### _[apt](https://www.debian.org/doc/manuals/apt-guide/index.en.html)_
 
 The apt package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: 
 
@@ -389,3 +389,4 @@ TCP socket states:
 - Linux TCP Kernel Parameter NHN KR, https://meetup.toast.com/posts/53, 2022-11-10-Thu.
 - Network Capacity Parameter NHN KR, https://meetup.toast.com/posts/54, 2022-11-10-Thu.
 - Time Wait NHN KR, https://meetup.toast.com/posts/55, 2022-11-10-Thu.
+- ATP User's Guide, https://www.debian.org/doc/manuals/apt-guide/index.en.html, 2022-12-01-Thu.
