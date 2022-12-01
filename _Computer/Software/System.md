@@ -78,10 +78,10 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - Ubuntu MATE (by Ubuntu Mate Team, from October 2014, based on GNOME 2 in version 18)
     - Raspberry Pi OS (formely Raspbian, by Mike Thompson, Peter Green and foundation, from June 2012)
   - Fedora (formerly Red Hat Linux, by Red Hat of IBM, from November 2003) | Workstation | Server | IoT
-    - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
-    - CentOS (by Red Hat of IBM and community, from May 2004, until December 2021 with version 8)
     - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
-    - Rocky Linux (by Rocky Enterprise Software Foundation (RESF), from April 2021)
+    - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
+    - CentOS Linux (by Red Hat of IBM and community, from May 2004, until December 2021 with version 8)
+    - Rocky Linux (by Rocky Enterprise Software Foundation (RESF), from April 2021 with version 8)
   - OpenWrt (by Linksys, from 2007, used for most of Router Platform)
   - Android (by Android of Google, from September 2008, used for Mobile Platform)
     - Wear OS (formerly Android Wear, from March 2014 with Android 4.4W, used for Android Smart Watch)
@@ -226,13 +226,25 @@ Linux is one of the most prominent examples of free and open-source software col
 
 ### [Raspbian](https://www.raspbian.org/) | _[Raspberry Pi OS](https://www.raspberrypi.com/software/)_
 
-### *[Fedora](https://getfedora.org/)* | _[Fedora Workstation](https://getfedora.org/en/workstation/)_ | _[Fedora Server](https://getfedora.org/en/server/)_ | _[Fedora IoT](https://getfedora.org/en/iot/)_
+### *[Fedora](https://getfedora.org/)* | _[Workstation](https://getfedora.org/en/workstation/)_ | _[Server](https://getfedora.org/en/server/)_ | _[IoT](https://getfedora.org/en/iot/)_
+
+Download Fedora 37:
+- [Workstation](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso)
+- [Server](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso)
 
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
-### *[CentOS](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
+### *[CentOS Linux](https://www.centos.org/)* | [What is CentOS Linux?](https://wiki.centos.org/FrontPage)
+
+Download CentOS 7 - x86_64:
+- [Minimal](http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso)
+- [DVD](http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
 
 ### _[Rocky Linux](https://rockylinux.org/)_
+
+Download Rocky 8 - x86_64:
+- [Minimal](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso)
+- [DVD](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso)
 
 ### [OpenWrt](https://openwrt.org/) - Router Platform
 
@@ -633,3 +645,9 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Ubuntu vs. CentOS Blog KR, https://coconuts.tistory.com/175, 2022-11-30-Wed.
 - Ubuntu vs. CentOS Blog KR, https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=changfen15&logNo=221414926213, 2022-11-30-Wed.
 - Ubuntu vs. Rocky Linux Blog KR, https://tech.osci.kr/2022/07/05/centos%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%8C%80%EC%95%88-rocky-linux%EC%99%80-ubuntu/, 2022-11-30-Wed.
+- Download Rocky 8 - x86_64 - Minimal, https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso, 2022-12-01-Thu.
+- Download Rocky 8 - x86_64 - DVD, https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso, 2022-12-01-Thu.
+- Download CentOS 7 - x86_64 - Minimal, http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso, 2022-12-01-Thu.
+- Download CentOS 7 - x86_64 - DVD, http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso, 2022-12-01-Thu.
+- Download Fedora 37 Workstation, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso, 2022-12-01-Thu.
+- Download Fedora 37 Server, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso, 2022-12-01-Thu.
