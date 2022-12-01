@@ -50,7 +50,7 @@ Many tools available on a Debian system can be used for Package management. Comm
   - gdebi: Graphical installer for standalone Debian Packages
   - gnome-software: Software Center for GNOME
 
-### _[apt](https://www.debian.org/doc/manuals/apt-guide/index.en.html)_
+### _[apt](https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg)_ | [man](https://www.debian.org/doc/manuals/apt-guide/index.en.html)
 
 The apt package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: 
 
@@ -61,7 +61,7 @@ The apt package provides commandline tools for searching, managing, and querying
 - apt-get: command-line tool for handling packages
 - apt-key: manage the list of keys used by apt to authenticate packages. This command is deprecated!
 
-### _dpkg_
+### _[dpkg](https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg)_
 
 The dpkg package provides low-level infrastructure for handling the installation and removal of Debian software packages:
 
@@ -389,4 +389,6 @@ TCP socket states:
 - Linux TCP Kernel Parameter NHN KR, https://meetup.toast.com/posts/53, 2022-11-10-Thu.
 - Network Capacity Parameter NHN KR, https://meetup.toast.com/posts/54, 2022-11-10-Thu.
 - Time Wait NHN KR, https://meetup.toast.com/posts/55, 2022-11-10-Thu.
+- APT, https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#apt-get, 2022-12-01-Thu.
 - ATP User's Guide, https://www.debian.org/doc/manuals/apt-guide/index.en.html, 2022-12-01-Thu.
+- dpkg, https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg, 2022-12-01-Thu.
