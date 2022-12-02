@@ -52,6 +52,22 @@ Kubernetes 1.25 requires that you use a runtime that conforms with the Container
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
+### _[Compose](https://docs.docker.com/compose/)_
+
+Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services. Then, with a single command, you create and start all the services from your configuration.
+
+Compose works in all environments: production, staging, development, testing, as well as CI workflows. It also has commands for managing the whole lifecycle of your applcations:
+- Start, stop, and rebuild services
+- View the status of running services
+- Stream the log output of running services
+- Run a one-off command on a service
+
+The key features of Compose that make it effective are:
+- Have multiple isolated environments on a single host
+- Preserves volume ata when containers are created
+- Only recreate containers that have changed
+- Supports variables and moving a composition between environments
+
 ### Docker Containers killed by system | [IBM](https://www.ibm.com/docs/en/doc/4.0.1?topic=docker-containers-killed-by-system)
 
 This problem is related to a lack of memory in the docker desktop configuration: the different docker containers have not enough space to be allocated causing either the application to start very slowly or for some services to be killed by docker during their startup.
@@ -660,3 +676,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Controllers, https://kubernetes.io/docs/concepts/architecture/controller/, 2022-11-25-Fri.
 - Kubernetes Scheduler, https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/, 2022-11-25-Fri.
 - Kubernetes Architecture Blog KR, https://wiki.webnori.com/display/kubernetes/Architecture, 2022-11-29-Tue.
+- Docker Compose, https://docs.docker.com/compose/, 2022-12-02-Fri.
