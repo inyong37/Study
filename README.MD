@@ -5,7 +5,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 
 ----------
 
-### Library
+### Framework
 #### a. TensorFlow | [Tutorial](https://www.tensorflow.org/tutorials) | January, 2017 | :pencil:
 #### b. Theano | [Homepage](http://deeplearning.net/software/theano/) | January, 2018 | Deprecated
 #### c. Keras | [Homepage](https://keras.io/) | January, 2018 | :pencil:
