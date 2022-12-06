@@ -249,6 +249,8 @@ Download Rocky 8 - x86_64:
 - [Minimal](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso)
 - [DVD](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-dvd1.iso)
 
+[Migrate CentOS Linux to Rocky Linux](https://www.lesstif.com/lpt/centos-8-rocky-linux-migration-113346015.html)
+
 ### [OpenWrt](https://openwrt.org/) - Router Platform
 
 ### [Android](https://developer.android.com/) - Mobile Platform
@@ -654,3 +656,4 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Download CentOS 7 - x86_64 - DVD, http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso, 2022-12-01-Thu.
 - Download Fedora 37 Workstation, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso, 2022-12-01-Thu.
 - Download Fedora 37 Server, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso, 2022-12-01-Thu.
+- Migrate CentOS Linux to Rocky Linux, https://www.lesstif.com/lpt/centos-8-rocky-linux-migration-113346015.html, 2022-12-06-Tue.
