@@ -77,6 +77,8 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - Linux Mint (by community, from August 2006)
       - Ubuntu MATE (by Ubuntu Mate Team, from October 2014, based on GNOME 2 in version 18)
     - Raspberry Pi OS (formely Raspbian, by Mike Thompson, Peter Green and foundation, from June 2012)
+  - CRUX (by Per Lidén, from 2002, used for the x86-64 architecture)
+  - Arch Linux (by Judd Vinet, from 2002, used for the x86-64 architecture)
   - Fedora (formerly Red Hat Linux, by Red Hat of IBM, from November 2003) | Workstation | Server | IoT
     - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
     - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
@@ -88,7 +90,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Android TV (used for Smart TV)
     - Android Auto (from March 2015, used for connected vehicle by Android Phone)
     - Android Automotive OS (used for infortainment system of vehicle)
-  - Arch Linux (by Judd Vinet, from 2002, used for the x86-64 architecture)
+
 - z/OS (by IBM, from October 2000, used for Mainframe)
 - TinyOS (by TinyOS Alliance, from 2000)
 - FreeRTOS (by Real Time Engineers Ltd., from 2003)
