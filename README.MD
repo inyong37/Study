@@ -185,7 +185,7 @@ Books about Data Structure and Algorithm.
 
 ---
 
-### VII. Books for Computer Science :books:
+# VII. Books for Computer Science :books:
 
 |Title|AMAZON (US)|YES24 (KR)|
 |:----|:---------:|:--------:|
