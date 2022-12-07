@@ -38,7 +38,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 
 ----------
 
-# II. Book :books:
+# II. Books for AI, ML, and DL :books:
 ```
 Books about Machine Learning, Deep Learning and Computer Vision.
 ```
@@ -183,13 +183,30 @@ Books about Data Structure and Algorithm.
 |A Tour of C++ (2nd)|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
 |Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
 
+---
+
+### VII. Books for Computer Science :books:
+
+|Title|AMAZON (US)|YES24 (KR)|
+|:----|:---------:|:--------:|
+| Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |
+| Operating System Concepts Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=) | [YES24 (KR)](http://www.yes24.com/Product/Goods/71048173) |
+| Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY) |
+| Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC) | [YES24 (KR)](http://www.yes24.com/Product/Goods/1778966) |
+| The Practice of Programming (1st Ed.) | [AMAZON](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X/ref=sr_1_1?dchild=1&keywords=the+practice+of+programming&qid=1634535818&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/2833579) |
+| Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/11681152) |
+| The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/29241448) |
+| Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/77283734) |
+| Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
+| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198)
+
 ----------
 
-## VII. Web
+## VIII. Web
 
 ---
 
-## VIII. ETC 
+## IX. ETC 
 
 ### i. Cloud Computing :cloud:
 
@@ -248,21 +265,6 @@ CuDNN in ~/CUDA/include/cudnn.h:
 
 `More contents are at the 'Virtualization' page.`
 
-### v. Computer Science :books:
-
-|Title|AMAZON (US)|YES24 (KR)|
-|:----|:---------:|:--------:|
-| Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |
-| Operating System Concepts Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=) | [YES24 (KR)](http://www.yes24.com/Product/Goods/71048173) |
-| Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY) |
-| Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC) | [YES24 (KR)](http://www.yes24.com/Product/Goods/1778966) |
-| The Practice of Programming (1st Ed.) | [AMAZON](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X/ref=sr_1_1?dchild=1&keywords=the+practice+of+programming&qid=1634535818&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/2833579) |
-| Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/11681152) |
-| The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/29241448) |
-| Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/77283734) |
-| Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
-| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198)
-
-### vi. Utility :hammer_and_wrench:
+### v. Utility :hammer_and_wrench:
 
 Utility Scripts with Python.
