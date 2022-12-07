@@ -46,6 +46,10 @@ BISO(바이오스)는 OS 중 가장 기본적인 컴퓨터의 입출력을 처�
 
 UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 사이의 소프트웨어 인터페이스를 정의하는 규격이다. IBM PC 호환기종에서 사용되는 BIOS interface를 대체할 목적으로 개발되었다. Intel이 개발한 EFI(Extensible Firmware Interface) 규격에서 출발하였다. EFI의 관행과 데이터 포맷 중 일부는 Microsoft Windows의 것과 동일하게 사용된다. 2005년 UEFI는 EFI 1.10의 사용을 권장치 않기로 했다. 통일 EFI 포럼은 UEFI 사양을 관리하는 산업체이다.
 
+---
+
+## Types :books:
+
 - CP/M (by Digital Research, at 1974)
 - DOS
   - 86-DOS (aka QDOS, by Seattle Computer Products)
