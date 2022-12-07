@@ -199,6 +199,8 @@ POSIX는 이식 가능 운영 체제 인터페이스의 약자로, 서로 다른
 
 ## *[MINIX 3](https://www.minix3.org/)*
 
+MINIX 3 is a free, open-source, operating system designed to be highly reliable, flexible, and secure. It is based on a tiny microkernel running in kernel mode with the rest of the operating system running as a number of isolated, protected, processes in user mode. It runs on x86 and ARM CPUs, is compatible with NetBSD, and runs thousands of NetBSD packages.
+
 ---
 
 ## *[Linux](https://www.linux.org/)* | [WiKi](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
@@ -232,11 +234,33 @@ Download:
 
 ### [Raspbian](https://www.raspbian.org/) | _[Raspberry Pi OS](https://www.raspberrypi.com/software/)_
 
-### *[Fedora](https://getfedora.org/)* | _[Workstation](https://getfedora.org/en/workstation/)_ | _[Server](https://getfedora.org/en/server/)_ | _[IoT](https://getfedora.org/en/iot/)_
+### *[Fedora](https://getfedora.org/)*
 
-Download Fedora 37:
-- [Workstation](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso)
-- [Server](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso)
+Fedora creates an innovative, free, and open source platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users.
+
+### _[Fedora Workstation](https://getfedora.org/en/workstation/)_
+
+Fedora Workstation is a polished, easy to use operating system for laptop and desktop computers, with a complete set of tools for developers and makers of all kinds.
+
+Download [Fedora 37 Workstation](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso)
+
+### _[Fedora Server](https://getfedora.org/en/server/)_
+
+Fedora Server is a powerful, flexible operating system that includes the best and latest datacenter technologies. It puts you in control of all your infrastructure and services.
+
+Download [Fedora 37 Server](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso)
+
+### _[Fedora IoT](https://getfedora.org/en/iot/)_
+
+Fedora IoT provides a trusted open source platform as a strong foundation for IoT ecosystems.
+
+### _[Fedora Cloud](https://getfedora.org/en/cloud/)_
+
+Fedora Cloud eidtion is a powerful and minial base operating system image with tailored images available for both public and many private cloud uses.
+
+### _[Fedora CoreOS](https://getfedora.org/en/coreos/)_
+
+Fedora CoreOS is an automatically updating, minimal, container-focused operating system.
 
 ### *[Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)* | [Red Hat](https://access.redhat.com/)
 
@@ -247,6 +271,8 @@ Download CentOS 7 - x86_64:
 - [DVD](http://mirror.navercorp.com/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
 
 ### _[Rocky Linux](https://rockylinux.org/)_
+
+Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux. It is under intensive development by the community.
 
 Download Rocky 8 - x86_64:
 - [Minimal](https://download.rockylinux.org/pub/rocky/8/isos/x86_64/Rocky-8.7-x86_64-minimal.iso)
@@ -677,3 +703,5 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Migrate CentOS Linux to Rocky Linux, https://www.lesstif.com/lpt/centos-8-rocky-linux-migration-113346015.html, 2022-12-06-Tue.
 - Arch Linux, https://archlinux.org/, 2022-12-07-Wed.
 - CRUX, https://crux.nu/, 2022-12-07-Wed.
+- Fedora Cloud, https://getfedora.org/en/cloud/, 2022-12-07-Wed.
+- Fedora CoreOS, https://getfedora.org/en/coreos/, 2022-12-07-Wed.
