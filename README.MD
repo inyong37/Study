@@ -38,7 +38,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 
 ----------
 
-# II. Books for AI, ML, and DL :books:
+# II. Book :books:
 ```
 Books about Machine Learning, Deep Learning and Computer Vision.
 ```
