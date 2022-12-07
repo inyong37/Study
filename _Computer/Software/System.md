@@ -360,10 +360,17 @@ Principles:
   - Out of date가 되기 쉽다.
 
 보안:
-- CentOS의 패키지가 적어 보안 취약점이 적다. 
-
+- CentOS의 패키지가 적어 보안 취약점이 적다.
 
 ### Ubuntu vs. Rocky Linux | [Blog (KR)](https://tech.osci.kr/2022/07/05/centos%EC%9D%98-%ED%96%A5%ED%9B%84-%EB%8C%80%EC%95%88-rocky-linux%EC%99%80-ubuntu/)
+
+### CentOS vs. Fedora | [Blog](https://www.openlogic.com/blog/centos-vs-fedora)
+
+Since CentOS is a downstream recomplilation of RHEL, the relation to Fedora is the same as with RHEL. This changed with the introdution of CentOS Steam. CentOS major version releases can lag behind HREL by a couple of months, but security patches and bugfixes are generally released within a day or so of them being released for RHEL. CentOS Stream is ahead of RHEL, but behind Fedora. So new packages get introduced into Fedora, make their way to CentOS Stream, then to RHEL.
+
+### CentOS Stream vs. Fedora | [Blog](https://www.openlogic.com/blog/centos-vs-fedora)
+
+Red Hat released CentOS Stream, which is a rolling distribution. It gets updates continuously, rather than in batches like the point releases fo RHEL. Fedora is ahead of CentOS Stream though, so it will have newer packages with perhaps more bugs than CentOS Stream.
 
 ---
 
@@ -709,3 +716,5 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - CRUX, https://crux.nu/, 2022-12-07-Wed.
 - Fedora Cloud, https://getfedora.org/en/cloud/, 2022-12-07-Wed.
 - Fedora CoreOS, https://getfedora.org/en/coreos/, 2022-12-07-Wed.
+- CentOS vs. Fedora Blog, https://www.openlogic.com/blog/centos-vs-fedora, 2022-12-07-Wed.
+
