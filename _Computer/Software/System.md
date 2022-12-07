@@ -88,6 +88,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Android TV (used for Smart TV)
     - Android Auto (from March 2015, used for connected vehicle by Android Phone)
     - Android Automotive OS (used for infortainment system of vehicle)
+  - Arch Linux (by Judd Vinet, from 2002, used for the x86-64 architecture)
 - z/OS (by IBM, from October 2000, used for Mainframe)
 - TinyOS (by TinyOS Alliance, from 2000)
 - FreeRTOS (by Real Time Engineers Ltd., from 2003)
@@ -298,6 +299,21 @@ For media apps, your app must include a media browser service (see Build media a
   - Server packages concentrate on establishing connectivity with clients and security
 
 `Other parts of the "Linux" have been moved to the "Linux" page.`
+
+### _[CRUX](https://crux.nu/)_
+
+CRUX is a lightweight Linux distribution for the x86-64 architecture targeted at experienced Linux users. The primary focus of this distribution is keep it simple, which is reflected in a straightforward tar.gz-based package system, BSD-style initscripts, and a relatively small collection of trimmed packages. The secondary focus is utilization of new Linux features and recent tools and libraries. CRUX also has a ports system which makes it easy to install and upgrade applications.
+
+### _[Arch Linux](https://archlinux.org/)_
+
+Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux distribution that strives to provide the latest stable versions of most software by following a rolling-release model. The default installation is a minimal base system, configured by the user to only add what is purposely required.
+
+Principles:
+1. Simplicity
+2. Modernity
+3. Pragmatism
+4. User centrality
+5. Versatility
 
 ### Ubuntu vs. CentOS | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=changfen15&logNo=221414926213) | [Blog (KR)](https://coconuts.tistory.com/175) | [Blog (KR)](https://velog.io/@imok-_/CentOS%EC%99%80-Ubuntu-%EC%B0%A8%EC%9D%B4)
 
@@ -657,3 +673,5 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Download Fedora 37 Workstation, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-37-1.7.iso, 2022-12-01-Thu.
 - Download Fedora 37 Server, https://download.fedoraproject.org/pub/fedora/linux/releases/37/Server/x86_64/iso/Fedora-Server-dvd-x86_64-37-1.7.iso, 2022-12-01-Thu.
 - Migrate CentOS Linux to Rocky Linux, https://www.lesstif.com/lpt/centos-8-rocky-linux-migration-113346015.html, 2022-12-06-Tue.
+- Arch Linux, https://archlinux.org/, 2022-12-07-Wed.
+- CRUX, https://crux.nu/, 2022-12-07-Wed.
