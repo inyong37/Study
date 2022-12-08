@@ -108,7 +108,12 @@ For connecting multiple Ethernet devices together and making them act as a singl
 
 ### _Wireless Access Point (WAP)_ | [WiKi](https://en.wikipedia.org/wiki/Wireless_access_point) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
 
-WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다. 
+WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다.
+
+AP:
+- A2004MU (106)
+- A2004NS-MU (919)
+- N104T (1211)
 
 ### :bulb: Setup ipTIME AP (ex. N104T)
 
