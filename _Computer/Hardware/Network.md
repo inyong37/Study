@@ -110,16 +110,19 @@ For connecting multiple Ethernet devices together and making them act as a singl
 
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다.
 
-AP:
-- A2004MU
-- A2004NS-MU
-- N104T
+### :bulb: __Setup AP__ | __공유기 초기 설정하기__ :star:
 
-### :bulb: Setup ipTIME AP (ex. N104T)
+1. __EFM ipTIME__ (A2004MU, A2004NS-MU, N104T):
+- `http://192.168.0.1/`
 
-1. enter `http://192.168.0.1/` with internet browser
-2. click `무선마법사` setup
-3. click `설정마법사` and then setup
+2. __SKT__:
+- `http://192.168.35.1/`
+
+3. __KT__:
+- `http://172.30.1.254/`
+
+4. __LGU+__:
+- `http://192.168.219.1/`
 
 ### Structured Calbing | [WiKi](https://en.wikipedia.org/wiki/Structured_cabling)
 
