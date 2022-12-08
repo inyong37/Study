@@ -111,9 +111,9 @@ For connecting multiple Ethernet devices together and making them act as a singl
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다.
 
 AP:
-- A2004MU (106)
-- A2004NS-MU (919)
-- N104T (1211)
+- A2004MU
+- A2004NS-MU
+- N104T
 
 ### :bulb: Setup ipTIME AP (ex. N104T)
 
