@@ -183,7 +183,7 @@ hyperextensible Vim-based text editor
 
 ## Markdown Editor
 
-### [Typora](https://typora.io/)
+### _[Typora](https://typora.io/)_
 
 - [How to add as a command in windows](https://superuser.com/questions/689333/how-to-add-installed-program-to-command-prompt-in-windows)
 
