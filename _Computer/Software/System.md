@@ -372,6 +372,20 @@ Since CentOS is a downstream recomplilation of RHEL, the relation to Fedora is t
 
 Red Hat released CentOS Stream, which is a rolling distribution. It gets updates continuously, rather than in batches like the point releases fo RHEL. Fedora is ahead of CentOS Stream though, so it will have newer packages with perhaps more bugs than CentOS Stream.
 
+### _[Usage statistics of Linux for websites](https://w3techs.com/technologies/details/os-linux)_
+
+Percentage of websites using Linux (W3Techs.com, 13 December 2022):
+- Unix: 80.4%
+- Linux: 38.1%
+
+Subcategories of Linux (W3Techs.com, 13 December 2022):
+- Ubuntu: 32.8%
+- Debian 16.6%
+- CentOS: 8.7%
+- Red Hat: 0.8%
+
+실제 enterprise server에서 사용하는 서버는 다를 수 있다. 상용, 비상용(개인용) 구분이 없는 경우, 안정성보다 사용성을 우선시한다.
+
 ---
 
 ## :computer: *Macintosh* | [WiKi](https://en.wikipedia.org/wiki/Macintosh_operating_systems)
@@ -717,4 +731,4 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Fedora Cloud, https://getfedora.org/en/cloud/, 2022-12-07-Wed.
 - Fedora CoreOS, https://getfedora.org/en/coreos/, 2022-12-07-Wed.
 - CentOS vs. Fedora Blog, https://www.openlogic.com/blog/centos-vs-fedora, 2022-12-07-Wed.
-
+- Usage statistics of Linux for websites, https://w3techs.com/technologies/details/os-linux, 2022-12-13-Tue.
