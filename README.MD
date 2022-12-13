@@ -305,6 +305,8 @@ Linux Professional Institute (LPI):
 
 ### iii. Cloud
 
+### A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
+
 ### B. Kubernetes
 
 - [CERTIFIED KUBERNETES ADMINISTRATOR (CKA)](https://www.cncf.io/certification/cka/)
