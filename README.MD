@@ -268,3 +268,30 @@ CuDNN in ~/CUDA/include/cudnn.h:
 ### v. Utility :hammer_and_wrench:
 
 Utility Scripts with Python.
+
+## X. Certification
+
+### i. Network
+
+### ii. System 
+
+### A. Unix
+
+Oracle Solaris:
+- OCSA
+- OCNA
+
+### B. Linux
+
+Linux Professional Institute (LPI):
+- [LPIC-1](https://www.lpi.org/our-certifications/lpic-1-overview)
+- [LPIC-2](https://www.lpi.org/our-certifications/lpic-2-overview)
+- [LPIC-3 Mixed Environments](https://www.lpi.org/our-certifications/lpic-3-300-overview)
+- [LPIC-3 Security](https://www.lpi.org/our-certifications/lpic-3-303-overview)
+- [LPIC-3 Virtualization and Containerization](https://www.lpi.org/our-certifications/lpic-3-305-overview)
+- [LPIC-3 High Availability and Storage Clusters](https://www.lpi.org/our-certifications/lpic-3-306-overview)
+
+### C. Windows
+
+- MCSA
+- MCSE
