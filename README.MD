@@ -302,3 +302,15 @@ Linux Professional Institute (LPI):
 
 - MCSA
 - MCSE
+
+### iii. Cloud
+
+### B. Kubernetes
+
+- [CERTIFIED KUBERNETES ADMINISTRATOR (CKA)](https://www.cncf.io/certification/cka/)
+- [CERTIFIED KUBERNETES APPLICATION DEVELOPER (CKAD)](https://www.cncf.io/certification/ckad/)
+- [CERTIFIED KUBERNETES SECURITY SPECIALIST (CKS)](https://www.cncf.io/certification/cks/)
+- [KUBERNETES AND CLOUD NATIVE ASSOCIATE (KCNA)](https://www.cncf.io/certification/kcna/)
+- [KUBERNETES CERTIFIED SERVICE PROVIDER (KCSP)](https://www.cncf.io/certification/kcsp/)
+- [PROMETHEUS CERTIFIED ASSOCIATE (PCA)](https://www.cncf.io/certification/pca/)
+
