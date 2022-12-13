@@ -198,7 +198,14 @@ Books about Data Structure and Algorithm.
 | The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/29241448) |
 | Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/77283734) |
 | Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24 (KR)](http://www.yes24.com/Product/Goods/14528020) |
-| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198)
+| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24 (KR)](http://www.yes24.com/Product/Goods/91213198) |
+| 임베디드 OS 개발 프로젝트 | - | [YES24 (KR)](임베디드 OS 개발 프로젝트](http://www.yes24.com/product/goods/84909414) |
+| 코드로 알아보는 ARM 리눅스 커널 | - | [YES24 (KR)](http://www.yes24.com/Product/Goods/60856943) |
+| 리눅스 커널 패치와 커밋 | - | [YES24 (KR)](http://www.yes24.com/Product/Goods/18488713) |
+| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 1 | - | [YES24 (KR)](http://www.yes24.com/Product/Goods/90085976) |
+| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 2 | - | [YES24 (KR)](http://www.yes24.com/Product/Goods/90087307) |
+| 리눅스 커널 내부구조 | - | [YES24 (KR)](http://www.yes24.com/product/goods/16040426) |
+| 제로 트러스트 구글 엔지니어는 아무도 믿지 않는다 | - | [YES24 (KR)](http://www.yes24.com/Product/Goods/114682926) |
 
 ----------
 
