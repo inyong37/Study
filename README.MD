@@ -316,3 +316,6 @@ Linux Professional Institute (LPI):
 - [KUBERNETES CERTIFIED SERVICE PROVIDER (KCSP)](https://www.cncf.io/certification/kcsp/)
 - [PROMETHEUS CERTIFIED ASSOCIATE (PCA)](https://www.cncf.io/certification/pca/)
 
+### iv. Deep Learning
+
+### A. TensorFlow
