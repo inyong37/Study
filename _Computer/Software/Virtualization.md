@@ -15,6 +15,15 @@ VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as 
 
 VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
 
+### Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95)
+
+- NAT
+- NAT Network
+- Bridged Adapter
+- Internal Network
+- Host-only Adapter
+- Generic Driver
+
 ### Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
 
 Hyper-V는 하드웨어 가상화를 제공합니다. 즉, 각 가상 컴퓨터가 가상 하드웨어에서 실행됩니다. Hyper-V를 통해 가상 하드 드라이브, 가상 스위치 및 가상 컴퓨터에 추가할 수 있는 각종 가상 디바이스를 만들 수 있습니다.
@@ -35,3 +44,5 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 - VMware Workstation Player for Linux Documentation, https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html, 2022-10-17-Mon.
 - VMware Workstation Player for Windows Documentation, https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html, 2022-10-17-Mon.
 - VMware Workstation Pro Documentation, https://docs.vmware.com/en/VMware-Workstation-Pro/index.html, 2022-10-17-Mon.
+- VirtualBox Network Blog KR, https://technote.kr/213, 2022-12-15-Thu.
+- VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
