@@ -446,11 +446,6 @@ The HorizontalPodAutoscaler is implemented as a Kubernetes API resource and a co
 
 ---
 
-
-### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
-
-Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
-
 ### _[Drivers](https://minikube.sigs.k8s.io/docs/drivers/)_
 
 Linux:
@@ -607,6 +602,27 @@ Windows:
       kubectl get pods
       kubectl describe pods
       ```
+---
+
+### *[minikube](https://minikube.sigs.k8s.io/docs/)* | [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+
+Minikube quickly sets up a local Kubernetes cluster on macOS, Linux, and Windows. We proudly focus on helping application developers and new Kubernetes users.
+
+### _[MicroK8s](https://microk8s.io/)_ by Canonical | [GitHub](https://github.com/canonical/microk8s)
+
+Zero-ops, pure-upstream Kubernetes, from developer workstations to production.
+
+### _[K3S](https://k3s.io/)_
+
+The certified Kubernetes distribution built for IoT & Edge computing.
+
+---
+
+Multi-OS Kubernetes | [Blog](https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/) | [MS Docs](https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters)
+
+Deploy Kubernetes on CentOS 7 | [Blog](https://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services)
+
+Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively | [Blog](https://medium.com/@dimuthudesilva24/setting-up-a-simple-kubernetes-cluster-on-ubuntu-and-centos-61d73f43f36b)
 
 ---
 
@@ -677,3 +693,10 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Kubernetes Scheduler, https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/, 2022-11-25-Fri.
 - Kubernetes Architecture Blog KR, https://wiki.webnori.com/display/kubernetes/Architecture, 2022-11-29-Tue.
 - Docker Compose, https://docs.docker.com/compose/, 2022-12-02-Fri.
+- MicroK8s, https://microk8s.io/, 2022-12-15-Thu.
+- MicroK8s GitHub, https://github.com/canonical/microk8s, 2022-12-15-Thu.
+- K3S, https://k3s.io/, 2022-12-15-Thu.
+- Deploying Kubernetes on CentOS7 Blog, https://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services, 2022-12-15-Thu.
+- Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively Blog, https://medium.com/@dimuthudesilva24/setting-up-a-simple-kubernetes-cluster-on-ubuntu-and-centos-61d73f43f36b, 2022-12-15-Thu.
+- Multi-OS Kubernetes Blog, https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/, 2022-12-15-Thu.
+- Multi-OS Kubernetes MS Docs, https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters, 2022-12-15-Thu.
