@@ -19,7 +19,7 @@ Bourne shell(sh)는 Unix version 7의 기본 Unix shell이었다. 톰프슨 shel
 
 Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 Brian Fox가 작성한 Unix shell이다. Bash는 1989년 발표되어 GNU OS와 Linux, mac os X 그리고 Dawin 등 OS의 기본 shell로 탑재되어 광범위하게 배포되었다. Bash는 또한 DJGPP와 노벨 넷웨어에 의해 DOS로 이식되었고 Cygwin과 MinGW의 배포로 Microsoft Windows로 이식되었다.
 
-### _[Zsh](https://www.zsh.org/)_ | [Zsh Web Pages](https://zsh.sourceforge.io/)
+### _[Zsh](https://www.zsh.org/)_ | [Zsh Web Pages](https://zsh.sourceforge.io/) | [Blog (KR)](http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89)
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
 
@@ -217,3 +217,4 @@ less is a terminal pager program on Unix, Windows, and Unix-like systems used to
 - Terminal Pager WiKi, https://en.wikipedia.org/wiki/Terminal_pager, 2022-11-10-Thu.
 - more WiKi, https://en.wikipedia.org/wiki/More_(command), 2022-11-10-Thu.
 - less WiKi, https://en.wikipedia.org/wiki/Less_(Unix), 2022-11-10-Thu.
+- macOS Shell Blog KR, http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89, 2022-12-16-Fri.
