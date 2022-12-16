@@ -179,6 +179,17 @@ Tagbar is a Vim plugin that provides an easy way to browse the tags of the curre
 
 hyperextensible Vim-based text editor
 
+Setup:
+- `sudo apt-get install nvim`
+- edit `~/.bashrc` with `alias vi="nvim"` and `alias vim="nvim"`
+- `source ~/.bashrc`
+
+Config:
+- `mkdir ~/.config/nvim/`
+- `vim init.vim`
+- [Blog](https://medium.com/geekculture/neovim-configuration-for-beginners-b2116dbbde84)
+- [Youtube](https://youtu.be/JWReY93Vl6g)
+
 ---
 
 ## Markdown Editor
@@ -219,3 +230,5 @@ File - Preference - General - Open Advanced Setting - `config.user.json`
 - Sublime Text Keymap Blog (KR), https://webclub.tistory.com/323, 2021-02-26-Fri.
 - Neovim, https://neovim.io/, 2022-12-13-Tue.
 - Installing Neovim, https://github.com/neovim/neovim/wiki/Installing-Neovim, 2022-12-16-Fri.
+- Neovim Config, https://medium.com/geekculture/neovim-configuration-for-beginners-b2116dbbde84, 2022-12-16-Fri.
+- Neovim Config, https://youtu.be/JWReY93Vl6g, 2022-12-16-Fri.
