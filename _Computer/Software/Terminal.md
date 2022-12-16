@@ -23,6 +23,8 @@ Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 B
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
 
+zsh-autosuggetions [Blog (KR)](https://yeonfamily.tistory.com/15)
+
 ---
 
 # I. _Windows_ | [Windows Commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
@@ -218,3 +220,4 @@ less is a terminal pager program on Unix, Windows, and Unix-like systems used to
 - more WiKi, https://en.wikipedia.org/wiki/More_(command), 2022-11-10-Thu.
 - less WiKi, https://en.wikipedia.org/wiki/Less_(Unix), 2022-11-10-Thu.
 - macOS Shell Blog KR, http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89, 2022-12-16-Fri.
+- macOS Shell auto-suggestions Blog KR, https://yeonfamily.tistory.com/15, 2022-12-16-Fri.
