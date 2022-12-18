@@ -210,6 +210,8 @@ Books about Data Structure and Algorithm.
 | Understanding the Digital World | [Princeton University Press](https://press.princeton.edu/books/hardcover/9780691219097/understanding-the-digital-world) | [YES24 (KR)](http://www.yes24.com/Product/Goods/105803863) |
 | 면접을 위한 CS 전공지식 노트 | | [YES24 (KR)](http://www.yes24.com/Product/Goods/108887922) |
 | 그림으로 이해하는 네트워크 용어 | | [YES24 (KR)](http://www.yes24.com/Product/Goods/109021732) |
+| Fundamentals of Queueing Theory (4th Ed.) | [Wiley](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+4th+Edition-p-9781118625651) | - |
+| Convex Optimization | [Cambridge University Press](https://www.cambridge.org/gb/academic/subjects/statistics-probability/optimization-or-and-risk/convex-optimization?format=HB) | - |
 
 ----------
 
