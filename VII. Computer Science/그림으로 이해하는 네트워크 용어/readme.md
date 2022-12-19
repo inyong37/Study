@@ -2,6 +2,8 @@
 
 December 2022 :christmas_tree:
 
+2022-12-19-Monday: Chapter 1, Chapter 10
+
 ## Contents
 
 Chapter 1. 네트워크 개론
