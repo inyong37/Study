@@ -1,6 +1,6 @@
 ## Date
 
-December 2022
+December 2022 :christmas_tree:
 
 ## Contents
 
