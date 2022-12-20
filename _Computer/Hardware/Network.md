@@ -259,6 +259,12 @@ When:
 - A global sharding scenario-such as load balancing-where you have a large number of geo-distributed clients that insert data in their own dedicated shards.
 - Maxed out your performance requirements, even in the highest performance tiers of your service, or if your data cannot fit into a single database.
 
+### Health Check | [Blog (KR)](https://aroundck.tistory.com/6800)
+
+1. ICMP - Layer 3
+2. Port - Layer 4
+3. Service - Layer 7
+
 ---
 
 ## *Distributed Computing* | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
@@ -686,3 +692,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Scaling Up vs. Scaling Out Azure, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview, 2022-11-18-Fri.
 - Scaling Up vs. Scaling Out Blog KR, https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/, 2022-11-18-Fri.
 - Server Event Loop Line KR, https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/, 2022-11-25-Fri.
+- Health Check Blog KR, https://aroundck.tistory.com/6800, 2022-12-20-Tue.
