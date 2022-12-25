@@ -2,6 +2,8 @@
 
 December 2022 :christmas_tree:
 
+Stop reading due to bad print
+
 ## Contents
 
 Part I. Hardware
