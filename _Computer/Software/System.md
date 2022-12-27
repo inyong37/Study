@@ -96,6 +96,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - Android Automotive OS (used for infortainment system of vehicle)
 
 - z/OS (by IBM, from October 2000, used for Mainframe)
+- OpenVMS (by VSI, from October 1977, used for Servers)
 - TinyOS (by TinyOS Alliance, from 2000)
 - FreeRTOS (by Real Time Engineers Ltd., from 2003)
 - Contiki-NG (from 2006, used for IoT devices)
@@ -502,6 +503,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 
 ---
 
+### _OpenVMS_ | [WiKi](https://en.wikipedia.org/wiki/OpenVMS)
+
+---
+
 ## :floppy_disk: _Embedded System_ | Firmware | RTOS | OS
 
 ### _[Yocto Project (YP)](https://www.yoctoproject.org/)_
@@ -732,3 +737,4 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - Fedora CoreOS, https://getfedora.org/en/coreos/, 2022-12-07-Wed.
 - CentOS vs. Fedora Blog, https://www.openlogic.com/blog/centos-vs-fedora, 2022-12-07-Wed.
 - Usage statistics of Linux for websites, https://w3techs.com/technologies/details/os-linux, 2022-12-13-Tue.
+- OpenVMS WiKi, https://en.wikipedia.org/wiki/OpenVMS, 2022-12-27-Tue.
