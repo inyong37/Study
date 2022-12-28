@@ -618,7 +618,11 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
     - TPM2, SecureBoot, and automated storage decryption with Clevis
   - Web-based provisioning 
   - Multiple architecture support
-    - x86_64, aarch64, and armhfp processors 
+    - x86_64, aarch64, and armhfp processors
+
+---
+
+<img width="462" alt="Screenshot 2022-12-28 at 9 11 19 AM" src="https://user-images.githubusercontent.com/20737479/209738490-b2a08f52-5c1c-4dbf-afa1-083a13e85377.png">
 
 ---
 
