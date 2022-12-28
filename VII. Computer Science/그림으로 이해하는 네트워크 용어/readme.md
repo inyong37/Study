@@ -2,7 +2,9 @@
 
 December 2022 :christmas_tree:
 
-2022-12-19-Monday: Chapter 1, Chapter 10
+2022-12-19-Monday: Chapter 1, and 10.
+
+2022-12-27-Tuesday: Chapter 2, 3, and 4.
 
 ## Contents
 
