@@ -22,6 +22,17 @@ Chapter 1. 디자인 패턴과 프로그래밍 패러다임
 
 2. 프로그래밍 패러다임
 
+- 선언형과 함수형 프로그래밍
+
+declarative programming, functional programming, pure function, 고차 함수, 일급 객체
+
+- 객체지향 프로그래밍
+
+OOP, Object-Oriented Programming, abstraction, encapsulation, inheritance, polymorphism, overloading, overriding(method overriding), SOLID(SRP, OCP, LSP, ISP, DIP)
+
+- 절차형 프로그래밍
+- 패러다임의 혼합
+
 Chapter 2. 네트워크
 
 1. 네트워크의 기초
