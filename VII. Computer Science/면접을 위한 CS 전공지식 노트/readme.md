@@ -4,6 +4,8 @@ December 2022 :christmas_tree:
 
 2022-12-28-Wednesday: Chapter 1.
 
+2022-12-31-Saturday: Chapter 6.
+
 ## Contents
 
 Chapter 1. 디자인 패턴과 프로그래밍 패러다임
