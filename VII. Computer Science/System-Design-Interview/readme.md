@@ -8,6 +8,8 @@ System Design Interview [AMAZON](https://www.amazon.com/System-Design-Interview-
 
 December 2022 :christmas_tree:
 
+2023-01-02-Monday: Chapter 2, and 3.
+
 ## Contents
 
 Chapter 1. 사용자 수에 따른 규모 확장성 :books:
