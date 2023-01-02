@@ -14,7 +14,7 @@ January 2023 :snowflake:
 
 ## Content
 
-### Chapter 1. 소개
+### Chapter 1. [소개](C01_Introduction.md)
 
 ### Chapter 2. 확률 분포
 
@@ -28,7 +28,7 @@ January 2023 :snowflake:
 
 ### Chapter 7. 희박한 커널 머신
 
-### Chapter 8. [그래프 모델](C08_GraphModel.md)
+### Chapter 8. [그래프 모델](C08_Graphical-Models.md)
 
 ### Chapter 9. 혼합 모델과 EM
 
