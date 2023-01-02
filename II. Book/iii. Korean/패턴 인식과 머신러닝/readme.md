@@ -22,7 +22,7 @@ Jul. 2021, Jul. 2022
 
 ### Chapter 7. 희박한 커널 머신
 
-### Chapter 8. [그래프 모델](https://github.com/inyong37/Study/blob/master/II.%20Book/iii.%20Korean/%ED%8C%A8%ED%84%B4%20%EC%9D%B8%EC%8B%9D%EA%B3%BC%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/C08_GraphModel.md)
+### Chapter 8. [그래프 모델](C08_GraphModel.md)
 
 ### Chapter 9. 혼합 모델과 EM
 
