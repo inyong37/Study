@@ -3,3 +3,38 @@
 December 2022 :christmas_tree:
 
 ## [Contents](https://github.com/TmaxArmy/BookStudy/tree/main/%EA%B0%80%EC%83%81%20%EB%A9%B4%EC%A0%91%20%EC%82%AC%EB%A1%80%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%84%A4%EA%B3%84%20%EA%B8%B0%EC%B4%88)
+
+Chapter 1. 사용자 수에 따른 규모 확장성
+
+Chapter 2. 개략적인 규모 추정
+
+Chapter 3. 시스템 설계 면접 공략법
+
+Chapter 4. 처리율 제한 장치의 설계
+
+Chapter 5. 안정 해시 설계
+
+Chapter 6. 키-값 저장소 설계
+
+Chapter 7. 분산 시스템을 위한 유일 ID 생성기 설계
+
+Chapter 8. URL 단축기 설계
+
+Chapter 9. 웹 크롤러 설계
+
+Chapter 10. 알림 시스템 설계
+
+Chapter 11. 뉴스 피드 시스템 설계
+
+Chapter 12. 채팅 시스템 설계
+
+Chapter 13. 검색어 자동완성 시스템
+
+Chapter 14. 유튜브 설계
+
+Chapter 15. 구글 드라이브 설계
+
+Chapter 16. 배움은 계속된다
+
+1. 실세계 시스템들
+2. 회사별 엔지니어링 블로그
