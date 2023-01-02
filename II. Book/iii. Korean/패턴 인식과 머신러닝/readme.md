@@ -26,7 +26,7 @@ January 2023 :snowflake:
 
 ### Chapter 6. [커널 방법론](C06_Kernel-Methods.md)
 
-### Chapter 7. [희박한 커널 머신](C07-Sparse-Kernel-Machines.md)
+### Chapter 7. [희박한 커널 머신](C07_Sparse-Kernel-Machines.md)
 
 ### Chapter 8. [그래프 모델](C08_Graphical-Models.md)
 
