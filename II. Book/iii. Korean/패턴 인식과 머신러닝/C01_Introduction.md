@@ -27,6 +27,30 @@ reinforcement learning:
 
 ## 1.1. 예시: 다항식 곡선 피팅
 
+order
+
+error function
+
+model comparison or model selection
+
+over-fitting
+
+root mean square error, RMS error
+
+maximum likelihood
+
+Bayesian
+
+regularization
+
+shrinkage method
+
+quadratic - ridge regression
+
+weight decay
+
+training set, validation set, hold-out set
+
 ## 1.2. 확률론
 
 ### 1.2.1. 확률 밀도
@@ -37,15 +61,17 @@ reinforcement learning:
 
 ### 1.2.4. 가우시안 분포
 
+normal distribution = Gaussian distribution
+
 ### 1.2.5. 곡선 피팅
 
 ### 1.2.6. 베이지안 곡선 피팅
 
 ## 1.3. 모델 선택
 
-## 1.4. 차원의 저주
+## 1.4. 차원의 저주 (Curse of Dimensionality)
 
-## 1.5. 결정 이론
+## 1.5. 결정 이론 (Decision Theory)
 
 ### 1.5.1. 오분류 비율의 최소화
 
