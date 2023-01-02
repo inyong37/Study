@@ -1,1 +1,1 @@
-# Chapter 13. Sequential Data
+# Chapter 13. 순차 데이터
