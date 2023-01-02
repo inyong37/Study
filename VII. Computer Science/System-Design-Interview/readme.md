@@ -34,7 +34,7 @@ Chapter 2. [개략적인 규모 추정](https://github.com/inyong37/Study/blob/m
 5. 팁
 6. 참고문헌
 
-Chapter 3. 시스템 설계 면접 공략법 :books:
+Chapter 3. [시스템 설계 면접 공략법](C03_A-Framework-For-System-Design-Interviews.md) :books:
 
 1. 효과적 면접을 위한 4단계 접근법
 
