@@ -2,6 +2,8 @@
 
 크리스토퍼 비숍 지음 / 김형진 옮김 | 2018년 09월 10일 | [YES24](http://www.yes24.com/Product/Goods/64189352)
 
+Pattern Recognition and Machine Learning [MICROSOFT](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)
+
 ## Date
 
 July 2021 :gun:
