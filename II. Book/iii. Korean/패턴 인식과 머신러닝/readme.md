@@ -4,7 +4,11 @@
 
 ## Date
 
-Jul. 2021, Jul. 2022
+July 2021 :gun:
+
+July 2022 :sunglasses:
+
+January 2023 :snowflake:
 
 ## Content
 
