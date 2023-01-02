@@ -1,6 +1,8 @@
-# 가상 면접 사례로 배우는 대규모 시스템 설계 기초
+# System Design Interview
 
-[System Design Interview (Amazon)](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)
+System Design Interview [Amazon](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)
+
+가상 면접 사례로 배우는 대규모 시스템 설계 기초 [YES24](http://www.yes24.com/Product/Goods/102819435)
 
 ## Date
 
