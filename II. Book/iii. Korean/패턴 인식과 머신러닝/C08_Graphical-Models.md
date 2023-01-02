@@ -1,4 +1,4 @@
-# Chapter 8
+# Chapter 8. 그래프 
 
 분석 과정에 있어서 확률 분포를 도식적으로 표현하는 확률적 그래프 모델(probabilistic graphical model)을 사용하면 다양한 장점이 존재한다.
 
