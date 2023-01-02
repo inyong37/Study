@@ -25,7 +25,7 @@ Chapter 1. 사용자 수에 따른 규모 확장성 :books:
 11. 백만 사용자, 그리고 그 이상
 12. 참고문헌
 
-Chapter 2. [개략적인 규모 추정](https://github.com/inyong37/Study/blob/master/VII.%20Computer%20Science/System-Design-Interview/C02_Back-of-the-envelop-Estimation.md) :books:
+Chapter 2. [개략적인 규모 추정](C02_Back-of-the-envelop-Estimation.md) :books:
 
 1. 2의 제곱수
 2. 모든 프로그래머가 알아야 하는 응답지연 값
