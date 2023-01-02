@@ -212,7 +212,7 @@ Books about Data Structure and Algorithm.
 | 그림으로 이해하는 네트워크 용어 | | [YES24 (KR)](http://www.yes24.com/Product/Goods/109021732) |
 | Fundamentals of Queueing Theory (4th Ed.) | [Wiley](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+4th+Edition-p-9781118625651) | - |
 | Convex Optimization | [Cambridge](https://www.cambridge.org/gb/academic/subjects/statistics-probability/optimization-or-and-risk/convex-optimization?format=HB) | - |
-| System Design Interview | [Amazon](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) | [YES24(KR)](http://www.yes24.com/Product/Goods/102819435) |
+| System Design Interview | [AMAZON](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) | [YES24(KR)](http://www.yes24.com/Product/Goods/102819435) |
 
 ----------
 
