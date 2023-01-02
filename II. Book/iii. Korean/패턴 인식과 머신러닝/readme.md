@@ -16,31 +16,31 @@ January 2023 :snowflake:
 
 ### Chapter 1. [소개](C01_Introduction.md)
 
-### Chapter 2. 확률 분포
+### Chapter 2. [확률 분포](C02_Probability-Distributions.md)
 
-### Chapter 3. 선형 회귀 모델
+### Chapter 3. [선형 회귀 모델](C03_Linear-Models-for-Regression.md)
 
-### Chapter 4. 선형 분류 모델
+### Chapter 4. [선형 분류 모델](C04_Linear-Models-for-Classification.md)
 
-### Chapter 5. 뉴럴 네트워크
+### Chapter 5. [뉴럴 네트워크](C05_Neural-Networks.md)
 
-### Chapter 6. 커널 방법론
+### Chapter 6. [커널 방법론](C06_Kernel-Methods.md)
 
-### Chapter 7. 희박한 커널 머신
+### Chapter 7. [희박한 커널 머신](C07-Sparse-Kernel-Machines.md)
 
 ### Chapter 8. [그래프 모델](C08_Graphical-Models.md)
 
-### Chapter 9. 혼합 모델과 EM
+### Chapter 9. [혼합 모델과 EM](C09_Mixture-Models-and-EM.md)
 
-### Chapter 10. 근사 추정
+### Chapter 10. [근사 추정](C10_Approximate-Inference.md)
 
-### Chapter 11. 표집법
+### Chapter 11. [표집법](C11_Sampling-Methods.md)
 
-### Chapter 12. 연속 잠재 변수
+### Chapter 12. [연속 잠재 변수](C12_Continuous-Latent-Variables.md)
 
-### Chapter 13. 순차 데이터
+### Chapter 13. [순차 데이터](C13_Sequential-Data.md)
 
-### Chapter 14. 모델 조합
+### Chapter 14. [모델 조합](C14_Combining-Models.md)
 
 ### Appendix A. 데이터 집합
 
