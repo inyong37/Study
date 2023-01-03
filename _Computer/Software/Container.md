@@ -110,6 +110,8 @@ to: `sudo docker cp foofile {container_id/name}:/`
 
 from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{username}/`
 
+### GUI Application | [Stackoverflow](https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-linux-docker-container/25280523#25280523) | [Ubuntu-VNC GitHub](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
+
 ---
 
 # :whale2: _Orchestration_ | [Docs](https://docs.docker.com/get-started/orchestration/)
@@ -700,3 +702,5 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively Blog, https://medium.com/@dimuthudesilva24/setting-up-a-simple-kubernetes-cluster-on-ubuntu-and-centos-61d73f43f36b, 2022-12-15-Thu.
 - Multi-OS Kubernetes Blog, https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/, 2022-12-15-Thu.
 - Multi-OS Kubernetes MS Docs, https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters, 2022-12-15-Thu.
+- GUI Application Stackoverflow, https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-linux-docker-container/25280523#25280523, 2023-01-03-Tue.
+- Ubuntu VNC GitHub, https://github.com/fcwu/docker-ubuntu-vnc-desktop, 2023-01-03-Tue.
