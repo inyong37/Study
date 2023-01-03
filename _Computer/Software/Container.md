@@ -618,6 +618,28 @@ Zero-ops, pure-upstream Kubernetes, from developer workstations to production.
 
 The certified Kubernetes distribution built for IoT & Edge computing.
 
+### _[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)_
+
+A scalable and automated Kubernetes service.
+
+GKE is a simple way to automatically deploy, scale, and manage Kubernetes.
+
+### _[Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/)_
+
+The most trusted way to start, run, and scale Kubernetes.
+
+### _[Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)_
+
+Red Hat® OpenShift® is a unified platform to build, modernize, and deploy applications at scale. Work smarter and faster with a complete set of services for bringing apps to market on your choice of infrastructure.
+
+### _[OKD](https://www.okd.io/)_ | [Blog (KR)](https://velog.io/@_gyullbb/OKD-%EA%B0%9C%EC%9A%94)
+
+The Community Distribution of Kubernetes that powers Red Hat OpenShift.
+
+---
+
+### _[Kubevirt]()_ | [Blog](https://www.tigera.io/blog/using-kubernetes-to-orchestrate-vms/) | [Blog (KR)](https://daaa0555.tistory.com/478)
+
 ---
 
 Multi-OS Kubernetes | [Blog](https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/) | [MS Docs](https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters)
@@ -704,3 +726,10 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Multi-OS Kubernetes MS Docs, https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters, 2022-12-15-Thu.
 - GUI Application Stackoverflow, https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-linux-docker-container/25280523#25280523, 2023-01-03-Tue.
 - Ubuntu VNC GitHub, https://github.com/fcwu/docker-ubuntu-vnc-desktop, 2023-01-03-Tue.
+- Google Kubernetes Engine, https://cloud.google.com/kubernetes-engine, 2023-01-03-Tue.
+- Amazon Elastic Kubernetes Service (EKS), https://aws.amazon.com/eks/, 2023-01-03-Tue.
+- Red Hat OpenShift, https://www.redhat.com/en/technologies/cloud-computing/openshift, 2023-01-03-Tue.
+- OKD, https://www.okd.io/, 2023-01-03-Tue.
+- OKD Blog KR, https://velog.io/@_gyullbb/OKD-%EA%B0%9C%EC%9A%94, 2023-01-03-Tue.
+- Kubevirt Blog, https://www.tigera.io/blog/using-kubernetes-to-orchestrate-vms/, 2023-01-03-Tue.
+- Kubevirt Blog KR, https://daaa0555.tistory.com/478, 2023-01-03-Tue.
