@@ -43,7 +43,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 Books about Machine Learning, Deep Learning and Computer Vision.
 ```
 ## i. English
-|Title|MATERIAL|URL|URL|DATE|
+|Title|Material|URL|URL|Date|
 |:----|:------:|:-:|:-:|:--:|
 |Deep Learning|[PDF](-)|[HOMEPAGE](https://www.deeplearningbook.org/)|[AMAZON](https://www.amazon.com/gp/product/0262035618/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)|-|
 |Deep Learning for Coders with Fastai and PyTorch**|[GitHub](https://github.com/fastai/fastbook)|[O'REILLY](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)|[AMAZON](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)|-|
@@ -58,7 +58,7 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |Pattern Recognition and Machine Learning|[PDF (MS, 2006)](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf)|[Microsoft](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/)|[AMAZON](https://www.amazon.com/gp/product/0387310738/ref=ox_sc_act_title_3?smid=ATVPDKIKX0DER&psc=1)|-|
 
 ## ii. Japanese
-|Title|MATERIAL|URL|URL|DATE|
+|Title|Material|URL|URL|Date|
 |:----|:------:|:-:|:-:|:--:|
 |PyTorchで学ぶニューラルネットワークと深層学習|[GitHub](https://github.com/lucidfrontier45/PyTorch-Book)|-|[AMAZON.JP](https://www.amazon.co.jp/gp/product/B078WK5CPK)|-|
 |ゼロから作る Deep Learning|[GitHub](https://github.com/oreilly-japan/deep-learning-from-scratch)|[O'REILLY.JP](https://www.oreilly.co.jp/books/9784873117584/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95Python%E3%81%A7%E5%AD%A6%E3%81%B6%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%90%86%E8%AB%96%E3%81%A8%E5%AE%9F%E8%A3%85-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873117585)|-|
@@ -66,25 +66,25 @@ Books about Machine Learning, Deep Learning and Computer Vision.
 |ゼロから作る Deep Learning 3|[GitHub](https://github.com/oreilly-japan/deep-learning-from-scratch-3)|[O'RELLY.JP](https://www.oreilly.co.jp/books/9784873119069/)|[AMAZON.JP](https://www.amazon.co.jp/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8BDeep-Learning-%E2%80%95%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E7%B7%A8-%E6%96%8E%E8%97%A4-%E5%BA%B7%E6%AF%85/dp/4873119065)|-|
 
 ## iii. Korean
-|Title|Category|CODE|URL|ETC|DATE|
+|Title|Category|Code|URL|ETC|Date|
 |:----|:------:|:--:|:-:|:-:|:--:|
 |Do it! 점프 투 파이썬|Python|-|[YES24](http://www.yes24.com/Product/Goods/24567417)|-|June, 2019|
-|fastai와 파이토치가 만나 꽃피운 딥러닝|fastai & PyTorch|[GITHUB](https://github.com/fastai/fastbook)|[YES24](http://www.yes24.com/Product/Goods/103025241)|-|-|
+|fastai와 파이토치가 만나 꽃피운 딥러닝|fastai & PyTorch|[GitHub](https://github.com/fastai/fastbook)|[YES24](http://www.yes24.com/Product/Goods/103025241)|-|-|
 |PyTorch로 시작하는 딥러닝|DL & PyTorch|-|[YES24](http://www.yes24.com/Product/Goods/69335909)|-|-|
-|강화학습 첫걸음|RL & TF|[GITHUB](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
+|강화학습 첫걸음|RL & TF|[GitHub](https://github.com/awjuliani/DeepRL-Agents)|[YES24](http://www.yes24.com/Product/Goods/57617908)|[ZIP](https://drive.google.com/file/d/1N8cRl6st0hlpdyxOxq_nnIXzBdzmYvgv/view?usp=sharing)|August, 2018|
 |딥러닝의 최신 트렌드|DL|-|[YES24](http://www.yes24.com/Product/Goods/91471013)|-|March, 2021|
 |러닝 텐서플로|DL & TF|-|[YES24](http://www.yes24.com/Product/Goods/60506589)|-|-|
-|머신러닝 디자인 패턴|ML|[GITHUB](https://github.com/GoogleCloudPlatform/ml-design-patterns)|[YES24](http://www.yes24.com/Product/Goods/104426143)|-|-|
-|밑바닥부터 시작하는 딥러닝|DL & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
-|밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GITHUB](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
-|밑바닥부터 시작하는 딥러닝 3|Framework & Python|[GITHUB](https://github.com/oreilly-japan/deep-learning-from-scratch-3)|[YES24](http://www.yes24.com/Product/Goods/95343845)|-|-|
-|실전 예제로 배우는 GAN|GAN & Keras|[GITHUB](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|August, 2019|
-|실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF2|[GITHUB](https://github.com/wikibook/dl-vision)|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|February, 2021|
-|컴퓨터 비전과 딥러닝|CV & TF & Keras|[GITHUB](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
-|코딩셰프의 3분 딥러닝, 케라스맛|DL & Keras|[GITHUB](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
-|파이썬과 케라스로 배우는 강화학습|RL & Keras|[GITHUB](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
-|파이토치 첫걸음|DL & PyTorch|[GITHUB](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
-|핸즈온 머신러닝|ML & TF|[GITHUB](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
+|머신러닝 디자인 패턴|ML|[GitHub](https://github.com/GoogleCloudPlatform/ml-design-patterns)|[YES24](http://www.yes24.com/Product/Goods/104426143)|-|-|
+|밑바닥부터 시작하는 딥러닝|DL & Python|[GitHub](https://github.com/WegraLee/deep-learning-from-scratch)|[YES24](http://www.yes24.com/Product/Goods/34970929)|[ZIP](https://drive.google.com/file/d/1DkMiugXAae70jvCYnVezaAhjGc5g2Yqb/view?usp=sharing)|May, 2018|
+|밑바닥부터 시작하는 딥러닝 2|NLP & Python|[GitHub](https://github.com/WegraLee/deep-learning-from-scratch-2)|[YES24](http://www.yes24.com/Product/Goods/72173703)|[ZIP](https://drive.google.com/file/d/1VwDXDrdclIkm5W4hfBUB9zU8KHOhCVU5/view?usp=sharing)|May, 2019|
+|밑바닥부터 시작하는 딥러닝 3|Framework & Python|[GitHub](https://github.com/oreilly-japan/deep-learning-from-scratch-3)|[YES24](http://www.yes24.com/Product/Goods/95343845)|-|-|
+|실전 예제로 배우는 GAN|GAN & Keras|[GitHub](https://github.com/PacktPublishing/Generative-Adversarial-Networks-Cookbook)|[YES24](http://www.yes24.com/Product/Goods/76640111)|-|August, 2019|
+|실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전|DL & CV & TF2|[GitHub](https://github.com/wikibook/dl-vision)|[YES24](http://www.yes24.com/Product/Goods/90365150)|-|February, 2021|
+|컴퓨터 비전과 딥러닝|CV & TF & Keras|[GitHub](https://github.com/PacktPublishing/Deep-Learning-for-Computer-Vision)|[YES24](http://www.yes24.com/Product/Goods/63830791)|-|October, 2018|
+|코딩셰프의 3분 딥러닝, 케라스맛|DL & Keras|[GitHub](https://github.com/jskDr/keraspp)|[YES24](http://www.yes24.com/Product/Goods/57617933)|[ZIP](https://drive.google.com/file/d/1S1BkQWs7kyai_pWJEItMmNfbwmJnfwzc/view?usp=sharing)|September, 2018|
+|파이썬과 케라스로 배우는 강화학습|RL & Keras|[GitHub](https://github.com/rlcode/reinforcement-learning-kr)|[YES24](http://www.yes24.com/Product/Goods/44136413)|[ZIP](https://drive.google.com/file/d/1L8_w-eDqG8LAmtxaxLdOXuTHkAIlLSOl/view?usp=sharing)|July, 2018|
+|파이토치 첫걸음|DL & PyTorch|[GitHub](https://github.com/Jpub/PyTorch_firststep)|[YES24](http://www.yes24.com/Product/Goods/72307730)|-|August, 2019|
+|핸즈온 머신러닝|ML & TF|[GitHub](https://github.com/ageron/handson-ml)|[YES24](http://www.yes24.com/Product/Goods/59878826)|[ZIP](https://drive.google.com/file/d/1-3WQFi3vBa71cyEFSMPwPmHhiXcb1Ul9/view?usp=sharing)|May, 2019|
 
 ### Abbreviation
 - Machine Learning: ML
@@ -192,10 +192,10 @@ Books about Data Structure and Algorithm.
 # VII. Computer Science Books :books:
 
 |Title|US|KR|Date|Status|
-|:----|:-|:-|:--:|:----:|
-|Operating System Concepts (10th Ed.)|[AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)|-|-|
+|:----|:-:|:-:|:--:|:--:|
+|Operating System Concepts (10th Ed.)|[AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)|-|-|-|
 |Operating System Concepts Essential (2nd Ed.)|[AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=)|[YES24](http://www.yes24.com/Product/Goods/71048173)|2021|:mortar_board:|
-|Design Patterns (1st Ed.)|[AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)|-|-|
+|Design Patterns (1st Ed.)|[AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY)|-|-|-|
 |Head First Design Patterns (1st Ed.)|[AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC)|[YES24](http://www.yes24.com/Product/Goods/1778966) |2020|:mortar_board:|
 |The Practice of Programming (1st Ed.)|[AMAZON](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X/ref=sr_1_1?dchild=1&keywords=the+practice+of+programming&qid=1634535818&sr=8-1)|[YES24](http://www.yes24.com/Product/Goods/2833579)|2020|:mortar_board:|
 |Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.)|[AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1)|[YES24](http://www.yes24.com/Product/Goods/11681152)|-|-|
@@ -211,7 +211,7 @@ Books about Data Structure and Algorithm.
 |리눅스 커널 내부구조|-|[YES24](http://www.yes24.com/product/goods/16040426)|2023|:snowflake:|
 |제로 트러스트 구글 엔지니어는 아무도 믿지 않는다|-|[YES24](http://www.yes24.com/Product/Goods/114682926)|-|-|
 |비전공자를 위한 이해할 수 있는 IT 지식|-|[YES24](http://www.yes24.com/Product/Goods/91165789)|2021|:mortar_board:|
-|Understanding the Digital World|[Princeton](https://press.princeton.edu/books/hardcover/9780691219097/understanding-the-digital-world)|[YES24](http://www.yes24.com/Product/Goods/105803863)|2022|:mortar_board:|
+|Understanding the Digital World|[Princeton](https://press.princeton.edu/books/hardcover/9780691219097/understanding-the-digital-world)|[YES24](http://www.yes24.com/Product/Goods/105803863)|2022|:snowflake:|
 |면접을 위한 CS 전공지식 노트|-|[YES24](http://www.yes24.com/Product/Goods/108887922)|2022|:mortar_board:|
 |그림으로 이해하는 네트워크 용어|-|[YES24](http://www.yes24.com/Product/Goods/109021732)|2022|:mortar_board:|
 |Fundamentals of Queueing Theory (4th Ed.)|[Wiley](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+4th+Edition-p-9781118625651)|-|2018|:mortar_board:|
