@@ -3,6 +3,41 @@
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
 
+## _Hypervisor_ | [vmware](https://www.vmware.com/topics/glossary/content/hypervisor.html)
+
+A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
+
+Benefits of hypervisors:
+- Speed
+- Efficiency
+- Flexibility
+- Portability
+
+Why use a hypervisor?:
+- Space
+- Energy
+- Maintenance requirements
+
+Types of hypervisors: There are two main hypervisor types, referred to as "Type 1" (or "bare metal") and "Type 2" (or "hosted"). A type 1 hypervisor acts like a lightweight operating system and runs directly on the host's hardware, while a type 2 hypervisor runs as a software layer on an operating system, like other computer programs.
+
+What is a cloud hypervisor?: As cloud computing becomes pervasive, the hypervisor has emerged as an invaluable tool for running virtual machines and driving innovation in a cloud environment. Since a hypervisor is a software layer that enables one host computer to simultaneously support multiple VMs, hypervisors are a key element of the technology that makes cloud computing possible. Hypervisors make cloud-based applications available to users across a virtual environment while still enabling IT to maintain control over a cloud environment's infrastructure, applications and sensitive data.
+
+How does a hypervisor work?: Hypervisors support the creation and management of virtual machines (VMs) by abstracting a computer’s software from its hardware. Hypervisors make virtualization possible by translating requests between the physical and virtual resources. Bare-metal hypervisors are sometimes embedded into the firmware at the same level as the motherboard basic input/output system (BIOS) to enable the operating system on a computer to access and use virtualization software.
+
+Container vs hypervisor:
+
+Hypervisors:
+- Allow an operating system to run independently from the underlying hardware through the use of virtual machines.
+- Share virtual computing, storage and memory resources.
+- Can run multiple operating systems on top of one server (bare-metal hypervisor) or installed on top of one standard operating system and isolated from it (hosted hypervisor)
+
+Containers:
+- Allow applications to run independently of an operating system.
+- Can run on any operating system-all they need is a container engine to run.
+- Are extremely portable since in a container, an application has everything it needs to run.
+
+Hypervisors and containers are used for different purposes. Hypervisors are used to create and run virtual machines (VMs), which each have their own complete operating systems, securely isolated from the others. In contrast to VMs, containers package up just an app and its related services. This makes them more lightweight and portable than VMs, so they are often used for fast and flexible application development and movement.
+
 ### :package: *[VMware](https://www.vmware.com/)*
 
 [VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
@@ -48,3 +83,5 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 - VirtualBox Network Blog KR, https://technote.kr/213, 2022-12-15-Thu.
 - VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
 - Virtualization Blog KR, https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView, 2023-01-04-Wed.
+- Hypervisor vmware, https://www.vmware.com/topics/glossary/content/hypervisor.html, 2023-01-04-Wed.
+- 
