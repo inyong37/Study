@@ -103,6 +103,10 @@ Vagrant is the command line utility for managing the lifecycle of virtual machin
 
 Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
 
+### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
+
+oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
+
 ### VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
 
 ### Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20
@@ -159,3 +163,6 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - setup static IP address in GuestOS Blog KR, https://m.blog.naver.com/theswice/221375000780, 2023-01-04-Wed.
 - setup static IP address in GuestOS Blog KR, https://jinisbonusbook.tistory.com/9, 2023-01-04-Wed.
 - enable ssh Blog KR, https://lemonandgrapefruit.tistory.com/m/250, 2023-01-04-Wed.
+- oVirt, https://www.ovirt.org/, 2023-01-04-Wed.
+- oVirt Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-04-Wed.
+- 
