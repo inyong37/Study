@@ -118,7 +118,16 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 2. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT
 3. GuestOS (Powered Off)>Settings>Network>Adapter 2>Host-only Adapter
 
-- [enable ssh](https://lemonandgrapefruit.tistory.com/m/250):
+[setup static IP address in GuestOS (Blog KR)](https://m.blog.naver.com/theswice/221375000780)
+1. `vi /etc/sysconfig/network-script/ifcfg-eth*`
+2. BOOTPROTO=none
+3. IPADDR=192.168.56.10
+4. PREFIX=24
+5. GATEWAY=192.168.56.1
+6. IPV6_PRIVACY=no
+7. `systemctl restart network`
+
+[enable ssh](https://lemonandgrapefruit.tistory.com/m/250):
 1. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT>Advanced-Port Forwarding
 
 ---
