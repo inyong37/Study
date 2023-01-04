@@ -87,6 +87,14 @@ Types:
 - VMware Workstation (type 2)
 - VirtualBox (type 2)
 
+### _[Vagrant](https://www.vagrantup.com/)_ | [Docs](https://developer.hashicorp.com/vagrant/docs)
+
+Vagrant is the command line utility for managing the lifecycle of virtual machines.
+
+### _[Ansible](https://www.ansible.com/)_ | [Docs](https://docs.ansible.com/ansible/latest/index.html)
+
+Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
+
 ---
 
 ### Reference
@@ -103,4 +111,8 @@ Types:
 - VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
 - Virtualization Blog KR, https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView, 2023-01-04-Wed.
 - Hypervisor vmware, https://www.vmware.com/topics/glossary/content/hypervisor.html, 2023-01-04-Wed.
+- Vagrant, https://www.vagrantup.com/, 2023-01-04-Wed.
+- Vagrant Docs, https://developer.hashicorp.com/vagrant/docs, 2023-01-04-Wed.
+- Ansible, https://www.ansible.com/, 2023-01-04-Wed.
+- Ansible Docs, https://docs.ansible.com/ansible/latest/index.html, 2023-01-04-Wed.
 - 
