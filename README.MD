@@ -124,9 +124,9 @@ Books about Data Structure and Algorithm.
 |알고리즘 문제 해결 전략 (9쇄)|[ALGOSPOT](https://book.algospot.com/)|[YES24](http://www.yes24.com/Product/Goods/8006522)|Summer, 2019|C++|:triangular_flag_on_post:|
 |자료 구조 (2판)|[BOOKSR](https://www.booksr.co.kr/html/book/book.asp?seq=696059)|[YES24](http://www.yes24.com/Product/Goods/18930744)|Autumn, 2016|C|:heavy_check_mark:|
 |코딩인터뷰 완전분석|-|[YES24](http://www.yes24.com/Product/Goods/44305533)|Summer, 2018|C++, JAVA|:triangular_flag_on_post:|:triangular_flag_on_post:|
-|파이썬 알고리즘 인터뷰|-|[YES24](http://www.yes24.com/Product/Goods/91084402)|Spring, 2021|PYTHON|:construction:|
-|파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:construction:|
-|필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:construction:|
+|파이썬 알고리즘 인터뷰|-|[YES24](http://www.yes24.com/Product/Goods/91084402)|Spring, 2021|PYTHON|:mortar_board:|
+|파이썬 자료구조와 알고리즘|[HANBIT](http://www.hanbit.co.kr/store/books/look.php?p_code=B8465804191)|[YES24](http://www.yes24.com/Product/Goods/74971408)|Autumn, 2019|PYTHON|:mortar_board:|
+|필수 알고리즘 with 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/65050088)|Autumn, 2019|PYTHON|:mortar_board:|
 
 ## ii. Site :computer:
 ### A. [Hacker Rank](https://www.hackerrank.com/) :pencil:
@@ -155,41 +155,44 @@ Books about Data Structure and Algorithm.
 `Books about Programming Languages.`
 
 ## i. C
-|Title|URL|URL|DATE|
-|:----|:-:|:-:|:--:|
-|그림으로 배우는 Easy C언어|-|[YES24](http://www.yes24.com/Product/Goods/3379284)|Spring, 2009|
-|누구나 쉽게 즐기는 C 언어 콘서트|-|[YES24](http://www.yes24.com/Product/Goods/3900759)|Spring, 2012|
-|The C Programming Language (2nd)|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|-|
+|Title|URL|URL|Date|Status|
+|:----|:-:|:-:|:--:|:----:|
+|그림으로 배우는 Easy C언어|-|[YES24](http://www.yes24.com/Product/Goods/3379284)|Spring, 2009|:mortar_board:|
+|누구나 쉽게 즐기는 C 언어 콘서트|-|[YES24](http://www.yes24.com/Product/Goods/3900759)|Spring, 2012|:mortar_board:|
+|The C Programming Language (2nd)|[Homepage](https://www.cs.princeton.edu/~bwk/cbook.html)|[AMAZON](https://www.amazon.com/dp/0131103709/?coliid=IQW77IBWGBFRI&colid=3DGQ02RJ0O8QW&psc=0&ref_=lv_ov_lig_dp_it)|Spring, 2021|:mortar_board:|
 
 ## ii. Java
-|Title|URL|URL|DATE|
-|:----|:-:|:-:|:--:|
-|난 정말 JAVA를 공부한적이 없다구요|-|[YES24](http://www.yes24.com/Product/Goods/3497762)|Spring, 2009|
-|Eclipse를 활용한 안드로이드 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/16402399)|Fall, 2015|
+|Title|URL|URL|Date|Status|
+|:----|:-:|:-:|:--:|:----:|
+|난 정말 JAVA를 공부한적이 없다구요|-|[YES24](http://www.yes24.com/Product/Goods/3497762)|Spring, 2009|:mortar_board:|
+|Eclipse를 활용한 안드로이드 프로그래밍|-|[YES24](http://www.yes24.com/Product/Goods/16402399)|Fall, 2015|:mortar_board:|
 
 ## iii. Python
-|Title|URL|URL|DATE|
-|:----|:-:|:-:|:--:|
-|Do it! 점프 투 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/74419916)|Summer, 2019|
-|전문가를 위한 파이썬|[YES24](http://www.yes24.com/Product/Goods/30231768)|[GitHub](https://github.com/fluentpython)|Summer, 2020|
-|Introducing Python|[O'Reilly](https://www.oreilly.com/library/view/introducing-python/9781449361167/)|-|-|
-|High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|
-|Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|
+|Title|URL|URL|Date|Status|
+|:----|:-:|:-:|:--:|:----:|
+|Do it! 점프 투 파이썬|-|[YES24](http://www.yes24.com/Product/Goods/74419916)|Summer, 2019|:mortar_board:|
+|전문가를 위한 파이썬|[YES24](http://www.yes24.com/Product/Goods/30231768)|[GitHub](https://github.com/fluentpython)|Summer, 2020|:snowflake:|
+|Introducing Python|[O'Reilly](https://www.oreilly.com/library/view/introducing-python/9781449361167/)|-|-|-|
+|High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|-|
+|Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|-|
 
 ## iv. C++
-|Title|URL|URL|DATE|
-|:----|:-:|:-:|:--:|
-|윤성우의 열혈 C++ 프로그래밍|[Homepage](http://www.orentec.co.kr/booklist/CPP_BASIC_1/book_sub1.php)|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|
-|The C++ Programming Language (4th)|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|-|
-|A Tour of C++ (2nd)|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|
-|Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|
+|Title|URL|URL|Date|Status|
+|:----|:-:|:-:|:--:|:----:|
+|윤성우의 열혈 C++ 프로그래밍|[Homepage](http://www.orentec.co.kr/booklist/CPP_BASIC_1/book_sub1.php)|[YES24](http://www.yes24.com/Product/Goods/3816661)|Summer, 2019|:mortar_board:|
+|The C++ Programming Language (4th)|[Homepage](http://stroustrup.com/4th.html)|[InformIT](http://www.informit.com/store/c-plus-plus-programming-language-hardcover-9780321958327)|Summer, 2021|:snowflake:|
+|A Tour of C++ (2nd)|[Homepage](http://stroustrup.com/tour2.html)|[InformIT](http://www.informit.com/store/tour-of-c-plus-plus-9780134997834)|-|-|
+|Programming: Principles and Practice Using C++ (2nd)|[Homepage](http://stroustrup.com/programming.html)|[InformIT](http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789)|-|-|
+|Effective C++ (3rd)|-|-|Summer, 2020|:snowflake:|
+|Effective STL|-|-|Summer, 2020|:snowflake:|
+|Effective Modern C++|-|-|Summer, 2020|:snowflake:|
 
 ---
 
 # VII. Computer Science Books :books:
 
-|Title|US|KR|Status|
-|:-|:-:|:-:|:-:
+|Title|US|KR|Date|Status|
+|:----|:-|:-|---:|:----:|
 | Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |-|
 | Operating System Concepts Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=) | [YES24](http://www.yes24.com/Product/Goods/71048173) |2021|
 | Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY) |-|
