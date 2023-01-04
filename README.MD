@@ -119,7 +119,7 @@ Books about Data Structure and Algorithm.
 |Title|Language|Material|URL|Date|Status|
 |:----|:------:|:------:|:-:|:--:|:----:|
 |Cracking the Coding Interview|C++, Java|[Homepage](https://www.crackingthecodinginterview.com)|[AMAZON](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_2?keywords=cracking&qid=1565277659&s=gateway&sr=8-2)|Summer, 2018|:snowflake:|
-|Introduction to Algorithms (3rd Ed.)|[MIT Press](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)|[AMAZON](https://www.amazon.com/dp/0262033844/)|Summer, 2021|Java|:snowflake:|
+|Introduction to Algorithms (3rd Ed.)|Java|[MIT Press](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)|[AMAZON](https://www.amazon.com/dp/0262033844/)|Summer, 2021|:snowflake:|
 |모두의 알고리즘 with 파이썬|Python|[GILBUT](https://www.gilbut.co.kr/book/view?bookcode=BN001731&keyword=%EB%AA%A8%EB%91%90%EC%9D%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20with%20%ED%8C%8C%EC%9D%B4%EC%8D%AC&collection=GB_BOOK#bookData)|[YES24](http://www.yes24.com/Product/Goods/40443936)|Autumn, 2019|:mortar_board:|
 |알고리즘 문제 해결 전략 (9쇄)|C++|[ALGOSPOT](https://book.algospot.com/)|[YES24](http://www.yes24.com/Product/Goods/8006522)|Summer, 2019|:snowflake:|
 |자료 구조 (2판)|C|[BOOKSR](https://www.booksr.co.kr/html/book/book.asp?seq=696059)|[YES24](http://www.yes24.com/Product/Goods/18930744)|Autumn, 2016|:mortar_board:|
