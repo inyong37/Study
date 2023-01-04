@@ -44,17 +44,13 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
 
 Harness the full power of your Mac when you use VMware Fusion to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) without rebooting.
 
-### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_
+### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html)
 
 Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
-### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_
+### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
-
-[VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
-
-Local Virtual Machines. Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
 ### :package: *[VirtualBox](https://www.virtualbox.org/)*
 
