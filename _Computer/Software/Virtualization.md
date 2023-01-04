@@ -74,7 +74,7 @@ Hyper-V는 Windows 10 Pro, Enterprise 및 Education 64비트 버전에서 사용
 
 Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서 Hyper-V를 실행할 때와는 다르게 작동한다. Windows Server에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 5가지이다. 1. 가상 컴퓨터를 실시간으로 한 호스트에서 다른 호스트로 마이그레이션, 2. Hyper-V 복제본, 3. 가상 파이버 채널, 4. SR-IOV 네트워킹, 5. 공유 .VHDX이다. Windows 10에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 2가지이다. 1. 빨리 만들기 및 VM 갤러리, 2. 기본 네트워크(NAT 스위치)이다. 메모리 관리 모델이 Windows의 Hyper-V에서 다르다. 서버에서 Hyper-V 메모리는 해당 서버에서 관리 컴퓨터만 실행된다는 가정 하에 관리된다. Windows의 Hyper-V에서 메모리는 대부분 클라이언트 컴퓨터가 가상 컴퓨터 실행 외에도 호스트의 소프트웨어를 실행한다는 예상에 따라 관리된다.
 
-### _Virtualization_ | [Blog (KR)](https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
+### _Virtualization_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222009981745)
 
 Performance:
 - Bare metal/type 1 hypervisor: 80%
@@ -147,7 +147,7 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - VMware Workstation Pro Documentation, https://docs.vmware.com/en/VMware-Workstation-Pro/index.html, 2022-10-17-Mon.
 - VirtualBox Network Blog KR, https://technote.kr/213, 2022-12-15-Thu.
 - VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
-- Virtualization Blog KR, https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView, 2023-01-04-Wed.
+- Virtualization Blog KR, https://blog.naver.com/ilikebigmac/222009981745, 2023-01-04-Wed.
 - Hypervisor vmware, https://www.vmware.com/topics/glossary/content/hypervisor.html, 2023-01-04-Wed.
 - Vagrant, https://www.vagrantup.com/, 2023-01-04-Wed.
 - Vagrant Docs, https://developer.hashicorp.com/vagrant/docs, 2023-01-04-Wed.
