@@ -40,6 +40,18 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
 
 ### :package: *[VMware](https://www.vmware.com/)*
 
+### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
+
+Harness the full power of your Mac when you use VMware Fusion to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) without rebooting.
+
+### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_
+
+Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
+
+### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_
+
+Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
+
 [VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Local Virtual Machines. Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
@@ -102,6 +114,9 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - Windows 10 Hyper-V Introduction, https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/, 2020-11-04-Wed.
 - VirtualBox, https://www.virtualbox.org/, 2020-11-04-Wed.
 - VMware, https://www.vmware.com/, 2020-11-04-Wed.
+- VMware Fusion, https://www.vmware.com/products/fusion.html, 2023-01-04-Wed.
+- VMware Workstation Player, https://www.vmware.com/products/workstation-player.html, 2023-01-04-Wed.
+- VMware Workstation Pro, https://www.vmware.com/products/workstation-pro.html, 2023-01-04-Wed.
 - VMware Workstation Player, https://docs.vmware.com/en/VMware-Workstation-Player/index.html, 2022-10-17-Mon.
 - VMware Workstation Player Documentation, https://docs.vmware.com/en/VMware-Workstation-Player/index.html, 2022-10-17-Mon.
 - VMware Workstation Player for Linux Documentation, https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html, 2022-10-17-Mon.
