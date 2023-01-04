@@ -3,20 +3,19 @@
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
 
-## :package: *[VMware](https://www.vmware.com/)*
+### :package: *[VMware](https://www.vmware.com/)*
 
 [VMware Workstation Player](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Workstation Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Workstation Pro Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Local Virtual Machines. Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
-## :package: *[VirtualBox](https://www.virtualbox.org/)*
+### :package: *[VirtualBox](https://www.virtualbox.org/)*
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
 VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
 
-### Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95)
-
+Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95):
 - NAT
 - NAT Network
 - Bridged Adapter
@@ -32,6 +31,8 @@ Hyper-V는 Windows 10 Pro, Enterprise 및 Education 64비트 버전에서 사용
 
 Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서 Hyper-V를 실행할 때와는 다르게 작동한다. Windows Server에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 5가지이다. 1. 가상 컴퓨터를 실시간으로 한 호스트에서 다른 호스트로 마이그레이션, 2. Hyper-V 복제본, 3. 가상 파이버 채널, 4. SR-IOV 네트워킹, 5. 공유 .VHDX이다. Windows 10에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 2가지이다. 1. 빨리 만들기 및 VM 갤러리, 2. 기본 네트워크(NAT 스위치)이다. 메모리 관리 모델이 Windows의 Hyper-V에서 다르다. 서버에서 Hyper-V 메모리는 해당 서버에서 관리 컴퓨터만 실행된다는 가정 하에 관리된다. Windows의 Hyper-V에서 메모리는 대부분 클라이언트 컴퓨터가 가상 컴퓨터 실행 외에도 호스트의 소프트웨어를 실행한다는 예상에 따라 관리된다.
 
+### _Virtualization_ | [Blog (KR)](https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
+
 ---
 
 ### Reference
@@ -46,3 +47,4 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 - VMware Workstation Pro Documentation, https://docs.vmware.com/en/VMware-Workstation-Pro/index.html, 2022-10-17-Mon.
 - VirtualBox Network Blog KR, https://technote.kr/213, 2022-12-15-Thu.
 - VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
+- Virtualization Blog KR, https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView, 2023-01-04-Wed.
