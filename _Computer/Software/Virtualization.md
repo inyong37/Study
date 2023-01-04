@@ -68,6 +68,25 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 ### _Virtualization_ | [Blog (KR)](https://blog.naver.com/PostView.naver?blogId=ilikebigmac&logNo=222009981745&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView)
 
+Performance:
+- Bare metal/type 1 hypervisor: 80%
+- Hosted/type 2 hypervisor: 60%
+
+Hardware CPU Support:
+- Intel: VT-x
+- AMD: AMD-V
+
+Types:
+- VMware ESX (type 1)
+- Linux KVM - CPU & RAM
+  - Thin Hypervisor (type 1)
+  - Thick Hypervisor (type 2)
+- Linux VirtIO
+- QEMU - Devices/Emulator
+- Microwoft Windows Hyper-V
+- VMware Workstation (type 2)
+- VirtualBox (type 2)
+
 ---
 
 ### Reference
