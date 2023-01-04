@@ -290,15 +290,11 @@ Utility Scripts with Python.
 
 ### ii. System 
 
-### A. Unix
-
-Oracle Solaris:
+A. Unix - Oracle Solaris:
 - OCSA
 - OCNA
 
-### B. Linux
-
-Linux Professional Institute (LPI):
+B. Linux - Linux Professional Institute (LPI):
 - [LPIC-1](https://www.lpi.org/our-certifications/lpic-1-overview)
 - [LPIC-2](https://www.lpi.org/our-certifications/lpic-2-overview)
 - [LPIC-3 Mixed Environments](https://www.lpi.org/our-certifications/lpic-3-300-overview)
@@ -306,17 +302,15 @@ Linux Professional Institute (LPI):
 - [LPIC-3 Virtualization and Containerization](https://www.lpi.org/our-certifications/lpic-3-305-overview)
 - [LPIC-3 High Availability and Storage Clusters](https://www.lpi.org/our-certifications/lpic-3-306-overview)
 
-### C. Windows
-
+C. Windows:
 - MCSA
 - MCSE
 
 ### iii. Cloud
 
-### A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
+A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
 
-### B. Kubernetes
-
+B. Kubernetes:
 - [CERTIFIED KUBERNETES ADMINISTRATOR (CKA)](https://www.cncf.io/certification/cka/)
 - [CERTIFIED KUBERNETES APPLICATION DEVELOPER (CKAD)](https://www.cncf.io/certification/ckad/)
 - [CERTIFIED KUBERNETES SECURITY SPECIALIST (CKS)](https://www.cncf.io/certification/cks/)
@@ -326,4 +320,4 @@ Linux Professional Institute (LPI):
 
 ### iv. Deep Learning
 
-### A. TensorFlow
+A. TensorFlow
