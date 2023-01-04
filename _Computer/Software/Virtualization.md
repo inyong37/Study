@@ -105,6 +105,22 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 
 ### VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
 
+### Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20
+
+[enable network (Blog KR)](https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951):
+1. `sudo su`
+2. `vi /etc/sysconfig/network-scripts/ifcfg-eth*`
+3. ONBOOT=yes
+4. `service network restart`
+
+[setup network on VirtualBox and GuestOS (Blog KR)](https://jinhokwon.github.io/devops/devops-virtualbox-network/):
+1. Tools>Network>Host-only Networks Create
+2. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT
+3. GuestOS (Powered Off)>Settings>Network>Adapter 2>Host-only Adapter
+
+- [enable ssh](https://lemonandgrapefruit.tistory.com/m/250):
+1. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT>Advanced-Port Forwarding
+
 ---
 
 ### Reference
@@ -129,4 +145,7 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - Ansible, https://www.ansible.com/, 2023-01-04-Wed.
 - Ansible Docs, https://docs.ansible.com/ansible/latest/index.html, 2023-01-04-Wed.
 - VMware Fusion Kali Linux on M1 macOS Blog KR, https://elsainmac.tistory.com/869?category=665146, 2023-01-04-Wed.
+- enable network Blog KR, https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951, 2023-01-04-Wed.
+- setup network on VirtualBox and GuestOS Blog KR, https://jinhokwon.github.io/devops/devops-virtualbox-network/, 2023-01-04-Wed.
 - 
+- enable ssh Blog KR, https://lemonandgrapefruit.tistory.com/m/250, 2023-01-04-Wed.
