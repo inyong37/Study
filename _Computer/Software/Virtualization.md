@@ -118,7 +118,7 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 2. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT
 3. GuestOS (Powered Off)>Settings>Network>Adapter 2>Host-only Adapter
 
-[setup static IP address in GuestOS (Blog KR)](https://m.blog.naver.com/theswice/221375000780)
+[setup static IP address in GuestOS (Blog KR)](https://m.blog.naver.com/theswice/221375000780) [#2](https://jinisbonusbook.tistory.com/9)
 1. `vi /etc/sysconfig/network-script/ifcfg-eth*`
 2. BOOTPROTO=none
 3. IPADDR=192.168.56.10
@@ -157,4 +157,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - enable network Blog KR, https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951, 2023-01-04-Wed.
 - setup network on VirtualBox and GuestOS Blog KR, https://jinhokwon.github.io/devops/devops-virtualbox-network/, 2023-01-04-Wed.
 - setup static IP address in GuestOS Blog KR, https://m.blog.naver.com/theswice/221375000780, 2023-01-04-Wed.
+- setup static IP address in GuestOS Blog KR, https://jinisbonusbook.tistory.com/9, 2023-01-04-Wed.
 - enable ssh Blog KR, https://lemonandgrapefruit.tistory.com/m/250, 2023-01-04-Wed.
