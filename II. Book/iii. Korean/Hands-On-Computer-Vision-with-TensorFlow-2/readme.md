@@ -14,26 +14,26 @@ February, 2021 ~ November, 2021.
 
 :palm_tree: **Part 1. 컴퓨터 비전에 적용한 텐서플로 2와 딥러닝**
 
-Chapter 1. [컴퓨터 비전과 신경망](C01_ComputerVisionAndNeuralNetworks.md)
+Chapter 1. [컴퓨터 비전과 신경망](C01_Computer-Vision-and-Neural-Networks.md)
 
-Chapter 2. [텐서플로 기초와 모델 훈련](C02_TensorFlowBasicsAndTrainingAModel.md)
+Chapter 2. [텐서플로 기초와 모델 훈련](C02_TensorFlow-Basics-and-Training-a-Model.md)
 
-Chapter 3. [현대 신경망](C03_ModernNeuralNetworks.md)
+Chapter 3. [현대 신경망](C03_Modern-Neural-Networks.md)
 
 :notebook: **Part 2. 전통적인 인식 문제를 해결하는 최신 솔루션**
 
-Chapter 4. [유럭한 분류 도구](C04_InfluentialClassificationTools.md)
+Chapter 4. [유럭한 분류 도구](C04_Influential-Classification-Tools.md)
 
-Chapter 5. [객체 탐지 모델](C05_ObjectDetectionModels.md)
+Chapter 5. [객체 탐지 모델](C05_Object-Detection-Models.md)
 
-Chapter 6. [이미지 보강 및 분할](C06_EnhancingAndSegmentingImages.md)
+Chapter 6. [이미지 보강 및 분할](C06_Enhancing-and-Segmenting-Images.md)
 
 :pencil: **Part 3. 컴퓨터 비전의 고급 개념 및 새 지평**
 
-Chapter 7. [복합적이고 불충분한 데이터셋에서 훈련시키기](C07_TrainingOnComplexAndScarceDatasets.md)
+Chapter 7. [복합적이고 불충분한 데이터셋에서 훈련시키기](C07_Training-on-Complex-and-Scarce-Datasets.md)
 
-Chapter 8. [동영상과 순환 신경망](C08_VideoAndRecurrentNeuralNetworks.md)
+Chapter 8. [동영상과 순환 신경망](C08_Video-and-Recurrent-Neural-Networks.md)
 
-Chapter 9. [모델 최적화 및 모바일 기기 배포](C09_OptimizingModelsAndDeployingOnMobileDevices.md)
+Chapter 9. [모델 최적화 및 모바일 기기 배포](C09_Optimizing-Models-and-Deploying-on-Mobile-Devices.md)
 
 :bulb: **Appendix. 텐서플로 1.x에서 마이그레이션하기**
