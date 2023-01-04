@@ -188,32 +188,32 @@ Books about Data Structure and Algorithm.
 
 # VII. Computer Science Books :books:
 
-|Title|US|KR|
-|:-|:-:|:-:|
-| Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |
-| Operating System Concepts Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=) | [YES24](http://www.yes24.com/Product/Goods/71048173) |
-| Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY) |
-| Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC) | [YES24](http://www.yes24.com/Product/Goods/1778966) |
-| The Practice of Programming (1st Ed.) | [AMAZON](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X/ref=sr_1_1?dchild=1&keywords=the+practice+of+programming&qid=1634535818&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/2833579) |
-| Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/11681152) |
-| The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/29241448) |
-| Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/77283734) |
-| Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24](http://www.yes24.com/Product/Goods/14528020) |
-| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/91213198) |
-| 임베디드 OS 개발 프로젝트 | - | [YES24](http://www.yes24.com/product/goods/84909414) |
-| 코드로 알아보는 ARM 리눅스 커널 | - | [YES24](http://www.yes24.com/Product/Goods/60856943) |
-| 리눅스 커널 패치와 커밋 | - | [YES24](http://www.yes24.com/Product/Goods/18488713) |
-| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 1 | - | [YES24](http://www.yes24.com/Product/Goods/90085976) |
-| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 2 | - | [YES24](http://www.yes24.com/Product/Goods/90087307) |
-| 리눅스 커널 내부구조 | - | [YES24](http://www.yes24.com/product/goods/16040426) |
-| 제로 트러스트 구글 엔지니어는 아무도 믿지 않는다 | - | [YES24](http://www.yes24.com/Product/Goods/114682926) |
-| 비전공자를 위한 이해할 수 있는 IT 지식 | | [YES24](http://www.yes24.com/Product/Goods/91165789) |
-| Understanding the Digital World | [Princeton](https://press.princeton.edu/books/hardcover/9780691219097/understanding-the-digital-world) | [YES24](http://www.yes24.com/Product/Goods/105803863) |
-| 면접을 위한 CS 전공지식 노트 | | [YES24](http://www.yes24.com/Product/Goods/108887922) |
-| 그림으로 이해하는 네트워크 용어 | | [YES24](http://www.yes24.com/Product/Goods/109021732) |
-| Fundamentals of Queueing Theory (4th Ed.) | [Wiley](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+4th+Edition-p-9781118625651) | - |
-| Convex Optimization | [Cambridge](https://www.cambridge.org/gb/academic/subjects/statistics-probability/optimization-or-and-risk/convex-optimization?format=HB) | - |
-| System Design Interview | [AMAZON](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) | [YES24](http://www.yes24.com/Product/Goods/102819435) |
+|Title|US|KR|Status|
+|:-|:-:|:-:|:-:
+| Operating System Concepts (10th Ed.) | [AMAZON](https://www.amazon.com/Operating-System-Concepts-Abridged-Companion/dp/1119456339/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=) |-|
+| Operating System Concepts Essential (2nd Ed.) | [AMAZON](https://www.amazon.com/Operating-Concepts-Essentials-Silberschatz-Paperback-dp-B00RKQZ47Q/dp/B00RKQZ47Q/ref=mt_other?_encoding=UTF8&me=&qid=) | [YES24](http://www.yes24.com/Product/Goods/71048173) |2021|
+| Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=pd_sbs_14_1/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0201633612&pd_rd_r=15d54abf-68c7-415d-9105-9511056c0329&pd_rd_w=TR9Ec&pd_rd_wg=iWPg9&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=PRP90VEAN0M85N33KVCY&psc=1&refRID=PRP90VEAN0M85N33KVCY) |-|
+| Head First Design Patterns (1st Ed.) | [AMAZON](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sbs_14_5/143-5167453-7401544?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=445df4c9-403c-4f32-8b6f-73e349af78fc&pd_rd_w=JPgo5&pd_rd_wg=feuAr&pf_rd_p=d28ef93e-22cf-4527-b60a-90c984b5663d&pf_rd_r=79NRKJDNSCDD26N1H3CC&psc=1&refRID=79NRKJDNSCDD26N1H3CC) | [YES24](http://www.yes24.com/Product/Goods/1778966) |2020|
+| The Practice of Programming (1st Ed.) | [AMAZON](https://www.amazon.com/Practice-Programming-Addison-Wesley-Professional-Computing/dp/020161586X/ref=sr_1_1?dchild=1&keywords=the+practice+of+programming&qid=1634535818&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/2833579) |2020|
+| Clean Code: A Handbook of Agile Software Craftsmanship (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?dchild=1&keywords=clean+code&qid=1634536027&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/11681152) |-|
+| The Clean Coder: A Code of Conduct for Professional Programmers (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1634535971&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/29241448) |-|
+| Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.) | [AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/77283734) |-|
+| Advanced Programming in the UNIX Environment (3rd Ed.) | [AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739) | [YES24](http://www.yes24.com/Product/Goods/14528020) |2020|
+| Unix: A History and a Memoir | [AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1) | [YES24](http://www.yes24.com/Product/Goods/91213198) |2021|
+| 임베디드 OS 개발 프로젝트 | - | [YES24](http://www.yes24.com/product/goods/84909414) |-|
+| 코드로 알아보는 ARM 리눅스 커널 | - | [YES24](http://www.yes24.com/Product/Goods/60856943) |-|
+| 리눅스 커널 패치와 커밋 | - | [YES24](http://www.yes24.com/Product/Goods/18488713) |2023|
+| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 1 | - | [YES24](http://www.yes24.com/Product/Goods/90085976) |-|
+| 디버깅을 통해 배우는 리눅스 커널의 구조와 원리 2 | - | [YES24](http://www.yes24.com/Product/Goods/90087307) |-|
+| 리눅스 커널 내부구조 | - | [YES24](http://www.yes24.com/product/goods/16040426) |2023|
+| 제로 트러스트 구글 엔지니어는 아무도 믿지 않는다 | - | [YES24](http://www.yes24.com/Product/Goods/114682926) |-|
+| 비전공자를 위한 이해할 수 있는 IT 지식 | | [YES24](http://www.yes24.com/Product/Goods/91165789) |2021|
+| Understanding the Digital World | [Princeton](https://press.princeton.edu/books/hardcover/9780691219097/understanding-the-digital-world) | [YES24](http://www.yes24.com/Product/Goods/105803863) |2022|
+| 면접을 위한 CS 전공지식 노트 | | [YES24](http://www.yes24.com/Product/Goods/108887922) |2022|
+| 그림으로 이해하는 네트워크 용어 | | [YES24](http://www.yes24.com/Product/Goods/109021732) |2022|
+| Fundamentals of Queueing Theory (4th Ed.) |[Wiley](https://www.wiley.com/en-us/Fundamentals+of+Queueing+Theory,+4th+Edition-p-9781118625651)|-|2018|
+| Convex Optimization |[Cambridge](https://www.cambridge.org/gb/academic/subjects/statistics-probability/optimization-or-and-risk/convex-optimization?format=HB)|-|2018|
+| System Design Interview | [AMAZON](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) | [YES24](http://www.yes24.com/Product/Goods/102819435) |2022|
 
 ----------
 
