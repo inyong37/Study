@@ -103,6 +103,8 @@ Vagrant is the command line utility for managing the lifecycle of virtual machin
 
 Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
 
+### VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
+
 ---
 
 ### Reference
@@ -126,4 +128,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - Vagrant Docs, https://developer.hashicorp.com/vagrant/docs, 2023-01-04-Wed.
 - Ansible, https://www.ansible.com/, 2023-01-04-Wed.
 - Ansible Docs, https://docs.ansible.com/ansible/latest/index.html, 2023-01-04-Wed.
+- VMware Fusion Kali Linux on M1 macOS Blog KR, https://elsainmac.tistory.com/869?category=665146, 2023-01-04-Wed.
 - 
