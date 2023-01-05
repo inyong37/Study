@@ -28,6 +28,10 @@ Types:
 
 A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
+<details>
+  <summary>Details</summary>
+  <div markdown="1">
+    
 Benefits of hypervisors:
 - Speed
 - Efficiency
@@ -58,6 +62,11 @@ Containers:
 - Are extremely portable since in a container, an application has everything it needs to run.
 
 Hypervisors and containers are used for different purposes. Hypervisors are used to create and run virtual machines (VMs), which each have their own complete operating systems, securely isolated from the others. In contrast to VMs, containers package up just an app and its related services. This makes them more lightweight and portable than VMs, so they are often used for fast and flexible application development and movement.
+    
+  </div>
+</details>
+
+
 
 ### _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
 
