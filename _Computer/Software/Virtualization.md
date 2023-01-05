@@ -129,6 +129,14 @@ Secure and customizable compute service that lets you create and run virtual mac
 
 Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
 
+### _[Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_
+
+KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
+
+Using KVM, one can run multiple virtual machines running unmodified Linux or Windows images. Each virtual machine has private virtualized hardware: a network card, disk, graphics adapter, etc.
+
+KVM is open source software. The kernel component of KVM is included in mainline Linux, as of 2.6.20. The userspace component of KVM is included in mainline QEMU, as of 1.3.
+
 ---
 
 ## Practice :hammer_and_wrench:
@@ -212,3 +220,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - Hyper-V, https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/, 2023-01-05-Thu.
 - Google Compute Engine, https://cloud.google.com/compute, 2023-01-05-Thu.
 - Azure Virtual Machines, https://azure.microsoft.com/en-us/products/virtual-machines/, 2023-01-05-Thu.
+- KVM, https://www.linux-kvm.org/page/Main_Page, 2023-01-05-Thu.
+- 
