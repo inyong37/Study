@@ -120,8 +120,9 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 
 ### A. VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
 
-### ~~B. Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20~~
-
+<details>
+  <summary>~~B. Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20~~</summary>
+  <div markdown="1">
 [enable network (Blog KR)](https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951):
 1. `sudo su`
 2. `vi /etc/sysconfig/network-scripts/ifcfg-eth*`
@@ -144,6 +145,8 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 
 [enable ssh](https://lemonandgrapefruit.tistory.com/m/250):
 1. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT>Advanced-Port Forwarding
+  </div>
+</details>
 
 ---
 
