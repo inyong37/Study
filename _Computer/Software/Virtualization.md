@@ -137,6 +137,24 @@ Using KVM, one can run multiple virtual machines running unmodified Linux or Win
 
 KVM is open source software. The kernel component of KVM is included in mainline Linux, as of 2.6.20. The userspace component of KVM is included in mainline QEMU, as of 1.3.
 
+### _[QEMU](https://www.qemu.org/)_
+
+QEMU is a generic and open source machine emulator and virtualizer.
+
+When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+
+When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+
+QEMU is a member of Software Freedom Conservancy.
+
+### _[Xen](https://xenproject.org/)_
+
+The Xen Project is the home for several virtualization-related open source projects. The community is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
+
+The Xen Project develops virtualization technologies powering the world’s largest clouds in production and is the foundation of many commercial virtualization products from Citrix, Huawei, Inspur, and Oracle. The Xen Project code is the basis for several security solutions, including Qubes OS, Bromium vSentry, A1Logic, AIS SecureView, Adventium Labs Magrana Server, Bitdefender HVI, Star Labs Crucible Hypervisor, Zentific Zazen, and Dornerwork’s Virtuosity Hypervisor.
+
+That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
+
 ---
 
 ## Practice :hammer_and_wrench:
@@ -221,4 +239,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - Google Compute Engine, https://cloud.google.com/compute, 2023-01-05-Thu.
 - Azure Virtual Machines, https://azure.microsoft.com/en-us/products/virtual-machines/, 2023-01-05-Thu.
 - KVM, https://www.linux-kvm.org/page/Main_Page, 2023-01-05-Thu.
-- 
+- QEMU, https://www.qemu.org/, 2023-01-05-Thu.
+- Xen, https://xenproject.org/, 2023-01-05-Thu.
