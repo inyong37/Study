@@ -3,6 +3,27 @@
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
 
+### _Virtualization_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222009981745)
+
+Performance:
+- Bare metal/type 1 hypervisor: 80%
+- Hosted/type 2 hypervisor: 60%
+
+Hardware CPU Support:
+- Intel: VT-x
+- AMD: AMD-V
+
+Types:
+- VMware ESX (type 1)
+- Linux KVM - CPU & RAM
+  - Thin Hypervisor (type 1)
+  - Thick Hypervisor (type 2)
+- Linux VirtIO
+- QEMU - Devices/Emulator
+- Microwoft Windows Hyper-V
+- VMware Workstation (type 2)
+- VirtualBox (type 2)
+
 ## _Hypervisor_ | [vmware](https://www.vmware.com/topics/glossary/content/hypervisor.html)
 
 A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
@@ -38,6 +59,12 @@ Containers:
 
 Hypervisors and containers are used for different purposes. Hypervisors are used to create and run virtual machines (VMs), which each have their own complete operating systems, securely isolated from the others. In contrast to VMs, containers package up just an app and its related services. This makes them more lightweight and portable than VMs, so they are often used for fast and flexible application development and movement.
 
+### _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
+
+Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
+
+---
+
 ### :package: *[VMware](https://www.vmware.com/)*
 
 ### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
@@ -66,7 +93,7 @@ Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@x
 - Host-only Adapter
 - Generic Driver
 
-### Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
+### :hammer_and_wrench: Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
 
 Hyper-V는 하드웨어 가상화를 제공합니다. 즉, 각 가상 컴퓨터가 가상 하드웨어에서 실행됩니다. Hyper-V를 통해 가상 하드 드라이브, 가상 스위치 및 가상 컴퓨터에 추가할 수 있는 각종 가상 디바이스를 만들 수 있습니다.
 
@@ -74,42 +101,17 @@ Hyper-V는 Windows 10 Pro, Enterprise 및 Education 64비트 버전에서 사용
 
 Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서 Hyper-V를 실행할 때와는 다르게 작동한다. Windows Server에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 5가지이다. 1. 가상 컴퓨터를 실시간으로 한 호스트에서 다른 호스트로 마이그레이션, 2. Hyper-V 복제본, 3. 가상 파이버 채널, 4. SR-IOV 네트워킹, 5. 공유 .VHDX이다. Windows 10에서만 사용할 수 있는 Hyper-V 기능은 다음과 같이 2가지이다. 1. 빨리 만들기 및 VM 갤러리, 2. 기본 네트워크(NAT 스위치)이다. 메모리 관리 모델이 Windows의 Hyper-V에서 다르다. 서버에서 Hyper-V 메모리는 해당 서버에서 관리 컴퓨터만 실행된다는 가정 하에 관리된다. Windows의 Hyper-V에서 메모리는 대부분 클라이언트 컴퓨터가 가상 컴퓨터 실행 외에도 호스트의 소프트웨어를 실행한다는 예상에 따라 관리된다.
 
-### _Virtualization_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222009981745)
-
-Performance:
-- Bare metal/type 1 hypervisor: 80%
-- Hosted/type 2 hypervisor: 60%
-
-Hardware CPU Support:
-- Intel: VT-x
-- AMD: AMD-V
-
-Types:
-- VMware ESX (type 1)
-- Linux KVM - CPU & RAM
-  - Thin Hypervisor (type 1)
-  - Thick Hypervisor (type 2)
-- Linux VirtIO
-- QEMU - Devices/Emulator
-- Microwoft Windows Hyper-V
-- VMware Workstation (type 2)
-- VirtualBox (type 2)
-
-### _[Vagrant](https://www.vagrantup.com/)_ | [Docs](https://developer.hashicorp.com/vagrant/docs)
-
-Vagrant is the command line utility for managing the lifecycle of virtual machines.
-
-### _[Ansible](https://www.ansible.com/)_ | [Docs](https://docs.ansible.com/ansible/latest/index.html)
-
-Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
-
 ### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
 ### VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
 
-### Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20
+---
+
+## Practice
+
+### ~~Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20~~
 
 [enable network (Blog KR)](https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951):
 1. `sudo su`
@@ -136,6 +138,18 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 
 ---
 
+## Related Tools
+
+### _[Vagrant](https://www.vagrantup.com/)_ | [Docs](https://developer.hashicorp.com/vagrant/docs)
+
+Vagrant is the command line utility for managing the lifecycle of virtual machines.
+
+### _[Ansible](https://www.ansible.com/)_ | [Docs](https://docs.ansible.com/ansible/latest/index.html)
+
+Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
+
+---
+
 ### Reference
 - Virtual Machine Wiki KR-KO, https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0, 2020-11-04-Wed.
 - Windows 10 Hyper-V Introduction, https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/, 2020-11-04-Wed.
@@ -152,7 +166,7 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 - VirtualBox Network Blog KR, https://technote.kr/213, 2022-12-15-Thu.
 - VirtualBox Network Blog KR, https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95, 2022-12-15-Thu.
 - Virtualization Blog KR, https://blog.naver.com/ilikebigmac/222009981745, 2023-01-04-Wed.
-- Hypervisor vmware, https://www.vmware.com/topics/glossary/content/hypervisor.html, 2023-01-04-Wed.
+- Hypervisor VMware, https://www.vmware.com/topics/glossary/content/hypervisor.html, 2023-01-04-Wed.
 - Vagrant, https://www.vagrantup.com/, 2023-01-04-Wed.
 - Vagrant Docs, https://developer.hashicorp.com/vagrant/docs, 2023-01-04-Wed.
 - Ansible, https://www.ansible.com/, 2023-01-04-Wed.
@@ -165,4 +179,4 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 - enable ssh Blog KR, https://lemonandgrapefruit.tistory.com/m/250, 2023-01-04-Wed.
 - oVirt, https://www.ovirt.org/, 2023-01-04-Wed.
 - oVirt Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-04-Wed.
-- 
+- VDI VMware, https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html, 2023-01-05-Thu.
