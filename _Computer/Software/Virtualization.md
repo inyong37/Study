@@ -66,8 +66,6 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
   </div>
 </details>
 
-
-
 ### _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
 
 Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
@@ -122,6 +120,14 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 ### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
+
+### _[Google Compute Engine](https://cloud.google.com/compute)_
+
+Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
+
+### _[Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_
+
+Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
 
 ---
 
@@ -204,3 +210,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - oVirt Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-04-Wed.
 - VDI VMware, https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html, 2023-01-05-Thu.
 - Hyper-V, https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/, 2023-01-05-Thu.
+- Google Compute Engine, https://cloud.google.com/compute, 2023-01-05-Thu.
+- Azure Virtual Machines, https://azure.microsoft.com/en-us/products/virtual-machines/, 2023-01-05-Thu.
