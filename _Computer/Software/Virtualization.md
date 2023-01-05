@@ -24,7 +24,7 @@ Types:
 - VMware Workstation (type 2)
 - VirtualBox (type 2)
 
-## _Hypervisor_ | [vmware](https://www.vmware.com/topics/glossary/content/hypervisor.html)
+## _[Hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html)_
 
 A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
@@ -65,7 +65,7 @@ Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of v
 
 ---
 
-### :package: *[VMware](https://www.vmware.com/)*
+## Tools :hammer_and_wrench:
 
 ### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
 
@@ -79,7 +79,7 @@ Easily run multiple operating systems as virtual machines on your Windows or Lin
 
 Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
 
-### :package: *[VirtualBox](https://www.virtualbox.org/)*
+### *[VirtualBox](https://www.virtualbox.org/)*
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
@@ -93,7 +93,7 @@ Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@x
 - Host-only Adapter
 - Generic Driver
 
-### :hammer_and_wrench: Hyper-V | [MS Docs (KR)](https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/about/)
+### _[Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)_
 
 Hyper-V는 하드웨어 가상화를 제공합니다. 즉, 각 가상 컴퓨터가 가상 하드웨어에서 실행됩니다. Hyper-V를 통해 가상 하드 드라이브, 가상 스위치 및 가상 컴퓨터에 추가할 수 있는 각종 가상 디바이스를 만들 수 있습니다.
 
@@ -105,13 +105,13 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
-### VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
-
 ---
 
-## Practice
+## Practice :hammer_and_wrench:
 
-### ~~Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20~~
+### A. VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
+
+### ~~B. Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20~~
 
 [enable network (Blog KR)](https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951):
 1. `sudo su`
@@ -138,7 +138,7 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 
 ---
 
-## Related Tools
+## Related Tools :hammer_and_wrench:
 
 ### _[Vagrant](https://www.vagrantup.com/)_ | [Docs](https://developer.hashicorp.com/vagrant/docs)
 
@@ -180,3 +180,4 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - oVirt, https://www.ovirt.org/, 2023-01-04-Wed.
 - oVirt Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-04-Wed.
 - VDI VMware, https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html, 2023-01-05-Thu.
+- Hyper-V, https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/, 2023-01-05-Thu.
