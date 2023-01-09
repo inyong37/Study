@@ -1,7 +1,44 @@
-# :bento: *Virtual Machine (VM)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0)
+# _[Virtualization](https://www.vmware.com/solutions/virtualization.html)_ :bento:
+
+Virtualization creates a software-based-or virtual-representation of applications, servers, storage and networks to reduce IT expenses while boosting efficiency and agility.
+
+Virtualization can increase IT agility, flexibility and scalability while creating significant cost savings. Greater workload mobility, increased performance and availability of resources, automated operations-they're all benefits of virtualization that make IT simpler to manage and less costly to own and operate.
+
+Due to the limitations of x86 servers, many IT organizations must deplot multiple servers, each operating at a fraction of their capacity, to keep pace with today's high storage and processing demands. The result: huge inefficiencies and excessive operating costs.
+
+## *[Virtual Machine (VM)](https://www.vmware.com/solutions/virtualization.html)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0)
+
+A virtual computer system is known as a "virtual machine" (VM): a tightly isolated software container with an operating system and application inside. Each self-contained VM is completely independent. Putting multiple VMs on a single computer enables several operating systems and applications to run on just one physical server, or "host."
+
+A thin layer of software called a "hypervisor" decouples the virtual machines from the host and dynamically allocates computting resources to each virtual machine as needed.
+
+Key Propoerties of Virtual Machines:
+- Partitioning
+  - Run multiple operating systems on one physical machine.
+  - Divide system resources between virtual machines.
+- Isolation
+  - Provide fault and security isolation at the hardware level.
+  - Preserve performance with advanced resource controls.
+- Encapsulation
+  - Save the entire state of a virtual machine to files.
+  - Move and copy virtual machines as easily as moving and copying files.
+- Hardware Independence
+  - Provision or migrate any virtual machine to any physical server.
+
+Types of Virtualization:
+- Server Virtualization
+- Network Virtualization
+- Desktop Virtualization
+- Virtualization vs. Cloud Computing
+
+<details>
+  <summary>KR</summary>
+  <div markdown="1">
 가상 머신은 컴퓨팅 환경을 소프트웨어로 구현한 것, 즉 컴퓨터를 에뮬레이션하는 소프트웨어이다. 가상 머신상에서 운영 체제나 응용 프로그램을 설치 및 실행할 수 있다. 다른 기능들이 있는 여러 종류의 가상 머신들이 있다. 시스템 가상 머신들은, 또한 완전한 가상화 가상 머신들로 알려진 실제 기계의 대체제를 제공하고 완전한 운영 체계의 실행을 위해 요구되는 기능성의 수준을 제공한다. 하이퍼바이저는 하드웨어를 공유하고 관리하기 위해 네이티브 실행을 이용한다. 그리고 하이퍼바이저는 독립된 다른 환경들을 같은 물리적인 기계에서 실행하기 위해서 허용한다. 현대의 하이퍼바이저들은 하드웨어의 도움을 받는 가상화를 이용하는데, 그것들은 주로 주 CPU의 특정 하드웨어 기능을 사용하여 효과적이고 완전한 가상화를 제공한다. 프로세스 가상머신들은 플랫폼에 독립적인 프로그램 실행 환경과 추상화를 제공하여 하나의 프로그램을 실행하도록 설계되었다.
 
 가상 머신은 원래 Popek와 Goldberg가 "실제 컴퓨터의 효율적이고 고립된 복제물"로 정의했다. 현재는 "실제 하드웨어와 직접적인 통신이 없는 가상 컴퓨터"를 가리킨다. 가상 머신은 실제 컴퓨터와 어느 정도의 통신과 사용을 기반으로 두 가지로 나뉜다. 시스템 가상 머신은 완전한 시스템 플랫폼을 제공하며, 다시 말해 완전한 운영 체제의 실행을 지원한다. 반대로, 프로세스 가상 머신은 하나의 단일 프로그램을 실행하기 위해 만들어져 있는데, 다시 말해 단일 프로세스를 지원한다. 가상 머신의 중요한 특징은 안에서 돌아가는 소프트웨어가 가상 머신이 제공하는 환경과 자원에 제한을 받으며 가상 세계를 벗어날 수 없다는 것이다.
+  </div>
+</details>
 
 ### _Virtualization_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222009981745)
 
@@ -241,3 +278,4 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - KVM, https://www.linux-kvm.org/page/Main_Page, 2023-01-05-Thu.
 - QEMU, https://www.qemu.org/, 2023-01-05-Thu.
 - Xen, https://xenproject.org/, 2023-01-05-Thu.
+- Virtualization VMware, https://www.vmware.com/solutions/virtualization.html, 2023-01-09-Mon.
