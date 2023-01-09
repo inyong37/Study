@@ -73,7 +73,7 @@ Types of Virtualization:
   </div>
 </details>
 
-## _[Hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html)_
+## _[Hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html)_ :hammer_and_wrench:
 
 A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
@@ -114,14 +114,6 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
     
   </div>
 </details>
-
-### _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
-
-Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
-
----
-
-## Tools :hammer_and_wrench:
 
 ### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_
 
@@ -168,7 +160,16 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 </div>
 </details>
 
-### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_ | [KVM vs. VMware](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
+### _[libvirt](https://libvirt.org/)_
+
+The libvirt project:
+- is a toolkit to manage virtualization platforms
+- is accessible from C, Python, Perl, Go and more
+- is licensed under open source licenses
+- supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
+- targets Linux, FreeBSD, Windows and macOS
+
+### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_ | [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
 
 KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
 
@@ -194,18 +195,13 @@ The Xen Project develops virtualization technologies powering the world’s larg
 
 That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
 
+## _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
+
+Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
+
 ### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
-
-### _[libvirt](https://libvirt.org/)_
-
-The libvirt project:
-- is a toolkit to manage virtualization platforms
-- is accessible from C, Python, Perl, Go and more
-- is licensed under open source licenses
-- supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
-- targets Linux, FreeBSD, Windows and macOS
 
 ### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
 
