@@ -137,7 +137,7 @@ Easily run multiple operating systems as virtual machines on your Windows or Lin
 
 Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
 
-### *[VirtualBox](https://www.virtualbox.org/)*
+### *[Oracle VirtualBox](https://www.virtualbox.org/)*
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
@@ -198,19 +198,24 @@ That maturity, stability, and versatility the Xen Project created in its 15 year
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
----
+### _[libvirt](https://libvirt.org/)_
 
-## VMs in Cloud :cloud:
+The libvirt project:
+- is a toolkit to manage virtualization platforms
+- is accessible from C, Python, Perl, Go and more
+- is licensed under open source licenses
+- supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
+- targets Linux, FreeBSD, Windows and macOS
 
-### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_
+### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
 
 Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
 
-### _[Google Compute Engine](https://cloud.google.com/compute)_
+### _[Google Compute Engine](https://cloud.google.com/compute)_ :cloud:
 
 Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
 
-### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_
+### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_ :cloud:
 
 Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
 
@@ -304,4 +309,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - AWS Amazon EC2, https://aws.amazon.com/ec2/, 2023-01-09-Mon.
 - KVM vs. VMware vSphere, https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison, 2023-01-09-Mon.
 - VMware vSphere, https://www.vmware.com/products/vsphere.html, 2023-01-09-Mon.
+- libvirt, https://libvirt.org/, 2023-01-09-Mon.
 - 
