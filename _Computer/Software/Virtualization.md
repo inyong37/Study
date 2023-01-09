@@ -115,7 +115,9 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
   </div>
 </details>
 
-### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_
+### _[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)_
+
+Discover a robust, bare-metal hypervisor that installs directly onto your physical server. With direct access to and control of underlying resources, VMware ESXi effectively partitions hardware to consolidate applications and cut costs. It’s the industry leader for efficient architecture, setting the standard for reliability, performance, and support.
 
 ### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
 
@@ -199,9 +201,7 @@ That maturity, stability, and versatility the Xen Project created in its 15 year
 
 Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
 
-### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
-
-oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
+### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_
 
 ### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
 
@@ -214,6 +214,10 @@ Secure and customizable compute service that lets you create and run virtual mac
 ### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_ :cloud:
 
 Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
+
+### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
+
+oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
 ---
 
@@ -306,4 +310,4 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - KVM vs. VMware vSphere, https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison, 2023-01-09-Mon.
 - VMware vSphere, https://www.vmware.com/products/vsphere.html, 2023-01-09-Mon.
 - libvirt, https://libvirt.org/, 2023-01-09-Mon.
-- 
+- VMware ESXi, https://www.vmware.com/products/esxi-and-esx.html, 2023-01-09-Mon.
