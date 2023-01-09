@@ -199,6 +199,8 @@ QEMU is a member of Software Freedom Conservancy.
 
 Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
 
+[VDIs](https://www.g2.com/categories/virtual-desktop-infrastructure-vdi)
+
 ### _[Xen](https://xenproject.org/)_
 
 The Xen Project is the home for several virtualization-related open source projects. The community is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
@@ -207,17 +209,27 @@ The Xen Project develops virtualization technologies powering the world’s larg
 
 That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
 
+### _[AWS End User Computing (EUC)](https://aws.amazon.com/products/end-user-computing/)_ :cloud:
+
+AWS End User Computing (EUC) services provide secure access to the applications and desktops the workforce needs to get their job done. With AWS EUC services, workers can be productive from any supported device while improving IT agility and organizational security. You can scale up or scale down resources on demand, providing your teams with the resources they need, all without deploying and operating infrastructure.
+
 ### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
 
 Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
+
+### _[AWS WorkSpaces](https://aws.amazon.com/workspaces/)_ :cloud:
 
 ### _[Google Compute Engine](https://cloud.google.com/compute)_ :cloud:
 
 Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
 
+### _[Google Cloud Virtual Desktops](https://cloud.google.com/solutions/virtual-desktops)_ :cloud:
+
 ### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_ :cloud:
 
 Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
+
+### _[Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)_ :cloud:
 
 ### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
 
@@ -316,4 +328,8 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - libvirt, https://libvirt.org/, 2023-01-09-Mon.
 - VMware ESXi, https://www.vmware.com/products/esxi-and-esx.html, 2023-01-09-Mon.
 - Hypervisor type 1 vs. 2, https://phoenixnap.com/kb/what-is-hypervisor-type-1-2, 2023-01-09-Mon.
-- 
+- AWS EUC, https://aws.amazon.com/products/end-user-computing/, 2023-01-09-Mon.
+- Google Cloud Virtual Desktops, https://cloud.google.com/solutions/virtual-desktops, 2023-01-09-Mon.
+- Microsoft Azure Virtual Desktop, https://azure.microsoft.com/en-us/products/virtual-desktop/, 2023-01-09-Mon.
+- AWS WorkSpaces, https://aws.amazon.com/workspaces/, 2023-01-09-Mon.
+- VDIs, https://www.g2.com/categories/virtual-desktop-infrastructure-vdi, 2023-01-09-Mon.
