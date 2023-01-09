@@ -170,14 +170,6 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
-### _[Google Compute Engine](https://cloud.google.com/compute)_
-
-Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
-
-### _[Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_
-
-Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
-
 ### _[Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_
 
 KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
@@ -203,6 +195,22 @@ The Xen Project is the home for several virtualization-related open source proje
 The Xen Project develops virtualization technologies powering the world’s largest clouds in production and is the foundation of many commercial virtualization products from Citrix, Huawei, Inspur, and Oracle. The Xen Project code is the basis for several security solutions, including Qubes OS, Bromium vSentry, A1Logic, AIS SecureView, Adventium Labs Magrana Server, Bitdefender HVI, Star Labs Crucible Hypervisor, Zentific Zazen, and Dornerwork’s Virtuosity Hypervisor.
 
 That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
+
+---
+
+## VMs in Cloud :cloud:
+
+### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_
+
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
+
+### _[Google Compute Engine](https://cloud.google.com/compute)_
+
+Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
+
+### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_
+
+Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
 
 ---
 
@@ -291,3 +299,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - QEMU, https://www.qemu.org/, 2023-01-05-Thu.
 - Xen, https://xenproject.org/, 2023-01-05-Thu.
 - Virtualization VMware, https://www.vmware.com/solutions/virtualization.html, 2023-01-09-Mon.
+- AWS Amazon EC2, https://aws.amazon.com/ec2/, 2023-01-09-Mon.
+- 
