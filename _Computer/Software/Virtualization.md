@@ -115,37 +115,9 @@ Hypervisors and containers are used for different purposes. Hypervisors are used
   </div>
 </details>
 
-### _[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)_
+[Hypervisor type 1 vs. 2](https://phoenixnap.com/kb/what-is-hypervisor-type-1-2)
 
-Discover a robust, bare-metal hypervisor that installs directly onto your physical server. With direct access to and control of underlying resources, VMware ESXi effectively partitions hardware to consolidate applications and cut costs. It’s the industry leader for efficient architecture, setting the standard for reliability, performance, and support.
-
-### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
-
-Harness the full power of your Mac when you use VMware Fusion to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) without rebooting.
-
-### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html)
-
-Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
-
-### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
-
-Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
-
-### *[Oracle VirtualBox](https://www.virtualbox.org/)*
-
-VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
-
-VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
-
-Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95):
-- NAT
-- NAT Network
-- Bridged Adapter
-- Internal Network
-- Host-only Adapter
-- Generic Driver
-
-### _[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)_
+### _[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)_ type 1 hypervisor
 
 Whether you are a software developer, an IT professional, or a technology enthusiast, many of you need to run multiple operating systems. Hyper-V lets you run multiple operating systems as virtual machines on Windows.
 
@@ -162,6 +134,40 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 </div>
 </details>
 
+### _[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)_ type 1 hypervisor
+
+### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_ type 1 hypervisor
+
+### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_ type 2 hypervisor
+
+Harness the full power of your Mac when you use VMware Fusion to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) without rebooting.
+
+### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) type 2 hypervisor
+
+Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
+
+### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html) type 2 hypervisor
+
+Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
+
+### _[Oracle VirtualBox](https://www.virtualbox.org/)_ type 2 hypervisor
+
+VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
+
+VirtualBox는 InnoTek에서 개발을 시작했고, Sun Microsystems에서 InnoTeck을 인수한 뒤, Oracle이 Sun Microsystems를 인수하여, 현재 Oracle에서 배포하고 있다.
+
+Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@xeomina/VirtualBox-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%95):
+- NAT
+- NAT Network
+- Bridged Adapter
+- Internal Network
+- Host-only Adapter
+- Generic Driver
+
+### _Windows Virtual PC_ type 2 hypervisor
+
+### _Parallels Desktop_ type 2 hypervisor
+
 ### _[libvirt](https://libvirt.org/)_
 
 The libvirt project:
@@ -171,7 +177,7 @@ The libvirt project:
 - supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
 - targets Linux, FreeBSD, Windows and macOS
 
-### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_ | [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
+### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_ type 1 hypervisor | [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
 
 KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
 
@@ -189,6 +195,10 @@ When used as a virtualizer, QEMU achieves near native performance by executing t
 
 QEMU is a member of Software Freedom Conservancy.
 
+## _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
+
+Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
+
 ### _[Xen](https://xenproject.org/)_
 
 The Xen Project is the home for several virtualization-related open source projects. The community is focused on advancing virtualization in a number of different commercial and open source applications, including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security applications, embedded and hardware appliances, and automotive/aviation.
@@ -196,12 +206,6 @@ The Xen Project is the home for several virtualization-related open source proje
 The Xen Project develops virtualization technologies powering the world’s largest clouds in production and is the foundation of many commercial virtualization products from Citrix, Huawei, Inspur, and Oracle. The Xen Project code is the basis for several security solutions, including Qubes OS, Bromium vSentry, A1Logic, AIS SecureView, Adventium Labs Magrana Server, Bitdefender HVI, Star Labs Crucible Hypervisor, Zentific Zazen, and Dornerwork’s Virtuosity Hypervisor.
 
 That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
-
-## _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
-
-Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
-
-### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_
 
 ### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
 
@@ -311,3 +315,5 @@ Ansible is an IT automation tool. It can configure systems, deploy software, and
 - VMware vSphere, https://www.vmware.com/products/vsphere.html, 2023-01-09-Mon.
 - libvirt, https://libvirt.org/, 2023-01-09-Mon.
 - VMware ESXi, https://www.vmware.com/products/esxi-and-esx.html, 2023-01-09-Mon.
+- Hypervisor type 1 vs. 2, https://phoenixnap.com/kb/what-is-hypervisor-type-1-2, 2023-01-09-Mon.
+- 
