@@ -305,3 +305,9 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 - Microsoft Azure Virtual Desktop, https://azure.microsoft.com/en-us/products/virtual-desktop/, 2023-01-09-Mon.
 - AWS WorkSpaces, https://aws.amazon.com/workspaces/, 2023-01-09-Mon.
 - VDIs, https://www.g2.com/categories/virtual-desktop-infrastructure-vdi, 2023-01-09-Mon.
+- Comparing KubeVirt to other technologies, https://kubevirt.io/2017/technology-comparison.html, 2023-01-10-Tue.
+- Why use containers vs. VMs?, https://www.vmware.com/topics/glossary/content/vms-vs-containers.html, 2023-01-10-Tue.
+- Kubevirt를 활용한 VM 및 컨테이너 통합 관리 프로젝트 Blog KR, https://daaa0555.tistory.com/473, 2023-01-10-Tue.
+- Ovirt란 무엇인가? Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-10-Tue.
+- KVM 가상화 Management software - Ovirt 4.4.x Blog KR, https://yjwang.tistory.com/161, 2023-01-10-Tue.
+- Kubernetes - KubeVirt, https://da-nika.tistory.com/155, 2023-01-10-Tue.
