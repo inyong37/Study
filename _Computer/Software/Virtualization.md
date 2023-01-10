@@ -76,10 +76,6 @@ Types of Virtualization:
 ## _[Hypervisor](https://www.vmware.com/topics/glossary/content/hypervisor.html)_ :hammer_and_wrench:
 
 A hypervisor, also known as a virtual machine monitor or VMM, is software that creates and runs virtual machines (VMs). A hypervisor allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
-
-<details>
-  <summary>Details</summary>
-  <div markdown="1">
     
 Benefits of hypervisors:
 - Speed
@@ -111,13 +107,16 @@ Containers:
 - Are extremely portable since in a container, an application has everything it needs to run.
 
 Hypervisors and containers are used for different purposes. Hypervisors are used to create and run virtual machines (VMs), which each have their own complete operating systems, securely isolated from the others. In contrast to VMs, containers package up just an app and its related services. This makes them more lightweight and portable than VMs, so they are often used for fast and flexible application development and movement.
-    
-  </div>
-</details>
 
 [Hypervisor type 1 vs. 2](https://phoenixnap.com/kb/what-is-hypervisor-type-1-2)
 
-### _[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)_ type 1 hypervisor
+## _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
+
+Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
+
+[VDIs](https://www.g2.com/categories/virtual-desktop-infrastructure-vdi)
+
+### _[Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)_
 
 Whether you are a software developer, an IT professional, or a technology enthusiast, many of you need to run multiple operating systems. Hyper-V lets you run multiple operating systems as virtual machines on Windows.
 
@@ -134,23 +133,23 @@ Windows에서 Hyper-V를 실행할 때 몇 가지 기능은 Windows Server에서
 </div>
 </details>
 
-### _[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)_ type 1 hypervisor
+### _[VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html)_
 
-### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_ type 1 hypervisor
+### _[VMware vSphere](https://www.vmware.com/products/vsphere.html)_
 
-### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_ type 2 hypervisor
+### _[VMware Fusion](https://www.vmware.com/products/fusion.html)_
 
 Harness the full power of your Mac when you use VMware Fusion to run Windows, Linux, containers, Kubernetes and more in virtual machines (VMs) without rebooting.
 
-### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html) type 2 hypervisor
+### _[VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Player/index.html) | [Windows Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Windows/index.html) | [Linux Docs](https://docs.vmware.com/en/VMware-Workstation-Player-for-Linux/index.html)
 
 Easily run multiple operating systems as virtual machines on your Windows or Linux PC with VMware Workstation Player.
 
-### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html) type 2 hypervisor
+### _[VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)_ | [Docs](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 
 Run Windows, Linux and BSD virtual machines on a Windows or Linux desktop with VMware Workstation Pro, the industry standard desktop hypervisor.
 
-### _[Oracle VirtualBox](https://www.virtualbox.org/)_ type 2 hypervisor
+### _[Oracle VirtualBox](https://www.virtualbox.org/)_
 
 VirtualBox is a x86 and AMD64/Intel64 virtuallization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License(GPL) version 2.
 
@@ -164,9 +163,9 @@ Network | [Blog (KR)](https://technote.kr/213) | [Blog (KR)](https://velog.io/@x
 - Host-only Adapter
 - Generic Driver
 
-### _Windows Virtual PC_ type 2 hypervisor
+### _Windows Virtual PC_
 
-### _Parallels Desktop_ type 2 hypervisor
+### _Parallels Desktop_
 
 ### _[libvirt](https://libvirt.org/)_
 
@@ -177,13 +176,15 @@ The libvirt project:
 - supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
 - targets Linux, FreeBSD, Windows and macOS
 
-### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_ type 1 hypervisor | [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
+### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_
 
 KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
 
 Using KVM, one can run multiple virtual machines running unmodified Linux or Windows images. Each virtual machine has private virtualized hardware: a network card, disk, graphics adapter, etc.
 
 KVM is open source software. The kernel component of KVM is included in mainline Linux, as of 2.6.20. The userspace component of KVM is included in mainline QEMU, as of 1.3.
+
+[KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
 
 ### _[QEMU](https://www.qemu.org/)_
 
@@ -194,12 +195,6 @@ When used as a machine emulator, QEMU can run OSes and programs made for one mac
 When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
 
 QEMU is a member of Software Freedom Conservancy.
-
-## _[Virtual Desktop Infrastructure (VDI)](https://www.vmware.com/topics/glossary/content/virtual-desktop-infrastructure-vdi.html)_
-
-Virtual Desktop Infrastructure (VDI) is a technology that refers to the use of virtual machines to provide and manage virtual desktops. VDI hosts desktop environments on a centralized server and deploys them to end-users on request.
-
-[VDIs](https://www.g2.com/categories/virtual-desktop-infrastructure-vdi)
 
 ### _[Xen](https://xenproject.org/)_
 
