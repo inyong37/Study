@@ -209,41 +209,17 @@ The Xen Project develops virtualization technologies powering the world’s larg
 
 That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
 
-### _[AWS End User Computing (EUC)](https://aws.amazon.com/products/end-user-computing/)_ :cloud:
-
-AWS End User Computing (EUC) services provide secure access to the applications and desktops the workforce needs to get their job done. With AWS EUC services, workers can be productive from any supported device while improving IT agility and organizational security. You can scale up or scale down resources on demand, providing your teams with the resources they need, all without deploying and operating infrastructure.
-
-### _[AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)_ :cloud:
-
-Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 500 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best match the needs of your workload. We are the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking. We offer the best price performance for machine learning training, as well as the lowest cost per inference instances in the cloud. More SAP, high performance computing (HPC), ML, and Windows workloads run on AWS than any other cloud.
-
-### _[AWS WorkSpaces](https://aws.amazon.com/workspaces/)_ :cloud:
-
-### _[Google Compute Engine](https://cloud.google.com/compute)_ :cloud:
-
-Secure and customizable compute service that lets you create and run virtual machines on Google’s infrastructure.
-
-### _[Google Cloud Virtual Desktops](https://cloud.google.com/solutions/virtual-desktops)_ :cloud:
-
-### _[Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)_ :cloud:
-
-Create Linux and Windows virtual machines (VMs) in seconds and reduce costs.
-
-### _[Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)_ :cloud:
-
 ### _[oVirt](https://www.ovirt.org/)_ | [Blog (KR)](https://blog.naver.com/ilikebigmac/222013980565)
 
 oVirt is an open-source distributed virtualization solution, designed to manage your entire enterprise infrastructure. oVirt uses the trusted KVM hypervisor and is built upon several other community projects, including libvirt, Gluster, PatternFly, and Ansible.
 
 ---
 
-## Practice :hammer_and_wrench:
+### A. macOS with M1 CPU :hammer_and_wrench:
 
-### A. VM on M1 macOS | [Blog (KR)](https://elsainmac.tistory.com/869?category=665146)
+[use VMware Fusion with Kali Linux](https://elsainmac.tistory.com/869?category=665146)
 
-<details>
-  <summary>B. Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20</summary>
-  <div markdown="1">
+### B. Setup CentOS 7 Cluster on VirtualBox Ubuntu Desktop 20 :hammer_and_wrench:
     
 [enable network (Blog KR)](https://evir.tistory.com/entry/CentOSVIrtualbox%EC%97%90-%EC%84%A4%EC%B9%98%ED%95%9C-CentOS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%84%A4%EC%A0%951):
 1. `sudo su`
@@ -267,21 +243,22 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 
 [enable ssh](https://lemonandgrapefruit.tistory.com/m/250):
 1. GuestOS (Powered Off)>Settings>Network>Adapter 1>NAT>Advanced-Port Forwarding
-    
-  </div>
-</details>
 
 ---
 
-## Related Tools :hammer_and_wrench:
+### Tool :hammer_and_wrench:
 
-### _[Vagrant](https://www.vagrantup.com/)_ | [Docs](https://developer.hashicorp.com/vagrant/docs)
+- [Vagrant](https://www.vagrantup.com/) | [Docs](https://developer.hashicorp.com/vagrant/docs): Vagrant is the command line utility for managing the lifecycle of virtual machines.
+- [Ansible](https://www.ansible.com/) | [Docs](https://docs.ansible.com/ansible/latest/index.html): Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
 
-Vagrant is the command line utility for managing the lifecycle of virtual machines.
-
-### _[Ansible](https://www.ansible.com/)_ | [Docs](https://docs.ansible.com/ansible/latest/index.html)
-
-Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates.
+### Cloud :cloud:
+- [AWS End User Computing (EUC)](https://aws.amazon.com/products/end-user-computing/)
+- [AWS Amazon Elastic Compute Cloud (EC2)](https://aws.amazon.com/ec2/)
+- [AWS WorkSpaces](https://aws.amazon.com/workspaces/)
+- [Google Compute Engine](https://cloud.google.com/compute)
+- [Google Cloud Virtual Desktops](https://cloud.google.com/solutions/virtual-desktops)
+- [Microsoft Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/)
+- [Microsoft Azure Virtual Desktop](https://azure.microsoft.com/en-us/products/virtual-desktop/)
 
 ---
 
