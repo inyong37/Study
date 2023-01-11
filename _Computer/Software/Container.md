@@ -431,6 +431,10 @@ Pod conditions:
 
 ### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
 
+### :package: _[Volumes](https://kubernetes.io/docs/concepts/storage/volumes/)_
+
+Kubernetes supports many types of volumes. A pod can use any number of volume types simultaneously. Ephemeral volume types have a lifetime of a pod, but persistent volumes exist beyond the lifetime of a pod. When a pod ceases to exist, Kubernetes destroys ephemeral volumes; however, Kubernetes does not destroy persistent volumes. For any kind of volume in a given pod, data is preserved across container restarts.
+
 ### :package: _[Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
 
 - PersistentVolume (PV):
@@ -443,7 +447,7 @@ A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar 
 
 While PersistentVolumeClaims allow a user to consume abstract storage resources, it is common that users need PersistentVolumes with varying properties, such as performance, for different problems. Cluster administrators need to be able to offer a variety of PersistentVolumes that differ in more ways than size and access modes, without exposing users to the details of how those volumes are implemented. For these needs, there is the StoargeClass resource.
 
-Types of Persistent Volumes:
+[Types of Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#types-of-persistent-volumes):
 - PersistentVolume types are implemented as plugins. Kubernetes currently supports the following plugins:
   - cephyfs - CephFS volume
   - csi - Container Storage Interface (CSI)
@@ -781,3 +785,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - MicroK8S vs K3s vs minikube, https://microk8s.io/compare, 2023-01-11-Wed.
 - Introduction to Kubernetes architecture, https://www.redhat.com/en/topics/containers/kubernetes-architecture, 2023-01-11-Wed.
 - What is container orchestration, https://www.redhat.com/en/topics/containers/what-is-container-orchestration, 2023-01-11-Wed.
+- Volumes, https://kubernetes.io/docs/concepts/storage/volumes/, 2023-01-11-Wed.
