@@ -4,6 +4,8 @@
 
 Direct-attached storage (DAS) is digital storage directly attached to the computer accessing it, as opposed to storage accessed over a computer network (i.e. network-attached storage). Examples of DAS include hard drives, solid-state drives, optical disc drives, and storage on external drives. The name "DAS" is a retronym to contrast with storage area network (SAN) and network-attached storage (NAS).
 
+[NFS vs iSCSI - What's the Difference? (Pros and Cons](https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/)
+
 ## :cloud: _Network Attached Storage (NAS)_
 
 ## :cloud: _Cloud Storage_
@@ -34,3 +36,4 @@ iCloud is built into all Apple devices by default. This means you can keep your 
 - OneDrive, https://www.microsoft.com/ko-kr/microsoft-365/onedrive/online-cloud-storage, 2020-05-05-Tue.
 - iCloud, https://www.apple.com/kr/icloud/, 2020-05-05-Tue.
 - Das Wiki, https://en.wikipedia.org/wiki/Direct-attached_storage, 2020-10-13-Tue.
+- NFS vs iSCSI - What's the Difference? (Pros and Cons, https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/, 2023-01-11-Wed.
