@@ -6,6 +6,8 @@ Direct-attached storage (DAS) is digital storage directly attached to the comput
 
 [NFS vs iSCSI - What's the Difference? (Pros and Cons](https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/)
 
+[iSCSI와 NAS 차이점?](https://www.2cpu.co.kr/QnA/346155)
+
 ## :cloud: _Network Attached Storage (NAS)_
 
 ## :cloud: _Cloud Storage_
@@ -37,3 +39,4 @@ iCloud is built into all Apple devices by default. This means you can keep your 
 - iCloud, https://www.apple.com/kr/icloud/, 2020-05-05-Tue.
 - Das Wiki, https://en.wikipedia.org/wiki/Direct-attached_storage, 2020-10-13-Tue.
 - NFS vs iSCSI - What's the Difference? (Pros and Cons, https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/, 2023-01-11-Wed.
+- iSCSI와 NAS 차이점?, https://www.2cpu.co.kr/QnA/346155, 2023-01-11-Wed.
