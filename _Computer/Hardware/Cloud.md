@@ -6,6 +6,8 @@ Cloud computing is the delivery of computing services-including servers, storage
 
 ## _[What Is Cloud Storage?](https://aws.amazon.com/what-is/cloud-storage/)_
 
+`Cloud Storage is related with the 'Storage' page.`
+
 Cloud storage is a cloud computing model that enables storing data and files on the internet through a cloud computing provider that you access either through the public internet or a dedicated private network connection.
 
 ### Reference
