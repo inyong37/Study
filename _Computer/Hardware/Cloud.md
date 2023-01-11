@@ -20,6 +20,8 @@ Cloud computing is the delivery of computing services-including servers, storage
 
 Cloud storage is a cloud computing model that enables storing data and files on the internet through a cloud computing provider that you access either through the public internet or a dedicated private network connection.
 
+### _[Difference Between Private Cloud and On Premise](http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/)_
+
 ### Reference
 - Amazon AWS, https://aws.amazon.com/, 2023-01-11-Wed.
 - Google Cloud, https://cloud.google.com/, 2023-01-11-Wed.
@@ -32,3 +34,4 @@ Cloud storage is a cloud computing model that enables storing data and files on 
 - What is cloud computing?, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/, 2023-01-11-Wed.
 - What is Cloud Storage?, https://aws.amazon.com/what-is/cloud-storage/, 2023-01-11-Wed.
 - What are cloud services?, https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services, 2023-01-11-Wed.
+- Difference Between Private Cloud and On Premise, http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/, 2023-01-11-Wed.
