@@ -22,6 +22,8 @@ Cloud storage is a cloud computing model that enables storing data and files on 
 
 ### _[Difference Between Private Cloud and On Premise](http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/)_
 
+A private cloud is a dedicated environment which may be managed by the organization or a third party cloud service provider. A private cloud can be on premise or hosted in a third party's data center.
+
 ### Reference
 - Amazon AWS, https://aws.amazon.com/, 2023-01-11-Wed.
 - Google Cloud, https://cloud.google.com/, 2023-01-11-Wed.
