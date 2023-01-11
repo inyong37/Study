@@ -220,16 +220,14 @@ Kubernetes is a portable, extensible, open source platform for managing containe
 
 The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the "K" and the "s". Google open-sourced the Kubernetes project in 2014. Kubernetes combines ovver 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community.
 
-### :desktop_computer: Tranditional deployment era
-
+:desktop_computer: Tranditional deployment era:
 - Hardware
 - Operating System
 - App
 
 Early on, organizations ran applications on physical servers. There was no way to define resource boundaries for applications in a physical server, and this caused resource allocation issues. For example, if multiple applications run on a physical server, there can be instances where one application would take up most of the resources, and as a result, the other applications would underperform. A solution for this would be to run each application on a different physical server. But this did not scale as resources were underutilized, and it was expensive for organizations to maintain many physical servers.
 
-### :bento: Virtualized deployment era
-
+:bento: Virtualized deployment era:
 - Hardware
 - Operating System
 - Hypervisor
@@ -244,8 +242,7 @@ Virtualization allows better utilization of resources in a physical server and a
 
 Each VM is a full machine running all the components, including its own operating system, on top of the virtualized hardware.
 
-### :whale: Container deployment era
-
+:whale: Container deployment era:
 - Hardware
 - Operating System
 - Container Runtime
@@ -266,6 +263,28 @@ Containers have become popular because they provide extra benefits, such as:
 - Loosely coupled, distributed, elastic, liberated micro-services: applications are broken into smaller, independent pieces and can be deployed and managed dynamically – not a monolithic stack running on one big single-purpose machine.
 - Resource isolation: predictable application performance.
 - Resource utilization: high efficiency and density.
+
+### _[Introduction to Kubernetes architecture](https://www.redhat.com/en/topics/containers/kubernetes-architecture)_
+
+A working Kubernetes deployment is called a cluster: the control plane and the compute machines, or nodes. Each node is its own Linux environment, and could be either a physical or virtual machines. Each node runs pods, which are made up of containers.
+
+Kubernetes cluster:
+- Control plane:
+  - kube-apiserver
+  - kube-scheduler
+  - kube-controller-manager
+  - etcd
+- Compute machines:
+  - kubelet
+  - kube-proxy
+  - Container runtime
+  - Pod
+- Persistant storage
+- Container registry
+
+Underlying infrastructure:
+- Physical (bare-metal)/Virtual server
+- Private/Public/Hybird Cloud server
 
 ### _[Components](https://kubernetes.io/docs/concepts/overview/components/)_ | [Blog (KR)](https://wiki.webnori.com/display/kubernetes/Architecture)
 
@@ -620,9 +639,7 @@ The certified Kubernetes distribution built for IoT & Edge computing.
 
 ### _[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine)_
 
-A scalable and automated Kubernetes service.
-
-GKE is a simple way to automatically deploy, scale, and manage Kubernetes.
+A scalable and automated Kubernetes service. GKE is a simple way to automatically deploy, scale, and manage Kubernetes.
 
 ### _[Amazon Elastic Kubernetes Service (EKS)](https://aws.amazon.com/eks/)_
 
@@ -635,6 +652,8 @@ Red Hat® OpenShift® is a unified platform to build, modernize, and deploy appl
 ### _[OKD](https://www.okd.io/)_ | [Blog (KR)](https://velog.io/@_gyullbb/OKD-%EA%B0%9C%EC%9A%94)
 
 The Community Distribution of Kubernetes that powers Red Hat OpenShift.
+
+### _[MicroK8s vs K3s vs minikube](https://microk8s.io/compare)_
 
 ---
 
@@ -650,11 +669,11 @@ Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively | [Blog](https://medium
 
 ---
 
-### _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### :hammer_and_wrench: _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
 App의 YAML 파일들의 집합을 chart로 관리
 
-### _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### :hammer_and_wrench: _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
 ---
 
@@ -733,3 +752,6 @@ App의 YAML 파일들의 집합을 chart로 관리
 - OKD Blog KR, https://velog.io/@_gyullbb/OKD-%EA%B0%9C%EC%9A%94, 2023-01-03-Tue.
 - Kubevirt Blog, https://www.tigera.io/blog/using-kubernetes-to-orchestrate-vms/, 2023-01-03-Tue.
 - Kubevirt Blog KR, https://daaa0555.tistory.com/478, 2023-01-03-Tue.
+- MicroK8S vs K3s vs minikube, https://microk8s.io/compare, 2023-01-11-Wed.
+- Introduction to Kubernetes architecture, https://www.redhat.com/en/topics/containers/kubernetes-architecture, 2023-01-11-Wed.
+- 
