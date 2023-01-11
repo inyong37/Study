@@ -1,12 +1,14 @@
 # :package: _Storage_
 
-## _Direct Attached Storage (DAS)_ | [WiKi](https://en.wikipedia.org/wiki/Direct-attached_storage)
+## :package: _Direct Attached Storage (DAS)_ | [WiKi](https://en.wikipedia.org/wiki/Direct-attached_storage)
 
 Direct-attached storage (DAS) is digital storage directly attached to the computer accessing it, as opposed to storage accessed over a computer network (i.e. network-attached storage). Examples of DAS include hard drives, solid-state drives, optical disc drives, and storage on external drives. The name "DAS" is a retronym to contrast with storage area network (SAN) and network-attached storage (NAS).
 
-## _Network Attached Storage (NAS)_
+## :cloud: _Network Attached Storage (NAS)_
 
-## _Cloud Storage_
+## :cloud: _Cloud Storage_
+
+`Cloud Storage is related with the 'Cloud' page.`
 
 ### _[Google Drive](https://www.google.com/drive/)_
 
