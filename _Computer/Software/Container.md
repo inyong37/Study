@@ -1,4 +1,4 @@
-# :whale: *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
+# :whale: I. *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
 A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
 
@@ -114,11 +114,11 @@ from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{userna
 
 ---
 
-# :whale2: _Orchestration_ | [Docs](https://docs.docker.com/get-started/orchestration/)
+# :whale2: II. _[Orchestration](https://docs.docker.com/get-started/orchestration/)_
 
 Tools to manage, scale, and maintain containerized applications are called orchestrators, and the most common examples of these are Kubernetes and Docker Swarm.
 
-## :whale2: _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
+## :whale2: i. _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
 
 ### _[Scale the service in the swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1775-docker-19)
 
@@ -214,7 +214,7 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
 
 ---
 
-## :whale2: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
+## :whale2: ii. *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -431,17 +431,43 @@ Pod conditions:
 
 ### _[Ephemeral Containers](https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/)_
 
-### _[Persistent Volumes (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
+### :package: _[Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
+
+- PersistentVolume (PV):
 
 A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Clsses. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
+
+- Persistent Volume Claim (PVC):
 
 A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., they can be mounted ReadWriteOnce (RWO), ReadOnlyMany (ROX) or ReadWriteMany (RWX), see AccessModes).
 
 While PersistentVolumeClaims allow a user to consume abstract storage resources, it is common that users need PersistentVolumes with varying properties, such as performance, for different problems. Cluster administrators need to be able to offer a variety of PersistentVolumes that differ in more ways than size and access modes, without exposing users to the details of how those volumes are implemented. For these needs, there is the StoargeClass resource.
 
-- emptyDir
-- hostpath
-- Network Volume
+Types of Persistent Volumes:
+- PersistentVolume types are implemented as plugins. Kubernetes currently supports the following plugins:
+  - cephyfs - CephFS volume
+  - csi - Container Storage Interface (CSI)
+  - fc - Fibre Channel (FC) storage
+  - hostPath - HostPath volume (for single cnode testing only; WILL NOT WORK in a multi-node cluster; consider using `local` volume instead)
+  - iscsi - iSCSI (SCSI over IP) storage)
+  - local - loca storage devices mounted on nodes.
+  - nfs - Network File System (NFS) storage
+  - rbd - Rados Block Device (RBD) volume
+- The following types of PersistentVolume are deprecated. This means that support is still available but will be removed in a future Kubernetes release.
+  - awsElasticBlockStore - AWS Elastic Block Store (EBS) (deprecated in v1.17)
+  - azureDisk - Azure Disk (deprecated in v1.19)
+  - azureFile - Azure File (deprecated in v1.21)
+  - cinder - Cinder (OpenStack block storage) (deprecated in v1.18)
+  - flexVolume - FlexVolume (deprecated in v1.23)
+  - gcePersistentDisk - GCE Persistent Disk (deprecated in v1.17)
+  - portworxVolume - Portworx volume (deprecated in v1.25)
+  - vsphereVolume - vSphere VMDK volume (deprecated in v1.19)
+- Older versions of Kubernetes also supported the following in-tree PersistentVolume types:
+  - photonPersistentDisk - Photon controller persistent disk. (not available starting v1.15)
+  - scaleIO - ScaleIO volume (not available starting v1.21)
+  - flocker - Flocker storage (not available starting v1.25)
+  - quobyte - Quobyte volume (not available starting v1.25)
+  - storageos - StorageOS volume (not available starting v1.25)
 
 ### _[Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)_
 
@@ -754,4 +780,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Kubevirt Blog KR, https://daaa0555.tistory.com/478, 2023-01-03-Tue.
 - MicroK8S vs K3s vs minikube, https://microk8s.io/compare, 2023-01-11-Wed.
 - Introduction to Kubernetes architecture, https://www.redhat.com/en/topics/containers/kubernetes-architecture, 2023-01-11-Wed.
-- 
+- What is container orchestration, https://www.redhat.com/en/topics/containers/what-is-container-orchestration, 2023-01-11-Wed.
