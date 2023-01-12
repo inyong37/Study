@@ -29,9 +29,11 @@ iCloud is built into all Apple devices by default. This means you can keep your 
 
 ### ~~Daum Drive Cloud~~ [Deprecated](https://cs.daum.net/faq/304/17063.html#34360)
 
----
+## :package: File System
 
 ### [Ceph File System (CephFS)](https://docs.ceph.com/en/quincy/cephfs/index.html)
+
+The Ceph File System (CephFS) is a file system compatible with POSIX standards that uses a Ceph Storage Cluster to store its data. The Ceph File System uses the same Ceph Storage Cluster system as the Ceph Block Device, Ceph Object Gateway, or `librados` API.
 
 [NFS vs iSCSI - What's the Difference? (Pros and Cons](https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/)
 
@@ -50,3 +52,4 @@ iCloud is built into all Apple devices by default. This means you can keep your 
 - Ndrive, https://ndrive.naver.com/, 2023-01-12-Thu.
 - Naver Cloud MyBOX, https://mybox.naver.com/, 2023-01-12-Thu.
 - Daum Drive Cloud Deprecated, https://cs.daum.net/faq/304/17063.html#34360, 2023-01-12-Thu.
+- What is the Ceph File System (CephFS)?, https://access.redhat.com/documentation/en-us/red_hat_ceph_storage/2/html/ceph_file_system_guide_technology_preview/what_is_the_ceph_file_system_cephfs, 2023-01-11-Thu.
