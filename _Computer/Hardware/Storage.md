@@ -78,6 +78,10 @@ The Ceph File System (CephFS) is a file system compatible with POSIX standards t
 
 Gluster is a scalable network filesystem.
 
+### [Rook](https://rook.io/)
+
+Storage operators for Kubernetes.
+
 ---
 
 ### Reference
@@ -100,3 +104,4 @@ Gluster is a scalable network filesystem.
 - Gluster, https://www.gluster.org/, 2023-01-12-Thu.
 - Ceph, https://ceph.com/en/, 2023-01-12-Thu.
 - Ceph, https://ceph.io/en/, 2023-01-12-Thu.
+- Rook, https://rook.io/, 2023-01-12-Thu.
