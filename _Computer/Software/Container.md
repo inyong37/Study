@@ -433,15 +433,11 @@ Kubernetes supports many types of volumes. A pod can use any number of volume ty
 
 ### :package: _[Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)_ | [Blog (KR)](https://waspro.tistory.com/580)
 
-- PersistentVolume (PV):
+A `PersistentVolume (PV)` is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Clsses. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
 
-A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Clsses. It is a resource in the cluster just like a node is a cluster resource. PVs are volume plugins like Volumes, but have a lifecycle independent of any individual Pod that uses the PV. This API object captures the details of the implementation of the storage, be that NFS, iSCSI, or a cloud-provider-specific storage system.
+A `PersistentVolumeClaim (PVC)` is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., they can be mounted ReadWriteOnce (RWO), ReadOnlyMany (ROX) or ReadWriteMany (RWX), see AccessModes).
 
-- Persistent Volume Claim (PVC):
-
-A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Pods can request specific levels of resources (CPU and Memory). Claims can request specific size and access modes (e.g., they can be mounted ReadWriteOnce (RWO), ReadOnlyMany (ROX) or ReadWriteMany (RWX), see AccessModes).
-
-While PersistentVolumeClaims allow a user to consume abstract storage resources, it is common that users need PersistentVolumes with varying properties, such as performance, for different problems. Cluster administrators need to be able to offer a variety of PersistentVolumes that differ in more ways than size and access modes, without exposing users to the details of how those volumes are implemented. For these needs, there is the StoargeClass resource.
+While `PersistentVolumeClaims` allow a user to consume abstract storage resources, it is common that users need PersistentVolumes with varying properties, such as performance, for different problems. Cluster administrators need to be able to offer a variety of PersistentVolumes that differ in more ways than size and access modes, without exposing users to the details of how those volumes are implemented. For these needs, there is the StoargeClass resource.
 
 [Types of Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#types-of-persistent-volumes):
 - PersistentVolume types are implemented as plugins. Kubernetes currently supports the following plugins:
@@ -468,6 +464,12 @@ While PersistentVolumeClaims allow a user to consume abstract storage resources,
   - flocker - Flocker storage (not available starting v1.25)
   - quobyte - Quobyte volume (not available starting v1.25)
   - storageos - StorageOS volume (not available starting v1.25)
+
+### [Volume Snapshots](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)
+
+A `VolumeSnapshotContent` is a snapshot taken from a volume in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a PersistentVolume is a cluster resource.
+
+A `VolumeSnapshot` is a request for snapshot of a volume by a user. It is similar to a PersistentVolumeClaim
 
 ### _[Disruptions](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/)_
 
