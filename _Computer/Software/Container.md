@@ -1,4 +1,4 @@
-# :whale: *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
+# :whale: *[Container](https://www.docker.com/resources/what-container/)* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
 A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
 
@@ -8,7 +8,7 @@ A container is a standard unit of software that packages up code and all its dep
 
 A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
-### *Image* | [Kubernetes](https://kubernetes.io/docs/concepts/containers/images/)
+### *[Image](https://kubernetes.io/docs/concepts/containers/images/)*
 
 A container image represents binary data that encapsulates an application and all its software dependencies. Container images are executable software bundles that can run standalone and that make very well defined assumptions about their runtime environment.
 
