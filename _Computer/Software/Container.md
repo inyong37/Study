@@ -14,11 +14,7 @@ A container image represents binary data that encapsulates an application and al
 
 You typically create a container image of your application and push it to a registry before referring to it in a Pod.
 
-### Container vs. Image | [Blog](https://circleci.com/blog/docker-image-vs-container/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--japac-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQjwteOaBhDuARIsADBqReilj0_xL4-DCdjzB9-nBAf7OgqEETNDrDTGgfwE2kbLPGVzl62tyXYaAlY4EALw_wcB)
-
-Image ~~ Program
-
-Container ~~ Process
+[Docker image versus container: What are the differences?](https://circleci.com/blog/docker-image-vs-container/): Image는 Program, Container는 Process와 대응됨.
 
 ### *[Open Container Initiative (OCI)](https://opencontainers.org/)*
 
@@ -730,7 +726,7 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Docker Containers killed by system IBM, https://www.ibm.com/docs/en/doc/4.0.1?topic=docker-containers-killed-by-system, 2022-10-25-Tue.
 - SafeKit solves for Docker Evidian, https://www.evidian.com/products/high-availability-software-for-application-clustering/docker-container-high-availability-cluster-synchronous-replication-failover/, 2022-10-25-Tue.
 - Ubuntu Container Image Blog KR, https://sleepyeyes.tistory.com/67, 2022-10-27-Thu.
-- Container vs. Image Blog, https://circleci.com/blog/docker-image-vs-container/?utm_source=google&utm_medium=sem&utm_campaign=sem-google-dg--japac-en-dsa-maxConv-auth-brand&utm_term=g_-_c__dsa_&utm_content=&gclid=Cj0KCQjwteOaBhDuARIsADBqReilj0_xL4-DCdjzB9-nBAf7OgqEETNDrDTGgfwE2kbLPGVzl62tyXYaAlY4EALw_wcB, 2022-10-27-Thu.
+- Container vs. Image Blog, https://circleci.com/blog/docker-image-vs-container/, 2022-10-27-Thu.
 - Network among the Containers Blog KR, https://jeongchul.tistory.com/636, 2022-10-27-Thu.
 - Send a file to/from Container Stackoverflow, https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container, 2022-10-27-Thu.
 - Using sysctls in a Kubernetes Cluster, https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/, 2022-11-17-Thu.
