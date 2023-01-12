@@ -36,6 +36,12 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 - Learning from Data 한글 정리 | [Homepage](http://theyearlyprophet.com/lfd.html) | [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf) |
 - 라온피플 머신러닝 아카데미 | [Homepage](https://laonple.blog.me/220463627091) | :pencil:
 
+Platform:
+- [Coursera](https://www.coursera.org/)
+- [edX](https://www.edx.org/)
+- [Khan Academy](https://www.khanacademy.org/)
+- [Udemy](https://www.udemy.com/)
+
 ----------
 
 # II. Book :books:
