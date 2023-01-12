@@ -64,11 +64,19 @@ iSCSI is an IP-based standard for transferring data that supports host access by
 
 [iSCSI와 NAS 차이점?](https://www.2cpu.co.kr/QnA/346155)
 
+### [Ceph](https://ceph.com/en/)
+
+Ceph is an open source, distributed storage system.
+
 ### [Ceph File System (CephFS)](https://docs.ceph.com/en/quincy/cephfs/index.html)
 
 The Ceph File System (CephFS) is a file system compatible with POSIX standards that uses a Ceph Storage Cluster to store its data. The Ceph File System uses the same Ceph Storage Cluster system as the Ceph Block Device, Ceph Object Gateway, or `librados` API.
 
 [쿠버네티스에서 Ceph dashboard, CephFS 설치해 본 후기](https://mokpolar.tistory.com/10): NFS와 달리 다른 pods에서 share가 가능하다.
+
+### [Gluster](https://www.gluster.org/)
+
+Gluster is a scalable network filesystem.
 
 ---
 
@@ -89,3 +97,6 @@ The Ceph File System (CephFS) is a file system compatible with POSIX standards t
 - NFS IBM, https://www.ibm.com/docs/en/aix/7.1?topic=management-network-file-system, 2022-11-07-Mon.
 - iSCSI IBM, https://www.ibm.com/docs/en/spectrumvirtualsoftw/8.2.x?topic=planning-iscsi-overview, 2023-01-12-Thu.
 - 쿠버네티스에서 Ceph dashboard, CephFS 설치해 본 후기, https://mokpolar.tistory.com/10, 2023-01-12-Thu.
+- Gluster, https://www.gluster.org/, 2023-01-12-Thu.
+- Ceph, https://ceph.com/en/, 2023-01-12-Thu.
+- Ceph, https://ceph.io/en/, 2023-01-12-Thu.
