@@ -481,6 +481,8 @@ While `PersistentVolumeClaims` allow a user to consume abstract storage resource
   - quobyte - Quobyte volume (not available starting v1.25)
   - storageos - StorageOS volume (not available starting v1.25)
 
+[Kubernetes Storage Using Ceph](https://www.velotio.com/engineering-blog/kubernetes-storage-using-ceph): Ceph는 Gluster, Swift에 비해 trasfer speed, latency가 좋고, access가 쉽고, scale up/down이 빠르다.
+
 ### [Volume Snapshots](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)
 
 A `VolumeSnapshotContent` is a snapshot taken from a volume in the cluster that has been provisioned by an administrator. It is a resource in the cluster just like a PersistentVolume is a cluster resource.
@@ -804,3 +806,4 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Volumes, https://kubernetes.io/docs/concepts/storage/volumes/, 2023-01-11-Wed.
 - KubeVirt, https://kubevirt.io/, 2023-01-12-Thu.
 - KubeVirt GitHub, https://github.com/kubevirt/kubevirt, 2023-01-12-Thu.
+- Kubernetes Storage using Ceph, https://www.velotio.com/engineering-blog/kubernetes-storage-using-ceph, 2023-01-12-Thu.
