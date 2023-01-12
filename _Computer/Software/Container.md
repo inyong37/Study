@@ -442,20 +442,36 @@ While `PersistentVolumeClaims` allow a user to consume abstract storage resource
 [Types of Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#types-of-persistent-volumes):
 - PersistentVolume types are implemented as plugins. Kubernetes currently supports the following plugins:
   - cephyfs - CephFS volume
+    - GlusterFS and Ceph
+    - Both of them are distributed file systems that can be used to provide shared storage for a Kubernetes cluster.
+    - But, they requires more setup and management. 
   - csi - Container Storage Interface (CSI)
   - fc - Fibre Channel (FC) storage
   - hostPath - HostPath volume (for single cnode testing only; WILL NOT WORK in a multi-node cluster; consider using `local` volume instead)
   - iscsi - iSCSI (SCSI over IP) storage)
   - local - loca storage devices mounted on nodes.
   - nfs - Network File System (NFS) storage
+    - NFS
+    - It is simple and easy to set up, it can be used for storage on-premises or in the cloud.
+    - It is commonly used as a shared storage solution for multi-node Kubernetes clusters.
+    - It may require you to use an external tool or service to create snapshots.
   - rbd - Rados Block Device (RBD) volume
 - The following types of PersistentVolume are deprecated. This means that support is still available but will be removed in a future Kubernetes release.
   - awsElasticBlockStore - AWS Elastic Block Store (EBS) (deprecated in v1.17)
+    - AWS Elastic Block Store (EBS)
+    - It is similar to GCE PD.
+    - It is a good option if you are running your Kubernetes cluster on Amazon Web Service (AWS).
+    - AWS EBS has built-in snapshot functionality that can be used to create point-in-time copies of your data.
   - azureDisk - Azure Disk (deprecated in v1.19)
+    - Azure Disk
+    - Is is a good option if you are running your Kubernetes cluster on Microsoft Azure.
   - azureFile - Azure File (deprecated in v1.21)
   - cinder - Cinder (OpenStack block storage) (deprecated in v1.18)
   - flexVolume - FlexVolume (deprecated in v1.23)
   - gcePersistentDisk - GCE Persistent Disk (deprecated in v1.17)
+    - GCE Persistent Disk
+    - It is a good option if you are running your Kubernetes cluster on Google Cloud Platform (GCP), they provide a highly available and scalable block storage option.
+    - GCE PD has built-in snapshot functionality that can be used to create point-in-time copies of your data.
   - portworxVolume - Portworx volume (deprecated in v1.25)
   - vsphereVolume - vSphere VMDK volume (deprecated in v1.19)
 - Older versions of Kubernetes also supported the following in-tree PersistentVolume types:
