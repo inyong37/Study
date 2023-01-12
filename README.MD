@@ -21,6 +21,11 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 ----------
 
 # I. Lecture :notebook:
+- [Coursera](https://www.coursera.org/)
+- [edX](https://www.edx.org/)
+- [Khan Academy](https://www.khanacademy.org/)
+- [Udemy](https://www.udemy.com/)
+    - [TensorFlow Developer Certificate in 2023: Zero to Mastery]
 ## i. Computer Vision
 - CS231n: Convolutional Neural Networks for Visual Recognition | [Homepage](http://cs231n.stanford.edu/index.html) |
 - CS231n (Spring 2017) | [Youtube](https://youtu.be/vT1JzLTH4G4) |
@@ -35,12 +40,6 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 - 모두를 위한 머신러닝/딥러닝 강의 | [Homepage](http://hunkim.github.io/ml/) |
 - Learning from Data 한글 정리 | [Homepage](http://theyearlyprophet.com/lfd.html) | [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf) |
 - 라온피플 머신러닝 아카데미 | [Homepage](https://laonple.blog.me/220463627091) | :pencil:
-
-Platform:
-- [Coursera](https://www.coursera.org/)
-- [edX](https://www.edx.org/)
-- [Khan Academy](https://www.khanacademy.org/)
-- [Udemy](https://www.udemy.com/)
 
 ----------
 
