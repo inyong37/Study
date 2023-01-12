@@ -23,11 +23,9 @@ Create the best work of your life with the latest versions of Word, Excel and ot
 
 iCloud is built into all Apple devices by default. This means you can keep your precious things, such as photos, files, and notes, up to date, safely, and use them anywhere. Plus, all of this is done automatically, so you just have to keep doing what you like without worrying. By default, 5GB of iCloud storage space is provided to everyone free of charge, and you can easily and easily add it whenever you run out of space.
  
-### ~~[Naver Ndrive](https://ndrive.naver.com/)~~
+### [Naver Ndrive](https://ndrive.naver.com/) -> [Naver Cloud MyBOX](https://mybox.naver.com/)
 
-### [Naver Cloud MyBOX](https://mybox.naver.com/)
-
-### ~~Daum Drive Cloud~~ [Deprecated](https://cs.daum.net/faq/304/17063.html#34360)
+### Daum Drive -> [Daum 'Cloud' Deprecated](https://cs.daum.net/faq/304/17063.html#34360)
 
 ## :package: File System
 
