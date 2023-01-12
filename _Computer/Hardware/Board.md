@@ -1,8 +1,8 @@
-# _Motherboard_ | [WiKi](https://en.wikipedia.org/wiki/Motherboard)
+# Motherboard | [WiKi](https://en.wikipedia.org/wiki/Motherboard)
 
 A motherboard (also called mainboard, main circuit board, system board, baseboard, planar bload, logic board, or mobo) is the main printed circuit board in general purpose computers and other expandable systems. It holds and allows communication between many of the crucial electronic components of a system, and provides connectors for other peripherals. Unlike a backplane, a motherboard usually contains significant sub-systems, such as the central processor, the chipset's input/output and memory controllers, interface connectors, and other components integrated for general use.
 
-# _Backplane_ | [WiKi](https://en.wikipedia.org/wiki/Backplane)
+# Backplane | [WiKi](https://en.wikipedia.org/wiki/Backplane)
 
 A backplane (or backplane system) is a group of electrical connectors in parallel with each other, so that each pin of each connector is linked to the same relative pin of all the other connectors, forming a computer bus. It is used as a backbone to connect several printed circuit boards together to make up a complete computer system. Backpanes commonly use a printed circuit board, but wire-wrapped backplanes have also been used in minicomputerse and high-reliability applications.
 
@@ -10,11 +10,9 @@ A backplane (or backplane system) is a group of electrical connectors in paralle
 
 A backplane is generally differentiated from a motherboard by the lack of on-board processing and storage elements. A backplane uses plug-in cards for storage and processing.
 
----
-
 ## Single Board Computer (SBC)
 
-### _[Arduino](https://www.arduino.cc/)_
+### [Arduino](https://www.arduino.cc/)
 
 Arduino is an open-source electronics platform based on easy-to-use hardware and software. It's intended for anyone making interactive projects.
 
@@ -26,7 +24,7 @@ Arduino senses the environment by receiving inputs from many sensors, and affect
 
 You can tell your Arduino what to do by writing code in the Arduino programming language and using the Arduino development environment.
 
-### _[Raspberry Pi](https://www.raspberrypi.org/)_
+### [Raspberry Pi](https://www.raspberrypi.org/)
 
 Computing for everybody
 
@@ -44,7 +42,7 @@ Raspberry Pi Hardware:
 - [Raspberry Pi 3 Model B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/) (released March 2018)
 - [Raspberry Pi 4 (Model B)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/) (released June 2019)
 
-### _[Nvidia Jetson](https://developer.nvidia.com/embedded-computing)_
+### [Nvidia Jetson](https://developer.nvidia.com/embedded-computing)
 
 The Platform for AI at the Edge
 
@@ -71,7 +69,7 @@ Jetson Board:
 - Jetson AGX Orin 32GB
 
 
-### Jetson Nano vs. Raspberry Pi 4 | [Blog](https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/)
+[Jetson Nano vs. Raspberry Pi 4](https://all3dp.com/2/raspberry-pi-vs-jetson-nano-differences/)
 
 The Raspberry Pi was first released all the way back in 2012. With it, you could get into the heart of a computer, by being able to set up an operating system and then connect wires and circuits directly to the pins on the board!
 
@@ -97,7 +95,7 @@ The NVIDIA Jetson Nano has a 128-core Maxwell GPU at 921 MHz. Compared side by s
 |OS|The official operating system for the Jetson Nano is the Linux4Tegra, based on Ubuntu 18.04. This is available via the included SD card image, which is designed to run NVIDIA hardware.|The Raspberry Pi 4 supports Raspberry Pi OS (formerly known as Raspbian), Ubuntu, OSMC, RetroPie, and other third-party images.|
 |Price|The Jetson Nano costs around $60 for the 2-GB kit, or about $100 for the 4-GB kit.|The Raspberry Pi 4’s 1-GB and 2-GB variants cost around $35, with the 4-GB version at around $55 and the 8-GB model available for about $75.|
 
-### _[Odroid](https://www.hardkernel.com/)_
+### [Odroid](https://www.hardkernel.com/)
 
 Single board computer with a wide range of useful peripherals developed for use in a variety of embedded system applications.
 
