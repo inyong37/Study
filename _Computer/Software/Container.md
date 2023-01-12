@@ -1,4 +1,4 @@
-# :whale: I. *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
+# :whale: *Container* | [IBM](https://www.ibm.com/cloud/learn/containers) | [MS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/#overview) | [Google](https://cloud.google.com/learn/what-are-containers) | [Docker](https://www.docker.com/resources/what-container/) | [Kubernetes](https://kubernetes.io/docs/concepts/containers/)
 
 A container image is a ready-to-run software package, containing everything needed to run an application: the code and any runtime it requires, application and system libraries, and default values for any essential settings.
 
@@ -110,11 +110,11 @@ from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{userna
 
 ---
 
-# :whale2: II. _[Orchestration](https://docs.docker.com/get-started/orchestration/)_
+# :whale2: _[Orchestration](https://docs.docker.com/get-started/orchestration/)_
 
 Tools to manage, scale, and maintain containerized applications are called orchestrators, and the most common examples of these are Kubernetes and Docker Swarm.
 
-## :whale2: i. _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
+## :whale2: _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
 
 ### _[Scale the service in the swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1775-docker-19)
 
@@ -210,7 +210,7 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
 
 ---
 
-## :whale2: ii. *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
+## :whale2: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
@@ -679,19 +679,21 @@ Red Hat® OpenShift® is a unified platform to build, modernize, and deploy appl
 
 The Community Distribution of Kubernetes that powers Red Hat OpenShift.
 
-### _[MicroK8s vs K3s vs minikube](https://microk8s.io/compare)_
+[MicroK8s vs K3s vs minikube](https://microk8s.io/compare)
 
 ---
 
-### _[Kubevirt]()_ | [Blog](https://www.tigera.io/blog/using-kubernetes-to-orchestrate-vms/) | [Blog (KR)](https://daaa0555.tistory.com/478)
+### _[Kubevirt](https://kubevirt.io/)_ | [GitHub](https://github.com/kubevirt/kubevirt) | [Blog](https://www.tigera.io/blog/using-kubernetes-to-orchestrate-vms/) | [Blog (KR)](https://daaa0555.tistory.com/478)
 
----
+KubeVirt is a virtual machine management add-on for Kubernetes. The aim is to provide a common ground for virtualization solutions on top of Kubernetes.
 
-Multi-OS Kubernetes | [Blog](https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/) | [MS Docs](https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters)
+CentOS:
+- [Deploy Kubernetes on CentOS 7](https://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services)
+- [Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively](https://medium.com/@dimuthudesilva24/setting-up-a-simple-kubernetes-cluster-on-ubuntu-and-centos-61d73f43f36b)
 
-Deploy Kubernetes on CentOS 7 | [Blog](https://severalnines.com/blog/installing-kubernetes-cluster-minions-centos7-manage-pods-services)
-
-Deploy Kubernetes on CentOS 7 and Ubuntu 18 respectively | [Blog](https://medium.com/@dimuthudesilva24/setting-up-a-simple-kubernetes-cluster-on-ubuntu-and-centos-61d73f43f36b)
+Multi-OS Kubernetes:
+- [Unified Management of Multi-OS Kubernetes Cluster](https://rafay.co/the-kubernetes-current/unified-management-of-multi-os-kubernetes-clusters/): K8s를 구성하는 cluster를 여러 OS로 구성함.
+- [Adapt apps for mixed-OS Kubernetes cluster using node selectors or taints and tolerations in AKS hybrid](https://learn.microsoft.com/en-us/azure/aks/hybrid/adapt-apps-mixed-os-clusters): K8s를 구성하는 cluster를 여러 OS로 구성하고 pod을 node를 지정해서 실행시킴.
 
 ---
 
@@ -782,3 +784,5 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Introduction to Kubernetes architecture, https://www.redhat.com/en/topics/containers/kubernetes-architecture, 2023-01-11-Wed.
 - What is container orchestration, https://www.redhat.com/en/topics/containers/what-is-container-orchestration, 2023-01-11-Wed.
 - Volumes, https://kubernetes.io/docs/concepts/storage/volumes/, 2023-01-11-Wed.
+- KubeVirt, https://kubevirt.io/, 2023-01-12-Thu.
+- KubeVirt GitHub, https://github.com/kubevirt/kubevirt, 2023-01-12-Thu.
