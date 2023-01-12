@@ -25,7 +25,7 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 - [edX](https://www.edx.org/)
 - [Khan Academy](https://www.khanacademy.org/)
 - [Udemy](https://www.udemy.com/)
-    - [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/)
+    - [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
 ## i. Computer Vision
 - CS231n: Convolutional Neural Networks for Visual Recognition | [Homepage](http://cs231n.stanford.edu/index.html) |
 - CS231n (Spring 2017) | [Youtube](https://youtu.be/vT1JzLTH4G4) |
