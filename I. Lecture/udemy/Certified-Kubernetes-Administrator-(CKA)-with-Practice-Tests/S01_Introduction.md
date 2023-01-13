@@ -23,6 +23,8 @@
 
 ### 6. Join our Slack Channel for support and interaction
 
+- https://join.slack.com/t/kodekloud/shared_invite/zt-1n6rss375-e1YEkgAkEkKTMDp5DV4Eeg
+
 ### 7. A note on the Course Curriculum
 
 ### 8. Reference Notes for lectures and labs 
