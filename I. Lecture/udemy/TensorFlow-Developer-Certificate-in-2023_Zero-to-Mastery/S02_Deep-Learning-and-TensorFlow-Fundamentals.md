@@ -4,7 +4,7 @@
 
 2023-01-12-Thursday. ~ 8
 
-2023-01-13-Friday. 9 ~
+2023-01-13-Friday. 9 ~ 16, 
 
 ## 6. What is deep learning?
 
