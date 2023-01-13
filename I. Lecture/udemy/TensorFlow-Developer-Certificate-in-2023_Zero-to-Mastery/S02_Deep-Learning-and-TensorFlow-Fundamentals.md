@@ -4,7 +4,7 @@
 
 2023-01-12-Thursday. ~ 8
 
-2023-01-13-Friday. 9 ~ 16, 
+2023-01-13-Friday. 9 ~ 16, 17 ~ 37
 
 ## 6. What is deep learning?
 
@@ -111,31 +111,71 @@
 
 ## 23. Matrix multiplication with tensors part 1
 
+- Colab
+- http://matrixmultiplication.xyz/
+- https://www.mathsisfun.com/algebra/matrix-multiplying.html
+
 ## 24. Matrix multiplication with tensors part 2
+
+- Colab
 
 ## 25. Matrix multiplication with tensors part 3
 
+- Colab
+
 ## 26. Changing the datatype of tensors
+
+- Colab
+- https://www.tensorflow.org/guide/mixed_precision
 
 ## 27. Tensor aggregation (finding the min, max, mean & more)
 
+- Colab
+
 ## 28. Tensor troubleshooting example (updating tensor datatypes)
+
+- Colab
 
 ## 29. Finding the positional minimum and maximum of a tensor (argmin a...
 
+- Colab
+
 ## 30. Squeezing a tensor (removing all 1-dimension axes)
+
+- Colab
 
 ## 31. One-hot encoding tensors
 
+- https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/
+- Colab
+
 ## 32. Trying out more tensor math operations
+
+- Colab
 
 ## 33. Exploring TensorFlow and NumPy's compatibility
 
+- https://numpy.org/
+- Colab 
+
 ## 34. Making sure our tensor operations run really fast on GPUs
+
+- Colab
+- https://research.google.com/colaboratory/faq.html#gpu-availability
 
 ## 35. TensorFlow Fundamentals challenge, exercises & extra-...
 
+- https://github.com/mrdbourke/tensorflow-deep-learning
+- https://github.com/mrdbourke/tensorflow-deep-learning#-00-tensorflow-fundamentals-exercises
+- https://github.com/mrdbourke/tensorflow-deep-learning/discussions
+
 ## 36. Monthly Coding Challenges, Free Resources and Guides
+
+- https://zerotomastery.io/community/coding-challenges/
+- https://zerotomastery.io/blog/
+- https://zerotomastery.io/resources/
 
 ## 37. LinkedIn Endorsements
 
+https://www.linkedin.com/groups/12121940/
+https://www.linkedin.com/school/ztm-academy/
