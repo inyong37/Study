@@ -2,7 +2,9 @@
 
 ## Date
 
-2023-01-12-Thursday.
+2023-01-12-Thursday. ~ 8
+
+2023-01-13-Friday. 9 ~
 
 ## 6. What is deep learning?
 
@@ -33,22 +35,48 @@
 - Types of Learning
   - Supervised Learning, Semi-supervised Learning, Unsupervised Learning, Transfer Learning
 
-
 ## 9. What is deep learning already being used for?
+
+- Recommendation, Transloation, Speech recognition, Computer Vision (detection), Natural Language Processing (NLP)
+  - seq2seq, classification/regression, AlphaFold
 
 ## 10. What is and why use TensorFlow?
 
+- What
+  - End-to-end platform for machine learning
+  - Write fast deep learning code in Python/other accessible languages
+  - Able to access many pre-built deep learning models
+  - Whole stack: preprocess data, model data, deploy model in your application
+  - Originally designed and used in-house by Google
+- Why?
+  - Easy model building, Robust ML production anywhere, Powerful experimentaion for research
+
 ## 11. What is a Tensor?
+
+- numerical represenation of data
+- https://youtu.be/f5liqUk0ZTw
 
 ## 12. What we're going to cover throughout the course
 
+- Basic, preprocessing, build, using, fitting, prediction, evaluating, saving, loading, custom data
+- A TensorFlow workflow
+
 ## 13. How to approach this course
+
+- Write code, Explore & experiment, Ask questions, Do the exercises, Share your work
+- Avoid: Overthinking the process, The "I can't learn it" mentally
 
 ## 14. Need A Refresher?
 
+- https://zerotomastery.io/courses/machine-learning-and-data-science-bootcamp/
+
 ## 15. Creating your first tensors with TensorFlow and tf.constant()
 
+- Colab
+
 ## 16. Creating tensors with TensorFlow and tf.Variable()
+
+- Colab
 
 ## 17. Creating random tensors with TensorFlow
 
