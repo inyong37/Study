@@ -82,15 +82,32 @@
 
 ## 17. Creating random tensors with TensorFlow
 
+- Colab
+1. Initialize with random weights (only at beginning)
+2. Show examples
+3. Update representation outputs
+4. Repeat with more examples
+
 ## 18. Shuffling the order of tensors
+
+- Colab
+- https://www.tensorflow.org/api_docs/python/tf/random/set_seed
 
 ## 19. Creating tensors from Numpy arrays
 
+- Colab
+
 ## 20. Getting infromation from your tensors (tensor attributes)
+
+- Colab
 
 ## 21. Indexing and expanding tensors
 
+- Colab
+
 ## 22. Manipulating tensors with basic operations
+
+- Colab
 
 ## 23. Matrix multiplication with tensors part 1
 
