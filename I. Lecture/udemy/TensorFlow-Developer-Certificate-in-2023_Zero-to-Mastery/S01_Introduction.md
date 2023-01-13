@@ -12,9 +12,9 @@
 
 ### 3. Exercise: Meet Your Classmates and Instructor
 
-### 4. All COurse Resources + Notebooks
+### 4. All Course Resources + Notebooks
 
-### 5. Python + Machine Learning Montly
+### 5. Python + Machine Learning Monthly
 
 - https://zerotomastery.io/blog/?tag=PM&utm_source=udemy&utm_medium=coursecontent#monthly
 - https://zerotomastery.io/blog/?utm_source=udemy&utm_medium=coursecontent#monthly
