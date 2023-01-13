@@ -136,7 +136,7 @@
 
 - Colab
 
-## 29. Finding the positional minimum and maximum of a tensor (argmin a...
+## 29. Finding the positional minimum and maximum of a tensor (argmin and argmax)
 
 - Colab
 
