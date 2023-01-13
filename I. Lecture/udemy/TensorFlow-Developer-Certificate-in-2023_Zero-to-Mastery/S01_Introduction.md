@@ -2,7 +2,7 @@
 
 ## Date
 
-2023-01-12-Thursday
+2023-01-12-Thursday :sunflower:
 
 ## Contents
 
