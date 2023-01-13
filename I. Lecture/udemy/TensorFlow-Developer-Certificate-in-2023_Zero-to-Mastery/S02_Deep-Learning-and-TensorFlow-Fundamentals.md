@@ -73,10 +73,12 @@
 ## 15. Creating your first tensors with TensorFlow and tf.constant()
 
 - Colab
+- https://www.tensorflow.org/api_docs/python/tf/constant
 
 ## 16. Creating tensors with TensorFlow and tf.Variable()
 
 - Colab
+- https://www.tensorflow.org/api_docs/python/tf/Variable
 
 ## 17. Creating random tensors with TensorFlow
 
