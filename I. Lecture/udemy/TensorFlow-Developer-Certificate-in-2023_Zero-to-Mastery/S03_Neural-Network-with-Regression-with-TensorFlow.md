@@ -15,9 +15,18 @@
 
 ### 39. Inputs and outputs of a neural network regression model
 
+- Input (independent variable/predictors)
+  - shape = [3]
+  - bedroom, bathroom, garage
+- Output (dependent/outcome variable)
+  - shape = [1]
+  - house price = [939700]
+
 ### 40. Anatomy and architecture of a neural network regression model
 
-### 41. Creating sample regression data (se we can model it)
+- Hyperparameters
+
+### 41. Creating sample regression data (so we can model it)
 
 ### 42. Note: Code update for upcoming lecture(s) for TensorFlow 2.7.0+ fix
 
