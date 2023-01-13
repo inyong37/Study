@@ -2,7 +2,7 @@
 
 ## Date
 
-2023-01-13-Friday: 1 ~
+2023-01-13-Friday: 1 ~ 8
 
 ## Contents
 
