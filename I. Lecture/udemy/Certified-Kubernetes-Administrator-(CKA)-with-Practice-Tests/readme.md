@@ -4,20 +4,11 @@ https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-te
 
 ## Date
 
-2023-01-13-Friday :sunflower: ~
+2023-01-12-Thursday :sunflower: ~
 
 ## Contents
 
 ### Section 1: Introduction
-
-1. Course Introduction
-2. Certification
-3. Certification Details
-4. Course Release Notes
-5. The Kubernetes Trilogy
-6. Join our Slack Channel for support and interaction
-7. A note on the Course Curriculum
-8. Reference Notes for lectures and labs
 
 ### Section 2: Core Concepts
 
