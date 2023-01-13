@@ -4,3 +4,17 @@
 
 2023-01-12-Thursday
 
+## Contents
+
+### 1. Course Outline
+
+### 2. Join Our Online Classroom!
+
+### 3. Exercise: Meet Your Classmates and Instructor
+
+### 4. All COurse Resources + Notebooks
+
+### 5. Python + Machine Learning Montly
+
+- https://zerotomastery.io/blog/?tag=PM&utm_source=udemy&utm_medium=coursecontent#monthly
+- https://zerotomastery.io/blog/?utm_source=udemy&utm_medium=coursecontent#monthly
