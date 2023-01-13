@@ -8,7 +8,12 @@
 
 ### 9. Core Concepts Section Introduction
 
+- Master, kube-apiserver, kube controller-manager, etcd cluster, kube-scheduler
+- Workder Nodes, kubelet, kube-proxy, container runtime engine
+
 ### 10. Download Presentation Deck for this section
+
+
 
 ### 11. Cluster Architecture
 
