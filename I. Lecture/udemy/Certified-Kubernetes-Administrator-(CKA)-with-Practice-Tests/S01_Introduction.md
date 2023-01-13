@@ -27,4 +27,8 @@
 
 ### 7. A note on the Course Curriculum
 
-### 8. Reference Notes for lectures and labs 
+- https://github.com/mmumshad/kubernetes-the-hard-way
+
+### 8. Reference Notes for lectures and labs
+
+- https://github.com/kodekloudhub/certified-kubernetes-administrator-course
