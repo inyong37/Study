@@ -4,7 +4,7 @@
 
 2023-01-13-Friday 38 ~ 40
 
-2023-01-14-Saturday 41 ~ 47, 
+2023-01-14-Saturday 41 ~ 47, 48 ~ 49
 
 ## Contents
 
@@ -72,9 +72,21 @@
 
 ### 47. Evaluating a TensorFlow model part 1 ("visualise, visualise, visualise")
 
+- Colab
+
 ### 48. Evaluating a TensorFlow model part 2 (the three datasets)
 
+- Colab
+- Three datasets
+  - Course materials (training set)
+  - Practice exame (validation set)
+  - Final exam (test set)
+- Generalization: The ability for a machine learning model to perform well on data it hasn't seen before.
+
 ### 49. Evaluating a TensorFlow model part 3 (getting a model summary)
+
+- Colab
+- http://introtodeeplearning.com/
 
 ### 50. Evaluating a TensorFlow model part 4 (visualising a model's layers)
 
