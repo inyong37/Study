@@ -2,7 +2,9 @@
 
 ## Date
 
-2023-01-13-Friday
+2023-01-13-Friday 38 ~ 40
+
+2023-01-14-Saturday 41 ~ 47, 
 
 ## Contents
 
@@ -28,15 +30,45 @@
 
 ### 41. Creating sample regression data (so we can model it)
 
+- Colab
+
 ### 42. Note: Code update for upcoming lecture(s) for TensorFlow 2.7.0+ fix
+
+- `model.fit(X, y, epochs=5) # this will break with TensorFlow 2.7.0+`
+- `model.fit(tf.expand_dims(X, axis=-1), y, epochs=5) # <- updated line`
+- https://github.com/mrdbourke/tensorflow-deep-learning/discussions/256#discussioncomment-1618168
+- https://colab.research.google.com/drive/1i4i5wtC50p_FDdKXTWfNpX165I9dbw91?usp=sharing
+- https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/01_neural_network_regression_in_tensorflow.ipynb
 
 ### 43. The major steps in modelling with TensorFlow
 
+1. Get the day ready (trun into tensors)
+2. Build or pick a pretrained model (to suit your problem)
+3. Fir the model to the data and make a prediction
+4. Evaluate the model
+5. Improve through experimentation
+6. Save and reload your trained model
+- Colab
+
 ### 44. Steps in improving a model with TensorFlow part 1
+
+- Colab
 
 ### 45. Steps in improving a model with TensorFlow part 2
 
+- Colab: epochs
+
 ### 46. Steps in improving a model with TensorFlow part 3
+
+- Colab
+- model
+  - adding layers
+  - increase the number of hidden units
+  - change the activation functions
+  - change the optimizer function
+  - change the "learning rate"
+  - fitting on more data
+  - fitting for longer
 
 ### 47. Evaluating a TensorFlow model part 1 ("visualise, visualise, visualise")
 
