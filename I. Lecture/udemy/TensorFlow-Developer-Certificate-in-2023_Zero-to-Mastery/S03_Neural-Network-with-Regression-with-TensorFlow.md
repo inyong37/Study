@@ -8,7 +8,7 @@
 
 2023-01-15-Sunday: 50
 
-2023-01-16-Monday: 51 ~ 56
+2023-01-16-Monday: 51 ~ 56, 57 ~ 68
 
 ## Contents
 
@@ -127,7 +127,15 @@
 
 ### 57. Comparing and tracking your TensorFlow modelling experiments
 
+- Colab
+- https://www.tensorflow.org/tensorboard
+- https://wandb.ai/site
+
 ### 58. How to save a TensorFlow model
+
+- Colab
+- SavedModel format
+- HDF5 format
 
 ### 59. How to load and use a saved TensorFLow model
 
@@ -135,17 +143,46 @@
 
 ### 61. Putting together what we've learned part 1 (preparing a dataset)
 
+- https://www.kaggle.com/datasets/mirichoi0218/insurance
+- https://github.com/stedy/Machine-Learning-with-R-datasets
+- https://raw.githubusercontent.com/stedy/Machine-Learning-with-R-datasets/master/insurance.csv
+- one-hot encoding: https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html
+
 ### 62. Putting together what we've learned part 2 (building a regression...
+
+- Colab: `COMMAND/CONTROL` + `m` + `-`
+- https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
 
 ### 63. Putting together what we've learned part 3 (improving our...
 
+- Colab
+- https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping
+
 ### 64. Preprocessing data with feature scaling part 1 (what is feature...
+
+- Colab
+1. Turn all data into numbers (neural networks can't handle strings)
+2. Make sure all of your tensors are the right shape
+3. Scale features (normalize or standardize, neural networks tend to prefer normalization)
+- Feature scaling
+  - Scale (also referred to as normalization)
+  - Standardization
+- https://towardsdatascience.com/scale-standardize-or-normalize-with-scikit-learn-6ccc7d176a02
 
 ### 65. Preprocessing data with feature scaling part 2 (normalising our data)
 
+- Colab
+
 ### 66. Preprocessing data with feature scaling part 3 (fitting a model on...
+
+- Colab
 
 ### 67. TensorFlow Regression challenge, exercises & extra-curriculum
 
+- https://github.com/mrdbourke/tensorflow-deep-learning
+- https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/README.md#-01-neural-network-regression-with-tensorflow-exercises
+- https://github.com/mrdbourke/tensorflow-deep-learning/discussions
+
 ### 68. Learning Guideline
 
+- https://zerotomastery.io/career-paths/
