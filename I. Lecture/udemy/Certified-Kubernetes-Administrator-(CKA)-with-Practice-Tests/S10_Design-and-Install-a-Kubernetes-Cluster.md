@@ -24,3 +24,6 @@
   - Quorom of 3 = 3/2 + 1 = 2.5 ~= 2
 
 ### 238. Important Update: Kubernetes the Hard Way
+
+- https://www.youtube.com/watch?v=uUupRagM7m0&list=PL2We04F3Y_41jYdadX55fdJplDvgNGENo
+- https://github.com/mmumshad/kubernetes-the-hard-way
