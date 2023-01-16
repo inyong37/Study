@@ -19,4 +19,8 @@
 
 ### 237. ETCD in HA
 
+- Leader Election - RAFT
+- Quorum = N/2 + 1
+  - Quorom of 3 = 3/2 + 1 = 2.5 ~= 2
+
 ### 238. Important Update: Kubernetes the Hard Way
