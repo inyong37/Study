@@ -25,6 +25,9 @@
 
 ### 240. Resources
 
+- https://github.com/kodekloudhub/certified-kubernetes-administrator-course
+- https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 ### 241. Deploy with Kubeadm - Provision VMs with Vagrant
 
 ### 242. Demo - Deployment with Kubeadm
