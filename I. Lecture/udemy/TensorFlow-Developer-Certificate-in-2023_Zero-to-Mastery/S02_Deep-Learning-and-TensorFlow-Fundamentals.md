@@ -1,4 +1,4 @@
-# Section 2. Deep Learning and TensorFlow Fundamentals
+# Section 2: Deep Learning and TensorFlow Fundamentals
 
 ## Date
 
