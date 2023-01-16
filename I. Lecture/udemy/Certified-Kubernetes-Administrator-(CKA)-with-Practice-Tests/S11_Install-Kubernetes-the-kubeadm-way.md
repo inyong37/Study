@@ -8,6 +8,21 @@
 
 ### 239. Introduction to Deployment with Kubeadm
 
+- Master
+  - kube-apiserver
+  - etcd
+  - node-controller
+  - replica-controller
+- Workder Node n
+  - kubelet
+  - Container Runtime
+- Steps
+  - Container Runtime
+  - kubeadm
+  - initialize master node
+  - POD network
+  - Join Node
+
 ### 240. Resources
 
 ### 241. Deploy with Kubeadm - Provision VMs with Vagrant
