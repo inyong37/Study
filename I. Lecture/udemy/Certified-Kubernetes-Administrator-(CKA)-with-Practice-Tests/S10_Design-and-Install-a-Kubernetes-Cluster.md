@@ -14,6 +14,9 @@
 
 ### 236. Configure High Availability
 
+- Stacked Topology
+- External ETCD Topology
+
 ### 237. ETCD in HA
 
 ### 238. Important Update: Kubernetes the Hard Way
