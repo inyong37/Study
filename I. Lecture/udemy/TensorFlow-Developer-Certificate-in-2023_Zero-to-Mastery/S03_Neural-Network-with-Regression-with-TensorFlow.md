@@ -2,9 +2,13 @@
 
 ## Date
 
-2023-01-13-Friday 38 ~ 40
+2023-01-13-Friday: 38 ~ 40
 
-2023-01-14-Saturday 41 ~ 47, 48 ~ 49
+2023-01-14-Saturday: 41 ~ 47, 48 ~ 49
+
+2023-01-15-Sunday: 50
+
+2023-01-16-Monday: 51 ~ 56
 
 ## Contents
 
@@ -90,17 +94,36 @@
 
 ### 50. Evaluating a TensorFlow model part 4 (visualising a model's layers)
 
+- Colab
+- https://www.tensorflow.org/api_docs/python/tf/keras/utils
+
 ### 51. Evaluating a TensorFlow model part 5 (visualising a model's ...
+
+- Colab
 
 ### 52. Evaluating a TensorFlow model part 6 (common regression...
 
-### 53. Evaluating a TensorFlow regression model part 7 (mean...
+- Colab
+- Regression Metrics:
+  - Mean absolute error (MAE)
+  - Mean square error (MSE): when larger errors are more significant than smaller errors.
+  - Huber: combination of MSE and MAE, less sensitive to outliers than MSE.
 
-### 54. Evaluating a TensorFlow regression model part 7 (mean...
+### 53. Evaluating a TensorFlow regression model part 7 (mean absolute error
+
+- Colab
+
+### 54. Evaluating a TensorFlow regression model part 7 (mean square error
+
+- Colab
 
 ### 55. Setting up TensorFlow modelling experiments part 1 (start with a...
 
+- Colab 
+
 ### 56. Setting up TensorFlow modelling experiments part 2 (increasing...
+
+- Colab
 
 ### 57. Comparing and tracking your TensorFlow modelling experiments
 
