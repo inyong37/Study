@@ -34,6 +34,7 @@
 
 - https://kubernetes.io/docs/setup/production-environment/container-runtimes/
 - https://docs.docker.com/engine/install/ubuntu/
+> In video: https://kubernetes.io/id/docs/setup/production-environment/container-runtimes/
 
 ### 243. Practice Test - Deploy a Kubernetes Cluster using Kubeadm
 
