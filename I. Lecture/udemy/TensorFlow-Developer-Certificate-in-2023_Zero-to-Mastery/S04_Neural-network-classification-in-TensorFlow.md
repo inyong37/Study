@@ -15,6 +15,9 @@
 
 ### 71. Input and output tensors of classification problems
 
+- Input (batch_size, width, height, color_channels) -> Machine Learning Algorithm -> Output (prediction probabilities)
+  - 32 is a very common batch size; 32 images at the time for memory size
+
 ### 72. Typical architecture of neural network classification models with...
 
 ### 73. Creating and viewing classifiation data to model
