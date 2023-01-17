@@ -32,6 +32,9 @@
 
 ### 242. Demo - Deployment with Kubeadm
 
+- https://kubernetes.io/docs/setup/production-environment/container-runtimes/
+- https://docs.docker.com/engine/install/ubuntu/
+
 ### 243. Practice Test - Deploy a Kubernetes Cluster using Kubeadm
 
 ### 244. Solution - Deploy a Kubernetes Cluster using kubeadm: (Optional)
