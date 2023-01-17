@@ -2,7 +2,7 @@
 
 ## Date
 
-2023-01-17-Tuesday: 69 ~
+2023-01-17-Tuesday: 69 ~ 74, 
 
 ## Contents
 
@@ -20,7 +20,14 @@
 
 ### 72. Typical architecture of neural network classification models with...
 
+- Hyperparameters: Input layer shape, Hidden layer(s), Neurons per hidden layer, Output layer shape, Hidden activation, Output activation, Loss function, Optimizer
+- http://karpathy.github.io/2019/04/25/recipe/
+- Colab
+- https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.68308&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
 ### 73. Creating and viewing classifiation data to model
+
+- Colab
 
 ### 74. Checking the input and output shapes of our classification data
 
