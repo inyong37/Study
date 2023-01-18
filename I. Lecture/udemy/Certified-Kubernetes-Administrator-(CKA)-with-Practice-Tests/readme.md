@@ -8,9 +8,9 @@ https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-te
 
 ## Contents
 
-### Section 1: Introduction
+### [Section 1: Introduction](S01_Introduction.md)
 
-### Section 2: Core Concepts
+### [Section 2: Core Concepts](S02_Core-Concepts.md)
 
 ### Section 3: Scheduling
 
@@ -26,11 +26,11 @@ https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-te
 
 ### Section 9: Networking
 
-### Section 10: Design and Install a Kubernetes Cluster :hammer_and_wrench:
+### :hammer_and_wrench: [Section 10: Design and Install a Kubernetes Cluster](S10_Design-and-Install-a-Kubernetes-Cluster.md)
 
-### Section 11: Install "Kubernetes the kubeadm way" :hammer_and_wrench:
+### :hammer_and_wrench: [Section 11: Install "Kubernetes the kubeadm way"](S11_Install-Kubernetes-the-kubeadm-way.md)
 
-### Section 12: End to End Tests on a Kubernetes Cluster (Deprecated)
+### (Deprecated) [Section 12: End to End Tests on a Kubernetes Cluster](S12_End-to-End-Tests-on-a-Kubernetes-Cluster.md)
 
 ### Section 13: Troubleshooting
 
