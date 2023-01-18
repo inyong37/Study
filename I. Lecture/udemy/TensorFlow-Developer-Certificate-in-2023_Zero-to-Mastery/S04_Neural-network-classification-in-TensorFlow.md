@@ -4,7 +4,7 @@
 
 2023-01-17-Tuesday: 69 ~ 74.
 
-2023-01-18-Wednesday: 74 ~
+2023-01-18-Wednesday: 74 ~ 79.
 
 ## Contents
 
@@ -55,7 +55,18 @@
 
 ### 78. Note: Updates for TensorFlow 2.7.0
 
+- If you're using TensorFlow 2.7.0+ (default in Google Colab from November 2021), you might run into some shape errors when trying to fit a model (calling model.fit()).
+  - This happened due to some changes in TensorFlow 2.7.0.
+  - In short, TensorFlow no longer automatically upranks single dimension data from (batch_size, ) to (batch_size, 1).
+  - `tf.keras.layers.Dense(100, input_shape=(None, 1)),`
+  - `model_3.fit(tf.expand_dims(X_reg_train, axis=-1),`
+  - https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/02_neural_network_classification_in_tensorflow.ipynb
+  - https://github.com/mrdbourke/tensorflow-deep-learning/discussions/278
+  - https://colab.research.google.com/drive/1_dlrB_DJOBS9c9foYJs49I0YwN7LTakl?usp=sharing
+
 ### 79. Make our poor classification model work for a regression dataset
+
+- Colab
 
 ### 80. Non-linearity part 1: Straight lines and non-straight lines
 
