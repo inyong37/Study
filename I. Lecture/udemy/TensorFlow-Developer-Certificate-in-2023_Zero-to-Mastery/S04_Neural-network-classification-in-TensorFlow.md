@@ -2,7 +2,9 @@
 
 ## Date
 
-2023-01-17-Tuesday: 69 ~ 74, 
+2023-01-17-Tuesday: 69 ~ 74.
+
+2023-01-18-Wednesday: 74 ~
 
 ## Contents
 
@@ -31,7 +33,12 @@
 
 ### 74. Checking the input and output shapes of our classification data
 
+- Colab
+
 ### 75. Building a not very good classification model with TensorFlow
+
+- Colab
+- https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryCrossentropy
 
 ### 76. Trying to improve our not very good classification model
 
