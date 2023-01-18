@@ -1,4 +1,4 @@
-# Section 10: Design and Install a Kubernetes Cluster :hammer_and_wrench:
+# :hammer_and_wrench: Section 10: Design and Install a Kubernetes Cluster
 
 ## Date
 
