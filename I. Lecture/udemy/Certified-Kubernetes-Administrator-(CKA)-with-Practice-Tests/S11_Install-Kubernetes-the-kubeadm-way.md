@@ -38,4 +38,9 @@
 
 ### 243. Practice Test - Deploy a Kubernetes Cluster using Kubeadm
 
+- https://uklabs.kodekloud.com/topic/practice-test-cluster-installation-using-kubeadm/
+
 ### 244. Solution - Deploy a Kubernetes Cluster using kubeadm: (Optional)
+
+- https://uklabs.kodekloud.com/topic/practice-test-cluster-installation-using-kubeadm/
+- $99
