@@ -42,7 +42,16 @@
 
 ### 76. Trying to improve our not very good classification model
 
+- Colab
+- https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense: `activation=None`
+
 ### 77. Creating a function to view our model's not so good predictions
+
+- Colab
+- https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+- https://numpy.org/doc/stable/reference/generated/numpy.c_.html
+- https://cs231n.github.io/neural-networks-case-study/
+- https://github.com/GokuMohandas/Made-With-ML
 
 ### 78. Note: Updates for TensorFlow 2.7.0
 
