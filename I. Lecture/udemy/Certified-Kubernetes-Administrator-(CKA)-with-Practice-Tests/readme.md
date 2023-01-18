@@ -26,11 +26,11 @@ https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-te
 
 ### Section 9: Networking
 
-### Section 10: Design and Install a Kubernetes Cluster
+### Section 10: Design and Install a Kubernetes Cluster :hammer_and_wrench:
 
-### Section 11: Install "Kubernetes the kubeadm way"
+### Section 11: Install "Kubernetes the kubeadm way" :hammer_and_wrench:
 
-### Section 12: End to End Tests on a Kubernetes Cluster
+### Section 12: End to End Tests on a Kubernetes Cluster (Deprecated)
 
 ### Section 13: Troubleshooting
 
