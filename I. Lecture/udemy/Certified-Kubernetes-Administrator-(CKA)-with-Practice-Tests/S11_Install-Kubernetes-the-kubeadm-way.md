@@ -2,7 +2,11 @@
 
 ## Date
 
-2023-01-16-Monday
+2023-01-16-Monday: 239 ~ 241
+
+2023-01-17-Tuesday: 242
+
+2023-01-18-Wednesday: 242 ~ 244
 
 ## Contents
 
