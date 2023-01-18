@@ -24,7 +24,7 @@ https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-te
 
 ### Section 8: Storage
 
-### Section 9: Networking
+### [Section 9: Networking](S09_Networking.md)
 
 ### :hammer_and_wrench: [Section 10: Design and Install a Kubernetes Cluster](S10_Design-and-Install-a-Kubernetes-Cluster.md)
 
