@@ -1,4 +1,4 @@
-# Section 12: End to End Tests on a Kubernetes Cluster
+# Section 12: End to End Tests on a Kubernetes Cluster (Deprecated)
 
 ## Date
 
