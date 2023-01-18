@@ -1,4 +1,4 @@
-# Section 11: Install "Kubernetes the kubeadm way" :hammer_and_wrench:
+# :hammer_and_wrench: Section 11: Install "Kubernetes the kubeadm way"
 
 ## Date
 
