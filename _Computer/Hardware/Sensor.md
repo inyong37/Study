@@ -6,9 +6,13 @@ A sensor is a device, module, machine, or subsystem whose purpose is to detect e
 
 An image sensor or imager is a sensor that detects and conveys information used to make an image. It does so by converting the variable attenuation of light waves (as they pass through or reflect off objects) into signals, small bursts of current that convey the information. The waves can be light or other electromagnetic radiation. Image sensors are used in electronic imaging devices of both analog and digital types, which include digital cameras, camera modules, camera phones, optical mouse devices, medical imaging equipment, night vision equipment such as thermal imaging devices, radar, sonar, and others. As technology changes, electronic and digital imaging tend to replace chmical and analog imaging.
 
-### Metal Oxide Semiconductor (MOS, MOSFET) | [Wiki](https://en.wikipedia.org/wiki/MOSFET) -> Transistor
+### Metal Oxide Semiconductor (MOS, MOSFET) | [Wiki](https://en.wikipedia.org/wiki/MOSFET)
 
-### Charge-Coupled Device (CCD) | [Wiki](https://en.wikipedia.org/wiki/Charge-coupled_device) -> Integrated Circuit
+`This content has moved to  the 'Transistor' page.`
+
+### Charge-Coupled Device (CCD) | [Wiki](https://en.wikipedia.org/wiki/Charge-coupled_device)
+
+`This content has moved to the 'Integrated Circuit' page.`
 
 CCD based on MOS capacitors.
 
@@ -18,7 +22,9 @@ CMOS based on MOSFET (MOS field-effect transistor) amplifiers.
 
 An active-pixel sensor (APS) is an image sensor where each pixel sensor unit cell has a photodetector (typically a pinned photodiode) and one or more active transistors. In a metal-oxide-semiconductor (MOS) active-pixel sensor, MOS field-effect transistors (MOSFETs) are used as amplifiers. There are different types of APS, including the early NMOS APS and the much more common complementary MOS (CMOS) APS, also known as the CMOS sensor, which is widely used in digital camera technologies such as cell phone cameras, web cameras, most modern digital pocket cameras, most digital single-lens reflex cameras (DSLRs), and mirrorless interchangeable-lens cameras (MILCs). CMOS sensors emerged as an alternative to charge-coupled device (CCD) image sensors and eventually outsold them by the mid-2000s.
 
-### Complementary Metal-Oxide-Semiconductor (CMOS) | [Wiki](https://en.wikipedia.org/wiki/CMOS) -> Semiconductor
+### Complementary Metal-Oxide-Semiconductor (CMOS) | [Wiki](https://en.wikipedia.org/wiki/CMOS)
+
+`This content has moved to the 'Semiconductor' page.`
 
 ## Gyroscope | [Wiki](https://en.wikipedia.org/wiki/Gyroscope)
 
