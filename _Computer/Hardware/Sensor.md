@@ -38,9 +38,23 @@ An accelerometer is a tool that measures proper acceleration. Proper acceleratio
 
 Ultrasonic sound waves are vibrations at a frequency above the range of human hearing (>20kHz) that can travel throught a variety of mediums (air or fluid). Techniques like time of flight or Doppler are used to measure flow, detect objects, perform concentration analysis and measure distances - without making physical contact. Ultrasonic sensors can be used to detect a wide variety of materials regardless of shape, transparency or color.
 
+### [IR sensor vs. Ultrasonic sensor](https://m.blog.naver.com/fiberk2/220810561244)
+
+Commons:
+- Measuring distance
+
+Difference:
+- IR: Calculated in triangular geometry by measuring the angle with the focal point
+  - Sensitive to color (black absorbs, and white reflects)
+- Ultrasonic: Calculate the time until reflection
+  - Sensitive to dust and water
+  - Sensitive to temperature (calcuating distance depends on temperature)
+  - Difficult to detect the object, since materials such as cloth and cotton absorb ultrasonic waves
+
 ---
 
 ### Reference
+
 - Sensor Wiki, https://en.wikipedia.org/wiki/Sensor, 2021-10-21-Thu.
 - Image Sensor Wiki, https://en.wikipedia.org/wiki/Image_sensor, 2021-10-21-Thu.
 - MOSFET Wiki, https://en.wikipedia.org/wiki/MOSFET, 2021-10-21-Thu.
@@ -51,3 +65,4 @@ Ultrasonic sound waves are vibrations at a frequency above the range of human he
 - Vibrating Structure Gyroscope Wiki, https://en.wikipedia.org/wiki/Vibrating_structure_gyroscope, 2021-10-21-Thu.
 - Accelerometer Wiki, https://en.wikipedia.org/wiki/Accelerometer, 2021-10-21-Thu.
 - Ultrasonic Sensor TI, https://www.ti.com/sensors/specialty-sensors/ultrasonic/overview.html, 2021-10-21-Thu.
+- 적외선 센서와 초음파 센서의 차이, https://m.blog.naver.com/fiberk2/220810561244, 2023-01-24-Tue.
