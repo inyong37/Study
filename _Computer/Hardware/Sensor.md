@@ -38,7 +38,7 @@ An accelerometer is a tool that measures proper acceleration. Proper acceleratio
 
 Ultrasonic sound waves are vibrations at a frequency above the range of human hearing (>20kHz) that can travel throught a variety of mediums (air or fluid). Techniques like time of flight or Doppler are used to measure flow, detect objects, perform concentration analysis and measure distances - without making physical contact. Ultrasonic sensors can be used to detect a wide variety of materials regardless of shape, transparency or color.
 
-### [IR sensor vs. Ultrasonic sensor](https://m.blog.naver.com/fiberk2/220810561244)
+### :key: [IR sensor vs. Ultrasonic sensor](https://m.blog.naver.com/fiberk2/220810561244)
 
 Commons:
 - Measuring distance
