@@ -26,16 +26,28 @@ This repository is about studies by myself. Themes is about Electrical Engineeri
 - [Khan Academy](https://www.khanacademy.org/)
 - [Udemy](https://www.udemy.com/)
     - [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
+
 ## i. Computer Vision
-- CS231n: Convolutional Neural Networks for Visual Recognition | [Homepage](http://cs231n.stanford.edu/index.html) |
-- CS231n (Spring 2017) | [Youtube](https://youtu.be/vT1JzLTH4G4) |
+
+Stanford University:
+- ~~[CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/index.html)~~
+- [CS231n: Deep Learning for Computer Vision](http://cs231n.stanford.edu/) | [Youtube (Spring 2017)](https://youtu.be/vT1JzLTH4G4)
+
 ## ii. Natural Language Processing
-- CS224n: Natural Language Processing with Deep Learning | [Homepage](http://web.stanford.edu/class/cs224n/) |
-- CS224d: Deep Learning for Natural Language Processing | [Homepage](http://cs224d.stanford.edu/index.html) |
-## iii. Machine Learning 
-- CS156: Learning from Data | [Homepage](https://work.caltech.edu/telecourse.html) |
-- CS156 (Spring, 2012) | [Youtube](https://youtu.be/mbyG85GZ0PI) |
+
+Stanford University:
+- [CS224N: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
+- [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/index.html)
+
+## iii. Machine Learning
+
+Caltech:
+- [CS156: Learning from Data](https://work.caltech.edu/telecourse.html) | [Youtube (Spring, 2012)](https://youtu.be/mbyG85GZ0PI)
+- [CS224W: Machine Learning with Graphs](http://web.stanford.edu/class/cs224w/)
+
+Blog:
 - [Blog #1](https://www.mrdbourke.com/5-beginner-friendly-steps-to-learn-machine-learning/)
+
 ## iv. Korean
 - 모두를 위한 머신러닝/딥러닝 강의 | [Homepage](http://hunkim.github.io/ml/) |
 - Learning from Data 한글 정리 | [Homepage](http://theyearlyprophet.com/lfd.html) | [PDF](http://theyearlyprophet.com/learning-from-data-learning-theory-kr.pdf) |
