@@ -1,6 +1,7 @@
 # Lecture
 
 - Lecture Collection | Convolutional Neural Networks for Visual Recognition (Spring 2017)
+[Homepage](http://cs231n.stanford.edu/index.html)
 [Youtube](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
 - Lecture Collection | Natural Language Processing with Deep Learning (Winter 2017)
@@ -14,3 +15,5 @@
 
 - 정리 | 라온피플 머신러닝 아카데미
 [Blog](https://blog.naver.com/laonple/220463627091)
+
+- [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
