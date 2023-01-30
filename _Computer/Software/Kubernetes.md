@@ -509,11 +509,17 @@ Multi-OS Kubernetes:
 
 ---
 
-### :hammer_and_wrench: _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### :package: _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+
+The Kubernetes Package Manager (by helm)
 
 App의 YAML 파일들의 집합을 chart로 관리
 
-### :hammer_and_wrench: _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### :package: _[krew](https://krew.sigs.k8s.io/)_
+
+Krew is a tool that makes it easy to use kubectl plugins. Krew helps you discover plugins, install and manage them on your machine. It is similar to tools like apt, dnf or brew. Today, over 100 kubectl plugins are available on Krew.
+
+### _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
 ---
 
@@ -568,4 +574,5 @@ App의 YAML 파일들의 집합을 chart로 관리
 - Controllers, https://kubernetes.io/docs/concepts/architecture/controller/, 2022-11-25-Fri.
 - Kubernetes Scheduler, https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/, 2022-11-25-Fri.
 - Kubernetes Architecture Blog KR, https://wiki.webnori.com/display/kubernetes/Architecture, 2022-11-29-Tue.
-
+- Here is the package manager for k8s : krew, https://dev.to/omrisama/comment/1bjb2, 2023-01-30-Mon.
+- krew VS helm, https://www.libhunt.com/compare-krew-vs-helm, 2023-01-30-Mon.
