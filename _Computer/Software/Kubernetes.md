@@ -509,17 +509,19 @@ Multi-OS Kubernetes:
 
 ---
 
-### :package: _[HELM](https://helm.sh/): The package manager for Kubernetes_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### :package: _[Helm](https://helm.sh/)_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
 
-The Kubernetes Package Manager (by helm)
+The package manager for Kubernetes
 
-App의 YAML 파일들의 집합을 chart로 관리
+Helm은 app의 yaml 파일들의 집합을 chart로 관리한다.
 
-### :package: _[krew](https://krew.sigs.k8s.io/)_
+### :package: _[Krew](https://krew.sigs.k8s.io/)_
 
-Krew is a tool that makes it easy to use kubectl plugins. Krew helps you discover plugins, install and manage them on your machine. It is similar to tools like apt, dnf or brew. Today, over 100 kubectl plugins are available on Krew.
+Krew is the plugin manager for kubectl command-line tool.
 
-### _[Rancher](https://www.rancher.com/): One Platform Kubernetes Management_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+### _[Rancher](https://www.rancher.com/)_ | [Saramin (KR)](https://saramin.github.io/2020-05-01-k8s-cicd/#cd-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
+
+Rancher is a Kubernetes management tool to deploy and run clusters anywhere and on any provider.
 
 ---
 
