@@ -18,6 +18,16 @@
 
 ### 1.4.1. 신경망 구성하기
 
+Activation functions:
+
+- Step function: y = f(z) = 0 if z < t or 1 if z >= t
+
+- Sigmoid function: s(z) = 1/(1 + exp(-z))
+
+- Hyperbolic tangent: tanh(z) = (exp(z) - exp(-z)) / (exp(z) + exp(-z))
+
+- Rectified Linear Unit: ReLU(z) = max(0, z) = 0 if z < 0 or z of z >= 0
+
 ### 1.4.2. 신경망 훈련시키기
 
 - 구현
@@ -63,6 +73,8 @@ perceptron = Neuron(num_inputs=x.size, activation_fn=step_fn)
 out = perceptron.forward(x)
 # > 1
 ```
+
+각 뉴런이 이전 계층에서 
 
 ## 1.5. 요약
 
