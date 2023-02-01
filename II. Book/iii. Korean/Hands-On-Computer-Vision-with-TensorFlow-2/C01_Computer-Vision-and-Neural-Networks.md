@@ -74,7 +74,7 @@ out = perceptron.forward(x)
 # > 1
 ```
 
-각 뉴런이 이전 계층에서 
+각 뉴런이 이전 계층에서 나온 모든 값에 연결돼 있는 계층을 완전 연결 계층(fully-connected layer) 또는 밀집 계층(dense layer)이라고 한다.
 
 ## 1.5. 요약
 
