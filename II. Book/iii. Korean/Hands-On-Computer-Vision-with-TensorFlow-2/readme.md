@@ -22,7 +22,7 @@ Chapter 3. [현대 신경망](C03_Modern-Neural-Networks.md)
 
 :notebook: **Part 2. 전통적인 인식 문제를 해결하는 최신 솔루션**
 
-Chapter 4. [유럭한 분류 도구](C04_Influential-Classification-Tools.md)
+Chapter 4. [유한 분류 도구](C04_Influential-Classification-Tools.md)
 
 Chapter 5. [객체 탐지 모델](C05_Object-Detection-Models.md)
 
