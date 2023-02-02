@@ -57,10 +57,13 @@ Difference:
   - Sensitive to temperature (calcuating distance depends on temperature)
   - Difficult to detect the object, since materials such as cloth and cotton absorb ultrasonic waves
 
+## Inertial Measurement Unit (IMU) | [Blog (KR)](https://velog.io/@717lumos/Sensor-IMU%EC%9D%98-%EA%B0%9C%EB%85%90-%EB%B0%8F-%ED%99%9C%EC%9A%A9%EB%B2%95)
+
+IMU consists of accerleration sensor, and Gyroscope for 6 axes. IMU with 9 axes includes magnetometer.
+
 ---
 
 ### Reference
-
 - Sensor Wiki, https://en.wikipedia.org/wiki/Sensor, 2021-10-21-Thu.
 - Image Sensor Wiki, https://en.wikipedia.org/wiki/Image_sensor, 2021-10-21-Thu.
 - MOSFET Wiki, https://en.wikipedia.org/wiki/MOSFET, 2021-10-21-Thu.
@@ -72,3 +75,4 @@ Difference:
 - Accelerometer Wiki, https://en.wikipedia.org/wiki/Accelerometer, 2021-10-21-Thu.
 - Ultrasonic Sensor TI, https://www.ti.com/sensors/specialty-sensors/ultrasonic/overview.html, 2021-10-21-Thu.
 - 적외선 센서와 초음파 센서의 차이, https://m.blog.naver.com/fiberk2/220810561244, 2023-01-24-Tue.
+- [IMU] IMU의 개념 및 활용법, https://velog.io/@717lumos/Sensor-IMU%EC%9D%98-%EA%B0%9C%EB%85%90-%EB%B0%8F-%ED%99%9C%EC%9A%A9%EB%B2%95, 2023-02-02-Thu.
