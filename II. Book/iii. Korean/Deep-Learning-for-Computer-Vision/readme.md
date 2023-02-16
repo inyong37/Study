@@ -12,7 +12,7 @@ October, 2018
 
 ## Content
 
-Chapter 1. 시작하기 :heavy_check_mark:
+Chapter 1. [시작하기](C01_Introduction.md) :heavy_check_mark:
 
 Chapter 2. 이미지 분류 :heavy_check_mark:
 
