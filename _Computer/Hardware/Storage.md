@@ -70,7 +70,7 @@ iSCSI is an IP-based standard for transferring data that supports host access by
 
 [iSCSI와 NAS 차이점?](https://www.2cpu.co.kr/QnA/346155)
 
-### [Ceph](https://ceph.com/en/)
+### [Ceph](https://ceph.com/en/) | [Blog (KR)](https://m.blog.naver.com/pap5608/220569478476)
 
 Ceph is an open source, distributed storage system.
 
@@ -117,3 +117,4 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 - Rook Quickstart, https://rook.io/docs/rook/v1.9/Getting-Started/quickstart/, 2023-02-21-Tue.
 - Network Attached Storage IBM, https://www.ibm.com/topics/network-attached-storage, 2023-02-21-Tue.
 - Storage Area Network IBM, https://www.ibm.com/topics/storage-area-network, 2023-02-21-Tue.
+- Ceph Blog KR, https://m.blog.naver.com/pap5608/220569478476, 2023-02-21-Tue.
