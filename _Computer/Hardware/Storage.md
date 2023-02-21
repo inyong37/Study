@@ -4,7 +4,9 @@
 
 Direct-attached storage (DAS) is digital storage directly attached to the computer accessing it, as opposed to storage accessed over a computer network (i.e. network-attached storage). Examples of DAS include hard drives, solid-state drives, optical disc drives, and storage on external drives. The name "DAS" is a retronym to contrast with storage area network (SAN) and network-attached storage (NAS).
 
-## :cloud: Network Attached Storage (NAS)
+## :cloud: [Network Attached Storage (NAS)](https://www.ibm.com/topics/network-attached-storage)
+
+Network attached storage (NAS) is a centralized, file server, which allows multiple users to store and share files over a TCP/IP network via Wifi or an Ethernet cable. It is alos commonly known as a NAS box, NAS unit, NAS server, or NAS head. These devices rely on a few components to operate, such as hard drives, network protocols, and a lightweight operating system (OS).
 
 ## :cloud: Cloud Storage
 
@@ -113,4 +115,5 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 - Rook, https://rook.io/, 2023-01-12-Thu.
 - Rook Docs 1.9, https://rook.io/docs/rook/v1.9/Getting-Started/intro/, 2023-02-21-Tue.
 - Rook Quickstart, https://rook.io/docs/rook/v1.9/Getting-Started/quickstart/, 2023-02-21-Tue.
+- Network Attached Storage IBM, https://www.ibm.com/topics/network-attached-storage, 2023-02-21-Tue.
 - Storage Area Network IBM, https://www.ibm.com/topics/storage-area-network, 2023-02-21-Tue.
