@@ -60,7 +60,7 @@ The Network File System (NFS) is a mechanism for storing files on a network. It 
 
 iSCSI is an IP-based standard for transferring data that supports host access by carrying SCSI commands over IP networks.
 
-[NFS vs iSCSI - What's the Difference? (Pros and Cons](https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/)
+[NFS vs iSCSI - What's the Difference? (Pros and Cons)](https://cloudinfrastructureservices.co.uk/nfs-vs-iscsi-whats-the-difference/)
 
 [iSCSI와 NAS 차이점?](https://www.2cpu.co.kr/QnA/346155)
 
@@ -78,9 +78,11 @@ The Ceph File System (CephFS) is a file system compatible with POSIX standards t
 
 Gluster is a scalable network filesystem.
 
-### [Rook](https://rook.io/)
+### :robot: [Rook](https://rook.io/) | [Docs 1.9](https://rook.io/docs/rook/v1.9/Getting-Started/intro/) | [Quickstart](https://rook.io/docs/rook/v1.9/Getting-Started/quickstart/)
 
-Storage operators for Kubernetes.
+Storage operators for Kubernetes: Rook turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management. Rook uses the power of the Kubernetes platform to deliver its services via a Kubernetes Operator for Ceph.
+
+Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a specialized Kubernetes Operator to automate management. Rook ensures that Ceph will run well on Kubernetes and simplify the deployment and management experience
 
 ---
 
@@ -105,3 +107,5 @@ Storage operators for Kubernetes.
 - Ceph, https://ceph.com/en/, 2023-01-12-Thu.
 - Ceph, https://ceph.io/en/, 2023-01-12-Thu.
 - Rook, https://rook.io/, 2023-01-12-Thu.
+- Rook Docs 1.9, https://rook.io/docs/rook/v1.9/Getting-Started/intro/, 2023-02-21-Tue.
+- Rook Quickstart, https://rook.io/docs/rook/v1.9/Getting-Started/quickstart/, 2023-02-21-Tue.
