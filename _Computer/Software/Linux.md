@@ -266,6 +266,30 @@ Snapcraft:
 
 A generic and open source machine emulator and virtualizer
 
+### [Logical Volume Manager (LVM)](https://wiki.archlinux.org/title/LVM)
+
+Logical Volume Manager (LVM) is a device mapper framework that provides logical volume management for the Linux kernel.
+
+### Physical volume (PV)
+
+Unix block device node, usable for storage by LVM. Examples: a hard disk, an MBR or GPT partition, a loopback file, a device mapper device (e.g. dm-crypt). It hosts an LVM header.
+
+### Volume group (VG)
+
+Group of PVs that serves as a container for LVs. PEs are allocated from a VG for a LV.
+
+### Logical volume (LV)
+
+"Virtual/logical partition" that resides in a VG and is composed of PEs. LVs are Unix block devices analogous to physical partitions, e.g. they can be directly formatted with a file system.
+
+### Physical extent (PE)
+
+The smallest contiguous extent (default 4MiB) in the PV that can be assigned to a LV. Think of PEs as parts as PVs that can be allocated to any LV.
+
+### [Logical Volume Manager (LVM) vs. standard partitioning in Linux](https://www.redhat.com/sysadmin/lvm-vs-partitioning)
+
+With tranditional storage, three 1TB disks are handled individually. Wuth LVM, those same three disks are considered to be 3TB of aggregated storage capacity. This is accomplished by designating the stoarge disks as Physical Volumes (PV), or storage capacity useable by LVM. The PVs are then added to one or more Volume Groups (VGs). The VGs are carved into one or more Logical Volumes (LVs), which then treated as tranditional partitions.
+
 ---
 
 ## _Tuning Kernel_
@@ -392,3 +416,6 @@ TCP socket states:
 - APT, https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#apt-get, 2022-12-01-Thu.
 - ATP User's Guide, https://www.debian.org/doc/manuals/apt-guide/index.en.html, 2022-12-01-Thu.
 - dpkg, https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg, 2022-12-01-Thu.
+- LVM Wiki, https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux), 2023-03-02-Thu.
+- LVM Arch Linux, https://wiki.archlinux.org/title/LVM, 2023-03-02-Thu.
+- LVM vs. standard partitioning Red Hat, https://www.redhat.com/sysadmin/lvm-vs-partitioning, 2023-03-02-Thu.
