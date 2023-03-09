@@ -124,11 +124,29 @@ Transport Layer Security, or TLS, is a widely adopted security protocol designed
 
 TLS was proposed by the Internet Engineering Task Force (IETF), an international standards organization, and the first version of the protocol was published in 1999.
 
-### *File Transfer Protocol (FTP)* | [WiKi](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
+### File Transfer Protocol (FTP) | [Wiki](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
 
 The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server. FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
 
-### *Secure Shell (SSH)*
+### Secure Shell (SSH) | [Wiki](https://en.wikipedia.org/wiki/Secure_Shell) | [OpenSSH](https://www.openssh.com/)
+
+The Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution.
+
+### SSH File Transfer Protocol (SFTP) | [Wiki](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
+
+In computing, the SSH File Transfer Protocol (SFTP) is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed by the Internet Engineering Task Force (IETF) as an extension of the Secure Shell (SSH) protocol version 2.0 to provide secure file transfer capabilities. The IETF Internet Draft states that, even though this protocol is described in the context of the SSH-2 protocol, it could be used in a number of different applications, such as secure file transfer over Transport Layer Security (TLS) and transfer of management information in VPN applications.
+
+### Virtual Network Computing (VNC) | [Wiki](https://en.wikipedia.org/wiki/Virtual_Network_Computing)
+
+Virtual Network Computing (VNC) is a graphical desktop-sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. It transmits the keyboard and mouse input from one computer to another, relaying the graphical-screen updates, over a network.
+
+### Remote Frame Buffer (RFB) | [Wiki](https://en.wikipedia.org/wiki/RFB_protocol)
+
+Remote Frame Buffer (RFB) is an open simple protocol for remote access to graphical user interfaces. Because it works at the framebuffer level it is applicable to all windowing systems and applications, including Microsoft Windows, macOS and the X Window System. RFB is the protocol used in Virtual Network Computing (VNC) and its derivatives.
+
+### Secure Copy Protocol (SCP) | [Wiki](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+
+Secure Copy Protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts. It is based on the Secure Shell (SSH) protocol. SCP commonly refers to both Secure Copy Protocol and the program itself.
 
 ## *Domain Name System (DNS)* | [WiKi](https://en.wikipedia.org/wiki/Domain_Name_System) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 
@@ -406,3 +424,8 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - TCP/IP Socket Connection IBM, https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm, 2022-11-09-Wed.
 - HTTP HTTPS Port Blog KR, https://johngrib.github.io/wiki/why-http-80-https-443/, 2022-11-14-Mon.
 - Nginx vs. Apache Blog KR, https://cornswrold.tistory.com/429, 2022-11-25-Fri.
+- Secure Shell Wiki, https://en.wikipedia.org/wiki/Secure_Shell, 2023-03-09-Thu.
+- Virtual Network Computing Wiki, https://en.wikipedia.org/wiki/Virtual_Network_Computing, 2023-03-09-Thu.
+- Remote Frame Buffer Wiki, https://en.wikipedia.org/wiki/RFB_protocol, 2023-03-09-Thu.
+- Secure Copy Protocol Wiki, https://en.wikipedia.org/wiki/Secure_copy_protocol, 2023-03-09-Thu.
+- SSH File Transfer Protocol Wiki, https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol, 2023-03-09-Thu.
