@@ -246,7 +246,7 @@ Kernel-based Virtual Machine (KVM) is an open source virtualization technology b
 
 KVM is part of Linux. If you've got Linux 2.6.20 or newer, you've got KVM. KVM was first announced in 2006 and merged into the mainline Linux kernel version a year later. Because KVM is part of existing Linux code, it immediately benefits from every new Linux feature, fix, and advancement without additional engineering.
 
-### _[Snaps](https://snapcraft.io/)_
+### [Snaps](https://snapcraft.io/)
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free. Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
 
@@ -261,10 +261,6 @@ Snap Store:
 
 Snapcraft:
 - Snapcraft is the command and the framework used to build and publish snaps.
-
-### _[QEMU](https://www.qemu.org/)_
-
-A generic and open source machine emulator and virtualizer
 
 ### [Logical Volume Manager (LVM)](https://wiki.archlinux.org/title/LVM)
 
@@ -392,7 +388,6 @@ TCP socket states:
 - ln Blog KR, https://webdir.tistory.com/148, 2020-08-13-Thu.
 - Dependency Management, https://architecture101.blog/2008/12/07/dependency_managment/, 2020-08-13-Thu.
 - Command nm Blog KR, https://devanix.tistory.com/190, 2021-03-31-Wed.
-- QEMU, https://www.qemu.org/, 2022-07-20-Wed.
 - What is KVM Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2022-07-20-Wed.
 - Snaps, https://snapcraft.io/, 2022-07-20-Wed.
 - Live Booting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
