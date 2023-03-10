@@ -186,15 +186,15 @@ KVM is open source software. The kernel component of KVM is included in mainline
 
 [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
 
-### _[QEMU](https://www.qemu.org/)_
+### [QEMU](https://www.qemu.org/) | [Docs](https://www.qemu.org/docs/master/about/index.html)
 
 QEMU is a generic and open source machine emulator and virtualizer.
 
-When used as a machine emulator, QEMU can run OSes and programs made for one machine (e.g. an ARM board) on a different machine (e.g. your own PC). By using dynamic translation, it achieves very good performance.
+QEMU can be used in serverl different ways. The most common is for System Emulation, where it provides a virtual model of an entire machine (CPU, memory and emulated devices) to run a guest OS. In this mode the CPU may be fully emulated, or it may work with a hypervisor such as KVM, Xen, Hax or Hypervisor.Framework to allow the guest to run directly on the host CPU.
 
-When used as a virtualizer, QEMU achieves near native performance by executing the guest code directly on the host CPU. QEMU supports virtualization when executing under the Xen hypervisor or using the KVM kernel module in Linux. When using KVM, QEMU can virtualize x86, server and embedded PowerPC, 64-bit POWER, S390, 32-bit and 64-bit ARM, and MIPS guests.
+The second supported way to use QEMU is User Mode Emulation, where QEMU can launch processes compiled for one CPU on another CPU. In this mode the CPU is always emulated.
 
-QEMU is a member of Software Freedom Conservancy.
+QEMU also provides a number of standalone command line utilities, such as the qemu-img disk utility that allows you to create, convert and modify disk images.
 
 ### _[Xen](https://xenproject.org/)_
 
@@ -311,3 +311,4 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 - Ovirt란 무엇인가? Blog KR, https://blog.naver.com/ilikebigmac/222013980565, 2023-01-10-Tue.
 - KVM 가상화 Management software - Ovirt 4.4.x Blog KR, https://yjwang.tistory.com/161, 2023-01-10-Tue.
 - Kubernetes - KubeVirt, https://da-nika.tistory.com/155, 2023-01-10-Tue.
+- QEMU Docs, https://www.qemu.org/docs/master/about/index.html, 2023-03-10-Fri.
