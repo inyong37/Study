@@ -176,13 +176,11 @@ The libvirt project:
 - supports KVM, Hypervisor.framework, QEMU, Xen, Virtuozzo, VMWare ESX, LXC, BHyve and more
 - targets Linux, FreeBSD, Windows and macOS
 
-### _[Red Hat Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page)_
+### [Kernel-based Virtual Machine (KVM)](https://www.linux-kvm.org/page/Main_Page) | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
 
-KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
+Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specially, KVM lets you turn Linux into a hypervisor that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs)
 
-Using KVM, one can run multiple virtual machines running unmodified Linux or Windows images. Each virtual machine has private virtualized hardware: a network card, disk, graphics adapter, etc.
-
-KVM is open source software. The kernel component of KVM is included in mainline Linux, as of 2.6.20. The userspace component of KVM is included in mainline QEMU, as of 1.3.
+KVM is part of Linux. If you're got Linux 2.6.20 or newer, you've got KVM. KVM was first announced in 2006 and merged into the machine Linux kernel version a year later. Because KVM is part of existing Linux code, it immediately benefits from every new Linux feature, fix, and advancement without additional engineering.
 
 [KVM vs. VMware vSphere](https://www.redhat.com/en/topics/virtualization/kvm-vs-vmware-comparison)
 
@@ -312,3 +310,4 @@ oVirt is an open-source distributed virtualization solution, designed to manage 
 - KVM 가상화 Management software - Ovirt 4.4.x Blog KR, https://yjwang.tistory.com/161, 2023-01-10-Tue.
 - Kubernetes - KubeVirt, https://da-nika.tistory.com/155, 2023-01-10-Tue.
 - QEMU Docs, https://www.qemu.org/docs/master/about/index.html, 2023-03-10-Fri.
+- Kernel-based Virtual Machine Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2023-03-10-Fri.
