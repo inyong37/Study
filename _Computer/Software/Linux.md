@@ -232,6 +232,18 @@ Option:
 
 Target acrchive file shows libraries as object files
 
+### [wget](https://www.gnu.org/software/wget/)
+
+GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, `cron` jobs, terminals without X-Windows supports, etc.
+
+### [timedatectl](https://www.freedesktop.org/software/systemd/man/timedatectl.html) - Control the system time and date
+
+timedatactl may be used to query and change the system clock and its settings, and enable or disable time synchronization services. Use systemd-firstboot to initialize the system time zone for mounted (but no booted) system images. timedatectl may be used to show the current status of time synchronization services.
+
+### [chrony](https://chrony.tuxfamily.org/)
+
+chrony is a versatile implementation of the Network Time Protocol (NTP). It can synchronise the system clock with NTP servers, reference clocks (e.g. GPS receiver), and manual input using wristwatch and keyboard. It can also operate as an NTPv4 (RFC 5905) server and peer to provide a time service to other computers in the network.
+
 ---
 
 ## _File_ | _Extension_
@@ -414,3 +426,6 @@ TCP socket states:
 - LVM Wiki, https://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux), 2023-03-02-Thu.
 - LVM Arch Linux, https://wiki.archlinux.org/title/LVM, 2023-03-02-Thu.
 - LVM vs. standard partitioning Red Hat, https://www.redhat.com/sysadmin/lvm-vs-partitioning, 2023-03-02-Thu.
+- GNU Wget, https://www.gnu.org/software/wget/, 2023-03-14-Tue.
+- timedatectl, https://www.freedesktop.org/software/systemd/man/timedatectl.html, 2023-03-14-Tue.
+- chrony, https://chrony.tuxfamily.org/, 2023-03-14-Tue.
