@@ -70,9 +70,11 @@ iSCSI is an IP-based standard for transferring data that supports host access by
 
 [iSCSI와 NAS 차이점?](https://www.2cpu.co.kr/QnA/346155)
 
-### [Ceph](https://ceph.com/en/) | [Blog (KR)](https://m.blog.naver.com/pap5608/220569478476)
+### [Ceph](https://ceph.com/en/) | [Blog (KR)](https://m.blog.naver.com/pap5608/220569478476) | [Red Hat](https://www.redhat.com/en/technologies/storage/ceph)
 
 Ceph is an open source, distributed storage system.
+
+Red Hat Ceph Storage is a software-defined storage platform engineered for private cloud architectures. Integrated with Red Hat OpenShift Data Foundation, Red Hat OpenStack Platform, and all of OpenStack's open source projects, Red Hat Ceph Storage lets you provision storage for hundreds of containers or virtual machines and build fully supported cloud platforms.
 
 ### [Ceph File System (CephFS)](https://docs.ceph.com/en/quincy/cephfs/index.html)
 
@@ -118,3 +120,4 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 - Network Attached Storage IBM, https://www.ibm.com/topics/network-attached-storage, 2023-02-21-Tue.
 - Storage Area Network IBM, https://www.ibm.com/topics/storage-area-network, 2023-02-21-Tue.
 - Ceph Blog KR, https://m.blog.naver.com/pap5608/220569478476, 2023-02-21-Tue.
+- Ceph Red Hat, https://www.redhat.com/en/technologies/storage/ceph, 2023-03-14-Tue.
