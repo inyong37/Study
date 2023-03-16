@@ -355,25 +355,73 @@ Multi Plexing Server: 블로킹 I/O 모델 -> I/O 멀티플렉싱 모델
 
 Load balancing is the method of distributing network traffic equally across a pool of resources that support an application. Modern applications must process millions of users simultaneously and return the correct text, videos, images, and other data to each user in a fast and reliable manner. To handle such high volumes of traffic, most applications have many resources servers with dupliate data between them. A load balancer is a device that sits between the user and the server group and acts as an invisible facilitator, ensuring that all resource servers are used equally.
 
-### *Round Robin Method*
+## Load Balancing Algorithm
+
+A load balancing algorithm is the set of of rules that a load balancer follows to determine the best server for each of the different client requests. Load balancing algorithms fall into two main categories; static load balancing and dynamic load balancing.
+
+### Static Load Balancing
+
+Static load balancing algorithms follow fixed rules and are independent of the current server state.
+
+### Round-robin Method
 
 Allocates requests sequentially. Suitable for use when multiple servers have the same specifications and sessions do not last long.
 
-### *Weighted Round Robin Method*
+Servers have IP addresses that tell the client where to send requests. The IP address is a long number that is difficult to remember. To make it easy, a Domain Name System maps website names to servers. In the round-robin method, an authoritative name server does the load balancing instead of specialized hardware or software. The name server returns the IP addresses of different servers in the server farm turn by turn or in a round-robin fashion.
+
+### Weighted Round Robin Method
 
 Each server is weighted and client requests are prioritized among the servers with higher weights.
 
-### *IP Hash Method*
+In weighted round-robin load balancing, you can assign different weights to each server based on their priorty or capacity. Servers with higher weights will recieve more incoming application traffic from the name server.
+
+### IP Hash Method
 
 Handles requests by mapping the client's IP address to a specific server.
 
-### *Least Connection Method*
+In the IP hash method, the load balancer performs a mathematical computation, called hashing, on the client IP address. It converts the client IP address to a number, which is then mapped to individual servers.
+
+### Dynamic Load Balancing
+
+Dynamic load balancing algorithms examine the current state of the servers before distributing traffic. The following are some examples of dynamic load balancing algorithms.
+
+### Least Connection Method
 
 Priority distribution of traffic to the server with the fewest connectinos at the time the request is received. Suitable for long sessions or inconsistent traffic distributed to the server.
 
-### *Least Response Time Method*
+A connection is an open communication channel between a client and a server. When the client sends the first request to the server, they authenticate and establish an active connection between each other. In the least connection method, the load balancer checks which servers have the fewest active connections and sends traffic to those servers. This method assumes that all connections require equal processing power for all servers.
+
+### Weighted least connection method
+
+Weighted least connection algorithms assume that some servers can handle more active connections than others. Therefore, you can assign different weights or capacities to each server, and the load balancer sends the new client requests to the server with the least connections by capacity.
+
+### Least Response Time Method
 
 Distributes traffic considering both the server's current connection state and response time. Prioritize load distribution to servers with the fewest connections and the shortest response times.
+
+The response time is the total time that the server takes to process the incoming requests and send a response. The least response time method combines the server response time and the active connections to determine the best server. Load balancers use this algorithm to ensure faster service for all users.
+
+### Resource-based method
+
+In the resource-based method, load balancers distribute traffic by analyzing the current server load. Specialized software called an agent runs on each server and calculates usage of server resources, such as its computing capacity and memory. Then, the load balancer checks the agent for sufficient free resources before distributing traffic to that server.
+
+## Types of Load Balancing
+
+### Application Load 
+
+Complex modern applications have several server farms with multiple servers dedicated to a single application function. Application load balancers look at the request content, such as HTTP headers or SSL session IDs, to redirect traffic. 
+
+### Network Load Balancing
+
+Network load balancers examine IP addresses and other network information to redirect traffic optimally. They track the source of the application traffic and can assign a static IP address to several servers. Network load balancers use the static and dynamic load balancing algorithms described earlier to balance server load.
+
+### Global Server Load Balancing
+
+Global server load balancing occurs across several geographically distributed servers. For example, companies can have servers in multiple data centers, in different countries, and in third-party cloud providers around the globe. In this case, local load balancers manage the application load within a region or zone. They attempt to redirect traffic to a server destination that is geographically closer to the client. They might redirect traffic to servers outside the client’s geographic zone only in case of server failure.
+
+### DNS Load Balancing
+
+In DNS load balancing, you configure your domain to route network requests across a pool of resources on your domain. A domain can correspond to a website, a mail system, a print server, or another service that is made accessible through the internet. DNS load balancing is helpful for maintaining application availability and balancing network traffic across a globally distributed pool of resources. 
 
 ## *Load Balancer* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
 
