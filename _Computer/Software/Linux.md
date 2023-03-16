@@ -380,6 +380,19 @@ TCP socket states:
 
 ---
 
+### [Flatpak](https://flatpak.org/) | [Docs](https://docs.flatpak.org/en/latest/introduction.html)
+
+Flatpak is a framework for distributing desktop applications across various Linux distributions. It has been created by developers who have a long history of working on the Linux desktop, and is run as an indepedent open source project.
+
+Terminology:
+- Flatpak: a system for building, distributing, and running sandboxed desktop applications on Linux.
+- Flatpak application: these are the applications the user installs via the `flakpak` command or via a different UI like GNOME Software or KDE Discover.
+- Runtime: also called platforms, these are integrated platforms to provide basic utilities needed for a Flatpak application to work.
+- BaseApp: these are integrated platforms for frameworks like Electron.
+- Flatpak bundle: a specific single-file export format which contains a Flatpak app or runtime.
+
+---
+
 ### Reference
 - Linux, https://www.linux.org/, 2020-08-05-Wed.
 - Library, https://jasonjason.tistory.com/15, 2020-08-06-Thu.
@@ -429,3 +442,5 @@ TCP socket states:
 - GNU Wget, https://www.gnu.org/software/wget/, 2023-03-14-Tue.
 - timedatectl, https://www.freedesktop.org/software/systemd/man/timedatectl.html, 2023-03-14-Tue.
 - chrony, https://chrony.tuxfamily.org/, 2023-03-14-Tue.
+- Flatpak, https://flatpak.org/, 2023-03-16-Thu.
+- Flatpak Docs, https://docs.flatpak.org/en/latest/introduction.html, 2023-03-16-Thu.
