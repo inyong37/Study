@@ -351,11 +351,9 @@ Multi Plexing Server: 블로킹 I/O 모델 -> I/O 멀티플렉싱 모델
 
 ---
 
-## *Load Balancing* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
+## Load Balancing | [AWS](https://aws.amazon.com/what-is/load-balancing/?nc1=h_ls) | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
 
-Scale up:
-
-Scale out: 
+Load balancing is the method of distributing network traffic equally across a pool of resources that support an application. Modern applications must process millions of users simultaneously and return the correct text, videos, images, and other data to each user in a fast and reliable manner. To handle such high volumes of traffic, most applications have many resources servers with dupliate data between them. A load balancer is a device that sits between the user and the server group and acts as an invisible facilitator, ensuring that all resource servers are used equally.
 
 ### *Round Robin Method*
 
@@ -693,3 +691,4 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Scaling Up vs. Scaling Out Blog KR, https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/, 2022-11-18-Fri.
 - Server Event Loop Line KR, https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/, 2022-11-25-Fri.
 - Health Check Blog KR, https://aroundck.tistory.com/6800, 2022-12-20-Tue.
+- Load Balancing AWS, https://aws.amazon.com/what-is/load-balancing/, 2023-03-16-Thu.
