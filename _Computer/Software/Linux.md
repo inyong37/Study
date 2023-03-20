@@ -380,7 +380,7 @@ TCP socket states:
 
 ---
 
-### [Flatpak](https://flatpak.org/) | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
+### [Flatpak](https://flatpak.org/) - The future of apps on Linux | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
 
 Flatpak is a framework for distributing desktop applications across various Linux distributions. It has been created by developers who have a long history of working on the Linux desktop, and is run as an indepedent open source project.
 
