@@ -1,22 +1,22 @@
-# *Network* | [WiKi](https://en.wikipedia.org/wiki/Computer_network)
+# Network | [WiKi](https://en.wikipedia.org/wiki/Computer_network)
 
 A computer network is a group of computers that use a set of common communication protocols over digital interconnections for the purpose of sharing resources located on or provided by the network nodes. THe interconnections between nodes are formed from a broad spectrum of telecommunication network technologies, based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
-## _Telecommunications Network_ | [WiKi](https://en.wikipedia.org/wiki/Telecommunications_network)
+## Telecommunications Network | [WiKi](https://en.wikipedia.org/wiki/Telecommunications_network)
 
 A telecommunications network is a group of nodes interconnected by links that are used to exchange messages between the nodes. The links my use a variety of technologies based on the methodologies of circuit switching, message switching, or packet switching, to pass messages and signals.
 
-## _Data Networks_
+## Data Networks
 
 Data networks are used extensively throughout the world for communication between individuals and organizations. Data networks can be connected to allow users seamless access to resources that are hosted outside of the particular provider they are connected to. The Internet is the best example of many data networks from different organizations all operating under a single address space.
 
-### _Wide Area Networks (WAN)_ | [WiKi](https://en.wikipedia.org/wiki/Wide_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html)
+### Wide Area Networks (WAN) | [WiKi](https://en.wikipedia.org/wiki/Wide_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-wan-wide-area-network.html)
 
 In its simplest form, a wide-area network (WAN) is a collection of local-area networks (LANs) or other networks that communicate with one another. A WAN is essentially a network of networks, with the Internet of world's largest WAN.
 
 Metropolitan Area Networks (MAN) | [WiKi](https://en.wikipedia.org/wiki/Metropolitan_area_network)
 
-### _Local Area Networks (LAN)_ | [WiKi](https://en.wikipedia.org/wiki/Local_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html)
+### Local Area Networks (LAN) | [WiKi](https://en.wikipedia.org/wiki/Local_area_network) | [Cisco](https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html)
 
 A local area network (LAN) is a collection of devices connected together in one physical location, such as a building, office, or home. A LAN can be small or large, ranging from a home network with one user to an enterprise network with thousands of users and devices in an office or school.
 
@@ -26,7 +26,7 @@ Internet Area Networks (IAN) | [WiKi](https://en.wikipedia.org/wiki/Internet_are
 
 Campus Area Networks (CAN) | [WiKi](https://en.wikipedia.org/wiki/Campus_network)
 
-### _Wireless Personal Area Network (WPAN)_ | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
+### Wireless Personal Area Network (WPAN) | [CSRC](https://csrc.nist.gov/glossary/term/wireless_personal_area_network)
 
 A small-scale wireless network that requires little or no infrastructure and operates within a short range. A WPAN is typically used by a few devices in a single room instead of connecting the devices with cables.
 
@@ -34,7 +34,7 @@ Personal Area Network (PAN) | [CSRC](https://csrc.nist.gov/glossary/term/persona
 
 Virual Private Networks (VPN) | [WiKi](https://en.wikipedia.org/wiki/Virtual_private_network)
 
-## _Open Systems Interconnection (OSI) Model_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
+## Open Systems Interconnection (OSI) Model | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/)
 
 The open systems interconnection (OSI) model is a conceptual model created by the International Organization for Standardization which enables diverse communication systems to communicate using standard protocols. In plain English, the OSI provides a standard for different computer systems to be able to communicate with each other.
 
@@ -70,27 +70,27 @@ The OSI Model can be seen as a universal language for computing networking. It's
 
 ---
 
-## _Node_ | [WiKi](https://en.wikipedia.org/wiki/Node_(networking))
+## Node | [WiKi](https://en.wikipedia.org/wiki/Node_(networking))
 
 In telecommunications networks, a node is either a redistribution point or a communication endpoint. The definition of a node depends on the network and protocol layer referred to. A physical network node is an electronic device that is attached to a network, and is capable of creating, receiving, or transmitting information over a communication channel. A passive distribution point such as a distribution frame or patch panel is consequently not a node.
 
-## _Networking Hardware_ | [WiKi](https://en.wikipedia.org/wiki/Networking_hardware)
+## Networking Hardware | [WiKi](https://en.wikipedia.org/wiki/Networking_hardware)
 
 Networking hardware, also known as network equipment or computer networking devices, are electronic devices which are required for communication and interaction between devices on a computer network. Specially, they mediate data transmission in a computer network. Units which are the last receiver or generate data are called hosts, end systems or data termianl equipment.
 
-## _Core_
+## Core
 
 Core network components interconnect other network components.
 
-### _Gateway_ | [WiKi](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
+### Gateway | [WiKi](https://en.wikipedia.org/wiki/Gateway_(telecommunications))
 
 An interface providing a compatibliliy between networks by converting transmission speeds, protocols, codes, or security measures.
 
-### _Router_ | [WiKi](https://en.wikipedia.org/wiki/Router_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
+### Router | [WiKi](https://en.wikipedia.org/wiki/Router_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9A%B0%ED%84%B0)
 
 A networking device that forwards data packets between computer networks. Routers perform the "traffic directing" functions on the Internet. A data packet is typically forwarded from one router to another through the networks that constitute the internetwork until it reaches its destination node. It works on OSI layer 3.
 
-### _Switch_ | [WiKi](https://en.wikipedia.org/wiki/Network_switch)
+### Switch | [WiKi](https://en.wikipedia.org/wiki/Network_switch)
 
 A device that connects devices together on a computer network, by using packet switching to receive, process and forward data to the destination device. Unlike less advanced network hubs, a network switch forwards data only to one or multiple devices that need to receive it, rather than broadcasting the same data out of each of its ports. It works on OSI layer 2.
 
@@ -98,15 +98,15 @@ A device that connects devices together on a computer network, by using packet s
 
 A device that connects multiple network segments. It works on OSI layers 1 and 2.
 
-### _Repeater_ | [WiKi](https://en.wikipedia.org/wiki/Repeater)
+### Repeater | [WiKi](https://en.wikipedia.org/wiki/Repeater)
 
 An electronic device that receives a signal and retransmits it at a higher level or higher power, or onto the other side of an obstruction, so that the signal can cover longer distances.
 
-### _Repeater Hub_ | [WiKi](https://en.wikipedia.org/wiki/Ethernet_hub)
+### Repeater Hub | [WiKi](https://en.wikipedia.org/wiki/Ethernet_hub)
 
 For connecting multiple Ethernet devices together and making them act as a single network segment. It has multiple input/output (I/O) ports, in which a signal introduced at the input of any port appears at the output of every port except the original incoming. A hub works at the physical layer (layer 1) of the OSI model. Repeater hubs also participate in collision detection, forwarding a jam signal to all ports if it detects a collision. Hubs are now largely obsolete, having been replaced by network switches except in very old installations or specialized applications.
 
-### _Wireless Access Point (WAP)_ | [WiKi](https://en.wikipedia.org/wiki/Wireless_access_point) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
+### Wireless Access Point (WAP) | [WiKi](https://en.wikipedia.org/wiki/Wireless_access_point) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%84%A0_%EC%95%A1%EC%84%B8%EC%8A%A4_%ED%8F%AC%EC%9D%B8%ED%8A%B8)
 
 WAP는 컴퓨터 네트워크에서 와이파이를 이용한 관련 표준을 이용하여 무선 장치들을 유선 장치에 연결할 수 있게 하는 장치이다.
 
@@ -174,21 +174,21 @@ A device connecting a computer to a wire-based computer network.
 
 A device connecting the attached computer to a radio-biased computer network.
 
-### _MODEM_ | [WiKi](https://en.wikipedia.org/wiki/Modem)
+### MODEM | [WiKi](https://en.wikipedia.org/wiki/Modem)
 
 Device that modulates an analog "carrier" signal (such as sound) to encode digital information, and that also demodulates such a carrier signal to decode the transmitted information. Used (for example) when a computer communicates with another computer over a telephone network.
 
-### _ISDN Terminal Adapter (TA)_ | [WiKi](https://en.wikipedia.org/wiki/Terminal_adapter)
+### ISDN Terminal Adapter (TA) | [WiKi](https://en.wikipedia.org/wiki/Terminal_adapter)
 
 A specialized gateway for ISDN.
 
-### _Line Driver_ | [WiKi](https://en.wikipedia.org/wiki/Line_driver)
+### Line Driver | [WiKi](https://en.wikipedia.org/wiki/Line_driver)
 
 A device to increase transmission distance by amplifying the signal; used in base-band networks only.
 
 ---
 
-## *Server* | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
+## Server | [WiKi](https://en.wikipedia.org/wiki/Server_(computing)) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%84%9C%EB%B2%84)
 
 In computing, a server is a piece of computer hardware of software (computer program) that provides functionality for other programs of devices, called "clients". This architecture is called the client-server model. Servers can provide various functionalities, often called "services", such as sharing data or resources among multiple clients, or performing computation for a client. A single server can serve multiple clients, and a single client can use multiple servers. A client process may run on the same device or may connect over a network to a server on a different device. Typical servers are database servers, file servers, mail servers, print servers, web servers, game servers, and application servers.
 
@@ -230,17 +230,17 @@ Dedicated server hosting is single-tenant hosting-the server has exclusive acces
 
 - The term bare metal server hosting is often used interchangeably with dedicated servers, but bare metal hosting offerings typically include more clould-like characterisitcs, such as provisioning in minutes (vs. hours), billing in hourly increments (vs. monthly), and providing higher-end hardware, including graphic processing units (GPUs).
 
-### *Web Hosting* | [WiKi](https://en.wikipedia.org/wiki/Web_hosting_service)
+### Web Hosting | [WiKi](https://en.wikipedia.org/wiki/Web_hosting_service)
 
 A web hosting service (often shorted to web host) is a type of Internet hosting service that allows individuals and organizations to make their website accessible via the World Wide Web. Web hosts are companies that provide space on a server owned or leased for use by client, as well as providing Internet connectivity, typically in a data center. Web hosts can also provide data center space and connectivity to the Internet for other servers located in their data center, called colocation, also known as housing in Latin America or France.
 
-### _Content Delivery Network (CDN)_ | [Cloudflare](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+### Content Delivery Network (CDN) | [Cloudflare](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 
 A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
 
-### _Scaling Up vs. Scaling Out_ | [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview) | [Blog (KR)](https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/)
+### Scaling Up vs. Scaling Out | [Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/scaling-out-vs-scaling-up/#overview) | [Blog (KR)](https://tecoble.techcourse.co.kr/post/2021-10-12-scale-up-scale-out/)
 
-### _Scale Up_
+### Scale Up
 
 Vertical scaling, or scaling up or down, where you increase or decrease computing power or databases as needed-either by changing performance levels or by using elastic database pools to automatically adjust to your workload demands.
 
@@ -267,25 +267,25 @@ When:
 
 ---
 
-## *Distributed Computing* | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
+## Distributed Computing | [WiKi](https://en.wikipedia.org/wiki/Distributed_computing)
 
 Distributed computing is a field of computer science that studies distributed systems. A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another from any system. The components interact with one another in order to achieve a common goal. Three significant challenges of distributed systems are: maintaining concurrency of components, overcoming the lack of a global clock, and managing the independent failure of components. When a component of one system fails, the entire system does not fail. Examples of distributed systems vary from SOA-based systems to massively multiplayer online games to peer-to-peer applications.
 
-## *Parallel Computing* | [WiKi](https://en.wikipedia.org/wiki/Parallel_computing)
+## Parallel Computing | [WiKi](https://en.wikipedia.org/wiki/Parallel_computing)
 
 Parallel computing is a type of computation in which many calculations or processes are carried out simultaneously. Large problems can often be divided into smaller ones, which can then be solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism. Parallelism has long been employed in high-performance computing, but has gained broader interest due to the physical constraints preventing frequency scaling. As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors.
 
-### *Grid Computing* | [WiKi](https://en.wikipedia.org/wiki/Grid_computing)
+### Grid Computing | [WiKi](https://en.wikipedia.org/wiki/Grid_computing)
 
 Grid computing is the use of widely distributed computer resources to reach a common goal. A computing grid can be thought of as a distributed system with non-interactive workloads that involve many files. Grid computing is distinguished from conventional high-performance computing systems such as cluster computing in that grid computers have each node set to perform a different task/application. Grid computers also tend to be more heterogeneous and geographically dispersed (thus not physically coupled) than cluster computers. Although a single grid can be dedicated to a particular application, commonly a grid is used for a variety of purpose. Grids are often constructed with general-purpose grid middleware software libraries. Grid sizes can be quite large,
 
-### *Cluster* | [WiKi](https://en.wikipedia.org/wiki/Computer_cluster)
+### Cluster | [WiKi](https://en.wikipedia.org/wiki/Computer_cluster)
 
 A computer cluster is a set of computers that work together so that they can be viewed as a single system. Unlike grid computers, computer clusters have each node set to perform the same task, controlled and scheduled by software.
 
 The components of a cluster are usually connected to each other through fast local area networks, with each node (computer used as a server) running its own instance of an operating system. In most circumstances, all of the nodes use the same hardware and the same operating system, although in some setups, different operating systems can be used on each computer, or different hardware.
 
-### *Cloud Computing* | [WiKi](https://en.wikipedia.org/wiki/Cloud_computing)
+### Cloud Computing | [WiKi](https://en.wikipedia.org/wiki/Cloud_computing)
 
 Cloud computing is the on-demand availability of computer system resources, especially data storage (cloud storage) and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each location being a data center. Cloud computing relies on sharing of resources to achieve coherence and typically uses a "pay-as-you-go" model, which can help in reducing capital expenses but may also lead to unexpected operating expenses for users.
 
@@ -305,7 +305,7 @@ TDM(Time Division Multiplexing)은 시간에 따라 채널을 나눠주는 방�
 
 비동기식 TDM은 통계적으로 peek 타임에 쓰는 사용량를 고려해서 비용을 절약할 수 있다. 통계적 TDM이라 하기도 한다.
 
-### _[Multi Processing- vs. Multi Threading- vs. Multi Plexing- Server](https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/)_
+### [Multi Processing- vs. Multi Threading- vs. Multi Plexing- Server](https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/)
 
 Multi Processing Server:
 1. 부모 프로세스는 리스닝 소켓으로 accept 함수를 호출해서 연결 요청을 수락한다.
@@ -423,17 +423,19 @@ Global server load balancing occurs across several geographically distributed se
 
 In DNS load balancing, you configure your domain to route network requests across a pool of resources on your domain. A domain can correspond to a website, a mail system, a print server, or another service that is made accessible through the internet. DNS load balancing is helpful for maintaining application availability and balancing network traffic across a globally distributed pool of resources. 
 
-## *Load Balancer* | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
+## Load Balancer | [Blog (KR)](https://m.post.naver.com/viewer/postView.naver?volumeNo=27046347&memberNo=2521903)
 
 The equipment used in the upper layer has all the functions of the equipment in the lower layer. Higher tiers enable more sophisticated load balancing.
 
-### *L4 Load Balancer*
+### L4 Load Balancer
 
 L4 load balancer distributes the load based on information from the network layer (IP, IPX) or transport layer (TCP, UDP). It is possible to divide traffic according to IP address, port number, MAC address, and transport protocol.
 
-### *L7 Load Balancer*
+### L7 Load Balancer
 
 L7 load balancer distributes the load at the application layer (HTTP, FTP, SMTP). It is possible to distribute traffic ti specific servers based on user requests such as HTTP headers, cookies, etc. It is possible to check the contents of a packet and distribute the load to a specific server according to the contents. In addition, it can detect viruses or filter out anomalous traffic such as DoS/DDoS.
+
+### [HAProxy](https://www.haproxy.org/) - The Reliable, High Performance TCP/HTTP Load Balancer
 
 ---
 
@@ -740,3 +742,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Server Event Loop Line KR, https://engineering.linecorp.com/ko/blog/do-not-block-the-event-loop-part1/, 2022-11-25-Fri.
 - Health Check Blog KR, https://aroundck.tistory.com/6800, 2022-12-20-Tue.
 - Load Balancing AWS, https://aws.amazon.com/what-is/load-balancing/, 2023-03-16-Thu.
+- HAProxy, https://www.haproxy.org/, 2023-03-20-Mon.
+- HAProxy Blog KR, https://leffept.tistory.com/309, 2023-03-20-Mon.
