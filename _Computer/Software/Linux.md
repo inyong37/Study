@@ -380,7 +380,7 @@ TCP socket states:
 
 ---
 
-### [Flatpak](https://flatpak.org/) | [Docs](https://docs.flatpak.org/en/latest/introduction.html)
+### [Flatpak](https://flatpak.org/) | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
 
 Flatpak is a framework for distributing desktop applications across various Linux distributions. It has been created by developers who have a long history of working on the Linux desktop, and is run as an indepedent open source project.
 
@@ -390,6 +390,12 @@ Terminology:
 - Runtime: also called platforms, these are integrated platforms to provide basic utilities needed for a Flatpak application to work.
 - BaseApp: these are integrated platforms for frameworks like Electron.
 - Flatpak bundle: a specific single-file export format which contains a Flatpak app or runtime.
+
+### [Flatpak Repositories](https://docs.flatpak.org/en/latest/repositories.html)
+
+Flatpak repositories are the primary mechanism for publishing applications, so that they can be installed by users.
+
+### [Hosting a repository](https://docs.flatpak.org/en/latest/hosting-a-repository.html)
 
 ---
 
@@ -444,3 +450,6 @@ Terminology:
 - chrony, https://chrony.tuxfamily.org/, 2023-03-14-Tue.
 - Flatpak, https://flatpak.org/, 2023-03-16-Thu.
 - Flatpak Docs, https://docs.flatpak.org/en/latest/introduction.html, 2023-03-16-Thu.
+- Repositories Flatpak, https://docs.flatpak.org/en/latest/repositories.html, 2023-03-20-Mon.
+- Hosting a repository Flatpak, https://docs.flatpak.org/en/latest/hosting-a-repository.html, 2023-03-20-Mon.
+- FaltHub, https://flathub.org/home, 2023-03-20-Mon.
