@@ -148,7 +148,15 @@ Hardware or software components which typically sit on the connection point of d
 
 ### Proxy Server | [WiKi](https://en.wikipedia.org/wiki/Proxy_server)
 
-Computer network service which allows client to make indirect network connections to other network services.
+A proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource.
+
+### [Forward Proxy Server vs. Reverse Proxy Server (KR)](https://losskatsu.github.io/it-infra/reverse-proxy/#%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%9Creverse-proxy-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%85%90)
+
+```Bash
+Client 1 ⌝                                             
+Client 2 - Forward Proxy Server - Reverse Proxy Server -
+Client 3 ⌟
+```
 
 ### Firewall | [WiKi](https://en.wikipedia.org/wiki/Firewall_(computing))
 
