@@ -394,6 +394,8 @@ TCP socket states:
 
 - ESTABLISHED -> FIN/ACK -> Passive CLOSE -> CLOSE WAIT -> LAST ACK -> CLOSED
 
+### [iptables](https://linux.die.net/man/8/iptables) - administration tool for IPv4 packet filtering and NAT
+
 ---
 
 ### [Flatpak](https://flatpak.org/) - The future of apps on Linux | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
@@ -473,3 +475,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - YUM Red Hat, https://access.redhat.com/solutions/9934, 2023-03-22-Wed.
 - DNF Fedora, https://docs.fedoraproject.org/en-US/quick-docs/dnf/, 2023-03-22-Wed.
 - YUM vs. DNF, http://www.differencebetween.net/technology/difference-between-yum-and-dnf/, 2023-03-22-Wed.
+- iptables, https://linux.die.net/man/8/iptables, 2023-03-22-Wed.
