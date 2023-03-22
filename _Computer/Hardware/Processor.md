@@ -1,4 +1,4 @@
-# *Central Processing Unit (CPU)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
+# Central Processing Unit (CPU) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%A4%91%EC%95%99_%EC%B2%98%EB%A6%AC_%EC%9E%A5%EC%B9%98)
 
 CPU(중앙 처리 장치)는 컴퓨터 시스템을 통제하고 프로그램의 연산을 실행하고 처리하는 가장 핵심적인 컴퓨터의 제어 장치, 혹은 그 기능을 내장한 칩을 말한다. 컴퓨터 안의 중앙 처리 장치는 외부에서 정보를 입력 받고, 기억하고, 컴퓨터 프로그램의 명령어를 해석하여 연산하고, 외부로 출력하는 역할을 한다. CPU는 컴퓨터 부품과 정보를 교환하면서 컴퓨터 시스템 전체를 제어하는 장치로, 모든 컴퓨터의 작동 과정이 CPU의 제어를 받기 때문에 컴퓨터의 두뇌의 해당한다고 할 수 있다. CPU chip에는 실행 부분뿐만 아니라 캐시 등의 부가 장치가 통합된 경우가 많다. CPU에는 MCU(Micro Control Unit)와 주변 장치(외부 확장 장치에 관한 IC)가 다 들어있는 SoC(System On Chip)가 있다. 주변 IC가 따로 달려 있을 경우에는 MCU이다. CPU의 구성으로는 처리할 명령어를 저장하는 역할을 하는 프로세서 레지스터와 비교, 판단, 연산을 담당하는 산술논리연산장치(ALU), 그리고 명령어의 해석과 올바른 실행을 위하여 CPU를 내부적으로 제어하는 제어부의 내부 버스 등이 있다.
 
@@ -6,7 +6,7 @@ CPU(중앙 처리 장치)는 컴퓨터 시스템을 통제하고 프로그램의
 
 Micro processor는 페드리코 페긴이 1970년대에 발명한 것으로, CPU의 설계와 구현에 대한 전반적인 기초를 완전히 바꾸어 놓았다. 최초의 상업용 마이크로프로세스는 1970년에 등장한 Intel 4004, 범용 마이크로프로세서는 1974년의 Intel 8080이다. 각종 전자 부품과 반도체 칩을 하나의 작은 칩에 내장한 전자 부품을 마이크로프로세서라고 한다. 마이크로프로세서는 전기 밥통에 쓰이는 낮은 성능의 저품부터 컴퓨터에 쓰이는 높은 성능의 제품까지 매우 다양하다. 마이크로프로세서들 가운데 가장 복잡하고 성능이 높은 제품은 컴퓨터의 연산 장치로 쓰인다. 이것을 CPU라고 한다.
 
-# *System on Chip (SoC)* | [Samsung Electronics (KR)](https://www.samsungsemiconstory.com/kr/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9A%A9%EC%96%B4-%EC%82%AC%EC%A0%84-soc/)
+# System on Chip (SoC) | [Samsung Electronics (KR)](https://www.samsungsemiconstory.com/kr/%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%9A%A9%EC%96%B4-%EC%82%AC%EC%A0%84-soc/)
 
 전체 시스템을 칩 하나에 담은 기술집약적 반도체.
 
@@ -16,7 +16,7 @@ Micro processor는 페드리코 페긴이 1970년대에 발명한 것으로, CPU
 
 이렇게 여러 기능을 가진 반도체가 하나의 칩으로 통합되면 칩을 탑재하는 공간이 크게 줄어들어 제품 소형화가 가능하고, 여러 개의 반도체를 별도로 만드는 것 대비 제조 비용이 감소하는 등 여러 장점들이 있다.
 
-# *Reduced Instruction Set Computer (RISC)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%B6%95%EC%86%8C_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9_%EC%BB%B4%ED%93%A8%ED%84%B0)
+# Reduced Instruction Set Computer (RISC) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%B6%95%EC%86%8C_%EB%AA%85%EB%A0%B9%EC%96%B4_%EC%A7%91%ED%95%A9_%EC%BB%B4%ED%93%A8%ED%84%B0)
 
 축소 명령어 집합 컴퓨터(Reduced Instruction Set Computer, RISC, 리스크)는 CPU 명령어의 개수를 줄여 명령어 해석시간을 줄임으로서 명령어 실행속도를 빠르게 한 방식으로, 마이크로프로세서를 설계하는 방법 가운데 하나이며, 주로 신호처리나 실시간제어용으로 설계되며, SPARC, MIPS 등의 아키텍처에서 사용된다.
 
@@ -36,11 +36,11 @@ MIPS 디자이너들이 명령어 세트를 깔끔하게 설계했기 때문에 
 
 ---
 
-# *Application Processor (AP)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)
+# Application Processor (AP) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%B9%A9_%EC%B2%B4%EC%A0%9C#%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98_%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C)
 
 AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 등 사람의 두뇌 역할을 하는 핵심 부품이다. AP는 CPU와 달리 GPU와 설계에 따라 통신 칩(WiFi, Bluetooth, 3G 등)과 USB와 같은 기능까지 하나의 칩에 포함시켜 놓는 칩셋의 형태로 구성되었기 떄문이다. 칩셋은 SoC라 불리며 CPU, GPU 등 칩 한에 여러 기능을 집적시켜 모든 애플리케이션 구동과 시스템 장치, 여러 인터페이스 장치 등을 제어하고 관장하는 장치로, 부피를 줄이고 전력 소모를 최소화할 수 있게 한손에 들고 다닐 수 있는 초소형의 컴퓨터를 만들 수 있게 되었다고 한다.
 
-## _Mobile Application Processor (AP)_ | [Samsung Electroncis (KR)](https://www.samsungsemiconstory.com/kr/%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%9a%a9%ec%96%b4-%ec%82%ac%ec%a0%84-%eb%aa%a8%eb%b0%94%ec%9d%bc-ap/)
+## Mobile Application Processor (AP) | [Samsung Electroncis (KR)](https://www.samsungsemiconstory.com/kr/%eb%b0%98%eb%8f%84%ec%b2%b4-%ec%9a%a9%ec%96%b4-%ec%82%ac%ec%a0%84-%eb%aa%a8%eb%b0%94%ec%9d%bc-ap/)
 
 스마트폰, 태블릿 PC와 같은 전자기기에 탑재되어 명령해석, 연산, 제어 등의 두뇌 역할을 하는 시스템 반도체.
 
@@ -52,15 +52,15 @@ AP는 PC와 달리 스마트폰, 태블릿에서 명령 해석, 연산, 제어 �
 
 ---
 
-### *[Intel](https://www.intel.com/content/www/us/en/homepage.html)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94)
+## [Intel](https://www.intel.com/content/www/us/en/homepage.html) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%85%94)
 
 Intel은 반도체 설계와 제조를 하는 미국의 기업으로, 본사는 캘리포니아 샌타클래라에 있다. Intel은 1968년 7월 18일에 고든 무어와 로버트 노이스가 설립하였고 INTegrated ELectronics의 혼성어이다. 1971년 최초의 마이크로프로세서인 Intel 4004를 만들었으며 이후 만들어진 인텔 8088은 IBM PC에 장착되어 유명해졌다. 이때 만들어진 x86 명령어 아키텍처는 확장을 통해 지금까지 데스크탑 시장에서 널리 쓰이게 되었다. 일반적인 PC는 x86 호환 프로세서를 사용하는 IBM PC 호환기종이다. 이뿐 아니라 메인보드 칩셋, 네트워크 카드, 집접회로, 플래시 메모리, 그래픽 프로세서, 임베디드 프로세서 등의 통신과 컴퓨팅에 관련된 장치도 만든다.
 
-### _[Intel Xeon Processor](https://www.intel.com/content/www/us/en/products/processors/xeon.html)_
+### [Intel Xeon Processor](https://www.intel.com/content/www/us/en/products/processors/xeon.html)
 
 _[Intel Xeon Platinum 8180 Processor](https://www.intel.com/content/www/us/en/products/processors/xeon/scalable/platinum-processors/platinum-8180.html) $15,759.99_
 
-### _[Intel Core Processor](https://www.intel.com/content/www/us/en/products/processors/core.html)_
+### [Intel Core Processor](https://www.intel.com/content/www/us/en/products/processors/core.html)
 
 ### How is a Server Processor Different from a PC Processor? | [Gigabyte](https://www.gigabyte.com/Article/server-processors-the-core-of-a-server-s-performance)
 
@@ -72,15 +72,15 @@ CPU Cache: Cache는 CPU와 RAM 사이에서 자주/최근에 사용하는 명령
 
 CPU Sockets: CPU 수가 많을수록 성능이 좋아지기 때문에, 서버의 마더보드는 multiple CPU socket을 지원한다. 그리고 PC에 비해 필요한 경우 빠르고 쉽게 교체가 가능하다.
 
-### *[AMD](https://www.amd.com/en)* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4)
+## [AMD](https://www.amd.com/en) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%96%B4%EB%93%9C%EB%B0%B4%EC%8A%A4%ED%8A%B8_%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C_%EB%94%94%EB%B0%94%EC%9D%B4%EC%8B%9C%EC%8A%A4)
 
 AMD(Advanced Micro Devices)는 미국의 집적회로 제조사로 캘리포니아 산타클라라 카운티 서니베일에 위치해있다. Intel에 이어 2번째로 큰 x86 아키텍처 호환 프로세스 제조사이며 플래시 메모리 분야에서도 주도적인 위치에 있다. AMD가 ATI를 2006년에 합병한 이후 GPU 시장에서도 높은 점유율을 차지하고 있다. AMD는 제리 샌더스가 1969년 5월 1일에 페어차일드 반도체의 동료들 중 7명과 함께 설립하였다.
 
-### _[AMD Ryzen Desktop Processor](https://www.amd.com/en/processors/ryzen)_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0)
+### [AMD Ryzen Desktop Processor](https://www.amd.com/en/processors/ryzen) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%9D%BC%EC%9D%B4%EC%A0%A0)
 
 Ryzen은 젠과 젠 플러스와 젠 2 아키텍처를 기반으로 하여 AMD가 제조하는 컴퓨터 마이크로프로세서 시리즈에 적용하는 브랜드 이름이다. 젠으로 구동되는 라이젠 프로세서들은 데이터 센터나 서버에 목표를 두지 않고 고성능 데스크탑(HEDT), 저전력 컴퓨팅을 지향하는 랩탑 탑재용 모바일 프로세서 ㅣ장을 목표한다. Ryzen은 Intel의 Core 시리즈에 대응한다.
 
-### _[ARM (Advanced/Acorn RISC Machine)](https://www.arm.com)_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/ARM_아키텍처)
+### [ARM (Advanced/Acorn RISC Machine)](https://www.arm.com) | [WiKi (KR)](https://ko.wikipedia.org/wiki/ARM_아키텍처)
 
 ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이다. 저전력을 사용하도록 설계하여 arm CPU는 모바일 시장 및 싱글 보드 컴퓨터로 불리는 개인용 컴퓨터에서 뚜렷한 강세를 보인다. arm은 1985년 4월 26일 영국의 캠브릿지에 있는 Acorn Computers에 의해서 탄생되었으며, 1990년 11월 Apple과 VLSI의 조인트 벤처 형식으로 ARM(Advanced RISC Machines)가 생겼다.
 
@@ -100,29 +100,29 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 
 ---
 
-# *Graphics Processing Unit (GPU)* | Videa Graphics Array (VGA)
+# Graphics Processing Unit (GPU) | Videa Graphics Array (VGA)
 
-### _[Nvidia](https://www.nvidia.com/en-us/)_
+## [Nvidia](https://www.nvidia.com/en-us/)
 
-### _[AMD](https://www.amd.com/en)_ (takeover ATI)
-
----
-
-# _General Purpose Graphics Processing Unit (GPGPU)_
+## [AMD](https://www.amd.com/en) (takeover ATI)
 
 ---
 
-# _Tensor Procssing Unit (TPU)_
-
-### [Google](https://cloud.google.com/tpu)
+## General Purpose Graphics Processing Unit (GPGPU)
 
 ---
 
-# _Nueral Processing Unit (NPU)_
+## Tensor Procssing Unit (TPU)
+
+## [Google](https://cloud.google.com/tpu)
 
 ---
 
-# PowerPC | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8CPC)
+## Nueral Processing Unit (NPU)
+
+---
+
+## PowerPC | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8CPC)
 
 파워PC(PowerPC, Performance Optimization With Enhanced RISC – Performance Computing의 약어, 간단히 PPC)는 1991년 애플, IBM, 모토로라 등이 제휴한 AIM 연합에서 발표한 RISC 방식의 명령 집합 아키텍처(Instruction Set Architecture)를 말한다. PowerPC 명령 집합은 지속적으로 진화하고 있으며, 2006년에 Power ISA로 이름을 바꾸었으나, 그 이후에도 파워PC는 파워 아키텍처 기반의 몇몇 프로세서를 통칭하는 명칭으로 사용되고 있다.
 
@@ -156,4 +156,3 @@ ARM architecture은 임베디드 기기에 많이 사용되는 RISC processor이
 - MIPS WiKi KR, https://ko.wikipedia.org/wiki/MIPS_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98, 2022-08-05-Fri.
 - PowerPC Wiki KR, https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9B%8CPC, 
 - How is a Server Processor Different from a PC Processor? Gigabyte, https://www.gigabyte.com/Article/server-processors-the-core-of-a-server-s-performance, 2022-11-03-Thu.
-- 
