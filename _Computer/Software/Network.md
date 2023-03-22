@@ -304,7 +304,7 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
-### *[NGINX](https://nginx.org/en/)* | [HW Specification](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf) | [HW Specification (KR)](https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/)
+### *[NGINX](https://nginx.org/en/)*
 
 nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UCP proxy server, originally written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VK, and Rambler. According to Netcraft, nginx served or proxied 21.48% busiest sites in September 2022. Here are some of the success stories: Dropbox, Netflix, Wordpress.com, FastMail.FM.
 
@@ -322,7 +322,13 @@ Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NG
 
 NGINX Tuning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor)
 
-### _[Nginx vs. Apache]_ | [Blog KR)](https://cornswrold.tistory.com/429)
+[HW Specification](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf) | [HW Specification (KR)](https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/)
+
+[nginx.conf (KR)](https://narup.tistory.com/209?category=1030141)
+
+[Nginx with Multiple Server](https://serverfault.com/questions/706694/use-nginx-as-reverse-proxy-for-multiple-servers)
+
+### _[Nginx vs. Apache (KR)](https://cornswrold.tistory.com/429)_
 
 ### *[nip.io](https://nip.io/)*
 
@@ -429,3 +435,5 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - Remote Frame Buffer Wiki, https://en.wikipedia.org/wiki/RFB_protocol, 2023-03-09-Thu.
 - Secure Copy Protocol Wiki, https://en.wikipedia.org/wiki/Secure_copy_protocol, 2023-03-09-Thu.
 - SSH File Transfer Protocol Wiki, https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol, 2023-03-09-Thu.
+- Nginx Configuration Blog KR, https://narup.tistory.com/209?category=1030141, 2023-03-22-Wed.
+- Nginx Multiple Server StackExchange, https://serverfault.com/questions/706694/use-nginx-as-reverse-proxy-for-multiple-servers, 2023-03-22-Wed.
