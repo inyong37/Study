@@ -158,7 +158,7 @@ Client 2 - Forward Proxy Server - Reverse Proxy Server - (Web) Server 2
 Client 3 /                                             \ (Web) Server 3
 ```
 
-### [Reverse Proxy with Nginx (KR)](https://narup.tistory.com/238)
+### [Reverse Proxy Server with Nginx (KR)](https://narup.tistory.com/238)
 
 Advantages of using Reverse Proxy Server:
 - Load balancing
