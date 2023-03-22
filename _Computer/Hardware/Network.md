@@ -153,10 +153,19 @@ A proxy server is a server application that acts as an intermediary between a cl
 ### [Forward Proxy Server vs. Reverse Proxy Server (KR)](https://losskatsu.github.io/it-infra/reverse-proxy/#%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%9Creverse-proxy-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%85%90)
 
 ```Bash
-Client 1 ⌝                                             
-Client 2 - Forward Proxy Server - Reverse Proxy Server -
-Client 3 ⌟
+Client 1 \                                             / (Web) Server 1
+Client 2 - Forward Proxy Server - Reverse Proxy Server - (Web) Server 2
+Client 3 /                                             \ (Web) Server 3
 ```
+
+### [Reverse Proxy with Nginx (KR)](https://narup.tistory.com/238)
+
+Advantages of using Reverse Proxy Server:
+- Load balancing
+- Caching
+- SSL Termination
+- Compressing
+- Release DDoS Attacks
 
 ### Firewall | [WiKi](https://en.wikipedia.org/wiki/Firewall_(computing))
 
@@ -752,3 +761,5 @@ Tap to Pay on iPhone follows the PCI CPoC Standard, which uses Level 2 certified
 - Load Balancing AWS, https://aws.amazon.com/what-is/load-balancing/, 2023-03-16-Thu.
 - HAProxy, https://www.haproxy.org/, 2023-03-20-Mon.
 - HAProxy Blog KR, https://leffept.tistory.com/309, 2023-03-20-Mon.
+- Forward Proxy Server vs. Reverse Proxy Server Blog KR, https://losskatsu.github.io/it-infra/reverse-proxy/#3-%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%9Creverse-proxy-%EC%84%9C%EB%B2%84%EB%9E%80, 2023-03-22-Wed.
+- Reverse Proxy Server with Nginx Blog (KR), https://narup.tistory.com/238, 2023-03-22-Wed.
