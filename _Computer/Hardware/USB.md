@@ -1,10 +1,10 @@
-# :package: _Universial Serial Bus (USB)_ | [WiKi](https://en.wikipedia.org/wiki/USB)
+# :package: Universial Serial Bus (USB) | [WiKi](https://en.wikipedia.org/wiki/USB)
 
 Universal Serial Bus (USB) is an industry standard that establishes specifications for cables and connectors and protocols for connection, communication and power supply (interfacing) between computers, peripherals and other computers. A broad variety of USB hardware exists, including several different connectors, of which USB-C is the most recent.
 
 Released in 1996, the USB standard is currently maintained by the USB Implementers Forum (USB-IF). There have been four generations of USB specifications: USB 1.x, USB 2.0, USB 3.x and USB4.
 
-## _USB Flash Drive_ | [WiKi](https://en.wikipedia.org/wiki/USB_flash_drive)
+## USB Flash Drive | [WiKi](https://en.wikipedia.org/wiki/USB_flash_drive)
 
 A USB flash drive is a data storage device that includes flash memory with an integrated USB interface. It is typically removable, rewritable and much smaller than an optical disc. Most weigh less than 30 g (1 oz). Since first appearing on the market in late 2000, as with virtually all other computer memory devices, storage capacities have risen while prices have dropped. As of March 2016, flash drives with anywhere from 8 to 256 gigabytes were frequently sold, while 512 GB and 1 terabyte units were less frequent. As of 2018, 2 TB flash drives were the largest available in terms of storage capacity. Some allow up to 100,000 write/erase cycles, depending on the exact type of memory chip used, and are thought to last between 10 and 100 years under normal circumstances.
 
@@ -16,35 +16,35 @@ A flash drive consists of a small printed circuit board carrying the circuit ele
 
 ---
 
-## _Type_
+## Type
 
-### _A_
+### A
 
-### _B_
+### B
 
-### _Mini B_
+### Mini B
 
-### _Micro B_
+### Micro B
 
-### _C_
+### C
 
 ---
 
-## _Version_
+## Version
 
-### _1.0 & 1.1_
+### 1.0 & 1.1
 
 Low Speed 1.5Mbps, Full Speed 12Mbps
 
-### _2.0_
+### 2.0
 
 High Speed 480Mbps
 
-### _3.0_
+### 3.0
 
 Super Speed USB: 5Gbps
 
-### _3.1_
+### 3.1
 
 Super Speed USB: 10Gbps
 
