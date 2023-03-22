@@ -80,6 +80,18 @@ sudo apt-get update && sudo apt-get install software-properties-common -y
 sudo add-apt-repository "deb http://my-repo-server:port distribution main" -y
 ```
 
+### [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf/)
+
+DNF is a software package manager that installs, updates, and removes packages on Fedora and is the successor to YUM (Yellow-Dog Updater Modified). DNF makes it easy to maintain packages by automatically checking for dependencies and etermines the actions required to install packages. This method eliminates the need to manually install or update the package, and its dependencies, using the `rpm` command. DNF is now the default software package management tool in Fedora.
+
+### [YUM](https://access.redhat.com/solutions/9934)
+
+`yum` is the primary tool for getting, installing, deleting, querying, and managing Red Hat Enterprise Linux RPM software packages from official Red Hat software repositories, as well as other third-party repositories. `yum` is used in Red Hat Enterprise Linux version 5 and later. Versions of Red Hat Enterprise Linux 4 and earlier used up2date.
+
+### [YUM vs. DNF](http://www.differencebetween.net/technology/difference-between-yum-and-dnf/)
+
+While the main purpose of YUM or DNF is to manage actual RPM packages on your system, DNF sports better dependency resolution because it uses the more modern and advanced 'libsolv' for improved dependency solving. Libsolv is a proven code base and one of the most sophisticated dependency solving implementations. YUM, on the other hand, uses the public API for dependency resolution.
+
 ## _Repository_
 
 ### _[Debian Repository](https://wiki.debian.org/DebianRepository)_
@@ -453,3 +465,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Repositories Flatpak, https://docs.flatpak.org/en/latest/repositories.html, 2023-03-20-Mon.
 - Hosting a repository Flatpak, https://docs.flatpak.org/en/latest/hosting-a-repository.html, 2023-03-20-Mon.
 - FaltHub, https://flathub.org/home, 2023-03-20-Mon.
+- yum vs. dnf, http://www.differencebetween.net/technology/difference-between-yum-and-dnf/, 2023-03-22-Wed.
+- yum Red Hat, https://access.redhat.com/solutions/9934, 2023-03-22-Wed.
+- dnf Fedora, https://docs.fedoraproject.org/en-US/quick-docs/dnf/, 2023-03-22-Wed.
