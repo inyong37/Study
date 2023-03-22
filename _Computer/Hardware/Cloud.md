@@ -24,6 +24,8 @@ Cloud storage is a cloud computing model that enables storing data and files on 
 
 A private cloud is a dedicated environment which may be managed by the organization or a third party cloud service provider. A private cloud can be on premise or hosted in a third party's data center.
 
+### [Hybrid Cloud (KR)](https://library.gabia.com/contents/infrahosting/7495/)
+
 ---
 
 ### Reference
@@ -39,3 +41,4 @@ A private cloud is a dedicated environment which may be managed by the organizat
 - What is Cloud Storage?, https://aws.amazon.com/what-is/cloud-storage/, 2023-01-11-Wed.
 - What are cloud services?, https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services, 2023-01-11-Wed.
 - Difference Between Private Cloud and On Premise, http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/, 2023-01-11-Wed.
+- Hybrid Blog KR, https://library.gabia.com/contents/infrahosting/7495/, 2023-03-22-Wed.
