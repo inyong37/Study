@@ -1,6 +1,6 @@
 # Cloud :cloud:
 
-## _[What are cloud services?](https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services)_
+## [Cloud Service](https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services)
 
 Cloud services are infrastructure, platforms, or software that are hosted by third-party providers and made available to users through the internet.
 
@@ -10,19 +10,21 @@ Examples: All infrastructure, platforms, software, or technologies that users ac
 - Software-as-a-Service (SaaS) provides users with-essentially-a cloud application, the platform on which it runs, and the platform's underlying infrastructure.
 - Function-as-a-Service (FaaS), an event-driven execution model, lets developers build, run, and manage app packages as functions without maintaining the infrastructure.
 
-## _[What is cloud computing?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/)_
+## [Cloud Computing](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/)
 
 Cloud computing is the delivery of computing services-including servers, storage, databases, networking, software, analytics, and intelligence-over the Internet ("the cloud") to offer faster innovation, flexible resources, and economies of scale,
 
-## _[What Is Cloud Storage?](https://aws.amazon.com/what-is/cloud-storage/)_
+## [Cloud Storage](https://aws.amazon.com/what-is/cloud-storage/)
 
 `Cloud Storage is related with the 'Storage' page.`
 
 Cloud storage is a cloud computing model that enables storing data and files on the internet through a cloud computing provider that you access either through the public internet or a dedicated private network connection.
 
-### _[Difference Between Private Cloud and On Premise](http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/)_
+### [Private Cloud vs. On Premise](http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/)
 
 A private cloud is a dedicated environment which may be managed by the organization or a third party cloud service provider. A private cloud can be on premise or hosted in a third party's data center.
+
+---
 
 ### Reference
 - Amazon AWS, https://aws.amazon.com/, 2023-01-11-Wed.
