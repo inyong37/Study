@@ -18,7 +18,7 @@ Chapter 2. [자연어와 단어의 분산 표현](C02_Distributed-Representation
 
 Chapter 3. [word2vec](C03_Word2Vec.md)
 
-Chapter 4. [word2vec 속도 개선](C04_Word2Vec-Speecup.md)
+Chapter 4. [word2vec 속도 개선](C04_Word2Vec-Speedup.md)
 
 Chapter 5. [순환 신경망(RNN)](C05_RNN.md)
 
