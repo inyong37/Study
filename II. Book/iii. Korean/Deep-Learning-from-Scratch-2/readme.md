@@ -16,17 +16,17 @@ Chapter 1. [신경망 복습](C01_Neural-Networks-Review.md)
 
 Chapter 2. [자연어와 단어의 분산 표현](C02_Distributed-Representation-of-Natural-Language-and-Words.md)
 
-Chapter 3. word2vec
+Chapter 3. [word2vec](C03_Word2Vec.md)
 
-Chapter 4. word2vec 속도 개선
+Chapter 4. [word2vec 속도 개선](C04_Word2Vec-Speecup.md)
 
-Chapter 5. 순환 신경망(RNN)
+Chapter 5. [순환 신경망(RNN)](C05_RNN.md)
 
-Chapter 6. 게이트가 추가된 RNN
+Chapter 6. [게이트가 추가된 RNN](C06_RNN-with-Gate-Added.md)
 
-Chapter 7. RNN을 사용한 문장 생성
+Chapter 7. [RNN을 사용한 문장 생성](C07_Sentence-Generation-using-RNN.md)
 
-Chapter 8. 어텐션
+Chapter 8. [어텐션](C08_Attention.md)
 
 Appendix A. 시그모이드 함수와 tanh 함수의 미분
 
