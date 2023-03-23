@@ -12,9 +12,9 @@ Spring, 2023
 
 ## Content
 
-Chapter 1. 신경망 복습
+Chapter 1. [신경망 복습](C01_Neural-Networks-Review.md)
 
-Chapter 2. 자연어와 단어의 분산 표현
+Chapter 2. [자연어와 단어의 분산 표현](C02_Distributed-Representation-of-Natural-Language-and-Words.md)
 
 Chapter 3. word2vec
 
