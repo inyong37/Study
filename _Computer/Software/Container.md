@@ -210,7 +210,7 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
 
 ## :whale2: Kubernetes
 
-`This part has moved to the 'Kubernetes' page.
+`This part has moved to the 'Kubernetes' page.`
 
 ---
 
