@@ -518,7 +518,7 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 
 ---
 
-## Immutable Operating System - high secure & easy to manage | [TheNewStack] | [Blog](https://fadingeek.medium.com/immutable-operating-systems-a-new-trend-56edf3e162cf)
+## :closed_lock_with_key: Immutable Operating System - high secure & easy to manage | [TheNewStack] | [Blog](https://fadingeek.medium.com/immutable-operating-systems-a-new-trend-56edf3e162cf)
 
 Immutable operating systems have a lot of advantages. They are inherently more secure, because many attacks and exploits depend on writing or changing files. Also, even if an exploit is found, bad actors cannot change the operating system on disk (which in itself will thwart attacks that depend on writing to the filesystem), so a reboot will clear any memory-resident malware and recover back to a non-exploited state.
 
