@@ -398,7 +398,33 @@ TCP socket states:
 
 ---
 
-### [Flatpak](https://flatpak.org/) - The future of apps on Linux | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
+## Desktop Environment (DE) | [Wiki](https://en.wikipedia.org/wiki/Desktop_environment)
+
+In computing, a desktop environment (DE) is an implementation of the desktop metaphor made of a bundle of programs running on top of a computer operating system that share a common graphical user interface (GUI), sometimes described as a graphical shell. The desktop environment was seen mostly on personal computers until the rise of mobile computing. Desktop GUIs help the user to easily access and edit files, while they usually do not provide access to all of the features found in the underlying operating system. Instead, the traditional command-line interface (CLI) is still used when full control over the operating system is required.
+
+A desktop environment typically consists of icons, windows, toolbars, folders, wallpapers and desktop widgets (see Elements of graphical user interfaces and WIMP). A GUI might also provide drag and drop functionality and other features that make the desktop metaphor more complete. A desktop environment aims to be an intuitive way for the user to interact with the computer using concepts which are similar to those used when interacting with the physical world, such as buttons and windows.
+
+While the term desktop environment originally described a style of user interfaces following the desktop metaphor, it has also come to describe the programs that realize the metaphor itself. This usage has been popularized by projects such as the Common Desktop Environment, K Desktop Environment, and GNOME.
+
+### [freedesktop.org](https://www.freedesktop.org/wiki/) | [Software](https://www.freedesktop.org/wiki/Software/) | [GitLab](https://gitlab.freedesktop.org/explore/groups)
+
+freedesktop.org hosts the development of free and open source software, focused on interoperability and shared technology for open-source graphical and desktop systems. We do not ourselves produce a desktop, but we aim to help others to do so.
+
+### [GNOME](https://www.gnome.org/) | [Wiki](https://en.wikipedia.org/wiki/GNOME)
+
+GNOME, originally an acronym for GNU Network Object Model Environment, is a free and open-source desktop environment for Linux and other Unix-like operating systems.
+
+GNOME is the default desktop environment of many major Linux distributions, including Debian, Endless OS, Fedora Linux, Red Hat Enterprise Linux, SUSE Linux Enterprise, Ubuntu, and Tails; it is also the default in Oracle Solaris, a Unix operating system.
+
+### [GNOME Platform](https://developer.gnome.org/documentation/introduction.html) | [Components](https://developer.gnome.org/documentation/introduction/components.html)
+
+The GNOME platform consists of libraries, services and tools which provide everything you need to create and distribute high-quality apps. The platform covers everything from basic UI creation, code editing and building, and app distribution, through to more specialised libraries and services.
+
+GNOME libraries include things like GTK, for building application user interfaces, GStreamer, for multimedia playback, and GSocket networking APIs. These are available to use through the GNOME Flatpak runtime, as well as through the main Linux distributions.
+
+GNOME services are included in the system and give apps access to things like email, calendaring, contacts, and password storage. One of the most useful services for apps is portals, which provides sandboxed apps with access to a wide range of system features.
+
+### [Flatpak](https://flatpak.org/) - installs, manages and runs sandboxed desktop application bundles. | [Docs](https://docs.flatpak.org/en/latest/introduction.html) | [FlatHub](https://flathub.org/home)
 
 Flatpak is a framework for distributing desktop applications across various Linux distributions. It has been created by developers who have a long history of working on the Linux desktop, and is run as an indepedent open source project.
 
@@ -476,3 +502,11 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - DNF Fedora, https://docs.fedoraproject.org/en-US/quick-docs/dnf/, 2023-03-22-Wed.
 - YUM vs. DNF, http://www.differencebetween.net/technology/difference-between-yum-and-dnf/, 2023-03-22-Wed.
 - iptables, https://linux.die.net/man/8/iptables, 2023-03-22-Wed.
+- Desktop Environment Wiki, https://en.wikipedia.org/wiki/Desktop_environment, 2023-03-24-Fri.
+- freedesktop.org, https://www.freedesktop.org/wiki/, 2023-03-24-Fri.
+- freedesktop.org Software, https://www.freedesktop.org/wiki/Software/, 2023-03-24-Fri.
+- freedesktop GitLab, https://gitlab.freedesktop.org/explore/groups, 2023-03-24-Fri.
+- GNOME, https://www.gnome.org/, 2023-03-24-Fri.
+- GNOME Wiki, https://en.wikipedia.org/wiki/GNOME, 2023-03-24-Fri.
+- GNOME Platform, https://developer.gnome.org/documentation/introduction.html, 2023-03-24-Fri.
+- GNOME Components, https://developer.gnome.org/documentation/introduction/components.html, 2023-03-24-Fri.
