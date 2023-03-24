@@ -270,7 +270,7 @@ chrony is a versatile implementation of the Network Time Protocol (NTP). It can 
 
 ---
 
-### [OSTree](https://ostreedev.github.io/ostree/introduction/) | libostree
+### [OSTree](https://ostreedev.github.io/ostree/introduction/) | libostree | [GitHub](https://github.com/ostreedev/ostree)
 
 OSTree is an upgrade system for Linux-based operating systems that performs atomic upgrades of complete filesystem trees. It is not a package system; rather, it is intended to complement them. A primary model is composing packages on a server, and then replicating them to clients.
 
@@ -524,3 +524,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - GNOME Components, https://developer.gnome.org/documentation/introduction/components.html, 2023-03-24-Fri.
 - OSTree, https://developer.toradex.com/torizon/in-depth/ostree/, 2023-03-24-Fri.
 - OSTree, https://ostreedev.github.io/ostree/introduction/, 2023-03-24-Fri.
+- libostree GitHub, https://github.com/ostreedev/ostree, 2023-03-24-Fri.
