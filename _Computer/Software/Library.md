@@ -1,4 +1,4 @@
-# *Library* | [WiKi](https://en.wikipedia.org/wiki/Library_(computing))
+# :books: Library | [Wiki](https://en.wikipedia.org/wiki/Library_(computing))
 
 `Some contents are from the 'Linux' page and 'Windows' page.`
 
@@ -14,15 +14,18 @@ The behavior implemented by a library can be connected to the invoking program a
 
 Most compiled languages have a standard library although programmers can also create their own custom libraries. Most modern software systems provide libraries that implement the majority of the system services. Such libraries have commoditized the services which a modern application requires. As such, most code used by modern applications is provided in these system libraries.
 
-## *Library vs. Header*
+## Library vs. Header
+
 라이브러리는 기계어로 번역된 라이브러리이며, 헤더는 컴파일 하기 전의 프로그래머가 이해할 수 있고 문법에 맞게 작성되어 있는 선언들의 집합이다. 컴파일된 산물인 .o(object) 파일을 여러개 모아놓은 것이 라이브러리이다. 라이브러리를 사용하기 위해서는 해당 라이브러리의 헤더가 필요하다. 링커가 이해할 수 있는 symbol name을 가지고 library를 찾아 link하게 된다. compilier가 이런 header를 가지고 symbol name을 만들어서 object 파일을 넣어주면 linker가 해당 symbol name을 가지고 library를 검색해서 link하게 된다.
 
-# *Plug-in* | [Wiki](https://en.wikipedia.org/wiki/Plug-in_(computing))
+## Plug-in | [Wiki](https://en.wikipedia.org/wiki/Plug-in_(computing))
+
 In computing, a plug-in (or plugin, add-in, addin, add-on, or addon) is a software component that adds a specific feature to an existing computer program. When a program supports plug-ins, it enables customization.
 
 A theme or skin is a preset package containing additional or changed graphical appearance details, achieved by the use of a graphical user interface (GUI) that can be applied to specific software and websites to suit the purpose, topic, or tastes of different users to customize the look and feel of a piece of computer software or an operating system front-end GUI (and window managers).
 
-# *Third Party* | [Wiki](https://en.wikipedia.org/wiki/Third-party_software_component) | [Term](https://techterms.com/definition/thirdparty)
+## Third Party | [Wiki](https://en.wikipedia.org/wiki/Third-party_software_component) | [Term](https://techterms.com/definition/thirdparty)
+
 In computer programming, a third-party software component is a reusable software component developed to be either freely distributed or sold by an entity other than the original vendor of the development platform. The third-party software component market thrives because many programmers believe that component-oriented development improves the efficiency and the quality of developing custom applications. Common third-party software includes macros, bots, and software/scripts to be run as add-ons for popular developing software.
 
 In the computer world, a third party may refer to either a hardware manufacturer or a software developer. It is a label given to companies that produce hardware or software for another company's product.
@@ -33,7 +36,8 @@ Third party software refers to programs that are developed by companies other th
 
 Some programs also support third party plug-ins, which add functionality to the software. For example, Adobe Photoshop supports plug-ins that add features like extra filters and selection tools to the program. These plug-ins may be created and distributed by other companies, but are designed to work with Adobe Photoshop. Therefore, they are called third party plug-ins.
 
-## *Library Types*
+### Library Types
+
 - Linux Library
   - Static
   
@@ -48,26 +52,32 @@ Some programs also support third party plug-ins, which add functionality to the 
     
     Dynamic Loading(동적 라이브러리)로 프로그램 실행 중 필요할 때, 즉 사용하는 응용 프로그램이 결정하는 런타임에 symbol reference resolve되며 프로그램끼리 공유한다.
 
-### *Static Library* | [Wiki](https://en.wikipedia.org/wiki/Static_library)
+### Static Library | [Wiki](https://en.wikipedia.org/wiki/Static_library)
+
 `"Static Library"는 compile-time에 실행 가능한 파일 또는 오브젝트 파일에 복사되는 라이브러리이다.`
 
 A static library or statically-linked library is a set of routines, external functions and variables which are resolved in a caller at compile-time and copied into a target application by a compiler, linker, or binder, producing and object file and a stand-alone executable. This executable and the process of compiling it are both known as a static build of the program. Historically, libraries could only be static libraries are either merged with other static libraries and object files during building/linking to form a single executable or loaded at run-time into the address space of their corresponding executable at a static memory offset determined at compile-time/link-time.
 
-### *Static Library: `.a` archive*
+### Static Library: `.a` archive
+
 컴파일 시 라이브러리를 사용해 relocatable symbol들을 reference resolving (linking)한다. 즉 컴파일 시 필요한 코드(라이브러리)를 프로그램에 적재하고 하나의 프로그램을 만들어낸다. 실행 파일은 외부 라이브러리에 대한 의존성이 없어지기 때문에 이식성이 좋고, 런타임에 외부를 참조할 필요가 없기 때문에 속도에서 장점이 있다. 하지만 코드를 프로그램에 다 적재하므로(text) 프로그램 크기가 커진다. 또한 라이브러리 변경이 필요할 시(패치) 라이브러리만 재배포하면 되는 것이 아니라 변경된 라이브러리로 컴파일하여 프로그램을 재배포 해야한다.
 
-### *Shared Library*
+### Shared Library
+
 `"Shared Library"는 실행 가능한 파일 또는 오브젝트 파일이 공유해서 사용할 수 있는 라이브러리이다. 모듈은 실행 파일을 생성할 때 복사되지 않고 load/run-time에 메모리에 로드된다.`
 
 A shared library or shared object is a file that is intended to be shared by executable files and further shared object files. Modules used by a program are loaded from individual shared objects into memory at load time or runtime, rather than being copied by a linker when it creates a single monolithic executable file for the program. Shared libraries can be statically linked during compile-time, meaning that references to the library modules are resolved and the modules are allocated memory when the executable file is created. But often linking of shared libraries is postponed until they are loaded.
 
-### *Shared Library: Dynamic Linking `.so`*
+### Shared Library: Dynamic Linking `.so`
+
 공유 라이브러리는 응용 프로그램이 시작되는 순간, 즉 커널이 사용자 주소 공간(VM)을 만들고 응용 프로그램(ELF)을 적재하는 순간 같이 메모리에 적재된다. 해당 라이브러리를 사용하는 다른 프로그램이 이미 실행되어 해당 라이브러리가 메모리에 있으면 그것을 참조하여 링킹한다. 없으면 라이브러리를 메모라 상에 올리고 링킹한다. 링킹 시 일어나는 reference resolving은 relocatable symbol을 실제 주소로 대체한다. 실제 정적 라이브러리를 사용할 때는 실제 주소로 대체한다. 하지만 공유 라이브러리에서는 말 그대로 공유이므로 라이브러리를 메모리에 한번만 올려두고 프로세스는 그 라이브러리의 원하는 symbol이 있는 주소를 참조만 한다. 이때 참조는 run time link editor에 의해 결정된다. 프로세스에서 이 참조를 위한 정보들을 올리는 곳은 힙과 스택 중간이다. 공유 라이브러리는 프로그램 변경 시 변경된 부분의 공유 라이브러리만 재배포하면 되므로 유지 보수가 쉽고, 유연하다. 또한 코드를 프로그램에 완전히 붙이는 것이 아니고 여러 프로그램이 한번 메모리에 올려진 것을 고유하므로 디스크, 메모리 사용 공간이 정적 라이브러리보다 적다. 하지만 외부 의존성이 생기기에 이식하기 어려우며 메모리에 올리고 찾는데 시간이 걸리므로 속도 상의 성능 저하가 있다.
 
-### *Shared Library: Dynamic Loading `.so`*
+### Shared Library: Dynamic Loading `.so`
+
 동적 라이브러리(동적 적재)는 프로그램 도중 응용 프로그램에서 특정 라이브러리를 사용할지 말지를 정한다. 즉, 정적은 컴파일 타임이고 공유는 프로그램 실행 시 refernce resolving을 하는 반면에, 동적 라이브러리는 relocatable symbol을 사용할때 reference resolving을 하는 것이다. 공유 라이브러리와 같이 유연하고 확장성 높은 프로그램을 만들 수 있다. 하지만 이식성은 떨어진다.
 
-#### *How to use dynamic loading*
+How to use dynamic loading:
+
 - `void *dlopen(const char *library_name, int flag)`
   - `library_name`: 라이브러리를 flag에 맞추어 열고 그 핸들을 return한다.
   - `flag`
@@ -77,11 +87,13 @@ A shared library or shared object is a file that is intended to be shared by exe
 - `void *dlsym(void *dl_handle, char *symbol_name)`: 라이브러리 핸들에서 특정 심볼을 가져온다.
 - `const char *dlerror(void)`: 에러를 반환한다.
 
-### *Terminology*
+### Terminology
+
 - Static Library, `.a`, `.lib`, Static Link Library
 - Dynamic Library, `.so`, `.dll`, Shared Library, Dynamic Shared Object, Dynamic Loading, Dynamic Link Library
 
-### *Circular Dependency* | [Wiki](https://en.wikipedia.org/wiki/Circular_dependency)
+### Circular Dependency | [Wiki](https://en.wikipedia.org/wiki/Circular_dependency)
+
 In software engineering, a circular dependency is a relation between two or more modules which either directly or indirectly depend on each other to function properly. Such modules are also known as mutually recursive.
 
 Circular dependencies are natural in many domain models where certain objects of the same domain depend on each other. However, in software design, circular dependencies between larger software modules are considered an anti-pattern because of their negative effects. Despite this such circular (or cyclic) dependencies have been found to be widespread among the source files of real-world software. Mutually recursive modules are, however, somewhat common in functional programming, where inductive and recursive definitions are often encouraged.
@@ -94,22 +106,26 @@ Windows shared library 사용에는 Unix보다 엄격한 기준을 가지고 있
 
 Windows에서는 다른 방법을 제공한다. 먼저 라이브러리 X에 대해서 가짜로 링크를 한다. LIB.EXE를 사용해서 X.LIB을 만든다. 이는 LINK.EXE를 사용해서 만드는 파일과 같아 보이지만 X.EXP 파일은 생략되어 있다. 그리고 일반적인 방법과 같이 라이브러리 Y를 링크한다. X.LIB를 pull하고 Y.DLL, Y.LIB 파일이 생성된다. 마지막으로 X를 일반적인 방법으로 링크한다. 하지만 첫 단계와 다른 점은 추가로 X.EXP 파일을 포함한다. 이 링크를 통해 Y.LIB을 pull하고 X.DLL을 만들게 된다. 이 때 일반적일 때와 달리 이미 생성되어 있는 X.LIB 파일 생성을 생략하게 된다.
 
-----------
+---
 
-## *Create C/C++ DLLs in Visual Studio* | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160)
+## Create C/C++ DLLs in Visual Studio | [MS Docs](https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160)
+
 In Windows, a dynamic-link library(DLL) is a kind of executable file that acts as a shared library of functions and resources. Dynamic linking is an operating system capability. It enables an executable to call functions or use resources stored in a separate file. These functions and resources can be compiled and deployed separately from the executables that use them.
 
 A DLL isn't a stand-alone executable. DLLs run in the context of the applications that call them. The operating system loads the DLL into an application's memory space. It's done either when the application is loaded (implicit linking), or on demand at runtime (explicit linking). DLLs also make it easy to share functions and resources across executables. Multiple applications can access the contents of a single copy of a DLL in memory at the same time.
 
-### *Differences between dynamic linking and static linking*
+### Dynamic Linking vs. Static Linking
+
 Static linking copies all the object code in a static library into the executables that use it when they're built. Dynamic linking includes only the information needed by Windows at run time to locate and load the DLL that contains a data item or function. When you create a DLL, you also create an import library that contains this information. When you build an executable that calls the DLL, the linker uses the exported symbols in the import library to store this information for the Windows loader. When the loader loads a DLL, the DLL is mapped into the memort space of your application. If present, a special function in the DLL, DllMain, is called to do any initialization the DLL requires.
 
-### *Differences between applications and DLLs*
+### Applications vs. DLLs
+
 Even thought DLLs and applications are both executable modules, they differ in several ways. The most obvious difference is that you can't run a DLL. From the system's point of view, there are two fundamental differences between applications and DLLs:
 - An application can have multiple instances of itself running in the system simultaneously. A DLL can have only one instance.
 - An application can be loaded as a process. It can own things such as a stack, threads of execution, global memory, file handles, and a message queue. A DLL can't own these things.
 
-### *Advantages of using DLLs*
+### Advantages of using DLLs
+
 Dynamic linking to code and resources offers several advantages over static linking:
 - Dynamic linking saves memory and reduces swapping. Many processes can use a DLL simultaneously, sharing a single copy of the read-only parts of a DLL in memory. In contrast, every application that is built by using a statically linked library has a complete copy of the library code that Windows must load into memory.
 - Dynamic linking saves disk space and bandwidth. Many applications can share a single copy of the DLL on disk. In contrast, each application built by using a static link library has the library code linked into its executable image. That uses more disk space, and takes more bandwidth to transfer.
@@ -122,9 +138,15 @@ Dynamic linking to code and resources offers several advantages over static link
 
 A potential disadvantage to using DLLs is that the application isn't self-contained. It depends on the existence of a separate DLL module: one that you mush deploy or verify yourself as part of your installation.
 
-----------
+---
 
-#### Reference
+## Runtime Library | [Wiki](https://en.wikipedia.org/wiki/Runtime_library)
+
+In computer programming, a runtime library is a set of low-level routines used by a compiler to invoke some of the behaviors of a runtime environment, by inserting calls to the runtime library into compiled executable library. The runtime environment implements the execution model, built-in functions, and other fundamental behaviors of a programming language. During execution (run time) of that computer program, execution of those calls to the runtime library cause communication between the executable binary and the runtime environment. A runtime library often includes built-in functions for memory management or exception handling. Therefore, a runtime library is always specific to the platform and compiler.
+
+---
+
+### Reference
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
 - Library Wiki, https://en.wikipedia.org/wiki/Library_(computing), 2020-07-21-Tue.
@@ -141,3 +163,4 @@ A potential disadvantage to using DLLs is that the application isn't self-contai
 - Beginner's Guide to Linkers, https://www.lurklurk.org/linkers/linkers.html#wincircular, 2021-03-30-Tue.
 - CMake Cyclic Dependencies of Static Libraries, https://cmake.org/cmake/help/latest/command/target_link_libraries.html#cyclic-dependencies-of-static-libraries, 2021-03-30-Tue.
 - Create C/C++ DLLs in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160, 2021-06-03-Thu.
+- Runtime Library Wiki, https://en.wikipedia.org/wiki/Runtime_library, 2023-03-24-Fri.
