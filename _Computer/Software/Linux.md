@@ -1,4 +1,4 @@
-# *[Linux](https://www.linux.org/)* | [WiKi](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
+# [Linux](https://www.linux.org/) | [WiKi](https://en.wikipedia.org/wiki/Linux) | [Download](https://www.linux.org/pages/download/)
 
 `This page is from the 'System' page.`
 
@@ -19,6 +19,8 @@ Linux is one of the most prominent examples of free and open-source software col
 The concept of live booting is actually quite simple. With a live Linux distribution (not all distributinos come in live flavors), you can boot your machine from either a CD/DVD disk or from a USB flash drive and choose to try out the operating system without making any changes to your hard drive.
 
 How this works is by running the entire system from volatile memory (RAM). The operating system and all programs are usable, but run from memory. Because of this, you can boot the live system, test/use it for as long as you need, and then reboot the system (remembering to remove the live media) to return to your original system.
+
+---
 
 ## _Package_
 
@@ -268,6 +270,16 @@ chrony is a versatile implementation of the Network Time Protocol (NTP). It can 
 
 ---
 
+### [OSTree](https://ostreedev.github.io/ostree/introduction/) | libostree
+
+OSTree is an upgrade system for Linux-based operating systems that performs atomic upgrades of complete filesystem trees. It is not a package system; rather, it is intended to complement them. A primary model is composing packages on a server, and then replicating them to clients.
+
+The underlying architecture might be summarized as “git for operating system binaries”. It operates in userspace, and will work on top of any Linux filesystem. At its core is a git-like content-addressed object store with branches (or “refs”) to track meaningful filesystem trees within the store. Similarly, one can check out or commit to these branches.
+
+Layered on top of that is bootloader configuration, management of /etc, and other functions to perform an upgrade beyond just replicating files.
+
+---
+
 ### _KVM_ | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
 
 Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specifically, KVM lets you turn Linux into a hypervision that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs).
@@ -510,3 +522,5 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - GNOME Wiki, https://en.wikipedia.org/wiki/GNOME, 2023-03-24-Fri.
 - GNOME Platform, https://developer.gnome.org/documentation/introduction.html, 2023-03-24-Fri.
 - GNOME Components, https://developer.gnome.org/documentation/introduction/components.html, 2023-03-24-Fri.
+- OSTree, https://developer.toradex.com/torizon/in-depth/ostree/, 2023-03-24-Fri.
+- OSTree, https://ostreedev.github.io/ostree/introduction/, 2023-03-24-Fri.
