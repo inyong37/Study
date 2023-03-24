@@ -518,6 +518,26 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 
 ---
 
+## Immutable Operating System - high secure & easy to manage | [TheNewStack] | [Blog](https://fadingeek.medium.com/immutable-operating-systems-a-new-trend-56edf3e162cf)
+
+Immutable operating systems have a lot of advantages. They are inherently more secure, because many attacks and exploits depend on writing or changing files. Also, even if an exploit is found, bad actors cannot change the operating system on disk (which in itself will thwart attacks that depend on writing to the filesystem), so a reboot will clear any memory-resident malware and recover back to a non-exploited state.
+
+Immutable systems are also easier to manage and update: the operating system images are not patched or updated but replaced atomically (in one operation that is guaranteed to fully complete or fully fail — no partial upgrades!
+
+### Immutable Linux | [MakeUseOf]
+
+Immutability in Linux distros is a concepth that is becoming increasingly popular in containerized systems. Immutable distros are standardized so that they're the same across every installation.
+
+Immutability increases security; as the core parts of the system like the kernel can't be modified, it's theoretically impossible for a malicious program to mess with it. Additional packages are installed in a separate area from the main system.
+
+Immutable systems are al
+
+### Vanilla OS | [MakeUseOf](https://www.makeuseof.com/vanilla-os-immutable-linux-distro/)
+
+Vanilla OS ia a Linux distribution that aims for higher security than other desktop Linux distros. It's built on Ubuntu but adds a twist: the core system files are immutable. This means that it's locked down from changes that third-party programs might make.
+
+---
+
 <img width="462" alt="Screenshot 2022-12-28 at 9 11 19 AM" src="https://user-images.githubusercontent.com/20737479/209738490-b2a08f52-5c1c-4dbf-afa1-083a13e85377.png">
 
 ---
@@ -634,3 +654,6 @@ RIOT supports most low-power IoT devices, microcontroller architectures (32-bit,
 - CentOS vs. Fedora Blog, https://www.openlogic.com/blog/centos-vs-fedora, 2022-12-07-Wed.
 - Usage statistics of Linux for websites, https://w3techs.com/technologies/details/os-linux, 2022-12-13-Tue.
 - OpenVMS WiKi, https://en.wikipedia.org/wiki/OpenVMS, 2022-12-27-Tue.
+- Immutable OS Blog, https://fadingeek.medium.com/immutable-operating-systems-a-new-trend-56edf3e162cf, 2023-03-24-Fri.
+- Vanilla OS MakeUseOf, https://www.makeuseof.com/vanilla-os-immutable-linux-distro/, 2023-03-24-Fri.
+- 3 Immutable OS TheNewStack, https://thenewstack.io/3-immutable-operating-systems-bottlerocket-flatcar-and-talos-linux/, 2023-03-24-Fri.
