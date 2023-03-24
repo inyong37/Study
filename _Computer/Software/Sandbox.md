@@ -18,6 +18,16 @@ Virtualization: physical/hardwares including resources as storage and network, o
 
 Container - operating system level virtualization: user space environment, shares kernel
 
+### [Windows Sandbox architecture](https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture)
+
+lightweight desktop environment to safely run aplications in isolation.
+
+A sandbox is temporary. When it's closed, all the software and files and the state are deleted.
+
+Memory sharing, integrated kernel scheduler
+
+### [Using Container for Sandbox (KR)](https://steemit.com/kr/@asbear/sandbox)
+
 ---
 
 ### Reference
@@ -25,3 +35,5 @@ Container - operating system level virtualization: user space environment, share
 - Sandboxing CheckPoint, https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-sandboxing/, 2023-03-24-Fri.
 - Virtualization vs. Sandboxing StackExchange, https://security.stackexchange.com/questions/167564/what-is-the-differerence-between-virtualization-and-sandboxing, 2023-03-24-Fri.
 - Virtual Machine vs. Sandbox AskLeo, https://askleo.com/whats-the-difference-between-a-sandbox-and-a-virtual-machine/, 2023-03-24-Fri.
+- Windows Sandbox architecture, https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-architecture, 2023-03-24-Fri.
+- Using Container for Sandbox Blog KR, https://steemit.com/kr/@asbear/sandbox, 2023-03-24-Fri.
