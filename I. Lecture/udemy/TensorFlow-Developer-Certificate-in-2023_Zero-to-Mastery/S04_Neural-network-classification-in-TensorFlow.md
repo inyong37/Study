@@ -6,7 +6,7 @@
 
 2023-01-18-Wednesday: 74 ~ 79. -> 75 ~ 80.
 
-2023-03-28-Tuesday: 81 ~ 85.
+2023-03-28-Tuesday: 81 ~ 86.
 
 ## Contents
 
@@ -99,6 +99,11 @@ https://www.tensorflow.org/api_docs/python/tf/keras/activations/linear
 https://ml-cheatsheet.readthedocs.io/en/latest/activation_functions.html
 
 ### 86. Getting great results in less time by tweaking the learning rate
+
+Generalizaion: the ability for a machine learning model to perform well on data it hasn't seen before.
+- course material: training set
+- practice exam: validation set
+- final exam: test set
 
 ### 87.
 
