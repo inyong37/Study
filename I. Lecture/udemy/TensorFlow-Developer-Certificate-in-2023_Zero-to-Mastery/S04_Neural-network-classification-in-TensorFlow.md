@@ -74,6 +74,8 @@
 
 Linearity vs. non-leaarity
 
+https://playground.tensorflow.org/
+
 ### 82. Non-linearity part 3: Upgrading our non-linear model with more...
 
 ### 83. Non-linearity part 4: Modeling our non-linear data once and for all
