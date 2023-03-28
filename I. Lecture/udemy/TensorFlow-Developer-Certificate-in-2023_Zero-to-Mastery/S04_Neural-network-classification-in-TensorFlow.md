@@ -72,6 +72,8 @@
 
 ### 81. Non-linearity part 2: Building our first neural network with non-linearity
 
+Linearity vs. non-leaarity
+
 ### 82. Non-linearity part 3: Upgrading our non-linear model with more...
 
 ### 83. Non-linearity part 4: Modeling our non-linear data once and for all
