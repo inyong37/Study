@@ -10,6 +10,8 @@
 
 ## Contents
 
+https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/02_neural_network_classification_in_tensorflow.ipynb
+
 ### 70. Introduction to neural network classification in TensorFlow
 
 - https://github.com/mrdbourke/tensorflow-deep-learning/
