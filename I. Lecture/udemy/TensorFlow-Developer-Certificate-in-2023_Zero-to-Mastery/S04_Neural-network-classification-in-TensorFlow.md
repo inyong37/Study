@@ -80,6 +80,10 @@ https://playground.tensorflow.org/
 
 ### 83. Non-linearity part 4: Modeling our non-linear data once and for all
 
+- https://stats.stackexchange.com/questions/218542/which-activation-function-for-output-layer
+  - Regression: linear (because values are unbounded)
+  - Classification: softmax (simple sigmoid works too but softmax works better)
+
 ### 84. Non-linearity part 5: Replicating non-linear activation functions fro...
 
 ### 85. Getting great results in less time by tweaking the learning rate
