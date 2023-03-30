@@ -24,6 +24,10 @@ How this works is by running the entire system from volatile memory (RAM). The o
 
 ## _Package_
 
+### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
+
+The Backports Project enables old kernels to run the latest drivers. "Backporting" is the process of making new software run on something old. A version of something new that's been modified to run on something old is called a "backport".
+
 ### _Build Debian Package deb File_ | [Blog (KR)](https://devanix.tistory.com/314) | [Blog (KR)](https://blog.djjproject.com/406)
 
 1. package folder 생성 `mkdir {package_name}_{version}-{revision}` such as `mkdir dummydeb_0.0.1-1`
@@ -525,3 +529,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - OSTree, https://developer.toradex.com/torizon/in-depth/ostree/, 2023-03-24-Fri.
 - OSTree, https://ostreedev.github.io/ostree/introduction/, 2023-03-24-Fri.
 - libostree GitHub, https://github.com/ostreedev/ostree, 2023-03-24-Fri.
+- Backports, https://backports.wiki.kernel.org/index.php/Main_Page, 2023-03-30-Thu.
