@@ -119,6 +119,18 @@ Cons:
 
 ---
 
+## [Jenkins](https://www.jenkins.io/) | [Docs](https://www.jenkins.io/doc/)
+
+Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
+
+Jenkins can be installed through native system pakcages, Docker, or enen run standalone by any machine with a Java Runtime Environment (JRE) installed.
+
+## [GitLab Runner](https://docs.gitlab.com/runner/)
+
+GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
+
+---
+
 ### Reference
 - CI/CD, https://deveric.tistory.com/106, 2020-09-14-Mon.
 - DevOps AWS, https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls, 2022-10-11-Tue.
@@ -129,3 +141,6 @@ Cons:
 - CI/CD Wiki, https://en.wikipedia.org/wiki/CI/CD, 2023-03-31-Fri.
 - Continous Integration Wiki, https://en.wikipedia.org/wiki/Continuous_integration, 2023-03-31-Fri.
 - Continous Deployment Wiki, https://en.wikipedia.org/wiki/Continuous_deployment, 2023-03-31-Fri.
+- Jenkins, https://www.jenkins.io/, 2023-03-31-Fri.
+- GitLab Runner, https://docs.gitlab.com/runner/, 2023-03-31-Fri.
+- Docs Jenkins, https://www.jenkins.io/doc/, 2023-03-31-Fri.
