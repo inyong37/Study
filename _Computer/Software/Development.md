@@ -2,9 +2,29 @@
 
 `This page is from the page 'Program'.`
 
-# Deployment
+## :books: [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
 
-## DevOps | [AWS](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
+In software engineering, CI/CD or CICD is the combined practices of continuous integration (CI) and (more often) continuous delivery or (less often) continuous deployment (CD). They are sometimes referred to collectively as continuous development or continuous software development.
+
+### [Continous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
+
+In software engineering, continous integration (CI) is the practice of merging all developers' working copies to a shared mainline several times a day. Nowadays it is typically implemented in such a way that it triggers an automated biuld with testing.
+
+### [Continous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
+
+Continous delivert (CD) is a software engineering approach in which teams produce software in short cycles, ensuring that the software can be reliably released at any time and, following a pipeline through a "production-like environment", without doing so manually. It aims at building, testing, and releasing software with greater speed and frequency. The approach helps reduce the costs, time, and risk of delivering changes by allowing for mote incremental updates to applications in production. A straightforward and repeatable deployment process is important for continuous delivery.
+
+Continuous delivery contrast with continous deployment (also abbreviated CD), a similar approach in which software is also produced in short cycles but through automated deployments even to production rather than requiring a "click of a button" for that last stel. As such, continous deployment can be viewed as a more complete form of automation than continous delivery.
+
+### [Continous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment)
+
+Continous deployment (CD) is a software engineering approach in which software functionalities are delivered frequently and through automated deployments.
+
+Continous deployment contrashs with continous delivery (also abbreviated CD), a similar approach in which software functionalities are also frequently delivered and deemed to be potentially capable of being deployed, but are actualyl not deployed. As such, continous deployment can be viewed as a more complete form of automation than continous delivery.
+
+---
+
+## :hammer_and_wrench: DevOps | [AWS](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
 
 DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 
@@ -42,9 +62,13 @@ Build more effective teams under a DevOps cultural model, which emphasizes value
 
 Move quickly while retaining control and preserving compliance. You can adopt a DevOps model without sacrificing security by using automated compliance policies, find-grained controls, and configuration management techniques. For example, using infrastructure as code and policy as code, you can define and then track compliance at scale.
 
-### *Zero Downtime Deployment* | [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html) | [Blog (KR)](https://loosie.tistory.com/m/781)
+---
 
-### *Rolling Update*
+## :books: Types of Deployments
+
+### Zero Downtime Deployment | [Samsung SDS](https://www.samsungsds.com/kr/insights/1256264_4627.html) | [Blog (KR)](https://loosie.tistory.com/m/781)
+
+### Rolling Update
 
 Change running instance gradually.
 
@@ -58,7 +82,7 @@ Cons:
 - need to consider service capacity with stricted resources
 - may cause a compatibility problem due to co-existing different version of services
 
-### *Blue Green Deployment* | [RedHat](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
+### Blue Green Deployment | [RedHat](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
 
 Blue green deployment is an application release model that gradually transfers user traffic from a previous version of an app or microservice to a nearly identical new release-both of which are running in production.
 
@@ -80,7 +104,7 @@ Cons:
 - cost a lot: it needs resource as double
   - Virtual/Cloud enviroment is recommended such as AWS, containers(docker), and virtually machines.
 
-### *Canary Release*
+### Canary Release
 
 Canary Release method is a deployment strategy that detects problems fast as it can while it deploys new service. It can control versions with using load balancer and deploy gradually with monitoring and feedbacks.
 
@@ -102,3 +126,6 @@ Cons:
 - Zero Downtime Deployment Samsung SDS, https://www.samsungsds.com/kr/insights/1256264_4627.html, 2022-10-18-Tue.
 - Zero Downtime Deployment 3 Methods Blog KR, https://loosie.tistory.com/m/781, 2022-10-18-Tue.
 - DevOps Test Blog KR, https://angel927.tistory.com/150, 2022-10-24-Mon.
+- CI/CD Wiki, https://en.wikipedia.org/wiki/CI/CD, 2023-03-31-Fri.
+- Continous Integration Wiki, https://en.wikipedia.org/wiki/Continuous_integration, 2023-03-31-Fri.
+- Continous Deployment Wiki, https://en.wikipedia.org/wiki/Continuous_deployment, 2023-03-31-Fri.
