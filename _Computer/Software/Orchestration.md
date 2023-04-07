@@ -8,97 +8,9 @@ Tools to manage, scale, and maintain containerized applications are called orche
 
 ## :whale2: _Docker Swarm Mode_ | [Docs](https://docs.docker.com/engine/swarm/)
 
-### _[Scale the service in the swarm](https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1775-docker-19)
+### [Scale the service in the swarm](https://github.com/inyong37/Vision/tree/master/Tutorial/Docker)
 
-Once you have deployed a service to a swarm, you are ready to use the Docker CLI to scale the number of containers in the service. Continers running in a service are called "tasks".
-
-1. If you haven't alreday, open a terminal and ssh into the machine where you run your manager node. For example, the tutorial uses a machine named `manager1`.
-2. Run the following command to change the desired state of the service running in the swarm:
-    - ```bash
-      $ docker service scale <SERVICE-ID>=<NUMBER-OF-TASKS>
-      ```
-3. Run `docker service ps <SERVICE-ID>` to see the updated task list:
-    - ```bash
-      $ docker service ps helloworld
-
-      NAME                                    IMAGE   NODE      DESIRED STATE  CURRENT STATE
-      helloworld.1.8p1vev3fq5zm0mi8g0as41w35  alpine  worker2   Running        Running 7 minutes
-      helloworld.2.c7a7tcdq5s0uk3qr88mf8xco6  alpine  worker1   Running        Running 24 seconds
-      helloworld.3.6crl09vdcalvtfehfh69ogfb1  alpine  worker1   Running        Running 24 seconds
-      helloworld.4.auky6trawmdlcne8ad8phb0f1  alpine  manager1  Running        Running 24 seconds
-      helloworld.5.ba19kca06l18zujfwxyc5lkyn  alpine  worker2   Running        Running 24 seconds
-      ```
-    - You can see that swarm has created 4 new tasks to scale to a total of 5 running instances of Alpine Linux. THe tasks are distributed between the three nodes of the warm. One is running on `manager1`.
-4. Run `docker ps` to see the containers running on the node where you're connected. THe following example shows the tasks running on `manager1`:
-    - ```bash
-      docker ps
-
-      CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
-      528d68040f95        alpine:latest       "ping docker.com"   About a minute ago   Up About a minute                       helloworld.4.auky6trawmdlcne8ad8phb0f1
-      ```
-    - If you want to see the containers running on other nodes, ssh into those nodes and run the `docker ps` command.
-
-### _[Apply rolling updates to a service](https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/)_ | [Blog (KR)](https://sarc.io/index.php/cloud/1759-docker-18-rolling-update)
-
-1. If you haven't already, open a terminal and ssh into the machine where you run your manage node. For example, the tutorial uses a machine named `manager1`.
-2. Deploy your Redis tag to the swarm and configure the swarm with a 10 second update delay. Note that the following example shows an older Redis tag:
-    - ```bash
-      $ docker service create --replicas 3 --name redis --update-delay 10s redis:3.0.6
-      ```
-3. Inspect the `redis` service:
-    - ```bash
-      $ docker service inspect --pretty redis
-      
-      ...
-      UpdateConfig:
-       Parallelism: 1
-       Delay:       10s
-      ...
-      ```
-4. Now you can update the container image for `redis`. The swarm manager applies the update to nodes according to the `UpdateConfig` policy:
-    - ```bash
-      $ docker service update --image redis:3.0.7 redis
-      ```
-    - The scheduler applies rolling updates as follows by default:
-      - Stop the first task.
-      - Schedule update for the stopped task.
-      - Start the container for the updated task.
-      - If the update to a task returns `RUNNING`, wait for the specified delay period then start the next task.
-      - If, at any time during the update, a task returns `FAILED`, pause the update.
-5. Run `docker service inspect --pretty redis` to see the new image in the desired state:
-    - ```bash
-      $ docker service inspect --pretty redis
-      ```
-    - The output of `service inspect` shows if your update paused due to failure:
-    - ```bash
-      $ docker service inspect --pretty redis
-
-      ID:             0u6a4s31ybk7yw2wyvtikmu50
-      Name:           redis
-      ...snip...
-      Update status:
-       State:      paused
-       Started:    11 seconds ago
-       Message:    update paused due to failure or early termination of task 9p7ith557h8ndf0ui9s0q951b
-      ...snip...
-      ```
-    - To restart a paused update run `docker service update <SERVICE-ID>`. For example:
-    - ```bash
-      $ docker service update redis
-      ```
-    - To avoid repeating certain update failures, you may need to reconfigure the service by passing flags to `docker service update`.
-6. Run `docker service ps <SERVICE-ID>` to watch the rolling update:
-    - ```bash
-      $ docker service ps redis
-
-      NAME                                   IMAGE        NODE       DESIRED STATE  CURRENT STATE            ERROR
-      redis.1.dos1zffgeofhagnve8w864fco      redis:3.0.7  worker1    Running        Running 37 seconds
-       \_ redis.1.88rdo6pa52ki8oqx6dogf04fh  redis:3.0.6  worker2    Shutdown       Shutdown 56 seconds ago
-      redis.2.9l3i4j85517skba5o7tn5m8g0      redis:3.0.7  worker2    Running        Running About a minute
-       \_ redis.2.66k185wilg8ele7ntu8f6nj6i  redis:3.0.6  worker1    Shutdown       Shutdown 2 minutes ago
-      redis.3.egiuiqpzrdbxks3wxgn8qib1g      redis:3.0.7  worker1    Running        Running 48 seconds
-       \_ redis.3.ctzktfddb2tepkr45qcmqln04  redis:3.0.6  mmanager1  Shutdown       Shutdown 2 minutes ago
-      ```
+### [Apply rolling updates to a service](https://github.com/inyong37/Vision/blob/master/Tutorial/Docker/apply-rolling-updates-to-a-service.md)
    
 ---
 
@@ -530,7 +442,6 @@ Rancher is a Kubernetes management tool to deploy and run clusters anywhere and 
 - KubeVirt GitHub, https://github.com/kubevirt/kubevirt, 2023-01-12-Thu.
 - Kubernetes Storage using Ceph, https://www.velotio.com/engineering-blog/kubernetes-storage-using-ceph, 2023-01-12-Thu.
 - 쿠버네티스 가상스토리지(Ceph) 설치, https://danawalab.github.io/kubernetes/2020/01/28/kubernetes-rook-ceph.html, 2023-01-12-Thu.
-- Rolling updates Blog KR, https://sarc.io/index.php/cloud/1759-docker-18-rolling-update, 2022-11-21-Mon.
 - Horizontal Pod Autoscale Kubernetes, https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/, 2022-11-21-Mon.
 - ReplicaSet, https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/, 2022-11-21-Mon.
 - Objects Kubernetes, https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/, 2022-11-22-Tue.
@@ -548,7 +459,6 @@ Rancher is a Kubernetes management tool to deploy and run clusters anywhere and 
 - Viewing Pods and Nodes, https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/, 2022-11-22-Tue.
 - Using a Service to Expose Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/, 2022-11-22-Tue.
 - Running Multiple Instances of Your App, https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/, 2022-11-22-Tue.
-- Performing a Rolling Update, https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/, 2022-11-22-Tue.
 - YAML Configuration Blog KR, https://hyeo-noo.tistory.com/m/362, 2022-11-22-Tue.
 - Minikube Drivers, https://minikube.sigs.k8s.io/docs/drivers/, 2022-11-24-Thu.
 - Kubernetes Components, https://kubernetes.io/docs/concepts/overview/components/, 2022-11-25-Fri.
@@ -569,3 +479,4 @@ Rancher is a Kubernetes management tool to deploy and run clusters anywhere and 
 - Orchestration Docker Docs, https://docs.docker.com/get-started/orchestration/, 2022-11-21-Mon.
 - Swarm Docker Docs, https://docs.docker.com/engine/swarm/, 2022-11-21-Mon.
 - Scale the service in the swarm Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/scale-service/, 2022-11-21-Mon.
+- Docker 가상 환경 구축 입문 (19) - 서비스 스케일링 Blog KR, https://sarc.io/index.php/cloud/1775-docker-19, 2023-04-07-Fri.
