@@ -76,35 +76,13 @@ To correct this problem, go to the Docker Desktop Settings and increase the allo
 - Software failures (40% of problems), including restart of critical processes.
 - Human errors (40% of problems).
 
-### Ubuntu Image Container | [Blog (KR)](https://sleepyeyes.tistory.com/67)
-
-Method 1.
-
-```bash
-sudo docker pull ubuntu
-sudo docker create -it --name u1 ubuntu # without '-it': exited right away
-sudo docker start u1
-sudo docker exec -it u1 /bin/bash # not attach
-exit # in container
-sudo docker rm u1
-```
-
-Method 2.
-
-```bash
-sudo docker run it name u1 ubuntu # attach
-# KEY: CONTROL & P or CONTROL & Q # in container
-```
+### [Deploy Ubuntu Image Container](https://github.com/inyong37/Vision/blob/master/Tutorial/Docker/ubuntu-image-container.md)
 
 ### Network among the Containers | [Blog (KR)](https://jeongchul.tistory.com/636)
 
 80 port는 host의 ip를 그대로 사용할 수 있다.
 
-### Send a file to/from Container | [Stackoverflow](https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container)
-
-to: `sudo docker cp foofile {container_id/name}:/`
-
-from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{username}/`
+### Move a File [to](https://github.com/inyong37/Vision/blob/master/Tutorial/Docker/moving-a-file-from-host-os-to-a-container.md) / [From](https://github.com/inyong37/Vision/blob/master/Tutorial/Docker/moving-a-file-from-a-container-to-host-os.md) a Container
 
 ### GUI Application | [Stackoverflow](https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-linux-docker-container/25280523#25280523) | [Ubuntu-VNC GitHub](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
@@ -130,10 +108,8 @@ from: `sudo docker cp {container_id/name}:/home/{username}/foofile /home/{userna
 - Image Kubernetes, https://kubernetes.io/docs/concepts/containers/images/, 2022-10-18-Tue.
 - Docker Containers killed by system IBM, https://www.ibm.com/docs/en/doc/4.0.1?topic=docker-containers-killed-by-system, 2022-10-25-Tue.
 - SafeKit solves for Docker Evidian, https://www.evidian.com/products/high-availability-software-for-application-clustering/docker-container-high-availability-cluster-synchronous-replication-failover/, 2022-10-25-Tue.
-- Ubuntu Container Image Blog KR, https://sleepyeyes.tistory.com/67, 2022-10-27-Thu.
 - Container vs. Image Blog, https://circleci.com/blog/docker-image-vs-container/, 2022-10-27-Thu.
 - Network among the Containers Blog KR, https://jeongchul.tistory.com/636, 2022-10-27-Thu.
-- Send a file to/from Container Stackoverflow, https://stackoverflow.com/questions/22907231/how-to-copy-files-from-host-to-docker-container, 2022-10-27-Thu.
 - Using sysctls in a Kubernetes Cluster, https://kubernetes.io/docs/tasks/administer-cluster/sysctl-cluster/, 2022-11-17-Thu.
 - Scaling Blog KR, https://sarc.io/index.php/cloud/1775-docker-19, 2022-11-21-Mon.
 - Apply rolling updates to a service Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/, 2022-11-21-Mon.
