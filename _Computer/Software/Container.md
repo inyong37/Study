@@ -86,6 +86,10 @@ To correct this problem, go to the Docker Desktop Settings and increase the allo
 
 ### GUI Application | [Stackoverflow](https://stackoverflow.com/questions/16296753/can-you-run-gui-applications-in-a-linux-docker-container/25280523#25280523) | [Ubuntu-VNC GitHub](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
+### [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+
+Docker can build images automatically by reading the instructions from a `Dockerfile`. A `Dockerfile` is a text document that contains all the commands a user could call on the command line to assemble an image.
+
 ---
 
 # :whale2: [Orchestration](https://docs.docker.com/get-started/orchestration/)
@@ -114,3 +118,4 @@ To correct this problem, go to the Docker Desktop Settings and increase the allo
 - Scaling Blog KR, https://sarc.io/index.php/cloud/1775-docker-19, 2022-11-21-Mon.
 - Apply rolling updates to a service Docker Docs, https://docs.docker.com/engine/swarm/swarm-tutorial/rolling-update/, 2022-11-21-Mon.
 - Docker Compose, https://docs.docker.com/compose/, 2022-12-02-Fri.
+- Dockerfile, https://docs.docker.com/engine/reference/builder/, 2023-04-07-Friday.
