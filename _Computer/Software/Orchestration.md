@@ -1,5 +1,7 @@
 # :whale2: [Orchestration](https://docs.docker.com/get-started/orchestration/)
 
+`This page is from the 'Container' page.`
+
 Tools to manage, scale, and maintain containerized applications are called orchestrators, and the most common examples of these are Kubernetes and Docker Swarm.
 
 ---
@@ -97,14 +99,10 @@ Once you have deployed a service to a swarm, you are ready to use the Docker CLI
       redis.3.egiuiqpzrdbxks3wxgn8qib1g      redis:3.0.7  worker1    Running        Running 48 seconds
        \_ redis.3.ctzktfddb2tepkr45qcmqln04  redis:3.0.6  mmanager1  Shutdown       Shutdown 2 minutes ago
       ```
+   
+---
 
-## :whale2: Kubernetes
-
-`This part has moved to the 'Kubernetes' page.`
-
-# :whale2: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
-
-`This page is from the 'container' page.`
+## :whale2: *[Kubernetes](https://kubernetes.io/)* | [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/) | [Tutorial](https://kubernetes.io/docs/tutorials/)
 
 Kubernetes is a portable, extensible, open source platform for managing containerized workload and services, that facilitates both declarative configuration and automation. It has a large rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 
