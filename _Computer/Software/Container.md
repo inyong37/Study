@@ -44,9 +44,23 @@ Kubernetes 1.25 requires that you use a runtime that conforms with the Container
 
 ---
 
-## :whale: [Docker](https://www.docker.com/) | [Docs](https://docs.docker.com/get-started/overview/)
+## :whale: [Docker](https://www.docker.com/) | [Docs](https://docs.docker.com/get-started/overview/) | [AWS (KR)](https://aws.amazon.com/ko/docker/)
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker's methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+
+Docker는 소프트웨어를 컨테이너라는 표준화된 유닛으로 패키징하며, 이 컨테이너에는 라이브러리, 시스템 도구, 코드, 런타임 등 소프트웨어를 실행하는 데 필요한 모든 것이 포함되어 있습니다.
+
+### Container vs. VM
+
+```Bash
+       [Container]                         [VM]
+| App1      | App2      | | App1      | App2      | App3      |
+| Bins/Libs | Bins/Libs | | Bins/Libs | Bins/Libs | Bins/Libs |
+| Docker Engine         | | Guest OS  | Guest OS  | Guest OS  |
+| Guest OS              | | Hypervisor                        |
+| Hypervisor            | | Server (Host)                     |
+| Server (Host)         |
+```
 
 ### [Compose](https://docs.docker.com/compose/)
 
@@ -107,6 +121,7 @@ Docker can build images automatically by reading the instructions from a `Docker
 - Container Docker, https://www.docker.com/resources/what-container/, 2022-10-17-Mon.
 - Docker, https://www.docker.com/, 2022-10-17-Mon.
 - What is a Docker, What is a container, https://docs.docker.com/get-started/overview/, 2022-10-17-Mon.
+- Docker AWS KR, https://aws.amazon.com/ko/docker/, 2023-04-13-Thu.
 - Container Runtimes Kubernetes, https://kubernetes.io/docs/setup/production-environment/container-runtimes/, 2022-10-18-Tue.
 - Container Kubernetes, https://kubernetes.io/docs/concepts/containers/, 2022-10-18-Tue.
 - Image Kubernetes, https://kubernetes.io/docs/concepts/containers/images/, 2022-10-18-Tue.
