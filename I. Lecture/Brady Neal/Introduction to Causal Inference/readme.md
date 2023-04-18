@@ -1,3 +1,5 @@
+# Introduction to Causal Inference
+
 ## Lectures
 
 ### 1.
