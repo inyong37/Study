@@ -66,10 +66,10 @@ Linux의 동적 라이브러리이다.
 - ELF Wiki (Kor), https://ko.wikipedia.org/wiki/ELF_%ED%8C%8C%EC%9D%BC_%ED%98%95%EC%8B%9D, 2020-08-06-Thu.
 - EXE Wiki (Kor), https://ko.wikipedia.org/wiki/EXE, 2020-08-06-Thu.
 - 실행 파일 Wiki (Kor), https://ko.wikipedia.org/wiki/%EC%8B%A4%ED%96%89_%ED%8C%8C%EC%9D%BC, 2020-08-06-Thu.
-- - Windows vs. Linux, http://tmmse.xyz/2020/04/22/linuxandwindows/, 2021-03-29-Mon.
+- Windows vs. Linux, http://tmmse.xyz/2020/04/22/linuxandwindows/, 2021-03-29-Mon.
 - Library Visibility, https://cmake.org/cmake/help/latest/command/target_link_libraries.html, 2020-08-14-Fri.
 - ELF Symbol Visibility Blog KR, http://egloos.zum.com/studyfoss/v/5257309, 2020-08-12-Wed.
 - What is the DLL?, https://support.microsoft.com/ko-kr/help/815065/what-is-a-dll, 2020-08-06-Thu.
 - DLL, https://goddaehee.tistory.com/185, 2020-08-06-Thu.
-- Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
+- Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu.
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
