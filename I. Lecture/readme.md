@@ -17,3 +17,5 @@
 [Blog](https://blog.naver.com/laonple/220463627091)
 
 - [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
+
+- [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
