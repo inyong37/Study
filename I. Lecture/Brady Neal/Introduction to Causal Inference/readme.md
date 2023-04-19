@@ -1,8 +1,8 @@
 # Introduction to Causal Inference
 
-## Lectures
+## Content
 
-### 1.
+### Lecture 1.
 
 Motivation
 
@@ -10,23 +10,23 @@ Course Preview
 
 Course Information
 
-### 2.
+### Lecture 2.
 
 Potential Outcomes
 
 A Complete Example with Estimation
 
-### 3.
+### Lecture 3.
 
 Graphical Modesl
 
-### 4.
+### Lecture 4.
 
 Backdoor Adjustment
 
 Structural Causal Models
 
-### 5.
+### Lecture 5.
 
 Randomized Experiments
 
@@ -36,47 +36,47 @@ do-calculus
 
 Graph-Based Identification
 
-### 5.
+### Lecture 5.
 
 Estimation
 
 Susan Athey Guest Talk - Estimating Heterogeneous Treatment Effects
 
-### 6.
+### Lecture 6.
 
 Unobserved Confounding, Bounds, and Sensitivity Analysis
 
-### 7.
+### Lecture 7.
 
 Instrumental Variables
 
-### 8.
+### Lecture 8.
 
 Difference-in-Differences
 
 Alberto Abadie Guest Talk - Synthetic Control
 
-### 9.
+### Lecture 9.
 
 Causal Discovery from Observational Data
 
 Jonas Peters Guest Talk
 
-### 10.
+### Lecture 10.
 
 Causal Discovery from Interventions
 
-### 11.
+### Lecture 11.
 
 Transfer Learning
 
 Transportability
 
-### 12.
+### Lecture 12.
 
 Yoshua Bengio Guest Talk - Causal Representation Learning
 
-### 13.
+### Lecture 13.
 
 Counterfactuals
 
