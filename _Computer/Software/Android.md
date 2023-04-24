@@ -39,6 +39,16 @@ For media apps, your app must include a media browser service (see Build media a
 
 ---
 
+## [Kernel](https://source.android.com/docs/core/architecture/kernel)
+
+The Android kernel is based on an upstream Linux Long Term Supported (LTS) kernel. At Google, LTS kernels are combined with Android-specific patches to form what are known as Android Common Kernels (ACKs).
+
+Newer ACKs (version 5.4 and above) are also known as GKI kernels. GKI kernels support the separation of the hardware-agnostic generic core kernel code and GKI modules from the hardware-specific vendor modules.
+
+The GKI kernel interacts with hardware-specific vendor modules containing system on a chip (SoC) and board-specific code. The interaction between the GKI kernel and vendor modules is enabled by the Kernel Module Interface (KMI) consisting of symbol lists identifying the functions and global data required by vendor modules. Figure 1 shows the GKI kernel and vendor module architecture:
+
+---
+
 ### Reference
 - Android Wear, https://developer.android.com/training/wearables, 2022-08-08-Mon.
 - Android TV, https://developer.android.com/training/tv, 2022-08-08-Mon.
@@ -49,3 +59,4 @@ For media apps, your app must include a media browser service (see Build media a
 - Android OS Architecture Blog KR, https://codingcoding.tistory.com/591, 2022-08-09-Tue.
 - Android on Raspberry Pi 4 Blog KR, https://leehands.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B44-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-10-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, 2022-08-10-Wed.
 - Android TV on Raspberry Pi 4 Blog KR, https://blog.naver.com/PostView.naver?blogId=cosmosjs&logNo=222262221050&parentCategoryNo=&categoryNo=56&viewDate=&isShowPopularPosts=false&from=postView, 2022-08-10-Wed.
+- Android Kernel, https://source.android.com/docs/core/architecture/kernel, 2023-04-24-Mon.
