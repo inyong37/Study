@@ -1,8 +1,8 @@
-# Kernel | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85))
+# [Kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)) | [Wiki (KR)](https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85))
 
 커널은 컴퓨터 과학에서 컴퓨터의 운영 체제의 핵심이 되는 컴퓨터 프로그램의 하나로, 시스템의 모든 것을 완전히 통제한다. 운영 체제의 다른 부분 및 응용 프로그램 수행에 필요한 여러 가지 서비스를 제공한다. 핵심이라고도 한다. 커널의 역할은 보안, 자원 관리, 추상화이다.
 
-[The Linux Kernel Archives](https://www.kernel.org/)
+### [The Linux Kernel Archives](https://www.kernel.org/)
 
 ## Monolithic Kernel | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90)
 
@@ -24,11 +24,13 @@
 
 [Kernel types image](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90#/media/%ED%8C%8C%EC%9D%BC:OS-structure2.svg)
 
-#### Reference
-- Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2020-11-04-Wed.
-- Monolithic Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
-- Microkernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90 2020-11-04-Wed.
-- Hybrid Kernel Wiki KR-KO, https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
-- Nanokernel/Picokernel Wiki KR-KO in Microkernel, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90#%EB%82%98%EB%85%B8%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
+---
+
+### Reference
+- Kernel Wiki KR, https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%84%90_(%EC%BB%B4%ED%93%A8%ED%8C%85), 2020-11-04-Wed.
+- Monolithic Kernel Wiki KR, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
+- Microkernel Wiki KR, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90 2020-11-04-Wed.
+- Hybrid Kernel Wiki KR, https://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C_%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
+- Nanokernel/Picokernel Wiki KR in Microkernel, https://ko.wikipedia.org/wiki/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%BB%A4%EB%84%90#%EB%82%98%EB%85%B8%EC%BB%A4%EB%84%90, 2020-11-04-Wed.
 - Kernel types image, https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9D_%EC%BB%A4%EB%84%90#/media/%ED%8C%8C%EC%9D%BC:OS-structure2.svg, 2020-11-04-Wed.
 - The Linux Kernel Archives, https://www.kernel.org/, 2023-01-12-Thu.
