@@ -1,133 +1,14 @@
-# Mobile
+# :iphone: Mobile
 
 `This page is for the "Mobile Application".`
 
-## Mobile Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app)
-
-A mobile application, also referred to as a mobile app or simply an app, is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch.
-
-Mobile applications often stand in contrast to desktop applications which are designed to run on desktop compuiters, and web applications which run in mobile web browsers rather than directly on the mobile device.
-
-### Native Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Native_app)
-
-All apps targeted toward a particular mobile platform are known as native apps. Therefore, an app intended for Apple device does not run in Android. As a result, most businesses develop apps for multiple platforms.
-
-### Android | [Wiki](https://en.wikipedia.org/wiki/Android_(operating_system))
-
-`Contents of 'Android' is from the 'System' page.`
-
-### Apple | [Wiki](https://en.wikipedia.org/wiki/Apple_Inc.)
-
-### Web Application (Web-based Application) | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Web-based_app)
-A web-based app is implemented with the standard web technologies of HTML, CSS, and JavaScript. Internet access is typically required for proper behavior or being able to use all features compared to offline usage. Most, if not all, user data is stored in the cloud.
-
-The performance of these apps is similar to a web application running in a browser, which can be noticeably slower than the equivalent native app. It also may not have the same level of features as the native app.
-
-### Hybrid Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Hybrid_app)
-The concept of the hybrid app is a mix of native and web-based apps. Apps developed using Apache Cordova, Xamarin, React Native, Sencha Touch, and other frameworks fall into this category.
-
-These are made to support web and native technologies across multiple platforms. Moreover, these apps are easier and faster to develop. It involves ues of single codebase which works in multople mobile operating systems.
-
-Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail to bear the same look-and-feel in different mobile operating systems.
-
-## Mobile Applicatin Development | [Wiki](https://en.wikipedia.org/wiki/Mobile_app_development)
-
-### Platform
-
-### Front-end Development Tools
-- Accelerator
-- MobileTogether
-- Android
-- App Inventor for Android
-- Appcelerator
-- Basic4android
-- BlackBerry
-- Codename One
-- Corona SDK
-- DragonRAD
-- GeneXus for Mobile and Smart Devices
-- IBM MobileFirst Studio
-- iOS SDK (1)
-- iOS SDK (2)
-- Java ME
-- Lazarus
-- LambdaNative
-- LiveCode
-- Macromedia Flash Lite
-- Marmalade
-- Meme IDE
-- Mendix
-- Monaca
-- Mono for Android
-- MonoTouch
-- MoSync
-- NetBeans
-- OpenPlug
-- OutSystems
-- PhoneGap and Apache Cordova
-- Qt SDK
-- Rhomobile
-- RubyMotion
-- Sencha Touch
-- Smartface
-- Stencyl
-- Telerik Platform, and AppBuilder
-- Unity
-- Verivo AppStudio
-- ViziApps
-- V-Play Engine
-- Wakanda
-- Xamarin
-- Xojo
-
-### Back-end Servers
-
-- Altova MobileTogether Server
-- GO!AppZone by Globo plc
-- IBM MobileFirst Server
-- Metismo
-- Wakanda
-- Verivo Akula
-- WebORB Integration Server
-
-### System Software
-
-- Adobe AIR
-- BREW
-- Firefox OS
-- .NET Compact Framework
-- OpenFL
-- Palm OS
-- Python
-- Symbian
-- Tizen
-- Ubuntu Touch
-- webOS
-- Windows Mobile
-- Windows Phone
-
-## Mobile Development Framework | [Wiki](https://en.wikipedia.org/wiki/Mobile_development_framework)
-
-## Mobile Application Distribution Platform | [Wiki](https://en.wikipedia.org/wiki/List_of_mobile_app_distribution_platforms)
-
-### Apple Store | [Wiki](https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS))
-
-### Google Play | [Wiki](https://en.wikipedia.org/wiki/Google_Play)
-
-### Microsoft Store | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Store)
-
-- Amazon Appstore
-- BlackBerry World
-- Nokia Ovi
-- Microsoft Windows Phone Store
-- Opera Mobile Sotre
-- Samsung Apps
-
 ---
 
-## :iphone: Mobile System/Platform
+# :iphone: Mobile System/Platform
 
-## [Android](https://developer.android.com/)
+## :iphone: [Google Android](https://developer.android.com/) | [Wiki](https://en.wikipedia.org/wiki/Android_(operating_system))
+
+`Contents of 'Android' is from the 'System' page.`
 
 ### [Android Wear OS by Google](https://developer.android.com/training/wearables)
 
@@ -180,13 +61,135 @@ AOSP software stack architecture:
 - Native Daemons and Libraries
 - Linux Kernel: The kernel is the central part of any operating system and talks to the underlying hardware on a device. Where possible, the AOSP kernel is split into hardware-agnostic modules and vendor-specific modules.
 
-## [Android Core - Kernel](https://source.android.com/docs/core/architecture/kernel)
+### [Android Core - Kernel](https://source.android.com/docs/core/architecture/kernel)
 
 The Android kernel is based on an upstream Linux Long Term Supported (LTS) kernel. At Google, LTS kernels are combined with Android-specific patches to form what are known as Android Common Kernels (ACKs).
 
 Newer ACKs (version 5.4 and above) are also known as GKI kernels. GKI kernels support the separation of the hardware-agnostic generic core kernel code and GKI modules from the hardware-specific vendor modules.
 
 The GKI kernel interacts with hardware-specific vendor modules containing system on a chip (SoC) and board-specific code. The interaction between the GKI kernel and vendor modules is enabled by the Kernel Module Interface (KMI) consisting of symbol lists identifying the functions and global data required by vendor modules. Figure 1 shows the GKI kernel and vendor module architecture:
+
+---
+
+## :iphone: Apple | [Wiki](https://en.wikipedia.org/wiki/Apple_Inc.)
+
+---
+
+## :books: Application Types
+
+### Mobile Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app)
+
+A mobile application, also referred to as a mobile app or simply an app, is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch.
+
+Mobile applications often stand in contrast to desktop applications which are designed to run on desktop compuiters, and web applications which run in mobile web browsers rather than directly on the mobile device.
+
+### Native Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Native_app)
+
+All apps targeted toward a particular mobile platform are known as native apps. Therefore, an app intended for Apple device does not run in Android. As a result, most businesses develop apps for multiple platforms.
+
+### Web Application (Web-based Application) | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Web-based_app)
+
+A web-based app is implemented with the standard web technologies of HTML, CSS, and JavaScript. Internet access is typically required for proper behavior or being able to use all features compared to offline usage. Most, if not all, user data is stored in the cloud.
+
+The performance of these apps is similar to a web application running in a browser, which can be noticeably slower than the equivalent native app. It also may not have the same level of features as the native app.
+
+### Hybrid Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Hybrid_app)
+
+The concept of the hybrid app is a mix of native and web-based apps. Apps developed using Apache Cordova, Xamarin, React Native, Sencha Touch, and other frameworks fall into this category.
+
+These are made to support web and native technologies across multiple platforms. Moreover, these apps are easier and faster to develop. It involves ues of single codebase which works in multople mobile operating systems.
+
+Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail to bear the same look-and-feel in different mobile operating systems.
+
+---
+
+### Mobile Application Development | [Wiki](https://en.wikipedia.org/wiki/Mobile_app_development)
+
+### Platform
+
+Front-end Development Tools:
+- Accelerator
+- MobileTogether
+- Android
+- App Inventor for Android
+- Appcelerator
+- Basic4android
+- BlackBerry
+- Codename One
+- Corona SDK
+- DragonRAD
+- GeneXus for Mobile and Smart Devices
+- IBM MobileFirst Studio
+- iOS SDK (1)
+- iOS SDK (2)
+- Java ME
+- Lazarus
+- LambdaNative
+- LiveCode
+- Macromedia Flash Lite
+- Marmalade
+- Meme IDE
+- Mendix
+- Monaca
+- Mono for Android
+- MonoTouch
+- MoSync
+- NetBeans
+- OpenPlug
+- OutSystems
+- PhoneGap and Apache Cordova
+- Qt SDK
+- Rhomobile
+- RubyMotion
+- Sencha Touch
+- Smartface
+- Stencyl
+- Telerik Platform, and AppBuilder
+- Unity
+- Verivo AppStudio
+- ViziApps
+- V-Play Engine
+- Wakanda
+- Xamarin
+- Xojo
+
+Back-end Servers:
+- Altova MobileTogether Server
+- GO!AppZone by Globo plc
+- IBM MobileFirst Server
+- Metismo
+- Wakanda
+- Verivo Akula
+- WebORB Integration Server
+
+System Software:
+- Adobe AIR
+- BREW
+- Firefox OS
+- .NET Compact Framework
+- OpenFL
+- Palm OS
+- Python
+- Symbian
+- Tizen
+- Ubuntu Touch
+- webOS
+- Windows Mobile
+- Windows Phone
+
+### Mobile Development Framework | [Wiki](https://en.wikipedia.org/wiki/Mobile_development_framework)
+
+### Mobile Application Distribution Platform | [Wiki](https://en.wikipedia.org/wiki/List_of_mobile_app_distribution_platforms)
+
+- Apple Store | [Wiki](https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS))
+- Google Play | [Wiki](https://en.wikipedia.org/wiki/Google_Play)
+- Microsoft Store | [Wiki](https://en.wikipedia.org/wiki/Microsoft_Store)
+- Amazon Appstore
+- BlackBerry World
+- Nokia Ovi
+- Microsoft Windows Phone Store
+- Opera Mobile Sotre
+- Samsung Apps
 
 ---
 
