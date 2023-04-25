@@ -295,7 +295,6 @@ Download Rocky 8 - x86_64:
 
 ### [OpenWrt](https://openwrt.org/) - Router Platform
 
-
 ### Ubuntu Server vs. Desktop | [Blog](https://www.makeuseof.com/tag/difference-ubuntu-desktop-ubuntu-server/) | [Blog](https://linuxhint.com/ubuntu-desktop-ubuntu-server-difference/) | [Blog (KR)](https://developer-kus.tistory.com/33#:~:text=ubuntu%20%EB%8D%B0%EC%8A%A4%ED%81%AC%ED%83%91%EA%B3%BC%20%EC%84%9C%EB%B2%84%20%EC%BB%A4%EB%84%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%80%3F&text=%EA%B2%B0%EB%A1%A0%EC%9D%80%20GUI%EA%B0%80%20%EC%9E%88%EB%83%90,%EC%84%A4%EC%B9%98%ED%95%B4%EB%8F%84%20%EC%A2%8B%EC%9D%84%20%EA%B2%83%20%EA%B0%99%EB%8B%A4.) | [Blog (KR)](https://www.morenice.kr/119)
 
 - Desktop includes a graphical user interface (GUI), Server does not.
@@ -397,13 +396,17 @@ Buildroot is a simple, efficient and easy-to-use tool to generate embedded Linux
 
 ## :iphone: Mobile | Internet of Things (IoT) | [ubidots](https://ubidots.com/blog/iot-operating-systems/)
 
-### [Android](https://developer.android.com/) - Mobile Platform
+### [Android](https://developer.android.com/)
 
-`Other parts of 'Android' moved to 'Android' Page.`
+`Other parts of 'Android' moved to 'Mobile' Page.`
 
-### [TIZEN](https://www.tizen.org/) | [Samsung SmartTV OS](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
+### [Tizen](https://www.tizen.org/) | [Samsung Electronics Smart TV (KR)](https://news.samsung.com/kr/%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%82%BC%EC%84%B1-%EC%8A%A4%EB%A7%88%ED%8A%B8tv%EC%9A%A9-%ED%83%80%EC%9D%B4%EC%A0%A0-os%EC%9D%98-%EC%97%AC%EC%84%AF-%EA%B0%80%EC%A7%80-%EC%9E%A5)
 
-### [webOS Open Source Edition (OSE)](https://www.webosose.org/) | [LG SmartTV OS](https://live.lge.co.kr/life-style-webos/)
+`Other parts of 'Tizen' moved to 'Mobile' Page.`
+
+### [webOS Open Source Edition (OSE)](https://www.webosose.org/) | [LG Electronics Smart TV (KR)](https://live.lge.co.kr/life-style-webos/)
+
+`Other parts of 'webOS' moved to 'Mobile' Page.`
 
 |IoT OS|Features|Use cases|
 |:-|:-:|-:|
