@@ -1,15 +1,20 @@
 # Mobile
+
 `This page is for the "Mobile Application".`
 
 ## Mobile Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app)
+
 A mobile application, also referred to as a mobile app or simply an app, is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch.
 
 Mobile applications often stand in contrast to desktop applications which are designed to run on desktop compuiters, and web applications which run in mobile web browsers rather than directly on the mobile device.
 
 ### Native Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app#Native_app)
+
 All apps targeted toward a particular mobile platform are known as native apps. Therefore, an app intended for Apple device does not run in Android. As a result, most businesses develop apps for multiple platforms.
 
 ### Android | [Wiki](https://en.wikipedia.org/wiki/Android_(operating_system))
+
+`Contents of 'Android' is from the 'System' page.`
 
 ### Apple | [Wiki](https://en.wikipedia.org/wiki/Apple_Inc.)
 
@@ -28,7 +33,8 @@ Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail
 ## Mobile Applicatin Development | [Wiki](https://en.wikipedia.org/wiki/Mobile_app_development)
 
 ### Platform
-#### Front-end Development Tools
+
+### Front-end Development Tools
 - Accelerator
 - MobileTogether
 - Android
@@ -74,7 +80,8 @@ Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail
 - Xamarin
 - Xojo
 
-#### Back-end Servers
+### Back-end Servers
+
 - Altova MobileTogether Server
 - GO!AppZone by Globo plc
 - IBM MobileFirst Server
@@ -83,7 +90,8 @@ Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail
 - Verivo Akula
 - WebORB Integration Server
 
-#### System Software
+### System Software
+
 - Adobe AIR
 - BREW
 - Firefox OS
@@ -115,7 +123,74 @@ Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail
 - Opera Mobile Sotre
 - Samsung Apps
 
-#### Reference
+---
+
+## :iphone: Mobile System/Platform
+
+## [Android](https://developer.android.com/)
+
+### [Android Wear OS by Google](https://developer.android.com/training/wearables)
+
+With Wear OS by Google, you can write apps that enable users to stay connected, accomplish tasks, and express themselves.
+
+Wear OS is based on Android and is optimized for the wrist. If you have developed for Android, then features such as apps, notifications, and Actions on Google may be familiar to you. In addition, Wear OS offers new development options such as watch faces.
+
+### [Android TV](https://developer.android.com/training/tv)
+
+If you've got an Android app or game, Android TV can bring it to your users in their living room. Android TV apps use the same architecture as those for phones and tablets. This approach means you can build new TV apps based on what you already know about building apps for Android, or extend your existing apps to also run on TV devices.
+
+### [Android for Cars](https://developer.android.com/training/cars) | Android Auto | Android Automotive OS
+
+- Supported app categories
+  - Media apps (audio)
+  - Messaging apps
+  - Navigation apps
+  - Point of Interest (POI) apps
+  - Video apps
+
+### Android Auto
+
+요약: 스마트폰에 있는 앱을 자동차에서 사용가능케하는 OS, 자동차가 아닌 스마트폰에 앱을 설치함.
+
+Android Auto provides a driver-optimized app experience for users with an Android phone and the Android Auto app, but who do not have a vehicle that uses Android Automotive OS. If a user's car or aftermarket stereo system supports Android Auto, they can use your app directly on their car's display by connecting their phone.
+
+You enable Android Auto to connect with your phone app by creating services that Android Auto uses to display a driver-optimized interface to the driver. You reuse these services for your Android Automotive OS app, but users do not install your phone app on their cars.
+
+### Android Automotive OS
+
+요약: 자동차에 설치되는 infortainment 시스템을 위한 OS, 자동차에 직접 앱을 설치함.
+
+Android Automotive OS is an Android-based infotainment system that is built into vehicles. The car's system is a stand-alone Android device that is optimized for driving. With Android Automotive OS, users install your app directly onto the car instead of their phones.
+
+For media apps, your app must include a media browser service (see Build media apps for cars for instructions). You can use the same media browser service with both Android Automotive OS and Android Auto. However, there are some activities such as sign-in and settings that you must design specifically for Android Automotive OS. For more information, see Adapt sign-in flow and Design settings in the Android Automotive OS app design guidelines.
+
+### [Android Core - Architecture](https://source.android.com/docs/core/architecture)
+
+There are two levels of compatibility for devices implementing AOSP: AOSP compatibility and Android compatibility. An AOSP-compatible device must conform to the list of requirements in the Compatibility Definition Document (CDD). An Android-compatible device must conform to the list of requirements in the CDD and Vendor Software Requirements (VSR) and tests such as those in the Vendor Test Suite (VTS) and Compatiblity Test Suite (CTS). For further information on Android compatibility, refer to the Android compatibility program.
+
+AOSP software stack architecture:
+- Android Apps
+- Privileged Apps
+- Android API & System API
+- Device Manufacturer Apps
+- Android Framework
+- System Services
+- Android Runtime (ART): A Java runtime envrionment provided by AOSP.
+- Hardware Abstraction Layer (HAL): A HAL is an abstraction layer with a standard interface for hardware vendors to implement.
+- Native Daemons and Libraries
+- Linux Kernel: The kernel is the central part of any operating system and talks to the underlying hardware on a device. Where possible, the AOSP kernel is split into hardware-agnostic modules and vendor-specific modules.
+
+## [Android Core - Kernel](https://source.android.com/docs/core/architecture/kernel)
+
+The Android kernel is based on an upstream Linux Long Term Supported (LTS) kernel. At Google, LTS kernels are combined with Android-specific patches to form what are known as Android Common Kernels (ACKs).
+
+Newer ACKs (version 5.4 and above) are also known as GKI kernels. GKI kernels support the separation of the hardware-agnostic generic core kernel code and GKI modules from the hardware-specific vendor modules.
+
+The GKI kernel interacts with hardware-specific vendor modules containing system on a chip (SoC) and board-specific code. The interaction between the GKI kernel and vendor modules is enabled by the Kernel Module Interface (KMI) consisting of symbol lists identifying the functions and global data required by vendor modules. Figure 1 shows the GKI kernel and vendor module architecture:
+
+---
+
+### Reference
 - Mobile Application Wiki, https://en.wikipedia.org/wiki/Mobile_app, 2021-09-02-Thu.
 - Android Wiki, https://en.wikipedia.org/wiki/Android_(operating_system), 2021-09-02-Thu.
 - Apple Wiki, https://en.wikipedia.org/wiki/Apple_Inc. 2021-09-02-Thu.
