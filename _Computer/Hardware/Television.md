@@ -14,7 +14,12 @@ Although IPTV uses the Internet protocol it is not limited to television streame
 
 IPTV services may be classified into live television and live media, with or without related interactivity; time shifting of media, e.g., catch-up TV (replays a TV show that was broadcast hours or days ago), start-over TV (replays the current TV show from its beginning); and video on demand (VOD) which involves browsing and viewing items of a media catalogue.
 
-### TV OSes [News 1 (KR)](https://m.khan.co.kr/economy/industry-trade/article/202303202147015#c2b) | [News 2 (KR)](https://www.fnnews.com/news/202209251807453161)
+### Smart TV OSes [News 1 (KR)](https://m.khan.co.kr/economy/industry-trade/article/202303202147015#c2b) | [News 2 (KR)](https://www.fnnews.com/news/202209251807453161)
+
+2022:
+1. Google Android 40% ~
+2. Samsung Electronics Tizen 20% ~
+3. LG Electronics webOS 10% ~
 
 ---
 
