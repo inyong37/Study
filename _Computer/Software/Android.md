@@ -39,6 +39,22 @@ For media apps, your app must include a media browser service (see Build media a
 
 ---
 
+# [Architecture](https://source.android.com/docs/core/architecture)
+
+There are two levels of compatibility for devices implementing AOSP: AOSP compatibility and Android compatibility. An AOSP-compatible device must conform to the list of requirements in the Compatibility Definition Document (CDD). An Android-compatible device must conform to the list of requirements in the CDD and Vendor Software Requirements (VSR) and tests such as those in the Vendor Test Suite (VTS) and Compatiblity Test Suite (CTS). For further information on Android compatibility, refer to the Android compatibility program.
+
+AOSP software stack architecture:
+- Android Apps
+- Privileged Apps
+- Android API & System API
+- Device Manufacturer Apps
+- Android Framework
+- System Services
+- Android Runtime (ART): A Java runtime envrionment provided by AOSP.
+- Hardware Abstraction Layer (HAL): A HAL is an abstraction layer with a standard interface for hardware vendors to implement.
+- Native Daemons and Libraries
+- Linux Kernel: The kernel is the central part of any operating system and talks to the underlying hardware on a device. Where possible, the AOSP kernel is split into hardware-agnostic modules and vendor-specific modules.
+
 ## [Kernel](https://source.android.com/docs/core/architecture/kernel)
 
 The Android kernel is based on an upstream Linux Long Term Supported (LTS) kernel. At Google, LTS kernels are combined with Android-specific patches to form what are known as Android Common Kernels (ACKs).
