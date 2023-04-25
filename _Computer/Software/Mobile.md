@@ -126,3 +126,13 @@ Despite such advantages, hybrid apps exhibit lower performance. Often, apps fail
 - Apple App Store Wiki, https://en.wikipedia.org/wiki/App_Store_(iOS/iPadOS), 2021-11-12-Fri.
 - Google Play Wiki, https://en.wikipedia.org/wiki/Google_Play, 2021-11-12-Fri.
 - Microsoft Store Wiki, https://en.wikipedia.org/wiki/Microsoft_Store, 2021-11-12-Fri.
+- Android Wear, https://developer.android.com/training/wearables, 2022-08-08-Mon.
+- Android TV, https://developer.android.com/training/tv, 2022-08-08-Mon.
+- Android for Cars, https://developer.android.com/training/cars, 2022-08-08-Mon.
+- Android Auto vs. Apple Car Play Blog KR, https://dukwon.tistory.com/67, 2022-08-08-Mon.
+- Android vs. Linux distro Blog KR, https://mond.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EB%8A%94-%EB%A6%AC%EB%88%85%EC%8A%A4-%EA%B8%B0%EB%B0%98%EC%9D%B4%EB%8B%A4, 2022-08-08-Mon.
+- Linux Smart Phone Blog KR, https://sergeswin.com/1247/, 2022-08-08-Mon.
+- Android OS Architecture Blog KR, https://codingcoding.tistory.com/591, 2022-08-09-Tue.
+- Android on Raspberry Pi 4 Blog KR, https://leehands.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B44-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-10-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, 2022-08-10-Wed.
+- Android TV on Raspberry Pi 4 Blog KR, https://blog.naver.com/PostView.naver?blogId=cosmosjs&logNo=222262221050&parentCategoryNo=&categoryNo=56&viewDate=&isShowPopularPosts=false&from=postView, 2022-08-10-Wed.
+- Android Kernel, https://source.android.com/docs/core/architecture/kernel, 2023-04-24-Mon.
