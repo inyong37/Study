@@ -75,6 +75,79 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 
 ---
 
+### [Tizen Architecture](https://docs.tizen.org/platform/porting/overview/)
+
+- Native Applications & Web Framework
+- Native Subsystems
+  - Application framework
+  - Base
+  - Connetivity
+  - Graphics and UI
+  - Location
+  - Messaging
+  - Multimedia
+  - Personal Information Management (PIM)
+  - Security
+  - System
+  - Telephony
+  - Web: optimized for low-power devices2
+- Linux Kernel and Device Drivers
+
+---
+
+### [webOS Architecture](https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/)
+
+- Core Applications
+    - System UI
+    - System
+    - Sample Apps
+- Application Framework
+    - SDK
+    - Web
+- Managers & Services
+    - App
+    - Display
+    - Media
+    - i18n/l10m
+    - Diagnostics
+    - Connectivity
+    - DB
+    - Notification
+    - Settings
+    - Development
+    - Misc.
+    - Intelligence
+    - External Device
+    - SW Update
+- Base Components
+    - Bus
+    - Display
+    - Media
+    - i18n/l10n
+    - Diagnostics
+    - Connectivity
+    - JS Service
+    - DB
+    - HAL
+    - Base Libs
+    - Boot
+    - Web Engine
+    - Performance
+    - Intelligence
+    - SW Update
+- BSP
+    - Event
+    - Display
+    - Media
+    - Device
+    - Connectivity
+    - Performance
+    - General
+- Kernel
+    - Security
+
+---
+
 ## :books: Application Types
 
 ### Mobile Application | [Wiki](https://en.wikipedia.org/wiki/Mobile_app)
@@ -214,3 +287,6 @@ System Software:
 - Android on Raspberry Pi 4 Blog KR, https://leehands.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B44-%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-10-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0, 2022-08-10-Wed.
 - Android TV on Raspberry Pi 4 Blog KR, https://blog.naver.com/PostView.naver?blogId=cosmosjs&logNo=222262221050&parentCategoryNo=&categoryNo=56&viewDate=&isShowPopularPosts=false&from=postView, 2022-08-10-Wed.
 - Android Kernel, https://source.android.com/docs/core/architecture/kernel, 2023-04-24-Mon.
+- Android Architecture, https://source.android.com/docs/core/architecture, 2023-04-25-Tue.
+- Tizen Architecture, https://docs.tizen.org/platform/porting/overview/, 2023-04-25-Tue.
+- webOS Architecture, https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/, 2023-04-25-Tue.
