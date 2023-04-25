@@ -14,10 +14,6 @@ Satellite television is a service that delivers television programming to viewer
 
 Terrestrial television or over-the-air television (OTA) is a type of television broadcasting in which the signal transmission occurs via radio waves from the terrestrial (Earth-based) transmitter of a TV station to a TV receiver having an antenna. The term terrestrial is more common in Europe and Latin America, while in Canada and the United States it is called over-the-air or simply broadcast. This type of TV broadcast is distinguished from newer technologies, such as satellite television (direct broadcast satellite or DBS television), in which the signal is transmitted to the receiver from an overhead satellite; cable television, in which the signal is carried to the receiver through a cable; and Internet Protocol television, in which the signal is received over an Internet stream or on a network utilizing the Internet Protocol. Terrestrial television stations broadcast on television channels with frequencies between about 52 and 600 MHz in the VHF and UHF bands. Since radio waves in these bands travel by line of sight, reception is generally limited by the visual horizon to distances of 64–97 kilometres (40–60 mi), although under better conditions and with tropospheric ducting, signals can sometimes be received hundreds of kilometers distant.
 
-## Smart TV | [Wiki](https://en.wikipedia.org/wiki/Smart_TV)
-
-A smart TV, also known as a connected TV (CTV), is a tranditional television set with integrated Internet and interactive Web 2.0 features, which allows users to stream music and videos, browse the internet, and view photos. Smart TVs are a technological convergence of computers, television, and digital media players. Besides the tranditional functions of television sets provided through tranditional broadcasting media, these devices can provide access to over-the-top media services such as streaming television and internet radio, along with home networking access.
-
 ## Internet Protocol Television (IPTV) | [Wiki](https://en.wikipedia.org/wiki/Internet_Protocol_television)
 
 Internet Protocol Television (IPTV) is the delivery of television content over Internet Protocol (IP) networks. This is in contrast to delivery through tranditional terrestrial, satellite, and cable television format. Unlike downloaded meida, IPTV offers the ability to stream the source media continuously. As a result, a client media player can being playing the content (such as a TV channel) almost immediately. This is known as streaming media.
@@ -26,14 +22,22 @@ Although IPTV uses the Internet protocol it is not limited to television streame
 
 IPTV services may be classified into live television and live media, with or without related interactivity; time shifting of media, e.g., catch-up TV (replays a TV show that was broadcast hours or days ago), start-over TV (replays the current TV show from its beginning); and video on demand (VOD) which involves browsing and viewing items of a media catalogue.
 
-### Smart TV OSes [News 1 (KR)](https://m.khan.co.kr/economy/industry-trade/article/202303202147015#c2b) | [News 2 (KR)](https://www.fnnews.com/news/202209251807453161)
+### Smart TV | [Wiki](https://en.wikipedia.org/wiki/Smart_TV)
+
+A smart TV, also known as a connected TV (CTV), is a tranditional television set with integrated Internet and interactive Web 2.0 features, which allows users to stream music and videos, browse the internet, and view photos. Smart TVs are a technological convergence of computers, television, and digital media players. Besides the tranditional functions of television sets provided through tranditional broadcasting media, these devices can provide access to over-the-top media services such as streaming television and internet radio, along with home networking access.
+
+### Smart TV OSes | [News 1 (KR)](https://m.khan.co.kr/economy/industry-trade/article/202303202147015#c2b) | [News 2 (KR)](https://www.fnnews.com/news/202209251807453161)
 
 2022:
 1. Google Android 40% ~
 2. Samsung Electronics Tizen 20% ~
 3. LG Electronics webOS 10% ~
 
-## Set-top Box | [Wiki](https://en.wikipedia.org/wiki/Set-top_box)
+### Media Player
+
+### Google Chromecast
+
+### Set-top Box | [Wiki](https://en.wikipedia.org/wiki/Set-top_box)
 
 An electronic device that makes it possible to watch digital broadcasts on ordinary television.
 
