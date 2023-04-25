@@ -101,7 +101,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
     - webOS Open Source Edition (OSE)
     - Open webOS (by Hewlett-Packard, from April 2010)
     - Palm OS (by Palm, from January 2009)
-  - TIZEN (by Samsung Electronics, from April 2012)
+  - Tizen (by Samsung Electronics, from April 2012)
 
 - z/OS (by IBM, from October 2000, used for Mainframe)
 - OpenVMS (by VSI, from October 1977, used for Servers)
