@@ -97,6 +97,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - Android Automotive OS (used for infortainment system of vehicle)
     - Android Things
     - Chrome OS
+  - Google TV (by Google, Intel, Sony, and Logitech, from October 2010)
   - webOS (by LG Electronics, from February 2013)
     - webOS Open Source Edition (OSE)
     - Open webOS (by Hewlett-Packard, from April 2010)
