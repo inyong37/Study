@@ -45,7 +45,7 @@ A set-top box (STB), also colloquially known as a cable box or receiver and host
 
 ### [Apple TV](https://tv.apple.com/) | [Apple TV 4K](https://www.apple.com/apple-tv-4k/)
 
-### [Google TV](https://tv.google/)
+### [Google TV](https://tv.google/) | [Wiki](https://en.wikipedia.org/wiki/Google_TV_(operating_system))
 
 ---
 
@@ -64,3 +64,4 @@ A set-top box (STB), also colloquially known as a cable box or receiver and host
 - Cable Television Wiki, https://en.wikipedia.org/wiki/Cable_television, 2023-04-25-Tue.
 - Satellite Television Wiki, https://en.wikipedia.org/wiki/Satellite_television, 2023-04-25-Tue.
 - Terrestrial Television Wiki, https://en.wikipedia.org/wiki/Terrestrial_television, 2023-04-25-Tue.
+- Google TV Wiki, https://en.wikipedia.org/wiki/Google_TV_(operating_system), 2023-04-26-Wed.
