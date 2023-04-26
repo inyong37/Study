@@ -79,18 +79,9 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 
 - Native Applications & Web Framework
 - Native Subsystems
-  - Application framework
-  - Base
-  - Connetivity
-  - Graphics and UI
-  - Location
-  - Messaging
-  - Multimedia
-  - Personal Information Management (PIM)
-  - Security
-  - System
-  - Telephony
-  - Web: optimized for low-power devices2
+  - Application framework | Base | Connetivity | Graphics and UI | Location
+  - Messaging | Multimedia | Personal Information Management (PIM) | Security | System
+  - Telephony | Web: optimized for low-power devices2
 - Linux Kernel and Device Drivers
 
 ---
@@ -98,51 +89,20 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 ### [webOS Architecture](https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/)
 
 - Core Applications
-    - System UI
-    - System
-    - Sample Apps
+  - System UI | System | Sample Apps
 - Application Framework
-    - SDK
-    - Web
+  - SDK | Web
 - Managers & Services
-    - App
-    - Display
-    - Media
-    - i18n/l10m
-    - Diagnostics
-    - Connectivity
-    - DB
-    - Notification
-    - Settings
-    - Development
-    - Misc.
-    - Intelligence
-    - External Device
-    - SW Update
+    - App | Display | Media | i18n/l10mn | Diagnostics
+    - Connectivity | DB | Notification | Settings | Development
+    - Misc. | Intelligence | External Device | SW Update
 - Base Components
-    - Bus
-    - Display
-    - Media
-    - i18n/l10n
-    - Diagnostics
-    - Connectivity
-    - JS Service
-    - DB
-    - HAL
-    - Base Libs
-    - Boot
-    - Web Engine
-    - Performance
-    - Intelligence
-    - SW Update
+    - Bus | Display | Media | i18n/l10n | Diagnostics
+    - Connectivity | JS Service | DB | HAL | Base Libs
+    - Boot | Web Engine | Performance | Intelligence | SW Update
 - BSP
-    - Event
-    - Display
-    - Media
-    - Device
-    - Connectivity
-    - Performance
-    - General
+    - Event | Display | Media | Device | Connectivity
+    - Performance | General
 - Kernel
     - Security
 
