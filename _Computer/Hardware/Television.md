@@ -47,6 +47,10 @@ A set-top box (STB), also colloquially known as a cable box or receiver and host
 
 ### [Google TV](https://tv.google/) | [Wiki](https://en.wikipedia.org/wiki/Google_TV_(operating_system))
 
+### [Android TV vs. Google TV](https://www.androidpolice.com/whats-the-difference-between-google-tv-and-android-tv/)
+
+While Android TV's recommendations are based on streaming apps rather than personal taste, Google TV uses Google's machine learning, Google Assistant, and Google's Knowledge Graph information base to learn your viewing habits. This data is then used to make tailored suggestions on the homescreen's dedicated For You tab, show relevant promotions, and highlight popular content in your region. Plus, Google TV can use Live TV, Smart home devices, Parental Controls with multiple user profiles, and Mobile remote with a smartphone.
+
 ---
 
 ### Reference
@@ -65,3 +69,4 @@ A set-top box (STB), also colloquially known as a cable box or receiver and host
 - Satellite Television Wiki, https://en.wikipedia.org/wiki/Satellite_television, 2023-04-25-Tue.
 - Terrestrial Television Wiki, https://en.wikipedia.org/wiki/Terrestrial_television, 2023-04-25-Tue.
 - Google TV Wiki, https://en.wikipedia.org/wiki/Google_TV_(operating_system), 2023-04-26-Wed.
+- Android TV vs. Google TV, https://www.androidpolice.com/whats-the-difference-between-google-tv-and-android-tv/, 2023-04-26-Wed.
