@@ -75,6 +75,8 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 
 ---
 
+## :iphone: [Samsing Electronics Tizen](https://www.tizen.org/) | [Tizen .NET](https://developer.samsung.com/tizen)
+
 ### [Tizen Architecture](https://docs.tizen.org/platform/porting/overview/)
 
 - Native Applications & Web Framework
@@ -85,6 +87,8 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 - Linux Kernel and Device Drivers
 
 ---
+
+## :iphone: [LG Electronics webOS Open Source Edition (OSE)](https://www.webosose.org/)
 
 ### [webOS Architecture](https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/)
 
@@ -105,6 +109,10 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
     - Performance | General
 - Kernel
     - Security
+
+### [[CES 2022] 개인 맞춤형 플랫폼으로의 진화, LG webOS](https://live.lge.co.kr/life-style-webos/)
+
+### [LG전자, webOS 앞세워 TV 플랫폼 사업 확 키운다](https://live.lge.co.kr/lg-web-os/)
 
 ---
 
@@ -250,3 +258,8 @@ System Software:
 - Android Architecture, https://source.android.com/docs/core/architecture, 2023-04-25-Tue.
 - Tizen Architecture, https://docs.tizen.org/platform/porting/overview/, 2023-04-25-Tue.
 - webOS Architecture, https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/, 2023-04-25-Tue.
+- Tizen, https://www.tizen.org/, 2023-04-27-Thu.
+- Tizen .NET, https://developer.samsung.com/tizen, 2023-04-27-Thu.
+- LG webOS, https://live.lge.co.kr/lg-web-os/, 2023-04-27-Thu.
+- LG Life Style webOS, https://live.lge.co.kr/life-style-webos/, 2023-04-27-Thu.
+- webOS Open Source Edition, https://www.webosose.org/, 2023-04-27-Thu.
