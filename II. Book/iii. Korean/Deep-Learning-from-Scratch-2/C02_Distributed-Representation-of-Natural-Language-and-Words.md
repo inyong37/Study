@@ -194,7 +194,90 @@ def preprocess(text):
 
 ### 2.3.4. 동시발생 행렬
 
+분포 가설에 기초해 단어를 벡터로 나타내는 방법. 주변 단어를 '세어보는' 방법. 어떤 단어에 주목했을 때, 그 주변에 어떤 단어가 몇 번이나 등장하는지를 세어 집계하는 방법. 이를 '통계 기반(statistical based)' 기법.
+
+```Python
+import sys
+sys.path.append('..')
+import numpy as np
+from common.util import preprocess
+text = 'You say goodbye and I say hello.'
+corpus, word_to_id, id_to_word = preprocess(text)
+
+print(corpus)
+print(id_to_word)
+```
+
+모든 단어에 대해 동시발생하는 단어를 표에 정리. 이 표의 각 행은 해당 단어를 표현한 벡터가 됨. 이 표가 행렬의 형태를 띤다는 뜻에서 동시발생 행렬(co-occurrence matrix)이라 함.
+
+```Python
+C = np.array([
+  [0, 1, 0, 0, 0, 0, 0],
+  [1, 0, 1, 0, 1, 1, 0],
+  [0, 1, 0, 1, 0, 0, 0],
+  [0, 0, 1, 0, 1, 0, 0],
+  [0, 1, 0, 1, 0, 0, 0],
+  [0, 1, 0, 0, 0, 0, 1],
+  [0, 0, 0, 0, 0, 1, 0],
+], dtype=np.int32)
+```
+
+동시발생 행렬을 활용하면 단어를 벡터로 나타낼 수 있음. 자동화할 수 있음. 말뭉치로부터 동시발생 행렬을 만들어주는 함수를 구현. create_co_matrix(corpus, vocab_size, window_size=1). 단어 ID의 리스트, 어휘 수, 윈도우 크기(common/util.py)
+
+```Python
+def create_co_matrix(corpus, vocab_size, window_size=1):
+  corpus_size = len(corpus)
+  co_matrix = np.zeros((vocab_size, vocab_size), dtype=np.int32)
+  
+  for idx, word_id in enumerate(corpus):
+    for i in range(1, window_size + 1):
+      left_idx = idx - 1
+      right_idx = idx + 1
+      
+      if left_idx >= 0:
+        left_word_id = corpus[left_idx]
+        co_matrix[word_id, left_word_id] += 1
+      
+      if right_idx < corpus_size:
+        right_word_id = corpus[right_idx]
+        co_matrix[word_id, right_word_id] += 1
+  
+  return co_matrix
+```
+
+먼저 co_matrix를 0으로 채워진 2차원 배열로 초기화. 말뭉치의 모든 단어 각각에 대하여 윈도우에 포함된 주변 단어를 세어나감. 이때 말뭉치의 왼쪽 끝과 오른쪽 끝 경계를 벗어나지 않는지도 확인.
+
+이 함수는 말뭉치가 아무리 커지더라도 자동으로 동시발생 행렬을 만들어줌.
+
 ### 2.3.5. 벡터 간 유사도
+
+벡터 사이의 유사도를 측정하는 방법.
+
+벡터 사이의 유사도를 측정하는 방법은 다양. 대표적으로는 벡터의 내적이나 유클리드 거리 등. 코사인 유사도(cosine similarity)를 자주 이용함. 두 벡터 x=(x1, x2, x3, ..., xn)과 y=(y1, y2, y3, ..., yn)이 있다면, 코사인 유사도는 다음 식으로 정의됨.
+
+similarity(x, y) = x1 * y1 + ... + xn * yn / ((x1^2 + ... + xn^2)^(1/2) * (y1^2 + ... + yn^2)^(1/2)) ... [식 2.1]
+
+분자에는 벡터의 내적이, 분모에는 각 벡터의 노름(norm)이 등장. 노름은 벡터의 크기를 나타낸 것, 'L2 노름'을 계산함(L2 노름은 벡터의 각 원소를 제곱해 더한 후 다시 제곱근을 구해 계산함). [식 2.1]의 핵심은 벡터를 정규화하고 내적을 구하는 것임.
+
+코사인 유사도를 파이썬 함수로 구현(common/util.py)
+
+```Python
+def cos_similarity(x, y):
+  nx = x / np.sqrt(np.sum(x**2)) # x의 정규화
+  ny = y / np.sqrt(np.sum(y**2)) # y의 정규화
+  return np.dot(nx, dy)
+```
+
+인수 x와 인수 y는 넘파이 배열이라고 가정. 이 함수는 먼저 벡터 x와 y를 정규화한 후 두 벡터의 내적을 구함. 문제. 인수로 제로 벡터(원소가 모두 0인 벡터)가 들어오면 '0으로 나누기(divide by zero)' 오류가 발생.
+
+해결하는 전통적인 방법은 나눌 때 분모에 작은 값을 더해주는 것. 작은 값을 뜻하는 eps를 인수로 받도록 하고, 이 인수의 값을 지정하지 않으면 기본값으로 1e-8(=0.00000001)이 설정되도록 수정(eps는 엡실론(epsilon)의 약어). 개선된 코드(common/util.py)
+
+```Python
+def cos_similarity(x, y, eps=1e-8):
+  nx = x / (np.sqrt(np.sum(x**2)) + eps) # x의 정규화
+  ny = y / (np.sqrt(np.sum(y**2)) + eps) # y의 정규화
+  return np.dot(nx, dy)
+```
 
 ### 2.3.6. 유사 단어의 랭킹 표시
 
