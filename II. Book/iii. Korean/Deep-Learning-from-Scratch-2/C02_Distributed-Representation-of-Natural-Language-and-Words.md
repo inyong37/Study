@@ -302,6 +302,64 @@ print(cos_similarity(c0, c1))
 
 ### 2.3.6. 유사 단어의 랭킹 표시
 
+어떤 단어가 검색어로 주어지면, 그 검색어와 비슷한 단어를 유사도 순으로 출력하는 함수. most_similar(query, word_to_id, id_to_word, word_matrix, top=5) (common/util.py)
+
+query: 검색어(단어)
+
+word_to_id: 단어에서 단어 ID로의 딕셔너리
+
+id_to_word: 단어 ID에서 단어로의 딕셔너리
+
+word_matrix: 단어 벡터들을 한데 모은 행렬, 각 행에는 대응하는 단어의 벡터가 저장되어 있다고 가정
+
+top: 상위 몇 개까지 출력할지 설정
+
+```Python
+def most_similar(query, word_to_id, id_to_word, word_matrix, top=5):
+  # 1. 검색어를 꺼냄.
+  if query not in word_to_id:
+    print('%s(을)를 찾을 수 없습니다.' %query)
+    return
+  
+  print('\n[query] ' + query)
+  query_id = word_to_id[query]
+  query_vec = word_matrix[query_id]
+  
+  # 2. 코사인 유사도 계산
+  vocab_size = len(id_to_word)
+  similarity = np.zeros(vocab_size)
+  for i in range(vocab_size):
+    similarity[i] = cos_similarity(word_matrix[i], query_vec)
+  
+  # 3. 코사인 유사도를 기준으로 내림차순으로 출력
+  count = 0
+  for i in (-1 * similarity).argsort():
+    if id_to_word[i] == query:
+      continue
+    print(' %s: %s' % (id_to_word[i], similarity[i]))
+    
+    count += 1
+    if count >= top:
+      return
+```
+
+3에서는 similarity 배열에 담긴 원소의 인덱스를 내림차순으로 정렬한 후 상위 원소들을 출력함. 이때 배열 인덱스의 정렬을 바꾸는데 사용한 argsort() 메서드는 넘파이 배열의 원소를 오름차순으로 정렬함(단, 반환값은 배열의 인덱스).
+
+```Python
+>>> x = np.array([100, -20, 2])
+>>> x.argsort()
+array([1, 2, 0])
+```
+
+마이너스를 곱한 후 argsort() 메서드를 호출.
+
+```Python
+>>> (-x).argsort()
+array([0, 2, 1])
+```
+
+이처럼 argsort()를 사용하면 단어의 유사도가 높은 순서로 출력할 수 있음.
+
 ## 2.4. 통계 기반 기법 개선하기
 
 ### 2.4.1. 상호정보량
