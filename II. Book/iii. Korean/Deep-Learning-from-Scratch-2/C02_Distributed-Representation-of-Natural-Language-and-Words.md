@@ -279,6 +279,27 @@ def cos_similarity(x, y, eps=1e-8):
   return np.dot(nx, dy)
 ```
 
+:bulb: 1e-8이면 일반적으로 부동소수점 계산 시 '반올림'되어 다른 값에 '흡수'됨. 이 값이 벡터의 노름에 '흡수'되기 때문에 대부분의 경부 eps를 더한다고 해서 최종 계산 결과에는 영향을 주지 않음. 벡터의 노름이 0일 때는 이 작은 값이 그대로 유지되어 '0으로 나누기' 오류가 나는 사태를 막아줌.
+
+이 함수를 사용하면 단어 벡터의 유사도를 구할 수 있음(ch02/similarity.py)
+
+```Python
+import sys
+sys.path.append('..')
+from common.util import preprocess, create_co_matrix, cos_similarity
+
+text = 'You say goodbye and I say hello.'
+corpus, word_to_id, id_to_word = preprocess(text)
+vocab_size = len(word_to_id)
+C = create_co_matrix(corpus, vocab_size)
+
+c0 = C[word_to_id['you']] # "you"의 단어 벡터
+c1 = C[word_to_id['i']] # "i"의 단어 벡터
+print(cos_similarity(c0, c1))
+```
+
+코사인 유사도 값은 -1에서 1 사이이므로, 이 값은 비교적 높다(유사성이 크다)고 말할 수 있음.
+
 ### 2.3.6. 유사 단어의 랭킹 표시
 
 ## 2.4. 통계 기반 기법 개선하기
