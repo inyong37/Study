@@ -1,12 +1,18 @@
 # :package: Storage
 
+---
+
 ## :package: Direct Attached Storage (DAS) | [WiKi](https://en.wikipedia.org/wiki/Direct-attached_storage)
 
 Direct-attached storage (DAS) is digital storage directly attached to the computer accessing it, as opposed to storage accessed over a computer network (i.e. network-attached storage). Examples of DAS include hard drives, solid-state drives, optical disc drives, and storage on external drives. The name "DAS" is a retronym to contrast with storage area network (SAN) and network-attached storage (NAS).
 
+---
+
 ## :cloud: [Network Attached Storage (NAS)](https://www.ibm.com/topics/network-attached-storage)
 
 Network attached storage (NAS) is a centralized, file server, which allows multiple users to store and share files over a TCP/IP network via Wifi or an Ethernet cable. It is alos commonly known as a NAS box, NAS unit, NAS server, or NAS head. These devices rely on a few components to operate, such as hard drives, network protocols, and a lightweight operating system (OS).
+
+---
 
 ## :cloud: Cloud Storage
 
@@ -29,9 +35,25 @@ iCloud is built into all Apple devices by default. This means you can keep your 
 
 ### Daum Drive -> [Daum 'Cloud' Deprecated](https://cs.daum.net/faq/304/17063.html#34360)
 
+### [Nextcloud](https://nextcloud.com/) | [KR](https://tech.gluesys.com/blog/2021/05/20/Nextcloud.html) | [Install (KR)](https://velog.io/@windsekirun/%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-NextCloud-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-on-VPS)
+
+### [NAS vs. Cloud](https://www.makeuseof.com/tag/nas-vs-the-cloud-which-remote-storage-is-right-for-you/)
+
+NAS:
+- System: build it yourself
+- Access from various devices(Phones, Tablets, and Computers)
+
+Cloud:
+- Service: use it external provider
+- Access from computers mostly
+
+---
+
 ## :cloud: [Storage Area Network (SAN)](https://www.ibm.com/topics/storage-area-network)
 
 A storage area network (SAN) is a dedicated network tailored to a specific environment - combining servers, storage systems, networking switches, software and services.
+
+---
 
 ## :package: File System
 
@@ -121,3 +143,6 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 - Storage Area Network IBM, https://www.ibm.com/topics/storage-area-network, 2023-02-21-Tue.
 - Ceph Blog KR, https://m.blog.naver.com/pap5608/220569478476, 2023-02-21-Tue.
 - Ceph Red Hat, https://www.redhat.com/en/technologies/storage/ceph, 2023-03-14-Tue.
+- Nextcloud, https://nextcloud.com/, 2023-05-04-Thu.
+- Nextcloud KR, https://tech.gluesys.com/blog/2021/05/20/Nextcloud.html, 2023-05-04-Thu.
+- Install Nextcloud Blog KR, https://velog.io/@windsekirun/%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-NextCloud-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-on-VPS, 2023-05-04-Thu.
