@@ -120,6 +120,10 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service.
 
+### [MinIO](https://min.io/)
+
+MinIO is a high-performance, S3 compatible object store.
+
 ---
 
 ## Backup
@@ -176,3 +180,4 @@ A granular backup strategy that includes all of the following:
 - Database Data Recovery IBM, https://www.ibm.com/docs/en/db2/11.1?topic=administration-data-recovery, 2023-05-08-Mon.
 - Backup Strategy KR, https://library.gabia.com/contents/infrahosting/7241/, 2023-05-08-Mon.
 - Amazon S3, https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html, 2023-05-08-Mon.
+- MinIO, https://min.io/, 2023-05-08-Mon.
