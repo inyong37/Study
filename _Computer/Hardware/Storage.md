@@ -116,6 +116,12 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 
 ---
 
+### [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
+
+Amazon Simple Storage Service (Amazon S3) is an object storage service.
+
+---
+
 ## Backup
 
 ### [Backup Strategy (AWS)](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-best-practices/strategy.html)
