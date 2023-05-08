@@ -116,6 +116,10 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 
 ---
 
+## [Storage as a Service (StaaS)](https://www.hpe.com/us/en/what-is/storage-as-a-service.html)
+
+Storage as a Service (StaaS) is a way for organizations to manage storage capacity and workloads without the overhead costs of upfront capital for storage hardware and software or staff time. Organizations subscribe to storage services and simply access and use a vendor’s infrastructure on demand.
+
 ### [Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service.
@@ -181,3 +185,4 @@ A granular backup strategy that includes all of the following:
 - Backup Strategy KR, https://library.gabia.com/contents/infrahosting/7241/, 2023-05-08-Mon.
 - Amazon S3, https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html, 2023-05-08-Mon.
 - MinIO, https://min.io/, 2023-05-08-Mon.
+- Storage as a Service (StaaS) HPE, https://www.hpe.com/us/en/what-is/storage-as-a-service.html, 2023-05-08-Mon.
