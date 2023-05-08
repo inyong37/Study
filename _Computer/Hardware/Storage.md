@@ -124,6 +124,8 @@ Storage as a Service (StaaS) is a way for organizations to manage storage capaci
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service.
 
+Bucket: Directory/Folder, Object: File
+
 ### [MinIO](https://min.io/)
 
 MinIO is a high-performance, S3 compatible object store.
