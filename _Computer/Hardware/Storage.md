@@ -116,6 +116,26 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 
 ---
 
+## Backup
+
+### [Backup Strategy (AWS)](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-best-practices/strategy.html)
+
+An objective is to build a recovery strategy that brings your workload back up or avoids downtime within the acceptable recovery objectives, Recovery Time Objective (RTO) and Recovery Point Objective (RPO). RTO is the acceptable delay between the interruption of service and restoration of service. RPO is the acceptable amount of time since the last data recovery point.
+
+A granular backup strategy that includes all of the following:
+- Continuous backup cadence
+- Point-in-Time Recovery (PITR)
+- File-level recovery
+- Application data–level recovery
+- Volume-level recovery
+- Instance-level recovery
+
+### [Database Data Recovery (IBM)](https://www.ibm.com/docs/en/db2/11.1?topic=administration-data-recovery)
+
+### [Bacup Strategy (KR)](https://library.gabia.com/contents/infrahosting/7241/)
+
+---
+
 ### Reference
 - Google Drive, https://www.google.com/intl/ko_ALL/drive/, 2020-05-05-Tue.
 - OneDrive, https://www.microsoft.com/ko-kr/microsoft-365/onedrive/online-cloud-storage, 2020-05-05-Tue.
@@ -146,3 +166,6 @@ Ceph Storage Provider: Rook orchestrates the Ceph storage solution, with a speci
 - Nextcloud, https://nextcloud.com/, 2023-05-04-Thu.
 - Nextcloud KR, https://tech.gluesys.com/blog/2021/05/20/Nextcloud.html, 2023-05-04-Thu.
 - Install Nextcloud Blog KR, https://velog.io/@windsekirun/%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94-NextCloud-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-on-VPS, 2023-05-04-Thu.
+- Backup Strategy AWS, https://docs.aws.amazon.com/prescriptive-guidance/latest/security-best-practices/strategy.html, 2023-05-08-Mon.
+- Database Data Recovery IBM, https://www.ibm.com/docs/en/db2/11.1?topic=administration-data-recovery, 2023-05-08-Mon.
+- Backup Strategy KR, https://library.gabia.com/contents/infrahosting/7241/, 2023-05-08-Mon.
