@@ -175,3 +175,4 @@ A granular backup strategy that includes all of the following:
 - Backup Strategy AWS, https://docs.aws.amazon.com/prescriptive-guidance/latest/security-best-practices/strategy.html, 2023-05-08-Mon.
 - Database Data Recovery IBM, https://www.ibm.com/docs/en/db2/11.1?topic=administration-data-recovery, 2023-05-08-Mon.
 - Backup Strategy KR, https://library.gabia.com/contents/infrahosting/7241/, 2023-05-08-Mon.
+- Amazon S3, https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html, 2023-05-08-Mon.
