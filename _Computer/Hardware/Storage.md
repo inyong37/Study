@@ -132,6 +132,10 @@ MinIO is a high-performance, S3 compatible object store.
 
 ## Backup
 
+### [Data Protection as a Service (DPaaS)](https://www.hpe.com/us/en/what-is/dpaas.html)
+
+Data Protection as a Service (DPaaS) is a cloud-based or web-delivered service enabling organizations to protect their data and applications, securing their network and providing recovery options per the desired SLA and delivered via a consumption-based model.
+
 ### [Backup Strategy (AWS)](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-best-practices/strategy.html)
 
 An objective is to build a recovery strategy that brings your workload back up or avoids downtime within the acceptable recovery objectives, Recovery Time Objective (RTO) and Recovery Point Objective (RPO). RTO is the acceptable delay between the interruption of service and restoration of service. RPO is the acceptable amount of time since the last data recovery point.
@@ -186,3 +190,4 @@ A granular backup strategy that includes all of the following:
 - Amazon S3, https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html, 2023-05-08-Mon.
 - MinIO, https://min.io/, 2023-05-08-Mon.
 - Storage as a Service (StaaS) HPE, https://www.hpe.com/us/en/what-is/storage-as-a-service.html, 2023-05-08-Mon.
+- Data Protection as a Service (DPaas) HPE, https://www.hpe.com/us/en/what-is/dpaas.html, 2023-05-08-Mon.
