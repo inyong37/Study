@@ -126,7 +126,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service.
 
 Bucket: Directory/Folder, Object: File
 
-### [MinIO](https://min.io/) | [Blog (KR)](https://meteorkor.tistory.com/65)
+### [MinIO](https://min.io/) | [Blog (KR)](https://meteorkor.tistory.com/65) | [Install (KR)](https://m.blog.naver.com/blue1992256/222409754384)
 
 MinIO is a high-performance, S3 compatible object store.
 
@@ -197,3 +197,4 @@ A granular backup strategy that includes all of the following:
 - Data Protection as a Service (DPaas) HPE, https://www.hpe.com/us/en/what-is/dpaas.html, 2023-05-08-Mon.
 - MinIO Blog KR, https://meteorkor.tistory.com/65, 2023-05-08-Mon.
 - Backup Kubernetes with Velero and MinIO Blog, https://www.debontonline.com/2020/10/kubernetes-part-9-backup-kubernetes.html, 2023-05-08-Mon.
+- Install MinIO Blog KR, https://m.blog.naver.com/blue1992256/222409754384, 2023-05-08-Mon.
