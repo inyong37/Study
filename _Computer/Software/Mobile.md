@@ -93,22 +93,68 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 ### [webOS Architecture](https://www.webosose.org/docs/guides/core-topics/architecture/architecture-overview/)
 
 - Core Applications
-  - System UI | System | Sample Apps
+  - System UI
+    - Home, Launchpad, Status Bar, Notification
+  - System
+    - Setting, Enact Browser
+  - Sample Apps
+    - Youtube
 - Application Framework
-  - SDK | Web
+  - SDK
+    - CLI, Emulator, Beanviser, Workflow Designer, VS Code Extension
+  - Web
+    - Enact
 - Managers & Services
-    - App | Display | Media | i18n/l10mn | Diagnostics
-    - Connectivity | DB | Notification | Settings | Development
-    - Misc. | Intelligence | External Device | SW Update
+    - App
+    - Display
+    - Media
+    - i18n/l10n
+    - Diagnostics
+    - Connectivity
+    - DB
+      - DB8
+    - Notification
+    - Settings
+    - Development
+    - Misc.
+    - Intelligence
+    - External Device
+    - SW Update
 - Base Components
-    - Bus | Display | Media | i18n/l10n | Diagnostics
-    - Connectivity | JS Service | DB | HAL | Base Libs
-    - Boot | Web Engine | Performance | Intelligence | SW Update
+    - Bus
+    - Display
+      - Qt, QPA, QtWayland
+    - Media
+    - i18n/l10n
+    - Diagnostics
+    - Connectivity
+    - JS Service
+      - Node.js, nodejs-module
+    - DB
+      - LevelDB
+    - HAL
+    - Base Libs
+    - Boot
+      - bootd, systemd
+    - Web Engine
+      - Chromium
+    - Performance
+    - Intelligence
+      - Google Assistant
+    - SW Update
+      - libostree
 - BSP
-    - Event | Display | Media | Device | Connectivity
-    - Performance | General
+    - Event
+    - Display
+      - EGL, Wayland EGL, Mesa, KMS / DRM, OpenGL ES
+    - Media
+    - Device
+    - Connectivity
+    - Performance
+    - General
 - Kernel
     - Security
+      - Smack
 
 ### [[CES 2022] 개인 맞춤형 플랫폼으로의 진화, LG webOS](https://live.lge.co.kr/life-style-webos/)
 
