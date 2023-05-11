@@ -81,7 +81,12 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 
 - Native Applications & Web Framework
 - Native Subsystems
-  - Application framework | Base | Connetivity | Graphics and UI | Location
+  - Application framework | Base | Connetivity
+  - Graphics and UI
+    - Tizen Buffer Manager (TBM)
+    - Tizen Display Manager (TDM)
+    - TPL-EGL (Tizen Porting Layer) : Tizen's platform-level graphics architecture related to OpenGL ES and EGL.
+  - Location
   - Messaging | Multimedia | Personal Information Management (PIM) | Security | System
   - Telephony | Web: optimized for low-power devices2
 - Linux Kernel and Device Drivers
