@@ -77,19 +77,35 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 
 ## :iphone: [Samsing Electronics Tizen](https://www.tizen.org/) | [Tizen .NET](https://developer.samsung.com/tizen)
 
-### [Tizen Architecture](https://docs.tizen.org/platform/porting/overview/)
+### [Tizen Architecture](https://docs.tizen.org/platform/porting/overview/) | [#2](https://developer.tizen.org/tizen-architecture)
 
-- Native Applications & Web Framework
-- Native Subsystems
-  - Application framework | Base | Connetivity
-  - Graphics and UI
-    - Tizen Buffer Manager (TBM)
-    - Tizen Display Manager (TDM)
-    - TPL-EGL (Tizen Porting Layer) : Tizen's platform-level graphics architecture related to OpenGL ES and EGL.
-  - Location
-  - Messaging | Multimedia | Personal Information Management (PIM) | Security | System
-  - Telephony | Web: optimized for low-power devices2
-- Linux Kernel and Device Drivers
+- Layer 4
+  - .Net Applications
+  - Web Applications
+- Layer 3
+  - Xamarin.Forms
+  - TizenFX API
+  - Native Applications
+  - Web API
+- Layer 2
+  - .NET Core
+    - .NET Standard API
+    - .NET Runtime
+  - Native Subsystems
+    - Application Framework | Base | Content | Location | Messaging | Multimedia | Network | Security | Social | System | Telephone
+    - Graphics and UI
+      - Tizen Buffer Manager (TBM)
+      - Tizen Display Manager (TDM)
+      - TPL-EGL (Tizen Porting Layer) : Tizen's platform-level graphics architecture related to OpenGL ES and EGL.
+    - Web: optimized for low-power devices2
+- Layer 1
+  - Linux Kernel and Device Drivers
+
+### [Tizen Frameworks](https://docs.tizen.org/application/index#tizen-application-types)
+
+1. [.Net](https://docs.tizen.org/application/dotnet/)
+2. [Web](https://docs.tizen.org/application/web/)
+3. [Native](https://docs.tizen.org/application/native/)
 
 ---
 
@@ -110,35 +126,20 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
   - Web
     - Enact
 - Managers & Services
-    - App
-    - Display
-    - Media
-    - i18n/l10n
-    - Diagnostics
-    - Connectivity
+    - App | Display | Media | i18n/l10n | Diagnostics | Connectivity
     - DB
       - DB8
-    - Notification
-    - Settings
-    - Development
-    - Misc.
-    - Intelligence
-    - External Device
-    - SW Update
+    - Notification | Settings | Development | Misc. | Intelligence | External Device | SW Update
 - Base Components
     - Bus
     - Display
       - Qt, QPA, QtWayland
-    - Media
-    - i18n/l10n
-    - Diagnostics
-    - Connectivity
+    - Media | i18n/l10n | Diagnostics | Connectivity
     - JS Service
       - Node.js, nodejs-module
     - DB
       - LevelDB
-    - HAL
-    - Base Libs
+    - HAL | Base Libs
     - Boot
       - bootd, systemd
     - Web Engine
@@ -152,11 +153,7 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
     - Event
     - Display
       - EGL, Wayland EGL, Mesa, KMS / DRM, OpenGL ES
-    - Media
-    - Device
-    - Connectivity
-    - Performance
-    - General
+    - Media | Device | Connectivity | Performance | General
 - Kernel
     - Security
       - Smack
@@ -314,3 +311,5 @@ System Software:
 - LG webOS, https://live.lge.co.kr/lg-web-os/, 2023-04-27-Thu.
 - LG Life Style webOS, https://live.lge.co.kr/life-style-webos/, 2023-04-27-Thu.
 - webOS Open Source Edition, https://www.webosose.org/, 2023-04-27-Thu.
+- Tizen Frameworks, https://docs.tizen.org/application/index#tizen-application-types, 2023-05-11-Thu.
+- Tizen Architecture, https://developer.tizen.org/tizen-architecture, 2023-05-11-Thu.
