@@ -107,6 +107,14 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 2. [Web](https://docs.tizen.org/application/web/)
 3. [Native](https://docs.tizen.org/application/native/)
 
+### Tizen Graphics and UI
+
+EFL(Enlightenment Foundation Libraries, 그래픽 컴포넌트 라이브러리들)를 포함함, Evas cancas API, 기본 위젯 라이브러리가 있음.
+
+window management system(x11 for Tizen 2.x / Wayland for Tizen 3.0)을 포함함.
+
+Webkit-based 그래픽이 제공됨. Tizen의 자체 HTML5 canvas WebKitEFL 구현임, WebGL, jQuery Mobile 지원함.
+
 ---
 
 ## :iphone: [LG Electronics webOS Open Source Edition (OSE)](https://www.webosose.org/)
@@ -157,6 +165,14 @@ The GKI kernel interacts with hardware-specific vendor modules containing system
 - Kernel
     - Security
       - Smack
+
+### [webOS Graphics and Input](https://www.webosose.org/docs/guides/core-topics/graphics-input/graphics-input-overview/)
+
+자체 구현한 Luna Sufrace Manager(LSM)을 사용함, Wayland와 호환됨.
+
+LSM은 1. QPA(Qt Platform Abstarction, Qt 애플리케이션을 위한 그래픽/인풋 하드웨어 추상화 계층), 2. QtWayland 컴포지터, 그리고 3. System UI in QML으로 구성됨.
+
+다른 webOS 구성요소들과 Luna Bus, LS2를 통해 통신함.
 
 ### [[CES 2022] 개인 맞춤형 플랫폼으로의 진화, LG webOS](https://live.lge.co.kr/life-style-webos/)
 
@@ -313,3 +329,4 @@ System Software:
 - webOS Open Source Edition, https://www.webosose.org/, 2023-04-27-Thu.
 - Tizen Frameworks, https://docs.tizen.org/application/index#tizen-application-types, 2023-05-11-Thu.
 - Tizen Architecture, https://developer.tizen.org/tizen-architecture, 2023-05-11-Thu.
+- webOS Graphics and Input, https://www.webosose.org/docs/guides/core-topics/graphics-input/graphics-input-overview/, 2023-05-11-Thu.
