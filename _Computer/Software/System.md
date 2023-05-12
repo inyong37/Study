@@ -76,6 +76,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
   - Mac OS X
 - MINIX 3 (by Andrew S. Tanenbaum et al., from October 2005, until 2018 with version 3.4.0 rc6)
 - Linux (by Linus Torvalds and community, from September 1991)
+  - SUSE Linux (by SUSE, from 1992)
   - Debian (by Debian Project, from September 1993)
     - Ubuntu (by Canonical, from October 2004, based GNOME 3 in version 22) | Ubuntu Core
       - Linux Mint (by community, from August 2006)
@@ -234,6 +235,8 @@ Linux is one of the most prominent examples of free and open-source software col
 [From Earth to orbit with Linux and SpaceX](https://www.zdnet.com/article/from-earth-to-orbit-with-linux-and-spacex/)
 
 [SpaceX Used Linux To Send NASA Astronauts To International Space Station](https://fossbytes.com/spacex-used-linux-to-send-nasa-astronauts-to-international-space-station/)
+
+### [SUSE Linux](https://www.suse.com/products/server/)
 
 ### [Debian](https://www.debian.org/)
 
@@ -630,3 +633,5 @@ Vanilla OS ia a Linux distribution that aims for higher security than other desk
 - 3 Immutable OS TheNewStack, https://thenewstack.io/3-immutable-operating-systems-bottlerocket-flatcar-and-talos-linux/, 2023-03-24-Fri.
 - Tizen, https://www.tizen.org/, 2023-04-25-Tue.
 - webOS, https://www.webosose.org/, 2023-04-25-Tue.
+- SUSE Linux Wiki, https://en.wikipedia.org/wiki/SUSE_Linux, 2023-05-12-Fri.
+- SUSE Linux Enterprise Server, https://www.suse.com/products/server/, 2023-05-12-Fri.
