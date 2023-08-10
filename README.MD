@@ -291,7 +291,7 @@ CuDNN in ~/CUDA/include/cudnn.h:
 
 Utility Scripts with Python.
 
-## X. Certification
+## X. Certificate
 
 ### i. Network
 
