@@ -297,7 +297,19 @@ Utility Scripts with Python.
 
 A. TensorFlow
 
-### ii. System 
+### ii. Cloud
+
+A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
+
+B. Kubernetes:
+- [CERTIFIED KUBERNETES ADMINISTRATOR (CKA)](https://www.cncf.io/certification/cka/)
+- [CERTIFIED KUBERNETES APPLICATION DEVELOPER (CKAD)](https://www.cncf.io/certification/ckad/)
+- [CERTIFIED KUBERNETES SECURITY SPECIALIST (CKS)](https://www.cncf.io/certification/cks/)
+- [KUBERNETES AND CLOUD NATIVE ASSOCIATE (KCNA)](https://www.cncf.io/certification/kcna/)
+- [KUBERNETES CERTIFIED SERVICE PROVIDER (KCSP)](https://www.cncf.io/certification/kcsp/)
+- [PROMETHEUS CERTIFIED ASSOCIATE (PCA)](https://www.cncf.io/certification/pca/)
+
+### iii. System 
 
 A. Unix - Oracle Solaris:
 - OCSA
@@ -315,16 +327,4 @@ C. Windows:
 - MCSA
 - MCSE
 
-### iii. Network
-
-### iv. Cloud
-
-A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
-
-B. Kubernetes:
-- [CERTIFIED KUBERNETES ADMINISTRATOR (CKA)](https://www.cncf.io/certification/cka/)
-- [CERTIFIED KUBERNETES APPLICATION DEVELOPER (CKAD)](https://www.cncf.io/certification/ckad/)
-- [CERTIFIED KUBERNETES SECURITY SPECIALIST (CKS)](https://www.cncf.io/certification/cks/)
-- [KUBERNETES AND CLOUD NATIVE ASSOCIATE (KCNA)](https://www.cncf.io/certification/kcna/)
-- [KUBERNETES CERTIFIED SERVICE PROVIDER (KCSP)](https://www.cncf.io/certification/kcsp/)
-- [PROMETHEUS CERTIFIED ASSOCIATE (PCA)](https://www.cncf.io/certification/pca/)
+### iv. Network
