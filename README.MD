@@ -293,7 +293,9 @@ Utility Scripts with Python.
 
 ## X. Certificate
 
-### i. Network
+### i. Deep Learning
+
+A. TensorFlow
 
 ### ii. System 
 
@@ -313,7 +315,9 @@ C. Windows:
 - MCSA
 - MCSE
 
-### iii. Cloud
+### iii. Network
+
+### iv. Cloud
 
 A. [AWS](https://aws.amazon.com/training/?nc2=sb_tc)
 
@@ -324,7 +328,3 @@ B. Kubernetes:
 - [KUBERNETES AND CLOUD NATIVE ASSOCIATE (KCNA)](https://www.cncf.io/certification/kcna/)
 - [KUBERNETES CERTIFIED SERVICE PROVIDER (KCSP)](https://www.cncf.io/certification/kcsp/)
 - [PROMETHEUS CERTIFIED ASSOCIATE (PCA)](https://www.cncf.io/certification/pca/)
-
-### iv. Deep Learning
-
-A. TensorFlow
