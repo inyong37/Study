@@ -295,7 +295,7 @@ Utility Scripts with Python.
 
 ### i. Deep Learning
 
-A. TensorFlow
+A. [TensorFlow](https://www.tensorflow.org/certificate)
 
 ### ii. Cloud
 
