@@ -1,4 +1,12 @@
-### LPIC-1 Exam 101 Objectives
+# :mortar_board: Certificate of Linux
+ 
+## :mortar_board: [LPIC-1](https://www.lpi.org/our-certifications/lpic-1-overview)
+
+The LPIC-1 will validate the candidate's ability to perform maintenance tasks on the command line, install and configure a computer running Linux and configure basic networking.
+
+The LPIC-1 is designed to reflect current research and validate a candidate's proficiency in real world system administration. The objectives are tied to real-world job skills, which we determine through job task analysis surveying during exam development.
+
+### [LPIC-1 Exam 101 Objectives](https://www.lpi.org/our-certifications/exam-101-objectives/)
 
 * Topic 101: System Architecture
   * 101.1 Determine and configure hardware settings
@@ -28,22 +36,12 @@
   * 104.5 Management file permissions and ownership
   * 104.6 Create and change hard and symbolic links
   * 104.7 Find system files and place files in the correct location
- 
----
- 
-### [LPIC-1](https://www.lpi.org/our-certifications/lpic-1-overview)
 
-The LPIC-1 will validate the candidate's ability to perform maintenance tasks on the command line, install and configure a computer running Linux and configure basic networking.
-
-The LPIC-1 is designed to reflect current research and validate a candidate's proficiency in real world system administration. The objectives are tied to real-world job skills, which we determine through job task analysis surveying during exam development.
-
-https://www.lpi.org/our-certifications/exam-101-objectives/#linux-installation-and-package-management
-
-### [LPIC-2](https://www.lpi.org/our-certifications/lpic-2-overview)
+## :mortar_board: [LPIC-2](https://www.lpi.org/our-certifications/lpic-2-overview)
 
 LPIC-2 is the second certification in the multi-level professional certification program of the Linux Professional Institute (LPI). The LPIC-2 will validate the candidate's ability to administer small to medium–sized mixed networks.
 
-### LPIC-3
+## :mortar_board: LPIC-3
 
 The LPIC-3 certification is the culmination of the multi-level professional certification program of the Linux Professional Institute (LPI). LPIC-3 is designed for the enterprise-level Linux professional and represents the highest level of professional, distribution-neutral Linux certification within the industry. Four separate LPIC-3 specialty certifications are available. Passing any one of the four exams will grant the LPIC-3 certification for that specialty.
 
