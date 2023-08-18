@@ -16,6 +16,8 @@
 - 정리 | 라온피플 머신러닝 아카데미
 [Blog](https://blog.naver.com/laonple/220463627091)
 
-- [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
+- Udemy [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
 
 - [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+
+- Coursera [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) | [GitHub](https://github.com/https-deeplearning-ai/tensorflow-1-public) | [GitHub](https://github.com/lmoroney/dlaicourse) 
