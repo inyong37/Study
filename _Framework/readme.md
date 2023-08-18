@@ -1,4 +1,4 @@
-# _Framework_
+# :hammer_and_wrench: Framework
 
 ### Framework vs. Library | [Reference](https://martinfowler.com/bliki/InversionOfControl.html) | [Reference](https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/)
 
@@ -8,7 +8,7 @@ A framework embodies some abstract design, with more behavior built in. In order
 
 Both of them define an API for programmers to use. To put those together, we can think of a library as a certain function of an application, a framework as the skeleton of the application, and an API as a connector to put those together. A typical development process normally starts with a framework and fills out functions defined in libraries using the API.
 
-## _[OpenCV](https://opencv.org/)_ | [GitHub](https://github.com/opencv/opencv)
+## :hammer: [OpenCV](https://opencv.org/) | [GitHub](https://github.com/opencv/opencv)
 
 OpenCV was started at Intel in 1999 by Gary Bradsky, and the first release came out in 2000. Vadim Pisarevsky joined Gary Bradsky to manage Intel's Russian software OpenCV team. In 2005, OpenCV was used on Stanley, the vehicle that won the 2005 DARPA Grand Challenge. Later, its active development continued under the support of Willow Garage with Gary Bradsky and Vadim Pisarevsky leading the project. OpenCV now supports a multitud of algorithms related to Computer Vision and Machine Learning and is expanding day by day.
 
@@ -18,7 +18,7 @@ Open Source Computer Vision Library[Ref]
 
 OpenCV is built with CMake, cpp, and h.
 
-## *[TensorFlow](https://www.tensorflow.org/)* | [GitHub](https://github.com/tensorflow/tensorflow)
+## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
@@ -35,14 +35,14 @@ The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-de
 - Video Problem Domains: Classification | Generation | Audio text | ...
 - Audio Problem Domains: Speech-to-Text | Embedding | Speech synthesis | ...
 
-### *[TensorFlow Certification](https://www.tensorflow.org/certificate)*
+### [TensorFlow Certification](https://www.tensorflow.org/certificate)
 
 Resources:
 
 - [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 
-## *[Keras](https://keras.io/)* | [GitHub](https://github.com/keras-team/keras) | Merged to TensorFlow
+## :hammer: [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged to TensorFlow
 
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
@@ -60,53 +60,55 @@ Install-TensorFlow < 2.0: `pip install keras`.
 
 Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow import keras`.
 
-## *[PyTorch](https://pytorch.org/)* | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/)
+Merged into TensorFlow
+
+## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/)
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 PyTorch is built with submodule or bazel.
 
-## _[Caffe](https://caffe.berkeleyvision.org/)_ | [GitHub](https://github.com/BVLC/caffe)
+## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
 
 Caffe is built with CMake and Docker.
 
-## **Deprecated** | _[Theano](http://www.deeplearning.net/software/theano/)_ | [GitHub](https://github.com/Theano/Theano)
+## :hammer: [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) Deprecated
 
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
 
-*[MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)*
+[MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)
 
-## **Deprecated** | _[CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/)_ | [GitHub](https://github.com/microsoft/CNTK)
+## :hammer: [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK) Deprecated
 
 The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.[Ref]
 
-*[CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)*
+[CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)
 
-## _[OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html)_ | [Docs](https://docs.openvinotoolkit.org/latest/index.html)
+## :hammer: [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html)
 
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
 
 ---
 
-### _[Weights & Biases](https://wandb.ai/site)_
+### [Weights & Biases](https://wandb.ai/site)
 
-### _[fastai](https://docs.fast.ai/)_
+### [fastai](https://docs.fast.ai/)
 
 fastai simplifies training fast and accurate neural nets using modern best practices.
 
-### _[FAIR Detectron](https://github.com/facebookresearch/Detectron)_
+### [FAIR Detectron](https://github.com/facebookresearch/Detectron)
 
 Detectron is Facebook AI Research's software system that implements state-of-the-art object detection algorithms, including Mask R-CNN. It is written in Python and powered by the Caffe2 deep learning framework.
 
-*Detectron is deprecated. Please see detectron2, a ground-up rewrite of Detectron in PyTorch.*
+Detectron is deprecated. Please see detectron2, a ground-up rewrite of Detectron in PyTorch.
 
-### _[FAIR Detectron2](https://github.com/facebookresearch/detectron2)_
+### [FAIR Detectron2](https://github.com/facebookresearch/detectron2)
 
 Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of Detectron and maskrcnn-benchmark. It supports a number of computer vision research projects and production applications in Facebook.
 
-### _[OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)_
+### [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
