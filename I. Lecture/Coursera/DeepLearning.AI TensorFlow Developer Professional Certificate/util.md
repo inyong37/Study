@@ -1,3 +1,51 @@
+## Keras
+
+* `tf.keras.layers.Bidirectional`
+
+```Python
+tf.keras.layers.Bidirectional(
+    layer,
+    merge_mode='concat',
+    weights=None,
+    backward_layer=None,
+    **kwargs
+)
+```
+
+* `tf.keras.losses.BinaryCrossEntropy`
+
+```Python
+tf.keras.losses.BinaryCrossentropy(
+    from_logits=False,
+    label_smoothing=0.0,
+    axis=-1,
+    reduction=losses_utils.ReductionV2.AUTO,
+    name='binary_crossentropy'
+)
+```
+
+* `tf.keras.optimizers.Adam`
+
+```Python
+tf.keras.optimizers.Adam(
+    learning_rate=0.001,
+    beta_1=0.9,
+    beta_2=0.999,
+    epsilon=1e-07,
+    amsgrad=False,
+    weight_decay=None,
+    clipnorm=None,
+    clipvalue=None,
+    global_clipnorm=None,
+    use_ema=False,
+    ema_momentum=0.99,
+    ema_overwrite_frequency=None,
+    jit_compile=True,
+    name='Adam',
+    **kwargs
+)
+```
+
 ## Util
 
 * Make a Same Size Numpy Array
@@ -39,3 +87,6 @@ array_b = np.divide(array_foo, array_bar)
 ### Reference
 - Make a Same Size Numpy Array, Stackoverflow, https://stackoverflow.com/questions/35967907/how-to-make-a-new-numpy-array-same-size-as-a-given-array-and-fill-it-with-a-scal, 2023-08-22-Tue.
 - Numpy Calculation Blog KR, https://eunguru.tistory.com/215, 2023-08-22-Tue.
+- tf.keras.layers.Bidirectional, https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional, 2023-08-22-Tue.
+- tf.keras.losses.BinaryCrossentropy, https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryCrossentropy, 2023-08-22-Tue.
+- tf.keras.optimizers.Adam, https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam, 2023-08-22-Tue.
