@@ -82,6 +82,14 @@ array_b = np.divide(array_foo, array_bar)
 # array_a == array_b
 ```
 
+* Remove Stop Words
+
+```Python
+words = line.split()
+words_without_stop_words = [word for word in words if word not in stop_words]
+line = " ".join(words_without_stop_words)
+```
+
 ---
 
 ### Reference
