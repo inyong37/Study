@@ -96,11 +96,17 @@ line = " ".join(words_without_stop_words)
 array_padded_1_dim = np.pad(array_org_1dim, (int(left), int(right), 'constant', constant_values=0)
 array_padded_2_dim = np.pad(array_org_2dim, ((int(up), int(down)), (int(left), int(right)), 'constant', constant_values=0)
 ```
-* Normalize
+* Normalize using Numpy
 
 ```Python
 audio_norm = np.max(np.abs(audio_org), axis=0) # Audio Org: -1 ~ +1
 image_norm = image_org * 255./image_org.max()  # Image Org: 0 ~ 255
+```
+
+* Normalize using Keras
+
+```Python
+tf.keras.layers.experimental.preprocessing.Normalization(axis=-1, mean=None, variance=None, **kwargs)
 ```
 
 ---
@@ -114,3 +120,5 @@ image_norm = image_org * 255./image_org.max()  # Image Org: 0 ~ 255
 - np.pad Blog KR, https://m.blog.naver.com/wideeyed/221665256911, 2023-08-23-Wed.
 - np.pad to images Blog KR, https://hanstar4.tistory.com/19, 2023-08-23-Wed.
 - Normalize Stackoverflow, https://stackoverflow.com/questions/1735025/how-to-normalize-a-numpy-array-to-within-a-certain-range, 2023-08-23-Wed.
+- tf.keras.layers.experimental.preprocessing.Normalization(), https://keras.io/api/layers/preprocessing_layers/core_preprocessing_layers/normalization/, 2023-08-23-Wed.
+- Padding Keras GitHub, https://github.com/christianversloot/machine-learning-articles/blob/main/how-to-use-padding-with-keras.md, 2023-08-23-Wed.
