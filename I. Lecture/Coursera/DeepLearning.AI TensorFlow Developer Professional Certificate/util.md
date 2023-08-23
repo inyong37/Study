@@ -90,6 +90,19 @@ words_without_stop_words = [word for word in words if word not in stop_words]
 line = " ".join(words_without_stop_words)
 ```
 
+* Padding using Numpy
+
+```Python
+array_padded_1_dim = np.pad(array_org_1dim, (int(left), int(right), 'constant', constant_values=0)
+array_padded_2_dim = np.pad(array_org_2dim, ((int(up), int(down)), (int(left), int(right)), 'constant', constant_values=0)
+```
+* Normalize
+
+```Python
+audio_norm = np.max(np.abs(audio_org), axis=0) # Audio Org: -1 ~ +1
+image_norm = image_org * 255./image_org.max()  # Image Org: 0 ~ 255
+```
+
 ---
 
 ### Reference
@@ -98,3 +111,6 @@ line = " ".join(words_without_stop_words)
 - tf.keras.layers.Bidirectional, https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional, 2023-08-22-Tue.
 - tf.keras.losses.BinaryCrossentropy, https://www.tensorflow.org/api_docs/python/tf/keras/losses/BinaryCrossentropy, 2023-08-22-Tue.
 - tf.keras.optimizers.Adam, https://www.tensorflow.org/api_docs/python/tf/keras/optimizers/Adam, 2023-08-22-Tue.
+- np.pad Blog KR, https://m.blog.naver.com/wideeyed/221665256911, 2023-08-23-Wed.
+- np.pad to images Blog KR, https://hanstar4.tistory.com/19, 2023-08-23-Wed.
+- Normalize Stackoverflow, https://stackoverflow.com/questions/1735025/how-to-normalize-a-numpy-array-to-within-a-certain-range, 2023-08-23-Wed.
