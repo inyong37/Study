@@ -30,6 +30,8 @@ TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backwar
 
 [Set up your environment to take the TensorFlow Developer Certificate Exam](https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf)
 
+[Python venv: How To Create, Activate, Deactivate, And Delete](https://python.land/virtual-environments/virtualenv)
+
 ### [TensorFlow Hub](https://tfhub.dev/)
 
 The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-deploy machine learning models in one place.
@@ -150,3 +152,4 @@ MMDetection is an open source object detection toolbox based on PyTorch. It is a
 - Intro to TensorFlow for Deep Learning Udacity, https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187, 2022-10-18-Tue.
 - Get started with tensorflow-metal, https://developer.apple.com/metal/tensorflow-plugin/, 2023-08-25-Fri.
 - Set up your environment to take the TensorFlow Developer Certificate Exam, https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf, 2023-08-25-Fri.
+- Python venv: How To Create, Activate, Deactivate, And Delete, https://python.land/virtual-environments/virtualenv, 2023-08-25-Fri.
