@@ -26,6 +26,10 @@ TensorFlow was originally developed by researchers and engineers working on the 
 
 TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backward compatible API for other languages. [Ref]
 
+[Get started with tensorflow-metal](https://developer.apple.com/metal/tensorflow-plugin/)
+
+[Set up your environment to take the TensorFlow Developer Certificate Exam](https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf)
+
 ### [TensorFlow Hub](https://tfhub.dev/)
 
 The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-deploy machine learning models in one place.
@@ -144,3 +148,5 @@ MMDetection is an open source object detection toolbox based on PyTorch. It is a
 - TensorFlow Certificate Program, https://www.tensorflow.org/certificate, 2022-10-18-Tue.
 - DeepLearning.AI TensorFlow Developer Professional Certificate Coursera, https://www.coursera.org/professional-certificates/tensorflow-in-practice, 2022-10-18-Tue.
 - Intro to TensorFlow for Deep Learning Udacity, https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187, 2022-10-18-Tue.
+- Get started with tensorflow-metal, https://developer.apple.com/metal/tensorflow-plugin/, 2023-08-25-Fri.
+- Set up your environment to take the TensorFlow Developer Certificate Exam, https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf, 2023-08-25-Fri.
