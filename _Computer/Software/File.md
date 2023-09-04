@@ -56,6 +56,10 @@ Linux의 동적 라이브러리이다.
 
 `Other part of 'so' is at the 'Library' page.`
 
+### [tar](https://en.wikipedia.org/wiki/Tar_(computing))
+
+tar is a computer software utility for collecting many files into one archive file, often referred to as a tarball, for distribution or backup purposes. The name is derived from "tape archive", as it was originally developed to write data to sequential I/O devices with no file system of their own. The archive data sets created by tar contain various file system parameters, such as name, timestamps, ownerships, file-access permissions, and directory organization. POSIX abandoned tar in favor of pax, yet tar sees continued widespread use.
+
 ---
 
 ### Reference
@@ -73,3 +77,4 @@ Linux의 동적 라이브러리이다.
 - DLL, https://goddaehee.tistory.com/185, 2020-08-06-Thu.
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu.
 - Symbolic Link, https://fruitdev.tistory.com/85, 2020-08-05-Wed.
+- tar Wiki, https://en.wikipedia.org/wiki/Tar_(computing), 2023-09-04-Mon.
