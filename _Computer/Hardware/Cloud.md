@@ -58,9 +58,17 @@ Amazon Elastic Container Registry (Amazon ECR) is a fully managed container regi
 
 Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks.
 
+---
+
 ## Azure
 
 ### [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service)
+
+---
+
+## [Google Cloud Platform](https://cloud.google.com/?hl=en)
+
+### [GKE](https://cloud.google.com/kubernetes-engine)
 
 ---
 
@@ -86,3 +94,4 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service t
 - Amazon ECR, https://aws.amazon.com/ecr/, 2023-09-05-Tue.
 - Amazon EKS, https://aws.amazon.com/eks/, 2023-09-05-Tue.
 - AKS, https://azure.microsoft.com/en-us/products/kubernetes-service, 2023-09-05-Tue.
+- GKE, https://cloud.google.com/kubernetes-engine, 2023-09-05-Tue.
