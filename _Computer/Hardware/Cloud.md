@@ -28,6 +28,18 @@ A private cloud is a dedicated environment which may be managed by the organizat
 
 ---
 
+## [AWS](https://aws.amazon.com/)
+
+### [Amazon EC2](https://aws.amazon.com/ec2/)
+
+Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 700 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best batch the needs of your workload. It is the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking.
+
+### [Amazon S3](https://aws.amazon.com/s3/)
+
+Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
+
+---
+
 ### Reference
 - Amazon AWS, https://aws.amazon.com/, 2023-01-11-Wed.
 - Google Cloud, https://cloud.google.com/, 2023-01-11-Wed.
@@ -42,3 +54,5 @@ A private cloud is a dedicated environment which may be managed by the organizat
 - What are cloud services?, https://www.redhat.com/en/topics/cloud-computing/what-are-cloud-services, 2023-01-11-Wed.
 - Difference Between Private Cloud and On Premise, http://www.differencebetween.net/technology/difference-between-private-cloud-and-on-premise/, 2023-01-11-Wed.
 - Hybrid Blog KR, https://library.gabia.com/contents/infrahosting/7495/, 2023-03-22-Wed.
+- Amazon EC2, https://aws.amazon.com/ec2/, 2023-09-05-Tue.
+- Amazon S3, https://aws.amazon.com/s3/, 2023-09-05-Tue.
