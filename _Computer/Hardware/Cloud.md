@@ -46,6 +46,18 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 
 Amazon Relational Database Service (Amazon RDS) is a collection of managed services that makes it simple to set up, operate, and scale databases in the cloud. Choose from seven popular engines - Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server - and deploy on-premises with Amazon RDS on AWS Outposts.
 
+### [Amazon ECS](https://aws.amazon.com/ecs)
+
+Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that simplifies your deployment, management, and scaling of containerized applications.
+
+### [Amazon ECR](https://aws.amazon.com/ecr)
+
+Amazon Elastic Container Registry (Amazon ECR) is a fully managed container registry offering high-performance hosting, so you can reliably deploy application images and artifacts anywhere.
+
+### [Amazon EKS](https://aws.amazon.com/eks/)
+
+Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service to run Kubernetes in the AWS cloud and on-premises data centers. In the cloud, Amazon EKS automatically manages the availability and scalability of the Kubernetes control plane nodes responsible for scheduling containers, managing application availability, storing cluster data, and other key tasks. 
+
 ---
 
 ### Reference
@@ -66,3 +78,6 @@ Amazon Relational Database Service (Amazon RDS) is a collection of managed servi
 - Amazon EC2, https://aws.amazon.com/ec2/, 2023-09-05-Tue.
 - Amazon S3, https://aws.amazon.com/s3/, 2023-09-05-Tue.
 - Amazon RDS, https://aws.amazon.com/rds/, 2023-09-05-Tue.
+- Amazon ECS, https://aws.amazon.com/ecs/, 2023-09-05-Tue.
+- Amazon ECR, https://aws.amazon.com/ecr/, 2023-09-05-Tue.
+- Amazon EKS, https://aws.amazon.com/eks/, 2023-09-05-Tue.
