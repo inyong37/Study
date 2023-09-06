@@ -1,3 +1,3 @@
 # TensorFlow Developer Certificate in 2023 Zero to Master
 
-Contents of this lecture moved to another repository.
+The contents of this lecture have been moved to another repository.
