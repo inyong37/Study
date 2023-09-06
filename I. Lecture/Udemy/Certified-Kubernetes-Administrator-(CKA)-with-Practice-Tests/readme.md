@@ -1,3 +1,3 @@
 # Certified Kubernetes Administrator (CKA) with Practice Tests
 
-Contents of this lecture moved to another repository.
+The contents of this lecture have been moved to another repository.
