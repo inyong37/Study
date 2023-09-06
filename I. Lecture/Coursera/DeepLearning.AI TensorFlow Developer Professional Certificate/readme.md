@@ -1,3 +1,3 @@
-# [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+# DeepLearning.AI TensorFlow Developer Professional Certificate
 
-This page and almost other materials have moved to private GitHub repository.
+The contents of this lecture have been moved to another repository.
