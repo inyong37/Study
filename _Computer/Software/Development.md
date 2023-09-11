@@ -62,6 +62,30 @@ Build more effective teams under a DevOps cultural model, which emphasizes value
 
 Move quickly while retaining control and preserving compliance. You can adopt a DevOps model without sacrificing security by using automated compliance policies, find-grained controls, and configuration management techniques. For example, using infrastructure as code and policy as code, you can define and then track compliance at scale.
 
+### Pipeline | [Azure](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) | [AWS](https://aws.amazon.com/getting-started/hands-on/set-up-ci-cd-pipeline/) | [AWS Example](https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts-devops-example.html)
+
+Source code changes are pushed to the repository ->
+
+```Bash
+1. MyRepository:
+template.yaml
+application source code
+```
+
+Pipeline execution start to run through the pipeline -> 
+
+```Bash
+MyPipeline
+2. Source Stage
+* GitHub: Source Action
+Transition ->
+3. Prod Stage
+* Build: CodeBuild Built Action
+* Unit Test: CodeBuild Test Action
+* Deploy to Env: CodeDeploy Deploy Action
+* Integration Test: CodeBuild Test Action
+```
+
 ---
 
 ## :books: Types of Deployments
@@ -144,3 +168,6 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 - Jenkins, https://www.jenkins.io/, 2023-03-31-Fri.
 - GitLab Runner, https://docs.gitlab.com/runner/, 2023-03-31-Fri.
 - Docs Jenkins, https://www.jenkins.io/doc/, 2023-03-31-Fri.
+- Azure Pipelines, https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops, 2023-09-11-Mon.
+- AWS CI/CD Pipeline, https://aws.amazon.com/getting-started/hands-on/set-up-ci-cd-pipeline/, 2023-09-11-Mon.
+- AWS DevOps Pipeline, https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts-devops-example.html, 2023-09-11-Mon.
