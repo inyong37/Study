@@ -22,10 +22,10 @@ Continous deployment (CD) is a software engineering approach in which software f
 
 Continous deployment contrashs with continous delivery (also abbreviated CD), a similar approach in which software functionalities are also frequently delivered and deemed to be potentially capable of being deployed, but are actualyl not deployed. As such, continous deployment can be viewed as a more complete form of automation than continous delivery.
 
-* CI/CD? [Blog KR](https://llshl.tistory.com/50) | [Tools KR](https://ichi.pro/ko/hyeonjae-sayong-ganeunghan-choegoui-ci-cd-dogu-27gaji-194611649728144)
+* CI/CD? [Blog KR](https://llshl.tistory.com/50)
   * CI란: application codes가 repository에 merge되어 automatically build, test되어 integrated되는 것이다; code -> build -> test
   * CD란(마지막 배포가 수동이면 delivery, 자동이면 deployment): 배포될 준비가 끝난 application을 배포하는 것이다; release -> deploy
-  * Tools: Jenkins, TeamCity, CircleCI, Travis CI, Bamboo, GoCD, CodeShip, GitLab CI, Jenkins X, Shippable, Buildkite, Concourse CI, Codefresh, Buddy, Buildbot, Semaphore, Wercker (Oracle), Integrity, Weave Flux, NeverCode, AutoRabit, CruiseControl, Bitrise, DroneCI, UrbanCode (IBM), Strider CD, FinalBuilder, GitHub Actions
+
 ---
 
 ## :hammer_and_wrench: DevOps | [AWS](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
@@ -68,29 +68,20 @@ Move quickly while retaining control and preserving compliance. You can adopt a 
 
 ### Pipeline | [Azure](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops) | [AWS](https://aws.amazon.com/getting-started/hands-on/set-up-ci-cd-pipeline/) | [AWS Example](https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts-devops-example.html)
 
+```Bash
 Source code changes are pushed to the repository ->
-
-```Bash
-1. MyRepository:
-template.yaml
-application source code
-```
-
+1. MyRepository: template.yaml, application source code
 Pipeline execution start to run through the pipeline -> 
-
-```Bash
-MyPipeline
-2. Source Stage
+2. MyPipeline
+2-1. Source Stage
 * GitHub: Source Action
 Transition ->
-3. Prod Stage
+2-2. Prod Stage
 * Build: CodeBuild Built Action
 * Unit Test: CodeBuild Test Action
 * Deploy to Env: CodeDeploy Deploy Action
 * Integration Test: CodeBuild Test Action
 ```
-
-
 
 ---
 
@@ -149,15 +140,35 @@ Cons:
 
 ---
 
-## [Jenkins](https://www.jenkins.io/) | [Docs](https://www.jenkins.io/doc/)
+## Tools | [Blog KR](https://ichi.pro/ko/hyeonjae-sayong-ganeunghan-choegoui-ci-cd-dogu-27gaji-194611649728144) | [Jenkins vs. GitHub Actions](https://choseongho93.tistory.com/295)
+
+  * Tools: [Jenkins](https://www.jenkins.io/), TeamCity, CircleCI, [Travis CI](https://www.travis-ci.com/), Bamboo, GoCD, CodeShip, GitLab CI, [Jenkins X](https://jenkins-x.io/), Shippable, Buildkite, Concourse CI, Codefresh, Buddy, Buildbot, Semaphore, Wercker (Oracle), Integrity, Weave Flux, NeverCode, AutoRabit, CruiseControl, Bitrise, DroneCI, UrbanCode (IBM), Strider CD, FinalBuilder, [GitHub Actions](https://github.com/features/actions)
+
+### [Jenkins](https://www.jenkins.io/) | [Docs](https://www.jenkins.io/doc/)
 
 Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
 
 Jenkins can be installed through native system pakcages, Docker, or enen run standalone by any machine with a Java Runtime Environment (JRE) installed.
 
-* Cross-platform(Windows, Linux, and macOS), Free and Open source, Plugins, Community, Users
+* Jenkins
+ * Pros: Free, Open source, Plugins, References (Community, Users)
+ * Cons: Resource/Server Required (as t2.medium), Docker (Environment) 
 
-## [GitLab Runner](https://docs.gitlab.com/runner/)
+### [Jenkins X](https://jenkins-x.io/) | [Blog KR](https://uzihoon.com/post/eabb9930-5f8a-11ea-8839-c791ea9b277c)
+
+### [Travis CI](https://www.travis-ci.com/)
+
+* Travis CI
+ * Pros: GitHub, Process, Setup, No Resource/Server Required
+ * Cons: Expensive (129 USD/MON), Different Environment btw Local and VM, Plugins, Update (Git Push)
+
+### [GitHub Actions](https://github.com/features/actions) | [GitHub](https://github.com/actions)
+
+* GitHub Actions
+ * Pros: Setup, Process, Languages, Frameworks, Faster than Jenkins, Free (3000 MIN/MON for Private Repo), Cloud (No Environment Required), Async CI/CD
+ * Cons: References, Documents, Workflow, UI
+
+### [GitLab Runner](https://docs.gitlab.com/runner/)
 
 GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
 
@@ -181,3 +192,9 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 - AWS DevOps Pipeline, https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts-devops-example.html, 2023-09-11-Mon.
 - CI/CD Blog KR, https://llshl.tistory.com/50, 2023-09-11-Mon.
 - CI/CD Tools Blog KR, https://ichi.pro/ko/hyeonjae-sayong-ganeunghan-choegoui-ci-cd-dogu-27gaji-194611649728144, 2023-09-11-Mon.
+- Jenkins X, https://jenkins-x.io/, 2023-09-11-Mon.
+- Jenkins X Blog KR, https://uzihoon.com/post/eabb9930-5f8a-11ea-8839-c791ea9b277c, 2023-09-11-Mon.
+- Travis CI, https://www.travis-ci.com/, 2023-09-11-Mon.
+- GitHub Actions, https://github.com/features/actions, 2023-09-11-Mon.
+- GitHub Actions GitHub, https://github.com/actions, 2023-09-11-Mon.
+- Jenkins vs. GitHub Actions Blog KR, https://choseongho93.tistory.com/295, 2023-09-11-Mon.
