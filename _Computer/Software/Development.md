@@ -198,3 +198,4 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 - GitHub Actions, https://github.com/features/actions, 2023-09-11-Mon.
 - GitHub Actions GitHub, https://github.com/actions, 2023-09-11-Mon.
 - Jenkins vs. GitHub Actions Blog KR, https://choseongho93.tistory.com/295, 2023-09-11-Mon.
+- Banksalad Blog KR, https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HV8BhfRxfb0JIyNYevpEnqo6MeCHIrTAeRL4fmvTPeIUqzR3Aurb8BoC_hgQAvD_BwE, 2023-09-11-Mon.
