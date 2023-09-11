@@ -2,7 +2,7 @@
 
 `This page is from the page 'Program'.`
 
-## :books: [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
+## [CI/CD](https://en.wikipedia.org/wiki/CI/CD)
 
 In software engineering, CI/CD or CICD is the combined practices of continuous integration (CI) and (more often) continuous delivery or (less often) continuous deployment (CD). They are sometimes referred to collectively as continuous development or continuous software development.
 
@@ -22,6 +22,10 @@ Continous deployment (CD) is a software engineering approach in which software f
 
 Continous deployment contrashs with continous delivery (also abbreviated CD), a similar approach in which software functionalities are also frequently delivered and deemed to be potentially capable of being deployed, but are actualyl not deployed. As such, continous deployment can be viewed as a more complete form of automation than continous delivery.
 
+* CI/CD? [Blog KR](https://llshl.tistory.com/50) | [Tools KR](https://ichi.pro/ko/hyeonjae-sayong-ganeunghan-choegoui-ci-cd-dogu-27gaji-194611649728144)
+  * CI란: application codes가 repository에 merge되어 automatically build, test되어 integrated되는 것이다; code -> build -> test
+  * CD란(마지막 배포가 수동이면 delivery, 자동이면 deployment): 배포될 준비가 끝난 application을 배포하는 것이다; release -> deploy
+  * Tools: Jenkins, TeamCity, CircleCI, Travis CI, Bamboo, GoCD, CodeShip, GitLab CI, Jenkins X, Shippable, Buildkite, Concourse CI, Codefresh, Buddy, Buildbot, Semaphore, Wercker (Oracle), Integrity, Weave Flux, NeverCode, AutoRabit, CruiseControl, Bitrise, DroneCI, UrbanCode (IBM), Strider CD, FinalBuilder, GitHub Actions
 ---
 
 ## :hammer_and_wrench: DevOps | [AWS](https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls)
@@ -86,6 +90,8 @@ Transition ->
 * Integration Test: CodeBuild Test Action
 ```
 
+
+
 ---
 
 ## :books: Types of Deployments
@@ -149,6 +155,8 @@ Jenkins is a self-contained, open source automation server which can be used to 
 
 Jenkins can be installed through native system pakcages, Docker, or enen run standalone by any machine with a Java Runtime Environment (JRE) installed.
 
+* Cross-platform(Windows, Linux, and macOS), Free and Open source, Plugins, Community, Users
+
 ## [GitLab Runner](https://docs.gitlab.com/runner/)
 
 GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pipeline.
@@ -171,3 +179,5 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 - Azure Pipelines, https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops, 2023-09-11-Mon.
 - AWS CI/CD Pipeline, https://aws.amazon.com/getting-started/hands-on/set-up-ci-cd-pipeline/, 2023-09-11-Mon.
 - AWS DevOps Pipeline, https://docs.aws.amazon.com/codepipeline/latest/userguide/concepts-devops-example.html, 2023-09-11-Mon.
+- CI/CD Blog KR, https://llshl.tistory.com/50, 2023-09-11-Mon.
+- CI/CD Tools Blog KR, https://ichi.pro/ko/hyeonjae-sayong-ganeunghan-choegoui-ci-cd-dogu-27gaji-194611649728144, 2023-09-11-Mon.
