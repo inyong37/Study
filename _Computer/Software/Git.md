@@ -1,16 +1,18 @@
-# _[Git](https://git-scm.com/)_
+# [Git](https://git-scm.com/)
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
 
-## _[Github](https://github.com/)_
+### [Github](https://github.com/)
 
 GitHub is how people build software, it's supporting a community where more than 50 million people learn, share, and work together to build software. First commit was October 2007, headquarters is at San Francisco, and Repositories hosted about 100 million.
 
-## _[GitLab](https://about.gitlab.com/)_ | [GitHub](https://github.com/gitlabhq)
+### [GitLab](https://about.gitlab.com/) | [GitHub](https://github.com/gitlabhq)
 
 GitLab은 Git의 원격 저장소 기능과 이슈 트래커 기능 등을 제공하는 소프트웨어다. 설치형 GitHub라는 컨셉으로 시작된 프로젝트이기 때문에 GitHub와 비슷한 면이 많이 있다. 서비스형 원격저장소를 운영하는 것에 대한 비용이 부담되거나, 소스코드의 보안이 중요한 프로젝트에 적당하다. 설치형 버전관리 시스템으로 자신의 서버에 직접 설치해서 사용할 수 있다. 클라우드 버전 관리 시스템은 gitlab.com을 이용하면 서버 없이도 GitLab의 기능을 이용할 수 있다. 10명 이하의 프로젝트는 무료로 사용할 수 있다.
+
+### [GitLab vs. GitHub](https://about.gitlab.com/competition/github/)
 
 ### Status
 
@@ -352,3 +354,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - git subtree Blog KR, https://yh0921k.tistory.com/27, 2020-01-20-Wed.
 - git submodule vs. subtree Blog KR, https://blog.rhostem.com/posts/2020-01-03-code-sharing-with-git-subtree, 2020-01-20-Wed.
 - git hook shebang in Windows Blog, https://skoop.dev/blog/2018/12/12/git_hooks_on_Windows/, 2021-05-28-Fri.
+- GitLab vs. GitHub, https://about.gitlab.com/competition/github/, 2023-09-12-Tue.
