@@ -10,6 +10,8 @@
 
 February, 2021 ~ November, 2021.
 
+Spring, 2023
+
 ## Content
 
 :palm_tree: **Part 1. 컴퓨터 비전에 적용한 텐서플로 2와 딥러닝**
