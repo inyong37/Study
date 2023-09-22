@@ -8,6 +8,8 @@
 
 Spring, 2021
 
+Fall, 2023
+
 ## Content
 
 ### :bulb: **Part 1. 코딩 인터뷰**
