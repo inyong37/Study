@@ -678,3 +678,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - FastAPI ASGI Blog KR, https://breezymind.com/start-asgi-framework/, 2022-09-21-Wed.
 - Learn PyCharm, https://www.jetbrains.com/pycharm/learn/, 2022-10-18-Tue.
 - PyCharm non-project file, https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010640479-all-files-in-my-project-became-non-project, 2022-11-01-Tue.
+- Linux Python Daemon KR, https://github.com/HatsuneMiku3939/python3-daemon, 2023-10-10-Tue.
+- Executable File (ELF), Binary, Program KR, https://codingdojang.com/scode/272, 2023-10-10-Tue.
