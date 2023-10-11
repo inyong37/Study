@@ -22,6 +22,88 @@ How this works is by running the entire system from volatile memory (RAM). The o
 
 ---
 
+## [man](https://man7.org) | [Project](https://www.kernel.org/doc/man-pages/)
+
+The Linux man-pages project documents the Linux kernel and C library interfaces that are employed by user-space programs. With respect to the C library, the primary focus is the GNU C library (glibc), although, where known, documentation of variations in other C libraries available for Linux is also included.
+
+### [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html)
+
+A daemon is a service process that runs in the background and supervises the system or provides functionality to other processes. Traditionally, daemons are implemented following a scheme originating in SysV Unix. Modern daemons should follow a simpler yet more powerful scheme (here called "new style" daemons), as implemented by systemd.
+
+### SysV Daemons
+
+When a traditional SysV daemon starts, it should execute the following steps as part of the initialization. Note that these steps are unnecessary for new-style daemons, and should only be implemented of compatibility with SysV is essential.
+
+1. Close all open file descriptors except standard input, output, and error (i.e. the first three file descriptors 0, 1, 2). This ensures that no accidentally passed file descriptor stays around in the daemon process. On Linux, this is best implemented by iterating through /proc/self/fd, with a fallback of iterating from file descriptor 3 to the value returned by getrlimit() for RLIMIT_NOFILE.
+
+2. Reset all signal handlers to their default. This is best done by iterating through the available signals up to the limit of _NSIG and resetting them to SIG_DFL.
+
+3. Reset the signal mask using sigprocmask().
+
+4. Sanitize the environment block, removing or resetting environment variables that might negatively impact daemon runtime.
+
+5. Call fort(), to create a background process.
+
+6. In the child, cakk setsid() to detach from any terminal and create an independent session.
+
+7. In the child, call fort() again, to ensure that the daemon can never re-acquire a terminal again. (This relevant if the program - and all its dependencies - does not carefully specify `0_NOCTTY` on each and every single `open()` call that might potentially open a TTY device node.
+
+8. Call exit() in the first child, so that only the second child (the actual daemon process) stays around. This ensures that the daemon process is re-parented to init/PID 1, as all daemons should be.
+
+9. In the daemon process, connect /dev/null to standard input, output, and error.
+
+10. In the daemon process, reset the umask to 0, so that the file modes passed to open(), mkdir() and suchlike directly control the access mode of the created files and directories.
+
+11. In the daemon process, change the current directory to the root directory (.), in order to avoid that the daemon involuntarily blocks mount points from being unmounted.
+
+12. In the daemon processs, write the daemon PID (as returned by getpid()) to a PID file, for example /run/foobar.pid (for a hypothetical daemon "foobar") to ensure that the aemon cannot be started more than once. This must be implemented in race-free fashion so that the PID file is only updated when it is verified at the same time that the PID previously stored in the PID file no longer exists or belongs to a foreign process.
+
+13. In the daemon process, drop privileges, if possible and applicable.
+
+14. From the daemon process, notify the original process started that initialization is complete. This can be implemented via an unnamed pipe or similar communication channel that is created before the first fork() and hence available in both the original and the daemon process.
+
+15. Call exit() in the original process. The process that invoked the daemon must be able to rely on that this exit() happens after initialization is complete and all external communication channels are established and accessible.
+
+The BSD daemon() function should not be used, as it implements only a subset of these steps.
+
+A daemon that needs to provide compatibility with SysV systems should implement the scheme pointed out above. However, it is recommended to make this behavior optional and configurable via a command line argument to ease debugging as well as to simplify integration into systems using systemd.
+
+###  New-Style Daemons
+
+Modern services for Linux should be implemented as new-style daemons. This makes it easier to supervise and control them at runtime and simplifies their implementation.
+
+For developing a new-style daemon, none of the initialization steps recommended for SysV daemons need to be implemented. New-style init systems such as systemd make all of them redundant. Moreover, since some of these steps interfere with process monitoring, file descriptor passing and other functionality of the init system, it is recommended not to execute them when run as new-style service.
+
+Note that new-style init systems guarantee execution of daemon processes in a clean process context: it is guaranteed that the environment block is sanitized, that the signal handlers and mask is reset and that no left-over file descriptors are passed. Daemons will be executed in their own session, with standard input connected to /dev/null and standard output/error connected to the systemd-journald.service logging service, unless otherwise configured. The umask is reset.
+
+It is recommended for new-style daemons to implement the following:
+
+1. If SIGTERM is received, shut down the daemon and exit cleanly.
+
+2. If SIGHUP is received, reload the configuration files, if this applies.
+
+3. Provide a correct exit code from the main daemon process, as this is used by the init system to detect service errors and problems. It is recommended to follow the exit code scheme as defined in the LSB recommendations for SysV init scripts.
+
+4. If possible and applicable, expose the daemon's control interface via the D-Bus IPC system and grab a bus name as last step of initialization.
+
+5. For integration in systemd, provide a .service unit file that carries information about starting, stopping and otherwise maintaining the daemon. See systemd.service for details.
+
+6. As much as possible, rely on the init system's functionality to limit the access of the daemon to files, services and other resources, i.e. in the case of systemd, rely on systemd's resource limit control instead of implementing your own, rely on systemd's privilege dropping code instead of implementing it in the daemon, and similar. See systemd.exec for the available controls.
+
+7. If D-Bus is used, make your daemon bus-activatable by supplying a D-Bus service activation configuration file. This has multiple advantages: your daemon may be started lazily on-demand; it may be started in parallel to other daemons requiring it — which maximizes parallelization and boot-up speed; your daemon can be restarted on failure without losing any bus requests, as the bus queues requests for activatable services.
+
+8. If your daemon provides services to other local processes or remote clients via a socket, it should be made socket-activatable following the scheme pointed out below. Like D-Bus activation, this enables on-demand starting of services as well as it allows improved parallelization of service start-up. Also, for state-less protocols (such as syslog, DNS), a daemon implementing socket-based activation can be restarted without losing a single request.
+
+9. If applicable, a daemon should notify the init system about startup completion or status updates via the sd_notify interface.
+
+10. Instead of using the syslog() call to log directly to the system syslog service, a new-style daemon may choose to simply log to standard error via fprintf(), which is then forwarded to syslog by the init system. If log levels are necessary, these can be encoded by prefixing individual log lines with strings like "<4>" (for log level 4 "WARNING" in the syslog priority scheme), following a similar style as the Linux kernel's printk() level system. For details, see sd-daemon and systemd.exec.
+
+11. As new-style daemons are invoked without a controlling TTY (but as their own session leaders) care should be taken to always specify `O_NOCTTY` on `open()` calls that possibly reference a TTY device node, so that no controlling TTY is accidentally acquired.
+
+These recommendations are similar but not identical to the Apple MacOS X Daemon Requirements.
+
+---
+
 ## _Package_
 
 ### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
@@ -530,3 +612,7 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - OSTree, https://ostreedev.github.io/ostree/introduction/, 2023-03-24-Fri.
 - libostree GitHub, https://github.com/ostreedev/ostree, 2023-03-24-Fri.
 - Backports, https://backports.wiki.kernel.org/index.php/Main_Page, 2023-03-30-Thu.
+- Linux man pages online, https://man7.org/linux/man-pages/index.html, 2023-10-11-Wed.
+- The Linux man-pages project, https://www.kernel.org/doc/man-pages/, 2023-10-11-Wed.
+- daemon, https://man7.org/linux/man-pages/man7/daemon.7.html, 2023-10-11-Wed.
+- man, https://man7.org/, 2023-10-11-Wed.
