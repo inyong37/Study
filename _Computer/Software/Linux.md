@@ -22,11 +22,13 @@ How this works is by running the entire system from volatile memory (RAM). The o
 
 ---
 
-## [man](https://man7.org) | [Project](https://www.kernel.org/doc/man-pages/)
+### [man](https://man7.org) | [Project](https://www.kernel.org/doc/man-pages/)
 
 The Linux man-pages project documents the Linux kernel and C library interfaces that are employed by user-space programs. With respect to the C library, the primary focus is the GNU C library (glibc), although, where known, documentation of variations in other C libraries available for Linux is also included.
 
-### [daemon](https://man7.org/linux/man-pages/man7/daemon.7.html)
+---
+
+## [Daemon](https://man7.org/linux/man-pages/man7/daemon.7.html)
 
 A daemon is a service process that runs in the background and supervises the system or provides functionality to other processes. Traditionally, daemons are implemented following a scheme originating in SysV Unix. Modern daemons should follow a simpler yet more powerful scheme (here called "new style" daemons), as implemented by systemd.
 
@@ -101,6 +103,24 @@ It is recommended for new-style daemons to implement the following:
 11. As new-style daemons are invoked without a controlling TTY (but as their own session leaders) care should be taken to always specify `O_NOCTTY` on `open()` calls that possibly reference a TTY device node, so that no controlling TTY is accidentally acquired.
 
 These recommendations are similar but not identical to the Apple MacOS X Daemon Requirements.
+
+### SYSTEMD(1): systemd, init - systemd system and service manager
+
+systemd is a system and service manager for Linux operating systems. When run as first process on boot (as PID 1), it acts as init system that brings up and maintains userspace services. Separate instances are started for logged-in users to start their services.
+
+systemd is usually not invoked directly by the user, but is installed as the /sbin/init symlink and started during early boot. The user manager instances are started automatically through the user@.service(5) service.
+
+For compatibility with SysV, if the binary is called as init and is not the first process on the machine (PID is not 1), it will executed telinit and pass all command line arguments unmodified. That means init and telinit are mostly equivalent when invoked from normal login sessions. See telinit(8) for more information.
+
+### SERVICE(8): service - run a System V init script
+
+service runs a System V init script or systemd unit in as predictable an environment as possible, removing most environment variables and with the current working directory set to /.
+
+The SCRIPT parameter specifies a System V init script, located in /etc/init.d/SCRIPT, or the name of a systemd unit. The existence of a systemd unit of the same name as a script in /etc/init.d will cause the unit to take precedence over the init.d script. The supported values of COMMAND depend on the invoked script. service passes COMMAND and OPTIONS to the init script unmodified. For systemd units, start, stop, status, and reload are passed through to their systemctl/initctl equivalents.
+
+All scripts should support at least the start and stop commands. As a special case, if COMMAND is --full-restart, the script is run twice, first with the stop command, then with the start command. Note, that unlike update-rc.d(8), service does not check /usr/sbin/policy-rc.d.
+
+service --status-all runs all init scripts, in alphabetical order, with the status command. The status is [ + ] for runnung services, [ - ] for stopped services and [ ? ] for services without a status command. This option only calls status for sysvinit jobs.
 
 ---
 
