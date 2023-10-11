@@ -207,6 +207,7 @@ Books about Data Structure and Algorithm.
 |Clean Architecture: A Craftsman's Guide to Software Structure and Design (1st Ed.)|[AMAZON](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?dchild=1&keywords=clean+architecture&qid=1634536070&sr=8-1)|[YES24](http://www.yes24.com/Product/Goods/77283734)|-|-|
 |Advanced Programming in the UNIX Environment (3rd Ed.)|[AMAZON](https://www.amazon.com/Advanced-Programming-UNIX-Environment-3rd/dp/0321637739)|[YES24](http://www.yes24.com/Product/Goods/14528020)|2020|:mortar_board:|
 |Unix: A History and a Memoir|[AMAZON](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552/ref=sr_1_1?keywords=Unix%3A+A+History+and+a+Memoir&qid=1666586660&qu=eyJxc2MiOiIwLjczIiwicXNhIjoiMC40OSIsInFzcCI6IjAuNjgifQ%3D%3D&sr=8-1)|[YES24](http://www.yes24.com/Product/Goods/91213198)|2021|:mortar_board:|
+|The Linux Programming Interface: A Linux and Unix System Programming Handbook|[AMAZON](https://a.co/d/6EIs0VX)|[YES24](https://www.yes24.com/Product/Goods/3598541)|-|-|
 |임베디드 OS 개발 프로젝트|-|[YES24](http://www.yes24.com/product/goods/84909414)|-|-|
 |코드로 알아보는 ARM 리눅스 커널|-|[YES24](http://www.yes24.com/Product/Goods/60856943)|-|-|
 |리눅스 커널 패치와 커밋|-|[YES24](http://www.yes24.com/Product/Goods/18488713) |2023|:snowflake:|
