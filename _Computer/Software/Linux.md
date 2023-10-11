@@ -366,12 +366,6 @@ Layered on top of that is bootloader configuration, management of /etc, and othe
 
 ---
 
-### _KVM_ | [Red Hat](https://www.redhat.com/en/topics/virtualization/what-is-KVM)
-
-Kernel-based Virtual Machine (KVM) is an open source virtualization technology built into Linux. Specifically, KVM lets you turn Linux into a hypervision that allows a host machine to run multiple, isolated virtual environments called guests or virtual machines (VMs).
-
-KVM is part of Linux. If you've got Linux 2.6.20 or newer, you've got KVM. KVM was first announced in 2006 and merged into the mainline Linux kernel version a year later. Because KVM is part of existing Linux code, it immediately benefits from every new Linux feature, fix, and advancement without additional engineering.
-
 ### [Snaps](https://snapcraft.io/)
 
 Snaps are app packages for desktop, cloud and IoT that are easy to install, secure, cross-platform and dependency-free. Snaps are discoverable and installable from the Snap Store, the app store for Linux with an audience of millions.
@@ -561,7 +555,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - ln Blog KR, https://webdir.tistory.com/148, 2020-08-13-Thu.
 - Dependency Management, https://architecture101.blog/2008/12/07/dependency_managment/, 2020-08-13-Thu.
 - Command nm Blog KR, https://devanix.tistory.com/190, 2021-03-31-Wed.
-- What is KVM Red Hat, https://www.redhat.com/en/topics/virtualization/what-is-KVM, 2022-07-20-Wed.
 - Snaps, https://snapcraft.io/, 2022-07-20-Wed.
 - Live Booting Linux, https://www.linux.com/training-tutorials/live-booting-linux/, 2022-07-21-Thu.
 - List of live CDs Wiki, https://en.wikipedia.org/wiki/List_of_live_CDs, 2022-07-21-Thu.
