@@ -83,7 +83,7 @@ UEFI(통일/통합 확장 펌웨어 인터페이스)는 OS와 platform firmware 
       - Ubuntu MATE (by Ubuntu Mate Team, from October 2014, based on GNOME 2 in version 18)
     - Raspberry Pi OS (formely Raspbian, by Mike Thompson, Peter Green and foundation, from June 2012)
   - CRUX (by Per Lidén, from 2002, used for the x86-64 architecture)
-  - Arch Linux (by Judd Vinet, from 2002, used for the x86-64 architecture)
+  - Arch Linux (by Judd Vinet, from March 11 2002, used for the x86-64 architecture)
   - Fedora (formerly Red Hat Linux, by Red Hat of IBM, from November 2003) | Workstation | Server | IoT
     - CentOS Stream (by Red Hat of IBM, from November 2021 with version 8)
     - Red Hat Enterprise Linux (by Red Hat of IBM, from Febuary 2000)
@@ -312,16 +312,11 @@ Download Rocky 8 - x86_64:
 
 CRUX is a lightweight Linux distribution for the x86-64 architecture targeted at experienced Linux users. The primary focus of this distribution is keep it simple, which is reflected in a straightforward tar.gz-based package system, BSD-style initscripts, and a relatively small collection of trimmed packages. The secondary focus is utilization of new Linux features and recent tools and libraries. CRUX also has a ports system which makes it easy to install and upgrade applications.
 
-### [Arch Linux](https://archlinux.org/)
+### [Arch Linux](https://archlinux.org/) | [Wiki](https://wiki.archlinux.org/title/Arch_Linux)
 
 Arch Linux is an independently developed, x86-64 general-purpose GNU/Linux distribution that strives to provide the latest stable versions of most software by following a rolling-release model. The default installation is a minimal base system, configured by the user to only add what is purposely required.
 
-Principles:
-1. Simplicity
-2. Modernity
-3. Pragmatism
-4. User centrality
-5. Versatility
+Principles: 1. Simplicity, 2. Modernity, 3. Pragmatism, 4. User centrality, 5. Versatility
 
 ### Ubuntu vs. CentOS | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=changfen15&logNo=221414926213) | [Blog (KR)](https://coconuts.tistory.com/175) | [Blog (KR)](https://velog.io/@imok-_/CentOS%EC%99%80-Ubuntu-%EC%B0%A8%EC%9D%B4)
 
@@ -635,3 +630,4 @@ Vanilla OS ia a Linux distribution that aims for higher security than other desk
 - webOS, https://www.webosose.org/, 2023-04-25-Tue.
 - SUSE Linux Wiki, https://en.wikipedia.org/wiki/SUSE_Linux, 2023-05-12-Fri.
 - SUSE Linux Enterprise Server, https://www.suse.com/products/server/, 2023-05-12-Fri.
+- Arch Linux Wiki, https://wiki.archlinux.org/title/Arch_Linux, 2023-10-11-Wed.
