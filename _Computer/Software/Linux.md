@@ -126,7 +126,15 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 ## _Package_
 
-### [Debian Packaging](https://wiki.debian.org/Packaging) | [Python](https://wiki.debian.org/Python/LibraryStyleGuide) | [Python Policy](https://www.debian.org/doc/packaging-manuals/python-policy/)
+### [Debian Packaging](https://wiki.debian.org/Packaging) | [Introduction](https://wiki.debian.org/Packaging/Intro)
+
+A Debian package is a collection of files that allow for applications or libraries to be distributed via the package management system. The aim of packaging is to allow the automation of installing, upgrading, configuring, and removing computer programs for Debian in a consistent manner. A package consists of one source package, and one or more binary packages. The Debian Policy specifies the standard format for a package, which all packages must follow.
+
+[Binary packages (.deb)](https://wiki.debian.org/Packaging/BinaryPackage) contain executables, standard configuration files, other resources required for executables to run, documentation, data, ...
+
+Source packages (.dsc) contain the upstream source distribution, configuration for the package build system, list of runtime dependencies and conflicting packages, a machine-readable description of copyright and license information, initial configuration for the software, and more.
+
+### [Debian Python](https://wiki.debian.org/Python/LibraryStyleGuide) | [Debian Python Policy](https://www.debian.org/doc/packaging-manuals/python-policy/)
 
 ### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
 
@@ -637,3 +645,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging, 2023-10-12-Thu.
 - Debian Style Guide for Packaging Python Libraries, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
 - Debian Python Policy, https://www.debian.org/doc/packaging-manuals/python-policy/, 2023-10-12-Thu.
+- Debian Packaging Introduction, https://wiki.debian.org/Packaging/Intro, 2023-10-12-Thu.
+- Debian Binary Package, https://wiki.debian.org/Packaging/BinaryPackage, 2023-10-12-Thu.
+- Debian Source Package, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
