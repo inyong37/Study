@@ -126,6 +126,8 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 ## _Package_
 
+### [Debian Packaging](https://wiki.debian.org/Packaging) | [Python](https://wiki.debian.org/Python/LibraryStyleGuide)
+
 ### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
 
 The Backports Project enables old kernels to run the latest drivers. "Backporting" is the process of making new software run on something old. A version of something new that's been modified to run on something old is called a "backport".
@@ -631,3 +633,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - The Linux man-pages project, https://www.kernel.org/doc/man-pages/, 2023-10-11-Wed.
 - daemon, https://man7.org/linux/man-pages/man7/daemon.7.html, 2023-10-11-Wed.
 - man, https://man7.org/, 2023-10-11-Wed.
+- Debian Packaging, https://wiki.debian.org/Packaging, 2023-10-12-Thu.
+- Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging, 2023-10-12-Thu.
+- Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
