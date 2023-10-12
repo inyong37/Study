@@ -242,13 +242,17 @@ Transport protocol의 일종으로 웹 버전의 TCP 또는 Socket이다. WebSoc
 
 Web Socket은 stateful protocol이기 때문에 client와 한 번 연결이 되면 계속 같은 라인을 사용해서 통신하기 때문에 Http 사용 시 필요없이 발생되는 Http와 TCP 연결 traffic을 피할 수 있다. 마지막으로 Web Socket은 Http와 같은 port 80을 사용하기에 기업용 application에 적용할 때 방화벽은 재설정하지 않아도 되는 장점이 있다. Server와 client 간의 WebSocket 연결은 Http protocol을 통해 이루어진다. 만약 연결이 정상적으로 이루어진다면 server와 client 간에 WebSocket 연결이 이루어지고 일정 시간이 지나면 Http 연결은 자동으로 끊어진다.
 
-HTTP 통신 방법과 WebSocket의 차이점은 protocoldㅣ다. WebSocket protocol은 접속 확립에 HTTP를 사용하지만, 그 후 통신은 WebSocket 독자의 protocol로 이루어진다. 또한 header가 상당히 작아 overhead가 적은 특성이 있다. 장시간 접속을 전제로 하기 때문에, 접속한 상태라면 client라 server로부터 data 송신이 가능하다. 더불어 데이터의 송신과 수신에 각각 connection을 맺을 필요가 없어 하나의 connection으로 데이터를 송수신할 수 있다.
+HTTP 통신 방법과 WebSocket의 차이점은 protocol이다. WebSocket protocol은 접속 확립에 HTTP를 사용하지만, 그 후 통신은 WebSocket 독자의 protocol로 이루어진다. 또한 header가 상당히 작아 overhead가 적은 특성이 있다. 장시간 접속을 전제로 하기 때문에, 접속한 상태라면 client라 server로부터 data 송신이 가능하다. 더불어 데이터의 송신과 수신에 각각 connection을 맺을 필요가 없어 하나의 connection으로 데이터를 송수신할 수 있다.
 
-### REST vs. WebSocket | [Blog (KR)](https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html)
+### REST vs. WebSocket | [Blog (KR)](https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html) | [Blog (KR)](https://dotherealthing.tistory.com/13) | [Blog (KR)](https://code-lab1.tistory.com/300)
 
 둘의 차이점은 Connection 유지 여부이다.
 
 WebSocket 이전의 양방향 통신 방법은 client가 server에게 HTTP request를 주기적으로 요청하는 Polling 방식, client가 server에게 HTTP request를 요청하면 server는 대기하다가 event 발생 시 client에게 reponse하는 Long Polling 방식, Long Polling 방식과 같이 client에서 server로 HTTP request를 보내고 server에서 event를 전달할 때 해당 request를 끊지 않고 필요한 메세지만 보내기(flush)를 반복하는 Streaming 방식이 있다. AJAX는 JavaScript의 XmlHttpRequest object를 기반으로, 비동기 JavaScript 및 XML의 축약된 양식으로 웹 페이지 일부만 송수신하는 반이중 통신 방식이다.
+
+HTTP는 단방향 통신이다. 서버로 request를 보내면 서버는 클라이언트로 response를 보낸다. HTTP는 무상태(stateless)이므로 상태를 저장하지 않는다. REST API의 한계는 정보가 변하는 경우, 그 때에만 정보를 받아오는 것이 힘들다. 정보를 받아오려면 계속 요청을 해야 한다. Websocket API는 구독형이다. 채널이 열리기 전에 어떤 정보를 받고 싶은지 요청한다. 실시간 스트리밍이나 실시간 채팅, 온라인 게임과 같이 즉각적으로 정보를 주고 받아야 하는 실시간 통신이 필요한 경우에 사용된다. (Socket이란 네트워크 환경에 연결할 수 있게 만들어진 연결부이다.)
+
+웹소켓은 TCP 연결처럼 handshake를 이용해 연결을 맺는다. 이 때 HTTP 업그레이드 헤더를 사용해 HTTP 프로토콜에서 웹소켓 프로토콜로 변경한다(최초 접속 시에는 HTTP 프로토콜을 이용해 handshaking). 웹소켓은 HTTP와 다르게 상태(stateful) 프로토콜이다. TCP connection 비용을 아낄 수 있다.
 
 ### _[MQTT (Message Queuing Telemetry Transport)](https://mqtt.org/)_ | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
 
@@ -437,3 +441,5 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - SSH File Transfer Protocol Wiki, https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol, 2023-03-09-Thu.
 - Nginx Configuration Blog KR, https://narup.tistory.com/209?category=1030141, 2023-03-22-Wed.
 - Nginx Multiple Server StackExchange, https://serverfault.com/questions/706694/use-nginx-as-reverse-proxy-for-multiple-servers, 2023-03-22-Wed.
+- HTTP vs. Websocket Blog KR, https://dotherealthing.tistory.com/13, 2023-10-12-Thu.
+- HTTP vs. Websocket Blog KR, https://code-lab1.tistory.com/300, 2023-10-12-Thu.
