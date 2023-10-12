@@ -169,13 +169,15 @@ The apt package provides commandline tools for searching, managing, and querying
 - apt-get: command-line tool for handling packages
 - apt-key: manage the list of keys used by apt to authenticate packages. This command is deprecated!
 
-### [dpkg](https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg)
+### [dpkg](https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html#dpkg) - package manager for Debian
 
 The dpkg package provides low-level infrastructure for handling the installation and removal of Debian software packages:
 
-- dpkg: a tool to install, build, remove and manage Debian packages.
+dpkg is a tool to install, build, remove and manage Debian packages. The primary and more user-friendly front-end for dpkg is aptitude(1). dpkg itself is controlled entirely via command line parameters, which consist of exactly one action and zero or more options. The action-parameter tells dpkg what to do and options control the behavior of the action in the same way.
 
-### _Editing Ubuntu Package Repository_ | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
+dpkg can also be used as a front-end to dpkg-deb(1) and dpkg-query(1). The list of supported actions can be found later on in the ACTIONS section. If any such action is encounterd dpkg just runs dpkg-deb or dpkg-query with the parameters given to it, but no specific options are currently passed to them, to use any such option the back-ends need to be called directly.
+
+### Editing Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
 
 Change main repo:
 - edit `/etc/apt/sources.list` such as `sed -i 's=http://archive.ubuntu.com/ubuntu=http://my-repo-serve:port=g' /etc/apt/sources.list`
