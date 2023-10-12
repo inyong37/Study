@@ -126,7 +126,7 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 ## _Package_
 
-### [Debian Packaging](https://wiki.debian.org/Packaging) | [Python](https://wiki.debian.org/Python/LibraryStyleGuide)
+### [Debian Packaging](https://wiki.debian.org/Packaging) | [Python](https://wiki.debian.org/Python/LibraryStyleGuide) | [Python Policy](https://www.debian.org/doc/packaging-manuals/python-policy/)
 
 ### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
 
@@ -634,5 +634,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - daemon, https://man7.org/linux/man-pages/man7/daemon.7.html, 2023-10-11-Wed.
 - man, https://man7.org/, 2023-10-11-Wed.
 - Debian Packaging, https://wiki.debian.org/Packaging, 2023-10-12-Thu.
-- Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging, 2023-10-12-Thu.
-- Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
+- Debian Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging, 2023-10-12-Thu.
+- Debian Style Guide for Packaging Python Libraries, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
+- Debian Python Policy, https://www.debian.org/doc/packaging-manuals/python-policy/, 2023-10-12-Thu.
