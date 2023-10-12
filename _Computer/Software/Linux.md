@@ -132,7 +132,7 @@ A Debian package is a collection of files that allow for applications or librari
 
 [Binary packages (.deb)](https://wiki.debian.org/Packaging/BinaryPackage) contain executables, standard configuration files, other resources required for executables to run, documentation, data, ...
 
-Source packages (.dsc) contain the upstream source distribution, configuration for the package build system, list of runtime dependencies and conflicting packages, a machine-readable description of copyright and license information, initial configuration for the software, and more.
+[Source packages (.dsc)](https://wiki.debian.org/Packaging/SourcePackage) contain the upstream source distribution, configuration for the package build system, list of runtime dependencies and conflicting packages, a machine-readable description of copyright and license information, initial configuration for the software, and more.
 
 ### [Debian Python](https://wiki.debian.org/Python/LibraryStyleGuide) | [Debian Python Policy](https://www.debian.org/doc/packaging-manuals/python-policy/)
 
