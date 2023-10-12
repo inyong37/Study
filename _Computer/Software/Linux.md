@@ -126,7 +126,7 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 ## _Package_
 
-### [Debian Packaging](https://wiki.debian.org/Packaging) | [Introduction](https://wiki.debian.org/Packaging/Intro)
+### [Debian Packaging](https://wiki.debian.org/Packaging) | [Introduction](https://wiki.debian.org/Packaging/Intro) | [Learn](https://wiki.debian.org/Packaging/Learn)
 
 A Debian package is a collection of files that allow for applications or libraries to be distributed via the package management system. The aim of packaging is to allow the automation of installing, upgrading, configuring, and removing computer programs for Debian in a consistent manner. A package consists of one source package, and one or more binary packages. The Debian Policy specifies the standard format for a package, which all packages must follow.
 
@@ -648,3 +648,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Packaging Introduction, https://wiki.debian.org/Packaging/Intro, 2023-10-12-Thu.
 - Debian Binary Package, https://wiki.debian.org/Packaging/BinaryPackage, 2023-10-12-Thu.
 - Debian Source Package, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
+- Debian Packaging Learn, https://wiki.debian.org/Packaging/Learn, 2023-10-12-Thu.
