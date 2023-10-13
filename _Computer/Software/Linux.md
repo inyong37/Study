@@ -189,6 +189,18 @@ dpkg is a tool to install, build, remove and manage Debian packages. The primary
 
 dpkg can also be used as a front-end to dpkg-deb(1) and dpkg-query(1). The list of supported actions can be found later on in the ACTIONS section. If any such action is encounterd dpkg just runs dpkg-deb or dpkg-query with the parameters given to it, but no specific options are currently passed to them, to use any such option the back-ends need to be called directly.
 
+### [apt vs. dpkg](https://www.linuxfordevices.com/tutorials/debian/apt-vs-dpkg-debian)
+
+* Can download packages from remote repositories: apt can, but dpkg can't
+* Can resolve dependences: apt can, but dpkg can't
+* Install local packages: both apt(using dpkg) and dpkg can
+  * `apt install {package.deb}` or `dpkg -i {package.deb}`
+* Install remote pakcage: apt(using dpkg) can, but dpkg can't(users need to manually download a package if they wish to use dpkg)
+* List installed packages: both apt and dpkg can
+  * `apt list` or `dpkg -l`
+ 
+dpkg does have exclusive uses such as configuring, unpacking, repacking and comparing packages.
+
 ### Editing Ubuntu Package Repository | [Blog (KR)](https://zetawiki.com/wiki/%EC%9A%B0%EB%B6%84%ED%88%AC_%EC%A0%80%EC%9E%A5%EC%86%8C_%EB%B3%80%EA%B2%BD) | [Blog (KR)](https://www.fun25.co.kr/blog/ubuntu-1604-software-properties-common/?category=001) | [StackOverflow](https://askubuntu.com/questions/197564/how-do-i-add-a-line-to-my-etc-apt-sources-list)
 
 Change main repo:
@@ -651,3 +663,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Binary Package, https://wiki.debian.org/Packaging/BinaryPackage, 2023-10-12-Thu.
 - Debian Source Package, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
 - Debian Packaging Learn, https://wiki.debian.org/Packaging/Learn, 2023-10-12-Thu.
+- apt vs. dpkg, https://www.linuxfordevices.com/tutorials/debian/apt-vs-dpkg-debian, 2023-10-13-Fri.
