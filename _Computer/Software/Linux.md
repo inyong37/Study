@@ -168,7 +168,9 @@ Many tools available on a Debian system can be used for Package management. Comm
   - gdebi: Graphical installer for standalone Debian Packages
   - gnome-software: Software Center for GNOME
 
-### [apt](https://www.debian.org/doc/manuals/apt-guide/index.en.html)
+### [apt](https://www.debian.org/doc/manuals/apt-guide/index.en.html) - command-line interface
+
+apt provides a high-level commandline interface for the package management system. It is intended as an end user interface and enables some options better suited for interactive usage by default compared to more specialized APT tools like apt-get(8) and apt-cache(8).
 
 The apt package provides commandline tools for searching, managing, and querying information about packages, and access all features of the libapt-pkg library: 
 
