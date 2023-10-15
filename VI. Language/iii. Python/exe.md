@@ -10,13 +10,13 @@
 
 ## PyInstaller
 
-### Install PyInstaller
+### Install PyInstaller on Your Environment
 
 `pip3 install pyinstaller`
 
-### A. Make an Executable File with Libraries
+and then, move to the workspace.
 
-Move to the workspace
+### A. Make an Executable File with Libraries
 
 `pyinstaller {source_code}.py`
 
