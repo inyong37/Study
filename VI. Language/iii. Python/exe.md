@@ -1,4 +1,4 @@
-# Python to Execuatable File of Windows
+# Python to Execuatable File
 
 ## Date
 
@@ -8,27 +8,31 @@
 
 * macOS 13.4.1
 
-## PyInstaller
+## I. [PyInstaller](https://pyinstaller.org/en/stable/) on Windows, MacOS X, and Linux
 
-### Install PyInstaller on Your Environment
+PyInstaller bundles a Python application and all its dependencies into a single package. The user can run the packaged app without installing a Python interpreter or any modules. PyInstaller supports Python 3.8 and newer, and correctly bundles many major Python packages such as numy, matplotlib, PyQt, wxPython, and others.
 
-`pip3 install pyinstaller`
+PyInstaller is tested against Windows, MacOS X, and Linux. However, it is not a cross-compiler; to make a Window app you run PyInstaller on Windows, and to make a Linux app you run it on Linux, etc. x PyInstaller has been used successfully with AIX, Solaris, FreeBSD and OpenBSD but testing against them is not part of its continous integration tests, and the development team offers no guarantee (all code for these platforms comes from external contributions) that PyInstaller will work on these platforms or that they will continue to be supported.
+
+### I.i. Install PyInstaller on Your Environment
+
+`pip install pyinstaller`
 
 and then, move to the workspace.
 
-### A. Make an Executable File with Libraries
+### I.ii.A. Make an Executable File with Libraries
 
 `pyinstaller {source_code}.py`
 
-### B. Make an Execuatble File with Libraries, but without Console Window: `-w` or `--windowed`
+### I.ii.B. Make an Execuatble File with Libraries, but without Console Window: `-w` or `--windowed`
 
 `pyinstaller {source_code}.py -w` or `pyinstaller {source_code}.py --windowed`
 
-### C. Make an Executable File without Libraries: `-F` or `onefile`
+### I.ii.C. Make an Executable File without Libraries: `-F` or `onefile`
 
 `pyinstaller {source_code}.py -F` or `pyinstaller {source_code.py -onefile`
 
-### :tada: Verify
+### I.iii. Verify :tada:
 
 The executable file would be located in "dist" folder.
 
@@ -38,3 +42,4 @@ Execute the "{source_code}.exe".
 
 ### Reference
 - PyInstaller KR, https://wikidocs.net/21952, 2023-10-16-Mon.
+- PyInstaller, https://pyinstaller.org/en/stable/, 2023-10-16-Mon.
