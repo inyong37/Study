@@ -76,10 +76,11 @@ Example:
 Removing imhere (0.0.1) ...
 ```
 
-### Appendix
+### Appendix. Files
+
+imhere_0.0.1/DEBIAN/control
 
 ```Bash
-(base) inyong@desktop:~$ cat imhere_0.0.1/DEBIAN/control
 Package: imhere
 Version: 0.0.1
 Maintainer: My Name <my@my.com>
@@ -88,8 +89,89 @@ Homepage: http://myhomepage.com
 Architecture: amd64
 ```
 
+imhere_0.0.1/DEBIAN/conffiles
+
 ```Bash
-(base) inyong@desktop:~$ cat imhere_0.0.1/usr/bin/main.py
+/etc/imhereconf.ini
+/usr/local/imhere/conf/config.ini
+```
+
+imhere_0.0.1/DEBIAN/postinst
+
+```Bash
+#!/bin/bash
+##############################
+# postinst script
+##############################
+case "$1" in
+configure)
+    # When configure,
+    ;;
+upgrade)
+    # When upgrade,
+    ;;
+*)
+    echo "Unrecognized postinst argument '$1'"
+esac
+```
+imhere_0.0.1/DEBIAN/postrm
+
+```Bash
+#!/bin/bash
+##############################
+# postrm script
+##############################
+case "$1" in
+remove)
+    # When remove, delete binary except configuration
+    ;;
+purge)
+    # When purge, delete all configuration
+    ;;
+*)
+    echo "Unrecognized postrm argument '$1'"
+esac
+```
+imhere_0.0.1/DEBIAN/preinst
+
+```Bash
+#!/bin/bash
+##############################
+# preinst script
+##############################
+case "$1" in
+install)
+    # When install,
+    ;;
+upgrade)
+    # When upgrade,
+    ;;
+*)
+    echo "Unrecognized preinst argument '$1'"
+esac
+```
+imhere_0.0.1/DEBIAN/prerm
+
+```Bash
+#!/bin/bash
+##############################
+# prerm script
+##############################
+case "$1" in
+upgrade)
+    # When upgrade, called by package of next version
+    ;;
+remove)
+    # When remove, stop process, revert postinst
+    ;;
+*)
+    echo "Unrecognized prerm argument '$1'"
+esac
+```
+
+imhere_0.0.1/usr/bin/main.py
+
+```Python
 #! /usr/bin/python3
 
 print('Hola!')
