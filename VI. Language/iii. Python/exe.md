@@ -38,8 +38,21 @@ The executable file would be located in "dist" folder.
 
 Execute the "{source_code}.exe".
 
+## II. [py2exe](https://www.py2exe.org/) on Windows
+
+py2exe is a Python Distutils extension which converts Python scripts into executable Windows programs, able to run without requiring a Python installation.
+
+## III. [py2app](https://py2app.readthedocs.io/en/latest/) on macOS
+
+py2app is a Python setuptools command which will allow you to make standalone application bundles and plugins from Python scripts. py2app is similar in purpose and design to py2exe for Windows.
+
+:bulb: py2app must be run on macOS and cannot be used to cross build macOS applications on Windows or Linux.
+
 ---
 
 ### Reference
 - PyInstaller KR, https://wikidocs.net/21952, 2023-10-16-Mon.
 - PyInstaller, https://pyinstaller.org/en/stable/, 2023-10-16-Mon.
+- py2exe and py2app Blog KR, https://spoqa.github.io/2013/05/21/py2exe-and-py2app.html, 2023-10-16-Mon.
+- py2exe, https://www.py2exe.org/, 2023-10-16-Mon.
+- py2app, https://py2app.readthedocs.io/en/latest/, 2023-10-16-Mon.
