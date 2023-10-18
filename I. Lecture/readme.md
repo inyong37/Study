@@ -23,3 +23,6 @@
   * [TensorFlow Developer Certificate in 2023: Zero to Mastery](https://www.udemy.com/course/tensorflow-developer-certificate-machine-learning-zero-to-mastery/) | [Book](https://dev.mrdbourke.com/tensorflow-deep-learning/) | [GitHub](https://github.com/mrdbourke/tensorflow-deep-learning)
 
 * [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+
+* [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) | [KR](https://wikidocs.net/book/8056)
+
