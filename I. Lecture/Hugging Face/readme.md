@@ -13,7 +13,7 @@ Generating text is the task of producing new text. These models can, for example
 
 Get Started | Tutorials | :books: Task Guides | Developer Guides | Performance and Scalability | Contribute | Conceptual Guides | API
 
-:pencil2: Natural Language Processing | Audio | :eyes: Computer Vision | Multimodal | Generation | Prompting
+:pencil2: Natural Language Processing | Audio | :eyes: Computer Vision | :rainbow: Multimodal | :hammer_and_wrench: Generation | Prompting
 
 ## :pencil2: Natural Language Processing - Task Guides
 
@@ -101,6 +101,51 @@ Monocular depth estimation is a computer vision task that involves predicting th
 
 Monocular depth estimation has various applications, including 3D reconstruction, augmented reality, autonomous driving, and robotics. It is a challenging task as it requires the model to understand the complex relationships between objects in the scene and the corresponding depth information, which can be affected by factors such as lighting conditions, occlusion, texture.
 
+## :rainbow: Multimodal - Task Guides
+
+### [Image Captioning](https://huggingface.co/docs/transformers/tasks/image_captioning)
+
+Image captioning is the task of predicting a caption for a given image. Common real world applications of it include aiding visually impaired people that can help them navigate through different situations. Therefore, image captioning helps to improve content accessibility for people for describing images to them.
+
+### [Document Question Answering](https://huggingface.co/docs/transformers/tasks/document_question_answering)
+
+Document Question Answering, also referred to as Document Visual Question Answering, is a task that involves providing answers to questions posed about document images. The input to models supporting this task is typically a combination of an image and a question, and the output is an answer expressed in natural language. These models utilize multiple modalities, including text, the positions of words (bounding boxes), and the image itself.
+
+### [Visual Question Answering](https://huggingface.co/docs/transformers/tasks/visual_question_answering)
+
+Visual Question Answering (VQA) is the task of answering open-ended questions based on an image. The input to models supporting this task is typically a combination of an image and a question, and the output is an answer expressed in natural language.
+
+Some noteworthy use case examples for VQA include:
+
+* Accessibility applications for visually impaired individuals
+
+* Education: posting questions about visual materials presented in lectures or textbooks. VQA can also be utilized in interactive museum exhibits or historical sites.
+
+* Customer service and e-commerce: VQA can enhance user experience by letting users ask questions about products.
+
+* Image retrieval: VQA models can be used to retrieve images with specific characteristic. For example, the user can ask "Is there a dog?" to find all images with dogs from a set of images.
+
+### [Text to Speech](https://huggingface.co/docs/transformers/tasks/text-to-speech)
+
+Text-to-speech (TTS) is the task of creating natural-souding speech from text, where the speech can be generated in multiple languages and for multiple speakers. Several text-to-speech models are currently available in Transformers, such as Bark, MMS, VITS and SpeechT5.
+
+You can easily generate audio using the "text-to-audio" pipeline (or its alias - "text-to-speech"). Some models, like Bark, can also be conditioned to generate non-verbal communications such as laughing, sighing and crying, or even add music. Here's an example of how you would use the "text-to-speech" pipeline with Bark:
+
+```Python
+>>> from transformers import pipeline
+
+>>> pipe = pipeline("text-to-speech", model="suno/bark-small")
+>>> text = "[clears throat] This is a test ...  and I just took a long pause."
+>>> output = pipe(text)
+```
+
+Here's a code snippet you can use to listen to the resulting audio on a notebook:
+
+```Python
+>>> from IPython.display import Audio
+>>> Audio(output["audio"], rate=output["sampling_rate"])
+```
+
 ---
 
 ### Reference
@@ -120,3 +165,7 @@ Monocular depth estimation has various applications, including 3D reconstruction
 - Zero-shot Object Detection, https://huggingface.co/docs/transformers/tasks/zero_shot_object_detection, 2023-10-18-Wed.
 - Zero-shot Image Classification, https://huggingface.co/docs/transformers/tasks/zero_shot_image_classification, 2023-10-18-Wed.
 - Monocular Depth Prediction, https://huggingface.co/docs/transformers/tasks/monocular_depth_estimation, 2023-10-18-Wed.
+- Image Captioning, https://huggingface.co/docs/transformers/tasks/image_captioning, 2023-10-18-Wed.
+- Document Question Answering, https://huggingface.co/docs/transformers/tasks/document_question_answering, 2023-10-18-Wed.
+- Visual Question Answering, https://huggingface.co/docs/transformers/tasks/visual_question_answering, 2023-10-18-Wed.
+- Text to Speech, https://huggingface.co/docs/transformers/tasks/text-to-speech, 2023-10-18-Wed.
