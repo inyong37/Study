@@ -520,6 +520,12 @@ Vanilla OS ia a Linux distribution that aims for higher security than other desk
 
 ---
 
+### Shebang
+
+[Is space allowed between `#!` and `/binbash` in shebang?](https://unix.stackexchange.com/questions/276751/is-space-allowed-between-and-bin-bash-in-shebang): Yes
+
+---
+
 ### Reference
 - Program Files, Program Files (x86), https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/, 2019-03-21-Thu
 - 20세기 맥 OS는 어떤 모습이었을까, https://blog.naver.com/PostView.nhn?blogId=tech-plus&logNo=222046025324, 2020-08-03-Mon.
@@ -631,3 +637,4 @@ Vanilla OS ia a Linux distribution that aims for higher security than other desk
 - SUSE Linux Wiki, https://en.wikipedia.org/wiki/SUSE_Linux, 2023-05-12-Fri.
 - SUSE Linux Enterprise Server, https://www.suse.com/products/server/, 2023-05-12-Fri.
 - Arch Linux Wiki, https://wiki.archlinux.org/title/Arch_Linux, 2023-10-11-Wed.
+- Allowing Space in Shebang, https://unix.stackexchange.com/questions/276751/is-space-allowed-between-and-bin-bash-in-shebang, 2023-10-18-Wed.
