@@ -57,7 +57,7 @@ Summarization creates a shorter version of a document or an article that capture
 
 A multiple choice task is similar to question answering, except several candidate answers are provided along with a context and the model is trained to select the correct answer.
 
-## :eyes: Computer Vision
+## :eyes: Computer Vision - Task Guides
 
 ### [Image Classification](https://huggingface.co/docs/transformers/tasks/image_classification)
 
@@ -71,7 +71,35 @@ Semantic segmentation assigns a label or class to each individual pixel of an im
 
 Video classification is the task of assigning a label or class to an entire video. Videos are expected to have only one class for each video. Video classification models take a video as input and return a prediction about which class the video belongs to. These models can be used to categorize what a video is all about. A real-world application of video classification is action / activity recognition, which is useful for fitneww applications. It is also helpful for vision-imparied individuals, especially when they are commuting.
 
+### [Object Detection](https://huggingface.co/docs/transformers/tasks/object_detection)
 
+Object detection is the computer vision task of detecting instances (such as humans, buildings, or cars) in an image. Object detection models receive an image as input and output coordinates of the bounding boxes and associated labels of the detected objects. An image can contain multiple objects, each with its own bounding box and a label (e.g. it can have a car and a building), and each object can be present in different parts of an image (e.g. the image can have several cars). This task is commonly used in autonomous driving for detecting things like pedestrians, road signs, and traffic lights. Other applications include counting objects in images, image search, and more.
+
+### [Zero-shot Object Detection](https://huggingface.co/docs/transformers/tasks/object_detection)
+
+Traditionally, models used for object detection require labeled image datasets for training, and are limited to detecting the set of classes from the training data.
+
+Zero-shot object detection is supported by the OWL-ViT model which uses a different approach. OWL-ViT is an open-vocabulary object detector. It means that it can detect objects in images based on free-text queries without the need to fine-tune the model on labeled datasets.
+
+OWL-ViT leverages multi-model representations to perform open-vocabulary detection. It combines CLIP with lightweight object classification and localization heads. Open-vocabulary detection is achieved by embedding free-text queries with the text encoder of CLIP and using them as input to the object classification and localization heads. Associate images and their corresponding textual descriptions, and ViT processes iamge patches as inputs. The authors of OWL-ViT first trained CLIP from scratch and then fine-tuned OWL-ViT end to end on standard object detection datasets using a bipartite matching loss.
+
+With this approach, the model can detect objects based on textual descriptions without prior training on labeled datasets.
+
+### [Zero-shot Image Classification](https://huggingface.co/docs/transformers/tasks/zero_shot_image_classification)
+
+Zero-shot image classification is a task that involves classifying images into different categories using a model that was not explicitly trained on data containing labeled examples from those specific categories.
+
+Traditionally, image classification requires training a model on a specific set of labeled images, and this model learns to "map" certain image features to labels. When there's a need to use such model for a classification task that introduces a new set of labels, fine-tuning is required to "recalibrate" the model.
+
+In contrast, zero-shot or open vocabulary image classification models are typcially multimodal models that have been trained on a large dataset of images and associated descriptions. These models learn aligned vision-language representations that can be used for many downstream tasks including zero-shot image classification.
+
+This is a more flexible approach to image classification that allows models to generalize to new and unseen categories without the need for additional training data and enables users to query images with free-form text descriptions of their target objects.
+
+### [Monocular Depth Estimation](https://huggingface.co/docs/transformers/tasks/monocular_depth_estimation)
+
+Monocular depth estimation is a computer vision task that involves predicting the depth information of a scene from a single image. In other words, it is the process of estimating the distance of objects in a scene from a single camera viewpoint.
+
+Monocular depth estimation has various applications, including 3D reconstruction, augmented reality, autonomous driving, and robotics. It is a challenging task as it requires the model to understand the complex relationships between objects in the scene and the corresponding depth information, which can be affected by factors such as lighting conditions, occlusion, texture.
 
 ---
 
@@ -88,3 +116,7 @@ Video classification is the task of assigning a label or class to an entire vide
 - Image Classification, https://huggingface.co/docs/transformers/tasks/image_classification, 2023-10-18-Wed.
 - Semantic Segmentation, https://huggingface.co/docs/transformers/tasks/semantic_segmentation, 2023-10-18-Wed.
 - Video Classification, https://huggingface.co/docs/transformers/tasks/video_classification, 2023-10-18-Wed.
+- Object Detection, https://huggingface.co/docs/transformers/tasks/object_detection, 2023-10-18-Wed.
+- Zero-shot Object Detection, https://huggingface.co/docs/transformers/tasks/zero_shot_object_detection, 2023-10-18-Wed.
+- Zero-shot Image Classification, https://huggingface.co/docs/transformers/tasks/zero_shot_image_classification, 2023-10-18-Wed.
+- Monocular Depth Prediction, https://huggingface.co/docs/transformers/tasks/monocular_depth_estimation, 2023-10-18-Wed.
