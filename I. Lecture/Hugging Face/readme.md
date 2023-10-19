@@ -146,6 +146,22 @@ Here's a code snippet you can use to listen to the resulting audio on a notebook
 >>> Audio(output["audio"], rate=output["sampling_rate"])
 ```
 
+## :hammer_and_wrench: Generation
+
+### [Text Generation Strategies](https://huggingface.co/docs/transformers/generation_strategies)
+
+Text generation is essential to many NLP tasks, such as open-ended text generation, summarization, translation, and more. It also plays a role in a variety of mixed-modality applications that have text as an output like speech-to-text and vision-to-text. Some of the models that can generate text include GPT2, XLNet, OpenAI GPT, CTRL, TransformerXL, XLM, Bart, T5, GIT, Whisper.
+
+Check out a few examples that use generate() method to produce text outputs for different tasks:
+
+* Text summarization
+* Image captioning
+* Audio transcription
+
+Note that the inputs to the generate method depend on the model's modality. They are returned by the model's preprocessor class, such as AutoTokenizer or AutoProcessor. If a model's preprocessor creates more than one kind of input, pass all the inputs to generate(). You can learn more about the individual model's preprocessor in the corresponding model's documentation.
+
+The process of selecting output tokens to generate text is known as decoding, and you can customize the decoding strategy that the generate() method will use. Modifiying a decoding strategy does not change the values of any trainable parameters. However, it can have a noticeable impact on the quality of the generated output. It can help reduce repetition in the text and make it more coherent
+
 ---
 
 ### Reference
@@ -169,3 +185,4 @@ Here's a code snippet you can use to listen to the resulting audio on a notebook
 - Document Question Answering, https://huggingface.co/docs/transformers/tasks/document_question_answering, 2023-10-18-Wed.
 - Visual Question Answering, https://huggingface.co/docs/transformers/tasks/visual_question_answering, 2023-10-18-Wed.
 - Text to Speech, https://huggingface.co/docs/transformers/tasks/text-to-speech, 2023-10-18-Wed.
+- Text Generation Strategies, https://huggingface.co/docs/transformers/generation_strategies, 2023-10-19-Thu.
