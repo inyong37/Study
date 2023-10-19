@@ -124,7 +124,7 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 ---
 
-## _Package_
+## Package
 
 ### [Debian Packaging](https://wiki.debian.org/Packaging) | [Introduction](https://wiki.debian.org/Packaging/Intro) | [Learn](https://wiki.debian.org/Packaging/Learn)
 
@@ -140,15 +140,29 @@ A Debian package is a collection of files that allow for applications or librari
 
 The Backports Project enables old kernels to run the latest drivers. "Backporting" is the process of making new software run on something old. A version of something new that's been modified to run on something old is called a "backport".
 
-### _Build Debian Package deb File_ | [Blog (KR)](https://devanix.tistory.com/314) | [Blog (KR)](https://blog.djjproject.com/406)
+### Build Debian Package deb File | [Blog (KR)](https://devanix.tistory.com/314) | [Blog (KR)](https://blog.djjproject.com/406)
 
 1. package folder 생성 `mkdir {package_name}_{version}-{revision}` such as `mkdir dummydeb_0.0.1-1`
 2. DEBIAN folder 생성 `mkdir {package_name}/DEBIAN`
 3. control file 생성 및 content 기입
 4. content 생성 such as `cd {package_name}/ && dd if=/dev/zero of=dummyfile bs=1024 count=102400`
-5. build: `dpkg -b {package_folder_name} {package_name}` 
+5. build: `dpkg -b {package_folder_name} {package_name}`
 
-### _[Debian Package Management](https://wiki.debian.org/PackageManagement)_
+### [Required Files Under the Debian Directory](https://www.debian.org/doc/manuals/maint-guide/dreq.en.html)
+
+### control
+
+This file contains various values which dpkg, dselect, apt-get, apt-cache, aptitude, and other package management tools will use to manage the package. It is defined by the Debian Policy Manula, 5 "Control files and their fields".
+
+### copyright
+
+This file contains information about the copyright and license of the upstream sources. Debian Policy Manual, 12.5 "Copyright information" dictates its content and DEP-5: Machine-parseable debian/copyright provides guidelines for its format.
+
+### changelog
+
+This is a required file, which has a special format described in Debian Policy Manual, 4.4 "debian/changelog". This format is used by dpkg and other programs to obtain the version number, revision, distribution, and urgency of your package.
+
+### [Debian Package Management](https://wiki.debian.org/PackageManagement)
 
 Much of why Debian is a strong Linux distribution comes from its package management. Everything in Debian - every application, every component - everything - is built into a package.
 
@@ -156,7 +170,7 @@ There are many software packages available for Debian - everything from the Linu
 
 The Apt (Advanced Package Tool) package management system is a set of tools to download, install, remove, upgrade, configure and manage Debian packages, and therefore all software installed on a Debian system.
 
-### _[Debian Package Management Tool](https://wiki.debian.org/PackageManagementTools)_
+### [Debian Package Management Tool](https://wiki.debian.org/PackageManagementTools)
 
 Many tools available on a Debian system can be used for Package management. Commonly used ones include:
 
@@ -664,3 +678,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Source Package, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
 - Debian Packaging Learn, https://wiki.debian.org/Packaging/Learn, 2023-10-12-Thu.
 - apt vs. dpkg, https://www.linuxfordevices.com/tutorials/debian/apt-vs-dpkg-debian, 2023-10-13-Fri.
+- Required Files Under the Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-19-Thu.
