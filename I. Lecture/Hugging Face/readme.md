@@ -11,9 +11,20 @@ Generating text is the task of producing new text. These models can, for example
 
 ## :books: [Docs](https://huggingface.co/docs)
 
-Get Started | Tutorials | :books: Task Guides | Developer Guides | Performance and Scalability | Contribute | Conceptual Guides | API
-
-:pencil2: Natural Language Processing | Audio | :eyes: Computer Vision | :rainbow: Multimodal | :hammer_and_wrench: Generation | Prompting
+* Get Started
+* Tutorials
+* Task Guides
+  * :pencil2: Natural Language Processing
+  * Audio
+  * :eyes: Computer Vision
+  * :rainbow: Multimodal
+  * :hammer_and_wrench: Generation
+  * Prompting
+* Developer Guides
+* Performance and Scalability
+* Contribute
+* Conceptual Guides
+* API
 
 ## :pencil2: Natural Language Processing - Task Guides
 
