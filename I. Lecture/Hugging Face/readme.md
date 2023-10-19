@@ -146,7 +146,7 @@ Here's a code snippet you can use to listen to the resulting audio on a notebook
 >>> Audio(output["audio"], rate=output["sampling_rate"])
 ```
 
-## :hammer_and_wrench: Generation
+## :hammer_and_wrench: Generation - Task Guides
 
 ### [Text Generation Strategies](https://huggingface.co/docs/transformers/generation_strategies)
 
