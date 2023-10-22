@@ -20,6 +20,25 @@ def bubble_sort(A: List[int]) -> List[int]:
 병합 정렬(Merge Sort)은 존 폰 노이만(John von Neumann)이 1945년에 고안한 알고리즘으로, 분할 정복(Divide and Conquer)의 진수를 보여주는 알고리즘이다. 최선과 최악 모두 O(n log n)인 사실상 완전한 Theta(n log n)으로 일정한 알고리즘이며, 대부분의 경우 퀵 정렬보다는 느리지만 일정한 실행 속도뿐만 아니라 무엇보다도 안정 정렬(Stable Sort)이라는 점에서 여전히 상용 라이브러리에 많이 쓰이고 있다. 각각 더 이상 쪼갤 수 없을 때까지 계속해서 분할한 후, 분할이 끝나면 정려라면서 정복해 나간다.
 
 ```Python
+def merge_sort(A: List[int]) -> List[int]:
+  if (len(A)) < 2:
+    return A
+
+  mid = len(A) // 2
+  low_A = merge_sort(A[:mid])
+  high_A = merge_sort(A[mid:)
+  merged_A = []
+  l = h = 0
+  while l < len(low_A) and h < len(high_A):
+    if low_A[l] < high_A[h]:
+      merged_A.append(low_A[l])
+      l += 1
+    else:
+      merged_A.append(high_A[h])
+      h += 1
+  merged_A += low_A[l:]
+  merged_A += high[h:]
+  return merged_A  
 ```
 
 ## 퀵 정렬
