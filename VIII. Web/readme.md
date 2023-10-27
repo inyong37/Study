@@ -30,7 +30,7 @@ MDN Contents:
 
 ---
 
-### Flow Client Server Architecture | [KR](https://velog.io/@estell/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98) | [KR](https://velog.io/@muchogusto/%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+### Client Server Architecture | [KR](https://velog.io/@estell/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98) | [KR](https://velog.io/@muchogusto/%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
 
 Tier 2 Architecture: Client - Server
 
