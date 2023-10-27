@@ -37,7 +37,7 @@ Tier 2 Architecture: Client - Server
 Tier 3 Architecture: Client - Server - Database
 
 * Client
-  * Browswer: Chrome, Safari, IE, Edge
+  * Browser: Chrome, Safari, IE, Edge
   * HTTP, REST, Websocket
 * Web Server: Static content/data
   * Apache, Nginx
