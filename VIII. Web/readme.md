@@ -28,6 +28,26 @@ MDN Contents:
 - [Publishing your website](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website)
 - [How the Web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 
+---
+
+### Flow Client Server Architecture | [KR](https://velog.io/@estell/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98) | [KR](https://velog.io/@muchogusto/%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80)
+
+Tier 2 Architecture: Client - Server
+
+Tier 3 Architecture: Client - Server - Database
+
+* Client
+  * Browswer: Chrome, Safari, IE, Edge
+  * HTTP, REST, Websocket
+* Web Server: Static content/data
+  * Apache, Nginx
+  * HTML, CSS, JavaScript, React, MobX, Redux
+* Web Application Server: Dynamic content/data
+  * Tomcat
+  * Java, Spring, JavaScript, Nodejs, Python, Django
+* Database
+  * MariaDB, MySQL, Orcale
+
 ----------
 
 ## Technology
@@ -261,3 +281,7 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Redux Wiki, https://en.wikipedia.org/wiki/Redux_(JavaScript_library), 2021-09-02-Thu.
 - Storybook, https://storybook.js.org/, 2022-01-28-Fri.
 - Web Assembly Youtube KR, https://youtu.be/VJag_H2Cosc, 2021-10-15-Fri.
+- Web Server Web Application Server Database Blog KR, https://reinvite.tistory.com/86, 2023-10-27-Fri.
+- Client Server Architecture Blog KR, https://velog.io/@estell/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98, 2023-10-27-Fri.
+- Web Server Blog KR, https://velog.io/@muchogusto/%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80, 2023-10-27-Fri.
+- Spring Blog KR, https://terianp.tistory.com/73, 2023-10-27-Fri.
