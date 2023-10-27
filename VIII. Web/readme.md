@@ -39,12 +39,13 @@ Tier 3 Architecture: Client - Server - Database
 * Client
   * Browser: Chrome, Safari, IE, Edge
   * HTTP, REST, Websocket
-* Web Server: Static content/data
-  * Apache, Nginx
-  * HTML, CSS, JavaScript, React, MobX, Redux
-* Web Application Server: Dynamic content/data
-  * Tomcat
-  * Java, Spring, JavaScript, Nodejs, Python, Django
+* Sever
+  * Web Server: Static content/data
+    * Apache, Nginx
+    * HTML, CSS, JavaScript, React, MobX, Redux
+  * Web Application Server: Dynamic content/data
+    * Tomcat
+    * Java, Spring, JavaScript, Nodejs, Python, Django
 * Database
   * MariaDB, MySQL, Orcale
 
