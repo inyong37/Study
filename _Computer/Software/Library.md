@@ -146,6 +146,12 @@ In computer programming, a runtime library is a set of low-level routines used b
 
 ---
 
+### [LSF](https://www.ibm.com/support/pages/sdk-introduction-getting-started-platform-lsf-programming)
+
+Platform LSF programming is like any other system programming. 
+
+---
+
 ### Reference
 - Linux library, http://blog.naver.com/PostView.nhn?blogId=xogml_blog&logNo=130138049704, 2020-08-07-Fri.
 - Static Linking, Dynamic Linking, https://jhnyang.tistory.com/42, 2020-08-08-Sat.
@@ -164,3 +170,4 @@ In computer programming, a runtime library is a set of low-level routines used b
 - CMake Cyclic Dependencies of Static Libraries, https://cmake.org/cmake/help/latest/command/target_link_libraries.html#cyclic-dependencies-of-static-libraries, 2021-03-30-Tue.
 - Create C/C++ DLLs in Visual Studio, https://docs.microsoft.com/en-us/cpp/build/dlls-in-visual-cpp?view=msvc-160, 2021-06-03-Thu.
 - Runtime Library Wiki, https://en.wikipedia.org/wiki/Runtime_library, 2023-03-24-Fri.
+- LSF IBM, https://www.ibm.com/support/pages/sdk-introduction-getting-started-platform-lsf-programming, 2023-10-30-Mon.
