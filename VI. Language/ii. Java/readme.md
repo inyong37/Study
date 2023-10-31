@@ -31,10 +31,31 @@ The JVM reference implementation is developed by the OpenJDK project as open sou
 ### Paid? Oracle JDK vs OpenJDK
 Commercial version JDK is Oracle JDK and open source based JDK is OpenJDK. Oracle JDK has some pulgin used to pay, from Sun Microsystems
 
-#### Reference
+---
+
+### Plain Old Java Object (POJO)
+
+POJO is an ordinary Java object that does not have references to any particular framework. It's a term used to refer to a simple, lightweight Java object. A POJO does not use any naming convention for properties and methods.
+
+### JavaBean
+
+A JavaBean is mostly like a POJO, with some strict set of rules on how to implement it. The rules specify that it should be serializable, have a null constructor, and allow access to variable using methods that follow the getX() and setX() convention.
+
+### Data Transfer Object (DTO)
+
+A DTO encapsulates values to carry data between processes or networks. This helps in reducing the number of methods called. By including multiple parameters or values in a single call, we reduce the network overhead in remote operations. One more advantage of this pattern is the encapsulation of the serialization's logic. It lets the program store and transfer data in a specific format. A DTO does not have any explicity behavior. It basically helps in making the code loosely coupled by decoupling the domain models from the presentation layer.
+
+### Value Object (VO)
+
+VO is a special type of object that can hold values such as java.lang.Integer and java.lang.Long. A VO should always override the equals() and hashCode() methods. VOs generally encapsulate small objects such as numbers, dates, strings, and more. They follow the value semantics, i.e., they directly change the object's value and pass copies around instead of references. It's a good practice to make Value Objects immutable. The change in values occurs only by creating a new object and not by updating values in the old object itself. This helps in understanding the implicit contract that two Value Objects created equal should remain equal.
+
+---
+
+### Reference
 - JAVA, https://docs.oracle.com/javase/7/docs/technotes/guides/language/, 2020-04-02-Thu.
 - Java Paid?, https://mine-it-record.tistory.com/7, 2020-08-10-Mon.
 - OpenJDK, https://openjdk.java.net/, 2020-09-22-Tue.
 - OpenJDK Wiki, https://en.wikipedia.org/wiki/OpenJDK, 2020-09-22-Tue.
 - JDK Wiki, https://en.wikipedia.org/wiki/Java_Development_Kit, 2020-09-22-Tue.
 - JVM Wiki, https://en.wikipedia.org/wiki/Java_virtual_machine, 2020-09-22-Tue.
+- Java Objects, https://www.baeldung.com/java-pojo-javabeans-dto-vo, 2023-10-31-Tue.
