@@ -61,15 +61,19 @@ A JavaBean is mostly like a POJO, with some strict set of rules on how to implem
 
 ### Data Access Object (DAO) | [Blog (KR)](https://m.blog.naver.com/cjhol2107/221757079506)
 
-Database의 data에 접근하기 위한 object. Database 접근 로직과 비즈니스 로직을 분리하기 위해 사용한다. MyBatis 등을 사용할 경우 connection pool까지 제공되어 DAO
+Database의 data에 접근하기 위한 object. Database 접근 로직과 비즈니스 로직을 분리하기 위해 사용한다. MyBatis 등을 사용할 경우 connection pool까지 제공되어 DAO를 별도로 만드는 경우는 드물다.
 
 ### Data Transfer Object (DTO) | [Blog (KR)](https://m.blog.naver.com/cjhol2107/221757079506)
 
 A DTO encapsulates values to carry data between processes or networks. This helps in reducing the number of methods called. By including multiple parameters or values in a single call, we reduce the network overhead in remote operations. One more advantage of this pattern is the encapsulation of the serialization's logic. It lets the program store and transfer data in a specific format. A DTO does not have any explicity behavior. It basically helps in making the code loosely coupled by decoupling the domain models from the presentation layer.
 
+Database 레코드의 data를 매핑하기 위한 데이터 object이다. DTO는 보통 로직을 갖지 않고 data와 그 data에 접근을 위한 getter, setter만 갖는다. 즉, DTO는 database에서 data를 얻어 service나 controller 등으로 보낼 때 사용하는 object를 말한다.
+
 ### Value Object (VO)
 
 VO is a special type of object that can hold values such as java.lang.Integer and java.lang.Long. A VO should always override the equals() and hashCode() methods. VOs generally encapsulate small objects such as numbers, dates, strings, and more. They follow the value semantics, i.e., they directly change the object's value and pass copies around instead of references. It's a good practice to make Value Objects immutable. The change in values occurs only by creating a new object and not by updating values in the old object itself. This helps in understanding the implicit contract that two Value Objects created equal should remain equal.
+
+VO는 immutable하다.
 
 ---
 
