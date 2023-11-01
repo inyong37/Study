@@ -33,6 +33,24 @@ Commercial version JDK is Oracle JDK and open source based JDK is OpenJDK. Oracl
 
 ---
 
+## [Spring](https://spring.io/)
+
+Spring can do microservices, reactive, cloud, web apps, serverless, event driven, and batch.
+
+### [Spring Boot](https://spring.io/projects/spring-boot)
+
+Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run.
+
+### [Spring Framework](https://spring.io/projects/spring-boot)
+
+The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+
+### [MyBatis](https://mybatis.org/mybatis-3/)
+
+MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
+
+---
+
 ### Plain Old Java Object (POJO)
 
 POJO is an ordinary Java object that does not have references to any particular framework. It's a term used to refer to a simple, lightweight Java object. A POJO does not use any naming convention for properties and methods.
@@ -41,7 +59,11 @@ POJO is an ordinary Java object that does not have references to any particular 
 
 A JavaBean is mostly like a POJO, with some strict set of rules on how to implement it. The rules specify that it should be serializable, have a null constructor, and allow access to variable using methods that follow the getX() and setX() convention.
 
-### Data Transfer Object (DTO)
+### Data Access Object (DAO) | [Blog (KR)](https://m.blog.naver.com/cjhol2107/221757079506)
+
+Database의 data에 접근하기 위한 object. Database 접근 로직과 비즈니스 로직을 분리하기 위해 사용한다. MyBatis 등을 사용할 경우 connection pool까지 제공되어 DAO
+
+### Data Transfer Object (DTO) | [Blog (KR)](https://m.blog.naver.com/cjhol2107/221757079506)
 
 A DTO encapsulates values to carry data between processes or networks. This helps in reducing the number of methods called. By including multiple parameters or values in a single call, we reduce the network overhead in remote operations. One more advantage of this pattern is the encapsulation of the serialization's logic. It lets the program store and transfer data in a specific format. A DTO does not have any explicity behavior. It basically helps in making the code loosely coupled by decoupling the domain models from the presentation layer.
 
@@ -59,3 +81,8 @@ VO is a special type of object that can hold values such as java.lang.Integer an
 - JDK Wiki, https://en.wikipedia.org/wiki/Java_Development_Kit, 2020-09-22-Tue.
 - JVM Wiki, https://en.wikipedia.org/wiki/Java_virtual_machine, 2020-09-22-Tue.
 - Java Objects, https://www.baeldung.com/java-pojo-javabeans-dto-vo, 2023-10-31-Tue.
+- Spring, https://spring.io/, 2023-11-01-Wed.
+- Spring Boot, https://spring.io/projects/spring-boot, 2023-11-01-Wed.
+- Spring Framework, https://spring.io/projects/spring-boot, 2023-11-01-Wed.
+- DAO DTO VO Blog KR, https://m.blog.naver.com/cjhol2107/221757079506, 2023-11-01-Wed.
+- MyBatis, https://mybatis.org/mybatis-3/, 2023-11-01-Wed.
