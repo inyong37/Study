@@ -91,3 +91,6 @@ tar is a computer software utility for collecting many files into one archive fi
 - /etc/shadow StackExchange, https://unix.stackexchange.com/questions/549464/etc-shadow-permissions-security-best-practice-000-vs-600-vs-640, 2023-11-03-Fri.
 - shadow Linux Manual Page, https://man7.org/linux/man-pages/man5/shadow.5.html, 2023-11-02-Fri.
 - hosts IBM, https://www.ibm.com/docs/en/aix/7.2?topic=formats-hosts-file-format-tcpip, 2023-11-02-Fri.
+- syslog vs rsyslog, https://serverfault.com/questions/692309/what-is-the-difference-between-syslog-rsyslog-and-syslog-ng, 2023-11-02-Fri.
+- rsyslog, https://www.linkedin.com/pulse/how-install-set-up-rsyslog-server-linux-ubuntu-20041-akshay-sharma/, 2023-11-02-Fri.
+- passwd vs shadow, https://unix.stackexchange.com/questions/461022/what-is-the-difference-between-etc-shadow-and-etc-passwd, 2023-11-02-Fri.
