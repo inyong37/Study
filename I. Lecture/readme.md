@@ -14,7 +14,8 @@
 [Blog](http://hunkim.github.io/ml/)
 
 * 정리 | 라온피플 머신러닝 아카데미
-[Blog](https://blog.naver.com/laonple/220463627091)
+  * [Blog](https://blog.naver.com/laonple/220463627091)
+  * [Blog](https://m.blog.naver.com/laonple/221084262447)
 
 * Coursera
   * [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) | [GitHub](https://github.com/https-deeplearning-ai/tensorflow-1-public) | [GitHub](https://github.com/lmoroney/dlaicourse) 
