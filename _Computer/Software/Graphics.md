@@ -90,16 +90,16 @@ EdgeHTML은 Microsoft에서 만들고 옛날 Edge에서 사용함.
 - OpenGL Wiki, https://en.wikipedia.org/wiki/OpenGL, 2023-05-12-Fri.
 - OpenGL ES, https://www.khronos.org/opengles/, 203-05-12-Fri.
 - OpenGL ES Wiki, https://en.wikipedia.org/wiki/OpenGL_ES, 2023-05-12-Fri.
-- GTK란 무엇인가?, https://www.kernelpanic.kr/25, 2023-05-11-Thu.
-- QT란 무엇인가?, https://gamestory2.tistory.com/12, 2023-05-11-Thu.
-- Wayland란?, https://www.kernelpanic.kr/5, 2023-05-11-Thu.
+- GTK KR, https://www.kernelpanic.kr/25, 2023-05-11-Thu.
+- QT Blog KR, https://gamestory2.tistory.com/12, 2023-05-11-Thu.
+- Wayland KR, https://www.kernelpanic.kr/5, 2023-05-11-Thu.
 - Tizen Architecture, https://docs.tizen.org/platform/porting/overview/, 2023-05-11-Thu.
 - webOS Graphics and Input, https://www.webosose.org/docs/guides/core-topics/graphics-input/graphics-input-overview/, 2023-05-11-Thu.
 - Android Graphics, https://source.android.com/docs/core/graphics, 2023-05-11-Thu.
 - Surface and SurfaceHolder, https://source.android.com/docs/core/graphics/arch-sh, 2023-05-11-Thu.
 - EGLSurfaces and OpenGL ES, https://source.android.com/docs/core/graphics/arch-egl-opengl, 2023-05-11-Thu.
 - Vulkan, https://source.android.com/docs/core/graphics/arch-vulkan, 2023-05-11-Thu.
-- 리눅스 그래픽 시스템과 Wayland/Weston, https://prographics.tistory.com/2, 2023-05-12-Fri.
+- Wayland/Weston, https://prographics.tistory.com/2, 2023-05-12-Fri.
 - Blink (Redering Engine) The Chromium Projects, https://www.chromium.org/blink/, 2023-05-12-Fri.
 - Comparison of browser engines Wiki, https://en.wikipedia.org/wiki/Comparison_of_browser_engines, 2023-05-12-Fri.
 - Browser Engine Wiki, https://en.wikipedia.org/wiki/Browser_engine, 2023-05-12-Fri.
