@@ -139,11 +139,17 @@ service --status-all runs all init scripts, in alphabetical order, with the stat
 
 A Debian package is a collection of files that allow for applications or libraries to be distributed via the package management system. The aim of packaging is to allow the automation of installing, upgrading, configuring, and removing computer programs for Debian in a consistent manner. A package consists of one source package, and one or more binary packages. The Debian Policy specifies the standard format for a package, which all packages must follow.
 
+deb 파일은 설치되어야 하는 파일과 그 위치가 지정된 채로 압축되어 있는 형태. 패키지 설치란 압축 해제된 결과를 리눅스 루트 디렉토리에 이동.
+
 [Binary packages (.deb)](https://wiki.debian.org/Packaging/BinaryPackage) contain executables, standard configuration files, other resources required for executables to run, documentation, data, ...
 
 [Source packages (.dsc)](https://wiki.debian.org/Packaging/SourcePackage) contain the upstream source distribution, configuration for the package build system, list of runtime dependencies and conflicting packages, a machine-readable description of copyright and license information, initial configuration for the software, and more.
 
 ### [Debian Python](https://wiki.debian.org/Python/LibraryStyleGuide) | [Debian Python Policy](https://www.debian.org/doc/packaging-manuals/python-policy/)
+
+Debian 11 (bullseye) removed unversioned packages. Debian 11은 `python` command를 사용하면 Python 2를 지정하지만, 12부터는 처음에 설치되지 않음. Unversioned python command를 build dependencies, dependencies, recommendations, suggestions에 포함하면 안됨.
+
+“control 파일의 Depends의 “python3-simplejson”을 설치할 때 pip/conda install simplejson이랑 apt install python3-simplejson 같음.
 
 ### [Backports](https://backports.wiki.kernel.org/index.php/Main_Page)
 
@@ -674,18 +680,21 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - OSTree, https://ostreedev.github.io/ostree/introduction/, 2023-03-24-Fri.
 - libostree GitHub, https://github.com/ostreedev/ostree, 2023-03-24-Fri.
 - Backports, https://backports.wiki.kernel.org/index.php/Main_Page, 2023-03-30-Thu.
+- Init KR, https://www.kernelpanic.kr/5, 2023-05-11-Thu.
 - Linux man pages online, https://man7.org/linux/man-pages/index.html, 2023-10-11-Wed.
 - The Linux man-pages project, https://www.kernel.org/doc/man-pages/, 2023-10-11-Wed.
 - daemon, https://man7.org/linux/man-pages/man7/daemon.7.html, 2023-10-11-Wed.
 - man, https://man7.org/, 2023-10-11-Wed.
 - Debian Packaging, https://wiki.debian.org/Packaging, 2023-10-12-Thu.
-- Debian Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide?action=show&redirect=Python%2FPackaging, 2023-10-12-Thu.
+- Debian Python Library Style Guide, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
 - Debian Style Guide for Packaging Python Libraries, https://wiki.debian.org/Python/LibraryStyleGuide, 2023-10-12-Thu.
 - Debian Python Policy, https://www.debian.org/doc/packaging-manuals/python-policy/, 2023-10-12-Thu.
 - Debian Packaging Introduction, https://wiki.debian.org/Packaging/Intro, 2023-10-12-Thu.
-- Debian Binary Package, https://wiki.debian.org/Packaging/BinaryPackage, 2023-10-12-Thu.
-- Debian Source Package, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
+- Debian Binary Package DEB, https://wiki.debian.org/Packaging/BinaryPackage, 2023-10-12-Thu.
+- Debian Source Package DSC, https://wiki.debian.org/Packaging/SourcePackage, 2023-10-12-Thu.
 - Debian Packaging Learn, https://wiki.debian.org/Packaging/Learn, 2023-10-12-Thu.
 - apt vs. dpkg, https://www.linuxfordevices.com/tutorials/debian/apt-vs-dpkg-debian, 2023-10-13-Fri.
+- DEB Architecture, https://w.cublr.com/linux/ubuntu/deb-architecture/, 2023-10-13-Fri.
+- Python Debian, https://stackoverflow.com/questions/1382569/how-do-i-do-debian-packaging-of-a-python-package, 2023-10-16-Mon.
+- Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-17-Tue.
 - Required Files Under the Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-19-Thu.
-- Init KR, https://www.kernelpanic.kr/5, 2023-05-11-Thu.
