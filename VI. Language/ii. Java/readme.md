@@ -1,7 +1,13 @@
-# Java
+# [Java](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-java-programming-language)
+
 ```
 This page is from the "Language" page.
 ```
+
+Java is a multiplatform, object-oriented programming language that runs on billions of devices worldwide. It powers applications, smartphone operating systems, enterprise software, and many well-known programs. Despite having been invented over 20 years ago, Java is currently the most popular programming language for app developers. 
+
+Java was invented by James Gosling in 1995 while he was working at Sun Microsystems. Though it quickly gained popularity after its release, Java didn't start out as the powerhouse programming language it is today.
+
 ## :computer: Eclipse | [Homepage](https://www.eclipse.org/)
 - Key
   - `Control` `l`: go to # line
@@ -90,3 +96,5 @@ VO는 immutable하다.
 - Spring Framework, https://spring.io/projects/spring-boot, 2023-11-01-Wed.
 - DAO DTO VO Blog KR, https://m.blog.naver.com/cjhol2107/221757079506, 2023-11-01-Wed.
 - MyBatis, https://mybatis.org/mybatis-3/, 2023-11-01-Wed.
+- Java Microsoft, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-java-programming-language, 2023-11-09-Thu.
+
