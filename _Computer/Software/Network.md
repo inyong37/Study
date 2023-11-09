@@ -1,8 +1,8 @@
-# _Network_
+# :phone: Network
 
 `Language and Framework of Web moved to "Web" folder.`
 
-# _Internet_ | [WiKi](https://en.wikipedia.org/wiki/Internet)
+## [Internet](https://en.wikipedia.org/wiki/Internet)
 
 The Internet (or internet) is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that consists of private, public, academic, business, and government networks of local to global scope, linked by a broad array of electronic, wireless, and optical networking technologies. The Internet carries a vast range of information resources and services, such as the inter-linked hypertext documents and applications of the World Wide Web (WWW), electronic mail, telephony, and file sharing.
 
@@ -12,11 +12,11 @@ Most traditional communication media, including telephony, radio, television, pa
 
 The Internet has no single centralized governance in either technological implementation or policies for access and usage; each constituent network sets its own policies. The overreaching definitions of the two principal name spaces in the Interent, the Internet Protocol address (IP address) space and the Domain Name System (DNS), are directed by a maintainer organization, the Internet Corporation for Assigned Names and Numbers (ICANN). The technical underpinning and standardization of the core protocols is an activity of the Internet Engineering Task Force (IETF), a non-profit organization of loosely affiliated international participants that anyone may associate with by contributing technical expertise. In November 2006, the Internet was included on USA Today's list of New Seven Wonders.
 
-### *Virtual Private Network (VPN)*
+### Virtual Private Network (VPN)
 
 VPN(가상사설망)은 네트워크를 통해 그룹이 내부적으로 통신할 목적으로 사용하는 사설 통신망이다.
 
-## *Proxy* | [Blog (KR)](https://brownbears.tistory.com/191)
+## Proxy | [Blog (KR)](https://brownbears.tistory.com/191)
 
 프록시란 대리라는 의미로, 주로 보안상의 이유로 직접 통신할 수 없는 두 점 사이에서 통신을 할 경우 그 사이에 있어서 중계기로서 대리로 통신을 수행하는 기능을 가리켜 프록시, 그 중계 기능을 하는 것을 프록시 서버라 한다.
 
@@ -38,25 +38,25 @@ Both words can be used interchangeably in general.
 
 ---
 
-## _Protocol_ | [Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/)
+### Protocol | [Cloudflare](https://www.cloudflare.com/learning/network-layer/what-is-a-protocol/)
 
 In networking, a protocol is a set of rules for formatting and processing data. Network protocols are like a common language for computers. The computers within a network may use vastly different software and hardware; however, the use of protocols enables them to communicate with each other regardless.
 
-### _Internet Protocol (IP)_ | [Cloudflare](https://www.cloudflare.com/learning/network-layer/internet-protocol/)
+### Internet Protocol (IP) | [Cloudflare](https://www.cloudflare.com/learning/network-layer/internet-protocol/)
 
 The Internet Protocol (IP) is a protocol, or set of rules, for routing and addressing packets of data so that they can travel across networks and arrive at the correct destination. Data traversing the Internet is divided into smaller pieces, called packets. IP information is attached to each packet, and this information helps routers to send packets to the right places. Every device or domain that connects to the Internet is assigned an IP address, and as packets are directed to the IP address attached to them, data arrives where it is needed.
 
 Once the packets arrive at their destination, they are handled differently depending on which transport protocol is used in combination with IP. The most common transport protocols are TCP and UDP.
 
-### _IPv4 vs. IPv6_
+### IPv4 vs. IPv6
 
 The fourth version of IP (IPv4 for short) was introduced in 1983. However, just as there are only so many possible permutations for automoblie license plate numbers and they have to be reformatted periodically, the supply of available IPv4 addresses has become depleted. IPv6 addresses have many more characters and thus more permutations; however, IPv6 is not yet completely adopted, and most domains and devices still have IPv4 addresses.
 
-### _TCP_ | _TCP/IP_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
+### TCP | TCP/IP | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
 
 The IP is the address system of the Internet and has the core function of delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made, and it established the basis of the Internet. IP does not handle packet ordering or error checking. Such functionality requires another protocol, typically TCP.
 
-### _TCP 3-Way Handshake_ | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
+### TCP 3-Way Handshake | [Guru99](https://www.guru99.com/tcp-3-way-handshake.html)
 
 TCP 3-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
 
@@ -73,7 +73,7 @@ FIN: Used to terminate a connection.
 3. The client acknowledges the response of the Server (3) ACK
 4. TCP automatically terminates the connection between two separate endpoints
 
-### _TCP/IP Socket Connection_ | [IBM](https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm)
+### TCP/IP Socket Connection | [IBM](https://www.ibm.com/docs/en/zvse/6.2?topic=SSB27H_6.2.0/fa2ti_what_is_socket_connection.htm)
 
 A socket programming interface provides the routines required for interprocess communication between applications, either on the local system or spread in a distributed, TCP/IP based network environment. Once a peer-to-peer connection is established, a socket descriptor is used to uniquely identify the connection. The socket descriptor itself is a task specific numerical value.
 
@@ -81,15 +81,15 @@ One end of a peer-to-peer connection of a TCP/IP based distributed network appli
 
 Besides TCP/IP based sockets, UNIX systems provide socket interfaces for interprocess communiction (IPC) within the local UNIX host itself. Those UNIX sockets use the local file system for interprocess communication.
 
-### _User Datagram Protocol (UDP)_ | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
+### User Datagram Protocol (UDP) | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/)
 
 The User Datagram Protocol, or UDP, is a communication protocol used across the Internet for especially time-sensitive transmissions such as video playback or DNS lookups. It speeds up communications by not formally establishing a connection before data is transferred. This allows data to be transferred very quickly, but it can also cause packets to become lost in transit - and create opportunities for exploitation in the form of DDoS attacks.
 
-### _Round Trip Time (RTT)_ | [Blog (KR)](https://melonicedlatte.com/2020/12/21/215100.html)
+### Round Trip Time (RTT) | [Blog (KR)](https://melonicedlatte.com/2020/12/21/215100.html)
 
 RTT는 패킷망(인터넷)에서 패킷을 보내고자 하는 측에서 패킷을 목적지에 보낼 때, 패킷이 목적지에 도달하고 나서 해당 패킷에 대한 응답이 출발지로 다시 돌아오기까지의 시간, 패킷 왕복 시간이다. RTT는 네트워크 성능을 측정할 때 네트워크 연결의 속도와 안정성을 진단할 때 사용된다.
 
-### *Hypertext Transfer Protocol (HTTP)* | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
+### Hypertext Transfer Protocol (HTTP) | [MDN](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/)
 
 Hypertext Transfer Protocol (HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, buit it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests.
 
@@ -105,11 +105,11 @@ HTTP is a stateless protocol, which means that each command runs independent of 
 Default Port | [Blog (KR)](https://johngrib.github.io/wiki/why-http-80-https-443/):
 - 80
 
-### *Hypertext Transfer Protocol Secure (HTTPS)* | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-https/)
+### Hypertext Transfer Protocol Secure (HTTPS) | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-https/)
 
 Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particuluarly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider.
 
-### _Secure Sockets Layer (SSL)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
+### Secure Sockets Layer (SSL) | [Cloudflare](https://www.cloudflare.com/learning/ssl/what-is-ssl/)
 
 SSL, or Secure Sockets Layer, is an encryption-based Internet security protocol. It was first developed by Netscape in 1995 for the purpose of ensuring privacy, authentication, and data integrity in Internet communications. SSL is the predecessor to the modern TLS encryption used today.
 
@@ -118,7 +118,7 @@ A website that implements SSL/TLS has "HTTPS" in its URL instead of "HTTP".
 Default Port | [Blog (KR)](https://johngrib.github.io/wiki/why-http-80-https-443/):
 - 443
 
-### _Transport Layer Security (TLS)_ | [Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
+### Transport Layer Security (TLS) | [Cloudflare](https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/)
 
 Transport Layer Security, or TLS, is a widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet. A primary use case of TLS is encrypting the communication between web applications and servers, such as web browsers loading a website. TLS can also be used to encrypt other communications such as email, messaging, and voice over IP (VoIP).
 
@@ -148,7 +148,7 @@ Remote Frame Buffer (RFB) is an open simple protocol for remote access to graphi
 
 Secure Copy Protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts. It is based on the Secure Shell (SSH) protocol. SCP commonly refers to both Secure Copy Protocol and the program itself.
 
-## *Domain Name System (DNS)* | [WiKi](https://en.wikipedia.org/wiki/Domain_Name_System) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
+## Domain Name System (DNS) | [WiKi](https://en.wikipedia.org/wiki/Domain_Name_System) | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C)
 
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities. Most prominently, it translates more readily memorized domain names to the numerical IP addresses needed for locating and identifying computer services and devices with the underlying network protocols. By providing a worldwide, distributed directory service, the Domain Name System has been an essential component of the functionality of the Internet since 1985.
 
@@ -160,13 +160,13 @@ The Internet maintains two principal namespaces, the domain name hierarchy and t
 
 The most common types of records stored in the DNS database are for Start of Authority (SOA), IP addresses (A and AAAA), SMTP mail exchangers (MX), name servers (NS), pointers for reverse DNS lookups (PTR), and domain name aliases (CNAME). Although not intended to be a general purpose database, DNS has been expanded over time to store records for other types of data for either automatic lookups, such as DNSSEC records, or for human queries such as responsible person (RP) records. As a general purpose database, the DNS has also been used in combating unsolicited email (spam) by storing a real-time blackhole list (RBL). The DNS database is traditionally stored in a structured text file, the zone file, but other database systems are common.
 
-### *Dynamic DNS (DDNS)* | [WiKi](https://en.wikipedia.org/wiki/Dynamic_DNS) | [WiKi (KR)](https://ko.wikipedia.org/wiki/DDNS)
+### Dynamic DNS (DDNS) | [WiKi](https://en.wikipedia.org/wiki/Dynamic_DNS) | [WiKi (KR)](https://ko.wikipedia.org/wiki/DDNS)
 
 Dynamic DNS (DDNS) is a method of automatically updating a name server in the Domain Name System (DNS), often in real time, with the active DDNS configuration of its configured hostnames, addresses or other information.
 
 The term is used to describe two different concepts. The first is "dynamic DNS updating" which refers to systems that are used to update traditional DNS records without manual editing. These mechanisms are explained in RFC 2136, and use the TSIG mechanism to provide security. The second kind of dynamic DNS permits lightweight and immediate updates often using an update client, which do not use the RFC2136 standard for updating DNS records. These clients provide a persistent addressing method for devices that change their location, configuration or IP address frequently.
 
-### *Multicast* | [Blog (KR)](https://softtone-someday.tistory.com/14)
+### Multicast | [Blog (KR)](https://softtone-someday.tistory.com/14)
 
 멀티캐스트는 같은 데이터를 특정 그룹에게 보내주어야 할 때 사용하는 인터넷 protocol이다. 멀티캐스트는 송신자는 한 채널에 자신의 데이터를 보내고 수신자는 그 데이터 중 자신이 조인한 채널만 수신한다. 1:N 통신 기술이다. 멀티캐스트는 상대방이 데이터를 제대로 받았는지 확인하지 않는 UDP(User Datagram Protocol) 방식을 사용한다. 멀티캐스트 주소는 224.0.0.0 ~ 239.255.255.255 범위를 갖고, 이 대역은 멀티캐스트 신호만 보내도록 규정되어 있다.
 
@@ -176,7 +176,7 @@ The term is used to describe two different concepts. The first is "dynamic DNS u
 
 브로드캐스트는 멀티캐스트에서 그룹을 뺀 개념이다. 모두에게 신호를 보내고, 모두가 모든 신호를 듣는다. 연결된 장치들 모두가 듣기 때문에 구현이 용이하지만, 원하지 않는 대상도 내 신호를 들을 수 있고 불필요한 트래픽이 발생한다.
 
-### *multicast Domain Name Service (mDNS)* | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
+### multicast Domain Name Service (mDNS) | [MOMOIOT (KR)](https://momoiot.co.kr/iot-tech/mdns/)
 
 mDNS는 UDP 멀티캐스트를 기반으로, 로컬 네트워크 상에 있는 어떤 호스트 또는 호스트의 IP를 찾기 위해 만들어진 protocol이다. mDNS를 지원하는 호스트는 확장 기능으로 자신이 제공할 수 있는 서비스를 알림으로써 LAN 상의 다른 호스트가 이를 discovery하여 활용할 수 있는 방안으로 제공하기도 한다.
 
@@ -190,7 +190,7 @@ SSDP는 notify HTTP method를 announce하여 멀티캐스트 그룹 멤버에서
 
 mDNS는 로컬 네트워크 영역에서 설정 없이(zero configuration) 호스트 이름을 찾기 위해 사용하는 서비스이다. Unicast Domain Name System (DNS)와 유사한 프로그래밍 인터페이스와 패킷 형식을 사용한다. 소형 네트워크 환경에서 별도의 네임 서버를 사용하지 않고 호스트를 찾을 수 있다. mDNS는 멀티캐스트 기술을 이용한다. mDNS client는 호스트 이름을 알아야 할 경우 IP 멀티캐스트 쿼리 메세지를 전송한다. 이때 자신의 호스트 이름과 IP 주소 등, 자신을 확인할 수 있는 정보들을 함께 전송한다. 멀티캐스트 채널에 있던 모든 호스트들은 이 정보를 수신해서 mDNS 캐쉬에 업데이트한다. 패킷 구조를 제외하면 SSDP와 작동 방식이 매우 유사하다.
 
-## *Dynamic Host Configuration Protocol (DHCP)* | [Blog (KR)](https://jwprogramming.tistory.com/35)
+## Dynamic Host Configuration Protocol (DHCP) | [Blog (KR)](https://jwprogramming.tistory.com/35)
 
 DHCP란 호스트의 IP 주소와 각종 TCP/IP protocol의 기본 설정을 client에게 자동적으로 제공해주는 protocol이다. DHCP에 대한 표준은 RFC 문서에 정의되어 있으며, DHCP는 네트워크에 사용되는 IP 주소를 DHCP server가 중앙집중식으로 관리하는 client/server 모델을 사용한다. DHCP 지원 client는 네트워크 부팅 과정에서 DHCP server에 IP 주소를 요청하고 이를 얻을 수 있다. 즉, 네트워크 안에 컴퓨터에 자동으로 네임 서버 주소, IP 주소, 게이트웨이 주소를 할당해주고, 해당 client에게 일정 기간 임대하는 동적 주소 할당 프로토콜이다.
 
@@ -198,25 +198,25 @@ PC의 수가 많거나 PC 자체 변동사항이 많은 경우 IP 설정이 자�
 
 DHCP를 통한 IP 주소 할당은 임대라는 개념을 가지고 있는데, 이는 DHCP server가 IP 주소를 영구적으로 단말에 할당하는 것이 아니고 임대기간(IP Lease Time)을 명시하여 그 기간 동안만 단말이 IP 주소를 사용하도록 하는 것이다. 단말은 임대기간 이우헤도 계속 해당 IP 주소를 사용하고자 한다면 IP 주소 임대기간 연장(IP Address Renewal)을 DHCP server에 요청해야 하고 또한 단말은 임대 받은 IP 주소가 더 이상 필요치 않게 되면 IP 주소 반납 절차(IP Address Release)를 수행하게 된다. DHCP server와 client 사이에 메세지는 1. DHCP Discover (by client), 2. DHCP Offer (by server), 3. DHCP Request (by client), 4. DHCP Ack (by server)로 이루어진다.
 
-### *Simple Service Discovery Protocol (SSDP)* | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853) | [Home Assistant Integration](https://www.home-assistant.io/integrations/ssdp/)
+### Simple Service Discovery Protocol (SSDP) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853) | [Home Assistant Integration](https://www.home-assistant.io/integrations/ssdp/)
 
 SSDP는 네트워크 서비스나 정보를 찾기 위해서 사용하는 네트워크 protocol이며, 이를 이용하면 DHCP나 DNS와 같은 네트워크 서버 혹은 정적인 host 설정 없이 이런 일들을 수행할 수 있다. 일반 거주와 소규모 사무 환경에서 UPnP(Universal Plug and Play)를 위한 기본적인 protocol로 널리 사용된다(SSDP는 UPnP 표준에 포함된다). HTTPU(UDP 기반의 HTTP)를 이용하며, 모든 데이터는 TEXT로 통신한다. UDP 1900 port를 사용하며 IP Multicast 주소를 이용한다. SSDP는 Advertisement, Search 두 개의 타입이 있다.
 
-### _Universal Plug and Play (UPnP)_ | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853)
+### Universal Plug and Play (UPnP) | [Blog (KR)](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=koromoon&logNo=220201986853)
 
 홈 네트워크에 있는 네트워크 장치들이 서로 연동될 수 있도록 하는 범용 표준 protocol로 특정 운영체제나 프로그래밍 언어, 미디어와는 독립적으로 네트워크 상의 다바이스 간에 명령과 제어를 가능하게 한다. 사용자가 직접 네트워크 설정, 유지 관리를 하지 않고도 쉽게 디바이스와 서비스 연결을 제공한다. IP, TCP, UDP, HTTP, XML과 같은 기존의 protocol을 사용한다. Wire protocol에 기반을 두고 있으며, 디바이스 간의 교환하는 데이터는 XML로 표현되고 HTTP를 통해서 통신한다. IP 네트워킹을 채택한 이유는 다른 물리적 미디어로 확장이 용이하며 실제 여러 vendor 간의 상호 운용성을 가능케한다. UPnP를 통한 디바이스 간의 통신은 discovery, control, description, presentation, eventing 단계로 나누어지며, SSDP를 이용한 통신은 discovery 단계에서 이용된다.
 
 ---
 
-### *Anonymous Pipe* | [WiKi](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR)](https://12bme.tistory.com/226)
+### Anonymous Pipe | [WiKi](https://en.wikipedia.org/wiki/Anonymous_pipe) | [Blog (KR)](https://12bme.tistory.com/226)
 
 An anonymous pipe is a simple FIFO communication chaneel that may be used for one-way IPC(InterProcess Communication). AN implementation is often integrated into the operating system's file IO subsystem. Typically a parent program opens anonymous pipes, and creates a new porcess that inherits the other ends of the pipes, or creates several new processes and arranges them in a pipeline. Ful-duplex(two-way) communication normally requires two anonymous pipes. Pipelines are supported in most popular operating systems, from Unix and DOS onwards, and are created using the "|" character in many shells.
 
-### *Named Pipe* | [WiKi](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR)](https://mug896.github.io/bash-shell/named_pipe.html)
+### Named Pipe | [WiKi](https://en.wikipedia.org/wiki/Named_pipe) | [Blog (KR)](https://mug896.github.io/bash-shell/named_pipe.html)
 
 A named pips(also known as a FIFO for its behavior) is an extension to the traditional pipe concept on Unix and Unix-like systems, and is one of the methods of IPC. The concepth is also found in OS/2 and Microsoft Windows, althought the semantics differ substantially. A tranditional pipe is unnamed and lasts only as long as the process. A named pipe, however, can last as long as the system is up, beyond the life of the process. It can be deleted if no longer used, Usually a named pipe appears as a file, and generally processes attach to it for IPC.
 
-### *File Descriptor* | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
+### File Descriptor | [WiKi (KR)](https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%BC_%EC%84%9C%EC%88%A0%EC%9E%90)
 
 File descriptor(파일 서술자/기술자)는 특정한 파일에 접근하기 위한 추상적인 키이다. 이 용어는 일반적으로 POSIX 운영 체제에 쓰인다. Microsoft Windows와 C 표준 입출력 라이브러리 환경에서는 file handle(파일 핸들)이라는 말이 선호되지만 후자의 경우 기술적으로 다른 객체이다. POSIX에서 fd는 정수, 곧 C형 int를 말한다. 모든 프로세스가 갖추어야 하는 표준 POSIX fd는 다음과 같이 3개가 있다. 1. 정숫값 0인 경우 stdin(표준 입력), 2. 정숫값이 1인 경우 stdout(표준 출력), 3. 정숫값이 2인 경우 stderr(표준 오류)이다.
 
@@ -234,7 +234,7 @@ Edge computing은 cloud에서 모든 연산을 처리하는 것이 아닌, mobil
 
 ---
 
-### *WebSocket* | [Blog (KR)](https://duckdevelope.tistory.com/19)
+### WebSocket | [Blog (KR)](https://duckdevelope.tistory.com/19)
 
 Transport protocol의 일종으로 웹 버전의 TCP 또는 Socket이다. WebSocket은 server와 client 간에 socket connection을 유지해서 언제든 양방향 통신 또는 데이터 전송이 가능하도록 하는 기술이다. Real-time web application 구현을 위해 널리 사용된다(Social Network applications, multiplayer games, Google Docs, video call, stock exchange).
 
@@ -254,7 +254,7 @@ HTTP는 단방향 통신이다. 서버로 request를 보내면 서버는 클라�
 
 웹소켓은 TCP 연결처럼 handshake를 이용해 연결을 맺는다. 이 때 HTTP 업그레이드 헤더를 사용해 HTTP 프로토콜에서 웹소켓 프로토콜로 변경한다(최초 접속 시에는 HTTP 프로토콜을 이용해 handshaking). 웹소켓은 HTTP와 다르게 상태(stateful) 프로토콜이다. TCP connection 비용을 아낄 수 있다.
 
-### _[MQTT (Message Queuing Telemetry Transport)](https://mqtt.org/)_ | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
+### [MQTT (Message Queuing Telemetry Transport)](https://mqtt.org/) | [Blog (KR)](https://medium.com/@jspark141515/mqtt%EB%9E%80-314472c246ee) | [Home Assistant Integration](https://www.home-assistant.io/integrations/mqtt/)
 
 MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. MQTT today is used in a wide variety of industries, such as automotive, manufacturing, telecommunications, oil and gas, etc.
 
@@ -268,7 +268,7 @@ Broker의 종류는 Mosquitto, HiveMQ, mosca, ActiveMQ, RabbitMQ 등이 있다. 
 
 ---
 
-# *The Web* | [WiKi](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
+# The Web | [WiKi](https://en.wikipedia.org/wiki/World_Wide_Web) | [Tutorial](https://opentutorials.org/course/3083)
 
 The World Wide Web (WWW), commonly known as The Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browswer, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon which technologies the Web is built.
 
@@ -278,7 +278,7 @@ Web resources may be any type of downloaded media, but web pages are hypertext d
 
 Multiple web resources with a common theme and usually a common domain name, make up a website. Websties are sotred in computers that are running a web server, which is a program that responds to requests made over the Internet from web browsers running on a user's coimputer. Website content can be provided by a publisher, or interactively from user-generated content. Websites are provided for a myraid of informative, entertainment, commercial, and governmental reasons.
 
-### *Web Browser* | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
+### Web Browser | [Wiki](https://en.wikipedia.org/wiki/Web_browser)
 
 A web browswer (commonly referred to as a browser) is application software for accessing the World Wide Web. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.
 
@@ -286,7 +286,7 @@ A web browser is not the same thing as a search engine, though the two are often
 
 Web browsers are used on a range of devices, including desktops, laptops, and smartphones. In 2020, an estimated 4.9 billion people used a browser. The most used browser is Google Chrome, with a 64% global market share on all devices, followed by Safari with 19%.
 
-### *Web Site* | [Wiki](https://en.wikipedia.org/wiki/Website) | [Home of the first website](http://info.cern.ch/)
+### Web Site | [Wiki](https://en.wikipedia.org/wiki/Website) | [Home of the first website](http://info.cern.ch/)
 
 A webste (also written as web site) is a collection of web pages and related content that is identified by a common domain name and published on at least on web server. Notable examples are wikipedia.org, google.com, and amazon.com.
 
@@ -296,11 +296,11 @@ Websites are typically dedicated to a particular topic or purpose, such as news,
 
 Users can access websites on a range of devices, including desktops, laptops, tablets, and smartphones. The app used on these devices is called a web browser.
 
-### _Web Page_ | [WiKi](https://en.wikipedia.org/wiki/Web_page)
+### Web Page | [WiKi](https://en.wikipedia.org/wiki/Web_page)
 
 A web page(or webpage) is a hypertext document provided by a website and displayed to a user in a web browser. A website typically consists of many web pages linked together in a coherent fashion. The name "web page" is a metaphor of paper pages bound together into a book.
 
-### _Web Server_ | [WiKi](https://en.wikipedia.org/wiki/Web_server)
+### Web Server | [WiKi](https://en.wikipedia.org/wiki/Web_server)
 
 A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS. A user agent, commonly a web browser or web crawler, initiates communication by making a request for a specific resource using HTTP, and the server responds with the content of that resource or an error message. The server can also accept and store resources sent from the user agent if configured to do so.
 
@@ -308,7 +308,7 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
-### *[NGINX](https://nginx.org/en/)*
+### [NGINX](https://nginx.org/en/)
 
 nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UCP proxy server, originally written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VK, and Rambler. According to Netcraft, nginx served or proxied 21.48% busiest sites in September 2022. Here are some of the success stories: Dropbox, Netflix, Wordpress.com, FastMail.FM.
 
@@ -332,9 +332,9 @@ NGINX Tuning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%
 
 [Nginx with Multiple Server](https://serverfault.com/questions/706694/use-nginx-as-reverse-proxy-for-multiple-servers)
 
-### _[Nginx vs. Apache (KR)](https://cornswrold.tistory.com/429)_
+### [Nginx vs. Apache (KR)](https://cornswrold.tistory.com/429)
 
-### *[nip.io](https://nip.io/)*
+### [nip.io](https://nip.io/)
 
 Dead simple wildcard DNS for any IP Address. Stop editing your `etc/hosts` file with custom hostname and IP address mappings. nip.io allows you to do that by mapping any IP Address to a hostname using the following formats:
 
@@ -374,14 +374,13 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 
 ---
 
-## *File System for Network*
+## File System for Network
 
 `This part has moved to the 'Hardware/Storage' page.`
 
 ---
 
 ### Reference
-
 - ego-motion vs odometry, https://answers.ros.org/question/296686/what-is-the-differences-between-ego-motion-and-odometry/, 2020-03-16-Mon.
 - http vs https, https://www.keycdn.com/blog/difference-between-http-and-https, 2020-03-16-Mon.
 - DNS Wiki, https://en.wikipedia.org/wiki/Domain_Name_System, 2020-10-06-Tue.
@@ -443,3 +442,4 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - Nginx Multiple Server StackExchange, https://serverfault.com/questions/706694/use-nginx-as-reverse-proxy-for-multiple-servers, 2023-03-22-Wed.
 - HTTP vs. Websocket Blog KR, https://dotherealthing.tistory.com/13, 2023-10-12-Thu.
 - HTTP vs. Websocket Blog KR, https://code-lab1.tistory.com/300, 2023-10-12-Thu.
+- IPC Blog KR, https://www.kernelpanic.kr/19, 2023-05-11-Thu.
