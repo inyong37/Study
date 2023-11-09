@@ -60,6 +60,10 @@ The Spring Framework provides a comprehensive programming and configuration mode
 
 MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
 
+### [Gradle](https://gradle.org/) | [Building Java Projects with Gradle](https://spring.io/guides/gs/gradle/)
+
+Gradle build tool is a fast, dependable, and adaptable open-source build automation tool with an elegant and extensible declarative build language. Gradle supports Android, Java, Kotlin Multiplatform, Groovy, Scala, Javascript, and C/C++.
+
 ---
 
 ### Plain Old Java Object (POJO)
@@ -102,4 +106,6 @@ VO는 immutable하다.
 - DAO DTO VO Blog KR, https://m.blog.naver.com/cjhol2107/221757079506, 2023-11-01-Wed.
 - MyBatis, https://mybatis.org/mybatis-3/, 2023-11-01-Wed.
 - Java Microsoft, https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-java-programming-language, 2023-11-09-Thu.
-
+- Gradle, https://gradle.org/, 2023-11-09-Thu.
+- Gradle, https://gradle.com/, 2023-11-09-Thu.
+- Spring Gradle, https://spring.io/guides/gs/gradle/, 2023-11-09-Thu.
