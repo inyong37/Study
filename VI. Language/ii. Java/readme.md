@@ -8,13 +8,13 @@ Java is a multiplatform, object-oriented programming language that runs on billi
 
 Java was invented by James Gosling in 1995 while he was working at Sun Microsystems. Though it quickly gained popularity after its release, Java didn't start out as the powerhouse programming language it is today.
 
-## :computer: Eclipse | [Homepage](https://www.eclipse.org/)
+## :computer: [Eclipse](https://www.eclipse.org/)
 - Key
   - `Control` `l`: go to # line
   - `Control` `f`: find 'word' in this code
   - `Control` `h`: search 'word' in a whole directory
 
-## :computer: IntelliJ | [Homepage](https://www.jetbrains.com/idea/)
+## :computer: [IntelliJ](https://www.jetbrains.com/idea/)
 
 ## JDK (Java Development Kit) | [Wiki](https://en.wikipedia.org/wiki/Java_Development_Kit)
 The Java Development Kit (JDK) is an implementation of either one of the Java Platform, Standard Edition, Java Platform, Enterprise Edition, or Java Platform, Micro Edition platforms released by Oracle Corporation in the form of a binary product aimed at Java developers on Solaris, Linux, macOS or Windows. The JDK includes a private JVM and a few other resources to finish the development of a Java application.[2] Since the introduction of the Java platform, it has been by far the most widely used Software Development Kit (SDK).
