@@ -122,6 +122,15 @@ All scripts should support at least the start and stop commands. As a special ca
 
 service --status-all runs all init scripts, in alphabetical order, with the status command. The status is [ + ] for runnung services, [ - ] for stopped services and [ ? ] for services without a status command. This option only calls status for sysvinit jobs.
 
+### init
+
+리눅스 커널이 부팅된 뒤 실행되는 첫번째 프로레스임. 커널이 직접 실행하는 유일한 프로세스임. 부모 프로세스를 가지지 않는 유일한 프로세스임. Init을 제외한 모든 프로세스의 조상임. 프로세스와 시스템의 초기화와 관리함. initrc에 기록된 백그라운드 서비스와 시스템 서비스를 실행함. GUI를 사용할 수 있게 디스플레이 매니저(GDM, LightDM)를 실행함. 시스템 서비스, 커널 등에서 발생하는 로그를 모아서 저널링함. 데몬 프로세스나 고아가 된 프로세스의 부모가 됨. 동작 과정은 1. 파일 시스템 초기화, 네트워크 등 시스템 서비스 실행, 백그라운드 서비스 실행, GUI 쉘 실행함(systemd 기준).
+
+* SysV: 가장 오래된 시스템임.
+* Upstart: 이벤트 기반 서비스 관리 및 Ubuntu에서 옛날에 사용함(현재는 systemd).
+* Runit: 부팅, shutdown 속도 빠름, 작은 코드 베이스, 포팅 용이, 임베디드에서 사용함.
+* Systemd: 서비스를 등록하여 실행, 이벤트 기반, 저널링, 알람 기능 제공, 시스템 관련 라이브러리(sdbus, sd-event) 제공, 가장 많이 사용, 기능이 많음.
+
 ---
 
 ## Package
@@ -679,3 +688,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Packaging Learn, https://wiki.debian.org/Packaging/Learn, 2023-10-12-Thu.
 - apt vs. dpkg, https://www.linuxfordevices.com/tutorials/debian/apt-vs-dpkg-debian, 2023-10-13-Fri.
 - Required Files Under the Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-19-Thu.
+- Init KR, https://www.kernelpanic.kr/5, 2023-05-11-Thu.
