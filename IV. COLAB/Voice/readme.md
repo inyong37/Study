@@ -10,3 +10,5 @@
 - Retrieval based Voice Conversion WebUI GitHub, https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI, 2023-11-13-Mon.
 - Use AI to Clone ANY Voice & Siny ANY Song for FREE RVC WebUI Tutorial Youtube, https://youtu.be/-JcvdDErkAU?si=9n6EUC3hGhSHVRVf, 2023-11-13-Mon.
 - RVC WebUI Colab, https://colab.research.google.com/github/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/blob/main/Retrieval_based_Voice_Conversion_WebUI.ipynb, 2023-11-13-Mon.
+- Real-Time Voice Cloning Demo Hugging Face, https://huggingface.co/spaces/akhaliq/Real-Time-Voice-Cloning, 2023-11-13-Mon.
+- Voice Cloning Demo Hugging Face, https://huggingface.co/spaces/BilalSardar/Voice-Cloning, 2023-11-13-Mon.
