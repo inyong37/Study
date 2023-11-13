@@ -74,6 +74,8 @@ DBeaver Community is a free cross-platform database tool for developers, databas
 
 Cloud Beaver USD1,000 per year, Enterprise Edition USD250 per year, and Team Edition USD1,600 per year.
 
+Connect: new connection>choose DB(e.g., MariaDB)>ID, PASSWORD, PORT3306
+
 ---
 
 ### Reference
