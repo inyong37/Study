@@ -68,7 +68,17 @@ The newest and most groundbreaking type of databse, self-driving databases (also
 
 ---
 
+### DBeaver [Community](https://dbeaver.io/) | [Pro](https://dbeaver.com/)
+
+DBeaver Community is a free cross-platform database tool for developers, database administrators, analysts, and everyone working with data. It supports all popular SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more.
+
+Cloud Beaver USD1,000 per year, Enterprise Edition USD250 per year, and Team Edition USD1,600 per year.
+
+---
+
 ### Reference
 - What Is a Database, https://www.oracle.com/database/what-is-database/, 2023-11-02-Thu.
 - What Is a Relational Database (RDBMS), https://www.oracle.com/database/what-is-a-relational-database/, 2023-11-02-Thu.
 - InfluxDB, https://www.influxdata.com/, 2023-11-02-Thu.
+- DBeaver Community, https://dbeaver.io/, 2023-11-13-Mon.
+- DBeaver Pro, https://dbeaver.com/, 2023-11-13-Mon.
