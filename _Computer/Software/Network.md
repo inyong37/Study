@@ -244,7 +244,7 @@ Web Socket은 stateful protocol이기 때문에 client와 한 번 연결이 되�
 
 HTTP 통신 방법과 WebSocket의 차이점은 protocol이다. WebSocket protocol은 접속 확립에 HTTP를 사용하지만, 그 후 통신은 WebSocket 독자의 protocol로 이루어진다. 또한 header가 상당히 작아 overhead가 적은 특성이 있다. 장시간 접속을 전제로 하기 때문에, 접속한 상태라면 client라 server로부터 data 송신이 가능하다. 더불어 데이터의 송신과 수신에 각각 connection을 맺을 필요가 없어 하나의 connection으로 데이터를 송수신할 수 있다.
 
-### [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api) | [Blog (KR)](https://devkingdom.tistory.com/105)
+### [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api) | [Blog (KR)](https://devkingdom.tistory.com/105) | [Blog (KR)](https://steemit.com/kr-dev/@igna84/spring-boot-responseentity) | [Blog (KR)](https://velog.io/@narnarr/Spring-boot-1-1-RESTful-API%EB%A5%BC-%EC%9C%84%ED%95%9C-HTTP-Method-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0#1)
 
 A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding.
 
@@ -468,3 +468,5 @@ Postman is an API platform for building and using APIs. Postman simplifies each 
 - Postman, https://www.postman.com/, 2023-11-14-Tue.
 - Test Server via Postman Blog KR, https://iamdaeyun.tistory.com/entry/Postman%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%ED%85%8C%EC%8A%A4%ED%8A%B8, 2023-11-14-Tue.
 - Web Server vs Application Server IBM, https://www.ibm.com/topics/web-server-application-server, 2023-11-14-Tue.
+- Spring Boot Rest Blog KR, https://steemit.com/kr-dev/@igna84/spring-boot-responseentity, 2023-11-14-Tue.
+- Rest Blog KR, https://velog.io/@narnarr/Spring-boot-1-1-RESTful-API%EB%A5%BC-%EC%9C%84%ED%95%9C-HTTP-Method-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0#1, 2023-11-14-Tue.
