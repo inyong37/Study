@@ -312,6 +312,16 @@ A server can be a single computer, or even an embedded system such as a router w
 
 Technologies such as REST and SOAP, which use HTTP as a basic for general computer-to-computer communication, have extended the application of web servers well beyond their original purpose of serving human-readable pages.
 
+### [Web server vs. application](https://www.ibm.com/topics/web-server-application-server)
+
+By strict definition, a web server is a common subset of an application server.
+
+A web server delivers static web content-e.g., HTML pages, files, images, video-primarily in response to hypertext transfer protocol (HTTP) requests from a web browser.
+
+An application server typically can deliver web content too, but its primary job is to enable interaction between end-user clients and server-side application code-the code representing what is often called business logic-to generate and deliver dynamic content, such as transaction results, decision support, or real-time analytics. The client for an application server can be the application's own end-user UI, a web browser, or a mobile app, and the client-server interaction can occur via any number of communication protocols.
+
+Open source web servers and application servers: Nginx, Apache HTTP Server, Apache Tomcat, and Glassfish.
+
 ### [NGINX](https://nginx.org/en/)
 
 nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UCP proxy server, originally written by Igor Sysoev. For a long time, it has been running on many heavily loaded Russian sites including Yandex, Mail.Ru, VK, and Rambler. According to Netcraft, nginx served or proxied 21.48% busiest sites in September 2022. Here are some of the success stories: Dropbox, Netflix, Wordpress.com, FastMail.FM.
@@ -328,7 +338,7 @@ SSL transactions per second (SSL TPS): Measures the ability of NGINX Plus to pro
 
 Throughput: Measures the volume in gigabits per second (Gbps) of traffic that NGINX Plus can sustain when serving large files over HTTP.
 
-NGINX Tuning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor)
+[Tune NGINX (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%81%EA%B3%A0%EC%84%B1%EB%8A%A5-Nginx%EB%A5%BC%EC%9C%84%ED%95%9C-%ED%8A%9C%EB%8B%9D4-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%B0%8F-CPU-%ED%8A%9C%EB%8B%9D%ED%95%98%EA%B8%B0-Processor)
 
 [HW Specification](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.nginx.com/wp-content/uploads/2019/11/Sizing-Guide-for-Deploying-NGINX-Plus-on-Bare-Metal-Servers-2019-11-09.pdf) | [HW Specification (KR)](https://nginxstore.com/docs/sizing-guide-for-deploying-nginx-plus/)
 
@@ -342,7 +352,7 @@ NGINX Tuning | [Blog (KR)](https://couplewith.tistory.com/entry/%EA%BF%80%ED%8C%
 
 Dead simple wildcard DNS for any IP Address. Stop editing your `etc/hosts` file with custom hostname and IP address mappings. nip.io allows you to do that by mapping any IP Address to a hostname using the following formats:
 
-```
+```Bash
 Without a name:
 
 10.0.0.1.nip.io maps to 10.0.0.1
@@ -375,6 +385,12 @@ hexadecimal notation: magic-7f000001.nip.io
 
 The "dash" and "hexadecimal" notation is especially useful when using services like LetsEncrypt as it's just a regular sub-domain of nip.io
 ```
+
+### [Postman](https://www.postman.com/)
+
+Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.
+
+[Test Server via Postman (Blog KR)](https://iamdaeyun.tistory.com/entry/Postman%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
 ---
 
@@ -449,3 +465,6 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - IPC Blog KR, https://www.kernelpanic.kr/19, 2023-05-11-Thu.
 - REST API Red Hat, https://www.redhat.com/en/topics/api/what-is-a-rest-api, 2023-11-14-Tue.
 - REST API Blog KR, https://devkingdom.tistory.com/105, 2023-11-14-Tue.
+- Postman, https://www.postman.com/, 2023-11-14-Tue.
+- Test Server via Postman Blog KR, https://iamdaeyun.tistory.com/entry/Postman%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%ED%85%8C%EC%8A%A4%ED%8A%B8, 2023-11-14-Tue.
+- Web Server vs Application Server IBM, https://www.ibm.com/topics/web-server-application-server, 2023-11-14-Tue.
