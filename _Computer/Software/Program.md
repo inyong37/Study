@@ -125,9 +125,11 @@ X Window System는 Unix, Linux 시스템에서 사용되며 selection을 통해 
 
 패치는 수정 또는 개선을 위해 컴퓨터 프로그램이나 지원 데이터를 업데이트하도록 설계된 일종의 소프트웨어이다. 즉, 일반적으로 이미 발표된 소프트웨어 제품에서 발견된 사소한 기능 개선 또는 버그나 오류 등을 수정하기 위해 개발자/회사가 내놓는 업데이트 프로그램을 지칭한다. 설치 프로그램과 비슷한 형식으로 기존에 설치된 프로그램을 자동으로 검색하여 필요한 내용을 바꿔주는 형태가 일반적이다. 보안 취약점 및 기타 버그의 수정을 포함하는데 이러한 패치는 버그픽스라고 하며 사용성과 성능을 개선한다.
 
-### Application Programming Interface (API) | [Wiki (KR)](https://ko.wikipedia.org/wiki/API)
+### [Application Programming Interface (API)](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces) | [Wiki (KR)](https://ko.wikipedia.org/wiki/API)
 
 API는 application에서 사용할 수 있도록 OS나 programming language가 제공하는 기능을 제어할 수 있도록 만든 interface를 뜻한다. 주로 파일 제어, 창 제어, 화상 처리, 문자 제어 등을 위한 interface를 제공한다.
+
+API stands for application programing interface, which is a set of definitions and protocols for building and integrating application software.
 
 ### Open Audio Library (OpenAL) | [Wiki (KR)](https://ko.wikipedia.org/wiki/OpenAL)
 
@@ -243,3 +245,4 @@ While liblzma has a zlib-like API, liblzma doesn't include any file I/O function
 - Unix Daemon Python Blog KR, https://oddpoet.net/blog/2013/09/24/python-daemon/, 2022-09-21-Wed.
 - Unix Daemon Python Blog KR, http://blog.cloudsys.co.kr/python-daemon-example-install/, 2022-09-21-Wed.
 - Windows Service Python Blog KR, https://bitcoder.tistory.com/116, 2022-09-21-Wed.
+- API Red Hat, https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces, 2023-11-14-Tue.
