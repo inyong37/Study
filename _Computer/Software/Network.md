@@ -244,6 +244,10 @@ Web Socket은 stateful protocol이기 때문에 client와 한 번 연결이 되�
 
 HTTP 통신 방법과 WebSocket의 차이점은 protocol이다. WebSocket protocol은 접속 확립에 HTTP를 사용하지만, 그 후 통신은 WebSocket 독자의 protocol로 이루어진다. 또한 header가 상당히 작아 overhead가 적은 특성이 있다. 장시간 접속을 전제로 하기 때문에, 접속한 상태라면 client라 server로부터 data 송신이 가능하다. 더불어 데이터의 송신과 수신에 각각 connection을 맺을 필요가 없어 하나의 connection으로 데이터를 송수신할 수 있다.
 
+### [REST API](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
+
+A REST API (also known as RESTful API) is an application programming interface (API or web API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services. REST stands for representational state transfer and was created by computer scientist Roy Fielding.
+
 ### REST vs. WebSocket | [Blog (KR)](https://yoonucho.github.io/review/2019/04/01/restVSwebsocket.html) | [Blog (KR)](https://dotherealthing.tistory.com/13) | [Blog (KR)](https://code-lab1.tistory.com/300)
 
 둘의 차이점은 Connection 유지 여부이다.
@@ -443,3 +447,4 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - HTTP vs. Websocket Blog KR, https://dotherealthing.tistory.com/13, 2023-10-12-Thu.
 - HTTP vs. Websocket Blog KR, https://code-lab1.tistory.com/300, 2023-10-12-Thu.
 - IPC Blog KR, https://www.kernelpanic.kr/19, 2023-05-11-Thu.
+- REST API Red Hat, https://www.redhat.com/en/topics/api/what-is-a-rest-api, 2023-11-14-Tue.
