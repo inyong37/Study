@@ -386,18 +386,6 @@ hexadecimal notation: magic-7f000001.nip.io
 The "dash" and "hexadecimal" notation is especially useful when using services like LetsEncrypt as it's just a regular sub-domain of nip.io
 ```
 
-### [Postman](https://www.postman.com/)
-
-Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs-faster.
-
-[Test Server via Postman (Blog KR)](https://iamdaeyun.tistory.com/entry/Postman%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%ED%85%8C%EC%8A%A4%ED%8A%B8)
-
-### [JMeter](https://jmeter.apache.org/)
-
-The Apache JMeter application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
-
-[Read data from a CSV file in JMeter with Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/how-to-read-csv-data?tabs=portal) | [Blog (KR)](https://blog.naver.com/asemansa/221681591957)
-
 ---
 
 ## File System for Network
@@ -471,12 +459,7 @@ The Apache JMeter application is open source software, a 100% pure Java applicat
 - IPC Blog KR, https://www.kernelpanic.kr/19, 2023-05-11-Thu.
 - REST API Red Hat, https://www.redhat.com/en/topics/api/what-is-a-rest-api, 2023-11-14-Tue.
 - REST API Blog KR, https://devkingdom.tistory.com/105, 2023-11-14-Tue.
-- Postman, https://www.postman.com/, 2023-11-14-Tue.
-- Test Server via Postman Blog KR, https://iamdaeyun.tistory.com/entry/Postman%EC%9C%BC%EB%A1%9C-%EC%84%9C%EB%B2%84-%EC%9A%94%EC%B2%AD-%ED%85%8C%EC%8A%A4%ED%8A%B8, 2023-11-14-Tue.
 - Web Server vs Application Server IBM, https://www.ibm.com/topics/web-server-application-server, 2023-11-14-Tue.
 - Spring Boot Rest Blog KR, https://steemit.com/kr-dev/@igna84/spring-boot-responseentity, 2023-11-14-Tue.
 - Rest Blog KR, https://velog.io/@narnarr/Spring-boot-1-1-RESTful-API%EB%A5%BC-%EC%9C%84%ED%95%9C-HTTP-Method-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0#1, 2023-11-14-Tue.
 - Rest Blog KR, https://velog.io/@banjjoknim/REST-API-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EA%B5%AC%ED%98%84, 2023-11-14-Tue.
-- JMeter Apache, https://jmeter.apache.org/, 2023-11-16-Thu.
-- Read data from a CSV file in JMeter with Azure Load Testing, https://learn.microsoft.com/en-us/azure/load-testing/how-to-read-csv-data?tabs=portal, 2023-11-16-Thu.
-- CSV JMeter Blog KR, https://blog.naver.com/asemansa/221681591957, 2023-11-16-Thu.
