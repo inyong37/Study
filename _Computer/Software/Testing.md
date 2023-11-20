@@ -199,7 +199,7 @@ Setup:
       * 쓰레드 수 = 가상 사용자 수
       * 쓰레드 수 100, ramp-up 10이면 1초에 10번씩 요청됨
       * 루프 카운트는 사용자들이 몇번 요청할지 정함. e.g., 쓰레드 100, 루프 카운트 10이면 100명이 10번씩 요청해서 총 1000번 요청됨. 무한이면 중단할 때까지 전송됨.
-  * Add>Sampler>HTTP Request
+  * Thread Group>Add>Sampler>HTTP Request
     * Basic>Web Server
       * Protocol (http): `https`
       * Server Name or IP: `https://{www.test.com}`
@@ -207,6 +207,7 @@ Setup:
     * Basic>HTTP Request
       * GET/POST/PUT/DELETE/PATCH...
       * Path: `/api/jobs/task0`
+  * Thread Group>Add>Listener>View Results Tree, Summary Report, Graph Results
 
 ---
 
