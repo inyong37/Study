@@ -177,6 +177,8 @@ This file contains information about the copyright and license of the upstream s
 
 This is a required file, which has a special format described in Debian Policy Manual, 4.4 "debian/changelog". This format is used by dpkg and other programs to obtain the version number, revision, distribution, and urgency of your package.
 
+### [dch] (debchange) - Tool for maintenance of the debian/changelog file in a source package (https://www.commandlinux.com/man-page/man1/dch.1.html)
+
 ### [Debian Package Management](https://wiki.debian.org/PackageManagement)
 
 Much of why Debian is a strong Linux distribution comes from its package management. Everything in Debian - every application, every component - everything - is built into a package.
@@ -698,3 +700,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Python Debian, https://stackoverflow.com/questions/1382569/how-do-i-do-debian-packaging-of-a-python-package, 2023-10-16-Mon.
 - Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-17-Tue.
 - Required Files Under the Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-19-Thu.
+- dch, https://www.commandlinux.com/man-page/man1/dch.1.html, 2023-11-30-Thu.
