@@ -17,7 +17,29 @@
 
 ## 1.3 DAO의 확장
 
-## 1.4 제어의 역전(IoC)
+## 1.4 제어의 역전(IoC, Inversion of Control)
+
+### 1.4.1 오브젝트 팩토리
+
+### 팩토리 Factory
+
+이 클래스의 역할은 객체의 생성 방법을 결정하고 그렇게 만들어진 오브젝트를 돌려줌. 디자인 패턴에서 말하는 특별한 문제를 해결하기 위해 사용되는 추상 팩토리 패턴이나 팩토리 메소드 패턴과는 다름.
+
+단지 오브젝트를 생성하는 쪽과 생성된 오브젝트를 사용하는 쪽의 역할과 책임을 깔끔하게 분리하려는 목적으로 사용함.
+
+어떻게 만들지와 어떻게 사용할지는 다름.
+
+```Java
+package springbook.user.dao;
+...
+public class DaoFactory {
+  public UserDao userDao() {
+    ConnectionMaker connectionMaker = new DConnectionMaker();
+    UserDao userDao = new UserDao(connectionMaker);
+    return userDao;
+  }
+}
+```
 
 ## 1.5 스프링의 IoC
 
