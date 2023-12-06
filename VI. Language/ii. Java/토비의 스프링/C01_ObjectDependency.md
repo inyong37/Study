@@ -203,7 +203,23 @@ public class UserDaoTest {
 * 애플리케이션 컨텍스트 = IoC 컨테이너 = 스프링 컨테이너 = 빈 팩토리
   * 애플리케이션 컨텍스트는 AppilicationContext 인터페이스를 구현하는데, ApplicationContext는 빈 팩토리가 구현하는 BeanFactory 인터페이스를 상속했으므로 애플리케이션은 일종의 빈 팩토리임
 
-* 
+* 클라이언트는 구체적인 팩토리 클래스를 알 필요가 없다.
+* 애플리케이션 컨텍스트는 종합 IoC 서비스를 제공해준다.
+* 애플리케이션 컨텍스트는 빈을 검색하는 다양한 방법을 제공한다.
+
+### 1.5.3 스프링 IoC의 용어 정리
+
+* 빈 (bean)
+
+* 빈 팩토리 (bean factory)
+
+* 애플리케이션 컨텍스트 (application context)
+
+* 설정정보/설정 메타정보 (configuration metadata)
+
+* 컨테이너 (container) 또는 IoC 컨테이너
+
+* 스프링 프레임워크
 
 ## 1.6 싱글톤 레지스트리와 오브젝트 스코프
 
