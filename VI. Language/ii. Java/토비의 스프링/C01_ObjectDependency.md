@@ -23,11 +23,10 @@
 
 ### 팩토리 Factory
 
-이 클래스의 역할은 객체의 생성 방법을 결정하고 그렇게 만들어진 오브젝트를 돌려줌. 디자인 패턴에서 말하는 특별한 문제를 해결하기 위해 사용되는 추상 팩토리 패턴이나 팩토리 메소드 패턴과는 다름.
-
-단지 오브젝트를 생성하는 쪽과 생성된 오브젝트를 사용하는 쪽의 역할과 책임을 깔끔하게 분리하려는 목적으로 사용함.
-
-어떻게 만들지와 어떻게 사용할지는 다름.
+* 이 클래스의 역할은 객체의 생성 방법을 결정하고 그렇게 만들어진 오브젝트를 돌려줌
+  * 디자인 패턴에서 말하는 특별한 문제를 해결하기 위해 사용되는 추상 팩토리 패턴이나 팩토리 메소드 패턴과는 다름
+* 단지 오브젝트를 생성하는 쪽과 생성된 오브젝트를 사용하는 쪽의 역할과 책임을 깔끔하게 분리하려는 목적으로 사용함
+* 어떻게 만들지와 어떻게 사용할지는 다름
 
 ```Java
 package springbook.user.dao;
@@ -40,6 +39,35 @@ public class DaoFactory {
   }
 }
 ```
+
+* DaoFactory의 userDao 메소드를 호출하면 DConnectionMaker를 사용해 DB 커넥션을 가져오도록 이미 설정된 UserDao 오브젝트를 돌려줌
+* UserDaoTest는 이제 UserDao가 어떻게 만들어지는지 어떻게 초기화되어 있는지에 신경 쓰지 않고 팩토리로부터 UserDao 오브젝트를 받아다가, 자신의 관심사인 테스트를 위해 활용하기만 하면 됨
+
+```Java
+public class UserDaoTest {
+  public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    UserDao dao = new DaoFactory().userDao();
+    ...
+  }
+}
+```
+
+리팩토링한 뒤에는 잊지 말고 테스트를 실행하자.
+
+### 설계도로서의 팩토리
+
+* UserDao와 ConnetionMaker는 각각 애플리케이션의 핵심적인 데이터 로직과 기술 로직을 담당하고 있음
+* DaoFactory는 이런 애플리케이션의 오브젝트들을 구성하고 그 관계를 정의하는 책임을 맡고 있음
+  * 전자가 실질적인 로직을 담당하는 컴포넌트라면, 후자는 애플리케이션을 구성하는 컴포넌트의 구조와 관계를 정의한 설계도 같은 역할임
+
+* 이제 N사와 D사에 UserDao를 공급할 때 UserDao, ConnectionMaker와 함께 DaoFactory도 제공함
+  * UserDao와 달리 DaoFactory는 소스를 제공함
+  * 새로운 ConnectionMaker 구현 클래스로 변경이 필요하면 DaoFactory를 수정해서 변경된 클래스를 생성해 설정해주도록 코드를 수정하면 됨
+  * DB 연결 방식은 자유로운 확장이 가능함
+
+* 애플리케이션의 컴포넌트 역할을 하는 오브젝트와 애플리케이션의 구조를 결정하는 오브젝트를 분리했다는 데 가장 의미가 있음
+
+### 1.4.2 오브젝트 팩토리의 활용
 
 ## 1.5 스프링의 IoC
 
