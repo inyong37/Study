@@ -149,6 +149,31 @@ public class DaoFactory {
   * 애플리케이션 컨텍스트라 말할 때는 애플리케이션 전반에 걸쳐 모든 구성요소의 제어 작업을 담당하는 IoC 엔진이라는 의미가 좀 더 부각됨
 *  애플리케이션 컨텍스트는 별도의 정보를 참고해서 빈(오브젝트)의 생성, 관계설정 등의 제어 작업을 총괄함
 
+### DaoFactory를 사용하는 애플리케이션 컨텍스트
+
+* 스프링이 빈 팩토리를 위한 오브젝트 설정을 담당하는 클래스라고 인식할 수 있도록 @Configuration이라는 애노테이션을 추가함
+* 오브젝트를 만들어 주는 메소드에는 @Bean이라는 애노테이션을 붙여줌
+  * userDao() 메소드는 UserDao 타입 오브젝트를 생성하고 초기화해서 돌려주는 것이니 @Bean이 붙음
+  * ConnectionMaker 타입의 오브젝트를 생성해주는 connectionMaker() 메소드에도 @Bean을 붙임
+
+```Java
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+...
+@Configuration
+public class DaoFactory {
+  @Bean
+  public UserDao userDao() {
+    return new UserDao(connectionMaker());
+  }
+
+  @Bean
+  public ConnectionMaker connectionMaker() {
+    return new DConnectionMaker();
+  }
+}
+```
+
 ## 1.6 싱글톤 레지스트리와 오브젝트 스코프
 
 ## 1.7 의존관계 주입(DI)
