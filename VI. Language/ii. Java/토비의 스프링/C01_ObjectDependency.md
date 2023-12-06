@@ -174,6 +174,37 @@ public class DaoFactory {
 }
 ```
 
+* DaoFactory를 설정정보로 사용하는 애플리케이션 컨텍스트:
+  * ApplicationContext 타입의 오브젝트
+  * AnnotationConfigApplicationContext를 이용하면 됨
+ 
+```Java
+public class UserDaoTest {
+  public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    ApplicationContext context = new AnnotationConfigApplicationContext(DaoFactory.class);
+    UserDao dao = context.getBean("userDao", UserDao.class);
+  }
+}
+```
+
+* getBean() 메소드는 ApplicationContext가 관리하는 오브젝트를 요청하는 메소드임
+* getBean()의 파라미티어니 userDao는 ApplicationContext에 등록된 빈의 이름임
+* DaoFactory에서 @Bean이라는 애노테이션을 userDao라는 이름의 메소드에 붙였는데, 이 메소드 이름이 바로 빈의 이름이 됨
+* userDao라는 이름의 빈을 가져온다는 것은 DaoFactory의 userDao() 메소드를 호출해서 그 결과를 가져옴
+  * 메소드의 이름을 myPreciousUserDao()라고 했다면 getBean("myPrecisionUserDao" UserDao.class)로 가져올 수 있음
+
+* getBean()은 기본적으로 Ojbect 타입으로 리턴하게 되어 있어서 매번 리넡되는 오브젝트에 다시 캐스팅을 해줘야 하는 부담이 있음
+  * Java 5 이상의 generic 메소드 방식을 이용해 getBean()의 두 번째 파라미터에 리턴 타입을 주면, 지저분한 캐스팅 코드를 사용하지 않아도 됨
+
+### 1.5.2 애플리케이션 컨텍스트의 동작방식
+
+오브젝트 팩토리 vs 스프링의 애플리케이션 컨텍스트
+
+* 애플리케이션 컨텍스트 = IoC 컨테이너 = 스프링 컨테이너 = 빈 팩토리
+  * 애플리케이션 컨텍스트는 AppilicationContext 인터페이스를 구현하는데, ApplicationContext는 빈 팩토리가 구현하는 BeanFactory 인터페이스를 상속했으므로 애플리케이션은 일종의 빈 팩토리임
+
+* 
+
 ## 1.6 싱글톤 레지스트리와 오브젝트 스코프
 
 ## 1.7 의존관계 주입(DI)
