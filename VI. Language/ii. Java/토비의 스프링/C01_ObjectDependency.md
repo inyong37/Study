@@ -69,6 +69,50 @@ public class UserDaoTest {
 
 ### 1.4.2 오브젝트 팩토리의 활용
 
+* 여러 개의 DAO를 생성하는 메소드가 추가된 리스트
+   오브젝트 생성 코드가 중복되는 건 좋지 않은 현상임
+
+```Java
+public class DaoFactory {
+  public UserDao userDao() {
+    return new UserDao(new DConnectionMaker());
+  }
+
+  public AccountDao accountDao() {
+    return new AccountDao(new DConnectionMaker());
+  }
+
+  public MessageDao messageDao() {
+    return new MessageDao(new DConnectionMaker());
+  } 
+}
+```
+
+* 중복 문제를 해결하려면 역시 분리해내는 게 가장 좋은 방법임
+* ConnectionMaker의 구현 클래스를 결정하고 오브젝트를 만드는 코드를 별도의 메소드로 분리함.
+
+```Java
+public class DaoFactory {
+  public UserDao userDao() {
+    return new UserDao(connectionMaker());
+  }
+
+  public AccountDao accountDao() {
+    return new AccountDao(connectionMaker());
+  }
+
+  public MessageDao messageDao() {
+    return new MessageDao(connectionMaker());
+  }
+
+  public ConnectionMaker connectionMaker() {
+    return new DConnectionMaker();
+  }
+}
+```
+
+### 1.4.3 제어권의 이전을 통한 제어관계 역전
+
 ## 1.5 스프링의 IoC
 
 ## 1.6 싱글톤 레지스트리와 오브젝트 스코프
