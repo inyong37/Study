@@ -56,9 +56,44 @@ Spring can do microservices, reactive, cloud, web apps, serverless, event driven
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run.
 
-### [Spring Framework](https://spring.io/projects/spring-boot)
+### [Spring Framework](https://spring.io/projects/spring-boot) | [Blog (KR)](https://devscb.tistory.com/119)
 
 The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
+
+Components:
+* ServletContainer: client(browser)로부터 http 요청을 받아 servlet 로직을 처리할 수 있는 componenta
+  * Servlet: servlet이란 javax.servlet 패키지에 정의된 인터페이스로, 자바 클래스 파일로 된 서버 로직임 
+* Spring: spring framework 영역
+* DispatcherServlet: spring framework에서 front controller로, 실제 동작하기 위한 로직 요청에 대해 처리할 수 있도록 함
+  * Dispatch: 요청이 오면 실제로 로직을 수행할 component로 요청을 보내주고 반환을 받는 역할을 함
+* HandlerMapping: spring framework에 작성된 여러 컨트롤러들 중에서 로직을 수행할 컨트롤러를 확인하는 component임
+* Controller: http request를 처리할 수 있도록 개발자가 작성한 component
+* Service: 비지니스 로직을 수행하는 개발자가 작성한 component
+* DAO: Database에 직접 접근하는 개발자가 작성한 객체
+* ViewResolver: ViewName을 기반으로 어떤 View 파일을 사용할 것인지 확인하는 component
+* View: 개발자가 작성한 UI 화면
+
+Sequence:
+* `Client` - `Servlet Container` - `DispatcherServlet` - `HandlerMapping` - `Controller` - `Service` - `DAO` - `DB`
+* `ViewResolver` - `View`
+1. `Client` -> `ServletContainer`: http 요청
+2. `ServletContainer` -> `DispatcherServlet`: http request 객체 전달
+3. `DispatcherServlet` -> `HandlerMapping`: 어떤 controller를 호출할지 확인
+4. `DispatcherServlet` <- `HandlerMapping`: http 요청을 실행할 Controller 반환
+5. `DispatcherServlet` --> `Controller`: http request 객체 전달
+6. `Controller` -> `Service`: 서비스 호출
+7. `Service` -> `DAO`: Data 접근 호출
+8. `DAO` -> `DB`: DB 접근
+9. `DAO` <- `DB`: DTO/VO 반환
+10. `Service` <- `DAO`: DTO/VO 반환
+11. `Controller` <- `Service`: 호출 결과 반환
+12. `DispatcherServlet` <-- `Controller`: 로직 수행 후 처리할 ViewName과 Model 반환
+13. `DispatcherServlet` ------> `ViewResolver`: ViewName 전달
+14. `DispatcherServlet` <------ `ViewResolver`: ViewName에 매핑된 View 파일 전달
+15. `DispatcherServlet` -------> `View`: Model 전달
+16. `DispatcherServlet` <------- `View`: Model과 View를 조합하여 최종 결과의 View 전달
+17. `ServletContainer` <- `DispatcherServlet`: http response 반환
+18. `Client` <- `ServletContainer`: http 응답
 
 ### [MyBatis](https://mybatis.org/mybatis-3/)
 
@@ -113,3 +148,4 @@ VO는 immutable하다.
 - Gradle, https://gradle.org/, 2023-11-09-Thu.
 - Gradle, https://gradle.com/, 2023-11-09-Thu.
 - Spring Gradle, https://spring.io/guides/gs/gradle/, 2023-11-09-Thu.
+- Spring Architecture Blog KR, https://devscb.tistory.com/119, 2023-12-11-Mon.
