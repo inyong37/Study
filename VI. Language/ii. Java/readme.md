@@ -56,7 +56,7 @@ Spring can do microservices, reactive, cloud, web apps, serverless, event driven
 
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can just run.
 
-### [Spring Framework](https://spring.io/projects/spring-boot) | [Blog (KR)](https://devscb.tistory.com/119)
+### [Spring Framework](https://spring.io/projects/spring-boot) | [Blog (KR)](https://devscb.tistory.com/119) | [Blog (KR)](https://zinisang.tistory.com/62)
 
 The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications - on any kind of deployment platform.
 
@@ -94,6 +94,14 @@ Sequence:
 16. `DispatcherServlet` <------- `View`: Model과 View를 조합하여 최종 결과의 View 전달
 17. `ServletContainer` <- `DispatcherServlet`: http response 반환
 18. `Client` <- `ServletContainer`: http 응답
+
+XML:
+* web.xml: 요청이랑 상관없이 미리 등록함
+* root-context.xml: 미리 등록해 놓아야할 객체들
+* mybatis-config.xml: mapping 객체 및 SQL mapper 파일
+* Mapper.xml: SQL 쿼리
+* servlet-context.xml: 요청이 들어왔을 때 등록해 놓아야할 객체들
+* pom.xml: Maven 설정
 
 ### [MyBatis](https://mybatis.org/mybatis-3/)
 
@@ -149,3 +157,4 @@ VO는 immutable하다.
 - Gradle, https://gradle.com/, 2023-11-09-Thu.
 - Spring Gradle, https://spring.io/guides/gs/gradle/, 2023-11-09-Thu.
 - Spring Architecture Blog KR, https://devscb.tistory.com/119, 2023-12-11-Mon.
+- Spring XML Blog KR, https://zinisang.tistory.com/62, 2023-12-12-Tue.
