@@ -72,6 +72,17 @@ Challenges
 * Versioning: Updates to a service must not break services that depend on it. Multiple services could be updated at any given time, so without careful design, you might have problems with backward or forward compatibility.
 * Skill set: Microservices are highly distributed systems. Carefully evaluate whether the team has the skills and experience to be successful.
 
+Best Practices
+* Model services around the business domain.
+* Decentralize everything. Individual teams are responsible for designing and building services. Avoid sharing code or data schemas.
+* Data storage should be private to the service that owns the data. Use the best storage for each service and data type.
+* Services communicate through well-designed APIs. Avoid leaking implementation details. APIs should model the domain, not the internal implementation of the service.
+* Avoid coupling between services. Causes of coupling include shared database schemas and rigid communication protocols.
+* Offload cross-cutting concerns, such as authentication and SSL termination, to the gateway.
+* Keep domain knowledge out of the gateway. The gateway should handle and route client requests without any knowledge of the business rules or domain logic. Otherwise, the gateway becomes a dependency and can cause coupling between services.
+* Services should have loose coupling and high functional cohesion. Functions that are likely to change together should be packaged and deployed together. If they reside in separate services, those services end up being tightly coupled, because a change in one service will require updating the other service. Overly chatty communication between two services may be a symptom of tight coupling and low cohesion.
+* Isolate failures. Use resiliency strategies to prevent failures within a service from cascading. See resiliency patterns and Designing reliable applications.
+
 ---
 
 ### Reference
