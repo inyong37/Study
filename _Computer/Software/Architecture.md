@@ -54,13 +54,13 @@ What are microservices?
 * Supports ployglot programming. For example, services don't need to share the same technology stack, libraries, or frameworks.
 
 Benefits:
-* Agility
-* Small, focused teams
-* Small code base
-* Mix of technologies
-* Fault isolation
-* Scalability
-* Data isolation
+* Agility: Because microservices are deployed independently, it's easier to manage bug fixed and feature releases. You can update a service without redeploying the entire application, and roll back an update if something goes wrong. In many traditional applications, if a bug is found in one part of the application, it can block the entire release process. New features might be held up waiting for a bug fix to be integrated, tested, and published.
+* Small, focused teams: A microservice should be small enough that a single feature team can build, test, and deploy it. Small team sizes promote greater agility. Large teams tend be less productive, because communiation is slower, management overhead goes up, and agility diminishes.
+* Small code base: In a monolithic application, there is a tendency over time for code dependencies to become tangled. Adding a new feature requires touching code in a lot of places. By not sharing code or data stores, a microservices architecture minimizes dependencies, and that makes it easier to add new features.
+* Mix of technologies: Teams can pick the technology that best fits their service, using a mix of technology stacks as appropriate.
+* Fault isolation: If an individual microservice becomes unavailable, it won't disrupt the entire application, as long as any upstream microservices are designed to handle faults correctly. For example, you can implement the Circuit Breaker pattern, or you can design your solution so that the microservices communicate with each other using asynchronous messaging patterns.
+* Scalability: Services can be scaled independently, letting you scale out subsystems that require more resources, without scaling out the entire application. Using an orchestrator such as Kubernetes or Service Fabric, you can pack a higher density of services onto a single host, which allows for more efficient utilization of resources.
+* Data isolation: It is much easier to perform schema updates, because only a single microservice is affected. In a monolithic application, schema updates can become very challenging, because different parts of the application might all touch the same data, making any alterations to the schema risky.
 
 Challenges
 * Complexity: A microservices application has more moving parts than the equivalent monolithic application. Each service is simpler, but the entire system as a whole is more complex.
