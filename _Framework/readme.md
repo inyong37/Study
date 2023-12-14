@@ -123,6 +123,14 @@ Detectron2 is Facebook AI Research's next generation library that provides state
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
+### [ONNX: Open Neural Network Exchange](https://onnx.ai/)
+
+ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
+
+Key Benefits:
+* Interoperability: Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
+* Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
+
 ---
 
 ### Reference
@@ -159,3 +167,4 @@ MMDetection is an open source object detection toolbox based on PyTorch. It is a
 - Set up your environment to take the TensorFlow Developer Certificate Exam, https://www.tensorflow.org/extras/cert/Setting_Up_TF_Developer_Certificate_Exam.pdf, 2023-08-25-Fri.
 - Python venv: How To Create, Activate, Deactivate, And Delete, https://python.land/virtual-environments/virtualenv, 2023-08-25-Fri.
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
+- ONNX, https://onnx.ai/, 2023-12-14-Thu.
