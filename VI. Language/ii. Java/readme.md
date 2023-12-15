@@ -103,6 +103,12 @@ XML:
 * servlet-context.xml: 요청이 들어왔을 때 등록해 놓아야할 객체들
 * pom.xml: Maven 설정
 
+### [Spring Security](https://spring.io/projects/spring-security)
+
+Spring Security is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.
+
+Spring Security is a framework that focuses on providing both authentication and authroization to Java applications. Like all Springprojects, the real power of Spring Security is found in how easily it can be extended to meet custom requirements.
+
 ### [MyBatis](https://mybatis.org/mybatis-3/)
 
 MyBatis is a first class persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results. MyBatis can use simple XML or Annotations for configuration and map primitives, Map interfaces and Java POJOs (Plain Old Java Objects) to database records.
@@ -158,3 +164,4 @@ VO는 immutable하다.
 - Spring Gradle, https://spring.io/guides/gs/gradle/, 2023-11-09-Thu.
 - Spring Architecture Blog KR, https://devscb.tistory.com/119, 2023-12-11-Mon.
 - Spring XML Blog KR, https://zinisang.tistory.com/62, 2023-12-12-Tue.
+- Spring Security, https://spring.io/projects/spring-security, 2023-12-15-Fri.
