@@ -103,11 +103,31 @@ XML:
 * servlet-context.xml: 요청이 들어왔을 때 등록해 놓아야할 객체들
 * pom.xml: Maven 설정
 
-### [Spring Security](https://spring.io/projects/spring-security)
+### [Spring Security](https://spring.io/projects/spring-security) | [Blog (KR)](https://mangkyu.tistory.com/76)
 
 Spring Security is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.
 
 Spring Security is a framework that focuses on providing both authentication and authroization to Java applications. Like all Springprojects, the real power of Spring Security is found in how easily it can be extended to meet custom requirements.
+
+Architecture:
+* `AuthenticationFilter` - `UsernamePasswordAuthenticationToken`
+* `AuthenticationFilter` - `AuthenticationManager` interface & `ProviderManager` implements - `AuthenticationProvider(s)` - `UserDetailsService` - `UserDetails` interface & `User` implements
+* `AuthenticationFilter` - `SecurityContextHolder` & `SecurityContext` & `Authentication`
+1. Client -> `AuthenticationFilter`: http request
+2. `AuthenticationFilter` -> `UsernamePasswordAuthenticationToken`
+3. `AuthenticationFilter` -> `AuthenticationManager` interface & `ProviderManager` implements
+4. `AuthenticationManager` interface & `ProviderManager` implements -> `AuthenticationProvider(s)`
+5. `AuthenticationProvider(s)` -> `UserDetailsService`
+6. `UserDetailsService` -> `UserDetails` interface & `User` implements
+7. `AuthenticationProvider(s)` <- `UserDetailsService`
+8. `AuthenticationManager` interface & `ProviderManager` implements <- `AuthenticationProvider(s)`
+9. `AuthenticationFilter` <- `AuthenticationManager` interface & `ProviderManager` implements
+10. `AuthenticationFilter` - `SecurityContextHolder` & `SecurityContext` & `Authentication`
+
+* Authentication(인증): 해당 사용자가 본인이 맞는지를 확인하는 절차 - Principal을 아이디로, Credential을 비밀번호로 사용하는 Credential 기반의 인증 방식을 사용함
+* Authorization(인가): 인증된 사용자가 요청한 자원에 접근 가능한지를 결정하는 절차
+  * Principle(접근 주체): 보호 받는 resource에 접근하는 대상
+  * Credential(비밀번호): Resource에 접근하는 대상의 비밀번호
 
 ### [MyBatis](https://mybatis.org/mybatis-3/)
 
@@ -165,3 +185,4 @@ VO는 immutable하다.
 - Spring Architecture Blog KR, https://devscb.tistory.com/119, 2023-12-11-Mon.
 - Spring XML Blog KR, https://zinisang.tistory.com/62, 2023-12-12-Tue.
 - Spring Security, https://spring.io/projects/spring-security, 2023-12-15-Fri.
+- Spring Secuirty Blog KR, https://mangkyu.tistory.com/76, 2023-12-15-Fri.
