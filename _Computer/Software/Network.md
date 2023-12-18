@@ -52,6 +52,16 @@ Once the packets arrive at their destination, they are handled differently depen
 
 The fourth version of IP (IPv4 for short) was introduced in 1983. However, just as there are only so many possible permutations for automoblie license plate numbers and they have to be reformatted periodically, the supply of available IPv4 addresses has become depleted. IPv6 addresses have many more characters and thus more permutations; however, IPv6 is not yet completely adopted, and most domains and devices still have IPv4 addresses.
 
+### [CIDR](https://aws.amazon.com/what-is/cidr/)
+
+Classless Inter-Domain Routing (CIDR) is an IP address allocation method that improves data routing efficiency on the internet. Every machine, server, and end-user device that connects to the internet has a unique number, called an IP address, associated with it. Devices find and communicate with on another by using these IP addresses. Organizations use CIDR to allocate IP addresses flexibly and efficiently in their networks.
+
+What are the different IP address formats?:
+* An IP address has two parts:
+  * The network address is a series of numerical digits pointing to the network's unique identifier
+  * The host address is a series of numbers indicating the host or individual device identifier on the network
+* Until the early 1990s, IP addresses were allocated using the classful addressing system. The total length of the address was fixed, and the number of bits allocated to the network and host portions were also fixed.
+
 ### TCP | TCP/IP | [Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/)
 
 The IP is the address system of the Internet and has the core function of delivering packets of information from a source device to a target device. IP is the primary way in which network connections are made, and it established the basis of the Internet. IP does not handle packet ordering or error checking. Such functionality requires another protocol, typically TCP.
@@ -463,3 +473,4 @@ The "dash" and "hexadecimal" notation is especially useful when using services l
 - Spring Boot Rest Blog KR, https://steemit.com/kr-dev/@igna84/spring-boot-responseentity, 2023-11-14-Tue.
 - Rest Blog KR, https://velog.io/@narnarr/Spring-boot-1-1-RESTful-API%EB%A5%BC-%EC%9C%84%ED%95%9C-HTTP-Method-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0#1, 2023-11-14-Tue.
 - Rest Blog KR, https://velog.io/@banjjoknim/REST-API-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EA%B5%AC%ED%98%84, 2023-11-14-Tue.
+- CIDR AWS, https://aws.amazon.com/what-is/cidr/, 2023-12-18-Mon.
