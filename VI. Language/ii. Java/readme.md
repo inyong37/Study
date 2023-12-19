@@ -103,6 +103,12 @@ XML:
 * servlet-context.xml: 요청이 들어왔을 때 등록해 놓아야할 객체들
 * pom.xml: Maven 설정
 
+### [Interceptors](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html)
+
+In Java configuration, you can register interceptors to apply to incoming requests.
+
+:bulb: Interceptors are not ideally suited as a security layer due to the potential for a mismatch with annotated controller path matching, which can also mtach trailing slashes and path extensions transparently, along with other path matching options. Many of these options have been deprecated but the potential for a mismatch remains.
+
 ### [Spring Security](https://spring.io/projects/spring-security) | [Blog (KR)](https://mangkyu.tistory.com/76)
 
 Spring Security is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.
@@ -186,3 +192,4 @@ VO는 immutable하다.
 - Spring XML Blog KR, https://zinisang.tistory.com/62, 2023-12-12-Tue.
 - Spring Security, https://spring.io/projects/spring-security, 2023-12-15-Fri.
 - Spring Secuirty Blog KR, https://mangkyu.tistory.com/76, 2023-12-15-Fri.
+- Spring Interceptors, https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-config/interceptors.html, 2023-12-19-Tue.
