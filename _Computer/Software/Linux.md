@@ -701,3 +701,8 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-17-Tue.
 - Required Files Under the Debian Directory, https://www.debian.org/doc/manuals/maint-guide/dreq.en.html, 2023-10-19-Thu.
 - dch, https://www.commandlinux.com/man-page/man1/dch.1.html, 2023-11-30-Thu.
+- What is nogroup StackExchange, https://unix.stackexchange.com/questions/22520/what-is-nogroup-groups-purpose, 2023-12-26-Tue.
+- Linux Group Blog KR, https://blog.naver.com/haejoon90/220736406478, 2023-12-26-Tue.
+- Linux groupadd Blog KR, https://www.linux.co.kr/bbs/board.php?bo_table=lecture&wr_id=2524, 2023-12-26-Tue.
+- Linux groupmems Blog KR, https://mbl4ck.tistory.com/19, 2023-12-26-Tue.
+- Editing group StackExchange, https://unix.stackexchange.com/questions/79176/is-there-any-reason-to-avoid-editing-etc-group-directly, 2023-12-26-Tue.
