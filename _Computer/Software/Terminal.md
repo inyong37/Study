@@ -1,4 +1,4 @@
-# _Terminal_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0)
+# Terminal | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EB%A7%90%EA%B8%B0)
 
 Terminal(단말기)는 컴퓨터나 컴퓨팅 시스템에 데이터를 입력하거나 표시하는데 쓰이는 전자 하드웨어 기기이다. 컴퓨터 터미널은 인간과 컴퓨터의 인터페이스(HMI)의 한 예이다. 터미널의 기능은 데이터를 보여 주고 입력하는데 제한을 받는다. 중대한 로컬 프로그래밍 데이터 기능이 있는 장치는 스마트 터미널(smart terminal) 또는 thin client라고 부른다. PC는 terminal 기능을 에뮬레이트하는 소프트웨어를 실행할 수 있으며 이따금 로컬 프로그램을 이용하여 먼 거리의 호스트 시스템에 접근할 수 있다.
 
@@ -15,7 +15,9 @@ Shell은 OS에서 다양한 OS 기능과 서비스를 구현하는 인터페이�
 
 Bourne shell(sh)는 Unix version 7의 기본 Unix shell이었다. 톰프슨 shell을 대체하는 shell로서 실행파일 이름이 sh로서 같다. AT&T Bell 연구소의 Stephen Bourne이 개발했고 1977년에 처음으로 Unix version 7에 포함되었다. 많은 Unix 계정에서 기본 shell로 사용될만큼 오랫동안 인기를 누렸다.
 
-### _Bash, Bourne-again Shell, Unix Shell_ | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8))
+### [Bash: Bourne Again SHell](https://www.gnu.org/software/bash/), Unix Shell | [WiKi (KR)](https://ko.wikipedia.org/wiki/%EB%B0%B0%EC%8B%9C_(%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%85%B8))
+
+Bash is the GNU Project's shell-the Bourne Again SHell. This is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh). It is intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
 
 Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 Brian Fox가 작성한 Unix shell이다. Bash는 1989년 발표되어 GNU OS와 Linux, mac os X 그리고 Dawin 등 OS의 기본 shell로 탑재되어 광범위하게 배포되었다. Bash는 또한 DJGPP와 노벨 넷웨어에 의해 DOS로 이식되었고 Cygwin과 MinGW의 배포로 Microsoft Windows로 이식되었다.
 
@@ -221,3 +223,4 @@ less is a terminal pager program on Unix, Windows, and Unix-like systems used to
 - less WiKi, https://en.wikipedia.org/wiki/Less_(Unix), 2022-11-10-Thu.
 - macOS Shell Blog KR, http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89, 2022-12-16-Fri.
 - macOS Shell auto-suggestions Blog KR, https://yeonfamily.tistory.com/15, 2022-12-16-Fri.
+- Bash, https://www.gnu.org/software/bash/, 2024-01-03-Wed.
