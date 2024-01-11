@@ -706,3 +706,4 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Linux groupadd Blog KR, https://www.linux.co.kr/bbs/board.php?bo_table=lecture&wr_id=2524, 2023-12-26-Tue.
 - Linux groupmems Blog KR, https://mbl4ck.tistory.com/19, 2023-12-26-Tue.
 - Editing group StackExchange, https://unix.stackexchange.com/questions/79176/is-there-any-reason-to-avoid-editing-etc-group-directly, 2023-12-26-Tue.
+- dmidecode, https://linux.die.net/man/8/dmidecode, 2024-01-11-Thu.
