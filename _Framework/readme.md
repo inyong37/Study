@@ -74,6 +74,10 @@ Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 PyTorch is built with submodule or bazel.
 
+### :hammer: [PyTorch](https://lightning.ai/docs/pytorch/stable/)
+
+PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
+
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
