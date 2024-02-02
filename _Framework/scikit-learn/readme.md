@@ -13,7 +13,7 @@ Identifying which category an object belongs to.
 
 Applications: Spam detections, image recognition.
 
-Algorithms: [SVM](https://scikit-learn.org/stable/modules/svm.html), [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees).
+Algorithms: Gradient boosting, [nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [random forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees), logistic regression, [SVM](https://scikit-learn.org/stable/modules/svm.html), and more...
 
 ## [Regression](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
@@ -21,7 +21,7 @@ Prediciton a continuous-valued atttribute assicated with an object.
 
 Applications: Drug response, Stock prices.
 
-Algorithms: SVR, [Nearest Neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees). 
+Algorithms: Gradient boosting, [nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [random forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees), ridege, SVR, and more...
 
 ## [Clustering](https://scikit-learn.org/stable/modules/clustering.html#clustering)
 
@@ -29,7 +29,7 @@ Automatic grouping of similar objects into sets.
 
 Applications: Customer segmentation, Grouping experiment outcomes.
 
-Algorithms: k-Means, spectral clustering, mean-shift.
+Algorithms: k-Means, HDBSCAN, hierarchical clustering, spectral clustering, mean-shift, and more...
 
 ## [Dimensionality reduction](https://scikit-learn.org/stable/modules/decomposition.html)
 
