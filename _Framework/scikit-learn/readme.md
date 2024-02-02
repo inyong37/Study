@@ -55,6 +55,38 @@ Applications: Transforming input data such as text for use with machine learning
 
 Algorithms: preprocessing, feature extraction, and more...
 
+## [1. Supervised learning](https://scikit-learn.org/stable/supervised_learning.html)
+
+1. Linear Models
+2. Linear and Quadratic Discriminant Analysis
+3. Kernel ridge regression
+4. Support Vector Machines
+5. Stochastic Gradient Descent
+6. Nearest Neighbors
+7. Gaussian Processes
+8. Cross decomposition
+9. Naive Bayes
+10. Decision Trees
+11. Ensembles: Gradient boosting, random forests, bagging, voting, stacking
+12. Multiclass and multioutput algorithms
+13. Feature selection
+14. Semi-supervised learning
+15. Isotonic regression
+16. Probability calibration
+17. Neural network models (supervised)
+
+## [2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+
+1. Gaussian mixture models
+2. Manifold learning
+3. Clustering
+4. Biclustering
+5. Decomposing signals in components (matrix factorization problems)
+6. Covariance estimation
+7. Novelty and Outlier Detection
+8. Density Estimation
+9. Neural network models (unsupervised)
+
 ---
 
 ### Reference
@@ -65,4 +97,5 @@ Algorithms: preprocessing, feature extraction, and more...
 - Random Forests, https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees, 2021-12-17-Fri.
 - Clustering, https://scikit-learn.org/stable/modules/clustering.html#clustering, 2021-12-17-Fri.
 - scikit-learn GitHub, https://github.com/scikit-learn/scikit-learn, 2024-02-02-Fri.
-- 
+- Supervised learning, https://scikit-learn.org/stable/supervised_learning.html, 2024-02-02-Fri.
+- Unsupervised learning, https://scikit-learn.org/stable/unsupervised_learning.html, 2024-02-02-Fri.
