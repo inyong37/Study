@@ -1,4 +1,6 @@
-# :hammer_and_wrench: Framework
+# :hammer_and_wrench: Framework | [Nvidia](https://developer.ibm.com/articles/compare-deep-learning-frameworks/) | [IBM](https://developer.ibm.com/articles/compare-deep-learning-frameworks/)
+
+Deep Learning (DL) frameworks offer building blocks for designing, training, and validating deep neural networks through a high-level programming interface. Widely-used DL frameworks, such as PyTorch, TensorFlow, PyTorch Geometric, DGL, and others, rely on GPU-accelerated libraries, such as cuDNN, NCCL, and DALI to deliver high-performance, multi-GPU-accelerated training.
 
 ### Framework vs. Library | [Reference](https://martinfowler.com/bliki/InversionOfControl.html) | [Reference](https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/)
 
@@ -186,3 +188,5 @@ Key Benefits:
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - ONNX, https://onnx.ai/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
+- Nvidia Deep Learning Frameworks, https://developer.nvidia.com/deep-learning-frameworks, 2024-02-08-Thu.
+- IBM Deep Learning Frameworks, https://developer.ibm.com/articles/compare-deep-learning-frameworks/, 2024-02-08-Thu.
