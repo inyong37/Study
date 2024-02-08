@@ -88,13 +88,13 @@ Caffe is a deep learning framework made with expression, speed, and modularity i
 
 Caffe is built with CMake and Docker.
 
-## :hammer: [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) Deprecated
+## :hammer: [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) - Deprecated
 
 Theano is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.[Ref]
 
 [MILA will stop developing Theano.](https://groups.google.com/forum/#!msg/theano-users/7Poq8BZutbY/rNCIfvAEAwAJ)
 
-## :hammer: [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK) Deprecated
+## :hammer: [CNTK](https://docs.microsoft.com/ko-kr/cognitive-toolkit/) | [GitHub](https://github.com/microsoft/CNTK) - Deprecated
 
 The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-grade distributed deep learning. It describes neural networks as a series of computational steps via a directed graph. CNTK allows the user to easily realize and combine popular model types such as feed-forward DNNs, convolutional neural networks (CNNs) and recurrent neural networks (RNNs/LSTMs). CNTK implements stochastic gradient descent (SGD, error backpropagation) learning with automatic differentiation and parallelization across multiple GPUs and servers.[Ref]
 
@@ -108,6 +108,22 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 1. Model Availability: With the domain of Deep Learning expanding every year and models becoming bigger in turn, training State-of-the-Art (SOTA) models from scratch is simply not feasible anymore. There are fortunately SOTA models publicly available, and it is important to utilize them where possible.
 2. Deployment Infrastructure: Training well-performing models is pointless if they can't be put to use. Lowering time-to-deploy is paramount, especially with the growing popularity of microservice business models; and efficient deployment has the potential to make-or-break many business that center on Machine Learning.
 3. Ecosystems: No longer is Deep Learning relegated to specific use cases in highly contrlled environments. AI is injecting new power into a litany of industries, so a framework that sits within a larger ecosystem which facilitates development for mobile, local, and server applications is important. Also, the advent of specialized Machine Learning hardware, such as Google's Edge TPU, means that successful practitioners need to work with a framework that can integrate well with this hardware.
+
+### [PaddlePaddle](https://www.paddlepaddle.org/) | [GitHub](https://github.com/paddlepaddle/paddle)
+
+PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
+
+### [Apache MXNet](https://mxnet.apache.org/versions/1.9.0/) | [Attic](https://attic.apache.org/projects/mxnet.html) - Deprecated
+
+MXNet is a DL framework designed for both efficiency and flexibility. It allows you to mix the flavors of symbolic programming and imperative programming to maximize efficiency and productivity.
+
+At its core is a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on-the-fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. The library is portable and lightweight, and it scales to multiple GPUs and machines.
+
+This project has retired. Apache MXNet moved into the Attic in 2023-09.
+
+### [MATLAB](https://www.mathworks.com/products/matlab.html)
+
+MATLAB makes DL easy for engineers, scientists, and domain experts. With tools and functions for managing and labeling large data sets, MATLAB also offers specialized toolboxes for working with machine learning, neural networks, computer vision, and automated driving. With just a few lines of code, MATLAB allows you to create and visualize models, and deploy models to servers and embedded devices without being an expert. MATLAB also enables users to automatically generate high performance CUDA code for DL and vision applications from MATLAB code.
 
 ---
 
@@ -190,3 +206,5 @@ Key Benefits:
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
 - Nvidia Deep Learning Frameworks, https://developer.nvidia.com/deep-learning-frameworks, 2024-02-08-Thu.
 - IBM Deep Learning Frameworks, https://developer.ibm.com/articles/compare-deep-learning-frameworks/, 2024-02-08-Thu.
+- Apache MXNet, https://mxnet.apache.org/versions/1.9.0/, 2024-02-08-Thu.
+- Apache MXNet Attic, https://attic.apache.org/, 2024-02-08-Thu.
