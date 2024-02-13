@@ -20,7 +20,7 @@ Open Source Computer Vision Library[Ref]
 
 OpenCV is built with CMake, cpp, and h.
 
-## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow)
+## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
@@ -70,7 +70,7 @@ Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow impo
 
 Merged into TensorFlow
 
-## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/)
+## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
@@ -100,7 +100,7 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 
 [CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)
 
-## :hammer: [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html)
+## :hammer: [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html) | [Open Model Zoo](https://github.com/openvinotoolkit/open_model_zoo)
 
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
 
@@ -158,7 +158,7 @@ Based on PyTorch, OpenMMLab develops MMEngine to provide universal training and 
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
-### [ONNX: Open Neural Network Exchange](https://onnx.ai/) | [GitHub](https://github.com/onnx/onnx)
+### [ONNX: Open Neural Network Exchange](https://onnx.ai/) | [GitHub](https://github.com/onnx/onnx) | [Model Zoo](https://github.com/onnx/models)
 
 ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
 
