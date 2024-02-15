@@ -70,7 +70,7 @@ Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow impo
 
 Merged into TensorFlow
 
-Backends: `export KERAS_BACKEND="tensorflow"` or `import os; os.environ["KERAS_BACKEND"] = "tensorflow"; import keras`
+[Backend](https://keras.io/getting_started/): `export KERAS_BACKEND="tensorflow"` or `import os; os.environ["KERAS_BACKEND"] = "tensorflow"; import keras`
 * [Customizing `fit()` with TensorFlow](https://keras.io/guides/custom_train_step_in_tensorflow/)
 * [Customizing `fit()` with PyTorch](https://keras.io/guides/custom_train_step_in_torch/)
 * [Customizing `fit()` with JAX](https://keras.io/guides/custom_train_step_in_jax/)
@@ -227,3 +227,7 @@ Key Benefits:
 - PyTorch NIPS 2019, https://dl.acm.org/doi/10.5555/3454287.3455008, 2024-02-15-Thu.
 - SciKit-Learn JMLR 2011, https://www.jmlr.org/papers/v12/pedregosa11a.html, 2024-02-15-Thu.
 - PyTorch NIPS 2017, https://openreview.net/pdf?id=BJJsrmfCZ, 2024-02-15-Thu.
+- Configuring your backend Keras, https://keras.io/getting_started/, 2024-02-15-Thu.
+- Customizing fit() with TensorFlow Keras, https://keras.io/guides/custom_train_step_in_tensorflow/, 2024-02-15-Thu.
+- Customizing fit() with PyTorch Keras, https://keras.io/guides/custom_train_step_in_torch/, 2024-02-15-Thu.
+- Customizing fit() with JAX Keras, https://keras.io/guides/custom_train_step_in_jax/, 2024-02-15-Thu.
