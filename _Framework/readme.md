@@ -70,6 +70,11 @@ Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow impo
 
 Merged into TensorFlow
 
+Backends: `export KERAS_BACKEND="tensorflow"` or `import os; os.environ["KERAS_BACKEND"] = "tensorflow"; import keras`
+* [Customizing `fit()` with TensorFlow](https://keras.io/guides/custom_train_step_in_tensorflow/)
+* [Customizing `fit()` with PyTorch](https://keras.io/guides/custom_train_step_in_torch/)
+* [Customizing `fit()` with JAX](https://keras.io/guides/custom_train_step_in_jax/)
+
 [Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
