@@ -70,13 +70,19 @@ Import-TensorFlow < 2.0: `import keras`, TensorFlow >=2.0: `from tensorflow impo
 
 Merged into TensorFlow
 
+[Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
+
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 PyTorch is built with submodule or bazel.
 
-### :hammer: [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)
+[Automatic differenctiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ)
+
+[PyTorch: an imperative style, high-performance deep learning library NIPS 2019](https://dl.acm.org/doi/10.5555/3454287.3455008)
+
+### [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)
 
 PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
 
@@ -87,6 +93,10 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
 
 Caffe is built with CMake and Docker.
+
+## [Caffe2](https://caffe2.ai/)
+
+Caffe2 is now a part of PyTorch.
 
 ## :hammer: [Theano](http://www.deeplearning.net/software/theano/) | [GitHub](https://github.com/Theano/Theano) - Deprecated
 
@@ -208,3 +218,7 @@ Key Benefits:
 - IBM Deep Learning Frameworks, https://developer.ibm.com/articles/compare-deep-learning-frameworks/, 2024-02-08-Thu.
 - Apache MXNet, https://mxnet.apache.org/versions/1.9.0/, 2024-02-08-Thu.
 - Apache MXNet Attic, https://attic.apache.org/, 2024-02-08-Thu.
+- Caffe2, https://caffe2.ai/, 2024-02-15-Thu.
+- PyTorch NIPS 2019, https://dl.acm.org/doi/10.5555/3454287.3455008, 2024-02-15-Thu.
+- SciKit-Learn JMLR 2011, https://www.jmlr.org/papers/v12/pedregosa11a.html, 2024-02-15-Thu.
+- PyTorch NIPS 2017, https://openreview.net/pdf?id=BJJsrmfCZ, 2024-02-15-Thu.
