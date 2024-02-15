@@ -75,6 +75,19 @@ Merged into TensorFlow
 * [Customizing `fit()` with PyTorch](https://keras.io/guides/custom_train_step_in_torch/)
 * [Customizing `fit()` with JAX](https://keras.io/guides/custom_train_step_in_jax/)
 
+[model.py](https://github.com/keras-team/keras/blob/master/keras/models/model.py):
+* `Model.{fit, predict, evalute, train_on_batch, test_on_batct, predict_on_batch}.__doc__`
+* `base_trainer.Trainer.{fit, predict, evalute, train_on_batch, test_on_batct, predict_on_batch}.__doc__`
+
+[trainer.py](https://github.com/keras-team/keras/blob/master/keras/trainers/trainer.py):
+* compile: Configures the model for training.
+* fit: Trains the model for a fixed number of epochs (dataset iterations).
+* evaluate: Returns the loss value & metrics values for the model in test mode.
+* predict: Generates output predictions for the input samples.
+* train_on_batch: Runs a single gradient update on a single batch of data.
+* test_on_batch: Test the model on a single batch of samples.
+* predict_on_batch: Returns predictions for a single batch of samples.
+
 [Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
@@ -87,11 +100,17 @@ PyTorch is built with submodule or bazel.
 
 [PyTorch: an imperative style, high-performance deep learning library NIPS 2019](https://dl.acm.org/doi/10.5555/3454287.3455008)
 
-### [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/)
+### [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) | [GitHub](https://github.com/Lightning-AI/pytorch-lightning)
 
 PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
 
 [PyTorch vs PyTorch Lightning](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09)
+
+[trainer.py](https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/trainer/trainer.py):
+* fit: Runs the full optimization routine.
+* validate: Perform one evaluation epoch over the validation set.
+* test: Perform one evaluation epoch over the test set. It's separated from fit to make sure you never run on your test set until you want to.
+* predict: Run inference on your data. This will call the model forward function to compute predictions. Useful to perform distributed and batched predictions. Logging is disabled in the predict hooks.
 
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
@@ -231,3 +250,4 @@ Key Benefits:
 - Customizing fit() with TensorFlow Keras, https://keras.io/guides/custom_train_step_in_tensorflow/, 2024-02-15-Thu.
 - Customizing fit() with PyTorch Keras, https://keras.io/guides/custom_train_step_in_torch/, 2024-02-15-Thu.
 - Customizing fit() with JAX Keras, https://keras.io/guides/custom_train_step_in_jax/, 2024-02-15-Thu.
+- PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
