@@ -88,6 +88,20 @@ Merged into TensorFlow
 * test_on_batch: Test the model on a single batch of samples.
 * predict_on_batch: Returns predictions for a single batch of samples.
 
+[Callbacks](https://keras.io/api/callbacks/):
+* Base Callback class
+* ModelCheckpoint
+* BackupAndRestore
+* TensorBoard
+* EarlyStopping
+* LearningRateScheduler
+* ReduceLROnPlateau
+* RemoteMonitor
+* LambdaCallback
+* TerminateOnNaN
+* CSVLogger
+* ProgbarLogger
+
 [Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
