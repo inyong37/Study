@@ -132,6 +132,37 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 * test: Perform one evaluation epoch over the test set. It's separated from fit to make sure you never run on your test set until you want to.
 * predict: Run inference on your data. This will call the model forward function to compute predictions. Useful to perform distributed and batched predictions. Logging is disabled in the predict hooks.
 
+[Callbacks](https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html):
+* BackboneFinetuning
+* BaseFinetuning
+* BasePredictionWriter
+* BatchSizeFinder
+* Callback
+* DeviceStatsMonitor
+* EarlyStopping
+* GradientAccumulationScheduler
+* LambdaCallback
+* LearningRateFinder
+* LearningRateMonitor
+* ModelCheckpoint
+* ModelPruning
+* ModelSummary
+* ProgressBar
+* RichModelSummary
+* RichProgressBar
+* StochasticWeightAveraging
+* Timer
+* TQDMProgressBar
+
+[Accelerator](https://lightning.ai/docs/pytorch/stable/extensions/accelerator.html):
+* Accelerator
+* CPUAccelerator
+* CUDAAccelerator
+* MPSAccelerator
+* XLAAccelerator
+
+[Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
+
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
