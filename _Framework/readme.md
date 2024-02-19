@@ -102,6 +102,12 @@ Merged into TensorFlow
 * CSVLogger
 * ProgbarLogger
 
+[Multiple Devices](https://keras.io/guides/distribution/):
+* [Distributed training with Keras3](https://keras.io/guides/distribution/)
+* [Distributed training with TensorFlow](https://keras.io/guides/distributed_training_with_tensorflow/)
+* [Distributed training with PyTorch](https://keras.io/guides/distributed_training_with_torch/)
+* [Distributed training with JAX](https://keras.io/guides/distributed_training_with_jax/)
+
 [Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
