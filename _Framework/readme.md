@@ -194,6 +194,15 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 2. Deployment Infrastructure: Training well-performing models is pointless if they can't be put to use. Lowering time-to-deploy is paramount, especially with the growing popularity of microservice business models; and efficient deployment has the potential to make-or-break many business that center on Machine Learning.
 3. Ecosystems: No longer is Deep Learning relegated to specific use cases in highly contrlled environments. AI is injecting new power into a litany of industries, so a framework that sits within a larger ecosystem which facilitates development for mobile, local, and server applications is important. Also, the advent of specialized Machine Learning hardware, such as Google's Edge TPU, means that successful practitioners need to work with a framework that can integrate well with this hardware.
 
+[PyTorch vs TensorFlow 2023](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/)
+* What if I'm in Industry?: TensorFlow
+* What if I'm a Researcher?: PyTorch
+* What if I'm a Professor?: TensorFlow and/or PyTorch
+* What if I'm a Hobbyist?: TensorFlow or PyTorch
+* What if I'm a Total Beginner?: Keras-TensorFlow-PyTorch
+
+[Jax vs PyTorch 2024](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/)
+
 ### [PaddlePaddle](https://www.paddlepaddle.org/) | [GitHub](https://github.com/paddlepaddle/paddle)
 
 PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
@@ -251,6 +260,18 @@ Key Benefits:
 * Interoperability: Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
 * Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
 
+## JAX | [GitHub](https://github.com/google/jax) | Google
+
+JAX is Autograd and XLA, brought together for high-performance numerical computing, including large-scale machine learning research.
+
+## Acme | [GitHub](https://github.com/google-deepmind/acme) | Google Brain & DeepMind
+
+Acme is a library of reinforcement learning (RL) building blocks that strives to expose simple, efficient, and readable agents. These agents first and foremost serve both as reference implementations as well as providing strong baselines for algorithm performance. However, the baseline agents exposed by Acme should also provide enough flexibility and simplicity that they can be used as a starting block for novel research. Finally, the building blocks of Acme are designed in such a way that the agents can be run at multiple scales (e.g. single-stream vs. distributed agents).
+
+## [Gymnasium](https://gymnasium.farama.org/) | [GitHub](https://github.com/Farama-Foundation/Gymnasium) | OpenAI
+
+Gymnasium is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. This is a fork of OpenAI's Gym library by its maintainers (OpenAI handed over maintenance a few years ago to an outside team), and is where future maintenance will occur going forward.
+
 ---
 
 ### Reference
@@ -302,3 +323,9 @@ Key Benefits:
 - Customizing fit() with PyTorch Keras, https://keras.io/guides/custom_train_step_in_torch/, 2024-02-15-Thu.
 - Customizing fit() with JAX Keras, https://keras.io/guides/custom_train_step_in_jax/, 2024-02-15-Thu.
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
+- PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2024-02-20-Tue.
+- JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
+- JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
+- Acme GitHub, https://github.com/google-deepmind/acme, 2024-02-20-Tue.
+- Gymnasium, https://gymnasium.farama.org/, 2024-02-20-Tue.
+- Gymnasium GitHub, https://github.com/Farama-Foundation/Gymnasium, 2024-02-20-Tue.
