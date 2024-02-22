@@ -1,4 +1,4 @@
-# :hammer_and_wrench: Framework | [Nvidia](https://developer.ibm.com/articles/compare-deep-learning-frameworks/) | [IBM](https://developer.ibm.com/articles/compare-deep-learning-frameworks/)
+![image](https://github.com/inyong37/Study/assets/20737479/8aacdf05-9e87-4dc4-96ea-afdb82df2303)# :hammer_and_wrench: Framework | [Nvidia](https://developer.ibm.com/articles/compare-deep-learning-frameworks/) | [IBM](https://developer.ibm.com/articles/compare-deep-learning-frameworks/)
 
 Deep Learning (DL) frameworks offer building blocks for designing, training, and validating deep neural networks through a high-level programming interface. Widely-used DL frameworks, such as PyTorch, TensorFlow, PyTorch Geometric, DGL, and others, rely on GPU-accelerated libraries, such as cuDNN, NCCL, and DALI to deliver high-performance, multi-GPU-accelerated training.
 
@@ -26,7 +26,7 @@ Open Source Computer Vision Library[Ref]
 
 OpenCV is built with CMake, cpp, and h.
 
-## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models)
+## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models) | [tensorflow/python/keras](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/keras)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
 
@@ -56,7 +56,7 @@ Resources:
 - [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 
-## :hammer: [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | Merged to TensorFlow
+### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models]
 
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
@@ -116,7 +116,7 @@ Merged into TensorFlow
 
 [Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
-## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html)
+## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html) | [torch/nn](https://github.com/pytorch/pytorch/tree/main/torch/nn)
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
@@ -175,7 +175,7 @@ Caffe is a deep learning framework made with expression, speed, and modularity i
 
 Caffe is built with CMake and Docker.
 
-## [Caffe2](https://caffe2.ai/)
+### [Caffe2](https://caffe2.ai/)
 
 Caffe2 is now a part of PyTorch.
 
@@ -191,7 +191,7 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 
 [CNTK is no longer actively developed.](https://docs.microsoft.com/en-us/cognitive-toolkit/releasenotes/cntk_2_7_release_notes)
 
-## :hammer: [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html) | [Open Model Zoo](https://github.com/openvinotoolkit/open_model_zoo)
+### [OpenVINO](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit.html) | [Docs](https://docs.openvinotoolkit.org/latest/index.html) | [Open Model Zoo](https://github.com/openvinotoolkit/open_model_zoo)
 
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
 
@@ -213,7 +213,7 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
 
-### [Apache MXNet](https://mxnet.apache.org/versions/1.9.0/) | [Attic](https://attic.apache.org/projects/mxnet.html) - Deprecated
+### [MXNet](https://mxnet.apache.org/versions/1.9.0/) | Apache | [Attic](https://attic.apache.org/projects/mxnet.html) - Deprecated
 
 MXNet is a DL framework designed for both efficiency and flexibility. It allows you to mix the flavors of symbolic programming and imperative programming to maximize efficiency and productivity.
 
@@ -221,7 +221,7 @@ At its core is a dynamic dependency scheduler that automatically parallelizes bo
 
 This project has retired. Apache MXNet moved into the Attic in 2023-09.
 
-### [MATLAB](https://www.mathworks.com/products/matlab.html)
+## [MATLAB](https://www.mathworks.com/products/matlab.html)
 
 MATLAB makes DL easy for engineers, scientists, and domain experts. With tools and functions for managing and labeling large data sets, MATLAB also offers specialized toolboxes for working with machine learning, neural networks, computer vision, and automated driving. With just a few lines of code, MATLAB allows you to create and visualize models, and deploy models to servers and embedded devices without being an expert. MATLAB also enables users to automatically generate high performance CUDA code for DL and vision applications from MATLAB code.
 
@@ -266,17 +266,41 @@ Key Benefits:
 * Interoperability: Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
 * Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
 
-## JAX | [GitHub](https://github.com/google/jax) | Google
+---
+
+## :hammer_and_wrench: JAX | [GitHub](https://github.com/google/jax) | Google | [stax](https://github.com/google/jax/blob/main/jax/example_libraries/stax.py)
 
 JAX is Autograd and XLA, brought together for high-performance numerical computing, including large-scale machine learning research.
 
-## Acme | [GitHub](https://github.com/google-deepmind/acme) | Google Brain & DeepMind
+### [Flax](https://flax.readthedocs.io/en/latest/) | [GitHub](https://github.com/google/flax) | [flax/core/nn](https://github.com/google/flax/tree/main/flax/core/nn)
+
+Flax is a neural network library for JAX that is designed for flexibility.
+
+### [Haiku](https://dm-haiku.readthedocs.io/en/latest/) | [GitHub](https://github.com/google-deepmind/dm-haiku) | [haiku/_src](https://github.com/google-deepmind/dm-haiku/tree/main/haiku/_src)
+
+JAX-based neural network library
+
+### Acme | [GitHub](https://github.com/google-deepmind/acme) | Google Brain & DeepMind
 
 Acme is a library of reinforcement learning (RL) building blocks that strives to expose simple, efficient, and readable agents. These agents first and foremost serve both as reference implementations as well as providing strong baselines for algorithm performance. However, the baseline agents exposed by Acme should also provide enough flexibility and simplicity that they can be used as a starting block for novel research. Finally, the building blocks of Acme are designed in such a way that the agents can be run at multiple scales (e.g. single-stream vs. distributed agents).
 
-## [Gymnasium](https://gymnasium.farama.org/) | [GitHub](https://github.com/Farama-Foundation/Gymnasium) | OpenAI
+### [Gymnasium](https://gymnasium.farama.org/) | [GitHub](https://github.com/Farama-Foundation/Gymnasium) | OpenAI
 
 Gymnasium is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. This is a fork of OpenAI's Gym library by its maintainers (OpenAI handed over maintenance a few years ago to an outside team), and is where future maintenance will occur going forward.
+
+## :hammer_and_wrench: [Chainer](https://chainer.org/) | [GitHub](https://github.com/chainer/chainer) | [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
+
+A flexible framework of neural networks for deep learning
+
+### ChainerRL | [GitHub](https://github.com/chainer/chainerrl)
+
+ChainerRL is a deep reinforcement learning library built on top of Chainer.
+
+### ChainerCV | [GitHub](https://github.com/chainer/chainercv)
+
+ChainerCV: a Library for Deep Learning in Computer Vision
+
+This repository has been archived by the owner on Jul 2, 2021. It is now read-only.
 
 ---
 
