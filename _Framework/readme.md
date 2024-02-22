@@ -1,4 +1,4 @@
-![image](https://github.com/inyong37/Study/assets/20737479/8aacdf05-9e87-4dc4-96ea-afdb82df2303)# :hammer_and_wrench: Framework | [Nvidia](https://developer.ibm.com/articles/compare-deep-learning-frameworks/) | [IBM](https://developer.ibm.com/articles/compare-deep-learning-frameworks/)
+# :hammer_and_wrench: Framework | [Nvidia](https://developer.ibm.com/articles/compare-deep-learning-frameworks/) | [IBM](https://developer.ibm.com/articles/compare-deep-learning-frameworks/)
 
 Deep Learning (DL) frameworks offer building blocks for designing, training, and validating deep neural networks through a high-level programming interface. Widely-used DL frameworks, such as PyTorch, TensorFlow, PyTorch Geometric, DGL, and others, rely on GPU-accelerated libraries, such as cuDNN, NCCL, and DALI to deliver high-performance, multi-GPU-accelerated training.
 
