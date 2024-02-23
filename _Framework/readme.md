@@ -56,7 +56,7 @@ Resources:
 - [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 
-### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models]
+### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models)
 
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
 
