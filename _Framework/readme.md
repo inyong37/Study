@@ -26,6 +26,8 @@ Open Source Computer Vision Library[Ref]
 
 OpenCV is built with CMake, cpp, and h.
 
+# Deep Learning
+
 ## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models) | [tensorflow/python/keras](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/keras)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
@@ -113,8 +115,6 @@ Merged into TensorFlow
 * [Distributed training with TensorFlow](https://keras.io/guides/distributed_training_with_tensorflow/)
 * [Distributed training with PyTorch](https://keras.io/guides/distributed_training_with_torch/)
 * [Distributed training with JAX](https://keras.io/guides/distributed_training_with_jax/)
-
-[Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html) | [torch/nn](https://github.com/pytorch/pytorch/tree/main/torch/nn)
 
@@ -301,6 +301,14 @@ ChainerRL is a deep reinforcement learning library built on top of Chainer.
 ChainerCV: a Library for Deep Learning in Computer Vision
 
 This repository has been archived by the owner on Jul 2, 2021. It is now read-only.
+
+# Classical Machine Learning
+
+## [SciPy](https://scipy.org/) | [GitHub](https://github.com/scipy/scipy)
+
+## [SciKit Learn](https://scikit-learn.org/stable/) | [GitHub](https://github.com/scikit-learn/scikit-learn)
+
+[Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
 
 ---
 
