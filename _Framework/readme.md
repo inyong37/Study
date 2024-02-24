@@ -169,6 +169,10 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 
 [Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
 
+### [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
+
+High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
+
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
