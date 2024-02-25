@@ -28,6 +28,18 @@ OpenCV is built with CMake, cpp, and h.
 
 # Deep Learning
 
+||NN Engine|Model Building Modules|Extended Training Features|
+|:-:|:-:|:-:|:-:|
+|TensorFlow|O|O|O|
+|Keras|TensorFlow, ~~Theano~~, PyTorch, JAX|O|O|
+|PyTorch|O|O|O|
+|Lightning|PyTorch|PyTorch|O|
+|JAX|O|O|O|
+|Flax|JAX|O|O|
+|Haiku|JAX|O|O|
+
+Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
+
 ## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models) | [tensorflow/python/keras](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/keras)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
