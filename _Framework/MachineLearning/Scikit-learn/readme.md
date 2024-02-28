@@ -1,4 +1,4 @@
-# [scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn)
+# [Scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn)
 
 - Simple and efficient tools for perdictive data analysis
 - Accessible to everybody, and reusable in various contexts
