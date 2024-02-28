@@ -7,6 +7,8 @@
 
 scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license. The project was started in 2007 by David Cournapeau as a Google Summer of Code project, and since then many volunteers have contributed. It is currently maintained by a team of volunteers.
 
+[[2011] Scikit-learn: Machine Learning in Python (JMLR)](https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
+
 ## [I. Classification](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Identifying which category an object belongs to.
