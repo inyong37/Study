@@ -318,14 +318,6 @@ ChainerCV: a Library for Deep Learning in Computer Vision
 
 This repository has been archived by the owner on Jul 2, 2021. It is now read-only.
 
-# Classical Machine Learning
-
-## [SciPy](https://scipy.org/) | [GitHub](https://github.com/scipy/scipy)
-
-## [SciKit Learn](https://scikit-learn.org/stable/) | [GitHub](https://github.com/scikit-learn/scikit-learn)
-
-[Scikit-learn: Machine Learning in Python JMLR 2011](https://www.jmlr.org/papers/v12/pedregosa11a.html)
-
 ---
 
 ### Reference
