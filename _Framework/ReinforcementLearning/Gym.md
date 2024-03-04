@@ -10,6 +10,10 @@ All development of Gym has been moved to Gymnasium, a new package in the Farama 
 
 Read more about the Farama Foundation and the backstory of the transition from Gym to Gymnasium - Announcing The Farama Foundation: https://farama.org/Announcing-The-Farama-Foundation
 
+### Important Notice
+
+The team that has been maintaining Gym since 2021 has moved all future development to Gymnasium, a drop in replacement for Gym (import gymnasium as gym), and Gym will not be receiving any future updates. Please switch over to Gymnasium as soon as you're able to do so. If you'd like to read more about the story behind this switch, please check out this blog post.
+
 ---
 
 ### Reference
