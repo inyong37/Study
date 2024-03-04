@@ -296,14 +296,6 @@ Flax is a neural network library for JAX that is designed for flexibility.
 
 JAX-based neural network library
 
-### Acme | [GitHub](https://github.com/google-deepmind/acme) | Google Brain & DeepMind
-
-Acme is a library of reinforcement learning (RL) building blocks that strives to expose simple, efficient, and readable agents. These agents first and foremost serve both as reference implementations as well as providing strong baselines for algorithm performance. However, the baseline agents exposed by Acme should also provide enough flexibility and simplicity that they can be used as a starting block for novel research. Finally, the building blocks of Acme are designed in such a way that the agents can be run at multiple scales (e.g. single-stream vs. distributed agents).
-
-### [Gymnasium](https://gymnasium.farama.org/) | [GitHub](https://github.com/Farama-Foundation/Gymnasium) | OpenAI
-
-Gymnasium is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. This is a fork of OpenAI's Gym library by its maintainers (OpenAI handed over maintenance a few years ago to an outside team), and is where future maintenance will occur going forward.
-
 ## :hammer_and_wrench: [Chainer](https://chainer.org/) | [GitHub](https://github.com/chainer/chainer) | [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
 
 A flexible framework of neural networks for deep learning
@@ -372,6 +364,3 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2024-02-20-Tue.
 - JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
 - JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
-- Acme GitHub, https://github.com/google-deepmind/acme, 2024-02-20-Tue.
-- Gymnasium, https://gymnasium.farama.org/, 2024-02-20-Tue.
-- Gymnasium GitHub, https://github.com/Farama-Foundation/Gymnasium, 2024-02-20-Tue.
