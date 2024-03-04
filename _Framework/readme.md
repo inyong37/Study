@@ -128,6 +128,8 @@ Merged into TensorFlow
 * [Distributed training with PyTorch](https://keras.io/guides/distributed_training_with_torch/)
 * [Distributed training with JAX](https://keras.io/guides/distributed_training_with_jax/)
 
+Created by [François Chollet](https://fchollet.com/)
+
 ## :hammer: [PyTorch](https://pytorch.org/) | [GitHub](https://github.com/pytorch/pytorch) | [Tutorial](https://pytorch.org/tutorials/) | [Tutorial (KR)](https://tutorials.pytorch.kr/) | [Model Zoo](https://pytorch.org/serve/model_zoo.html) | [torch/nn](https://github.com/pytorch/pytorch/tree/main/torch/nn)
 
 Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
@@ -364,3 +366,4 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2024-02-20-Tue.
 - JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
 - JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
+- François Chollet, https://fchollet.com/, 2024-03-04-Mon.
