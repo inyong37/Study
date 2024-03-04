@@ -6,7 +6,7 @@ keras-rl implements some state-of-the art deep reinforcement learning algorithms
 
 Furthermore, keras-rl works with OpenAI Gym out of the box. This means that evaluating and playing around with different algorithms is easy.
 
-The last release was on May 1, 2018.
+:construction: The last release was on May 1, 2018.
 
 ---
 
