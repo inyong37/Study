@@ -4,7 +4,7 @@ A toolkit for developing and comparing reinforcement learning algorithms.
 
 Gym is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. Since its release, Gym's API has become the field standard for doing this.
 
-The last release was on Oct 5, 2022.
+:construction: The last release was on Oct 5, 2022.
 
 ### Gym Documentation
 
