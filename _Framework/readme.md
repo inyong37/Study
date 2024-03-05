@@ -236,8 +236,6 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 * What if I'm a Hobbyist?: TensorFlow or PyTorch
 * What if I'm a Total Beginner?: Keras-TensorFlow-PyTorch
 
-[Jax vs PyTorch 2024](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/)
-
 ### [PaddlePaddle](https://www.paddlepaddle.org/) | [GitHub](https://github.com/paddlepaddle/paddle)
 
 PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
@@ -296,10 +294,6 @@ Key Benefits:
 * Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
 
 ---
-
-## :hammer_and_wrench: JAX | [GitHub](https://github.com/google/jax) | Google | [stax](https://github.com/google/jax/blob/main/jax/example_libraries/stax.py)
-
-JAX is Autograd and XLA, brought together for high-performance numerical computing, including large-scale machine learning research.
 
 ### [Flax](https://flax.readthedocs.io/en/latest/) | [GitHub](https://github.com/google/flax) | [flax/core/nn](https://github.com/google/flax/tree/main/flax/core/nn)
 
@@ -375,8 +369,6 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 - Customizing fit() with JAX Keras, https://keras.io/guides/custom_train_step_in_jax/, 2024-02-15-Thu.
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2024-02-20-Tue.
-- JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
-- JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
 - François Chollet, https://fchollet.com/, 2024-03-04-Mon.
 - Low Level Introduction GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md, 2024-03-05-Tue.
 - Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
