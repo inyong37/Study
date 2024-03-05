@@ -252,6 +252,12 @@ This project has retired. Apache MXNet moved into the Attic in 2023-09.
 
 MATLAB makes DL easy for engineers, scientists, and domain experts. With tools and functions for managing and labeling large data sets, MATLAB also offers specialized toolboxes for working with machine learning, neural networks, computer vision, and automated driving. With just a few lines of code, MATLAB allows you to create and visualize models, and deploy models to servers and embedded devices without being an expert. MATLAB also enables users to automatically generate high performance CUDA code for DL and vision applications from MATLAB code.
 
+`JAX and Chain have moved to the _DeepLearning Folder/Directory.`
+
+`Machine Learning Frameworks and Libraries (AutoSklearn, H2Oai, SciPy, and ScikitLearn) have moved to the _MachineLearning Folder/Directory.`
+
+`Reinforcement Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
+
 ---
 
 ### [Weights & Biases](https://wandb.ai/site)
@@ -292,30 +298,6 @@ ONNX is an open format built to represent machine learning models. ONNX defines 
 Key Benefits:
 * Interoperability: Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
 * Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
-
----
-
-### [Flax](https://flax.readthedocs.io/en/latest/) | [GitHub](https://github.com/google/flax) | [flax/core/nn](https://github.com/google/flax/tree/main/flax/core/nn)
-
-Flax is a neural network library for JAX that is designed for flexibility.
-
-### [Haiku](https://dm-haiku.readthedocs.io/en/latest/) | [GitHub](https://github.com/google-deepmind/dm-haiku) | [haiku/_src](https://github.com/google-deepmind/dm-haiku/tree/main/haiku/_src)
-
-JAX-based neural network library
-
-## :hammer_and_wrench: [Chainer](https://chainer.org/) | [GitHub](https://github.com/chainer/chainer) | [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
-
-A flexible framework of neural networks for deep learning
-
-### ChainerRL | [GitHub](https://github.com/chainer/chainerrl)
-
-ChainerRL is a deep reinforcement learning library built on top of Chainer.
-
-### ChainerCV | [GitHub](https://github.com/chainer/chainercv)
-
-ChainerCV: a Library for Deep Learning in Computer Vision
-
-This repository has been archived by the owner on Jul 2, 2021. It is now read-only.
 
 ---
 
