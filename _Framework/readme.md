@@ -377,3 +377,5 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 - JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
 - JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
 - François Chollet, https://fchollet.com/, 2024-03-04-Mon.
+- Low Level Introduction GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md, 2024-03-05-Tue.
+- Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
