@@ -79,6 +79,7 @@ Resources:
 
 - [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
 - [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
+- [What's new in TensorFlow and Keras](https://blog.tensorflow.org/2023/05/google-io-2023-whats-new-in-tensorflow-and-keras.html)
 
 ### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models)
 
@@ -379,3 +380,4 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 - François Chollet, https://fchollet.com/, 2024-03-04-Mon.
 - Low Level Introduction GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md, 2024-03-05-Tue.
 - Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
+- What's new in TensorFlow and Keras, https://blog.tensorflow.org/2023/05/google-io-2023-whats-new-in-tensorflow-and-keras.html, 2024-03-05-Tue.
