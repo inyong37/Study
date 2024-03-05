@@ -7,7 +7,7 @@ Models:
 
 ### Comparison with Other Deep Learning Frameworks
 
-[2024 Jax vs. PyTorch](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/)
+[2024 Jax vs. PyTorch](https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks)
 
 ---
 
