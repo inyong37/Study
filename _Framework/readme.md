@@ -54,6 +54,16 @@ TensorFlow provides stable Python and C++ APIs, as well as non-guaranted backwar
 
 [Python venv: How To Create, Activate, Deactivate, And Delete](https://python.land/virtual-environments/virtualenv)
 
+### [TensorFlow Documentation](https://github.com/tensorflow/docs)
+
+TensorFlow:
+* [Low Level Introduction](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md)
+  * Building the computational graph: `tf.Graph`
+    * The nodes of the graph (ops): `tf.Operation`
+    * The edges in the graph: `tf.Tensor`
+  * Running the computational graph: `tf.Session`
+* [Architecture](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md)
+
 ### [TensorFlow Hub](https://tfhub.dev/)
 
 The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-deploy machine learning models in one place.
