@@ -2,7 +2,7 @@
 
 Stable Baselines3 (SB3) is a set of reliable implementations of reinforcement learning algorithms in PyTorch.
 
-[[2021] Stable-Baselines3: Reliable Reinforcement Learning Implementations (JMLR)](https://jmlr.org/papers/volume22/20-1364/20-1364.pdf)
+[[2021] Stable-Baselines3, Reliable Reinforcement Learning Implementations (JMLR)](https://jmlr.org/papers/volume22/20-1364/20-1364.pdf)
 
 ---
 
