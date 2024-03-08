@@ -240,23 +240,11 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
 
-### [MXNet](https://mxnet.apache.org/versions/1.9.0/) | Apache | [Attic](https://attic.apache.org/projects/mxnet.html) - Deprecated
-
-MXNet is a DL framework designed for both efficiency and flexibility. It allows you to mix the flavors of symbolic programming and imperative programming to maximize efficiency and productivity.
-
-At its core is a dynamic dependency scheduler that automatically parallelizes both symbolic and imperative operations on-the-fly. A graph optimization layer on top of that makes symbolic execution fast and memory efficient. The library is portable and lightweight, and it scales to multiple GPUs and machines.
-
-This project has retired. Apache MXNet moved into the Attic in 2023-09.
-
-## [MATLAB](https://www.mathworks.com/products/matlab.html)
-
-MATLAB makes DL easy for engineers, scientists, and domain experts. With tools and functions for managing and labeling large data sets, MATLAB also offers specialized toolboxes for working with machine learning, neural networks, computer vision, and automated driving. With just a few lines of code, MATLAB allows you to create and visualize models, and deploy models to servers and embedded devices without being an expert. MATLAB also enables users to automatically generate high performance CUDA code for DL and vision applications from MATLAB code.
-
-`JAX and Chain have moved to the _DeepLearning Folder/Directory.`
+`Some of Deep Learning Frameworks and Libraries (MXNet, MATLAB, PaddlePaddle, JAX, and Chain have moved to the _DeepLearning Folder/Directory.`
 
 `Machine Learning Frameworks and Libraries (AutoSklearn, H2Oai, SciPy, and ScikitLearn) have moved to the _MachineLearning Folder/Directory.`
 
-`Reinforcement Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
+`Reinforcement Learning Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
 
 ---
 
@@ -339,8 +327,6 @@ Key Benefits:
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
 - Nvidia Deep Learning Frameworks, https://developer.nvidia.com/deep-learning-frameworks, 2024-02-08-Thu.
 - IBM Deep Learning Frameworks, https://developer.ibm.com/articles/compare-deep-learning-frameworks/, 2024-02-08-Thu.
-- Apache MXNet, https://mxnet.apache.org/versions/1.9.0/, 2024-02-08-Thu.
-- Apache MXNet Attic, https://attic.apache.org/, 2024-02-08-Thu.
 - Caffe2, https://caffe2.ai/, 2024-02-15-Thu.
 - PyTorch NIPS 2019, https://dl.acm.org/doi/10.5555/3454287.3455008, 2024-02-15-Thu.
 - SciKit-Learn JMLR 2011, https://www.jmlr.org/papers/v12/pedregosa11a.html, 2024-02-15-Thu.
