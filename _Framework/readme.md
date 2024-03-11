@@ -20,8 +20,6 @@ Open Source Computer Vision Library[Ref]
 
 OpenCV is built with CMake, cpp, and h.
 
-# Deep Learning
-
 ## :hammer: [TensorFlow](https://www.tensorflow.org/) | [GitHub](https://github.com/tensorflow/tensorflow) | [Model Garden](https://github.com/tensorflow/models) | [tensorflow/python/keras](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/keras)
 
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that lets researchs push the state-of-the-art in ML and developers easily build and deploy ML-powered applications.
