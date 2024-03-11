@@ -264,21 +264,6 @@ Detectron is deprecated. Please see detectron2, a ground-up rewrite of Detectron
 
 Detectron2 is Facebook AI Research's next generation library that provides state-of-the-art detection and segmentation algorithms. It is the successor of Detectron and maskrcnn-benchmark. It supports a number of computer vision research projects and production applications in Facebook.
 
-### [OpenMMLab](https://openmmlab.com/) | [GitHub](https://github.com/open-mmlab)
-
-OpenMMLab builds the most influential open-source computer vision algorithm system in the deep learning era. It aims to
-
-* provide high-quality libraries to reduce the difficulties in algorithm reimplementation
-* create efficient deployment toolchains targeting a variety of backends and devices
-* build a solid foundation for computer vision research and development
-* bridge the gap between academic research and industrial applications with full-stack toolchains
-
-Based on PyTorch, OpenMMLab develops MMEngine to provide universal training and evaluation egine, and MMCV to profice neural network operators and data transforms, which serves as a foundation of the whole project. Since the initial release in October 2018, OpenMMLab has release 30+ vision libraries, has implemented 300+ algorithms, and contains 2000+ pre-trained models.
-
-### [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
-
-MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
-
 ### [ONNX: Open Neural Network Exchange](https://onnx.ai/) | [GitHub](https://github.com/onnx/onnx) | [Model Zoo](https://github.com/onnx/models)
 
 ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
@@ -315,7 +300,6 @@ Key Benefits:
 - fastai, https://docs.fast.ai/, 2022-01-15-Sat.
 - Detectron, https://github.com/facebookresearch/Detectron, 2022-02-16-Wed.
 - detectron2, https://github.com/facebookresearch/detectron2, 2022-02-16-Wed.
-- MMDetection, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
 - TensorFlow Certificate Program, https://www.tensorflow.org/certificate, 2022-10-18-Tue.
 - DeepLearning.AI TensorFlow Developer Professional Certificate Coursera, https://www.coursera.org/professional-certificates/tensorflow-in-practice, 2022-10-18-Tue.
 - Intro to TensorFlow for Deep Learning Udacity, https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187, 2022-10-18-Tue.
