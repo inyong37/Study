@@ -21,9 +21,15 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 
 ## :hammer_and_wrench: Frameworks and Libraries :books:
 
+## :hammer_and_wrench: PyTorch
+
 ### :books: [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
 
 High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
+
+### :books: [fastai](https://docs.fast.ai/)
+
+fastai simplifies training fast and accurate neural nets using modern best practices.
 
 ---
 
