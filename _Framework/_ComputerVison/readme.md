@@ -13,10 +13,15 @@ Based on PyTorch, OpenMMLab develops MMEngine to provide universal training and 
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
+## [PaddlePaddle](https://www.paddlepaddle.org/) | [GitHub](https://github.com/paddlepaddle/paddle)
+
+PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
+
 ---
 
 ### Reference
 - MMDetection, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
 - OpenMMLab, https://openmmlab.com, 2024-01-31-Wed.
 - OpenMMLab GitHub, https://github.com/open-mmlab, 2024-01-31-Wed.
- 
+- PaddlePaddle, https://www.paddlepaddle.org/, 2024-02-08-Thu.
+- PaddlePaddle GitHub, https://github.com/paddlepaddle/paddle, 2024-02-08-Thu.
