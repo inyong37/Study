@@ -131,47 +131,6 @@ PyTorch is built with submodule or bazel.
 
 [PyTorch: an imperative style, high-performance deep learning library NIPS 2019](https://dl.acm.org/doi/10.5555/3454287.3455008)
 
-### [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) | [GitHub](https://github.com/Lightning-AI/pytorch-lightning)
-
-PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
-
-[trainer.py](https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/trainer/trainer.py):
-* fit: Runs the full optimization routine.
-* validate: Perform one evaluation epoch over the validation set.
-* test: Perform one evaluation epoch over the test set. It's separated from fit to make sure you never run on your test set until you want to.
-* predict: Run inference on your data. This will call the model forward function to compute predictions. Useful to perform distributed and batched predictions. Logging is disabled in the predict hooks.
-
-[Callbacks](https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html):
-* BackboneFinetuning
-* BaseFinetuning
-* BasePredictionWriter
-* BatchSizeFinder
-* Callback
-* DeviceStatsMonitor
-* EarlyStopping
-* GradientAccumulationScheduler
-* LambdaCallback
-* LearningRateFinder
-* LearningRateMonitor
-* ModelCheckpoint
-* ModelPruning
-* ModelSummary
-* ProgressBar
-* RichModelSummary
-* RichProgressBar
-* StochasticWeightAveraging
-* Timer
-* TQDMProgressBar
-
-[Accelerator](https://lightning.ai/docs/pytorch/stable/extensions/accelerator.html):
-* Accelerator
-* CPUAccelerator
-* CUDAAccelerator
-* MPSAccelerator
-* XLAAccelerator
-
-[Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
-
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
@@ -260,7 +219,6 @@ Key Benefits:
 - Customizing fit() with TensorFlow Keras, https://keras.io/guides/custom_train_step_in_tensorflow/, 2024-02-15-Thu.
 - Customizing fit() with PyTorch Keras, https://keras.io/guides/custom_train_step_in_torch/, 2024-02-15-Thu.
 - Customizing fit() with JAX Keras, https://keras.io/guides/custom_train_step_in_jax/, 2024-02-15-Thu.
-- PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
 - François Chollet, https://fchollet.com/, 2024-03-04-Mon.
 - Low Level Introduction GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md, 2024-03-05-Tue.
 - Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
