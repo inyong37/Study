@@ -1,4 +1,20 @@
-# [Scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn)
+# Machine Learning
+
+---
+
+# :hammer_and_wrench: Frameworks and Libraries :books:
+
+## :hammer_and_wrench: [auto-sklearn](https://automl.github.io/auto-sklearn/master/) | [GitHub](https://github.com/automl/auto-sklearn)
+
+auto-sklearn is an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator.
+
+## :hammer_and_wrench: [H2O.ai](https://h2o.ai/) | [GitHub](https://github.com/h2oai)
+
+## :hammer_and_wrench: [SciPy](https://scipy.org/) | [GitHub](https://github.com/scipy/scipy)
+
+Fundamental algorithms for scientific computing in Python.
+
+## :hammer_and_wrench:  [Scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn)
 
 - Simple and efficient tools for perdictive data analysis
 - Accessible to everybody, and reusable in various contexts
@@ -9,7 +25,7 @@ scikit-learn is a Python module for machine learning built on top of SciPy and i
 
 [[2011] Scikit-learn: Machine Learning in Python (JMLR)](https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html)
 
-## [I. Classification](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+### [I. Classification](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Identifying which category an object belongs to.
 
@@ -17,7 +33,7 @@ Applications: Spam detections, image recognition.
 
 Algorithms: Gradient boosting, [nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [random forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees), logistic regression, [SVM](https://scikit-learn.org/stable/modules/svm.html), and more...
 
-## [II. Regression](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+### [II. Regression](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 Prediciton a continuous-valued atttribute assicated with an object.
 
@@ -25,7 +41,7 @@ Applications: Drug response, Stock prices.
 
 Algorithms: Gradient boosting, [nearest neighbors](https://scikit-learn.org/stable/modules/neighbors.html), [random forest](https://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees), ridege, SVR, and more...
 
-## [III. Clustering](https://scikit-learn.org/stable/modules/clustering.html#clustering)
+### [III. Clustering](https://scikit-learn.org/stable/modules/clustering.html#clustering)
 
 Automatic grouping of similar objects into sets.
 
@@ -33,7 +49,7 @@ Applications: Customer segmentation, Grouping experiment outcomes.
 
 Algorithms: k-Means, HDBSCAN, hierarchical clustering, spectral clustering, mean-shift, and more...
 
-## [IV. Dimensionality reduction](https://scikit-learn.org/stable/modules/decomposition.html)
+### [IV. Dimensionality reduction](https://scikit-learn.org/stable/modules/decomposition.html)
 
 Reducing the number of random variables to consider.
 
@@ -41,7 +57,7 @@ Applications: Visualization, Increased efficiency.
 
 Algorithms: PCA, feature selection, non-negative matrix factorization, and more...
 
-## [V. Model selection](https://scikit-learn.org/stable/model_selection.html)
+### [V. Model selection](https://scikit-learn.org/stable/model_selection.html)
 
 Comparing, validating, and choosing parameters and models.
 
@@ -49,7 +65,7 @@ Applications: Improved accuracy via parameter tuning.
 
 Algorithms: grid search, cross validation, metrics, and more...
 
-## [VI. Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+### [VI. Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
 
 Feature extraction and normalization.
 
@@ -57,7 +73,7 @@ Applications: Transforming input data such as text for use with machine learning
 
 Algorithms: preprocessing, feature extraction, and more...
 
-## [1. Supervised learning](https://scikit-learn.org/stable/supervised_learning.html)
+### [1. Supervised learning](https://scikit-learn.org/stable/supervised_learning.html)
 
 1. Linear Models
 2. Linear and Quadratic Discriminant Analysis
@@ -77,7 +93,7 @@ Algorithms: preprocessing, feature extraction, and more...
 16. Probability calibration
 17. Neural network models (supervised)
 
-## [2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+### [2. Unsupervised learning](https://scikit-learn.org/stable/unsupervised_learning.html)
 
 1. Gaussian mixture models
 2. Manifold learning
@@ -101,3 +117,9 @@ Algorithms: preprocessing, feature extraction, and more...
 - scikit-learn GitHub, https://github.com/scikit-learn/scikit-learn, 2024-02-02-Fri.
 - Supervised learning, https://scikit-learn.org/stable/supervised_learning.html, 2024-02-02-Fri.
 - Unsupervised learning, https://scikit-learn.org/stable/unsupervised_learning.html, 2024-02-02-Fri.
+- auto-sklearn, https://automl.github.io/auto-sklearn/master/, 2024-02-28-Wed.
+- auto-sklearn GitHub, https://github.com/automl/auto-sklearn, 2024-02-28-Wed.
+- H2O.ai, https://h2o.ai/, 2024-02-28-Wed.
+- H2O.ai GitHub, https://github.com/h2oai, 2024-02-28-Wed.
+- SciPy, https://scipy.org/, 2024-02-28-Wed.
+- SciPy GitHub, https://github.com/scipy/scipy, 2024-02-28-Wed.
