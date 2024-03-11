@@ -1,4 +1,4 @@
-# [OpenMMLab](https://openmmlab.com/) | [GitHub](https://github.com/open-mmlab)
+## [OpenMMLab](https://openmmlab.com/) | [GitHub](https://github.com/open-mmlab)
 
 OpenMMLab builds the most influential open-source computer vision algorithm system in the deep learning era. It aims to
 
@@ -9,7 +9,7 @@ OpenMMLab builds the most influential open-source computer vision algorithm syst
 
 Based on PyTorch, OpenMMLab develops MMEngine to provide universal training and evaluation egine, and MMCV to profice neural network operators and data transforms, which serves as a foundation of the whole project. Since the initial release in October 2018, OpenMMLab has release 30+ vision libraries, has implemented 300+ algorithms, and contains 2000+ pre-trained models.
 
-## [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
+### [OpenMMLab MMDetection](https://github.com/open-mmlab/mmdetection)
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
