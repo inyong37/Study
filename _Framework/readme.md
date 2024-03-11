@@ -157,17 +157,9 @@ The Microsoft Cognitive Toolkit (CNTK) is an open-source toolkit for commercial-
 
 OpenVINO toolkit is a comprehensive toolkit for quickly developing applications and solutions that solve a variety of tasks including emulation of human vision, automatic speech recognition, natural language processing, recommendation systems, and many others. Based on latest generations of artificial neural networks, including Convolutional Neural Networks (CNNs), recurrent and attention-based networks, the toolkit extends computer vision and non-vision workloads across Intel® hardware, maximizing performance. It accelerates applications with high-performance, AI and deep learning inference deployed from edge to cloud.
 
-`Some of Computer Vision Frameworks and Libraries (OpenMMLab, and PaddlePaddle) have moved to the _ComputerVision Folder/Directory.`
-
-`Machine Learning Frameworks and Libraries (AutoSklearn, H2Oai, SciPy, and ScikitLearn) have moved to the _MachineLearning Folder/Directory.`
-
-`Some of Deep Learning Frameworks and Libraries (MXNet, MATLAB, PaddlePaddle, JAX, and Chain have moved to the _DeepLearning Folder/Directory.`
-
-`Reinforcement Learning Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
-
----
-
 ### [Weights & Biases](https://wandb.ai/site)
+
+The Weights & Biases MLOps platform helps AI developers streamline their ML workflow from end-to-end.
 
 ### [ONNX: Open Neural Network Exchange](https://onnx.ai/) | [GitHub](https://github.com/onnx/onnx) | [Model Zoo](https://github.com/onnx/models)
 
@@ -176,6 +168,14 @@ ONNX is an open format built to represent machine learning models. ONNX defines 
 Key Benefits:
 * Interoperability: Develop in your preferred framework without worrying about downstream inferencing implications. ONNX enables you to use your preferred framework with your chosen inference engine.
 * Hardware Access: ONNX makes it easier to access hardware optimizations. Use ONNX-compatible runtimes and libraries designed to maximize performance across hardware.
+
+`Some of Computer Vision Frameworks and Libraries (OpenMMLab, and PaddlePaddle) have moved to the _ComputerVision Folder/Directory.`
+
+`Machine Learning Frameworks and Libraries (AutoSklearn, H2Oai, SciPy, and ScikitLearn) have moved to the _MachineLearning Folder/Directory.`
+
+`Some of Deep Learning Frameworks and Libraries (MXNet, MATLAB, PaddlePaddle, JAX, and Chain have moved to the _DeepLearning Folder/Directory.`
+
+`Reinforcement Learning Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
 
 ---
 
