@@ -236,13 +236,11 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 * What if I'm a Hobbyist?: TensorFlow or PyTorch
 * What if I'm a Total Beginner?: Keras-TensorFlow-PyTorch
 
-### [PaddlePaddle](https://www.paddlepaddle.org/) | [GitHub](https://github.com/paddlepaddle/paddle)
-
-PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle is originated from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 10.7 million developers, 235,000 companies and generating 860,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
-
-`Some of Deep Learning Frameworks and Libraries (MXNet, MATLAB, PaddlePaddle, JAX, and Chain have moved to the _DeepLearning Folder/Directory.`
+`Some of Computer Vision Frameworks and Libraries (OpenMMLab, and PaddlePaddle) have moved to the _ComputerVision Folder/Directory.`
 
 `Machine Learning Frameworks and Libraries (AutoSklearn, H2Oai, SciPy, and ScikitLearn) have moved to the _MachineLearning Folder/Directory.`
+
+`Some of Deep Learning Frameworks and Libraries (MXNet, MATLAB, PaddlePaddle, JAX, and Chain have moved to the _DeepLearning Folder/Directory.`
 
 `Reinforcement Learning Frameworks and Libraries (Acme, Gym, Gymnasium, and KerasRL) have moved to the _ReinforcementLearning Folder/Directory.`
 
