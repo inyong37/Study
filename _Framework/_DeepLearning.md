@@ -19,6 +19,14 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 
 ---
 
+## :hammer_and_wrench: Frameworks and Libraries :books:
+
+### :books: [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
+
+High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
+
+---
+
 ## Comparison
 
 [PyTorch vs TensorFlow 2023](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/)
@@ -36,5 +44,8 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 ---
 
 ### Reference
+- fastai, https://docs.fast.ai/, 2022-01-15-Sat.
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
+- PyTorch Ignite, https://pytorch-ignite.ai/, 2024-02-25-Sun.
+- PyTorch Ignite GitHub, https://github.com/pytorch/ignite, 2024-02-25-Sun.
