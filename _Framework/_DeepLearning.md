@@ -21,6 +21,23 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 
 ## :hammer_and_wrench: Frameworks and Libraries :books:
 
+## :hammer_and_wrench: [Chainer](https://chainer.org/) | [GitHub](https://github.com/chainer/chainer)
+
+A flexible framework of neural networks for deep learning.
+
+* Modeling Blocks:
+ * [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
+
+### :books: ChainerCV | [GitHub](https://github.com/chainer/chainercv)
+
+ChainerCV: a Library for Deep Learning in Computer Vision
+
+This repository has been archived by the owner on Jul 2, 2021. It is now read-only.
+
+### :books: ChainerRL | [GitHub](https://github.com/chainer/chainerrl)
+
+ChainerRL is a deep reinforcement learning library built on top of Chainer.
+
 ## :hammer_and_wrench: PyTorch
 
 ### :books: [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
@@ -92,5 +109,9 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
+- Chainer, https://chainer.org/, 2024-02-22-Thu.
+- Chainer GitHub, https://github.com/chainer/chainer, 2024-02-22-Thu.
+- ChainerCV GitHub, https://github.com/chainer/chainercv, 2024-02-22-Thu.
+- ChainerRL GitHub, https://github.com/chainer/chainerrl, 2024-02-22-Thu.
 - PyTorch Ignite, https://pytorch-ignite.ai/, 2024-02-25-Sun.
 - PyTorch Ignite GitHub, https://github.com/pytorch/ignite, 2024-02-25-Sun.
