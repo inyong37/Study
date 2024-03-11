@@ -31,6 +31,44 @@ High-level library to help with training and evaluating neural networks in PyTor
 
 fastai simplifies training fast and accurate neural nets using modern best practices.
 
+### :books: [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) | [GitHub](https://github.com/Lightning-AI/pytorch-lightning)
+
+PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
+
+* [trainer.py](https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/trainer/trainer.py):
+  * fit: Runs the full optimization routine.
+  * validate: Perform one evaluation epoch over the validation set.
+  * test: Perform one evaluation epoch over the test set. It's separated from fit to make sure you never run on your test set until you want to.
+  * predict: Run inference on your data. This will call the model forward function to compute predictions. Useful to perform distributed and batched predictions. Logging is disabled in the predict hooks.
+* [Callbacks](https://lightning.ai/docs/pytorch/stable/extensions/callbacks.html):
+  * BackboneFinetuning
+  * BaseFinetuning
+  * BasePredictionWriter
+  * BatchSizeFinder
+  * Callback
+  * DeviceStatsMonitor
+  * EarlyStopping
+  * GradientAccumulationScheduler
+  * LambdaCallback
+  * LearningRateFinder
+  * LearningRateMonitor
+  * ModelCheckpoint
+  * ModelPruning
+  * ModelSummary
+  * ProgressBar
+  * RichModelSummary
+  * RichProgressBar
+  * StochasticWeightAveraging
+  * Timer
+  * TQDMProgressBar
+* [Accelerator](https://lightning.ai/docs/pytorch/stable/extensions/accelerator.html):
+  * Accelerator
+  * CPUAccelerator
+  * CUDAAccelerator
+  * MPSAccelerator
+  * XLAAccelerator
+* [Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
+
 ---
 
 ## Comparison
@@ -53,5 +91,6 @@ fastai simplifies training fast and accurate neural nets using modern best pract
 - fastai, https://docs.fast.ai/, 2022-01-15-Sat.
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
+- PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
 - PyTorch Ignite, https://pytorch-ignite.ai/, 2024-02-25-Sun.
 - PyTorch Ignite GitHub, https://github.com/pytorch/ignite, 2024-02-25-Sun.
