@@ -1,3 +1,5 @@
+# Deep Learning
+
 :bulb: My Definition of Deep Learning Framework and Library is a framework gives constraints and a guidance to developers, and in DL, to build a model, a developer needs to use some model and layer classes. It makes a code to subordinated to a library. Therefore, a DL library can be a DL framework also in many cases.
 
 :bulb: I separate frameworks/libraries as three layers: top, middle, and bottom layer. The first top layer is the highest APIs such as callbacks, functions, optimizers, and losses. The second middle layer is the building models block such as models, and layers. The last bottom layer is a engine that can train the models as forwarding and back-propagation the values.
@@ -19,7 +21,7 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 
 ---
 
-## :hammer_and_wrench: Frameworks and Libraries :books:
+# :hammer_and_wrench: Frameworks and Libraries :books:
 
 ## :hammer_and_wrench: [Chainer](https://chainer.org/) | [GitHub](https://github.com/chainer/chainer)
 
