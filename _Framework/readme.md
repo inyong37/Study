@@ -210,10 +210,6 @@ OpenVINO toolkit is a comprehensive toolkit for quickly developing applications 
 
 ### [Weights & Biases](https://wandb.ai/site)
 
-### [fastai](https://docs.fast.ai/)
-
-fastai simplifies training fast and accurate neural nets using modern best practices.
-
 ### [ONNX: Open Neural Network Exchange](https://onnx.ai/) | [GitHub](https://github.com/onnx/onnx) | [Model Zoo](https://github.com/onnx/models)
 
 ONNX is an open format built to represent machine learning models. ONNX defines a common set of operators - the building blocks of machine learning and deep learning models - and a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
@@ -247,7 +243,6 @@ Key Benefits:
 - Inveresion of Control, https://martinfowler.com/bliki/InversionOfControl.html, 2021-08-10-Tue.
 - Framework vs. Library, https://www.c-sharpcorner.com/uploadfile/a85b23/framework-vs-library/, 2021-08-10-Tue.
 - Weights & Biases, https://wandb.ai/site, 2022-01-05-Wed.
-- fastai, https://docs.fast.ai/, 2022-01-15-Sat.
 - TensorFlow Certificate Program, https://www.tensorflow.org/certificate, 2022-10-18-Tue.
 - DeepLearning.AI TensorFlow Developer Professional Certificate Coursera, https://www.coursera.org/professional-certificates/tensorflow-in-practice, 2022-10-18-Tue.
 - Intro to TensorFlow for Deep Learning Udacity, https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187, 2022-10-18-Tue.
