@@ -9,7 +9,7 @@ OpenMMLab builds the most influential open-source computer vision algorithm syst
 
 Based on PyTorch, OpenMMLab develops MMEngine to provide universal training and evaluation egine, and MMCV to profice neural network operators and data transforms, which serves as a foundation of the whole project. Since the initial release in October 2018, OpenMMLab has release 30+ vision libraries, has implemented 300+ algorithms, and contains 2000+ pre-trained models.
 
-### [MMDetection](https://github.com/open-mmlab/mmdetection)
+### MMDetection | [GitHub](https://github.com/open-mmlab/mmdetection)
 
 MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project.
 
@@ -31,7 +31,7 @@ Detectron2 is Facebook AI Research's next generation library that provides state
 ### Reference
 - Detectron GitHub, https://github.com/facebookresearch/Detectron, 2022-02-16-Wed.
 - Detectron2 GitHub, https://github.com/facebookresearch/detectron2, 2022-02-16-Wed.
-- MMDetection, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
+- MMDetection GitHub, https://github.com/open-mmlab/mmdetection, 2022-02-16-Wed.
 - OpenMMLab, https://openmmlab.com, 2024-01-31-Wed.
 - OpenMMLab GitHub, https://github.com/open-mmlab, 2024-01-31-Wed.
 - PaddlePaddle, https://www.paddlepaddle.org/, 2024-02-08-Thu.
