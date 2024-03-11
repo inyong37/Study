@@ -40,6 +40,25 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 
 ChainerRL is a deep reinforcement learning library built on top of Chainer.
 
+## :hammer_and_wrench: HuggingFace
+
+### :books: [timm (PyTorch Image Models)](https://huggingface.co/timm) | [GitHub](https://github.com/huggingface/pytorch-image-models)
+
+PyTorch Image Models (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results.
+
+### :books: [Transformers](https://huggingface.co/docs/transformers/en/index) | [GitHub](https://github.com/huggingface/transformers)
+
+State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX.
+
+Transformers provides APIs and tools to easily download and train state-of-the-art pretrained models. Using pretrained models can reduce your compute costs, carbon footprint, and save you the time and resources required to train a model from scratch. These models support common tasks in different modalities, such as:
+
+* Natural Language Processing: text classification, named entity recognition, question answering, language modeling, summarization, translation, multiple choice, and test generation.
+* Computer Vision: image classification, object detection, and segmentation.
+* Audio: automatic speech recognition and audio classification.
+* Multimodal: table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
+
+Transformers support framework interoperability between PyTorch, TensorFlow, and JAX. This proivdes the flexibility to use a different framework at each stage of a model's life; train a model in three lines of code in one framework, and load it for inference in another. Models can also be exported to a format like ONNX and TorchScript for deployment in production environments.
+
 ## :hammer_and_wrench: JAX | [GitHub](https://github.com/google/jax) | Google
 
 JAX is Autograd and XLA, brought together for high-performance numerical computing, including large-scale machine learning research.
@@ -151,6 +170,8 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
 - JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
 - JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
+- HuggingFace Transformers, https://huggingface.co/docs/transformers/en/index, 2024-02-14-Wed.
+- HuggingFace Transformers GitHub, https://github.com/huggingface/transformers, 2024-02-14-Wed.
 - Flax, https://flax.readthedocs.io/en/latest/, 2024-02-20-Tue.
 - Flax GitHub, https://github.com/google/flax, 2024-02-20-Tue.
 - Haiku, https://dm-haiku.readthedocs.io/en/latest/, 2024-02-20-Tue.
@@ -162,3 +183,5 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - ChainerRL GitHub, https://github.com/chainer/chainerrl, 2024-02-22-Thu.
 - PyTorch Ignite, https://pytorch-ignite.ai/, 2024-02-25-Sun.
 - PyTorch Ignite GitHub, https://github.com/pytorch/ignite, 2024-02-25-Sun.
+- HuggingFace timm, https://huggingface.co/timm, 2024-02-27-Tue.
+- PyTorch Image Models GitHub, https://github.com/huggingface/pytorch-image-models, 2024-02-27-Tue.
