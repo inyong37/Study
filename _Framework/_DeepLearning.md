@@ -26,7 +26,7 @@ Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 A flexible framework of neural networks for deep learning.
 
 * Modeling Blocks:
- * [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
+  * [chainer/links](https://github.com/chainer/chainer/tree/master/chainer/links)
 
 ### :books: ChainerCV | [GitHub](https://github.com/chainer/chainercv)
 
@@ -37,6 +37,27 @@ This repository has been archived by the owner on Jul 2, 2021. It is now read-on
 ### :books: ChainerRL | [GitHub](https://github.com/chainer/chainerrl)
 
 ChainerRL is a deep reinforcement learning library built on top of Chainer.
+
+## :hammer_and_wrench: JAX | [GitHub](https://github.com/google/jax) | Google
+
+JAX is Autograd and XLA, brought together for high-performance numerical computing, including large-scale machine learning research.
+
+* Modeling Blocks:
+  * [stax](https://github.com/google/jax/blob/main/jax/example_libraries/stax.py)
+
+### :books: [Flax](https://flax.readthedocs.io/en/latest/) | [GitHub](https://github.com/google/flax) | Google
+
+Flax is a neural network library for JAX that is designed for flexibility.
+
+* Modeling Blocks:
+  * [flax/core/nn](https://github.com/google/flax/tree/main/flax/core/nn)
+
+### :books: [Haiku](https://dm-haiku.readthedocs.io/en/latest/) | [GitHub](https://github.com/google-deepmind/dm-haiku) | DeepMind
+
+JAX-based neural network library
+
+* Modeling Blocks:
+  * [haiku/_src](https://github.com/google-deepmind/dm-haiku/tree/main/haiku/_src)
 
 ## :hammer_and_wrench: PyTorch
 
@@ -102,6 +123,8 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 
 [PyTorch vs PyTorch Lightning](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09)
 
+[2024 Jax vs. PyTorch](https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks)
+
 ---
 
 ### Reference
@@ -109,6 +132,13 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
+- JAX GitHub, https://github.com/google/jax, 2024-02-20-Tue.
+- JAX vs PyTorch, https://www.newhorizons.com/resources/blog/jax-vs-pytorch-comparing-two-deep-learning-frameworks, 2024-02-02-Tue.
+- Flax, https://flax.readthedocs.io/en/latest/, 2024-02-20-Tue.
+- Flax GitHub, https://github.com/google/flax, 2024-02-20-Tue.
+- Haiku, https://dm-haiku.readthedocs.io/en/latest/, 2024-02-20-Tue.
+- Haiku GitHub, https://github.com/google-deepmind/dm-haiku, 2024-02-20-Tue.
+- Haiku Modeling Blocks, haiku/_src](https://github.com/google-deepmind/dm-haiku/tree/main/haiku/_src, 2024-02-20-Tue.
 - Chainer, https://chainer.org/, 2024-02-22-Thu.
 - Chainer GitHub, https://github.com/chainer/chainer, 2024-02-22-Thu.
 - ChainerCV GitHub, https://github.com/chainer/chainercv, 2024-02-22-Thu.
