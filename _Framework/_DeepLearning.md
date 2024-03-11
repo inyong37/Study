@@ -67,6 +67,10 @@ At its core is a dynamic dependency scheduler that automatically parallelizes bo
 
 This project has retired. Apache MXNet moved into the Attic in 2023-09.
 
+## :hammer_and_wrench: [MATLAB](https://www.mathworks.com/products/matlab.html)
+
+MATLAB makes DL easy for engineers, scientists, and domain experts. With tools and functions for managing and labeling large data sets, MATLAB also offers specialized toolboxes for working with machine learning, neural networks, computer vision, and automated driving. With just a few lines of code, MATLAB allows you to create and visualize models, and deploy models to servers and embedded devices without being an expert. MATLAB also enables users to automatically generate high performance CUDA code for DL and vision applications from MATLAB code.
+
 ## :hammer_and_wrench: PyTorch
 
 ### :books: [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
@@ -139,6 +143,7 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - fastai, https://docs.fast.ai/, 2022-01-15-Sat.
 - PyTorch vs TensorFlow 2023, https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/, 2023-12-14-Thu.
 - PyTorch vs PyTorch Lightning, https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09, 2024-02-03-Sat.
+- MATLAB, https://www.mathworks.com/products/matlab.html, 2024-02-08-Thu.
 - Apache MXNet, https://mxnet.apache.org/versions/1.9.0/, 2024-02-08-Thu.
 - Apache MXNet Attic, https://attic.apache.org/, 2024-02-08-Thu.
 - PyTorch Lightning GitHub, https://github.com/Lightning-AI/pytorch-lightning, 2024-02-15-Thu.
