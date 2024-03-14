@@ -52,6 +52,10 @@ Pearl is a new production-ready Reinforcement Learning AI agent library open-sou
 
 [[2023] Pearl, A Production-ready Reinforcement Learning Agent (NIPS)](https://pearlagent.github.io/pearl_detailed_intro.pdf)
 
+Pearl was built with a modular design so that industry practitioners or academic researchers can select any subset and flexibly combine features below to construct a Pearl agent customized for their specific use cases. Pearl offers a diverse set of unique features for production environments, including dynamic action spaces, offline learning, intelligent neural exploration, safe decision making, history summarization, and data augmentation.
+
+Pearl is in progress supporting real-world applications, including recommender systems, auction bidding systems and creative selection.
+
 ## :books: [RLlib](https://docs.ray.io/en/latest/rllib/index.html) | [GitHub](https://github.com/ray-project/ray/tree/master/rllib)
 
 Industry-Grade Reinforcement Learning.
