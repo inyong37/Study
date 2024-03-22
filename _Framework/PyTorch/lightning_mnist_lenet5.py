@@ -16,7 +16,7 @@ class MNIST(LightningDataModule):
       transforms.ToTensor(),
     ])
     _train_data = datasets.MNIST(self.data_path, train=True, download=True, transform=self.data_transform)
-    self.train_data, self.val_train = random_split(
+    self.train_data, self.val_data = random_split(
         _train_data, [55000, 5000], generator=torch.Generator().manual_seed(37)
       )
     self.test_data = datasets.MNIST(self.data_path, train=False, transform=self.data_transform)
