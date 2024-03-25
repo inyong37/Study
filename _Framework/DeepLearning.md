@@ -140,6 +140,22 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
   * XLAAccelerator
 * [Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
 
+* [PyTorch Lightning Tutorials (University of Amsterdam)](https://lightning.ai/docs/pytorch/stable/tutorials.html)
+  * [Tutorial 1: Introduction to PyTorch](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/01-introduction-to-pytorch.html)
+  * [Tutorial 2: Activation Functions](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/02-activation-functions.html)
+  * [Tutorial 3: Initialization and Optimization](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/03-initialization-and-optimization.html)
+  * [Tutorial 4: Inception, ResNet and DenseNet](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/04-inception-resnet-densenet.html)
+  * [Tutorial 5: Transformers and Multi-Head Attention](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/05-transformers-and-MH-attention.html)
+  * [Tutorial 6: Basics of Graph Neural Networks](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/06-graph-neural-networks.html)
+  * [Tutorial 7: Deep Energy-Based Generative Models](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/07-deep-energy-based-generative-models.html)
+  * [Tutorial 8: Deep Autoencoders](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/08-deep-autoencoders.html)
+  * [Tutorial 9: Normalizing Flows for image Modeling](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/09-normalizing-flows.html)
+  * [Tutorial 10: Autoregressive Image Modeling](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/10-autoregressive-image-modeling.html)
+  * [Tutorial 11: Vision Transformers](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/11-vision-transformer.html)
+  * [PyTorch Lightning CIFAR10 ~94% Baseline Tutorial](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/cifar10-baseline.html)
+  * [PyTorch Lightning DataModules](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/datamodules.html)
+  * [Fine-Tuning Scheduler](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/finetuning-scheduler.html)
+
 ---
 
 ## Comparison
@@ -185,3 +201,4 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - PyTorch Ignite GitHub, https://github.com/pytorch/ignite, 2024-02-25-Sun.
 - HuggingFace timm, https://huggingface.co/timm, 2024-02-27-Tue.
 - PyTorch Image Models GitHub, https://github.com/huggingface/pytorch-image-models, 2024-02-27-Tue.
+- PyTorch Lightning Tutorials, https://lightning.ai/docs/pytorch/stable/tutorials.html, 2024-03-25-Mon.
