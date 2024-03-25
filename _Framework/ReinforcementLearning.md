@@ -56,6 +56,9 @@ Pearl was built with a modular design so that industry practitioners or academic
 
 Pearl is in progress supporting real-world applications, including recommender systems, auction bidding systems and creative selection.
 
+* Examples
+  * [Using DQN and Double DQN in Pearl with different neural network instantiations](https://nbviewer.org/github/facebookresearch/Pearl/blob/main/tutorials/sequential_decision_making/DQN_and_DoubleDQN_example.ipynb)
+
 ## :books: [RLlib](https://docs.ray.io/en/latest/rllib/index.html) | [GitHub](https://github.com/ray-project/ray/tree/master/rllib)
 
 Industry-Grade Reinforcement Learning.
@@ -84,3 +87,4 @@ Stable Baselines3 (SB3) is a set of reliable implementations of reinforcement le
 - RLlib GitHub, https://github.com/ray-project/ray/tree/master/rllib, 2024-03-06-Wed.
 - Stable-Baselines3, https://stable-baselines3.readthedocs.io/en/master/, 2024-03-06-Wed.
 - Stable-Baselines3 GitHub, https://github.com/DLR-RM/stable-baselines3, 2024-03-06-Wed.
+- Using DQN and Double DQN in Pearl with different neural network instantiations, https://nbviewer.org/github/facebookresearch/Pearl/blob/main/tutorials/sequential_decision_making/DQN_and_DoubleDQN_example.ipynb, 2024-03-25-Mon.
