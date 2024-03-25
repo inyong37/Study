@@ -142,8 +142,8 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 
 * [PyTorch Lightning Tutorials (University of Amsterdam)](https://lightning.ai/docs/pytorch/stable/tutorials.html)
   * [Tutorial 1: Introduction to PyTorch](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/01-introduction-to-pytorch.html)
-  * [Tutorial 2: Activation Functions](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/02-activation-functions.html)
-  * [Tutorial 3: Initialization and Optimization](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/03-initialization-and-optimization.html)
+  * [Tutorial 2: Activation Functions](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/02-activation-functions.html) - Sigmoid, Tanh, ReLU, LeakyReLU, ELU, Swish
+  * [Tutorial 3: Initialization and Optimization](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/03-initialization-and-optimization.html) - xavier, kaiming, and SGD, SGDMomentum, Adam
   * [Tutorial 4: Inception, ResNet and DenseNet](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/04-inception-resnet-densenet.html)
   * [Tutorial 5: Transformers and Multi-Head Attention](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/05-transformers-and-MH-attention.html)
   * [Tutorial 6: Basics of Graph Neural Networks](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/06-graph-neural-networks.html)
