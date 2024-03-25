@@ -59,6 +59,21 @@ Pearl is in progress supporting real-world applications, including recommender s
 * Examples
   * [Using DQN and Double DQN in Pearl with different neural network instantiations](https://nbviewer.org/github/facebookresearch/Pearl/blob/main/tutorials/sequential_decision_making/DQN_and_DoubleDQN_example.ipynb)
 
+* [pearl](https://github.com/facebookresearch/Pearl/tree/main/pearl)
+* Policy
+  * [deep_q_learning.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/policy_learners/sequential_decision_making/deep_q_learning.py)
+  * [bootstrapped_dqn.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/policy_learners/sequential_decision_making/bootstrapped_dqn.py)
+* Network
+  * [q_value_networks.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/neural_networks/sequential_decision_making/q_value_networks.py)
+  * [value_networks.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/neural_networks/common/value_networks.py)
+  * [utils.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/neural_networks/common/utils.py)
+* Agent
+  * [pearl_agent.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/pearl_agent.py)
+* Learn
+  * [policy_learner.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/policy_learners/policy_learner.py)
+  * [offline_learning_and_evaluation.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/utils/functional_utils/train_and_eval/offline_learning_and_evaluation.py)
+  * [online_learning.py](https://github.com/facebookresearch/Pearl/blob/main/pearl/utils/functional_utils/train_and_eval/online_learning.py)
+
 ## :books: [RLlib](https://docs.ray.io/en/latest/rllib/index.html) | [GitHub](https://github.com/ray-project/ray/tree/master/rllib)
 
 Industry-Grade Reinforcement Learning.
