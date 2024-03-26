@@ -94,17 +94,41 @@ MATLAB makes DL easy for engineers, scientists, and domain experts. With tools a
 
 ## :hammer_and_wrench: PyTorch
 
-### :books: [PyTorch Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
-
-High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
-
 ### :books: [fastai](https://docs.fast.ai/)
 
 fastai simplifies training fast and accurate neural nets using modern best practices.
 
-### :books: [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/) | [GitHub](https://github.com/Lightning-AI/pytorch-lightning)
+### :books: [Ignite](https://pytorch-ignite.ai/) | [GitHub](https://github.com/pytorch/ignite)
+
+High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently.
+
+### :books: [Lightning](https://lightning.ai/docs/pytorch/stable/) | [GitHub](https://github.com/Lightning-AI/pytorch-lightning)
 
 PyTorch Lightning is the deep learning framework for professional AI researchers and machine learning engineers who need maximal flexibility without sacrificing performance at scale. Lightning evolves with you as your projects go from idea to paper/production.
+
+* [LightningDataModule](https://lightning.ai/docs/pytorch/stable/data/datamodule.html): A datamodule is a shareable, reusable class that encapsulates all the steps needed to process data.
+  * A datamodule encapsulates the five steps involves in data processing in PyTorch:
+    1. Download/toeknize/process.
+    2. Clean and (maybe) save to disk.
+    3. Load inside `Dataset`.
+    4. Apply transforms (rotate, tokenize, etc...).
+    5. Wrap inside a `DataLoader`.
+  * Why do I need a DataModule? In normal PyTorch code, the data cleaning/preparation is usually scattered across many files. This makes sharing and reusing the exact splits and transforms across projects impossible. Datamodules are for you if you ever asked the questions:
+    1. what splits did you use?
+    2. what transforms did you use?
+    3. what normalization did you use?
+    4. how did you prepare/tokenize the data? 
+* [LightningModule](https://lightning.ai/docs/pytorch/stable/common/lightning_module.html): A LightningModule organizes your PyTorch code into 6 sections:
+  1. Initialization (`__init__` and `setup()`).
+  2. Train Loop (`training_step()`)
+  3. Validation Loop (`validation_step()`)
+  4. Test Loop (`test_step()`)
+  5. Prediction Loop (`predict_step()`)
+  6. Optimizers and LR Schedulers (`configure_optimizers()`)
+* [Trainer](https://lightning.ai/docs/pytorch/stable/common/trainer.html): Once you've organized your PyTorch code into a LightningModule, the Trainer automates everything else. The Trainer achieves the following:
+  1. You maintain control over all aspects via PyTorch code in your LightningModule.
+  2. The trainer uses best practices embedded by contributors and users from top AI labs such as Facebook AI Research, NYU, MIT, Stanford, etc...
+  3. The trainer allows disabling any key part that you don't want automated. 
 
 * [trainer.py](https://github.com/Lightning-AI/pytorch-lightning/blob/master/src/lightning/pytorch/trainer/trainer.py):
   * fit: Runs the full optimization routine.
@@ -202,3 +226,6 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - HuggingFace timm, https://huggingface.co/timm, 2024-02-27-Tue.
 - PyTorch Image Models GitHub, https://github.com/huggingface/pytorch-image-models, 2024-02-27-Tue.
 - PyTorch Lightning Tutorials, https://lightning.ai/docs/pytorch/stable/tutorials.html, 2024-03-25-Mon.
+- LightningDataModule, https://lightning.ai/docs/pytorch/stable/data/datamodule.html, 2024-03-26-Tue.
+- LightningModule, https://lightning.ai/docs/pytorch/stable/common/lightning_module.html, 2024-03-26-Tue.
+- Trainer, https://lightning.ai/docs/pytorch/stable/common/trainer.html, 2024-03-26-Tue.
