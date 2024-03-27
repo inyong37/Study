@@ -24,6 +24,12 @@ All development of Gym has been moved to Gymnasium, a new package in the Farama 
 
 Read more about the Farama Foundation and the backstory of the transition from Gym to Gymnasium - Announcing The Farama Foundation: https://farama.org/Announcing-The-Farama-Foundation
 
+* Environments
+  * Toy Text
+    * [Frozen Lake](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/) | [Rendering](https://stackoverflow.com/questions/71334309/rendering-issues-in-frozenlake-v1-environment)
+      * CLI: `env=gym.make("FrozenLake8x8-v1", render_mode='ansi'); env.reset(); print(env.render())`
+      * GUI: `env=gym.make("FrozenLake8x8-v1", render_mode='human'); env.reset(); print(env.render())`
+
 ### Important Notice
 
 The team that has been maintaining Gym since 2021 has moved all future development to Gymnasium, a drop in replacement for Gym (import gymnasium as gym), and Gym will not be receiving any future updates. Please switch over to Gymnasium as soon as you're able to do so. If you'd like to read more about the story behind this switch, please check out this blog post.
@@ -31,6 +37,10 @@ The team that has been maintaining Gym since 2021 has moved all future developme
 ## :books: [Gymnasium](https://gymnasium.farama.org/) | [GitHub](https://github.com/Farama-Foundation/Gymnasium) | OpenAI
 
 Gymnasium is an open source Python library for developing and comparing reinforcement learning algorithms by providing a standard API to communicate between learning algorithms and environments, as well as a standard set of environments compliant with that API. This is a fork of OpenAI's Gym library by its maintainers (OpenAI handed over maintenance a few years ago to an outside team), and is where future maintenance will occur going forward.
+
+* Environments
+  * Toy Text
+    * [Frozen Lake](https://gymnasium.farama.org/environments/toy_text/frozen_lake/)
 
 ## :books: [KerasRL](https://keras-rl.readthedocs.io/en/latest/) | [GitHub](https://github.com/keras-rl/keras-rl)
 
@@ -103,3 +113,6 @@ Stable Baselines3 (SB3) is a set of reliable implementations of reinforcement le
 - Stable-Baselines3, https://stable-baselines3.readthedocs.io/en/master/, 2024-03-06-Wed.
 - Stable-Baselines3 GitHub, https://github.com/DLR-RM/stable-baselines3, 2024-03-06-Wed.
 - Using DQN and Double DQN in Pearl with different neural network instantiations, https://nbviewer.org/github/facebookresearch/Pearl/blob/main/tutorials/sequential_decision_making/DQN_and_DoubleDQN_example.ipynb, 2024-03-25-Mon.
+- Gym Frozen Lake, https://www.gymlibrary.dev/environments/toy_text/frozen_lake/, 2024-03-27-Wed.
+- Gymnasium Frozen Lake, https://gymnasium.farama.org/environments/toy_text/frozen_lake/, 2024-03-27-Wed.
+- Rendering Frozen Lake Stackoverflow, https://stackoverflow.com/questions/71334309/rendering-issues-in-frozenlake-v1-environment, 2024-03-27-Wed.
