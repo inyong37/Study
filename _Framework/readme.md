@@ -101,7 +101,7 @@ Merged into TensorFlow
 
 [Callbacks](https://keras.io/api/callbacks/):
 * Base Callback class
-* ModelCheckpoint
+* [ModelCheckpoint](https://keras.io/api/callbacks/model_checkpoint/): Callback to save the Keras model or model weights at some frequency. It is used in conjuction with training using `model.fit()` to save a model or weights (in a checkpoint file) at some interval, so the model or weights can be loaded later to continue the training from the state saved.
 * BackupAndRestore
 * TensorBoard
 * EarlyStopping
@@ -223,3 +223,4 @@ Key Benefits:
 - Low Level Introduction GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/low_level_intro.md, 2024-03-05-Tue.
 - Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
 - What's new in TensorFlow and Keras, https://blog.tensorflow.org/2023/05/google-io-2023-whats-new-in-tensorflow-and-keras.html, 2024-03-05-Tue.
+- Keras ModelCheckpoint, https://keras.io/api/callbacks/model_checkpoint/, 2024-03-27-Wed.
