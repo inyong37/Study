@@ -147,7 +147,7 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
   * LambdaCallback
   * LearningRateFinder
   * LearningRateMonitor
-  * ModelCheckpoint
+  * [ModelCheckpoint](https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.callbacks.ModelCheckpoint.html): Save the model periodically by monitoring a quantity. Every metric logged with `log()` or `log_dict()` is a candidate for the monitor key. After training finishes, use `best_model_path` to retrieve the path to the best checkpoint file and `best_model_score` to retrieve its score.
   * ModelPruning
   * ModelSummary
   * ProgressBar
@@ -163,7 +163,6 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
   * MPSAccelerator
   * XLAAccelerator
 * [Strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html)
-
 * [PyTorch Lightning Tutorials (University of Amsterdam)](https://lightning.ai/docs/pytorch/stable/tutorials.html)
   * [Tutorial 1: Introduction to PyTorch](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/01-introduction-to-pytorch.html)
   * [Tutorial 2: Activation Functions](https://lightning.ai/docs/pytorch/stable/notebooks/course_UvA-DL/02-activation-functions.html) - Sigmoid, Tanh, ReLU, LeakyReLU, ELU, Swish
@@ -179,6 +178,7 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
   * [PyTorch Lightning CIFAR10 ~94% Baseline Tutorial](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/cifar10-baseline.html)
   * [PyTorch Lightning DataModules](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/datamodules.html)
   * [Fine-Tuning Scheduler](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/finetuning-scheduler.html)
+* [Saving and Loading Checkpoints (Basic)](https://lightning.ai/docs/pytorch/stable/common/checkpointing_basic.html)
 
 ---
 
@@ -229,3 +229,5 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - LightningDataModule, https://lightning.ai/docs/pytorch/stable/data/datamodule.html, 2024-03-26-Tue.
 - LightningModule, https://lightning.ai/docs/pytorch/stable/common/lightning_module.html, 2024-03-26-Tue.
 - Trainer, https://lightning.ai/docs/pytorch/stable/common/trainer.html, 2024-03-26-Tue.
+- Lightning ModelCheckpoint, https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.callbacks.ModelCheckpoint.html 2024-03-27-Wed.
+- Lightning Saving and Loading Checkpoints (Basic), https://lightning.ai/docs/pytorch/stable/common/checkpointing_basic.html, 2024-03-27-Wed.
