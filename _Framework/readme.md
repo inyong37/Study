@@ -127,9 +127,23 @@ Tensors and Dynamic neural networks in Python with strong GPU acceleration[Ref]
 
 PyTorch is built with submodule or bazel.
 
-[Automatic differenctiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ)
+Papers:
+* [Automatic differenctiation in PyTorch](https://openreview.net/pdf?id=BJJsrmfCZ)
+* [PyTorch: an imperative style, high-performance deep learning library NIPS 2019](https://dl.acm.org/doi/10.5555/3454287.3455008)
 
-[PyTorch: an imperative style, high-performance deep learning library NIPS 2019](https://dl.acm.org/doi/10.5555/3454287.3455008)
+[PyTorch Distributed Overview](https://pytorch.org/tutorials/beginner/dist_overview.html): `torch.distributed`
+* Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communiation to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.
+* RPC-Based Distributed Training (RPC) supports general training structures that cannot fit into data-parallel training such as distributed pipeline parallelism, parameters server paradigm, and combinations of DDP with other training paradigms. It helps manage remote object lifetime and extends the autograd engine beyond machine boundaries.
+* Collective Communication (c10d) library supports sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as the DDP and RPC APIs can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.
+
+[Distributed and Parallel Training Tutorials](https://pytorch.org/tutorials/distributed/home.html):
+* Distributed Data Parallel (DDP)
+* Fully Sharded Data Parallel (FSDP)
+* Device Mesh
+* Remote Procedure Call (RPC) distributed training
+* Custom Extensions
+
+[Distributed Communication Packages - torch.distributed](https://pytorch.org/docs/stable/distributed.html)
 
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
@@ -224,3 +238,6 @@ Key Benefits:
 - Architecture GitHub, https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md, 2024-03-05-Tue.
 - What's new in TensorFlow and Keras, https://blog.tensorflow.org/2023/05/google-io-2023-whats-new-in-tensorflow-and-keras.html, 2024-03-05-Tue.
 - Keras ModelCheckpoint, https://keras.io/api/callbacks/model_checkpoint/, 2024-03-27-Wed.
+- PyTorch Distributed Overview, https://pytorch.org/tutorials/beginner/dist_overview.html, 2024-03-29-Fri.
+- Distributed and Parallel Training Tutorials, https://pytorch.org/tutorials/distributed/home.html, 2024-03-29-Fri.
+- Distributed Communication Package - torch.distributed, https://pytorch.org/docs/stable/distributed.html, 2024-03-29-Fri.
