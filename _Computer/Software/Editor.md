@@ -1,29 +1,38 @@
-# Editor
-This page is about (text) editor.
+# :Editor
+
+`This page is about the editors.`
 
 # I. Windows
+
 ## i. [Notepad (Directed to Notepad++)](https://notepad-plus-plus.org/) :sparkling_heart:
+
 Notepad is basic text editor in Windows.
 
 ## ii. [Notepad++](https://notepad-plus-plus.org/) :heart:
+
 Notepad++ is free source code editor and Notepad replacement that supports several languages. Running in the MS Windosws environment, its use is governed by GPL License.
 
 ## iii. [Atom](https://atom.io/) :green_heart:
+
 Atom is made by Github. It is open source. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 
 ## iv. [Sublime Text 3](https://www.sublimetext.com/) :yellow_heart:
+
 Sublime Text is made by Sublime HQ. It is usually used for frontend and backend programming.
-### Keymap
+
+Keymap:
 - Install packages: `Control` + `Shift` + `p`, `install package`
 - Change theme: colorsublime
 - Find keyword in file: `Contorl` + `f`
 - Find keyword in project: `Control` + `Shift` + `f`
 - Find file in project: `Control` + `p`
 - Show/hide side bar(folder): `Control` + `k` + `Control` + `b`
-### Custom Keymap: Preferences>Key Bindings>"Default (Windows).sublime-keymap - User"
+
+Custom Keymap: Preferences>Key Bindings>"Default (Windows).sublime-keymap - User":
 - Show/hide side bar(folder/project): `alt` + `1` (as PyCharm)
 - Go to file(find file in project): `Control` + `Shift` + `n` (as PyCharm)
-```
+
+```xml
 [
   { "keys": ["alt+1"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+shift+n"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
@@ -32,6 +41,7 @@ Sublime Text is made by Sublime HQ. It is usually used for frontend and backend 
 ```
 
 ## v. [Visual Studio Code](https://code.visualstudio.com/) :blue_heart:
+
 Visual Studio Code is made by Microsoft. It is based on Chromium project. It is made with Electron framework based on Chromium and Node.js.
 
 - Find file: `Control` + `e` or `Control` + `p`
@@ -41,32 +51,38 @@ Visual Studio Code is made by Microsoft. It is based on Chromium project. It is 
 - Find and replace all: `Control` + `h`, `Control` + `Alterate` + `Enter`
 - Show/Hide Side Bar: `Control` + `b`
 - Show/Hide Panel: `Control` + `j`
-### Custom Keyboard Shortcuts
-File-Preferences-Keyboard Shortcuts
+
+Custom Keyboard Shortcuts: File-Preferences-Keyboard Shortcuts
 - Go to File: `ctrl+p` -> `Control + Shift + n`
 - Show/Hide Side Bar: `ctrl+b` -> `Alternate + 1`
 
+---
+
 # II. Unix/Linux
-- (That I'm using in)
+
+`What I used.`
+
 ## i. [Nano](https://www.nano-editor.org/) :sparkling_heart:
-```
-Nano is an UNIX GNU text editor.
-```
+
+`Nano is an UNIX GNU text editor.`
+
 ## ii. [Emacs](https://www.gnu.org/software/emacs/) :blue_heart:
-```
-GNU Emacs is an extensible, customizable, free/libre text editor.
-```
+
+`GNU Emacs is an extensible, customizable, free/libre text editor.`
+
 ## iii. [Vi (Directed to vim)](https://www.vim.org/) :purple_heart:
-```
-Vi is basic text editor in Unix.
-```
+
+`Vi is basic text editor in Unix.`
+
 ## iv. [Vim (Vi IMproved)](https://www.vim.org/) :star:
-```
+
 Vim is basic text editor in Linux. Vim is a highly configurable text editor for efficiently creating and changing any kind of text. It is included as "vi" with most UNIX systems and with Apple OS X.
-```
+
 It has 3 modes, command mode, insert mode, visual mode.
-### A. Commands
-#### a. Basic
+
+A. Commands:
+
+a. Basic
 - Enter editing mode: `i` or `I` or `a` or `A` or `r` or `R` or `o` or `O`
   - Insert: `I` or `i`
   - Add: `A` or `a`
@@ -99,8 +115,9 @@ It has 3 modes, command mode, insert mode, visual mode.
   - Visual mode: `v`
 - 
 
-#### b. Window
-```
+b. Window
+
+```bash
 :help windows # see window's contents
 :split # split window horizontal like tmux's prefix + "
 :vsplit # split window vertical like tmux's prefix + %
@@ -114,8 +131,10 @@ It has 3 modes, command mode, insert mode, visual mode.
 'Control' + 'w' + '_' # make window's size the biggest in horizontal
 'Control' + 'w' + '|' # make window's size the biggest in vertical
 ```
-#### c. Tab
-```
+
+c. Tab
+
+```bash
 :help tabpage # see tab's contents
 :tab help tabpage # new tab with tab's contents
 :tabnew # new tab
@@ -125,11 +144,13 @@ It has 3 modes, command mode, insert mode, visual mode.
 :tablast # move to last tab
 :tabs # show all tabs' information
 ```
+
 - Move
   - Move to right tab: `gt`
   - Move to left tab: `gT`
 
-#### d. Buffer
+d. Buffer
+
 - Open: `vi a.cc b.h`
 - List: `:ls` or `:buffers` or `:files`
 - Move to # number: `:b#`
@@ -141,16 +162,26 @@ It has 3 modes, command mode, insert mode, visual mode.
 - Move to first buffer: `:bf`
 - Move to last buffer: `:bl`
 
+.vimrc:
+```bash
+set paste
+```
 
-### B. Plugin
-- Plugin Manager [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim) [for Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
+---
 
-### a. Ctags | [Exuberant Ctags](http://ctags.sourceforge.net/) | [Universal Ctags](https://ctags.io/)
+## VIM Plugin
+
+Plugin Manager:
+- [Vundle(Vim Bundle)](https://github.com/VundleVim/Vundle.vim)
+- [For Windows](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
+
+### Ctags | [Exuberant Ctags](http://ctags.sourceforge.net/) | [Universal Ctags](https://ctags.io/)
+
 Ctags generates an index (or tag) file of language objects found in sources files that allows these items to be quickly and easily located by a text editor and other utility. (from ctags.sourceforge.net, Exuberant Ctags)
 
 Universal-ctags has the objective of continuing the development from what existed in the Sourceforge area. (from ctags.io, Universal-Ctags)
 
-#### How to use ctags
+How to use ctags:
 - Install ctags: `$ sudo apt-get install ctags`
 - Build ctags for all directory under current directory: `$ ctags -R`
 - Build ctags for 'file_name': `ctags file_name`
@@ -163,21 +194,23 @@ Universal-ctags has the objective of continuing the development from what existe
 - `:po`: go back to `vim`.
 - `:stj functionname/variablename`: find 'functionname/variablename' declaration tags in splited window.
 
-### b. [Tagbar](http://majutsushi.github.io/tagbar/) [Github](https://github.com/majutsushi/tagbar)
+### [Tagbar](http://majutsushi.github.io/tagbar/) | [Github](https://github.com/majutsushi/tagbar)
+
 Tagbar is a Vim plugin that provides an easy way to browse the tags of the current file and get an overview of its structure.
-#### How to use tagbar
+
+How to use tagbar:
 - `:Tagbar` or `F8`: Open tagbar. # `nmap <F8> :TagbarToggle<CR>` in `~/.vimrc`.
 - `Control` + `w` + `w`: change vim window.
 
-#### c. [cscope]()
-#### d. [fuzzy-finder]()
-#### e. [you complete me]()
+### [cscope]()
+### [fuzzy-finder]()
+### [you complete me]()
 
 ---
 
-### _[Neovim](https://neovim.io/)_ | [Installing](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+## [Neovim](https://neovim.io/) | [Installation](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
-hyperextensible Vim-based text editor
+Hyperextensible Vim-based text editor
 
 Setup:
 - `sudo apt-get install nvim`
@@ -192,9 +225,9 @@ Config:
 
 ---
 
-## Markdown Editor
+# Markdown Editor
 
-### _[Typora](https://typora.io/)_
+## [Typora](https://typora.io/)
 
 - [How to add as a command in windows](https://superuser.com/questions/689333/how-to-add-installed-program-to-command-prompt-in-windows)
 
@@ -232,3 +265,4 @@ File - Preference - General - Open Advanced Setting - `config.user.json`
 - Installing Neovim, https://github.com/neovim/neovim/wiki/Installing-Neovim, 2022-12-16-Fri.
 - Neovim Config, https://medium.com/geekculture/neovim-configuration-for-beginners-b2116dbbde84, 2022-12-16-Fri.
 - Neovim Config, https://youtu.be/JWReY93Vl6g, 2022-12-16-Fri.
+- Turning off auto indent when pasting text into vim Stackoverflow, https://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim, 2024-03-29-Fri.
