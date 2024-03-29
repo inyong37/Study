@@ -38,6 +38,18 @@ AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets y
 
 Amazon Elastic Compute Cloud (Amazon EC2) offers the broadest and deepest compute platform, with over 700 instances and choice of the latest processor, storage, networking, operating system, and purchase model to help you best batch the needs of your workload. It is the first major cloud provider that supports Intel, AMD, and Arm processors, the only cloud with on-demand EC2 Mac instances, and the only cloud with 400 Gbps Ethernet networking.
 
+[Amazon EC2 G4 Instances](https://aws.amazon.com/ec2/instance-types/g4/): G4dn instances, powered by NVIDIA T4 GPUs, are the lowest cost GPU-based instances in the cloud for machine learning inference and small scale training. They also provide high performance and are a cost-effective solution for graphics applications that are optimized for NVIDIA GPUs using NVIDIA libraries such as CUDA, CuDNN, and NVENC. They provide up to 8 NVIDIA T4 GPUs, 96 vCPUs, 100 Gbps networking, and 1.8 TB local NVMe-based SSD storage and are also available as bare metal instances.
+
+|SIZE|GPU|CPU|RAM|USD/HR|
+|:--:|:-:|:-:|:-:|:----:|
+|g4dn.xlarge|1|4|16|0.526|
+|g4dn.2xlarge|1|8|32|0.752|
+|g4dn.16xlarge|1|64|256|4.352|
+|g4dn.12xlarge|4|48|192|3.912|
+|g4dn.metal|8|96|384|7.824|
+
+[Install a GUI on EC2 Instance](https://repost.aws/knowledge-center/ec2-linux-2-install-gui)
+
 ### [Amazon S3](https://aws.amazon.com/s3/)
 
 Amazon Simple Storage Service (Amazon S3) is an object storage service offering industry-leading scalability, data availability, security, and performance.
@@ -95,3 +107,5 @@ Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service t
 - Amazon EKS, https://aws.amazon.com/eks/, 2023-09-05-Tue.
 - AKS, https://azure.microsoft.com/en-us/products/kubernetes-service, 2023-09-05-Tue.
 - GKE, https://cloud.google.com/kubernetes-engine, 2023-09-05-Tue.
+- G4 Instances, https://aws.amazon.com/ec2/instance-types/g4/, 2024-03-29-Fri.
+- Install a GUI on EC2 Instance, https://repost.aws/knowledge-center/ec2-linux-2-install-gui, 2024-03-29-Fri.
