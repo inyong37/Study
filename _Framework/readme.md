@@ -145,6 +145,10 @@ Papers:
 
 [Distributed Communication Packages - torch.distributed](https://pytorch.org/docs/stable/distributed.html)
 
+[Distributed Data Parallel (Single Node) | Blog (KR)](https://csm-kr.tistory.com/47)
+
+[Distributed Data Parallel (Multi Nodes) | Blog (KR)](https://csm-kr.tistory.com/89)
+
 ## :hammer: [Caffe](https://caffe.berkeleyvision.org/) | [GitHub](https://github.com/BVLC/caffe)
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by Berkeley AI Research (BAIR) and by community contributors. Yangqing Jia created the project during his PhD at UC Berkeley. Caffe is released under the BSD 2-Clause license.[Ref]
@@ -241,3 +245,5 @@ Key Benefits:
 - PyTorch Distributed Overview, https://pytorch.org/tutorials/beginner/dist_overview.html, 2024-03-29-Fri.
 - Distributed and Parallel Training Tutorials, https://pytorch.org/tutorials/distributed/home.html, 2024-03-29-Fri.
 - Distributed Communication Package - torch.distributed, https://pytorch.org/docs/stable/distributed.html, 2024-03-29-Fri.
+- Distributed Data Parallel Single Node Blog KR, https://csm-kr.tistory.com/47, 2024-04-01-Mon.
+- Distributed Data Parallel Multi Nodes Blog KR, https://csm-kr.tistory.com/89, 2024-04-01-Mon.
