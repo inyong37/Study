@@ -355,9 +355,13 @@ $ sudo systemctl enable ssh
 
 ---
 
-## _Command_
+## Command
 
-### *dd* | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
+### [chrony](https://chrony.tuxfamily.org/)
+
+chrony is a versatile implementation of the Network Time Protocol (NTP). It can synchronise the system clock with NTP servers, reference clocks (e.g. GPS receiver), and manual input using wristwatch and keyboard. It can also operate as an NTPv4 (RFC 5905) server and peer to provide a time service to other computers in the network.
+
+### dd | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
 
 Create 1MB dummyfile:
 - `dd if=/dev/zero of=dummyfile bs=1024 count=1024`
@@ -368,7 +372,7 @@ Create 100MB dummyfile:
 Create 1GB dummyfile:
 - `dd of=/dev/zero pf=dummyfile bs=1024 count=10240000`
 
-### *Fuzzy Finder*
+### Fuzzy Finder
 
 Install:
 - `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
@@ -377,13 +381,39 @@ Install:
 Usage:
 - `Control` + `t`
 
-### *htop* | [WiKi](https://en.wikipedia.org/wiki/Htop) | Unix
+### hostname
+
+How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
+
+### htop | [WiKi](https://en.wikipedia.org/wiki/Htop) | Unix
 
 htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. Unlike top, htop provides a full list of processes running, instead of the top resource-consuming processes. htop uses color and gives visual information about processor, swap and memory status. htop can also display the processes as a tree.
 
-### *top* | [WiKi](https://en.wikipedia.org/wiki/Top_(software)) | Unix
+### kill: kill the process
+
+```Bash
+kill -9 {process_id}
+```
+
+### [timedatectl](https://www.freedesktop.org/software/systemd/man/timedatectl.html) - Control the system time and date
+
+timedatactl may be used to query and change the system clock and its settings, and enable or disable time synchronization services. Use systemd-firstboot to initialize the system time zone for mounted (but no booted) system images. timedatectl may be used to show the current status of time synchronization services.
+
+### top | [WiKi](https://en.wikipedia.org/wiki/Top_(software)) | Unix
 
 top (table of processes) is a task manager program found in many Unix-like operating systems that displays information about CPU and memory utilization.
+
+### ping
+
+```Bash
+ping {target_address} -c 2
+```
+
+### ps: show processes
+
+```Bash
+ps
+```
 
 ### sed | [Stackoverflow](https://unix.stackexchange.com/questions/211834/slash-and-backslash-in-sed)
 
@@ -391,17 +421,12 @@ Replace content without saving `sed 's/foo/bar/g' output.txt`
 
 Replace content with saving `sed 's/foo/bar/g' output.txt`
 
-### *hostname*
-
-- How to change hostname: `sudo vim /etc/hostname` and reboot; `sudo reboot now`
-
-### Show Symbolic Link, Command `$ nm`
+### nm: Show Symbolic Link
 
 A command nm shows a list of symbolic links in object files.
 
-### How to use command nm
-
-Default:
+How to use command nm
+* Default:
 ```bash
 $ nm foo.o
           U _IO_getc
@@ -417,17 +442,10 @@ Target acrchive file shows libraries as object files
 
 GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, `cron` jobs, terminals without X-Windows supports, etc.
 
-### [timedatectl](https://www.freedesktop.org/software/systemd/man/timedatectl.html) - Control the system time and date
-
-timedatactl may be used to query and change the system clock and its settings, and enable or disable time synchronization services. Use systemd-firstboot to initialize the system time zone for mounted (but no booted) system images. timedatectl may be used to show the current status of time synchronization services.
-
-### [chrony](https://chrony.tuxfamily.org/)
-
-chrony is a versatile implementation of the Network Time Protocol (NTP). It can synchronise the system clock with NTP servers, reference clocks (e.g. GPS receiver), and manual input using wristwatch and keyboard. It can also operate as an NTPv4 (RFC 5905) server and peer to provide a time service to other computers in the network.
 
 ---
 
-## _File_ | _Extension_
+## File | Extension
 
 `This part has moved to the 'File' page.`
 
