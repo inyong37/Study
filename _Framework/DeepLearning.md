@@ -222,6 +222,12 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
       * [Run on a SLURM cluster](https://lightning.ai/docs/pytorch/stable/clouds/cluster_advanced.html)
       * [Run with Torch Distributed](https://lightning.ai/docs/pytorch/stable/clouds/cluster_intermediate_2.html)
 
+* Hyperparameter Tuning: [Training Studio App GitHub](https://github.com/Lightning-Universe/Training-Studio_app)
+
+* Deep Learning Fundamentals Courses
+  * Unit 6 Essential Deep Learning Tips
+    * [Unit 6.5 Automating The Hyperparameter Tuning Process](https://lightning.ai/courses/deep-learning-fundamentals/unit-6-overview-essential-deep-learning-tips-tricks/unit-6.5-automating-the-hyperparameter-tuning-process/)
+
 ---
 
 ## Comparison
@@ -273,3 +279,5 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - Trainer, https://lightning.ai/docs/pytorch/stable/common/trainer.html, 2024-03-26-Tue.
 - Lightning ModelCheckpoint, https://lightning.ai/docs/pytorch/stable/api/lightning.pytorch.callbacks.ModelCheckpoint.html 2024-03-27-Wed.
 - Lightning Saving and Loading Checkpoints (Basic), https://lightning.ai/docs/pytorch/stable/common/checkpointing_basic.html, 2024-03-27-Wed.
+- Lightning Training Studio App GitHub, https://github.com/Lightning-Universe/Training-Studio_app, 2024-04-02-Tue.
+- Unit 6.5 Automating The Hyperparameter Tuning Process, https://lightning.ai/courses/deep-learning-fundamentals/unit-6-overview-essential-deep-learning-tips-tricks/unit-6.5-automating-the-hyperparameter-tuning-process/, 2024-04-02-Tue.
