@@ -16,6 +16,34 @@ The Most Trusted Distribution for Data Science.
 
 Anaconda is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 7,500+ open-source packages. Anaconda is free and easy to install, and it offers free community support.
 
+### Environement
+
+Making requirements.txt:
+
+```Bash
+conda list > requirements.txt
+pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt
+```
+
+Making tree of requirements.txt:
+
+* requirements.txt:
+```txt
+-r requirements/tensorflow.txt
+-r requirements/pytorch.txt
+```
+
+* requirements/tensorflow.txt:
+```txt
+tensorflor==1.0.0
+```
+
+* requirements/pytorch.txt:
+```txt
+torch==1.0.0
+```
+
 ## :computer: *[PyCharm](https://www.jetbrains.com/pycharm/)* | [Other Versions](https://www.jetbrains.com/pycharm/download/other.html) | [Share Setting (Professional Version)](https://www.jetbrains.com/help/pycharm/sharing-your-ide-settings.html) | [Learn](https://www.jetbrains.com/pycharm/learn/)
 
 The Python IDE for Professional Developers.
