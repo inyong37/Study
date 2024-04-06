@@ -285,3 +285,5 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - Lightning Saving and Loading Checkpoints (Basic), https://lightning.ai/docs/pytorch/stable/common/checkpointing_basic.html, 2024-03-27-Wed.
 - Lightning Training Studio App GitHub, https://github.com/Lightning-Universe/Training-Studio_app, 2024-04-02-Tue.
 - Unit 6.5 Automating The Hyperparameter Tuning Process, https://lightning.ai/courses/deep-learning-fundamentals/unit-6-overview-essential-deep-learning-tips-tricks/unit-6.5-automating-the-hyperparameter-tuning-process/, 2024-04-02-Tue.
+- HuggingFace Datasets, https://huggingface.co/docs/datasets/en/index, 2024-04-06-Sat.
+- HuggingFace Datasets GitHub, https://github.com/huggingface/datasets, 2024-04-06-Sat.
