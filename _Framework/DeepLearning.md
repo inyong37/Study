@@ -42,6 +42,10 @@ ChainerRL is a deep reinforcement learning library built on top of Chainer.
 
 ## :hammer_and_wrench: HuggingFace
 
+### :books: [Datasets](https://huggingface.co/docs/datasets/en/index) | [GitHub](https://github.com/huggingface/datasets)
+
+Datasets is a library for easily accessing and sharing dataests for Audio, Computer Vision, and Natural Language Processing (NLP) tasks.
+
 ### :books: [timm (PyTorch Image Models)](https://huggingface.co/timm) | [GitHub](https://github.com/huggingface/pytorch-image-models)
 
 PyTorch Image Models (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results.
