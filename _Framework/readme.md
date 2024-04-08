@@ -61,6 +61,8 @@ Resources:
 - [Intro To TensorFlow for Deep Learning](https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187)
 - [What's new in TensorFlow and Keras](https://blog.tensorflow.org/2023/05/google-io-2023-whats-new-in-tensorflow-and-keras.html)
 
+### [TensorBoard](https://www.tensorflow.org/tensorboard)
+
 ### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models)
 
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
@@ -247,3 +249,4 @@ Key Benefits:
 - Distributed Communication Package - torch.distributed, https://pytorch.org/docs/stable/distributed.html, 2024-03-29-Fri.
 - Distributed Data Parallel Single Node Blog KR, https://csm-kr.tistory.com/47, 2024-04-01-Mon.
 - Distributed Data Parallel Multi Nodes Blog KR, https://csm-kr.tistory.com/89, 2024-04-01-Mon.
+- TensorBoard, 2024-04-08-Mon.
