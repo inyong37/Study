@@ -232,6 +232,10 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
   * Unit 6 Essential Deep Learning Tips
     * [Unit 6.5 Automating The Hyperparameter Tuning Process](https://lightning.ai/courses/deep-learning-fundamentals/unit-6-overview-essential-deep-learning-tips-tricks/unit-6.5-automating-the-hyperparameter-tuning-process/)
 
+## :hammer_and_wrench: [Ray](https://docs.ray.io/en/latest/ray-overview/index.html)
+
+Ray is an open-source unified framework for scaling AI and Python applications like machine learning. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert. Ray minimizes the complexity of running your distributed individual and end-to-end machine learning workflows with these components: Scalable libraries for common machine learning tasks such as data preprocessing, distributed training, hyperparameter tuning, reinforcement learning, and model serving. Pythonic distributed computing primitives for parallelizing and scaling Python applications. Integrations and utilities for integrating and deploying a Ray cluster with existing tools and infrastructure such as Kubernetes, AWS, GCP, and Azure.
+
 ---
 
 ## Comparison
@@ -287,3 +291,4 @@ PyTorch Lightning is the deep learning framework for professional AI researchers
 - Unit 6.5 Automating The Hyperparameter Tuning Process, https://lightning.ai/courses/deep-learning-fundamentals/unit-6-overview-essential-deep-learning-tips-tricks/unit-6.5-automating-the-hyperparameter-tuning-process/, 2024-04-02-Tue.
 - HuggingFace Datasets, https://huggingface.co/docs/datasets/en/index, 2024-04-06-Sat.
 - HuggingFace Datasets GitHub, https://github.com/huggingface/datasets, 2024-04-06-Sat.
+- Ray, https://docs.ray.io/en/latest/ray-overview/index.html, 2024-04-09-Tue.
