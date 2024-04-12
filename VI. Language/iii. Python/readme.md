@@ -272,6 +272,21 @@ Returns the system/OS name, such as `Linux`, `Darwin`, `Java`, `Windows`. An emp
 
 ### pywin32
 
+### PyYAML | [Docs](https://pyyaml.org/wiki/PyYAMLDocumentation) | [YAML](https://wiki.python.org/moin/YAML)
+
+YAML is a human-friendly format for structured data, that is both easy to write for humans and still parsable by computers.
+
+PyYAML is the most-used and go-to YAML package, which tries to be as compliant as possible with the YAML specs. It is, at its core, C-based. It can both read and write YAML.
+
+Installtion: `pip install pyyaml`
+
+Use: `load, load_all, safe_load, safe_load_all, dump, dump_all, safe_dump, safe_dump_all`
+```Python
+import yaml
+data = yaml.load(stream, Loader=yaml.Loader) # or yaml.CLoader
+output = yaml.dump(data, Dumper=yaml.Dumper) # or yaml.CDumper
+```
+
 ### Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
 Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
 
@@ -709,3 +724,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PyCharm non-project file, https://intellij-support.jetbrains.com/hc/en-us/community/posts/360010640479-all-files-in-my-project-became-non-project, 2022-11-01-Tue.
 - Linux Python Daemon KR, https://github.com/HatsuneMiku3939/python3-daemon, 2023-10-10-Tue.
 - Executable File (ELF), Binary, Program KR, https://codingdojang.com/scode/272, 2023-10-10-Tue.
+- PyYAML Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation, 2024-04-12-Fri.
+- YAML, https://wiki.python.org/moin/YAML, 2024-04-12-Fri.
