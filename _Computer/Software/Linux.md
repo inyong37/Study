@@ -361,6 +361,14 @@ $ sudo systemctl enable ssh
 
 chrony is a versatile implementation of the Network Time Protocol (NTP). It can synchronise the system clock with NTP servers, reference clocks (e.g. GPS receiver), and manual input using wristwatch and keyboard. It can also operate as an NTPv4 (RFC 5905) server and peer to provide a time service to other computers in the network.
 
+### cp
+
+Copy source from destination:
+`cp {src} {dst}`
+
+Copy all in a directory:
+`cp -a {src}/ {dst}`
+
 ### dd | [Blog](https://www.web-workers.ch/index.php/2017/06/23/how-to-create-a-1gb-100mb-10mb-file-for-testing/)
 
 Create 1MB dummyfile:
