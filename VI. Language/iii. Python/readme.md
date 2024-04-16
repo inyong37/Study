@@ -251,10 +251,14 @@ file = io.open(file_name, 'r', encoding='utf-8')
 ### [json](https://docs.python.org/3/library/json.html) | [3.7.2](https://docs.python.org/3.7/library/json.html)
 `from json import dump, dumps, load, loads`
 
-### Matplotlib | [Homepage](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
+### [Matplotlib](https://matplotlib.org/) | `from matplotlib import pyplot as plt`
 Matplotlib is a comprehensive library for creating static, animated, and interactive visuallizations in Python.
 
-### Numpy | [Homepage](https://numpy.org/) | `import numpy as np`
+### [Munch](https://github.com/Infinidat/munch)
+
+Munch is a dictionary that supports attribute-style access.
+
+### [Numpy](https://numpy.org/) | `import numpy as np`
 The fundamental package for scientific computing with Python.
 
 ### os
@@ -726,3 +730,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Executable File (ELF), Binary, Program KR, https://codingdojang.com/scode/272, 2023-10-10-Tue.
 - PyYAML Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation, 2024-04-12-Fri.
 - YAML, https://wiki.python.org/moin/YAML, 2024-04-12-Fri.
+- Munch, https://github.com/Infinidat/munch, 2024-04-16-Tue.
