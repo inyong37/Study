@@ -742,3 +742,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Munch, https://github.com/Infinidat/munch, 2024-04-16-Tue.
 - Bunch, https://github.com/dsc/bunch, 2024-04-18-Thu.
 - Prodict, https://github.com/ramazanpolat/prodict, 2024-04-18-Thu.
+- args kwargs Blog KR, https://brunch.co.kr/@princox/180, 2024-04-18-Thu.
