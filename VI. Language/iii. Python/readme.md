@@ -198,6 +198,10 @@ asyncio 호환 이벤트 루프의 추상 베이스 클래스.
 
 이벤트 루프 메서드 절은 AbstractEventLoop의 다른 구현이 정의해야 하는 모든 메서드를 나열합니다.
 
+### [Bunch](https://github.com/dsc/bunch)
+
+A Bunch is a Python dictionary that provides attribute-style access (a la JavaScript objects).
+
 ### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
 
 ```Python
@@ -256,7 +260,7 @@ Matplotlib is a comprehensive library for creating static, animated, and interac
 
 ### [Munch](https://github.com/Infinidat/munch)
 
-Munch is a dictionary that supports attribute-style access.
+A Munch is a Python dictionary that provides attribute-style access (a la JavaScript objects). Munch is a fork of Bunch package.
 
 ### [Numpy](https://numpy.org/) | `import numpy as np`
 The fundamental package for scientific computing with Python.
@@ -273,6 +277,10 @@ Access to underlying platform's identifying data
 
 - platform.**system**()
 Returns the system/OS name, such as `Linux`, `Darwin`, `Java`, `Windows`. An empty string is returned if the value cannot be determined.
+
+### [Prodict](https://github.com/ramazanpolat/prodict)
+
+Prodict, what Python dict meant to be. Prodict si Dictionary with IDE friendly(auto code completion) and dot-accessible attributes and more.
 
 ### pywin32
 
@@ -337,6 +345,7 @@ In the following, events is a bitwise mask indicating which I/O events should be
 ### selenium
 
 ### shutil | [Document Python 3.7.9](https://docs.python.org/3.7/library/shutil.html)
+
 The [shutil]() module offers a number of high-level operations on files and collections of files. In particular, functions are provided which support file copying and removal. For operations on individual files, see also the [os]() module.
 
 ### subprocess
@@ -731,3 +740,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - PyYAML Documentation, https://pyyaml.org/wiki/PyYAMLDocumentation, 2024-04-12-Fri.
 - YAML, https://wiki.python.org/moin/YAML, 2024-04-12-Fri.
 - Munch, https://github.com/Infinidat/munch, 2024-04-16-Tue.
+- Bunch, https://github.com/dsc/bunch, 2024-04-18-Thu.
+- Prodict, https://github.com/ramazanpolat/prodict, 2024-04-18-Thu.
