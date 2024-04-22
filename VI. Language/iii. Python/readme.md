@@ -202,6 +202,10 @@ asyncio 호환 이벤트 루프의 추상 베이스 클래스.
 
 A Bunch is a Python dictionary that provides attribute-style access (a la JavaScript objects).
 
+### [configparser](https://docs.python.org/3/library/configparser.html)
+
+This module provides the ConfigParser class which implements a basic configuration language which provides a structure similar to what's found in Microsoft Windows INI files. You can use this to write Python programs which can be customized by end users easily.
+
 ### dataclasses - Data Classes | [Docs 3.7.10](https://docs.python.org/3.7/library/dataclasses.html) | [PEP 557](https://www.python.org/dev/peps/pep-0557/)
 
 ```Python
@@ -215,6 +219,7 @@ class SampleDataClass:
 ```
 
 ### doctest | [Document Python 3.7.9](https://docs.python.org/3.7/library/doctest.html)
+
 The [doctest]() module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
 - To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
 - To perform regression testing by verifying that interactive examples from a test file or a test object work as expected.
@@ -269,7 +274,7 @@ The fundamental package for scientific computing with Python.
 
 `This content has been moved to the` [os](os.md) `page`.
 
-### Pandas | [Homepage](https://pandas.pydata.org/) | `import pandas as pd`
+### [Pandas](https://pandas.pydata.org/) | `import pandas as pd`
 Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 
 ### platform | [Document Python 3.7.9](https://docs.python.org/3.7/library/platform.html)
@@ -299,10 +304,12 @@ data = yaml.load(stream, Loader=yaml.Loader) # or yaml.CLoader
 output = yaml.dump(data, Dumper=yaml.Dumper) # or yaml.CDumper
 ```
 
-### Scikit-learn | [Homepage](https://scikit-learn.org/) | `import sklearn`
+### [Scikit-learn](https://scikit-learn.org/) | `import sklearn`
+
 Scikit-learn is a simple and efficient tools for predictive data analysis. It is a accessible to everybody, and reusable in various contexts. It is built on Numpy, SciPy and Matplotlib. It is a open source, commercially usable - BSD license.
 
-### SciPy | [Homepage](https://www.scipy.org/) | `import scipy`
+### [SciPy](https://www.scipy.org/) | `import scipy`
+
 The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numberical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
 ### select - Waiting for I/O completion | [Docs 3](https://docs.python.org/3/library/select.html#module-select)
@@ -743,3 +750,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Bunch, https://github.com/dsc/bunch, 2024-04-18-Thu.
 - Prodict, https://github.com/ramazanpolat/prodict, 2024-04-18-Thu.
 - args kwargs Blog KR, https://brunch.co.kr/@princox/180, 2024-04-18-Thu.
+- configparser, https://docs.python.org/3/library/configparser.html, 2024-04-22-Mon.
