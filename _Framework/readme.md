@@ -65,6 +65,8 @@ Resources:
 
 TensorFlow's visualization toolkit. TensorBoard provides the visualization and tooling needed for machine learning experimentation: Tracking and visualizing metrics such as loss and accuracy. Visualizing the model graph (ops and layers). Viewing histograms of weights, biases, or other tensors as they change over time. Projecting embedding to a lower dimensional space. Displaying images, text, and audio data. Profiling TensorFlow programs. And much more.
 
+[TensorBoardX](https://tensorboardx.readthedocs.io/en/latest/tensorboard.html) | [GitHub](https://github.com/lanpa/tensorboardX)
+
 ### [Keras](https://keras.io/) | [GitHub](https://github.com/keras-team/keras) | [keras/layers](https://github.com/keras-team/keras/tree/master/keras/layers) [keras/models](https://github.com/keras-team/keras/tree/master/keras/models)
 
 Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.
@@ -252,3 +254,5 @@ Key Benefits:
 - Distributed Data Parallel Single Node Blog KR, https://csm-kr.tistory.com/47, 2024-04-01-Mon.
 - Distributed Data Parallel Multi Nodes Blog KR, https://csm-kr.tistory.com/89, 2024-04-01-Mon.
 - TensorBoard, 2024-04-08-Mon.
+- TensorBoardX, https://tensorboardx.readthedocs.io/en/latest/tensorboard.html, 2024-04-23-Tue.
+- TensorBoardX GitHub, https://github.com/lanpa/tensorboardX, 2024-04-23-Tue.
