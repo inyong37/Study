@@ -152,9 +152,13 @@ git 2.23.0 부터 modified 된 파일을 restore하는 command이다. 이전의 
 - `git restore file_name` = `git checkout file_name`
 
 ### Submodule
-#### Add Submodule
+
+Add Submodule:
+
 - `git submodule add git@github.com:user_name/submodule_name path_name`
-#### Delete Submodule
+
+Delete Submodule:
+
 1. `git submodule deinit -f submodule_name`
 2. UNIX: `rm -rf .git/modules/submodule_name`
 3. Windows: `rd /s /q .git/modules/submodule_name`
@@ -331,6 +335,10 @@ git describe master; git describe side; git describe bugFix; git commit
 #### a. level remoteAdvanced1
 - My Solution: `git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push`
 - Solution: `git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push`
+
+### [gitignore](https://github.com/github/gitignore/tree/main)
+
+
 
 ---
 
