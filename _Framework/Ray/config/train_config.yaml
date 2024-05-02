@@ -1,0 +1,9 @@
+lr: 0.001
+batch_size: 128
+epoch: 10
+input: ''
+output: ''
+num_workers: 4
+use_gpu: True
+task_name: 'train_ray'
+log_to_file: False
