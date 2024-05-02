@@ -2,6 +2,7 @@
 
 import os
 import tempfile
+import 
 
 import torch
 from torch.nn import CrossEntropyLoss
@@ -13,7 +14,7 @@ from torchvision.transforms import ToTensor, Normalize, Compose
 
 import ray.train.torch
 
-def train_func():
+def train_func(config):
     # Model, Loss, Optimizer
     model = resnet18(num_classes=10)
     model.conv1 = torch.nn.Conv2d(
@@ -23,22 +24,22 @@ def train_func():
     model = ray.train.torch.prepare_model(model)
     # model.to("cuda")  # This is done by `prepare_model`
     criterion = CrossEntropyLoss()
-    optimizer = Adam(model.parameters(), lr=0.001)
+    optimizer = Adam(model.parameters(), lr=config.lr)
 
     # Data
     transform = Compose([ToTensor(), Normalize((0.5,), (0.5,))])
     data_dir = os.path.join(tempfile.gettempdir(), "data")
     train_data = FashionMNIST(root=data_dir, train=True, download=True, transform=transform)
-    train_loader = DataLoader(train_data, batch_size=128, shuffle=True)
+    train_loader = DataLoader(train_data, batch_size=config.batch_size, shuffle=True)
     # [2] Prepare dataloader.
     train_loader = ray.train.torch.prepare_data_loader(train_loader)
 
     # Training
-    for epoch in range(10):
+    for epoch in range(config.epoch):
         if ray.train.get_context().get_world_size() > 1:
             train_loader.sampler.set_epoch(epoch)
 
-        for images, labels in train_loader:
+        for batch_idx, (images, labels) in enumerate(train_loader):
             # This is done by `prepare_data_loader`!
             # images, labels = images.to("cuda"), labels.to("cuda")
             outputs = model(images)
@@ -49,6 +50,7 @@ def train_func():
 
         # [3] Report metrics and checkpoint.
         metrics = {"loss": loss.item(), "epoch": epoch}
+
         with tempfile.TemporaryDirectory() as temp_checkpoint_dir:
             torch.save(
                 model.module.state_dict(),
@@ -62,7 +64,16 @@ def train_func():
             print(metrics)
 
 # [4] Configure scaling and resource requirements.
-scaling_config = ray.train.ScalingConfig(num_workers=2, use_gpu=True)
+scaling_config = ray.train.ScalingConfig(num_workers=config.num_workers, use_gpu=config.use_gpu)
+
+run_config = ray.train.RunConfig(
+    name=config.task_name,
+    storage_path=os.path.join(
+        os.getcwd(),
+        config.task_name
+    ),
+    log_to_file=config.log_to_file,
+)
 
 # [5] Launch distributed training job.
 trainer = ray.train.torch.TorchTrainer(
@@ -72,6 +83,7 @@ trainer = ray.train.torch.TorchTrainer(
     # should configure the run's persistent storage that is accessible
     # across all worker nodes.
     # run_config=ray.train.RunConfig(storage_path="s3://..."),
+    run_config=run_config,
 )
 result = trainer.fit()
 
