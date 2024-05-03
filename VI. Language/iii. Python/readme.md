@@ -751,3 +751,9 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Prodict, https://github.com/ramazanpolat/prodict, 2024-04-18-Thu.
 - args kwargs Blog KR, https://brunch.co.kr/@princox/180, 2024-04-18-Thu.
 - configparser, https://docs.python.org/3/library/configparser.html, 2024-04-22-Mon.
+- Reflection Blog KR, https://jins-sw.tistory.com/28, 2024-05-03-Fri.
+- Partial Blog KR, https://hamait.tistory.com/823, 2024-05-03-Fri.
+- Partial Blog KR, https://jost-do-it.tistory.com/entry/Python-functools%EC%9D%98-partial-%ED%95%A8%EC%88%98-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0#google_vignette, 2024-05-03-Fri.
+- Abstract Wikidocs KR, https://wikidocs.net/16075, 2024-05-03-Fri.
+- Wrapper Decorator Wikidocs KR, https://wikidocs.net/84429, 2024-05-03-Fri.
+- Metaprogramming Wiki, https://en.wikipedia.org/wiki/Metaprogramming, 2024-05-03-Fri.
