@@ -757,3 +757,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Abstract Wikidocs KR, https://wikidocs.net/16075, 2024-05-03-Fri.
 - Wrapper Decorator Wikidocs KR, https://wikidocs.net/84429, 2024-05-03-Fri.
 - Metaprogramming Wiki, https://en.wikipedia.org/wiki/Metaprogramming, 2024-05-03-Fri.
+- unittest, https://docs.python.org/3/library/unittest.html, 2024-06-19-Wed.
