@@ -759,3 +759,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Metaprogramming Wiki, https://en.wikipedia.org/wiki/Metaprogramming, 2024-05-03-Fri.
 - unittest, https://docs.python.org/3/library/unittest.html, 2024-06-19-Wed.
 - `__init__.py` Stackoverflow, https://stackoverflow.com/questions/448271/what-is-init-py-for, 2024-06-28-Fri.
+- `pyproject.toml`, https://packaging.python.org/en/latest/guides/writing-pyproject-toml/, 2024-06-29-Sat.
