@@ -18,6 +18,18 @@ The unittest unit testing framework was originally inspired by JUnit and has a s
 
 [pytest vs unittest](https://www.browserstack.com/guide/pytest-vs-unittest)
 
+## TensorFlow
+
+[tensorflow/python/framework/test_util.py](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/framework/test_util.py)
+
+## PyTorch
+
+[torch/testing/_internal/common_utils.py](https://github.com/pytorch/pytorch/blob/main/torch/testing/_internal/common_utils.py)
+
+## Ray
+
+[python/ray/tests/test_utils.py](https://github.com/ray-project/ray/blob/master/python/ray/tests/test_utils.py)
+
 ---
 
 ### Reference
@@ -25,3 +37,7 @@ The unittest unit testing framework was originally inspired by JUnit and has a s
 - doctest, https://docs.python.org/3.7/library/doctest.html, 2021-03-19-Fri.
 - unittest, https://docs.python.org/3/library/unittest.html, 2024-06-19-Wed.
 - pytest vs unittest, https://www.browserstack.com/guide/pytest-vs-unittest, 2024-07-09-Tue.
+- torch/testing/_internal/common_utils.py, https://github.com/pytorch/pytorch/blob/main/torch/testing/_internal/common_utils.py, 2024-07-09-Tue.
+- expecttest, https://github.com/ezyang/expecttest, 2024-07-09-Tue.
+- tensorflow/python/framework/test_util.py, https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/framework/test_util.py, 2024-07-09-Tue.
+- python/ray/tests/test_utils.py, https://github.com/ray-project/ray/blob/master/python/ray/tests/test_utils.py, 2024-07-09-Tue.
