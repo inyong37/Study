@@ -663,32 +663,17 @@ The doctest module searches for pieces of next that look like interactive Python
 
 * To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
 * To perform regression testing by verifying that interactive examples from a test file or a test object work as expected.
-* To write tutorial documentation for a package, liberally illustrated with input-output examples. Depending on whether the examples or the expository text are emphasized, this has the flavor of "literate testing" or "executable documentation".
-
-Test in classes or functions in documentation field:
-
-```python
-import doctest
-
-def bar():
-  >>> bar()
-  foo
-  return foo
-```
-
-And
-
-`$ python test.py -v`
+* To write tutorial documentation for a package, liberally illustrated with input-output examples. Depending on whether the examples or the expository text are emphasized, this has the flavor of "literate testing" or "executable documentation". `python test.py -v`
 
 ### [pytest](https://docs.pytest.org/en/8.2.x/)
 
-The pytest framework makes it easy to write small, readable tests, and can sacle to support complex functional testing for applications and libraries. pytest requires: Python 3.8+ or PyPy3.
+The pytest framework makes it easy to write small, readable tests, and can sacle to support complex functional testing for applications and libraries. pytest requires: Python 3.8+ or PyPy3. `pytest {test_directory}`
 
 ### [unittest](https://docs.python.org/3/library/unittest.html)
 
 The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
 
-### [pytest vs unittest](https://www.browserstack.com/guide/pytest-vs-unittest)
+[pytest vs unittest](https://www.browserstack.com/guide/pytest-vs-unittest)
 
 ---
 
