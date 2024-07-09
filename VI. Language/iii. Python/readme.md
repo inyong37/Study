@@ -655,28 +655,6 @@ Django is a high-level Python web framework that encourages rapid development an
 
 ---
 
-## Test
-
-### [doctest](https://docs.python.org/3.7/library/doctest.html)
-
-The doctest module searches for pieces of next that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown. There are several common ways to use doctest:
-
-* To check that a module's docstrings are up-to-date by verifying that all interactive examples still work as documented.
-* To perform regression testing by verifying that interactive examples from a test file or a test object work as expected.
-* To write tutorial documentation for a package, liberally illustrated with input-output examples. Depending on whether the examples or the expository text are emphasized, this has the flavor of "literate testing" or "executable documentation". `python test.py -v`
-
-### [pytest](https://docs.pytest.org/en/8.2.x/)
-
-The pytest framework makes it easy to write small, readable tests, and can sacle to support complex functional testing for applications and libraries. pytest requires: Python 3.8+ or PyPy3. `pytest {test_directory}`
-
-### [unittest](https://docs.python.org/3/library/unittest.html)
-
-The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.
-
-[pytest vs unittest](https://www.browserstack.com/guide/pytest-vs-unittest)
-
----
-
 ### Reference
 - Python, https://www.python.org/, 2020-04-02-Thu.
 - Python, Deep Copy, Shallow Copy, https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/, 2020-05-31-Sun.
@@ -700,7 +678,6 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Python 3.7.9 Built-in Constants EN, https://docs.python.org/3.7/library/constants.html, 2021-01-26-Tue.
 - Python Screentshot Blog EN, https://datatofish.com/screenshot-python/, 2021-02-12-Fri.
 - Python Debugging
-- Python pytest, https://docs.pytest.org/en/stable/, 2021-02-15-Mon.
 - Parameter vs. Argument Blog KR, http://taewan.kim/tip/argument_parameter/, 2021-02-23-Tue.
 - os 3.7.9, https://docs.python.org/3.7/library/os.html, 2021-03-19-Fri.
 - surprocess 3.7.10, https://docs.python.org/3.7/library/subprocess.html, 2021-03-28-Sun.
@@ -758,7 +735,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - Abstract Wikidocs KR, https://wikidocs.net/16075, 2024-05-03-Fri.
 - Wrapper Decorator Wikidocs KR, https://wikidocs.net/84429, 2024-05-03-Fri.
 - Metaprogramming Wiki, https://en.wikipedia.org/wiki/Metaprogramming, 2024-05-03-Fri.
-- unittest, https://docs.python.org/3/library/unittest.html, 2024-06-19-Wed.
 - `__init__.py` Stackoverflow, https://stackoverflow.com/questions/448271/what-is-init-py-for, 2024-06-28-Fri.
 - `pyproject.toml`, https://packaging.python.org/en/latest/guides/writing-pyproject-toml/, 2024-06-29-Sat.
-- pytest vs unittest, https://www.browserstack.com/guide/pytest-vs-unittest, 2024-07-09-Tue.
