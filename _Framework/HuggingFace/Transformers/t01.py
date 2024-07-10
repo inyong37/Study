@@ -1,3 +1,5 @@
+# Run inference with pipelines
+
 # 2024-02-14-Wed.
 # 2024-07-10-Wed.
 # https://huggingface.co/docs/transformers/en/pipeline_tutorial
