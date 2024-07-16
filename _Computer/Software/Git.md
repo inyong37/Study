@@ -193,6 +193,9 @@ git 2.23.0 부터 branch를 switch하기 위한 command이다. 이전의 checkou
 
 ## [Git Tutorial Game](https://learngitbranching.js.org/)
 
+<details>
+<summary>Solution</summary>
+
 - See tutorials command: `levels`
 ### i. Local
 ### A. Intro
@@ -335,6 +338,8 @@ git describe master; git describe side; git describe bugFix; git commit
 #### a. level remoteAdvanced1
 - My Solution: `git fetch; git checkout side1; git rebase o/master; git checkout side2; git rebase side1; git checkout side3; git rebase side2; git checkout master; git rebase side3; git push`
 - Solution: `git fetch; git rebase o/master side1; git rebase side1 side2; git rebase side2 side3; git rebase side3 master; git push`
+
+</details>
 
 ### [gitignore](https://github.com/github/gitignore/tree/main)
 
