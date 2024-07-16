@@ -1,0 +1,6 @@
+Package: imhere
+Version: 0.0.1
+Maintainer: My Name <my@my.com>
+Description: My Test Package
+Homepage: http://myhomepage.com
+Architecture: amd64
