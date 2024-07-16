@@ -1,5 +1,29 @@
 # Package
 
+## Python Project Structure
+
+```Bash
+/
+/.gitignore
+/README.md
+/LICENSE
+/setup.py
+/requirements.txt
+/{package_name}
+/{package_name}/__init_.py
+/{package_name}/{package_name}.py
+/{package_name}/info.py
+/{package_name}/{package_function}.py
+/{package_name}/resources
+/{package_name}/resources/__init__.py
+/{package_name}/resources/config.yml
+/tests
+/tests/__init__.py
+/tests/{test_case}.py
+/tests/resources
+/tests/resources/config.yml
+```
+
 ---
 
 ### Reference
