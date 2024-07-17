@@ -22,6 +22,21 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 
 ## pyproject.toml | [PEP 517](https://peps.python.org/pep-0427/) | [PEP 518](https://peps.python.org/pep-0518/)
 
+## [Flit](https://flit.pypa.io/en/stable/)
+
+Flit is a simple way to put Python packages and modules on PyPI. It tries to require less thought about packaging and help you avoid common mistakes.
+
+Install: `python3 -m pip install flit`
+
+Usage:
+1. Make sure that module's docstring starts with a one-line summary of what the module is, and that it has a `__version__`.
+2. Install flit if you don't already have it.
+3. Run `flit init` in the directory containing the module to create a `pyproject.toml` file.
+4. Run `flit publish` to upload your code to PyPI
+5. Once your package is published, people can install it using pip just like any other package. In most cases, pip will download a 'wheel' package, a standard format it knows how to install. If you specifically ask pip to install an 'sdist' package, it will install and use Flit in a temporary environment.
+6. To install a package locally for development, run `flit install [--symlink] [--python path/to/python]`
+7. Flit packages a single importable module or package at a time, using the import name as the name on PyPI. All subpackages and data files within a package are included automatically.
+
 ## Python Project Structure
 
 ```Bash
@@ -70,3 +85,4 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - Wheel PEP 427, https://peps.python.org/pep-0427/, 2024-07-17-Wed.
 - PEP 517, https://peps.python.org/pep-0517/, 2024-07-17-Wed.
 - PEP 518, https://peps.python.org/pep-0518/, 2024-07-17-Wed.
+- Flit, https://flit.pypa.io/en/stable/, 2024-07-17-Wed.
