@@ -1,5 +1,11 @@
 # Package
 
+## [distutils](https://docs.python.org/3.10/library/distutils.html) } [PEP 229](https://peps.python.org/pep-0229/)
+
+The distutils package provides support for building and installing additional modules into a Python installation. The new modules may be either 100%-pure Python, or may be extension modules written in C, or may be collections of Python packages which include modules coded in both Python and C.
+
+:bulb: distutils is deprecated with removal planned for Python 3.12. 
+
 ## [Setuptools](https://setuptools.pypa.io/en/latest/index.html)
 
 Setuptools is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects. It helps developers to easily share reusable code (in the form of a library) and programs (e.g., CLI/GUI tools implemented in Python), that can be installed with pip and uploaded to PyPI.
@@ -43,3 +49,5 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - Dependencies Management in Setuptools, https://setuptools.pypa.io/en/latest/userguide/dependency_management.html, 2024-07-16-Tue.
 - pyproject Blog KR, https://www.bearpooh.com/223, 2024-07-16-Tue.
 - Setuptools, https://setuptools.pypa.io/en/latest/index.html, 2024-07-17-Wed.
+- distutils Python 3.10, https://docs.python.org/3.10/library/distutils.html, 2024-07-17-Wed.
+- PEP 229, https://peps.python.org/pep-0229/, 2024-07-17-Wed.
