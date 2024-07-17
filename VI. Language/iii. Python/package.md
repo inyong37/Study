@@ -18,6 +18,8 @@ The distutils package provides support for building and installing additional mo
 
 Setuptools is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects. It helps developers to easily share reusable code (in the form of a library) and programs (e.g., CLI/GUI tools implemented in Python), that can be installed with pip and uploaded to PyPI.
 
+## Wheel | [PEP 427](https://peps.python.org/pep-0427/)
+
 ## Python Project Structure
 
 ```Bash
@@ -63,3 +65,4 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - pip, https://pypi.org/project/pip/, 2024-07-17-Wed.
 - PEP 453, https://peps.python.org/pep-0453/, 2024-07-17-Wed.
 - Tool recommendations, https://packaging.python.org/en/latest/guides/tool-recommendations/, 2024-07-17-Wed.
+- Wheel PEP 427, https://peps.python.org/pep-0427/, 2024-07-17-Wed.
