@@ -4,6 +4,10 @@
 
 The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
 
+## [pip](https://pypi.org/project/pip/) | [PEP 453](https://peps.python.org/pep-0453/) | [Tool recommendations](https://packaging.python.org/en/latest/guides/tool-recommendations/)
+
+pip is the package installer for Python. You can use pip to install package from the Python Package Index and other indexes.
+
 ## [distutils](https://docs.python.org/3.10/library/distutils.html) | [PEP 229](https://peps.python.org/pep-0229/)
 
 The distutils package provides support for building and installing additional modules into a Python installation. The new modules may be either 100%-pure Python, or may be extension modules written in C, or may be collections of Python packages which include modules coded in both Python and C.
@@ -56,3 +60,6 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - distutils Python 3.10, https://docs.python.org/3.10/library/distutils.html, 2024-07-17-Wed.
 - PEP 229, https://peps.python.org/pep-0229/, 2024-07-17-Wed.
 - PyPI, https://pypi.org/, 2024-07-17-Wed.
+- pip, https://pypi.org/project/pip/, 2024-07-17-Wed.
+- PEP 453, https://peps.python.org/pep-0453/, 2024-07-17-Wed.
+- Tool recommendations, https://packaging.python.org/en/latest/guides/tool-recommendations/, 2024-07-17-Wed.
