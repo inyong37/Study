@@ -1,0 +1,31 @@
+# Reference
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta
+
+[project]
+name = "imhere-pkg"
+version = "2024.07.17"
+dependencies = [
+    "tensorflow",
+    "keras",
+    "torch",
+    "ray",
+]
+requires-python = ">=3.10"
+authors = [
+    {name = "{name}", email = "{email}",
+]
+maintainers = [
+    {name = "{name}", email = "{email}",
+]
+description = "I AM HERE with PACKAGE!"
+readme = "README.md"
+# license = {file = "LICENSE"}
+license = {text = "MIT License"}
+keywords = ["machine learning", "deep learning", "tensorflow", "keras", "pytorch", "ray"]
+
+[project.url]
+Homepage = "https://github.com/inyong37/Study/blob/master/VI.%20Language/iii.%20Python/package.md"
