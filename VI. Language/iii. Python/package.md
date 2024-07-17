@@ -22,6 +22,10 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 
 ## pyproject.toml | [PEP 517](https://peps.python.org/pep-0427/) | [PEP 518](https://peps.python.org/pep-0518/)
 
+## [Poetry](https://python-poetry.org/)
+
+Poetry is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. Poetry offers a lockfile to ensure repeatable installs, and can build your project for distribution.
+
 ## [Flit](https://flit.pypa.io/en/stable/)
 
 Flit is a simple way to put Python packages and modules on PyPI. It tries to require less thought about packaging and help you avoid common mistakes.
@@ -85,4 +89,5 @@ Usage:
 - Wheel PEP 427, https://peps.python.org/pep-0427/, 2024-07-17-Wed.
 - PEP 517, https://peps.python.org/pep-0517/, 2024-07-17-Wed.
 - PEP 518, https://peps.python.org/pep-0518/, 2024-07-17-Wed.
+- Poetry, https://python-poetry.org/, 2024-07-17-Wed.
 - Flit, https://flit.pypa.io/en/stable/, 2024-07-17-Wed.
