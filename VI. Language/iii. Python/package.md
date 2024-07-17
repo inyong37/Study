@@ -20,6 +20,8 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 
 ## Wheel | [PEP 427](https://peps.python.org/pep-0427/)
 
+## pyproject.toml | [PEP 517](https://peps.python.org/pep-0427/) | [PEP 518](https://peps.python.org/pep-0518/)
+
 ## Python Project Structure
 
 ```Bash
@@ -66,3 +68,5 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - PEP 453, https://peps.python.org/pep-0453/, 2024-07-17-Wed.
 - Tool recommendations, https://packaging.python.org/en/latest/guides/tool-recommendations/, 2024-07-17-Wed.
 - Wheel PEP 427, https://peps.python.org/pep-0427/, 2024-07-17-Wed.
+- PEP 517, https://peps.python.org/pep-0517/, 2024-07-17-Wed.
+- PEP 518, https://peps.python.org/pep-0518/, 2024-07-17-Wed.
