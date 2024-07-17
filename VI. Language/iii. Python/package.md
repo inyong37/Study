@@ -1,6 +1,10 @@
 # Package
 
-## [distutils](https://docs.python.org/3.10/library/distutils.html) } [PEP 229](https://peps.python.org/pep-0229/)
+## [PyPI](https://pypi.org/)
+
+The Python Package Index (PyPI) is a repository of software for the Python programming language. PyPI helps you find and install software developed and shared by the Python community.
+
+## [distutils](https://docs.python.org/3.10/library/distutils.html) | [PEP 229](https://peps.python.org/pep-0229/)
 
 The distutils package provides support for building and installing additional modules into a Python installation. The new modules may be either 100%-pure Python, or may be extension modules written in C, or may be collections of Python packages which include modules coded in both Python and C.
 
@@ -51,3 +55,4 @@ Setuptools is a fully-featured, actively-maintained, and stable library designed
 - Setuptools, https://setuptools.pypa.io/en/latest/index.html, 2024-07-17-Wed.
 - distutils Python 3.10, https://docs.python.org/3.10/library/distutils.html, 2024-07-17-Wed.
 - PEP 229, https://peps.python.org/pep-0229/, 2024-07-17-Wed.
+- PyPI, https://pypi.org/, 2024-07-17-Wed.
