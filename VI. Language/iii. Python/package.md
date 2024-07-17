@@ -1,5 +1,9 @@
 # Package
 
+## [Setuptools](https://setuptools.pypa.io/en/latest/index.html)
+
+Setuptools is a fully-featured, actively-maintained, and stable library designed to facilitate packaging Python projects. It helps developers to easily share reusable code (in the form of a library) and programs (e.g., CLI/GUI tools implemented in Python), that can be installed with pip and uploaded to PyPI.
+
 ## Python Project Structure
 
 ```Bash
@@ -38,3 +42,4 @@
 - Structuring Your Project, https://docs.python-guide.org/writing/structure/, 2024-07-16-Tue.
 - Dependencies Management in Setuptools, https://setuptools.pypa.io/en/latest/userguide/dependency_management.html, 2024-07-16-Tue.
 - pyproject Blog KR, https://www.bearpooh.com/223, 2024-07-16-Tue.
+- Setuptools, https://setuptools.pypa.io/en/latest/index.html, 2024-07-17-Wed.
