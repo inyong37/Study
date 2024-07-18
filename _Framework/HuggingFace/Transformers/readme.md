@@ -22,7 +22,31 @@ Transformers support framework interoperability between PyTorch, TensorFlow, and
 | Document question answering | answer a question about the document, given a document and a question | Multimodal | `pipeline(task='document-question-answering')`
 | Image captioning | generate a caption for a given image | Multimodal | `pipeline(task='image-to-text')` |
 
+Tutorials:
+* [Run inference with pipelines](https://huggingface.co/docs/transformers/en/pipeline_tutorial)
+* [Write portable code with AutoClass](https://huggingface.co/docs/transformers/en/autoclass_tutorial)
+* [Preprocess data](https://huggingface.co/docs/transformers/en/preprocessing)
+* [Fine-tune a pretrained model](https://huggingface.co/docs/transformers/en/training)
+* [Train with a script](https://huggingface.co/docs/transformers/en/run_scripts)
+* [Set up distributed training with Accelerate](https://huggingface.co/docs/transformers/en/accelerate)
+* [Load and train adapters with PEFT](https://huggingface.co/docs/transformers/en/peft)
+* [Share your model](https://huggingface.co/docs/transformers/en/model_sharing)
+* [Agents](https://huggingface.co/docs/transformers/en/agents)
+* [Generation with LLMs](https://huggingface.co/docs/transformers/en/llm_tutorial)
+* [Chatting with Transformers](https://huggingface.co/docs/transformers/en/conversations)
+
 ---
 
 ### Reference
 - Transformers, https://huggingface.co/docs/transformers/en/index, 2024-07-10-Wed.
+- Run inference with pipelines, https://huggingface.co/docs/transformers/en/pipeline_tutorial, 2024-07-18-Thu.
+- Write portable code with AutoClass, https://huggingface.co/docs/transformers/en/autoclass_tutorial, 2024-07-18-Thu.
+- Preprocess data, https://huggingface.co/docs/transformers/en/preprocessing, 2024-07-18-Thu.
+- Fine-tune a pretrained model, https://huggingface.co/docs/transformers/en/training, 2024-07-18-Thu.
+- Train with a script, https://huggingface.co/docs/transformers/en/run_scripts, 2024-07-18-Thu.
+- Set up distributed training with Accelerate, https://huggingface.co/docs/transformers/en/accelerate, 2024-07-18-Thu.
+- Load and train adapters with PEFT, https://huggingface.co/docs/transformers/en/peft, 2024-07-18-Thu.
+- Share your model, https://huggingface.co/docs/transformers/en/model_sharing, 2024-07-18-Thu.
+- Agents, https://huggingface.co/docs/transformers/en/agents, 2024-07-18-Thu.
+- Generation with LLMs, https://huggingface.co/docs/transformers/en/llm_tutorial, 2024-07-18-Thu.
+- Chatting with Transformers, https://huggingface.co/docs/transformers/en/conversations, 2024-07-18-Thu.
