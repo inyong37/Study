@@ -22,6 +22,16 @@ Transformers support framework interoperability between PyTorch, TensorFlow, and
 | Document question answering | answer a question about the document, given a document and a question | Multimodal | `pipeline(task='document-question-answering')`
 | Image captioning | generate a caption for a given image | Multimodal | `pipeline(task='image-to-text')` |
 
+Installation:
+```Bash
+pip install transformers
+```
+
+Verification:
+```Bash
+python -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('we love you'))"
+```
+
 Tutorials:
 * [Run inference with pipelines](https://huggingface.co/docs/transformers/en/pipeline_tutorial)
 * [Write portable code with AutoClass](https://huggingface.co/docs/transformers/en/autoclass_tutorial)
