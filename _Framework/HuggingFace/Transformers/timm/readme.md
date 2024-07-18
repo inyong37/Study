@@ -1,0 +1,24 @@
+# [PyTorch Image Models (timm)](https://huggingface.co/timm) | [GitHub](https://github.com/huggingface/pytorch-image-models)
+
+PyTorch Image Models (timm) is a collection of image layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results.
+
+It comes packaged with >700 pretrained models, and is designed to be flexible and easy to use.
+
+### Installation
+
+```Bash
+pip3 install timm
+```
+
+### Verification
+
+```Bash
+python -c "from timm import list_models; print(list_models(pretrained=True)[:5])"
+```
+
+---
+
+### Reference
+- timm, https://huggingface.co/timm, 2024-07-18-Thu.
+- timm GitHub, https://github.com/huggingface/pytorch-image-models, 2024-07-18-Thu.
+- timm, https://timm.fast.ai/, 2024-07-18-Thu.
