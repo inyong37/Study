@@ -2,7 +2,7 @@
 
 Clean Code in Python 2nd Ed.
 
-마리아노 아나야 저, 김창수 역 |  터닝포인트 | 2019년 02월 25일 | [YES24](https://www.yes24.com/Product/Goods/69064790)
+마리아노 아나야 저, 김창수 역 |  터닝포인트 | 2019년 02월 25일 | [YES24](https://www.yes24.com/Product/Goods/114667254)
 
 ## Date
 
