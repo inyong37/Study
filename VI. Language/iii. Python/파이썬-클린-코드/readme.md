@@ -10,24 +10,24 @@ July, 2024
 
 ## Content
 
-### Perface. [서문]()
+### Perface. 서문
 
-### Chapter 1. [소개, 코드 포매팅과 도구]()
+### Chapter 1. [소개, 코드 포매팅과 도구](C01_Introduction_Code_Formatting_and_Tools.md)
 
-### Chapter 2. [파이썬스러운(pythonic) 코드]()
+### Chapter 2. [파이썬스러운(pythonic) 코드](C02_Pythonic_Code.md)
 
-### Chapter 3. [좋은 코드의 일반적인 특징]()
+### Chapter 3. [좋은 코드의 일반적인 특징](C03_General_Traits_of_Good_Code.md)
 
-### Chapter 4. [SOLID 원칙]()
+### Chapter 4. [SOLID 원칙](C04_The_SOLID_Principles.md)
 
-### Chapter 5. [데코레이터를 사용한 코드 개선]()
+### Chapter 5. [데코레이터를 사용한 코드 개선](C05_Using_Decorators_to_Improve_Our_Code.md)
 
-### Chapter 6. [디스크립터로 더 멋진 객체 만들기]()
+### Chapter 6. [디스크립터로 더 멋진 객체 만들기](C06_Getting_More_Out_of_Our_Objects_with_Descriptors.md)
 
-### Chapter 7. [제너레이터 사용하기]()
+### Chapter 7. [제너레이터 사용하기](C07_Using_Generators.md)
 
-### Chapter 8. [단위 테스트와 리팩토링]()
+### Chapter 8. [단위 테스트와 리팩토링](C08_Unit_Testing_and_Refactoring.md)
 
-### Chapter 9. [일반적인 디자인 패턴]()
+### Chapter 9. [일반적인 디자인 패턴](C09_Common_Design_Patterns.md)
 
-### Chapter 10. [클린 아키텍처]()
+### Chapter 10. [클린 아키텍처](C10_Clean_Architecture.md)
