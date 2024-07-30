@@ -49,6 +49,24 @@ Tutorials:
 * [Generation with LLMs](https://huggingface.co/docs/transformers/en/llm_tutorial)
 * [Chatting with Transformers](https://huggingface.co/docs/transformers/en/conversations)
 
+## Models
+
+### [OpenAI GPT](https://huggingface.co/docs/transformers/en/model_doc/openai-gpt)
+
+OpenAI GPT model was proposed in Improving Language Understanding by Generative Pre-Training by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever. It's a causal (unidirectional) transformer pre-trained using language modeling on a large corpus will long range dependencies, the Toronto Book Corpus.
+
+### [SAM](https://huggingface.co/docs/transformers/en/model_doc/sam)
+
+SAM (Segment Anything Model) was proposed in Segment Anything by Alexander Kirillov, Eric Mintun, Nikhila Ravi, Hanzi Mao, Chloe Rolland, Laura Gustafson, Tete Xiao, Spencer Whitehead, Alex Berg, Wan-Yen Lo, Piotr Dollar, Ross Girshick. The model can be used to predict segmentation masks of any object of interest given an input image.
+
+### [Swin Transformer V2](https://huggingface.co/docs/transformers/en/model_doc/swinv2)
+
+The Swin Transformer V2 model was proposed in Swin Transformer V2: Scaling Up Capacity and Resolution by Ze Liu, Han Hu, Yutong Lin, Zhuliang Yao, Zhenda Xie, Yixuan Wei, Jia Ning, Yue Cao, Zheng Zhang, Li Dong, Furu Wei, Baining Guo.
+
+### [Vision Transformer (ViT)](https://huggingface.co/docs/transformers/en/model_doc/vit)
+
+The Vision Transformer (ViT) model was proposed in An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale by Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. It's the first paper that successfully trains Transformer encoder on ImageNet, attaining very good results compared to familiar convolutional architectures.
+
 ---
 
 ### Reference
@@ -64,3 +82,7 @@ Tutorials:
 - Agents, https://huggingface.co/docs/transformers/en/agents, 2024-07-18-Thu.
 - Generation with LLMs, https://huggingface.co/docs/transformers/en/llm_tutorial, 2024-07-18-Thu.
 - Chatting with Transformers, https://huggingface.co/docs/transformers/en/conversations, 2024-07-18-Thu.
+- OpenAI GPT, https://huggingface.co/docs/transformers/en/model_doc/openai-gpt, 2024-07-30-Tue.
+- SAM, https://huggingface.co/docs/transformers/en/model_doc/sam, 2024-07-30-Tue.
+- Swin Transformer V2, https://huggingface.co/docs/transformers/en/model_doc/swinv2, 2024-07-30-Tue.
+- ViT, https://huggingface.co/docs/transformers/en/model_doc/vit, 2024-07-30-Tue.
