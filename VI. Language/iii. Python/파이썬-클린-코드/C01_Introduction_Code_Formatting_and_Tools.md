@@ -1,27 +1,55 @@
-# Chapter 1. Introduction, Code Formatting, and Tools
+# Chapter 1. 코드 포매팅과 도구
 
-## The meaning of clean code
+## 서론
 
-## The importance of having clean code
+### 클린 코드의 의미
 
-### The role of code formatting in clean code
+클린 코드인지 아닌지는 다른 엔지니어가 코드를 읽고 유지 관리할 수 있는지 여부에 달려 있다.
 
-### Adhering to a coding style guide on your project
+### 클린 코드의 중요성
 
-## Docstrings and annotations
+민첩한 개발과 지속적인 배포가 가능하다는 것이다.
 
-### Docstrings
+일정하고 꾸준하게 예측 가능한 속도로 움직이고 싶다면 코드가 유지보수 가능한 상태로 가독성이 높아야 한다. 그렇지 않으면 기획자가 새로운 기능을 요구할 때마다 리팩토링을 하고 기술 부채를 해결하기 위해 멈춰야만 할 것이다.
 
-### Annotations
+기술 부채는 나쁜 결정이나 적당한 타협의 결과로 생긴 소프트웨어적 결함을 말한다.
 
-### Do annotations replace docstrings?
+### 예외 상황
 
-### Configuring the tools for enforcing basic quality gates
+* 해커톤 참여
+* 일회성 작업을 위한 간단한 스크립트를 작성하는 경우
+* 프로그래밍 경진 대회 참여
+* 기존에 없던 개념을 검증하기 위해 개발하는 경우
+* (나중에 버려질 것이 확실하다고 생각되는) 프로토타입을 개발할 때
+* 앞으로 버려질 것이 확실한 레거시 프로젝트에 짧은 시간 동안만 작업을 하는 경우
 
-#### Type hinting with Mypy
+## 클린 코드에서 코드 포매팅의 역할
 
-#### Checking the code with Pylint
+클린 코드는 코딩 표준, 포매팅, 린팅 도구나 다른 검사 도구를 사용한 코드 레이아웃 설정과 같은 것 그 이상을 뜻한다.
 
-#### Setup for automatic checks
+PEP-8은 다음과 같은 특징을 가지고 있다.
+
+* 검색 효율성(Searchability)
+* 일관성
+* 더 나은 오류 처리
+* 코드 품질
+
+### 프로젝트 코딩 스타일 가이드 준수
+
+## 문서화(Documentation)
+
+### 코드 주석(code comments)
+
+### Docstring
+
+## 도구 설정
+
+### 데이터 타입 일관성 검사
+
+### 일반적인 코드 검증
+
+### 자동 포매팅
+
+### 자동 검사 설정
 
 ## Summary
