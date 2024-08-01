@@ -94,12 +94,37 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 해당 "path_name"이 사용 중인 경우, 예를 들어 안에 다른 folder 또는 file이 있는 경우에 발생한다. 해결책으로는 다른 path를 사용해야한다.
 - `git submodule add git@github.com:user_name/submodule_name path_name`
 
-## hooks
+---
+
+## [Git hooks](https://git-scm.com/docs/githooks)
+
+Hooks are programs you can place in a hooks directory to trigger actions at certain points in git's execution.
+
+By default the hooks directory is `$GIT_DIR/hooks`, but that can be changed via the `core.hooksPath configuration variable.
+
+Like many other Version Control Systems, Git has a way to fire off custom scripts when certain important actions occur. There are two groups of these hooks: client-side and server-side. Client-side hooks are triggered by operations such as committing and merging, while server-side hooks run on network operations such as receiving pushed commits.
+
 Srcipts can use same shebang in Windows as UNIX.
 
 ```Python
 #!/usr/bin/env python
 ```
+
+### pre-commit
+
+This hook is invoked by git-commit, and can be bypassed with the `--no-verify` option. It takes no parameters, and is invoked before obtaining the proposed commit log message and making a commit. Exiting with a non-zero status from this script causes the `git commit` command to abort before creating a commit.
+
+The default pre-commit hook, when enabled, catches introduction of lines with trailing whitespaces and aborts the commit when such a line is found.
+
+All the `git commit` hooks are invoked with the environment variable `GIT_EDITOR=:` if the command will not bring up an editor to modify the commit message.
+
+The default pre-commit hook, when enabled-and with the `hooks.allownonascii` config option unset or set to false-prevents the use of non-ASCII filenames.
+
+### pre-push
+
+This hook is called by git-push and can be used to prevent a push from taking place. The hook is called with two parameters which provide the name and location of the destination remote, if a named remote is not being used both values will be the same.
+
+---
 
 ### Log
 commit log를 볼 수 있다.
@@ -857,3 +882,5 @@ git describe master; git describe side; git describe bugFix; git commit
 - git hook shebang in Windows Blog, https://skoop.dev/blog/2018/12/12/git_hooks_on_Windows/, 2021-05-28-Fri.
 - GitLab vs. GitHub, https://about.gitlab.com/competition/github/, 2023-09-12-Tue.
 - gitignore Generator, https://www.toptal.com/developers/gitignore, 2024-07-17-Wed.
+- Git Hooks, https://git-scm.com/docs/githooks, 2024-08-01-Thu.
+- Git Hooks, https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks, 2024-08-01-Thu.
