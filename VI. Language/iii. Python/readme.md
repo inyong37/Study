@@ -738,4 +738,3 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - `pyproject.toml`, https://packaging.python.org/en/latest/guides/writing-pyproject-toml/, 2024-06-29-Sat.
 - getattr Blog KR, https://blog.naver.com/PostView.naver?blogId=siniphia&logNo=221796316521, 2024-07-12-Fri.
 - functools.partial KR, https://wikidocs.net/109304, 2024-07-12-Fri.
-- Google Python Style Guide, https://google.github.io/styleguide/pyguide.html, 2024-08-02-Fri.
