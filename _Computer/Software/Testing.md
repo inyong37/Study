@@ -223,6 +223,12 @@ njmon is similar but saves data to JSON format for a new generation of online ti
 
 ---
 
+### [Test Smell](http://xunitpatterns.com/TestSmells.html)
+
+A smell is a symptom of a problem. A smell doesn't necessarily tell us what is wrong because there may be several possible causes for a particular smell.
+
+---
+
 ### References
 - googletest(gtest) GitHub, https://github.com/google/googletest
 - gtest-demo GitHub, https://github.com/bast/gtest-demo
@@ -251,3 +257,4 @@ njmon is similar but saves data to JSON format for a new generation of online ti
 - nmon, https://nmon.sourceforge.io/pmwiki.php, 2023-11-28-Tue.
 - nmon Visualizer, https://github.com/nmonvisualizer/nmonvisualizer/releases, 2023-11-28-Tue.
 - Unit Testing, https://codefresh.io/learn/unit-testing/, 2024-08-09-Fri.
+- Test Smell, http://xunitpatterns.com/TestSmells.html, 2024-08-09-Fri.
