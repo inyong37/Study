@@ -40,6 +40,12 @@ Software testing is the process of evaluating and verifying that a software prod
 
 Unit test란 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증, 모든 함수와 메소드에 대한 테스트 케이스를 작성, 통합 테스트란 둘 이상의 모듈을 하나의 그룹으로 테스트하는 것, unit test하는 이유는 문제점 발견이 쉽고, 변경이 쉽고, 통합이 간단함, 테스트 도구에는 Cpp Unit, Google Test 등이 있음
 
+[Principles of Unit Testing](https://codefresh.io/learn/unit-testing/):
+* Isolation of Components
+* Repetable and Consistent Results
+* Test Small Parts of the Codebase
+* Automation in Testing
+
 ### GoogleTest (gtest)
 
 gtest는 구글에서 만든 C++ 테스트 프레임워크, 통합 테스트, 단위 테스트(unit test), 시나리오 테스트 가능, 크로미윰, OpenCV에서 사용, 특징으로는 다양한 asssertion, user-defined assertions, death test, fatal and non-fatal, value-parameterized test, type-parameterized test, various options runtime test, xml test report 가능, 독립적, 실제 사용하는 것처럼 테스트 케이스 그룹 만들 수 있음, platform 독립적, test case 실패해도 계속 진행 가능, 일일이 지정하지 않아도 찾아줌, 반복 test는 자원을 공유하기 때문에 비용이 적음
@@ -244,3 +250,4 @@ njmon is similar but saves data to JSON format for a new generation of online ti
 - CSV JMeter Blog KR, https://blog.naver.com/asemansa/221681591957, 2023-11-16-Thu.
 - nmon, https://nmon.sourceforge.io/pmwiki.php, 2023-11-28-Tue.
 - nmon Visualizer, https://github.com/nmonvisualizer/nmonvisualizer/releases, 2023-11-28-Tue.
+- Unit Testing, https://codefresh.io/learn/unit-testing/, 2024-08-09-Fri.
