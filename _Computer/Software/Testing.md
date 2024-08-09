@@ -172,6 +172,14 @@ Eclipse-based Python IDE with code analysis available on-the-fly in the editor o
 
 Static code analyzer. Quite stringent; includes many stylistic warnings as well.
 
+### [Pylint](https://github.com/pylint-dev/pylint)
+
+Pylint is a static code analyser for Python 2 or 3. It checks for errors, enforces a coding standard, looks for code smells, and can make suggestions about how the code could be refactored.
+
+### [Mypy](https://mypy-lang.org/)
+
+Mypy is an optional static type checker for Python that aims to combine the benefits of dynamic (or "duck") typing and static typing. Mypy combines the expressive power and convenience of Python with a powerful type system and compile-time type checking. Mypy type checks standard Python programs; run them using any Python VM with basically no runtime overhead.
+
 ---
 
 ### Semgrep
@@ -223,6 +231,10 @@ njmon is similar but saves data to JSON format for a new generation of online ti
 
 ---
 
+### [Code Smell](https://martinfowler.com/bliki/CodeSmell.html)
+
+A code smell is a surface indication that usually corresponds to a deeper problem in the system.
+
 ### [Test Smell](http://xunitpatterns.com/TestSmells.html)
 
 A smell is a symptom of a problem. A smell doesn't necessarily tell us what is wrong because there may be several possible causes for a particular smell.
@@ -258,3 +270,6 @@ A smell is a symptom of a problem. A smell doesn't necessarily tell us what is w
 - nmon Visualizer, https://github.com/nmonvisualizer/nmonvisualizer/releases, 2023-11-28-Tue.
 - Unit Testing, https://codefresh.io/learn/unit-testing/, 2024-08-09-Fri.
 - Test Smell, http://xunitpatterns.com/TestSmells.html, 2024-08-09-Fri.
+- Pylint, https://github.com/pylint-dev/pylint, 2024-08-09-Fri.
+- Code Smell, https://martinfowler.com/bliki/CodeSmell.html, 2024-08-09-Fri.
+- Mypy, https://mypy-lang.org/, 2024-08-09-Fri.
