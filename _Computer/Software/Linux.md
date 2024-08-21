@@ -281,7 +281,21 @@ Publish repo:
 Drop published repo:
 - `aptly publish drop jammy`
 
-### *Manual Page (man page)* | [WiKi](https://en.wikipedia.org/wiki/Man_page)
+## Patch
+
+### [patch](https://www.man7.org/linux/man-pages/man1/patch.1.html) - Apply a diff file to an original
+
+patch takes a patch file patchfilee containing a difference listing produced by the diff program and applies those differences to one or more original files, producing patched version. Normally the patched versions are put in place of the originals. Backups can be made. The names of the files to be patched are usually taken from the patch file, but if there's just one file to be patched it can be specificed on the command line as originalfile.
+
+### [stg](https://man7.org/linux/man-pages/man1/stg.1.html) - Manage stacks of patches using the Git content tracker
+
+StGit (Stacked Git) is an application that provides a convenient way to maintain a patch stack on top of a Git branch.
+
+### [quilt](https://www.man7.org/linux/man-pages/man1/quilt.1.html) - manage a series of patches
+
+Quilt is a tool to manage large sets of patches by keeping track of the changes each patch makes. Patches can be applied, unapplied, refreshed, and so forth. The key philosophical concept is that your primary working material is patches.
+
+## Manual Page (man page) | [WiKi](https://en.wikipedia.org/wiki/Man_page)
 
 A man page (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system. Topics covered include computer programs (including library and system calls), formal standards and conventions, and even abstract concepts. A user may invoke a man page by issuing the man command.
 
@@ -733,3 +747,6 @@ Flatpak repositories are the primary mechanism for publishing applications, so t
 - Linux groupmems Blog KR, https://mbl4ck.tistory.com/19, 2023-12-26-Tue.
 - Editing group StackExchange, https://unix.stackexchange.com/questions/79176/is-there-any-reason-to-avoid-editing-etc-group-directly, 2023-12-26-Tue.
 - dmidecode, https://linux.die.net/man/8/dmidecode, 2024-01-11-Thu.
+- patch, https://www.man7.org/linux/man-pages/man1/patch.1.html, 2024-08-21-Wed.
+- stg, https://man7.org/linux/man-pages/man1/stg.1.html, 2024-08-21-Wed.
+- quilt, https://www.man7.org/linux/man-pages/man1/quilt.1.html, 2024-08-21-Wed.
