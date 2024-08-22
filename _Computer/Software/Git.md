@@ -42,25 +42,19 @@ Working Directory | Staging Area | Local Repository | Remote Repository
 
 ### Branch
 
-#### Make branch
-- `git branch branch_name`
-#### Make and change branch
-- `git checkout -b branch_name`
-#### Move to branch
-- `git checkout branch_name`
-#### Delete branch
-- `git branch -d branch_name`
-#### Delete branch in force
-- `git branch -D branch_name`
-#### Delete remote branch after deleting local branch
-#### Case 1
-- `git push origin --delete branch_name`
-#### Case 2
-- `git branch -d branch_name`
-- `git push origin :branch_name`
+* Make a branch: `git branch branch_name`
+* Make and change to the branch: `git checkout -b branch_name`
+* Move to a branch: `git checkout branch_name`
+* Delete a branch: `git branch -d branch_name`
+* Delete a branch in force: `git branch -D branch_name`
+* Delete remote branch after deleting local branch
+  * Case 1: `git push origin --delete branch_name`
+  * Case 2: `git branch -d branch_name` and `git push origin :branch_name`
 
 ### Cherry-Pick
+
 다른 브랜치에 있는 commit을 내 브랜치에 적용하는 방법이다.
+
 - conflict가 발생해서 해결하기: conflict를 수정하고 `--continue` 하고 commit message를 수정해서 cherry-pick 마무리한다.
 - conflict가 발생해서 취소하기: `--abort`하면 된다.
 
