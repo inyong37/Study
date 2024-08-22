@@ -184,7 +184,9 @@ Delete Submodule:
 4. `git rm -f path_name/submodule_name`
 
 ### Subtree
+
 main project에서 sub folder/project를 분리하는 방법이다.
+
 1. Split sub project from main project: `cd mainproject_name && git subtree split -P subproject_name -b branch_name`
 2. Make new folder/directory for sub porject: `cd workspace_name && mkdir subproject_name & cd subproject_name`
 3. Git init subproject: `git init`
@@ -194,19 +196,29 @@ main project에서 sub folder/project를 분리하는 방법이다.
 7. Additionally remove sub project folder/directory in main project: `cd mainproject_name && git rm -r subproject_name`
 8. Commit and push changes: `git commit -m "split subproject" && git push`
 
-#### Submodule vs. Subtree
+### Submodule vs. Subtree
+
 - Submodule은 main에서 sub의 SHA 값만 기록하기 때문에 main에서 수정한 sub folder의 내용은 사라지고 항상 submodule의 내용으로 업데이트된다. 따라서 항상 작업은 sub에서 한 뒤 이를 커밋하고 main에서 업데이트(`git submodule update subproject_name`) 해야 한다.
 - Subtree는 submodule과 달리 main에 file/folder를 직접 추가하고 tracking한다. 따라서 sub의 변경 사항도 main에 기록되며, subtree의 remote의 content와 subtree를 추가한 repo(main)의 content가 서로 달라도 `subtree merge`를 사용하면 변경 사항을 양쪽 모두에 반영 가능하다.
 - main에서 sub를 직접 수정하고 remote에 push할 수 있다는 점이 차이점이다. 즉, 자유도가 높다.
 - 단, subtree를 추가한 모든 사용자가 subtree의 내용을 자유롭게 변경해서 remote에 push할 수 있기 떄문에 문제가 발생할 수 있다.
 
 ### Switch
+
 git 2.23.0 부터 branch를 switch하기 위한 command이다. 이전의 checkout의 기능을 세분화한 것이다.
+
 - `git switch branch_name` = `git checkout branch_name`
 
 ### Token
+
 - How to setup GitHub token in config file
   - `git config --global github.token`
+
+### Git Branch Strategy | [GitKraken](https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy)
+
+---
+
+
 
 ---
 
@@ -878,3 +890,4 @@ git describe master; git describe side; git describe bugFix; git commit
 - gitignore Generator, https://www.toptal.com/developers/gitignore, 2024-07-17-Wed.
 - Git Hooks, https://git-scm.com/docs/githooks, 2024-08-01-Thu.
 - Git Hooks, https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks, 2024-08-01-Thu.
+- Git Branch Strategy, https://www.gitkraken.com/learn/git/best-practices/git-branch-strategy, 2024-08-22-Thu.
