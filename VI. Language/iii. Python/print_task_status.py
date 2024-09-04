@@ -1,13 +1,18 @@
-# ANSI escape codes for text colors
-RESET = "\033[0m"
-RED = "\033[31m"
-GREEN = "\033[32m"
-YELLOW = "\033[33m"
-BLUE = "\033[34m"
-CYAN = "\033[36m"
-
-# Define task messages with emojis and colors
 def print_task_status(task_name, status):
+    """
+    Logs the status of a task with appropriate color and emoji.
+
+    :param task_name: The name of the task to be logged.
+    :param status: The status of the task.
+                   Valid options are 'init', 'in_progress', 'paused', 'error', 'success', 'failed'.
+    """
+    RESET = "\033[0m"
+    RED = "\033[31m"
+    GREEN = "\033[32m"
+    YELLOW = "\033[33m"
+    BLUE = "\033[34m"
+    CYAN = "\033[36m"
+
     if status == "init":
         print(f"{BLUE}🔄 {task_name} init!{RESET}")
     elif status == "in_progress":
@@ -22,13 +27,3 @@ def print_task_status(task_name, status):
         print(f"{RED}⚠️ {task_name} failed!{RESET}")
     else:
         print(f"{task_name} status unknown.")
-
-# Example usage
-tasks = ["Task A", "Task B", "Task C"]
-
-print_task_status(tasks[0], "init")
-print_task_status(tasks[1], "in_progress")
-print_task_status(tasks[2], "paused")
-print_task_status(tasks[0], "error")
-print_task_status(tasks[1], "success")
-print_task_status(tasks[2], "failed")
