@@ -352,6 +352,10 @@ The MQTT protocol is a machine-to-machine (M2M)/Internet of Things connectivity 
 
 Paho is an Eclipse Foundation project.
 
+### [pymssql](https://pymssql.readthedocs.io/en/latest/)
+
+A simple database interface for Python that builds on top of FreeTDS to provide a Python DB-API (PEP-249) interface to Microsoft SQL Server.
+
 ### PyQt
 There is an installation error with PyQt5 on macOS. The latest version is 5.15.7 in Jul. 2022. The solution is PyQt5 needs XCode to install and run PyQt5 on macOS.
 
@@ -743,3 +747,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - getattr Blog KR, https://blog.naver.com/PostView.naver?blogId=siniphia&logNo=221796316521, 2024-07-12-Fri.
 - functools.partial KR, https://wikidocs.net/109304, 2024-07-12-Fri.
 - Jupyter, https://jupyter.org/, 2024-08-27-Tue.
+- pymssql, https://pymssql.readthedocs.io/en/latest/, 2024-09-23-Mon.
