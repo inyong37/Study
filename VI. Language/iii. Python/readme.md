@@ -352,6 +352,10 @@ The MQTT protocol is a machine-to-machine (M2M)/Internet of Things connectivity 
 
 Paho is an Eclipse Foundation project.
 
+### [Polars](https://pola.rs/)
+
+Polars is an open-source library for data manipulation, known for being one of the fastest data processing solutions on a single machine. It featuers a well-structured, typed API that is both expressive and easy to use.
+
 ### [pymssql](https://pymssql.readthedocs.io/en/latest/)
 
 A simple database interface for Python that builds on top of FreeTDS to provide a Python DB-API (PEP-249) interface to Microsoft SQL Server.
@@ -748,3 +752,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - functools.partial KR, https://wikidocs.net/109304, 2024-07-12-Fri.
 - Jupyter, https://jupyter.org/, 2024-08-27-Tue.
 - pymssql, https://pymssql.readthedocs.io/en/latest/, 2024-09-23-Mon.
+- Polars, https://pola.rs/, 2024-09-25-Wed.
+- Polars, https://modulabs.co.kr/blog/polars/, 2024-09-25-Wed.
