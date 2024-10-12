@@ -31,5 +31,6 @@
 ---
 
 ### Reference
+- Boeing History, https://www.boeing.com/history, 2024-09-12-Sat.
 - What is Gross Weight DHL, https://dhl-freight-connections.com/en/logistics-dictionary/gross-weight/, 2024-10-12-Sat.
 - Cruise Balanced Forces NASA, https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/cruise.html, 2024-10-12-Sat.
