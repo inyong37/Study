@@ -4,17 +4,17 @@
 
 ### Boeing
 
-|MODEL|FIRST|SPAN|LENGTH|WEIGHT|SPEED|RANGE|CEILING|ACC.|
-|:----|:----|:---|:-----|:-----|:----|:----|:------|:---|
-|707-120|1957-12-20|130.10|144.6|248,|600|3000|41000|181|
-|717-200|1993-09-02|93.4|124|110,|-|1647|-|106|
-|727-100|1963-02-09|108|133.2|170,|570|3110|36100|131|
-|737-100/200|1967-04-09|93|93.9|111,|580|1150|35000|107|
-|747-100/200|1969-02-09|195.8|231.4|735,|640|6000|45000|490|
-|757-200|1982-02-19|124.10|155.3|255,|500|4500|42000|228|
-|767-200|1981-09-26|156.1|159.2|300,|550|7800|43199|290|
-|777-200|1994-06-12|199.11|209.1|506,|615|8270|37900|440|
-|787-8|2009-12-15|199.11|186|484,|0.85|-|-|250|
+|MODEL|FIRST|SPAN|LENGTH|WEIGHT|SPEED|RANGE|CEILING|ACC.|TYPE|
+|:----|:----|:---|:-----|:-----|:----|:----|:------|:---|:---|
+|707-120|1957-12-20|130.10|144.6|248,|600|3000|41000|181|-|
+|717-200|1993-09-02|93.4|124|110,|-|1647|-|106|-|
+|727-100|1963-02-09|108|133.2|170,|570|3110|36100|131|-|
+|737-100/200|1967-04-09|93|93.9|111,|580|1150|35000|107|NARROW|
+|747-100/200|1969-02-09|195.8|231.4|735,|640|6000|45000|490|WIDE|
+|757-200|1982-02-19|124.10|155.3|255,|500|4500|42000|228|-|
+|767-200|1981-09-26|156.1|159.2|300,|550|7800|43199|290|-|
+|777-200|1994-06-12|199.11|209.1|506,|615|8270|37900|440|WIDE|
+|787-8|2009-12-15|199.11|186|484,|0.85|-|-|250|WIDE|
 
 * First Flight
 * Span (ft.in)
@@ -56,6 +56,16 @@
 
 ### Airbus
 
+|MODEL|CAPACITY|RANGE|TYPE|
+|:----|-------:|----:|:---|
+|A220|150|3600/6700|NARROW|
+|A321 NEO|244|4700/8700|NARROW|
+|A321XLR|244|4700/8700|NARROW|
+|A330-900 A330-NEO|300|8150/15100|WIDE|
+|A350|410|9700/17970|WIDE|
+|A380|-|-|WIDE|
+
+
 ---
 
 ### Reference
@@ -70,3 +80,8 @@
 - Boeing 777, https://www.boeing.com/commercial/777, 2024-10-12-Sat.
 - Boeing 777 X, https://www.boeing.com/commercial/777x, 2024-10-12-Sat.
 - Boeing 787, https://www.boeing.com/commercial/787, 2024-10-12-Sat.
+- Airbus 220, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a220-family, 2024-10-12-Sat.
+- Aribus 320, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family, 2024-10-12-Sat.
+- Aribus 330, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family, 2024-10-12-Sat.
+- Airbus 350, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family, 2024-10-12-Sat.
+- Airbus 380, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380, 2024-10-12-Sat.
