@@ -17,14 +17,31 @@
 |787-8|2009-12-15|199.11|186|484,|0.85|-|-|250|
 
 * First Flight
-* Span
-* Length
-* Gross weight: Gross weight simply means the total weight of a load.
-* Cruising speed: The aircraft maintains a constant airspeed called the cruise velocity.
-* Range
-* Ceiling
+* Span (ft.in)
+* Length (ft.in)
+* Gross weight (pounds): Gross weight simply means the total weight of a load.
+* Cruising speed (mph): The aircraft maintains a constant airspeed called the cruise velocity.
+* Range (miles)
+* Ceiling (feet)
 * Power
-* Accommodation
+* Accommodation (passengers)
+
+|MODEL|PSSNGRS|RANGE|LENGTH|SPAN|HEIGHT|ENGINE|
+|:----|:------|:----|:-----|:---|:-----|:-----|
+|737-700|149|-|110.4/33.6|117.5/35.8|41.3/12.5|CFM-56|
+|737-800|189|-|129.6/39.5|117.5/35.8|41.3/12.5|CFM-56|
+|737-900|220|-|138.2/42.1|117.5/35.8|41.3/12.5|CFM-56|
+|737-7|172|3800/7040|116.8|116.8/35.56|117.10/35.9|-|LEAP-1B|
+|737-8|210|3500/6480|129.8/39.52|117.10/35.9|-|LEAP-1B|
+|737-9|220|3300/6110|138.4/42.16|117.10/35.9|-|LEAP-1B|
+|737-10|230|3100/5740|143.8/43.8|117.10/35.9|-|LEAP-1B|
+|747-8|410|7370/13650|250.2/76.3|224.5/68.4|63.6/19.4|-|
+
+* Passengers
+* Range nm/km
+* Length ft.in/m
+* Wingspan ft.in/m
+* Height ft.in/m
 
 ### Airbus
 
@@ -34,3 +51,7 @@
 - Boeing History, https://www.boeing.com/history, 2024-09-12-Sat.
 - What is Gross Weight DHL, https://dhl-freight-connections.com/en/logistics-dictionary/gross-weight/, 2024-10-12-Sat.
 - Cruise Balanced Forces NASA, https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/cruise.html, 2024-10-12-Sat.
+- Boeing 747 Design Highlights, https://www.boeing.com/commercial/747-8/design-highlights, 2024-10-12-Sat.
+- Boeing 747-8, https://www.boeing.com/commercial/747-8, 2024-10-12-Sat.
+- Boeing 737 Next Generation, https://www.boeing.com/commercial/737ng, 2024-10-12-Sat.
+- Boeing 737 Max, https://www.boeing.com/commercial/737max, 2024-10-12-Sat.
