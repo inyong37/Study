@@ -105,6 +105,30 @@ Algorithms: preprocessing, feature extraction, and more...
 8. Density Estimation
 9. Neural network models (unsupervised)
 
+## [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+
+XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
+
+## [CatBoost](https://catboost.ai/)
+
+CatBoost is a high-performance open source library for gradient boosting on decision trees..
+
+Features:
+1. Great quality without parameter tuning: Reduce time spent on parameter tuning, because CatBoost provides great results with default parameters.
+2. Categorical features support: Improve your training results with CatBoost that allows you to use non-numeric factors, instead of having to pre-process your data or spend time and effort turning it to numbers.
+3. Fast and scalable GPU version: Train your model on a fast implementation of gradient-boosting algorithm for GPU. Use a multi-card configuration for large datasets.
+4. Improved accuracy: Reduce overfitting when constructing your models with a novel gradient-boosting scheme.
+5. Fast prediction: Apply your trained model quickly and efficiently even to latency-critical tasks using CatBoost's model applier.
+
+## [LightGBM](https://lightgbm.readthedocs.io/en/stable/)
+
+LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages:
+* Faster training speed and higher efficiency.
+* Lower memory usage.
+* Better accuracy.
+* Support of parallel, distributed, and GPU learning.
+* Capable of handling large-scale data.
+
 ---
 
 ### Reference
@@ -123,3 +147,6 @@ Algorithms: preprocessing, feature extraction, and more...
 - H2O.ai GitHub, https://github.com/h2oai, 2024-02-28-Wed.
 - SciPy, https://scipy.org/, 2024-02-28-Wed.
 - SciPy GitHub, https://github.com/scipy/scipy, 2024-02-28-Wed.
+- XGBoost, https://xgboost.readthedocs.io/en/stable/, 2024-10-22-Tue.
+- CatBoost, https://catboost.ai/, 2024-10-22-Tue.
+- LightGBM, https://lightgbm.readthedocs.io/en/stable/, 2024-10-22-Tue.
