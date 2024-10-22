@@ -105,11 +105,11 @@ Algorithms: preprocessing, feature extraction, and more...
 8. Density Estimation
 9. Neural network models (unsupervised)
 
-## [XGBoost](https://xgboost.readthedocs.io/en/stable/)
+## :hammer_and_wrench: [XGBoost](https://xgboost.readthedocs.io/en/stable/)
 
 XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements machine learning algorithms under the Gradient Boosting framework. XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way. The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
 
-## [CatBoost](https://catboost.ai/)
+## :hammer_and_wrench: [CatBoost](https://catboost.ai/)
 
 CatBoost is a high-performance open source library for gradient boosting on decision trees..
 
@@ -120,7 +120,7 @@ Features:
 4. Improved accuracy: Reduce overfitting when constructing your models with a novel gradient-boosting scheme.
 5. Fast prediction: Apply your trained model quickly and efficiently even to latency-critical tasks using CatBoost's model applier.
 
-## [LightGBM](https://lightgbm.readthedocs.io/en/stable/)
+## :hammer_and_wrench: [LightGBM](https://lightgbm.readthedocs.io/en/stable/)
 
 LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages:
 * Faster training speed and higher efficiency.
