@@ -129,6 +129,20 @@ LightGBM is a gradient boosting framework that uses tree based learning algorith
 * Support of parallel, distributed, and GPU learning.
 * Capable of handling large-scale data.
 
+## :hammer_and_wrench: [Prophet](https://facebook.github.io/prophet/)
+
+Prophet is a forecasting procedure implemented in R and Python. It is fast and provides completely automated forecasts that can be tuned by hand by data scientists and analysts.
+
+# Tunning
+
+## :hammer_and_wrench: [Ray Tune](https://docs.ray.io/en/latest/tune/index.html)
+
+Tune is a Python library for experiment execution and hyperparameter tuning at any scale. You can tune your favorite machine learning framework (PyTorch, XGBoost, TensorFlow and Keras, and more) by running state of the art algorithms. Tune further integrates with a wide range of additional hyperparameter optimization tools, including Ax, BayesOpt, BOHB, Nevergrad, and Optuna.
+
+## :hammer_and_wrench: [Hyperopt](https://hyperopt.github.io/hyperopt/) | [GitHub](https://github.com/hyperopt/hyperopt)
+
+Hyperopt is a Python library for serial and parallel optimization over awkward search spaces, which may include real-valued, discrete, and conditional dimensions.
+
 ---
 
 ### Reference
@@ -150,3 +164,7 @@ LightGBM is a gradient boosting framework that uses tree based learning algorith
 - XGBoost, https://xgboost.readthedocs.io/en/stable/, 2024-10-22-Tue.
 - CatBoost, https://catboost.ai/, 2024-10-22-Tue.
 - LightGBM, https://lightgbm.readthedocs.io/en/stable/, 2024-10-22-Tue.
+- Prophet, https://facebook.github.io/prophet/, 2024-10-31-Thu.
+- Ray Tune, https://docs.ray.io/en/latest/tune/index.html, 2024-10-31-Thu.
+- Hyperopt, https://hyperopt.github.io/hyperopt/, 2024-10-31-Thu.
+- Hyperopt GitHub, https://github.com/hyperopt/hyperopt, 2024-10-31-Thu.
