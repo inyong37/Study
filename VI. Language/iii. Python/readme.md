@@ -118,6 +118,10 @@ Edit `.idea/modules.xml` to contain its iml file such as below.
   - git-bash: "C:\Program Files\Git\git-bash.exe"
   - git-cmd: "C:\Program Files\Git\git-cmd.exe"
 
+### QnA
+
+* [Can I use my personal license at work and at home?](https://sales.jetbrains.com/hc/en-gb/articles/207240855-Can-I-use-my-personal-license-at-work-and-at-home): YES, you can use your personal license at work as well as at home. You can use it working on your personal projects as well as your projects in your company. Our EULAs do not restrict this.
+
 ## [Jupyter](https://jupyter.org/)
 
 Free software, open standards, and web services for interactive computing across all programming languages.
@@ -754,3 +758,4 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - pymssql, https://pymssql.readthedocs.io/en/latest/, 2024-09-23-Mon.
 - Polars, https://pola.rs/, 2024-09-25-Wed.
 - Polars, https://modulabs.co.kr/blog/polars/, 2024-09-25-Wed.
+- PyCharm License, https://sales.jetbrains.com/hc/en-gb/articles/207240855-Can-I-use-my-personal-license-at-work-and-at-home, 2024-11-01-Fri.
