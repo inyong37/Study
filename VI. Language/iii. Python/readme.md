@@ -121,6 +121,7 @@ Edit `.idea/modules.xml` to contain its iml file such as below.
 ### QnA
 
 * [Can I use my personal license at work and at home?](https://sales.jetbrains.com/hc/en-gb/articles/207240855-Can-I-use-my-personal-license-at-work-and-at-home): YES, you can use your personal license at work as well as at home. You can use it working on your personal projects as well as your projects in your company. Our EULAs do not restrict this.
+* [Can I use my license on multiple machines?](https://sales.jetbrains.com/hc/en-gb/articles/206544319-Can-I-use-my-license-on-multiple-machines): YES. Under our current subscription model, you may run multiple personal licensed copies of the IDE at the same time across multiple operating systems (like on laptop and desktop for remote debugging client/server apps). This also applies to the All Products pack. You may use different IDEs from an All Products pack license simultaneously on multiple machines.
 
 ## [Jupyter](https://jupyter.org/)
 
@@ -758,4 +759,5 @@ tView.nhn?blogId=robot7887&logNo=221376966064&proxyReferer=https:%2F%2Fwww.googl
 - pymssql, https://pymssql.readthedocs.io/en/latest/, 2024-09-23-Mon.
 - Polars, https://pola.rs/, 2024-09-25-Wed.
 - Polars, https://modulabs.co.kr/blog/polars/, 2024-09-25-Wed.
-- PyCharm License, https://sales.jetbrains.com/hc/en-gb/articles/207240855-Can-I-use-my-personal-license-at-work-and-at-home, 2024-11-01-Fri.
+- PyCharm License - Personal and Work, https://sales.jetbrains.com/hc/en-gb/articles/207240855-Can-I-use-my-personal-license-at-work-and-at-home, 2024-11-01-Fri.
+- PyCharm License - Multiple Devices, https://sales.jetbrains.com/hc/en-gb/articles/206544319-Can-I-use-my-license-on-multiple-machines, 2024-11-01-Fri.
