@@ -171,6 +171,12 @@ config = {
 }
 ```
 
+## :hammer_and_wrench: [Tigramite](https://jakobrunge.github.io/tigramite/) | [GitHub](https://github.com/jakobrunge/tigramite/tree/master)
+
+Tigramite is a causal time series analysis python package. It allows to efficiently estimate causal graphs from high-dimensional time series datasets (causal discovery) and to use these graphs for robust forecasting and the estimation and prediction of direct, total, and mediated effects. Causal discovery is based on linear as well as non-parameteric conditional independence tests applicable to discrete or continuously-valued time series. Also includes functions for high-quality plots of the results.
+
+[pcmci](https://github.com/jakobrunge/tigramite/blob/master/tigramite/pcmci.py#L47): PCMCI is a causal discovery framework for large-scale time series datasets. This class contains several methods. The standard PCMCI method addresses time-lagged causal discovery. Lagged as well as contemporaneous causal discovery is addressed with PCMCIplus.
+
 # Tunning
 
 ## :hammer_and_wrench: [Ray Tune](https://docs.ray.io/en/latest/tune/index.html)
@@ -210,3 +216,6 @@ Hyperopt is a Python library for serial and parallel optimization over awkward s
 - SciPy pdist, https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html, 2024-11-07-Thu.
 - SciPy linkage, https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html, 2024-11-07-Thu.
 - SciPy fcluster, https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.fcluster.html, 2024-11-07-Thu.
+- Tigramite, https://jakobrunge.github.io/tigramite/, 2024-11-07-Thu.
+- Tigramite GitHub, https://github.com/jakobrunge/tigramite/tree/master, 2024-11-07-Thu.
+- Tigramite pcmci, https://github.com/jakobrunge/tigramite/blob/master/tigramite/pcmci.py#L47, 2024-11-07-Thu.
