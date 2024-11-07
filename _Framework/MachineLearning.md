@@ -14,6 +14,12 @@ auto-sklearn is an automated machine learning toolkit and a drop-in replacement 
 
 Fundamental algorithms for scientific computing in Python.
 
+[pdist](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html): Pairwise distances between observations in n-dimensional space.
+
+[linkage](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html): Perform hierarchical/agglomerative clustering.
+
+[fcluster](https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.fcluster.html): Form flat cluster from the hierarchical clustering defined by the given linkage matrix.
+
 ## :hammer_and_wrench:  [Scikit-learn](https://scikit-learn.org/stable/): Machine Learning in Python | [GitHub](https://github.com/scikit-learn/scikit-learn)
 
 - Simple and efficient tools for perdictive data analysis
@@ -201,3 +207,6 @@ Hyperopt is a Python library for serial and parallel optimization over awkward s
 - Hyperopt, https://hyperopt.github.io/hyperopt/, 2024-10-31-Thu.
 - Hyperopt GitHub, https://github.com/hyperopt/hyperopt, 2024-10-31-Thu.
 - Prophet Hyperparameter Tuning, https://facebook.github.io/prophet/docs/diagnostics.html, 2024-11-07-Thu.
+- SciPy pdist, https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html, 2024-11-07-Thu.
+- SciPy linkage, https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.linkage.html, 2024-11-07-Thu.
+- SciPy fcluster, https://docs.scipy.org/doc/scipy/reference/generated/scipy.cluster.hierarchy.fcluster.html, 2024-11-07-Thu.
