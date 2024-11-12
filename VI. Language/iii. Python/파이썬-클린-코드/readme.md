@@ -38,3 +38,4 @@ July, 2024
 - 마이크로서비스가 뭔데 유행임, https://youtu.be/ZRpsB3ODr6M?si=pJlMohK5NVRzzrSv, 2024-11-12-Tue.
 - Clean Architecture Sucks, Clean Architecture Sucks, 2024-11-12-Tue.
 - Why do I distrust people who talk about Clean Architecture?, https://www.reddit.com/r/dotnet/comments/snyrot/why_do_i_distrust_people_who_talk_about_clean/, 2024-11-12-Tue.
+- Microservice Prerequisites, https://martinfowler.com/bliki/MicroservicePrerequisites.html, 2024-11-12-Tue.
