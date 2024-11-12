@@ -179,7 +179,7 @@ Books about Data Structure and Algorithm.
 |Introducing Python|[O'Reilly](https://www.oreilly.com/library/view/introducing-python/9781449361167/)|-|-|-|
 |High Performance Python|[O'Reilly](https://www.oreilly.com/library/view/high-performance-python/9781449361747/)|-|-|-|
 |Fluent Python|[O'Reilly](https://www.oreilly.com/library/view/fluent-python/9781491946237/)|[Github](https://github.com/fluentpython)|-|-|
-|Clean Code in Python|[Amazon](https://www.amazon.com/Clean-Code-Python-Refactor-legacy/dp/1788835832)|[YES24](https://www.yes24.com/Product/Goods/114667254)|Spring, 2024|:constructure:|
+|Clean Code in Python|[Amazon](https://www.amazon.com/Clean-Code-Python-Refactor-legacy/dp/1788835832)|[YES24](https://www.yes24.com/Product/Goods/114667254)|Spring, 2024|-|
 |Effective Python|[Amazon](https://www.amazon.com/Effective-Python-Specific-Software-Development/dp/0134853989)|-|-|-|
 |Python Tricks|[Amazon](https://www.amazon.com/Python-Tricks-Buffet-Awesome-Features/dp/1775093301)|-|-|-|
 
