@@ -14,11 +14,19 @@ July, 2024
 
 ### Chapter 1. [소개, 코드 포매팅과 도구](C01_Introduction_Code_Formatting_and_Tools.md)
 
+Oct. 31, 2024
+
 ### Chapter 2. [파이썬스러운(pythonic) 코드](C02_Pythonic_Code.md)
+
+Oct. 31, 2024
 
 ### Chapter 3. [좋은 코드의 일반적인 특징](C03_General_Traits_of_Good_Code.md)
 
+Nov. 7, 2024
+
 ### Chapter 4. [SOLID 원칙](C04_The_SOLID_Principles.md)
+
+Nov. 7, 2024
 
 ### Chapter 5. [데코레이터를 사용한 코드 개선](C05_Using_Decorators_to_Improve_Our_Code.md)
 
@@ -30,7 +38,11 @@ July, 2024
 
 ### Chapter 9. [일반적인 디자인 패턴](C09_Common_Design_Patterns.md)
 
+Nov. 14, 2024
+
 ### Chapter 10. [클린 아키텍처](C10_Clean_Architecture.md)
+
+Nov. 21, 2024
 
 ---
 
