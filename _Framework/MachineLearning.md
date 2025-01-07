@@ -177,6 +177,15 @@ Tigramite is a causal time series analysis python package. It allows to efficien
 
 [pcmci](https://github.com/jakobrunge/tigramite/blob/master/tigramite/pcmci.py#L47): PCMCI is a causal discovery framework for large-scale time series datasets. This class contains several methods. The standard PCMCI method addresses time-lagged causal discovery. Lagged as well as contemporaneous causal discovery is addressed with PCMCIplus.
 
+## :hammer_and_wrench: [Nixtlaverse](https://nixtlaverse.nixtla.io/)
+
+The Nixtlaverse is composed by open-source libraries, designed to provide a comprehensive, cutting-edge toolkit for time series forecasting. The Nixtla ecosystem is primarily built around five main libraries, each specializing in different aspects of time series forecasting:
+* StatsForecast: Designed for high-speed forecasting, StatsForecast leverages statistical and econometric models. This library provides a set of robust algorithms and techniques that allow for quick, yet accurate predictions, making it an excellent choice for applications requiring rapid forecasting.
+* MLForecast: MLForecast makes machine learning scalable for time series forecasting. This library is tailored for applications that require the processing of vast amounts of time-series data, implementing machine learning techniques to optimize accuracy, efficiency, and scalability.
+* NeuralForecast: NeuralForecast offers scalable and user-friendly neural forecasting algorithms for time series data. By combining the power of deep learning with the complexity of time series forecasting, this library makes advanced neural forecasting techniques accessible and easy to implement, even for non-experts.
+* HierarchicalForecast: Hierarchical Forecast focuses on probabilistic hierarchical forecasting using statistical and econometric methods. It provides tools to model and forecast hierarchical or grouped time series data, capturing the underlying correlations and shared information between different levels of hierarchy.
+* TS Features: TS Features is a Python implementation of the R package tsfeatures. It calculates various features from time series data, helping users to understand and extract meaningful information from their datasets. By identifying key characteristics and patterns, this library supports more informed and effective forecasting.
+
 # Tunning
 
 ## :hammer_and_wrench: [Ray Tune](https://docs.ray.io/en/latest/tune/index.html)
@@ -219,3 +228,4 @@ Hyperopt is a Python library for serial and parallel optimization over awkward s
 - Tigramite, https://jakobrunge.github.io/tigramite/, 2024-11-07-Thu.
 - Tigramite GitHub, https://github.com/jakobrunge/tigramite/tree/master, 2024-11-07-Thu.
 - Tigramite pcmci, https://github.com/jakobrunge/tigramite/blob/master/tigramite/pcmci.py#L47, 2024-11-07-Thu.
+- Nixtlaverse, https://nixtlaverse.nixtla.io/, 2025-01-06-Mon.
