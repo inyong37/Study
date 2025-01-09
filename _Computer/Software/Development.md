@@ -174,6 +174,12 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 
 ---
 
+### [Minimum Viable Product (MVP)](https://www.atlassian.com/agile/product-management/minimum-viable-product)
+
+MVP is the simplest version of a product that you need to build to sell it to a market. "The version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort."
+
+---
+
 ### Reference
 - CI/CD, https://deveric.tistory.com/106, 2020-09-14-Mon.
 - DevOps AWS, https://aws.amazon.com/devops/what-is-devops/?nc1=h_ls, 2022-10-11-Tue.
@@ -199,3 +205,4 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 - GitHub Actions GitHub, https://github.com/actions, 2023-09-11-Mon.
 - Jenkins vs. GitHub Actions Blog KR, https://choseongho93.tistory.com/295, 2023-09-11-Mon.
 - Banksalad Blog KR, https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HV8BhfRxfb0JIyNYevpEnqo6MeCHIrTAeRL4fmvTPeIUqzR3Aurb8BoC_hgQAvD_BwE, 2023-09-11-Mon.
+- MVP Atlassian, https://www.atlassian.com/agile/product-management/minimum-viable-product, 2025-01-09-Thu.
