@@ -127,6 +127,12 @@ The Spring Framework is an application framework and inversion of control contai
 ### [Spring Boot](https://spring.io/projects/spring-boot) | JAVA
 Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". We take an optionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need minimal Spring configuration.
 
+### [Flask](https://flask.palletsprojects.com/en/stable/) | Python 
+
+Flask is a lightweight WSGI web application framework.
+
+[Is Flask Backend or Frontend?](https://www.quora.com/Is-Flask-backend-or-frontend): In web development, there is only one frontend language JavaScript and things compiled to JavaScript such as TypeScript. Everything else runs on a server somewhere, not in the browser, and that makes it backend such as Flask which is written in Python.
+
 ----------
 
 ### Native Framework
@@ -286,3 +292,5 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Client Server Architecture Blog KR, https://velog.io/@estell/%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98, 2023-10-27-Fri.
 - Web Server Blog KR, https://velog.io/@muchogusto/%EC%9B%B9%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80, 2023-10-27-Fri.
 - Spring Blog KR, https://terianp.tistory.com/73, 2023-10-27-Fri.
+- Flask, https://flask.palletsprojects.com/en/stable/, 2025-01-10-Fri.
+- Is Flask Backend or Frontend, https://www.quora.com/Is-Flask-backend-or-frontend, 2025-01-10-Fri.
