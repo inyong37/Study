@@ -145,9 +145,29 @@ Tornado is a Python web framework and asynchronous networking library, originall
 
 Streamlit turns data scripts into shareable web apps in minutes.
 
+How to use:
+```Bash
+pip install streamlit
+# Make $ vim {streamlit-app}/app.py
+# CD and Run the app
+streamlit run app.py
+```
+
+Verify the page `http://localhost:8501/` in a web browser
+
 ### [Gradio](https://www.gradio.app/) | Python
 
 Gradio is the fastesy way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere.
+
+How to use:
+```Bash
+pip install gradio
+# Make $ vim {gradio-app}/app.py
+# CD and Run the app
+python app.py
+```
+
+Verify the page `http://127.0.0.1:7860/` in a web browser
 
 ----------
 
