@@ -137,6 +137,10 @@ Flask is a lightweight WSGI web application framework.
 
 FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 
+### [Tornado](https://www.tornadoweb.org/en/stable/)n | Python
+
+Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
+
 ----------
 
 ### Native Framework
@@ -299,3 +303,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Flask, https://flask.palletsprojects.com/en/stable/, 2025-01-10-Fri.
 - Is Flask Backend or Frontend, https://www.quora.com/Is-Flask-backend-or-frontend, 2025-01-10-Fri.
 - FastAPI, https://fastapi.tiangolo.com/, 2025-01-10-Fri.
+- Tornado, https://www.tornadoweb.org/en/stable/, 2025-01-10-Fri.
