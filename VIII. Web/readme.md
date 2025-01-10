@@ -145,6 +145,10 @@ Tornado is a Python web framework and asynchronous networking library, originall
 
 Streamlit turns data scripts into shareable web apps in minutes.
 
+### [Gradio](https://www.gradio.app/) | Python
+
+Gradio is the fastesy way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere.
+
 ----------
 
 ### Native Framework
@@ -309,3 +313,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - FastAPI, https://fastapi.tiangolo.com/, 2025-01-10-Fri.
 - Tornado, https://www.tornadoweb.org/en/stable/, 2025-01-10-Fri.
 - Streamlit, https://streamlit.io/, 2025-01-10-Fri.
+- Gradio, https://www.gradio.app/, 2025-01-10-Fri.
