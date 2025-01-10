@@ -133,6 +133,10 @@ Flask is a lightweight WSGI web application framework.
 
 [Is Flask Backend or Frontend?](https://www.quora.com/Is-Flask-backend-or-frontend): In web development, there is only one frontend language JavaScript and things compiled to JavaScript such as TypeScript. Everything else runs on a server somewhere, not in the browser, and that makes it backend such as Flask which is written in Python.
 
+### [FastAPI](https://fastapi.tiangolo.com/) | Python
+
+FastAPI framework, high performance, easy to learn, fast to code, ready for production.
+
 ----------
 
 ### Native Framework
@@ -294,3 +298,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Spring Blog KR, https://terianp.tistory.com/73, 2023-10-27-Fri.
 - Flask, https://flask.palletsprojects.com/en/stable/, 2025-01-10-Fri.
 - Is Flask Backend or Frontend, https://www.quora.com/Is-Flask-backend-or-frontend, 2025-01-10-Fri.
+- FastAPI, https://fastapi.tiangolo.com/, 2025-01-10-Fri.
