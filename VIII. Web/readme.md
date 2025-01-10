@@ -141,6 +141,10 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 
 Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
 
+### [Streamlit](https://streamlit.io/) | Python
+
+Streamlit turns data scripts into shareable web apps in minutes.
+
 ----------
 
 ### Native Framework
@@ -304,3 +308,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Is Flask Backend or Frontend, https://www.quora.com/Is-Flask-backend-or-frontend, 2025-01-10-Fri.
 - FastAPI, https://fastapi.tiangolo.com/, 2025-01-10-Fri.
 - Tornado, https://www.tornadoweb.org/en/stable/, 2025-01-10-Fri.
+- Streamlit, https://streamlit.io/, 2025-01-10-Fri.
