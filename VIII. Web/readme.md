@@ -155,6 +155,8 @@ streamlit run app.py
 
 Verify the page `http://localhost:8501/` in a web browser
 
+[Streamlit for Data Science Course](https://github.com/dataprofessor/streamlit-for-datascience)
+
 ### [Gradio](https://www.gradio.app/) | Python
 
 Gradio is the fastesy way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere.
@@ -334,3 +336,4 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Tornado, https://www.tornadoweb.org/en/stable/, 2025-01-10-Fri.
 - Streamlit, https://streamlit.io/, 2025-01-10-Fri.
 - Gradio, https://www.gradio.app/, 2025-01-10-Fri.
+- Streamlit for Data Science Course, https://github.com/dataprofessor/streamlit-for-datascience, 2025-01-13-Mon.
