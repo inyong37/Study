@@ -137,6 +137,24 @@ Flask is a lightweight WSGI web application framework.
 
 FastAPI framework, high performance, easy to learn, fast to code, ready for production.
 
+Installation:
+
+```Bash
+pip install "fastapi[standard]"
+```
+
+Run:
+
+```Bash
+fastapi dev main.py
+```
+
+[Deploying and Hosting a Machine Learning Model with FastAPI and Heroku](https://testdriven.io/blog/fastapi-machine-learning/)
+
+[ML Deploy Machine Learning Models Using FastAPI Medium](https://dorian599.medium.com/ml-deploy-machine-learning-models-using-fastapi-6ab6aef7e777)
+
+[How to Use FastAPI for Machine Learning JetBrains](https://blog.jetbrains.com/pycharm/2024/09/how-to-use-fastapi-for-machine-learning/)
+
 ### [Tornado](https://www.tornadoweb.org/en/stable/) | Python
 
 Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
@@ -333,6 +351,10 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Flask, https://flask.palletsprojects.com/en/stable/, 2025-01-10-Fri.
 - Is Flask Backend or Frontend, https://www.quora.com/Is-Flask-backend-or-frontend, 2025-01-10-Fri.
 - FastAPI, https://fastapi.tiangolo.com/, 2025-01-10-Fri.
+- FastAPI Tutorial, https://fastapi.tiangolo.com/tutorial/, 2025-01-06-Mon.
+- Deploying and Hosting a Machine Learning Model with FastAPI and Heroku, https://testdriven.io/blog/fastapi-machine-learning/, 2025-01-06-Mon.
+- ML Deploy Machine Learning Models Using FastAPI Medium, https://dorian599.medium.com/ml-deploy-machine-learning-models-using-fastapi-6ab6aef7e777, 2025-01-07-Tue.
+- How to Use FastAPI for Machine Learning JetBrains, https://blog.jetbrains.com/pycharm/2024/09/how-to-use-fastapi-for-machine-learning/, 2025-01-07-Tue.
 - Tornado, https://www.tornadoweb.org/en/stable/, 2025-01-10-Fri.
 - Streamlit, https://streamlit.io/, 2025-01-10-Fri.
 - Gradio, https://www.gradio.app/, 2025-01-10-Fri.
