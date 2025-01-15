@@ -175,7 +175,16 @@ Verify the page `http://localhost:8501/` in a web browser
 
 [Streamlit for Data Science Course](https://github.com/dataprofessor/streamlit-for-datascience)
 
-[Create a multipage app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
+* [Get started](https://docs.streamlit.io/get-started)
+  * [Installation](https://docs.streamlit.io/get-started/installation)
+  * [Fundamentals](https://docs.streamlit.io/get-started/fundamentals)
+    * [Basic concepts](https://docs.streamlit.io/get-started/fundamentals/main-concepts)
+    * [Advanced concepts](https://docs.streamlit.io/get-started/fundamentals/advanced-concepts)
+    * [Additional features](https://docs.streamlit.io/get-started/fundamentals/additional-features)
+    * [Summary](https://docs.streamlit.io/get-started/fundamentals/summary)
+  * [First steps](https://docs.streamlit.io/get-started/tutorials)
+    * [Create an app](https://docs.streamlit.io/get-started/tutorials/create-an-app)
+    * [Create a multipage app](https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app)
 
 ### [Gradio](https://www.gradio.app/) | Python
 
@@ -362,3 +371,13 @@ Execute `<command>` either from a local `node_modeuls/.bin`, or from a central c
 - Gradio, https://www.gradio.app/, 2025-01-10-Fri.
 - Streamlit for Data Science Course, https://github.com/dataprofessor/streamlit-for-datascience, 2025-01-13-Mon.
 - Create a multipage app, https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app, 2025-01-13-Mon.
+- Streamlit Get started, https://docs.streamlit.io/get-started, 2025-01-15-Wed.
+- Streamlit Installation, https://docs.streamlit.io/get-started/installation, 2025-01-15-Wed.
+- Streamlit Fundamentals, https://docs.streamlit.io/get-started/fundamentals, 2025-01-15-Wed.
+- Streamlit Basic concepts, https://docs.streamlit.io/get-started/fundamentals/main-concepts, 2025-01-15-Wed.
+- Streamlit Advanced concepts, https://docs.streamlit.io/get-started/fundamentals/advanced-concepts, 2025-01-15-Wed.
+- Streamlit Additional features, https://docs.streamlit.io/get-started/fundamentals/additional-features, 2025-01-15-Wed.
+- Streamlit Summary, https://docs.streamlit.io/get-started/fundamentals/summary, 2025-01-15-Wed.
+- Streamlit First steps, https://docs.streamlit.io/get-started/tutorials, 2025-01-15-Wed.
+- Streamlit Create an app, https://docs.streamlit.io/get-started/tutorials/create-an-app, 2025-01-15-Wed.
+- Streamlit Create a multipage app, https://docs.streamlit.io/get-started/tutorials/create-a-multipage-app, 2025-01-15-Wed.
