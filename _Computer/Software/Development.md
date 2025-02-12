@@ -174,6 +174,31 @@ GitLab Runner is an application that works with GitLab CI/CD to run jobs in a pi
 
 ---
 
+### [Software Requirements Specifications](https://www.computer.org/resources/software-requirements-specifications)
+
+A software requirements specification is a detailed description of the intended purpose, features, functionality and other aspects of a software application. It serves as a guide and foundational reference for the development team to follow during the building of the software. A good software requirements specification will aid in reducing errors and rework later on in the development life cycle.
+
+The software requirement specification document captures what the software should do from the user’s perspective. It should be written in clear language understandable to both technical and non-technical stakeholders. The document acts as a contract between the project sponsor or client and the development team regarding the conditions that the final software product must meet.
+
+The specification typically contains both functional and nonfunctional requirements. Functional requirements define the core capabilities and behaviors of the system. Non-functional requirements constrain the solution or process for achieving the functional requirements. Common sections in a software requirements specification include:
+* Introduction and Purpose
+* Business Requirement
+* User Personas or Roles
+* Feature List
+* User Story or Use Cases
+* User Requirements
+* Functional Requirements
+* Nonfunctional Requirements
+* Interface Requirements
+* Performance Requirements
+* Security Requirements
+* Design and Implementation Constraints
+* External System Requirements
+* Quality Assurance Requirements
+* Documentation Requirements
+
+The requirements specification evolves over the course of the project as more details emerge and changes are introduced. However, it is important to establish a baseline set of requirements upfront to guide the fundamental architecture and design choices. The development team refers continuously to the srs document as the authoritative information source regarding what the system should do.
+
 ### [Minimum Viable Product (MVP)](https://www.atlassian.com/agile/product-management/minimum-viable-product)
 
 MVP is the simplest version of a product that you need to build to sell it to a market. "The version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort."
@@ -206,3 +231,5 @@ MVP is the simplest version of a product that you need to build to sell it to a 
 - Jenkins vs. GitHub Actions Blog KR, https://choseongho93.tistory.com/295, 2023-09-11-Mon.
 - Banksalad Blog KR, https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/?gclid=CjwKCAjw1uiEBhBzEiwAO9B_HV8BhfRxfb0JIyNYevpEnqo6MeCHIrTAeRL4fmvTPeIUqzR3Aurb8BoC_hgQAvD_BwE, 2023-09-11-Mon.
 - MVP Atlassian, https://www.atlassian.com/agile/product-management/minimum-viable-product, 2025-01-09-Thu.
+- Software Requirements Specifications IEEE, https://www.computer.org/resources/software-requirements-specifications, 2025-02-12-Wed.
+- Software Requirements Specification Wiki, https://en.wikipedia.org/wiki/Software_requirements_specification, 2025-02-12-Wed.
