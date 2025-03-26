@@ -20,7 +20,7 @@ GPU는 그래픽과 관련된 연산을 할 때에 CPU의 부담을 크게 줄�
 
 ### Comparison
 
-|GPU|VRAM|ARCHITECTURE|COMMENT|% w/ V100|MSRP|
+|GPU|VRAM|ARCHITECTURE|COMMENT|%|MSRP|
 |:-:|:---|:-----------|:------|--------:|---:|
 |T4|16GB GDDR6|Turing|에너지 효율이 높아 추론 작업에 적합하며, 데이터센터에서 널리 사용됨|52%||
 |K80|24GB GDDR5|Kepler|구형 아키텍처로 현재 AI 작업에는 성능이 제한적이며, 최신 모델로의 업그레이드가 필요|40%||
