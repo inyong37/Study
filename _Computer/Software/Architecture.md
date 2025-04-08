@@ -100,3 +100,11 @@ Componenet Diagram: 시스템 내의 주요 컴포넌트 간 상호작용과 연
 ### Reference
 - debian ARM Ports, https://www.debian.org/ports/arm/, 2022-08-05-Fri.
 - Microservice Architecture Azure, https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices, 2023-12-12-Tue.
+- ByteByteGo Newsletter, https://blog.bytebytego.com/, 2025-04-08-Tue.
+- The Architecture of Open Source Applications, https://aosabook.org/en/, 2025-04-08-Tue.
+- Azure Architecture Center, https://learn.microsoft.com/en-us/azure/architecture/, 2025-04-08-Tue.
+- AWS Architecture Center, https://aws.amazon.com/architecture/, 2025-04-08-Tue.
+- Lucidchart, https://www.lucidchart.com/pages, 2025-04-08-Tue.
+- Excalidraw, https://excalidraw.com/, 2025-04-08-Tue.
+- draw.io, https://app.diagrams.net/, 2025-04-08-Tue.
+- Figma, https://www.figma.com/, 2025-04-08-Tue.
