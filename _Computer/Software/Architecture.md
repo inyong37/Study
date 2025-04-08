@@ -83,6 +83,18 @@ Best Practices
 * Services should have loose coupling and high functional cohesion. Functions that are likely to change together should be packaged and deployed together. If they reside in separate services, those services end up being tightly coupled, because a change in one service will require updating the other service. Overly chatty communication between two services may be a symptom of tight coupling and low cohesion.
 * Isolate failures. Use resiliency strategies to prevent failures within a service from cascading. See resiliency patterns and Designing reliable applications.
 
+### Diagram
+
+System Architecture Diagram: 전체 시스템의 구성 요소(프런트 엔드, 백엔드, 데이터베이스 등)와 흐름을 시각화한 다이어그램
+
+Application Architecture Diagram: 특정 애플리케이션의 내부 구성(예: API 서버, 모델 서버, 캐시 등)을 중심으로 한 아키텍처
+
+Infrastructure Diagram: 클라우드, 서버, 컨테이너, 네트워크 등 인프라 중심 구성도 (예: AWS, OpenShift 등)
+
+Data Flow Diagram (DFD): 데이터가 시스템에서 어떻게 흐르는지 보여주는 다이어그램
+
+Componenet Diagram: 시스템 내의 주요 컴포넌트 간 상호작용과 연결 관계를 나타냄(보통 기술 컴포넌트에 집중)
+
 ---
 
 ### Reference
