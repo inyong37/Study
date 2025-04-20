@@ -69,6 +69,48 @@
 
 # Airport
 
+## Airport Environments Tasks
+
+### Baggage Mishandling
+
+* Description: Lost or misrouted luggage due to human error or system inefficiency
+* Automation Potential: Automated baggage scanning and tracking using computer vision, RFID, and robotics
+
+### Gate Confusion
+
+* Description: Passengers missing gates due to last-minute aircraft relocation or gate changes
+* Automation Potential: 	Gate-assist autonomous navigation for passengers (indoor SLAM + localization + HMI)
+
+### Ground Vehicle Congestion
+
+* Description: Refueling, catering, and cleaning vehicles interfering with aircraft movement
+* Automation Potential: 	Autonomous ground vehicle coordination using V2X communication and vision-based navigation
+
+### Inefficient Security Screening
+
+* Description: Long queues and human error during passenger screening
+* Automation Potential: 	AI-powered security scanners (CV-based anomaly detection, full-body scan AI)
+
+### Passenger Flow Inefficiency
+
+* Description: Poor guidance for transfers, seniors, or disabled passengers
+* Automation Potential: 	Indoor autonomous navigation & assistive robots with vision + speech interaction
+
+### Runway Incursion Risks
+
+* Description: Accidental entry into active runways by vehicles or aircraft
+* Automation Potential: 	Real-time surveillance using CCTV, CV-based detection, and automated alerts
+
+### Parking and Docking Errors
+
+* Description: Misalignment of aircraft with gate bridges and ground systems
+* Automation Potential: 	Vision-based aircraft docking assistance systems
+
+### Accurate localization without GPS
+
+* Description: GPS-denied zones like hangars or terminals limit vehicle tracking
+* Automation Potential: Vision/LiDAR/IMU-based GPS-free localization systems
+
 ## Airport Job Roles
 
 ### Ramp Agent (Ground Crew)
