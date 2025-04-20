@@ -183,3 +183,6 @@
 - Aviation Cybersecurity ICAO, https://www.icao.int/aviationcybersecurity/Pages/default.aspx, 2025-04-20-Sun.
 - Artificial Intelligence Supporting European Aviation, https://www.eurocontrol.int/artificial-intelligence, 2025-04-20-Sun.
 - PRC Airport Operations Centres (APOC) Performance Study Supporting European Aviation, https://www.eurocontrol.int/publication/prc-apoc-study, 2025-04-20-Sun.
+- Eye on Autonomy Boeing, https://www.boeing.com/content/dam/boeing/boeingdotcom/features/innovation-quarterly/2022/10/IQ2022_Q4_autonomy_MIT_100522a.pdf, 2025-04-20-Sun.
+- 9 Applications of AI Systems in the Aerospace Industry, https://www.maxaix.com/blog/9-applications-of-ai-systems-in-the-aerospace-industry/, 2025-04-20-Sun.
+- ML meets aerospaces: challenges of certifying airborne AI, https://www.frontiersin.org/journals/aerospace-engineering/articles/10.3389/fpace.2024.1475139/full, 2025-04-20-Sun.
