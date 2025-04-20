@@ -178,3 +178,8 @@
 - Airbus 350, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family, 2024-10-12-Sat.
 - Airbus 380, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380, 2024-10-12-Sat.
 - Airport Job Roles, https://www.airport.kr/co_ko/841/subview.do, 2025-04-20-Sun.
+- Advanced Air Vehicles Program NASA, https://www.nasa.gov/directorates/armd/aavp/, 2025-04-20-Sun.
+- Next Generation Air Transportation System (NextGen) FAA, https://www.faa.gov/nextgen, 2025-04-20-Sun.
+- Aviation Cybersecurity ICAO, https://www.icao.int/aviationcybersecurity/Pages/default.aspx, 2025-04-20-Sun.
+- Artificial Intelligence Supporting European Aviation, https://www.eurocontrol.int/artificial-intelligence, 2025-04-20-Sun.
+- PRC Airport Operations Centres (APOC) Performance Study Supporting European Aviation, https://www.eurocontrol.int/publication/prc-apoc-study, 2025-04-20-Sun.
