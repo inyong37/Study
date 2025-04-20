@@ -65,6 +65,56 @@
 |A350|410|9700/17970|WIDE|
 |A380|-|-|WIDE|
 
+---
+
+# Airport
+
+## Airport Job Roles
+
+### Ramp Agent (Ground Crew)
+
+* Main Responsibilities: Loading/unloading baggage, fueling, towing aircraft
+* Automation Potential: Vision-guided robotic arms, AGV (Autonomous Ground Vehicles), collaborative robots
+
+### Air Traffic Controller (ATC)
+
+* Main Responsibilities: Decision support systems, NLP-based voice assistants
+* Automation Potential: Managing takeoffs, landings, and ground traffic
+
+### Pilot
+
+* Main Responsibilities: Auto-taxi, Auto-landing, Vision/Radar fusion
+* Automation Potential: 	Operating aircraft
+
+### Baggage Handler
+
+* Main Responsibilities: Computer vision + RFID + conveyor robotics
+* Automation Potential: Scanning, sorting, and transporting luggage
+
+### Maintenance Technician
+
+* Main Responsibilities: Inspecting and repairing aircraft
+* Automation Potential: Inspection drones, CV anomaly detection systems
+
+### Aircraft Cleaner
+
+* Main Responsibilities: Cleaning cabins and cockpits between flights
+* Automation Potential: Autonomous cleaning robots
+
+### Security Screening Agent
+
+* Main Responsibilities: Screening passengers and luggage
+* Automation Potential: CV-based X-ray analysis, anomaly detection AI
+
+### Gate Agent
+
+* Main Responsibilities: Checking boarding passes, assisting passengers
+* Automation Potential: Facial recognition, automated boarding systems
+
+### Shuttle Bus Driver / Passenger Guide
+
+* Main Responsibilities: Transporting passengers within the airport (e.g., from terminal to aircraft)
+* Automation Potential: Autonomous shuttle systems, vision-based localization
 
 ---
 
@@ -85,3 +135,4 @@
 - Aribus 330, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family, 2024-10-12-Sat.
 - Airbus 350, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family, 2024-10-12-Sat.
 - Airbus 380, https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380, 2024-10-12-Sat.
+- Airport Job Roles, https://www.airport.kr/co_ko/841/subview.do, 2025-04-20-Sun.
