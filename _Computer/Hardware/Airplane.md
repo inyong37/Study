@@ -186,3 +186,5 @@
 - Eye on Autonomy Boeing, https://www.boeing.com/content/dam/boeing/boeingdotcom/features/innovation-quarterly/2022/10/IQ2022_Q4_autonomy_MIT_100522a.pdf, 2025-04-20-Sun.
 - 9 Applications of AI Systems in the Aerospace Industry, https://www.maxaix.com/blog/9-applications-of-ai-systems-in-the-aerospace-industry/, 2025-04-20-Sun.
 - ML meets aerospaces: challenges of certifying airborne AI, https://www.frontiersin.org/journals/aerospace-engineering/articles/10.3389/fpace.2024.1475139/full, 2025-04-20-Sun.
+- [2019] Vision-guided Planning and Control for Autonomous Taxiing via Convolutional Neural Networks (Aviation) , https://arc.aiaa.org/doi/10.2514/6.2019-0928, 2025-04-29-Tue.
+- [2023] Developing a computer vision based system for autonomous taxiing of aircraft (Aviation), https://journals.vilniustech.lt/index.php/Aviation/article/view/20588, 2025-04-29-Tue.
