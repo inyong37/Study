@@ -19,6 +19,14 @@
 
 Caffe, CNTK, MXNet, Chainer, OpenVINO, ONNX
 
+|Term|Time|Purpose|Feature|e.g.,|
+|:--:|:--:|:------|:------|:----|
+|Train(ing)|Training|Update Weights' of Model|optimizer, loss, backpropagation|공부|
+|Validation|Training|Evaluation Model (for tuning)|No update, early stopping|모의고사|
+|Test|After Training|Final Evaluation (Fair Validation)|unseen data|수능|
+|Inference|Deployed or Eval|-|No update, real-env|대학가서 지식 쓰기|
+|Predict(ion)|Function Call|Return Predicted Results(API/Method)|Real inference|대답하기 행위|
+
 ---
 
 # :hammer_and_wrench: Frameworks and Libraries :books:
