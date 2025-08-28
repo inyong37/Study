@@ -214,6 +214,18 @@
   * ERP & supply chain management platforms
   * Predictive demand planning using analytics/ML
 
+6. Challenges in Aerospace Supply Chain:
+* Long lead times (12–24 months for specialty alloys)
+* Supply chain disruptions (geopolitical risks, pandemics)
+* Regulatory burden (FAA, EASA, DoD compliance)
+* Sustainability pressures (carbon footprint, recycling of composites)
+
+7. Future Trends:
+* Additive manufacturing of certified aerospace parts
+* Blockchain for traceability
+* AI/ML for predictive maintenance and supply planning
+* Increased digital twin integration into supply/logistics systems
+
 ---
 
 ### Reference
