@@ -160,6 +160,62 @@
 
 ---
 
+### Aerospace Supply Chain Overview (BDSi Centric)
+
+1. Raw Material Suppliers:
+* Types of materials
+  * Aluminum, titanium, composites, steel, fasteners
+  * Specialty alloys for high-temperature and high-strength applications
+* Key players
+  * Mining & smelting companies (Alcoa, Rio Tinto, Allegheny)
+  * Composite manufacturers (Hexcel, Toray)
+* Processing
+  * Rolled sheets, forgings, castings, pre-pregs
+  * Certification: AS9100, ISO9001, ITAR compliance
+
+2. Tiered Supplier System:
+* Tier 3: Raw material converters > sheets, billets, resins
+* Tier 2: Component fabricators > machined parts, standard hardware
+* Tier 1: System integrators > avionics, landing gear, engines
+* OEM: Boeing, Airbus; distribution intermediaries like BDSi
+
+3. Role of Boeing Distribution Services Inc. (BDSi):
+* Scope
+  * Distributor of over 1M SKUs (fasteners, consumables, chemicals, tools, raw material kits)
+  * Supplier partnerships and inventory pooling
+* Functions
+  * Global warehousing & logistics
+  * Just-in-time delivery, kitting, vendor-managed inventory
+  * Digital platforms for order tracking and demand forecasting
+* Customer base
+  * Airlines, MRO (maintenance/repair/overhaul), defense contractors, OEM assembly lines
+
+4. Quality and Testing:
+* Material-level testing
+  * Non-destructive testing (NDT): ultrasonic, X-ray, eddy current
+  * Mechanical testing: tensile, fatigue, fracture toughness
+  * Chemical analysis: spectroscopy, alloy composition verification
+* Process certification
+  * NADCAP accreditation (heat treating, chemical processing, welding, coatings)
+  * First Article Inspection (FAI) per AS9102
+* Incoming inspection at BDSi
+  * Lot traceability
+  * Certificate of Conformance (CoC)
+  * Shelf-life control for chemicals/sealants
+
+5. Logistics & Distribution:
+* Warehousing
+  * Regional hubs (North America, EMEA, APAC)
+  * Temperature- and humidity-controlled storage
+* Transportation
+  * Ground, air freight, specialized packaging for hazardous materials
+  * Customs & export control compliance (ITAR, EAR)
+* Digital integration
+  * ERP & supply chain management platforms
+  * Predictive demand planning using analytics/ML
+
+---
+
 ### Reference
 - Boeing History, https://www.boeing.com/history, 2024-09-12-Sat.
 - What is Gross Weight DHL, https://dhl-freight-connections.com/en/logistics-dictionary/gross-weight/, 2024-10-12-Sat.
@@ -188,3 +244,7 @@
 - ML meets aerospaces: challenges of certifying airborne AI, https://www.frontiersin.org/journals/aerospace-engineering/articles/10.3389/fpace.2024.1475139/full, 2025-04-20-Sun.
 - [2019] Vision-guided Planning and Control for Autonomous Taxiing via Convolutional Neural Networks (Aviation) , https://arc.aiaa.org/doi/10.2514/6.2019-0928, 2025-04-29-Tue.
 - [2023] Developing a computer vision based system for autonomous taxiing of aircraft (Aviation), https://journals.vilniustech.lt/index.php/Aviation/article/view/20588, 2025-04-29-Tue.
+- Aviall Name Phasing Out As Boeing Further Integrates Distribution Services, https://aviationweek.com/mro/aviall-name-phasing-out-boeing-further-integrates-distribution-services, 2025-08-28-Thu.
+- Boeing Distribution Services, https://www.boeingdistribution.com/aero/about-us/, 2025-08-28-Thu.
+- Supply Chain Solutions Guide, https://services.boeing.com/bgsmedias/sys_master/root/h40/h40/8908806193182/Supply-Chain-Solutions-Guide-02-24.pdf, 2025-08-28-Thu.
+- Parts and Services Optimization Portfolio Oversion, https://www.boeingdistribution.com/content/docs/pdfs/BDSI-Line-Card-Mar-2023.pdf, 2025-08-28-Thu.
