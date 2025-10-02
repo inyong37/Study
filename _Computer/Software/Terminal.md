@@ -21,9 +21,13 @@ Bash is the GNU Project's shell-the Bourne Again SHell. This is an sh-compatible
 
 Bash는 Bourne shell을 대체하는 free software로서 GNU project를 위해 Brian Fox가 작성한 Unix shell이다. Bash는 1989년 발표되어 GNU OS와 Linux, mac os X 그리고 Dawin 등 OS의 기본 shell로 탑재되어 광범위하게 배포되었다. Bash는 또한 DJGPP와 노벨 넷웨어에 의해 DOS로 이식되었고 Cygwin과 MinGW의 배포로 Microsoft Windows로 이식되었다.
 
+[Oh My Bash](https://github.com/ohmybash/oh-my-bash) is an open source, community-driven framework for managing bash configuration.
+
 ### _[Zsh](https://www.zsh.org/)_ | [Zsh Web Pages](https://zsh.sourceforge.io/) | [Blog (KR)](http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89)
 
 Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh; many original features were added.
+
+[Oh My Zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing Zsh configuration.
 
 zsh-autosuggetions [Blog (KR)](https://yeonfamily.tistory.com/15)
 
@@ -59,6 +63,8 @@ doskey:
 PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS.
 
 PowerShell was designed to extend the capabilities of the Command shell to run PowerShell commands called cmdlets. Cmdlets are similar to Windows Commands but provide a more extensible scripting language. You can run both Windows Commands and PowerShell cmdlets in PowerShell, but the Command shell can only run Windows Commands and not PowerShell cmdlets.
+
+[Oh My Posh](https://ohmyposh.dev/), the most customizable and fastest prompt engine for any shell.
 
 ### A. _Commands_
 
@@ -224,3 +230,6 @@ less is a terminal pager program on Unix, Windows, and Unix-like systems used to
 - macOS Shell Blog KR, http://www.gnujava.com/board/article_view.jsp?article_no=2352&menu_cd=131&idx_notice=NOTICE_FLAG+DESC%2C&board_no=89, 2022-12-16-Fri.
 - macOS Shell auto-suggestions Blog KR, https://yeonfamily.tistory.com/15, 2022-12-16-Fri.
 - Bash, https://www.gnu.org/software/bash/, 2024-01-03-Wed.
+- Oh My Bash, https://github.com/ohmybash/oh-my-bash, 2025-10-02-Thu.
+- Oh My Zsh, https://ohmyz.sh/, 2025-10-02-Thu.
+- Oh My Posh, https://ohmyposh.dev/, 2025-10-02-Thu.
