@@ -233,3 +233,4 @@ MVP is the simplest version of a product that you need to build to sell it to a 
 - MVP Atlassian, https://www.atlassian.com/agile/product-management/minimum-viable-product, 2025-01-09-Thu.
 - Software Requirements Specifications IEEE, https://www.computer.org/resources/software-requirements-specifications, 2025-02-12-Wed.
 - Software Requirements Specification Wiki, https://en.wikipedia.org/wiki/Software_requirements_specification, 2025-02-12-Wed.
+- Cookiecutter Data Science GitHub Structure, https://github.com/drivendataorg/cookiecutter-data-science#the-resulting-directory-structure, 2026-05-09-Sun.
