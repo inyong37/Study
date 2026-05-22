@@ -111,7 +111,10 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Menlo
 
 ### Application
-- Spectacle, AltTab, Karabiner, Snap
+- Spectacle
+- AltTab
+- Karabiner-Elements (16.0.0) > Simple Modifications > For all devices > `right_command` -> `f18`
+- Snap
 - iTerm2, Homebrew
 
 ---
