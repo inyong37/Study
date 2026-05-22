@@ -111,11 +111,22 @@ Some keys on some Apple keyboards have special symbols and functions, such as fo
 - Menlo
 
 ### Application
-- Spectacle
-- AltTab
-- Karabiner-Elements (16.0.0) > Simple Modifications > For all devices > `right_command` -> `f18`
-- Snap
-- iTerm2, Homebrew
+- Spectacle (1.2)
+  - Center: `option` + `c`
+  - Fullscreen: `option` + `arrow_up`
+  - Left Half: `option` + `arrow_left`
+  - Right Half: `option` + `arrow_right`
+  - Upper Left: `option` + `[`
+  - Lower Left: `option` + `,`
+  - Upper Right: `option` + `]`
+  - Lower Right: `option` + `.`
+- AltTab (6.64.0)
+- Karabiner-Elements (16.0.0)
+  - Simple Modifications > For all devices > `right_command` -> `f18`
+- Snap (1.5)
+  - ON & ON & `option`
+- iTerm2 (3.4.15)
+- Homebrew (3.6.19)
 
 ---
 
